@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_v2
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,12 +10,18 @@ export interface DataLinodeDatabasePostgresqlV2Config extends cdktf.TerraformMet
   /**
   * The id of the PostgreSQL Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_v2#id DataLinodeDatabasePostgresqlV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#id DataLinodeDatabasePostgresqlV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+  /**
+  * Configuration settings for automated patch update maintenance for the Managed Database.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#updates DataLinodeDatabasePostgresqlV2#updates}
+  */
+  readonly updates?: DataLinodeDatabasePostgresqlV2Updates;
 }
 export interface DataLinodeDatabasePostgresqlV2PendingUpdates {
 }
@@ -167,30 +173,85 @@ export class DataLinodeDatabasePostgresqlV2PrivateNetworkOutputReference extends
   }
 }
 export interface DataLinodeDatabasePostgresqlV2Updates {
+  /**
+  * The numeric reference for the day of the week to perform maintenance. 1 is Monday, 2 is Tuesday, through to 7 which is Sunday.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#day_of_week DataLinodeDatabasePostgresqlV2#day_of_week}
+  */
+  readonly dayOfWeek?: number;
+  /**
+  * The maximum maintenance window time in hours.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#duration DataLinodeDatabasePostgresqlV2#duration}
+  */
+  readonly duration?: number;
+  /**
+  * How frequently maintenance occurs. Currently can only be weekly.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#frequency DataLinodeDatabasePostgresqlV2#frequency}
+  */
+  readonly frequency?: string;
+  /**
+  * How frequently maintenance occurs. Currently can only be weekly.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#hour_of_day DataLinodeDatabasePostgresqlV2#hour_of_day}
+  */
+  readonly hourOfDay?: number;
 }
 
-export function dataLinodeDatabasePostgresqlV2UpdatesToTerraform(struct?: DataLinodeDatabasePostgresqlV2Updates): any {
+export function dataLinodeDatabasePostgresqlV2UpdatesToTerraform(struct?: DataLinodeDatabasePostgresqlV2Updates | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    day_of_week: cdktf.numberToTerraform(struct!.dayOfWeek),
+    duration: cdktf.numberToTerraform(struct!.duration),
+    frequency: cdktf.stringToTerraform(struct!.frequency),
+    hour_of_day: cdktf.numberToTerraform(struct!.hourOfDay),
   }
 }
 
 
-export function dataLinodeDatabasePostgresqlV2UpdatesToHclTerraform(struct?: DataLinodeDatabasePostgresqlV2Updates): any {
+export function dataLinodeDatabasePostgresqlV2UpdatesToHclTerraform(struct?: DataLinodeDatabasePostgresqlV2Updates | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    day_of_week: {
+      value: cdktf.numberToHclTerraform(struct!.dayOfWeek),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    frequency: {
+      value: cdktf.stringToHclTerraform(struct!.frequency),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hour_of_day: {
+      value: cdktf.numberToHclTerraform(struct!.hourOfDay),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataLinodeDatabasePostgresqlV2UpdatesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -200,44 +261,121 @@ export class DataLinodeDatabasePostgresqlV2UpdatesOutputReference extends cdktf.
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataLinodeDatabasePostgresqlV2Updates | undefined {
+  public get internalValue(): DataLinodeDatabasePostgresqlV2Updates | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._dayOfWeek !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dayOfWeek = this._dayOfWeek;
+    }
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._frequency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.frequency = this._frequency;
+    }
+    if (this._hourOfDay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hourOfDay = this._hourOfDay;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeDatabasePostgresqlV2Updates | undefined) {
+  public set internalValue(value: DataLinodeDatabasePostgresqlV2Updates | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._dayOfWeek = undefined;
+      this._duration = undefined;
+      this._frequency = undefined;
+      this._hourOfDay = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._dayOfWeek = value.dayOfWeek;
+      this._duration = value.duration;
+      this._frequency = value.frequency;
+      this._hourOfDay = value.hourOfDay;
     }
   }
 
-  // day_of_week - computed: true, optional: false, required: false
+  // day_of_week - computed: true, optional: true, required: false
+  private _dayOfWeek?: number; 
   public get dayOfWeek() {
     return this.getNumberAttribute('day_of_week');
   }
+  public set dayOfWeek(value: number) {
+    this._dayOfWeek = value;
+  }
+  public resetDayOfWeek() {
+    this._dayOfWeek = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dayOfWeekInput() {
+    return this._dayOfWeek;
+  }
 
-  // duration - computed: true, optional: false, required: false
+  // duration - computed: true, optional: true, required: false
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
 
-  // frequency - computed: true, optional: false, required: false
+  // frequency - computed: true, optional: true, required: false
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
+  public set frequency(value: string) {
+    this._frequency = value;
+  }
+  public resetFrequency() {
+    this._frequency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get frequencyInput() {
+    return this._frequency;
+  }
 
-  // hour_of_day - computed: true, optional: false, required: false
+  // hour_of_day - computed: true, optional: true, required: false
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
+  }
+  public set hourOfDay(value: number) {
+    this._hourOfDay = value;
+  }
+  public resetHourOfDay() {
+    this._hourOfDay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hourOfDayInput() {
+    return this._hourOfDay;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_v2 linode_database_postgresql_v2}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2 linode_database_postgresql_v2}
 */
 export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
 
@@ -253,7 +391,7 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabasePostgresqlV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabasePostgresqlV2 to import
-  * @param importFromId The id of the existing DataLinodeDatabasePostgresqlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabasePostgresqlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabasePostgresqlV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +403,7 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_v2 linode_database_postgresql_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_v2 linode_database_postgresql_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +414,8 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_postgresql_v2',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -288,6 +426,7 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._updates.internalValue = config.updates;
   }
 
   // ==========
@@ -675,10 +814,20 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
     return this.getStringAttribute('updated');
   }
 
-  // updates - computed: true, optional: false, required: false
+  // updates - computed: true, optional: true, required: false
   private _updates = new DataLinodeDatabasePostgresqlV2UpdatesOutputReference(this, "updates");
   public get updates() {
     return this._updates;
+  }
+  public putUpdates(value: DataLinodeDatabasePostgresqlV2Updates) {
+    this._updates.internalValue = value;
+  }
+  public resetUpdates() {
+    this._updates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updatesInput() {
+    return this._updates.internalValue;
   }
 
   // version - computed: true, optional: false, required: false
@@ -693,6 +842,7 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      updates: dataLinodeDatabasePostgresqlV2UpdatesToTerraform(this._updates.internalValue),
     };
   }
 
@@ -703,6 +853,12 @@ export class DataLinodeDatabasePostgresqlV2 extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      updates: {
+        value: dataLinodeDatabasePostgresqlV2UpdatesToHclTerraform(this._updates.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DataLinodeDatabasePostgresqlV2Updates",
       },
     };
 

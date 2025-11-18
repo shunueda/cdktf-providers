@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface ExoscaleProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#delay ExoscaleProvider#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#delay ExoscaleProvider#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#environment ExoscaleProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#environment ExoscaleProvider#environment}
   */
   readonly environment?: string;
   /**
   * Exoscale API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#key ExoscaleProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#key ExoscaleProvider#key}
   */
   readonly key?: string;
   /**
   * Exoscale API secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#secret ExoscaleProvider#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#secret ExoscaleProvider#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#sos_endpoint ExoscaleProvider#sos_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#sos_endpoint ExoscaleProvider#sos_endpoint}
   */
   readonly sosEndpoint?: string;
   /**
   * Timeout in seconds for waiting on compute resources to become available (by default: 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#timeout ExoscaleProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#timeout ExoscaleProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#alias ExoscaleProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#alias ExoscaleProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs exoscale}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs exoscale}
 */
 export class ExoscaleProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class ExoscaleProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ExoscaleProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExoscaleProvider to import
-  * @param importFromId The id of the existing ExoscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExoscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExoscaleProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ExoscaleProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs exoscale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs exoscale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ExoscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'exoscale',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       terraformProviderSource: 'exoscale/exoscale'
     });

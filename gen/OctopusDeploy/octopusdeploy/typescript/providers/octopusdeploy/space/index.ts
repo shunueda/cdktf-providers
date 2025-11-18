@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SpaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#description Space#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#description Space#description}
   */
   readonly description?: string;
   /**
   * Specifies if this space is the default space in Octopus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#is_default Space#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#is_default Space#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Specifies the status of the task queue for this space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#is_task_queue_stopped Space#is_task_queue_stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#is_task_queue_stopped Space#is_task_queue_stopped}
   */
   readonly isTaskQueueStopped?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#name Space#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#name Space#name}
   */
   readonly name: string;
   /**
   * The unique slug of this space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#slug Space#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#slug Space#slug}
   */
   readonly slug?: string;
   /**
   * A list of user IDs designated to be managers of this space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#space_managers_team_members Space#space_managers_team_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#space_managers_team_members Space#space_managers_team_members}
   */
   readonly spaceManagersTeamMembers?: string[];
   /**
   * A list of team IDs designated to be managers of this space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#space_managers_teams Space#space_managers_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#space_managers_teams Space#space_managers_teams}
   */
   readonly spaceManagersTeams?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space octopusdeploy_space}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space octopusdeploy_space}
 */
 export class Space extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Space extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Space resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Space to import
-  * @param importFromId The id of the existing Space that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Space that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Space to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Space extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/space octopusdeploy_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/space octopusdeploy_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Space extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_space',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

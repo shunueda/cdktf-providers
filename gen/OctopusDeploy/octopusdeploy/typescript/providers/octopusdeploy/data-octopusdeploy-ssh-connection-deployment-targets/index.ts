@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DataOctopusdeploySshConnectionDeploymentTargetsConfig extends c
   /**
   * A filter to search by deployment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#deployment_id DataOctopusdeploySshConnectionDeploymentTargets#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#deployment_id DataOctopusdeploySshConnectionDeploymentTargets#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * A filter to search by a list of environment IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#environments DataOctopusdeploySshConnectionDeploymentTargets#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#environments DataOctopusdeploySshConnectionDeploymentTargets#environments}
   */
   readonly environments?: string[];
   /**
   * A filter to search by a list of health statuses of resources. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#health_statuses DataOctopusdeploySshConnectionDeploymentTargets#health_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#health_statuses DataOctopusdeploySshConnectionDeploymentTargets#health_statuses}
   */
   readonly healthStatuses?: string[];
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#ids DataOctopusdeploySshConnectionDeploymentTargets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#ids DataOctopusdeploySshConnectionDeploymentTargets#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by the disabled status of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#is_disabled DataOctopusdeploySshConnectionDeploymentTargets#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#is_disabled DataOctopusdeploySshConnectionDeploymentTargets#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#name DataOctopusdeploySshConnectionDeploymentTargets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#name DataOctopusdeploySshConnectionDeploymentTargets#name}
   */
   readonly name?: string;
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#partial_name DataOctopusdeploySshConnectionDeploymentTargets#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#partial_name DataOctopusdeploySshConnectionDeploymentTargets#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to search by a list of role IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#roles DataOctopusdeploySshConnectionDeploymentTargets#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#roles DataOctopusdeploySshConnectionDeploymentTargets#roles}
   */
   readonly roles?: string[];
   /**
   * A list of shell names to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#shell_names DataOctopusdeploySshConnectionDeploymentTargets#shell_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#shell_names DataOctopusdeploySshConnectionDeploymentTargets#shell_names}
   */
   readonly shellNames?: string[];
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#skip DataOctopusdeploySshConnectionDeploymentTargets#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#skip DataOctopusdeploySshConnectionDeploymentTargets#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#space_id DataOctopusdeploySshConnectionDeploymentTargets#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#space_id DataOctopusdeploySshConnectionDeploymentTargets#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#take DataOctopusdeploySshConnectionDeploymentTargets#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#take DataOctopusdeploySshConnectionDeploymentTargets#take}
   */
   readonly take?: number;
   /**
   * A filter to search by a list of tenant tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#tenant_tags DataOctopusdeploySshConnectionDeploymentTargets#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#tenant_tags DataOctopusdeploySshConnectionDeploymentTargets#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A filter to search by a list of tenant IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#tenants DataOctopusdeploySshConnectionDeploymentTargets#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#tenants DataOctopusdeploySshConnectionDeploymentTargets#tenants}
   */
   readonly tenants?: string[];
   /**
   * The thumbprint of the deployment target to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#thumbprint DataOctopusdeploySshConnectionDeploymentTargets#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#thumbprint DataOctopusdeploySshConnectionDeploymentTargets#thumbprint}
   */
   readonly thumbprint?: string;
 }
@@ -1005,7 +1005,7 @@ export class DataOctopusdeploySshConnectionDeploymentTargetsSshConnectionDeploym
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets octopusdeploy_ssh_connection_deployment_targets}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets octopusdeploy_ssh_connection_deployment_targets}
 */
 export class DataOctopusdeploySshConnectionDeploymentTargets extends cdktf.TerraformDataSource {
 
@@ -1021,7 +1021,7 @@ export class DataOctopusdeploySshConnectionDeploymentTargets extends cdktf.Terra
   * Generates CDKTF code for importing a DataOctopusdeploySshConnectionDeploymentTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeploySshConnectionDeploymentTargets to import
-  * @param importFromId The id of the existing DataOctopusdeploySshConnectionDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeploySshConnectionDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeploySshConnectionDeploymentTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1033,7 +1033,7 @@ export class DataOctopusdeploySshConnectionDeploymentTargets extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/ssh_connection_deployment_targets octopusdeploy_ssh_connection_deployment_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/ssh_connection_deployment_targets octopusdeploy_ssh_connection_deployment_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1044,8 +1044,8 @@ export class DataOctopusdeploySshConnectionDeploymentTargets extends cdktf.Terra
       terraformResourceType: 'octopusdeploy_ssh_connection_deployment_targets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

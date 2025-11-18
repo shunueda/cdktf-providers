@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,234 @@ export interface DataLinodeNetworkingIpsConfig extends cdktf.TerraformMetaArgume
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#order DataLinodeNetworkingIps#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#order DataLinodeNetworkingIps#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#order_by DataLinodeNetworkingIps#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#order_by DataLinodeNetworkingIps#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#filter DataLinodeNetworkingIps#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#filter DataLinodeNetworkingIps#filter}
   */
   readonly filter?: DataLinodeNetworkingIpsFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeNetworkingIpsIpAddressesVpcNat11 {
+}
+
+export function dataLinodeNetworkingIpsIpAddressesVpcNat11ToTerraform(struct?: DataLinodeNetworkingIpsIpAddressesVpcNat11): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeNetworkingIpsIpAddressesVpcNat11ToHclTerraform(struct?: DataLinodeNetworkingIpsIpAddressesVpcNat11): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeNetworkingIpsIpAddressesVpcNat11OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * ip_addresses block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#ip_addresses DataLinodeNetworkingIps#ip_addresses}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  readonly ipAddresses?: DataLinodeNetworkingIpsIpAddresses[] | cdktf.IResolvable;
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataLinodeNetworkingIpsIpAddressesVpcNat11 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeNetworkingIpsIpAddressesVpcNat11 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // address - computed: true, optional: false, required: false
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+
+  // subnet_id - computed: true, optional: false, required: false
+  public get subnetId() {
+    return this.getNumberAttribute('subnet_id');
+  }
+
+  // vpc_id - computed: true, optional: false, required: false
+  public get vpcId() {
+    return this.getNumberAttribute('vpc_id');
+  }
+}
+export interface DataLinodeNetworkingIpsIpAddresses {
+}
+
+export function dataLinodeNetworkingIpsIpAddressesToTerraform(struct?: DataLinodeNetworkingIpsIpAddresses): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeNetworkingIpsIpAddressesToHclTerraform(struct?: DataLinodeNetworkingIpsIpAddresses): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeNetworkingIpsIpAddressesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeNetworkingIpsIpAddresses | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeNetworkingIpsIpAddresses | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // address - computed: true, optional: false, required: false
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+
+  // gateway - computed: true, optional: false, required: false
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+
+  // interface_id - computed: true, optional: false, required: false
+  public get interfaceId() {
+    return this.getNumberAttribute('interface_id');
+  }
+
+  // linode_id - computed: true, optional: false, required: false
+  public get linodeId() {
+    return this.getNumberAttribute('linode_id');
+  }
+
+  // prefix - computed: true, optional: false, required: false
+  public get prefix() {
+    return this.getNumberAttribute('prefix');
+  }
+
+  // public - computed: true, optional: false, required: false
+  public get public() {
+    return this.getBooleanAttribute('public');
+  }
+
+  // rdns - computed: true, optional: false, required: false
+  public get rdns() {
+    return this.getStringAttribute('rdns');
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // reserved - computed: true, optional: false, required: false
+  public get reserved() {
+    return this.getBooleanAttribute('reserved');
+  }
+
+  // subnet_mask - computed: true, optional: false, required: false
+  public get subnetMask() {
+    return this.getStringAttribute('subnet_mask');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // vpc_nat_1_1 - computed: true, optional: false, required: false
+  private _vpcNat11 = new DataLinodeNetworkingIpsIpAddressesVpcNat11OutputReference(this, "vpc_nat_1_1");
+  public get vpcNat11() {
+    return this._vpcNat11;
+  }
+}
+
+export class DataLinodeNetworkingIpsIpAddressesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeNetworkingIpsIpAddressesOutputReference {
+    return new DataLinodeNetworkingIpsIpAddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeNetworkingIpsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#match_by DataLinodeNetworkingIps#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#match_by DataLinodeNetworkingIps#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#name DataLinodeNetworkingIps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#name DataLinodeNetworkingIps#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#values DataLinodeNetworkingIps#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#values DataLinodeNetworkingIps#values}
   */
   readonly values: string[];
 }
@@ -214,215 +403,9 @@ export class DataLinodeNetworkingIpsFilterList extends cdktf.ComplexList {
     return new DataLinodeNetworkingIpsFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeNetworkingIpsIpAddressesVpcNat11 {
-}
-
-export function dataLinodeNetworkingIpsIpAddressesVpcNat11ToTerraform(struct?: DataLinodeNetworkingIpsIpAddressesVpcNat11): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeNetworkingIpsIpAddressesVpcNat11ToHclTerraform(struct?: DataLinodeNetworkingIpsIpAddressesVpcNat11): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeNetworkingIpsIpAddressesVpcNat11OutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataLinodeNetworkingIpsIpAddressesVpcNat11 | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeNetworkingIpsIpAddressesVpcNat11 | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // address - computed: true, optional: false, required: false
-  public get address() {
-    return this.getStringAttribute('address');
-  }
-
-  // subnet_id - computed: true, optional: false, required: false
-  public get subnetId() {
-    return this.getNumberAttribute('subnet_id');
-  }
-
-  // vpc_id - computed: true, optional: false, required: false
-  public get vpcId() {
-    return this.getNumberAttribute('vpc_id');
-  }
-}
-export interface DataLinodeNetworkingIpsIpAddresses {
-}
-
-export function dataLinodeNetworkingIpsIpAddressesToTerraform(struct?: DataLinodeNetworkingIpsIpAddresses | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeNetworkingIpsIpAddressesToHclTerraform(struct?: DataLinodeNetworkingIpsIpAddresses | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeNetworkingIpsIpAddressesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeNetworkingIpsIpAddresses | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeNetworkingIpsIpAddresses | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-    }
-  }
-
-  // address - computed: true, optional: false, required: false
-  public get address() {
-    return this.getStringAttribute('address');
-  }
-
-  // gateway - computed: true, optional: false, required: false
-  public get gateway() {
-    return this.getStringAttribute('gateway');
-  }
-
-  // interface_id - computed: true, optional: false, required: false
-  public get interfaceId() {
-    return this.getNumberAttribute('interface_id');
-  }
-
-  // linode_id - computed: true, optional: false, required: false
-  public get linodeId() {
-    return this.getNumberAttribute('linode_id');
-  }
-
-  // prefix - computed: true, optional: false, required: false
-  public get prefix() {
-    return this.getNumberAttribute('prefix');
-  }
-
-  // public - computed: true, optional: false, required: false
-  public get public() {
-    return this.getBooleanAttribute('public');
-  }
-
-  // rdns - computed: true, optional: false, required: false
-  public get rdns() {
-    return this.getStringAttribute('rdns');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // reserved - computed: true, optional: false, required: false
-  public get reserved() {
-    return this.getBooleanAttribute('reserved');
-  }
-
-  // subnet_mask - computed: true, optional: false, required: false
-  public get subnetMask() {
-    return this.getStringAttribute('subnet_mask');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // vpc_nat_1_1 - computed: true, optional: false, required: false
-  private _vpcNat11 = new DataLinodeNetworkingIpsIpAddressesVpcNat11OutputReference(this, "vpc_nat_1_1");
-  public get vpcNat11() {
-    return this._vpcNat11;
-  }
-}
-
-export class DataLinodeNetworkingIpsIpAddressesList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeNetworkingIpsIpAddresses[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeNetworkingIpsIpAddressesOutputReference {
-    return new DataLinodeNetworkingIpsIpAddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips linode_networking_ips}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips linode_networking_ips}
 */
 export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
 
@@ -438,7 +421,7 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNetworkingIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNetworkingIps to import
-  * @param importFromId The id of the existing DataLinodeNetworkingIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNetworkingIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNetworkingIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +433,7 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips linode_networking_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/networking_ips linode_networking_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +444,8 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_networking_ips',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -475,7 +458,6 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
     this._order = config.order;
     this._orderBy = config.orderBy;
     this._filter.internalValue = config.filter;
-    this._ipAddresses.internalValue = config.ipAddresses;
   }
 
   // ==========
@@ -485,6 +467,12 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ip_addresses - computed: true, optional: false, required: false
+  private _ipAddresses = new DataLinodeNetworkingIpsIpAddressesList(this, "ip_addresses", false);
+  public get ipAddresses() {
+    return this._ipAddresses;
   }
 
   // order - computed: false, optional: true, required: false
@@ -535,22 +523,6 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // ip_addresses - computed: false, optional: true, required: false
-  private _ipAddresses = new DataLinodeNetworkingIpsIpAddressesList(this, "ip_addresses", false);
-  public get ipAddresses() {
-    return this._ipAddresses;
-  }
-  public putIpAddresses(value: DataLinodeNetworkingIpsIpAddresses[] | cdktf.IResolvable) {
-    this._ipAddresses.internalValue = value;
-  }
-  public resetIpAddresses() {
-    this._ipAddresses.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipAddressesInput() {
-    return this._ipAddresses.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -560,7 +532,6 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
       filter: cdktf.listMapper(dataLinodeNetworkingIpsFilterToTerraform, true)(this._filter.internalValue),
-      ip_addresses: cdktf.listMapper(dataLinodeNetworkingIpsIpAddressesToTerraform, true)(this._ipAddresses.internalValue),
     };
   }
 
@@ -583,12 +554,6 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeNetworkingIpsFilterList",
-      },
-      ip_addresses: {
-        value: cdktf.listMapperHcl(dataLinodeNetworkingIpsIpAddressesToHclTerraform, true)(this._ipAddresses.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeNetworkingIpsIpAddressesList",
       },
     };
 

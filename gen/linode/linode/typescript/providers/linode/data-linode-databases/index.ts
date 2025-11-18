@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,19 @@ export interface DataLinodeDatabasesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#order DataLinodeDatabases#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#order DataLinodeDatabases#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#order_by DataLinodeDatabases#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#order_by DataLinodeDatabases#order_by}
   */
   readonly orderBy?: string;
   /**
-  * databases block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#databases DataLinodeDatabases#databases}
-  */
-  readonly databases?: DataLinodeDatabasesDatabases[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#filter DataLinodeDatabases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#filter DataLinodeDatabases#filter}
   */
   readonly filter?: DataLinodeDatabasesFilter[] | cdktf.IResolvable;
 }
@@ -99,7 +93,7 @@ export class DataLinodeDatabasesDatabasesPrivateNetworkOutputReference extends c
 export interface DataLinodeDatabasesDatabases {
 }
 
-export function dataLinodeDatabasesDatabasesToTerraform(struct?: DataLinodeDatabasesDatabases | cdktf.IResolvable): any {
+export function dataLinodeDatabasesDatabasesToTerraform(struct?: DataLinodeDatabasesDatabases): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -109,7 +103,7 @@ export function dataLinodeDatabasesDatabasesToTerraform(struct?: DataLinodeDatab
 }
 
 
-export function dataLinodeDatabasesDatabasesToHclTerraform(struct?: DataLinodeDatabasesDatabases | cdktf.IResolvable): any {
+export function dataLinodeDatabasesDatabasesToHclTerraform(struct?: DataLinodeDatabasesDatabases): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -121,7 +115,6 @@ export function dataLinodeDatabasesDatabasesToHclTerraform(struct?: DataLinodeDa
 
 export class DataLinodeDatabasesDatabasesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -133,27 +126,18 @@ export class DataLinodeDatabasesDatabasesOutputReference extends cdktf.ComplexOb
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeDatabasesDatabases | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeDatabasesDatabases | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeDatabasesDatabases | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeDatabasesDatabases | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -250,7 +234,6 @@ export class DataLinodeDatabasesDatabasesOutputReference extends cdktf.ComplexOb
 }
 
 export class DataLinodeDatabasesDatabasesList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeDatabasesDatabases[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -272,19 +255,19 @@ export interface DataLinodeDatabasesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#match_by DataLinodeDatabases#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#match_by DataLinodeDatabases#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#name DataLinodeDatabases#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#name DataLinodeDatabases#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#values DataLinodeDatabases#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#values DataLinodeDatabases#values}
   */
   readonly values: string[];
 }
@@ -452,7 +435,7 @@ export class DataLinodeDatabasesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases linode_databases}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases linode_databases}
 */
 export class DataLinodeDatabases extends cdktf.TerraformDataSource {
 
@@ -468,7 +451,7 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabases to import
-  * @param importFromId The id of the existing DataLinodeDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +463,7 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/databases linode_databases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/databases linode_databases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,8 +474,8 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_databases',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -504,13 +487,18 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
     });
     this._order = config.order;
     this._orderBy = config.orderBy;
-    this._databases.internalValue = config.databases;
     this._filter.internalValue = config.filter;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // databases - computed: true, optional: false, required: false
+  private _databases = new DataLinodeDatabasesDatabasesList(this, "databases", false);
+  public get databases() {
+    return this._databases;
+  }
 
   // id - computed: true, optional: false, required: false
   public get id() {
@@ -549,22 +537,6 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
-  // databases - computed: false, optional: true, required: false
-  private _databases = new DataLinodeDatabasesDatabasesList(this, "databases", false);
-  public get databases() {
-    return this._databases;
-  }
-  public putDatabases(value: DataLinodeDatabasesDatabases[] | cdktf.IResolvable) {
-    this._databases.internalValue = value;
-  }
-  public resetDatabases() {
-    this._databases.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get databasesInput() {
-    return this._databases.internalValue;
-  }
-
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeDatabasesFilterList(this, "filter", true);
   public get filter() {
@@ -589,7 +561,6 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
     return {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
-      databases: cdktf.listMapper(dataLinodeDatabasesDatabasesToTerraform, true)(this._databases.internalValue),
       filter: cdktf.listMapper(dataLinodeDatabasesFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -607,12 +578,6 @@ export class DataLinodeDatabases extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      databases: {
-        value: cdktf.listMapperHcl(dataLinodeDatabasesDatabasesToHclTerraform, true)(this._databases.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeDatabasesDatabasesList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeDatabasesFilterToHclTerraform, true)(this._filter.internalValue),

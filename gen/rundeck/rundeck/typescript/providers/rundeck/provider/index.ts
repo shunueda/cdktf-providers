@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs
+// https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RundeckProviderConfig {
   /**
   * API Version of the target Rundeck server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#api_version RundeckProvider#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#api_version RundeckProvider#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Password used to request a token for the Rundeck API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#auth_password RundeckProvider#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#auth_password RundeckProvider#auth_password}
   */
   readonly authPassword?: string;
   /**
   * Auth token to use with the Rundeck API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#auth_token RundeckProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#auth_token RundeckProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * Username used to request a token for the Rundeck API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#auth_username RundeckProvider#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#auth_username RundeckProvider#auth_username}
   */
   readonly authUsername?: string;
   /**
   * URL of the root of the target Rundeck server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#url RundeckProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#url RundeckProvider#url}
   */
   readonly url: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#alias RundeckProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#alias RundeckProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs rundeck}
+* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs rundeck}
 */
 export class RundeckProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class RundeckProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RundeckProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RundeckProvider to import
-  * @param importFromId The id of the existing RundeckProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RundeckProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RundeckProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class RundeckProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs rundeck} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs rundeck} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class RundeckProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rundeck',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.5',
+        providerVersionConstraint: '0.5.5'
       },
       terraformProviderSource: 'rundeck/rundeck'
     });

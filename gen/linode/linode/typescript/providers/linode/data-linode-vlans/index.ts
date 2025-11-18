@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,129 @@ export interface DataLinodeVlansConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#order DataLinodeVlans#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#order DataLinodeVlans#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#order_by DataLinodeVlans#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#order_by DataLinodeVlans#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#filter DataLinodeVlans#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#filter DataLinodeVlans#filter}
   */
   readonly filter?: DataLinodeVlansFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeVlansVlans {
+}
+
+export function dataLinodeVlansVlansToTerraform(struct?: DataLinodeVlansVlans): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeVlansVlansToHclTerraform(struct?: DataLinodeVlansVlans): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeVlansVlansOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * vlans block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#vlans DataLinodeVlans#vlans}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  readonly vlans?: DataLinodeVlansVlans[] | cdktf.IResolvable;
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeVlansVlans | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeVlansVlans | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // created - computed: true, optional: false, required: false
+  public get created() {
+    return this.getStringAttribute('created');
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // linodes - computed: true, optional: false, required: false
+  public get linodes() {
+    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('linodes')));
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+}
+
+export class DataLinodeVlansVlansList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeVlansVlansOutputReference {
+    return new DataLinodeVlansVlansOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeVlansFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#match_by DataLinodeVlans#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#match_by DataLinodeVlans#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#name DataLinodeVlans#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#name DataLinodeVlans#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#values DataLinodeVlans#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#values DataLinodeVlans#values}
   */
   readonly values: string[];
 }
@@ -214,110 +298,9 @@ export class DataLinodeVlansFilterList extends cdktf.ComplexList {
     return new DataLinodeVlansFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeVlansVlans {
-}
-
-export function dataLinodeVlansVlansToTerraform(struct?: DataLinodeVlansVlans | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeVlansVlansToHclTerraform(struct?: DataLinodeVlansVlans | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeVlansVlansOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeVlansVlans | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeVlansVlans | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // label - computed: true, optional: false, required: false
-  public get label() {
-    return this.getStringAttribute('label');
-  }
-
-  // linodes - computed: true, optional: false, required: false
-  public get linodes() {
-    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('linodes')));
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-}
-
-export class DataLinodeVlansVlansList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeVlansVlans[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeVlansVlansOutputReference {
-    return new DataLinodeVlansVlansOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans linode_vlans}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans linode_vlans}
 */
 export class DataLinodeVlans extends cdktf.TerraformDataSource {
 
@@ -333,7 +316,7 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVlans to import
-  * @param importFromId The id of the existing DataLinodeVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +328,7 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans linode_vlans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vlans linode_vlans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +339,8 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_vlans',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -370,7 +353,6 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
     this._order = config.order;
     this._orderBy = config.orderBy;
     this._filter.internalValue = config.filter;
-    this._vlans.internalValue = config.vlans;
   }
 
   // ==========
@@ -414,6 +396,12 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
+  // vlans - computed: true, optional: false, required: false
+  private _vlans = new DataLinodeVlansVlansList(this, "vlans", false);
+  public get vlans() {
+    return this._vlans;
+  }
+
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeVlansFilterList(this, "filter", true);
   public get filter() {
@@ -430,22 +418,6 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // vlans - computed: false, optional: true, required: false
-  private _vlans = new DataLinodeVlansVlansList(this, "vlans", false);
-  public get vlans() {
-    return this._vlans;
-  }
-  public putVlans(value: DataLinodeVlansVlans[] | cdktf.IResolvable) {
-    this._vlans.internalValue = value;
-  }
-  public resetVlans() {
-    this._vlans.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vlansInput() {
-    return this._vlans.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -455,7 +427,6 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
       filter: cdktf.listMapper(dataLinodeVlansFilterToTerraform, true)(this._filter.internalValue),
-      vlans: cdktf.listMapper(dataLinodeVlansVlansToTerraform, true)(this._vlans.internalValue),
     };
   }
 
@@ -478,12 +449,6 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeVlansFilterList",
-      },
-      vlans: {
-        value: cdktf.listMapperHcl(dataLinodeVlansVlansToHclTerraform, true)(this._vlans.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeVlansVlansList",
       },
     };
 

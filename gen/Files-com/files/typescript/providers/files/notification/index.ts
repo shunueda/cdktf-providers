@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification
+// https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of Group to receive notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#group_id Notification#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#group_id Notification#group_id}
   */
   readonly groupId?: number;
   /**
   * Custom message to include in notification emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#message Notification#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#message Notification#message}
   */
   readonly message?: string;
   /**
   * Trigger on files copied to this path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_on_copy Notification#notify_on_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_on_copy Notification#notify_on_copy}
   */
   readonly notifyOnCopy?: boolean | cdktf.IResolvable;
   /**
   * Trigger on files deleted in this path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_on_delete Notification#notify_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_on_delete Notification#notify_on_delete}
   */
   readonly notifyOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Trigger on files downloaded in this path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_on_download Notification#notify_on_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_on_download Notification#notify_on_download}
   */
   readonly notifyOnDownload?: boolean | cdktf.IResolvable;
   /**
   * Trigger on files moved to this path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_on_move Notification#notify_on_move}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_on_move Notification#notify_on_move}
   */
   readonly notifyOnMove?: boolean | cdktf.IResolvable;
   /**
   * Trigger on files created/uploaded/updated/changed in this path?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_on_upload Notification#notify_on_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_on_upload Notification#notify_on_upload}
   */
   readonly notifyOnUpload?: boolean | cdktf.IResolvable;
   /**
   * If true, will send notifications about a user's own activity to that user.  If false, only activity performed by other users (or anonymous users) will be sent in notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#notify_user_actions Notification#notify_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#notify_user_actions Notification#notify_user_actions}
   */
   readonly notifyUserActions?: boolean | cdktf.IResolvable;
   /**
   * Folder path to notify on. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#path Notification#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#path Notification#path}
   */
   readonly path?: string;
   /**
   * Apply notification recursively?  This will enable notifications for each subfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#recursive Notification#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#recursive Notification#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
   * The time interval that notifications are aggregated to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#send_interval Notification#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#send_interval Notification#send_interval}
   */
   readonly sendInterval?: string;
   /**
   * Notify when actions are performed by a share recipient?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#trigger_by_share_recipients Notification#trigger_by_share_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#trigger_by_share_recipients Notification#trigger_by_share_recipients}
   */
   readonly triggerByShareRecipients?: boolean | cdktf.IResolvable;
   /**
   * Array of filenames (possibly with wildcards) to scope trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#triggering_filenames Notification#triggering_filenames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#triggering_filenames Notification#triggering_filenames}
   */
   readonly triggeringFilenames?: string[];
   /**
   * If set, will only notify on actions made by a member of one of the specified groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#triggering_group_ids Notification#triggering_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#triggering_group_ids Notification#triggering_group_ids}
   */
   readonly triggeringGroupIds?: number[];
   /**
   * If set, will only notify on actions made one of the specified users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#triggering_user_ids Notification#triggering_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#triggering_user_ids Notification#triggering_user_ids}
   */
   readonly triggeringUserIds?: number[];
   /**
   * Notification user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#user_id Notification#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#user_id Notification#user_id}
   */
   readonly userId?: number;
   /**
   * Notification username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#username Notification#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#username Notification#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification files_notification}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification files_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/notification files_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/notification files_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'files_notification',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.379',
-        providerVersionConstraint: '0.1.379'
+        providerVersion: '0.1.383',
+        providerVersionConstraint: '0.1.383'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

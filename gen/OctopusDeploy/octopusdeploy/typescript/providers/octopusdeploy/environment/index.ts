@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#allow_dynamic_infrastructure Environment#allow_dynamic_infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#allow_dynamic_infrastructure Environment#allow_dynamic_infrastructure}
   */
   readonly allowDynamicInfrastructure?: boolean | cdktf.IResolvable;
   /**
   * The description of this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
+  * A list of environment tags associated with this resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#environment_tags Environment#environment_tags}
+  */
+  readonly environmentTags?: string[];
+  /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * The unique slug of this environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#slug Environment#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#slug Environment#slug}
   */
   readonly slug?: string;
   /**
   * The order number to sort an environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#sort_order Environment#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#sort_order Environment#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * The space ID associated with this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#space_id Environment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#space_id Environment#space_id}
   */
   readonly spaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#use_guided_failure Environment#use_guided_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#use_guided_failure Environment#use_guided_failure}
   */
   readonly useGuidedFailure?: boolean | cdktf.IResolvable;
   /**
   * jira_extension_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#jira_extension_settings Environment#jira_extension_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#jira_extension_settings Environment#jira_extension_settings}
   */
   readonly jiraExtensionSettings?: EnvironmentJiraExtensionSettings[] | cdktf.IResolvable;
   /**
   * jira_service_management_extension_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#jira_service_management_extension_settings Environment#jira_service_management_extension_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#jira_service_management_extension_settings Environment#jira_service_management_extension_settings}
   */
   readonly jiraServiceManagementExtensionSettings?: EnvironmentJiraServiceManagementExtensionSettings[] | cdktf.IResolvable;
   /**
   * servicenow_extension_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#servicenow_extension_settings Environment#servicenow_extension_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#servicenow_extension_settings Environment#servicenow_extension_settings}
   */
   readonly servicenowExtensionSettings?: EnvironmentServicenowExtensionSettings[] | cdktf.IResolvable;
 }
@@ -68,7 +74,7 @@ export interface EnvironmentJiraExtensionSettings {
   /**
   * The Jira environment type of this Octopus deployment environment. Valid values are `"development"`, `"production"`, `"staging"`, `"testing"`, `"unmapped"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#environment_type Environment#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#environment_type Environment#environment_type}
   */
   readonly environmentType?: string;
 }
@@ -186,7 +192,7 @@ export interface EnvironmentJiraServiceManagementExtensionSettings {
   /**
   * Specifies whether or not this extension is enabled for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#is_enabled Environment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#is_enabled Environment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -304,7 +310,7 @@ export interface EnvironmentServicenowExtensionSettings {
   /**
   * Specifies whether or not this extension is enabled for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#is_enabled Environment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#is_enabled Environment#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -420,7 +426,7 @@ export class EnvironmentServicenowExtensionSettingsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment octopusdeploy_environment}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment octopusdeploy_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -436,7 +442,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +454,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/environment octopusdeploy_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/environment octopusdeploy_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +465,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_environment',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -472,6 +478,7 @@ export class Environment extends cdktf.TerraformResource {
     });
     this._allowDynamicInfrastructure = config.allowDynamicInfrastructure;
     this._description = config.description;
+    this._environmentTags = config.environmentTags;
     this._name = config.name;
     this._slug = config.slug;
     this._sortOrder = config.sortOrder;
@@ -516,6 +523,22 @@ export class Environment extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // environment_tags - computed: true, optional: true, required: false
+  private _environmentTags?: string[]; 
+  public get environmentTags() {
+    return cdktf.Fn.tolist(this.getListAttribute('environment_tags'));
+  }
+  public set environmentTags(value: string[]) {
+    this._environmentTags = value;
+  }
+  public resetEnvironmentTags() {
+    this._environmentTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentTagsInput() {
+    return this._environmentTags;
   }
 
   // id - computed: true, optional: false, required: false
@@ -656,6 +679,7 @@ export class Environment extends cdktf.TerraformResource {
     return {
       allow_dynamic_infrastructure: cdktf.booleanToTerraform(this._allowDynamicInfrastructure),
       description: cdktf.stringToTerraform(this._description),
+      environment_tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._environmentTags),
       name: cdktf.stringToTerraform(this._name),
       slug: cdktf.stringToTerraform(this._slug),
       sort_order: cdktf.numberToTerraform(this._sortOrder),
@@ -680,6 +704,12 @@ export class Environment extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      environment_tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._environmentTags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),

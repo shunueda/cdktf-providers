@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "latitudesh": "2.8.2"
+    "latitudesh": "2.8.3"
   }
 }

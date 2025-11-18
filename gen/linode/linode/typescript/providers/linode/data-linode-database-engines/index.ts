@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,32 @@ export interface DataLinodeDatabaseEnginesConfig extends cdktf.TerraformMetaArgu
   /**
   * If true, only the latest engine version will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#latest DataLinodeDatabaseEngines#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#latest DataLinodeDatabaseEngines#latest}
   */
   readonly latest?: boolean | cdktf.IResolvable;
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#order DataLinodeDatabaseEngines#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#order DataLinodeDatabaseEngines#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#order_by DataLinodeDatabaseEngines#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#order_by DataLinodeDatabaseEngines#order_by}
   */
   readonly orderBy?: string;
   /**
-  * engines block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#engines DataLinodeDatabaseEngines#engines}
-  */
-  readonly engines?: DataLinodeDatabaseEnginesEngines[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#filter DataLinodeDatabaseEngines#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#filter DataLinodeDatabaseEngines#filter}
   */
   readonly filter?: DataLinodeDatabaseEnginesFilter[] | cdktf.IResolvable;
 }
 export interface DataLinodeDatabaseEnginesEngines {
 }
 
-export function dataLinodeDatabaseEnginesEnginesToTerraform(struct?: DataLinodeDatabaseEnginesEngines | cdktf.IResolvable): any {
+export function dataLinodeDatabaseEnginesEnginesToTerraform(struct?: DataLinodeDatabaseEnginesEngines): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -51,7 +45,7 @@ export function dataLinodeDatabaseEnginesEnginesToTerraform(struct?: DataLinodeD
 }
 
 
-export function dataLinodeDatabaseEnginesEnginesToHclTerraform(struct?: DataLinodeDatabaseEnginesEngines | cdktf.IResolvable): any {
+export function dataLinodeDatabaseEnginesEnginesToHclTerraform(struct?: DataLinodeDatabaseEnginesEngines): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -63,7 +57,6 @@ export function dataLinodeDatabaseEnginesEnginesToHclTerraform(struct?: DataLino
 
 export class DataLinodeDatabaseEnginesEnginesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -75,27 +68,18 @@ export class DataLinodeDatabaseEnginesEnginesOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeDatabaseEnginesEngines | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeDatabaseEnginesEngines | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeDatabaseEnginesEngines | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeDatabaseEnginesEngines | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -116,7 +100,6 @@ export class DataLinodeDatabaseEnginesEnginesOutputReference extends cdktf.Compl
 }
 
 export class DataLinodeDatabaseEnginesEnginesList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeDatabaseEnginesEngines[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -138,19 +121,19 @@ export interface DataLinodeDatabaseEnginesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#match_by DataLinodeDatabaseEngines#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#match_by DataLinodeDatabaseEngines#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#name DataLinodeDatabaseEngines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#name DataLinodeDatabaseEngines#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#values DataLinodeDatabaseEngines#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#values DataLinodeDatabaseEngines#values}
   */
   readonly values: string[];
 }
@@ -318,7 +301,7 @@ export class DataLinodeDatabaseEnginesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines linode_database_engines}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines linode_database_engines}
 */
 export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
 
@@ -334,7 +317,7 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabaseEngines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabaseEngines to import
-  * @param importFromId The id of the existing DataLinodeDatabaseEngines that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabaseEngines that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabaseEngines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +329,7 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_engines linode_database_engines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_engines linode_database_engines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +340,8 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_engines',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -371,13 +354,18 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
     this._latest = config.latest;
     this._order = config.order;
     this._orderBy = config.orderBy;
-    this._engines.internalValue = config.engines;
     this._filter.internalValue = config.filter;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // engines - computed: true, optional: false, required: false
+  private _engines = new DataLinodeDatabaseEnginesEnginesList(this, "engines", false);
+  public get engines() {
+    return this._engines;
+  }
 
   // id - computed: true, optional: false, required: false
   public get id() {
@@ -432,22 +420,6 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
-  // engines - computed: false, optional: true, required: false
-  private _engines = new DataLinodeDatabaseEnginesEnginesList(this, "engines", false);
-  public get engines() {
-    return this._engines;
-  }
-  public putEngines(value: DataLinodeDatabaseEnginesEngines[] | cdktf.IResolvable) {
-    this._engines.internalValue = value;
-  }
-  public resetEngines() {
-    this._engines.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enginesInput() {
-    return this._engines.internalValue;
-  }
-
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeDatabaseEnginesFilterList(this, "filter", true);
   public get filter() {
@@ -473,7 +445,6 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
       latest: cdktf.booleanToTerraform(this._latest),
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
-      engines: cdktf.listMapper(dataLinodeDatabaseEnginesEnginesToTerraform, true)(this._engines.internalValue),
       filter: cdktf.listMapper(dataLinodeDatabaseEnginesFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -497,12 +468,6 @@ export class DataLinodeDatabaseEngines extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      engines: {
-        value: cdktf.listMapperHcl(dataLinodeDatabaseEnginesEnginesToHclTerraform, true)(this._engines.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeDatabaseEnginesEnginesList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeDatabaseEnginesFilterToHclTerraform, true)(this._filter.internalValue),

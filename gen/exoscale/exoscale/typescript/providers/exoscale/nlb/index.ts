@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NlbConfig extends cdktf.TerraformMetaArguments {
   /**
   * A free-form text describing the NLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#description Nlb#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#description Nlb#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#id Nlb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#id Nlb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface NlbConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#labels Nlb#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#labels Nlb#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The network load balancer (NLB) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#name Nlb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#name Nlb#name}
   */
   readonly name: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#zone Nlb#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#zone Nlb#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#timeouts Nlb#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#timeouts Nlb#timeouts}
   */
   readonly timeouts?: NlbTimeouts;
 }
 export interface NlbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#create Nlb#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#create Nlb#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#delete Nlb#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#delete Nlb#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#read Nlb#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#read Nlb#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#update Nlb#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#update Nlb#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class NlbTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb exoscale_nlb}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb exoscale_nlb}
 */
 export class Nlb extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class Nlb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nlb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nlb to import
-  * @param importFromId The id of the existing Nlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nlb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class Nlb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb exoscale_nlb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/nlb exoscale_nlb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +279,8 @@ export class Nlb extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_nlb',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface DataExoscaleSksClusterListConfig extends cdktf.TerraformMetaArg
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#aggregation_ca DataExoscaleSksClusterList#aggregation_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#aggregation_ca DataExoscaleSksClusterList#aggregation_ca}
   */
   readonly aggregationCa?: string;
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#auto_upgrade DataExoscaleSksClusterList#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#auto_upgrade DataExoscaleSksClusterList#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#cni DataExoscaleSksClusterList#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#cni DataExoscaleSksClusterList#cni}
   */
   readonly cni?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#control_plane_ca DataExoscaleSksClusterList#control_plane_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#control_plane_ca DataExoscaleSksClusterList#control_plane_ca}
   */
   readonly controlPlaneCa?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#created_at DataExoscaleSksClusterList#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#created_at DataExoscaleSksClusterList#created_at}
   */
   readonly createdAt?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#description DataExoscaleSksClusterList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#description DataExoscaleSksClusterList#description}
   */
   readonly description?: string;
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#enable_karpenter DataExoscaleSksClusterList#enable_karpenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#enable_karpenter DataExoscaleSksClusterList#enable_karpenter}
   */
   readonly enableKarpenter?: boolean | cdktf.IResolvable;
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#enable_kube_proxy DataExoscaleSksClusterList#enable_kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#enable_kube_proxy DataExoscaleSksClusterList#enable_kube_proxy}
   */
   readonly enableKubeProxy?: boolean | cdktf.IResolvable;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#endpoint DataExoscaleSksClusterList#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#endpoint DataExoscaleSksClusterList#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#exoscale_ccm DataExoscaleSksClusterList#exoscale_ccm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#exoscale_ccm DataExoscaleSksClusterList#exoscale_ccm}
   */
   readonly exoscaleCcm?: boolean | cdktf.IResolvable;
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#exoscale_csi DataExoscaleSksClusterList#exoscale_csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#exoscale_csi DataExoscaleSksClusterList#exoscale_csi}
   */
   readonly exoscaleCsi?: boolean | cdktf.IResolvable;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#id DataExoscaleSksClusterList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#id DataExoscaleSksClusterList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,49 +85,49 @@ export interface DataExoscaleSksClusterListConfig extends cdktf.TerraformMetaArg
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#kubelet_ca DataExoscaleSksClusterList#kubelet_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#kubelet_ca DataExoscaleSksClusterList#kubelet_ca}
   */
   readonly kubeletCa?: string;
   /**
   * Match against key/values. Keys are matched exactly, while values may be matched as a regex if you supply a string that begins and ends with "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#labels DataExoscaleSksClusterList#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#labels DataExoscaleSksClusterList#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Match against this bool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#metrics_server DataExoscaleSksClusterList#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#metrics_server DataExoscaleSksClusterList#metrics_server}
   */
   readonly metricsServer?: boolean | cdktf.IResolvable;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#name DataExoscaleSksClusterList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#name DataExoscaleSksClusterList#name}
   */
   readonly name?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#service_level DataExoscaleSksClusterList#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#service_level DataExoscaleSksClusterList#service_level}
   */
   readonly serviceLevel?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#state DataExoscaleSksClusterList#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#state DataExoscaleSksClusterList#state}
   */
   readonly state?: string;
   /**
   * Match against this string. If you supply a string that begins and ends with a "/" it will be matched as a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#version DataExoscaleSksClusterList#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#version DataExoscaleSksClusterList#version}
   */
   readonly version?: string;
   /**
   * The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#zone DataExoscaleSksClusterList#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#zone DataExoscaleSksClusterList#zone}
   */
   readonly zone: string;
 }
@@ -527,7 +527,7 @@ export class DataExoscaleSksClusterListClustersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list exoscale_sks_cluster_list}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list exoscale_sks_cluster_list}
 */
 export class DataExoscaleSksClusterList extends cdktf.TerraformDataSource {
 
@@ -543,7 +543,7 @@ export class DataExoscaleSksClusterList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleSksClusterList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleSksClusterList to import
-  * @param importFromId The id of the existing DataExoscaleSksClusterList that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleSksClusterList that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleSksClusterList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -555,7 +555,7 @@ export class DataExoscaleSksClusterList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster_list exoscale_sks_cluster_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster_list exoscale_sks_cluster_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -566,8 +566,8 @@ export class DataExoscaleSksClusterList extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_sks_cluster_list',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

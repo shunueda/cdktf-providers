@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface LifecycleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this lifecycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#description Lifecycle#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#description Lifecycle#description}
   */
   readonly description?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#name Lifecycle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#name Lifecycle#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#space_id Lifecycle#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#space_id Lifecycle#space_id}
   */
   readonly spaceId?: string;
   /**
   * phase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#phase Lifecycle#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#phase Lifecycle#phase}
   */
   readonly phase?: LifecyclePhase[] | cdktf.IResolvable;
   /**
   * release_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#release_retention_policy Lifecycle#release_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#release_retention_policy Lifecycle#release_retention_policy}
   */
   readonly releaseRetentionPolicy?: LifecycleReleaseRetentionPolicy[] | cdktf.IResolvable;
   /**
   * release_retention_with_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#release_retention_with_strategy Lifecycle#release_retention_with_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#release_retention_with_strategy Lifecycle#release_retention_with_strategy}
   */
   readonly releaseRetentionWithStrategy?: LifecycleReleaseRetentionWithStrategy[] | cdktf.IResolvable;
   /**
   * tentacle_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#tentacle_retention_policy Lifecycle#tentacle_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#tentacle_retention_policy Lifecycle#tentacle_retention_policy}
   */
   readonly tentacleRetentionPolicy?: LifecycleTentacleRetentionPolicy[] | cdktf.IResolvable;
   /**
   * tentacle_retention_with_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#tentacle_retention_with_strategy Lifecycle#tentacle_retention_with_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#tentacle_retention_with_strategy Lifecycle#tentacle_retention_with_strategy}
   */
   readonly tentacleRetentionWithStrategy?: LifecycleTentacleRetentionWithStrategy[] | cdktf.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface LifecyclePhaseReleaseRetentionPolicy {
   /**
   * The number of days/releases to keep. The default value is 30. If 0 then all are kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
   /**
   * The unit of quantity to keep. Valid units are Days or Items. The default value is Days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -248,7 +248,7 @@ export interface LifecyclePhaseReleaseRetentionWithStrategy {
   /**
   * The number of days/releases to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
@@ -257,13 +257,13 @@ export interface LifecyclePhaseReleaseRetentionWithStrategy {
   *   - `strategy = "Forever"`, is used if items within this lifecycle should never be deleted.
   *   - `strategy = "Count"`, is used if a specific number of days/releases should be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
   */
   readonly strategy: string;
   /**
   * The unit of quantity to keep. Valid units are Days or Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -436,19 +436,19 @@ export interface LifecyclePhaseTentacleRetentionPolicy {
   /**
   * The number of days/releases to keep. The default value is 30. If 0 then all are kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
   /**
   * The unit of quantity to keep. Valid units are Days or Items. The default value is Days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -624,7 +624,7 @@ export interface LifecyclePhaseTentacleRetentionWithStrategy {
   /**
   * The number of days/releases to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
@@ -633,13 +633,13 @@ export interface LifecyclePhaseTentacleRetentionWithStrategy {
   *   - `strategy = "Forever"`, is used if items within this lifecycle should never be deleted.
   *   - `strategy = "Count"`, is used if a specific number of days/releases should be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
   */
   readonly strategy: string;
   /**
   * The unit of quantity to keep. Valid units are Days or Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -812,13 +812,13 @@ export interface LifecyclePhase {
   /**
   * Environment IDs in this phase that a release is automatically deployed to when it is eligible for this phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#automatic_deployment_targets Lifecycle#automatic_deployment_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#automatic_deployment_targets Lifecycle#automatic_deployment_targets}
   */
   readonly automaticDeploymentTargets?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#id Lifecycle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#id Lifecycle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -827,55 +827,55 @@ export interface LifecyclePhase {
   /**
   * If false a release must be deployed to this phase before it can be deployed to the next phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#is_optional_phase Lifecycle#is_optional_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#is_optional_phase Lifecycle#is_optional_phase}
   */
   readonly isOptionalPhase?: boolean | cdktf.IResolvable;
   /**
   * Deployments will be prioritized in this phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#is_priority_phase Lifecycle#is_priority_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#is_priority_phase Lifecycle#is_priority_phase}
   */
   readonly isPriorityPhase?: boolean | cdktf.IResolvable;
   /**
   * The number of units required before a release can enter the next phase. If 0, all environments are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#minimum_environments_before_promotion Lifecycle#minimum_environments_before_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#minimum_environments_before_promotion Lifecycle#minimum_environments_before_promotion}
   */
   readonly minimumEnvironmentsBeforePromotion?: number;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#name Lifecycle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#name Lifecycle#name}
   */
   readonly name: string;
   /**
   * Environment IDs in this phase that a release can be deployed to, but is not automatically deployed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#optional_deployment_targets Lifecycle#optional_deployment_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#optional_deployment_targets Lifecycle#optional_deployment_targets}
   */
   readonly optionalDeploymentTargets?: string[];
   /**
   * release_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#release_retention_policy Lifecycle#release_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#release_retention_policy Lifecycle#release_retention_policy}
   */
   readonly releaseRetentionPolicy?: LifecyclePhaseReleaseRetentionPolicy[] | cdktf.IResolvable;
   /**
   * release_retention_with_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#release_retention_with_strategy Lifecycle#release_retention_with_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#release_retention_with_strategy Lifecycle#release_retention_with_strategy}
   */
   readonly releaseRetentionWithStrategy?: LifecyclePhaseReleaseRetentionWithStrategy[] | cdktf.IResolvable;
   /**
   * tentacle_retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#tentacle_retention_policy Lifecycle#tentacle_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#tentacle_retention_policy Lifecycle#tentacle_retention_policy}
   */
   readonly tentacleRetentionPolicy?: LifecyclePhaseTentacleRetentionPolicy[] | cdktf.IResolvable;
   /**
   * tentacle_retention_with_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#tentacle_retention_with_strategy Lifecycle#tentacle_retention_with_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#tentacle_retention_with_strategy Lifecycle#tentacle_retention_with_strategy}
   */
   readonly tentacleRetentionWithStrategy?: LifecyclePhaseTentacleRetentionWithStrategy[] | cdktf.IResolvable;
 }
@@ -1280,19 +1280,19 @@ export interface LifecycleReleaseRetentionPolicy {
   /**
   * The number of days/releases to keep. The default value is 30. If 0 then all are kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
   /**
   * The unit of quantity to keep. Valid units are Days or Items. The default value is Days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -1468,7 +1468,7 @@ export interface LifecycleReleaseRetentionWithStrategy {
   /**
   * The number of days/releases to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
@@ -1477,13 +1477,13 @@ export interface LifecycleReleaseRetentionWithStrategy {
   *   - `strategy = "Forever"`, is used if items within this lifecycle should never be deleted.
   *   - `strategy = "Count"`, is used if a specific number of days/releases should be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
   */
   readonly strategy: string;
   /**
   * The unit of quantity to keep. Valid units are Days or Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -1656,19 +1656,19 @@ export interface LifecycleTentacleRetentionPolicy {
   /**
   * The number of days/releases to keep. The default value is 30. If 0 then all are kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#should_keep_forever Lifecycle#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
   /**
   * The unit of quantity to keep. Valid units are Days or Items. The default value is Days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -1844,7 +1844,7 @@ export interface LifecycleTentacleRetentionWithStrategy {
   /**
   * The number of days/releases to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#quantity_to_keep Lifecycle#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
@@ -1853,13 +1853,13 @@ export interface LifecycleTentacleRetentionWithStrategy {
   *   - `strategy = "Forever"`, is used if items within this lifecycle should never be deleted.
   *   - `strategy = "Count"`, is used if a specific number of days/releases should be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#strategy Lifecycle#strategy}
   */
   readonly strategy: string;
   /**
   * The unit of quantity to keep. Valid units are Days or Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#unit Lifecycle#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#unit Lifecycle#unit}
   */
   readonly unit?: string;
 }
@@ -2030,7 +2030,7 @@ export class LifecycleTentacleRetentionWithStrategyList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle octopusdeploy_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle octopusdeploy_lifecycle}
 */
 export class Lifecycle extends cdktf.TerraformResource {
 
@@ -2046,7 +2046,7 @@ export class Lifecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lifecycle to import
-  * @param importFromId The id of the existing Lifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2058,7 +2058,7 @@ export class Lifecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/lifecycle octopusdeploy_lifecycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/lifecycle octopusdeploy_lifecycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2069,8 +2069,8 @@ export class Lifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

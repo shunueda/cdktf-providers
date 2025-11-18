@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,265 @@ export interface DataLinodeVpcIpsConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, only IPv6 addresses will be returned by this data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#ipv6 DataLinodeVpcIps#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#ipv6 DataLinodeVpcIps#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VPC that the list of IP addresses is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#vpc_id DataLinodeVpcIps#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#vpc_id DataLinodeVpcIps#vpc_id}
   */
   readonly vpcId?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#filter DataLinodeVpcIps#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#filter DataLinodeVpcIps#filter}
   */
   readonly filter?: DataLinodeVpcIpsFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeVpcIpsVpcIpsIpv6Addresses {
+}
+
+export function dataLinodeVpcIpsVpcIpsIpv6AddressesToTerraform(struct?: DataLinodeVpcIpsVpcIpsIpv6Addresses): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeVpcIpsVpcIpsIpv6AddressesToHclTerraform(struct?: DataLinodeVpcIpsVpcIpsIpv6Addresses): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * vpc_ips block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#vpc_ips DataLinodeVpcIps#vpc_ips}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  readonly vpcIps?: DataLinodeVpcIpsVpcIps[] | cdktf.IResolvable;
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeVpcIpsVpcIpsIpv6Addresses | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeVpcIpsVpcIpsIpv6Addresses | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // slaac_address - computed: true, optional: false, required: false
+  public get slaacAddress() {
+    return this.getStringAttribute('slaac_address');
+  }
+}
+
+export class DataLinodeVpcIpsVpcIpsIpv6AddressesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference {
+    return new DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataLinodeVpcIpsVpcIps {
+}
+
+export function dataLinodeVpcIpsVpcIpsToTerraform(struct?: DataLinodeVpcIpsVpcIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeVpcIpsVpcIpsToHclTerraform(struct?: DataLinodeVpcIpsVpcIps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeVpcIpsVpcIpsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeVpcIpsVpcIps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeVpcIpsVpcIps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // active - computed: true, optional: false, required: false
+  public get active() {
+    return this.getBooleanAttribute('active');
+  }
+
+  // address - computed: true, optional: false, required: false
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+
+  // address_range - computed: true, optional: false, required: false
+  public get addressRange() {
+    return this.getStringAttribute('address_range');
+  }
+
+  // config_id - computed: true, optional: false, required: false
+  public get configId() {
+    return this.getNumberAttribute('config_id');
+  }
+
+  // gateway - computed: true, optional: false, required: false
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+
+  // interface_id - computed: true, optional: false, required: false
+  public get interfaceId() {
+    return this.getNumberAttribute('interface_id');
+  }
+
+  // ipv6_addresses - computed: true, optional: false, required: false
+  private _ipv6Addresses = new DataLinodeVpcIpsVpcIpsIpv6AddressesList(this, "ipv6_addresses", true);
+  public get ipv6Addresses() {
+    return this._ipv6Addresses;
+  }
+
+  // ipv6_is_public - computed: true, optional: false, required: false
+  public get ipv6IsPublic() {
+    return this.getBooleanAttribute('ipv6_is_public');
+  }
+
+  // ipv6_range - computed: true, optional: false, required: false
+  public get ipv6Range() {
+    return this.getStringAttribute('ipv6_range');
+  }
+
+  // linode_id - computed: true, optional: false, required: false
+  public get linodeId() {
+    return this.getNumberAttribute('linode_id');
+  }
+
+  // nat_1_1 - computed: true, optional: false, required: false
+  public get nat11() {
+    return this.getStringAttribute('nat_1_1');
+  }
+
+  // prefix - computed: true, optional: false, required: false
+  public get prefix() {
+    return this.getNumberAttribute('prefix');
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // subnet_id - computed: true, optional: false, required: false
+  public get subnetId() {
+    return this.getNumberAttribute('subnet_id');
+  }
+
+  // subnet_mask - computed: true, optional: false, required: false
+  public get subnetMask() {
+    return this.getStringAttribute('subnet_mask');
+  }
+
+  // vpc_id - computed: true, optional: false, required: false
+  public get vpcId() {
+    return this.getNumberAttribute('vpc_id');
+  }
+}
+
+export class DataLinodeVpcIpsVpcIpsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeVpcIpsVpcIpsOutputReference {
+    return new DataLinodeVpcIpsVpcIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeVpcIpsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#match_by DataLinodeVpcIps#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#match_by DataLinodeVpcIps#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#name DataLinodeVpcIps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#name DataLinodeVpcIps#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#values DataLinodeVpcIps#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#values DataLinodeVpcIps#values}
   */
   readonly values: string[];
 }
@@ -214,246 +434,9 @@ export class DataLinodeVpcIpsFilterList extends cdktf.ComplexList {
     return new DataLinodeVpcIpsFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeVpcIpsVpcIpsIpv6Addresses {
-}
-
-export function dataLinodeVpcIpsVpcIpsIpv6AddressesToTerraform(struct?: DataLinodeVpcIpsVpcIpsIpv6Addresses): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeVpcIpsVpcIpsIpv6AddressesToHclTerraform(struct?: DataLinodeVpcIpsVpcIpsIpv6Addresses): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeVpcIpsVpcIpsIpv6Addresses | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeVpcIpsVpcIpsIpv6Addresses | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // slaac_address - computed: true, optional: false, required: false
-  public get slaacAddress() {
-    return this.getStringAttribute('slaac_address');
-  }
-}
-
-export class DataLinodeVpcIpsVpcIpsIpv6AddressesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference {
-    return new DataLinodeVpcIpsVpcIpsIpv6AddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataLinodeVpcIpsVpcIps {
-}
-
-export function dataLinodeVpcIpsVpcIpsToTerraform(struct?: DataLinodeVpcIpsVpcIps | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeVpcIpsVpcIpsToHclTerraform(struct?: DataLinodeVpcIpsVpcIps | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeVpcIpsVpcIpsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeVpcIpsVpcIps | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeVpcIpsVpcIps | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-    }
-  }
-
-  // active - computed: true, optional: false, required: false
-  public get active() {
-    return this.getBooleanAttribute('active');
-  }
-
-  // address - computed: true, optional: false, required: false
-  public get address() {
-    return this.getStringAttribute('address');
-  }
-
-  // address_range - computed: true, optional: false, required: false
-  public get addressRange() {
-    return this.getStringAttribute('address_range');
-  }
-
-  // config_id - computed: true, optional: false, required: false
-  public get configId() {
-    return this.getNumberAttribute('config_id');
-  }
-
-  // gateway - computed: true, optional: false, required: false
-  public get gateway() {
-    return this.getStringAttribute('gateway');
-  }
-
-  // interface_id - computed: true, optional: false, required: false
-  public get interfaceId() {
-    return this.getNumberAttribute('interface_id');
-  }
-
-  // ipv6_addresses - computed: true, optional: false, required: false
-  private _ipv6Addresses = new DataLinodeVpcIpsVpcIpsIpv6AddressesList(this, "ipv6_addresses", true);
-  public get ipv6Addresses() {
-    return this._ipv6Addresses;
-  }
-
-  // ipv6_is_public - computed: true, optional: false, required: false
-  public get ipv6IsPublic() {
-    return this.getBooleanAttribute('ipv6_is_public');
-  }
-
-  // ipv6_range - computed: true, optional: false, required: false
-  public get ipv6Range() {
-    return this.getStringAttribute('ipv6_range');
-  }
-
-  // linode_id - computed: true, optional: false, required: false
-  public get linodeId() {
-    return this.getNumberAttribute('linode_id');
-  }
-
-  // nat_1_1 - computed: true, optional: false, required: false
-  public get nat11() {
-    return this.getStringAttribute('nat_1_1');
-  }
-
-  // prefix - computed: true, optional: false, required: false
-  public get prefix() {
-    return this.getNumberAttribute('prefix');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // subnet_id - computed: true, optional: false, required: false
-  public get subnetId() {
-    return this.getNumberAttribute('subnet_id');
-  }
-
-  // subnet_mask - computed: true, optional: false, required: false
-  public get subnetMask() {
-    return this.getStringAttribute('subnet_mask');
-  }
-
-  // vpc_id - computed: true, optional: false, required: false
-  public get vpcId() {
-    return this.getNumberAttribute('vpc_id');
-  }
-}
-
-export class DataLinodeVpcIpsVpcIpsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeVpcIpsVpcIps[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeVpcIpsVpcIpsOutputReference {
-    return new DataLinodeVpcIpsVpcIpsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips linode_vpc_ips}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips linode_vpc_ips}
 */
 export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
 
@@ -469,7 +452,7 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVpcIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVpcIps to import
-  * @param importFromId The id of the existing DataLinodeVpcIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVpcIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVpcIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +464,7 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_ips linode_vpc_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips linode_vpc_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +475,8 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_vpc_ips',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -506,7 +489,6 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
     this._ipv6 = config.ipv6;
     this._vpcId = config.vpcId;
     this._filter.internalValue = config.filter;
-    this._vpcIps.internalValue = config.vpcIps;
   }
 
   // ==========
@@ -550,6 +532,12 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
     return this._vpcId;
   }
 
+  // vpc_ips - computed: true, optional: false, required: false
+  private _vpcIps = new DataLinodeVpcIpsVpcIpsList(this, "vpc_ips", false);
+  public get vpcIps() {
+    return this._vpcIps;
+  }
+
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeVpcIpsFilterList(this, "filter", true);
   public get filter() {
@@ -566,22 +554,6 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // vpc_ips - computed: false, optional: true, required: false
-  private _vpcIps = new DataLinodeVpcIpsVpcIpsList(this, "vpc_ips", false);
-  public get vpcIps() {
-    return this._vpcIps;
-  }
-  public putVpcIps(value: DataLinodeVpcIpsVpcIps[] | cdktf.IResolvable) {
-    this._vpcIps.internalValue = value;
-  }
-  public resetVpcIps() {
-    this._vpcIps.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vpcIpsInput() {
-    return this._vpcIps.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -591,7 +563,6 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
       ipv6: cdktf.booleanToTerraform(this._ipv6),
       vpc_id: cdktf.numberToTerraform(this._vpcId),
       filter: cdktf.listMapper(dataLinodeVpcIpsFilterToTerraform, true)(this._filter.internalValue),
-      vpc_ips: cdktf.listMapper(dataLinodeVpcIpsVpcIpsToTerraform, true)(this._vpcIps.internalValue),
     };
   }
 
@@ -614,12 +585,6 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeVpcIpsFilterList",
-      },
-      vpc_ips: {
-        value: cdktf.listMapperHcl(dataLinodeVpcIpsVpcIpsToHclTerraform, true)(this._vpcIps.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeVpcIpsVpcIpsList",
       },
     };
 

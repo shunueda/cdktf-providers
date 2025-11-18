@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProjectScheduledTriggerConfig extends cdktf.TerraformMetaArgume
   /**
   * The channel ID to use when creating the release. Will use the default channel if left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#channel_id ProjectScheduledTrigger#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#channel_id ProjectScheduledTrigger#channel_id}
   */
   readonly channelId?: string;
   /**
   * A description of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#description ProjectScheduledTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#description ProjectScheduledTrigger#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#id ProjectScheduledTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#id ProjectScheduledTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface ProjectScheduledTriggerConfig extends cdktf.TerraformMetaArgume
   /**
   * Indicates whether the trigger is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#is_disabled ProjectScheduledTrigger#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#is_disabled ProjectScheduledTrigger#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#name ProjectScheduledTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#name ProjectScheduledTrigger#name}
   */
   readonly name: string;
   /**
   * The ID of the project to attach the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#project_id ProjectScheduledTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#project_id ProjectScheduledTrigger#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID where this trigger's project exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#space_id ProjectScheduledTrigger#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#space_id ProjectScheduledTrigger#space_id}
   */
   readonly spaceId: string;
   /**
   * The IDs of the tenants to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#tenant_ids ProjectScheduledTrigger#tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#tenant_ids ProjectScheduledTrigger#tenant_ids}
   */
   readonly tenantIds?: string[];
   /**
   * The timezone for the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#timezone ProjectScheduledTrigger#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#timezone ProjectScheduledTrigger#timezone}
   */
   readonly timezone?: string;
   /**
   * continuous_daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#continuous_daily_schedule ProjectScheduledTrigger#continuous_daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#continuous_daily_schedule ProjectScheduledTrigger#continuous_daily_schedule}
   */
   readonly continuousDailySchedule?: ProjectScheduledTriggerContinuousDailySchedule;
   /**
   * cron_expression_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#cron_expression_schedule ProjectScheduledTrigger#cron_expression_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#cron_expression_schedule ProjectScheduledTrigger#cron_expression_schedule}
   */
   readonly cronExpressionSchedule?: ProjectScheduledTriggerCronExpressionSchedule;
   /**
   * days_per_month_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#days_per_month_schedule ProjectScheduledTrigger#days_per_month_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#days_per_month_schedule ProjectScheduledTrigger#days_per_month_schedule}
   */
   readonly daysPerMonthSchedule?: ProjectScheduledTriggerDaysPerMonthSchedule;
   /**
   * deploy_latest_release_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#deploy_latest_release_action ProjectScheduledTrigger#deploy_latest_release_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#deploy_latest_release_action ProjectScheduledTrigger#deploy_latest_release_action}
   */
   readonly deployLatestReleaseAction?: ProjectScheduledTriggerDeployLatestReleaseAction;
   /**
   * deploy_new_release_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#deploy_new_release_action ProjectScheduledTrigger#deploy_new_release_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#deploy_new_release_action ProjectScheduledTrigger#deploy_new_release_action}
   */
   readonly deployNewReleaseAction?: ProjectScheduledTriggerDeployNewReleaseAction;
   /**
   * once_daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#once_daily_schedule ProjectScheduledTrigger#once_daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#once_daily_schedule ProjectScheduledTrigger#once_daily_schedule}
   */
   readonly onceDailySchedule?: ProjectScheduledTriggerOnceDailySchedule;
   /**
   * run_runbook_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#run_runbook_action ProjectScheduledTrigger#run_runbook_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#run_runbook_action ProjectScheduledTrigger#run_runbook_action}
   */
   readonly runRunbookAction?: ProjectScheduledTriggerRunRunbookAction;
 }
@@ -109,37 +109,37 @@ export interface ProjectScheduledTriggerContinuousDailySchedule {
   /**
   * The days of the week to run the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#days_of_week ProjectScheduledTrigger#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#days_of_week ProjectScheduledTrigger#days_of_week}
   */
   readonly daysOfWeek: string[];
   /**
   * How often to run the trigger in hours. Only used when the interval is set to 'OnceHourly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#hour_interval ProjectScheduledTrigger#hour_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#hour_interval ProjectScheduledTrigger#hour_interval}
   */
   readonly hourInterval?: number;
   /**
   * The interval in minutes to run the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#interval ProjectScheduledTrigger#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#interval ProjectScheduledTrigger#interval}
   */
   readonly interval: string;
   /**
   * How often to run the trigger in minutes. Only used when the interval is set to 'OnceEveryMinute'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#minute_interval ProjectScheduledTrigger#minute_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#minute_interval ProjectScheduledTrigger#minute_interval}
   */
   readonly minuteInterval?: number;
   /**
   * The time of day to start the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#run_after ProjectScheduledTrigger#run_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#run_after ProjectScheduledTrigger#run_after}
   */
   readonly runAfter: string;
   /**
   * The time of day to end the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#run_until ProjectScheduledTrigger#run_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#run_until ProjectScheduledTrigger#run_until}
   */
   readonly runUntil: string;
 }
@@ -358,7 +358,7 @@ export interface ProjectScheduledTriggerCronExpressionSchedule {
   /**
   * The cron expression for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#cron_expression ProjectScheduledTrigger#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#cron_expression ProjectScheduledTrigger#cron_expression}
   */
   readonly cronExpression: string;
 }
@@ -441,31 +441,31 @@ export interface ProjectScheduledTriggerDaysPerMonthSchedule {
   /**
   * Which date of the month to run the trigger. String number between 1 - 31 Incl. or L for the last day of the month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#date_of_month ProjectScheduledTrigger#date_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#date_of_month ProjectScheduledTrigger#date_of_month}
   */
   readonly dateOfMonth?: string;
   /**
   * Which ordinal day of the week to run the trigger on. String number between 1 - 4 Incl. or L for the last occurrence of day_of_week for the month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#day_number_of_month ProjectScheduledTrigger#day_number_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#day_number_of_month ProjectScheduledTrigger#day_number_of_month}
   */
   readonly dayNumberOfMonth?: string;
   /**
   * Which day of the week to run the trigger on. Required when monthly_schedule_type is set to 'DayOfMonth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#day_of_week ProjectScheduledTrigger#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#day_of_week ProjectScheduledTrigger#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * The type of monthly schedule to run the trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#monthly_schedule_type ProjectScheduledTrigger#monthly_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#monthly_schedule_type ProjectScheduledTrigger#monthly_schedule_type}
   */
   readonly monthlyScheduleType: string;
   /**
   * The time of day to start the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#start_time ProjectScheduledTrigger#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#start_time ProjectScheduledTrigger#start_time}
   */
   readonly startTime: string;
 }
@@ -661,19 +661,19 @@ export interface ProjectScheduledTriggerDeployLatestReleaseAction {
   /**
   * The environment ID to deploy the selected release to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#destination_environment_id ProjectScheduledTrigger#destination_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#destination_environment_id ProjectScheduledTrigger#destination_environment_id}
   */
   readonly destinationEnvironmentId: string;
   /**
   * Enable to re-deploy to the deployment targets even if they are already up-to-date with the current deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#should_redeploy ProjectScheduledTrigger#should_redeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#should_redeploy ProjectScheduledTrigger#should_redeploy}
   */
   readonly shouldRedeploy?: boolean | cdktf.IResolvable;
   /**
   * The environment ID to use when selecting the release to deploy from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#source_environment_id ProjectScheduledTrigger#source_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#source_environment_id ProjectScheduledTrigger#source_environment_id}
   */
   readonly sourceEnvironmentId: string;
 }
@@ -811,13 +811,13 @@ export interface ProjectScheduledTriggerDeployNewReleaseAction {
   /**
   * The environment ID to deploy the selected release to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#destination_environment_id ProjectScheduledTrigger#destination_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#destination_environment_id ProjectScheduledTrigger#destination_environment_id}
   */
   readonly destinationEnvironmentId: string;
   /**
   * The git reference to use when creating the release. Can be a branch, tag, or commit hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#git_reference ProjectScheduledTrigger#git_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#git_reference ProjectScheduledTrigger#git_reference}
   */
   readonly gitReference?: string;
 }
@@ -929,13 +929,13 @@ export interface ProjectScheduledTriggerOnceDailySchedule {
   /**
   * The days of the week to run the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#days_of_week ProjectScheduledTrigger#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#days_of_week ProjectScheduledTrigger#days_of_week}
   */
   readonly daysOfWeek: string[];
   /**
   * The time of day to start the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#start_time ProjectScheduledTrigger#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#start_time ProjectScheduledTrigger#start_time}
   */
   readonly startTime: string;
 }
@@ -1044,13 +1044,13 @@ export interface ProjectScheduledTriggerRunRunbookAction {
   /**
   * The ID of the runbook to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#runbook_id ProjectScheduledTrigger#runbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#runbook_id ProjectScheduledTrigger#runbook_id}
   */
   readonly runbookId: string;
   /**
   * The IDs of the environments to run the runbook in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#target_environment_ids ProjectScheduledTrigger#target_environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#target_environment_ids ProjectScheduledTrigger#target_environment_ids}
   */
   readonly targetEnvironmentIds: string[];
 }
@@ -1157,7 +1157,7 @@ export class ProjectScheduledTriggerRunRunbookActionOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger octopusdeploy_project_scheduled_trigger}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger octopusdeploy_project_scheduled_trigger}
 */
 export class ProjectScheduledTrigger extends cdktf.TerraformResource {
 
@@ -1173,7 +1173,7 @@ export class ProjectScheduledTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectScheduledTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectScheduledTrigger to import
-  * @param importFromId The id of the existing ProjectScheduledTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectScheduledTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectScheduledTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1185,7 +1185,7 @@ export class ProjectScheduledTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_scheduled_trigger octopusdeploy_project_scheduled_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_scheduled_trigger octopusdeploy_project_scheduled_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1196,8 +1196,8 @@ export class ProjectScheduledTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project_scheduled_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

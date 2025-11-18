@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOctopusdeployVariablesConfig extends cdktf.TerraformMetaArg
   /**
   * The name of variable to find.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#name DataOctopusdeployVariables#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#name DataOctopusdeployVariables#name}
   */
   readonly name: string;
   /**
   * Owner ID for the variable to find.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#owner_id DataOctopusdeployVariables#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#owner_id DataOctopusdeployVariables#owner_id}
   */
   readonly ownerId: string;
   /**
   * As variable names can appear more than once under different scopes, a VariableScope must also be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#scope DataOctopusdeployVariables#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#scope DataOctopusdeployVariables#scope}
   */
   readonly scope: DataOctopusdeployVariablesScope[] | cdktf.IResolvable;
   /**
   * The space ID associated with this variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#space_id DataOctopusdeployVariables#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#space_id DataOctopusdeployVariables#space_id}
   */
   readonly spaceId?: string;
 }
@@ -288,43 +288,43 @@ export interface DataOctopusdeployVariablesScope {
   /**
   * A list of actions that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#actions DataOctopusdeployVariables#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#actions DataOctopusdeployVariables#actions}
   */
   readonly actions?: string[];
   /**
   * A list of channels that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#channels DataOctopusdeployVariables#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#channels DataOctopusdeployVariables#channels}
   */
   readonly channels?: string[];
   /**
   * A list of environments that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#environments DataOctopusdeployVariables#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#environments DataOctopusdeployVariables#environments}
   */
   readonly environments?: string[];
   /**
   * A list of machines that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#machines DataOctopusdeployVariables#machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#machines DataOctopusdeployVariables#machines}
   */
   readonly machines?: string[];
   /**
   * A list of processes that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#processes DataOctopusdeployVariables#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#processes DataOctopusdeployVariables#processes}
   */
   readonly processes?: string[];
   /**
   * A list of roles that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#roles DataOctopusdeployVariables#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#roles DataOctopusdeployVariables#roles}
   */
   readonly roles?: string[];
   /**
   * A list of tenant tags that are scoped to this variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#tenant_tags DataOctopusdeployVariables#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#tenant_tags DataOctopusdeployVariables#tenant_tags}
   */
   readonly tenantTags?: string[];
 }
@@ -614,7 +614,7 @@ export class DataOctopusdeployVariablesScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables octopusdeploy_variables}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables octopusdeploy_variables}
 */
 export class DataOctopusdeployVariables extends cdktf.TerraformDataSource {
 
@@ -630,7 +630,7 @@ export class DataOctopusdeployVariables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployVariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployVariables to import
-  * @param importFromId The id of the existing DataOctopusdeployVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployVariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -642,7 +642,7 @@ export class DataOctopusdeployVariables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/variables octopusdeploy_variables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/variables octopusdeploy_variables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -653,8 +653,8 @@ export class DataOctopusdeployVariables extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_variables',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

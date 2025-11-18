@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface FirewallSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The default firewall ID for a linode, nodebalancer, public_interface, or vpc_interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#default_firewall_ids FirewallSettings#default_firewall_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#default_firewall_ids FirewallSettings#default_firewall_ids}
   */
   readonly defaultFirewallIds?: FirewallSettingsDefaultFirewallIds;
 }
@@ -18,25 +18,25 @@ export interface FirewallSettingsDefaultFirewallIds {
   /**
   * The Linode's default firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#linode FirewallSettings#linode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#linode FirewallSettings#linode}
   */
   readonly linode?: number;
   /**
   * The NodeBalancer's default firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#nodebalancer FirewallSettings#nodebalancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#nodebalancer FirewallSettings#nodebalancer}
   */
   readonly nodebalancer?: number;
   /**
   * The public interface's default firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#public_interface FirewallSettings#public_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#public_interface FirewallSettings#public_interface}
   */
   readonly publicInterface?: number;
   /**
   * The VPC interface's default firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#vpc_interface FirewallSettings#vpc_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#vpc_interface FirewallSettings#vpc_interface}
   */
   readonly vpcInterface?: number;
 }
@@ -217,7 +217,7 @@ export class FirewallSettingsDefaultFirewallIdsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings linode_firewall_settings}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings linode_firewall_settings}
 */
 export class FirewallSettings extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class FirewallSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallSettings to import
-  * @param importFromId The id of the existing FirewallSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class FirewallSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_settings linode_firewall_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/firewall_settings linode_firewall_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class FirewallSettings extends cdktf.TerraformResource {
       terraformResourceType: 'linode_firewall_settings',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface TenantProjectVariableConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#environment_id TenantProjectVariable#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#environment_id TenantProjectVariable#environment_id}
   */
   readonly environmentId: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#project_id TenantProjectVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#project_id TenantProjectVariable#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with this Tenant Project Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#space_id TenantProjectVariable#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#space_id TenantProjectVariable#space_id}
   */
   readonly spaceId?: string;
   /**
   * The ID of the variable template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#template_id TenantProjectVariable#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#template_id TenantProjectVariable#template_id}
   */
   readonly templateId: string;
   /**
   * The ID of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#tenant_id TenantProjectVariable#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#tenant_id TenantProjectVariable#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#value TenantProjectVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#value TenantProjectVariable#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable octopusdeploy_tenant_project_variable}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable octopusdeploy_tenant_project_variable}
 */
 export class TenantProjectVariable extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class TenantProjectVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantProjectVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantProjectVariable to import
-  * @param importFromId The id of the existing TenantProjectVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantProjectVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantProjectVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class TenantProjectVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tenant_project_variable octopusdeploy_tenant_project_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tenant_project_variable octopusdeploy_tenant_project_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class TenantProjectVariable extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tenant_project_variable',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

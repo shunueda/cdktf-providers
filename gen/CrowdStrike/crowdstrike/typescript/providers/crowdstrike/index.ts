@@ -33,6 +33,7 @@ export * as dataCrowdstrikeCloudAwsAccount from './data-crowdstrike-cloud-aws-ac
 export * as dataCrowdstrikeCloudComplianceFrameworkControls from './data-crowdstrike-cloud-compliance-framework-controls';
 export * as dataCrowdstrikeCloudSecurityRules from './data-crowdstrike-cloud-security-rules';
 export * as dataCrowdstrikeContentCategoryVersions from './data-crowdstrike-content-category-versions';
+export * as dataCrowdstrikePreventionPolicies from './data-crowdstrike-prevention-policies';
 export * as dataCrowdstrikeSensorUpdatePolicyBuilds from './data-crowdstrike-sensor-update-policy-builds';
 export * as provider from './provider';
 

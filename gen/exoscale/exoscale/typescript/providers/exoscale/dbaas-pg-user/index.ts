@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DbaasPgUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allows replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#allow_replication DbaasPgUser#allow_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#allow_replication DbaasPgUser#allow_replication}
   */
   readonly allowReplication?: boolean | cdktf.IResolvable;
   /**
   * ❗ The name of the database service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#service DbaasPgUser#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#service DbaasPgUser#service}
   */
   readonly service: string;
   /**
   * ❗ The name of the user for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#username DbaasPgUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#username DbaasPgUser#username}
   */
   readonly username: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#zone DbaasPgUser#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#zone DbaasPgUser#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#timeouts DbaasPgUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#timeouts DbaasPgUser#timeouts}
   */
   readonly timeouts?: DbaasPgUserTimeouts;
 }
@@ -42,25 +42,25 @@ export interface DbaasPgUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#create DbaasPgUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#create DbaasPgUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#delete DbaasPgUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#delete DbaasPgUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#read DbaasPgUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#read DbaasPgUser#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#update DbaasPgUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#update DbaasPgUser#update}
   */
   readonly update?: string;
 }
@@ -241,7 +241,7 @@ export class DbaasPgUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user exoscale_dbaas_pg_user}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user exoscale_dbaas_pg_user}
 */
 export class DbaasPgUser extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class DbaasPgUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasPgUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasPgUser to import
-  * @param importFromId The id of the existing DbaasPgUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasPgUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasPgUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class DbaasPgUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_user exoscale_dbaas_pg_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_pg_user exoscale_dbaas_pg_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class DbaasPgUser extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_dbaas_pg_user',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

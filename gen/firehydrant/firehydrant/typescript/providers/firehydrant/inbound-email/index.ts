@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface InboundEmailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#allowed_senders InboundEmail#allowed_senders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#allowed_senders InboundEmail#allowed_senders}
   */
   readonly allowedSenders: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#description InboundEmail#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#description InboundEmail#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#id InboundEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#id InboundEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#level_cel InboundEmail#level_cel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#level_cel InboundEmail#level_cel}
   */
   readonly levelCel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#name InboundEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#name InboundEmail#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#rule_matching_strategy InboundEmail#rule_matching_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#rule_matching_strategy InboundEmail#rule_matching_strategy}
   */
-  readonly ruleMatchingStrategy: string;
+  readonly ruleMatchingStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#rules InboundEmail#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#rules InboundEmail#rules}
   */
-  readonly rules: string[];
+  readonly rules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#slug InboundEmail#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#slug InboundEmail#slug}
   */
   readonly slug: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#status_cel InboundEmail#status_cel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#status_cel InboundEmail#status_cel}
   */
   readonly statusCel: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#target InboundEmail#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#target InboundEmail#target}
   */
   readonly target?: InboundEmailTarget;
 }
 export interface InboundEmailTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#id InboundEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#id InboundEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#type InboundEmail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#type InboundEmail#type}
   */
   readonly type: string;
 }
@@ -169,7 +169,7 @@ export class InboundEmailTargetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email firehydrant_inbound_email}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email firehydrant_inbound_email}
 */
 export class InboundEmail extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class InboundEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InboundEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InboundEmail to import
-  * @param importFromId The id of the existing InboundEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InboundEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InboundEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class InboundEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/resources/inbound_email firehydrant_inbound_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/resources/inbound_email firehydrant_inbound_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class InboundEmail extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_inbound_email',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9',
-        providerVersionConstraint: '0.14.9'
+        providerVersion: '0.14.11',
+        providerVersionConstraint: '0.14.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -311,7 +311,7 @@ export class InboundEmail extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // rule_matching_strategy - computed: false, optional: false, required: true
+  // rule_matching_strategy - computed: false, optional: true, required: false
   private _ruleMatchingStrategy?: string; 
   public get ruleMatchingStrategy() {
     return this.getStringAttribute('rule_matching_strategy');
@@ -319,18 +319,24 @@ export class InboundEmail extends cdktf.TerraformResource {
   public set ruleMatchingStrategy(value: string) {
     this._ruleMatchingStrategy = value;
   }
+  public resetRuleMatchingStrategy() {
+    this._ruleMatchingStrategy = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get ruleMatchingStrategyInput() {
     return this._ruleMatchingStrategy;
   }
 
-  // rules - computed: false, optional: false, required: true
+  // rules - computed: false, optional: true, required: false
   private _rules?: string[]; 
   public get rules() {
     return cdktf.Fn.tolist(this.getListAttribute('rules'));
   }
   public set rules(value: string[]) {
     this._rules = value;
+  }
+  public resetRules() {
+    this._rules = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get rulesInput() {

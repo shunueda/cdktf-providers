@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ConnectionKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#comment ConnectionKafka#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#comment ConnectionKafka#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#id ConnectionKafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#id ConnectionKafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,109 +29,109 @@ export interface ConnectionKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ownership_role ConnectionKafka#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ownership_role ConnectionKafka#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The name of a topic that Kafka sinks can use to track internal consistency metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#progress_topic ConnectionKafka#progress_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#progress_topic ConnectionKafka#progress_topic}
   */
   readonly progressTopic?: string;
   /**
   * The replication factor to use when creating the Kafka progress topic (if the Kafka topic does not already exist).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#progress_topic_replication_factor ConnectionKafka#progress_topic_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#progress_topic_replication_factor ConnectionKafka#progress_topic_replication_factor}
   */
   readonly progressTopicReplicationFactor?: number;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#region ConnectionKafka#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#region ConnectionKafka#region}
   */
   readonly region?: string;
   /**
   * The SASL mechanism for the Kafka broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#sasl_mechanisms ConnectionKafka#sasl_mechanisms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#sasl_mechanisms ConnectionKafka#sasl_mechanisms}
   */
   readonly saslMechanisms?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The security protocol to use: `PLAINTEXT`, `SSL`, `SASL_PLAINTEXT`, or `SASL_SSL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#security_protocol ConnectionKafka#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#security_protocol ConnectionKafka#security_protocol}
   */
   readonly securityProtocol?: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#validate ConnectionKafka#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#validate ConnectionKafka#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * aws_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#aws_connection ConnectionKafka#aws_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#aws_connection ConnectionKafka#aws_connection}
   */
   readonly awsConnection?: ConnectionKafkaAwsConnection;
   /**
   * aws_privatelink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#aws_privatelink ConnectionKafka#aws_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#aws_privatelink ConnectionKafka#aws_privatelink}
   */
   readonly awsPrivatelink?: ConnectionKafkaAwsPrivatelink;
   /**
   * kafka_broker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#kafka_broker ConnectionKafka#kafka_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#kafka_broker ConnectionKafka#kafka_broker}
   */
   readonly kafkaBroker?: ConnectionKafkaKafkaBroker[] | cdktf.IResolvable;
   /**
   * sasl_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#sasl_password ConnectionKafka#sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#sasl_password ConnectionKafka#sasl_password}
   */
   readonly saslPassword?: ConnectionKafkaSaslPassword;
   /**
   * sasl_username block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#sasl_username ConnectionKafka#sasl_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#sasl_username ConnectionKafka#sasl_username}
   */
   readonly saslUsername?: ConnectionKafkaSaslUsername;
   /**
   * ssh_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ssh_tunnel ConnectionKafka#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ssh_tunnel ConnectionKafka#ssh_tunnel}
   */
   readonly sshTunnel?: ConnectionKafkaSshTunnel;
   /**
   * ssl_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ssl_certificate ConnectionKafka#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ssl_certificate ConnectionKafka#ssl_certificate}
   */
   readonly sslCertificate?: ConnectionKafkaSslCertificate;
   /**
   * ssl_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ssl_certificate_authority ConnectionKafka#ssl_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ssl_certificate_authority ConnectionKafka#ssl_certificate_authority}
   */
   readonly sslCertificateAuthority?: ConnectionKafkaSslCertificateAuthority;
   /**
   * ssl_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ssl_key ConnectionKafka#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ssl_key ConnectionKafka#ssl_key}
   */
   readonly sslKey?: ConnectionKafkaSslKey;
 }
@@ -139,19 +139,19 @@ export interface ConnectionKafkaAwsConnection {
   /**
   * The aws_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The aws_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The aws_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -292,19 +292,19 @@ export interface ConnectionKafkaAwsPrivatelinkPrivatelinkConnection {
   /**
   * The privatelink_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The privatelink_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The privatelink_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -445,13 +445,13 @@ export interface ConnectionKafkaAwsPrivatelink {
   /**
   * The port of the AWS PrivateLink connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#privatelink_connection_port ConnectionKafka#privatelink_connection_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#privatelink_connection_port ConnectionKafka#privatelink_connection_port}
   */
   readonly privatelinkConnectionPort: number;
   /**
   * privatelink_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#privatelink_connection ConnectionKafka#privatelink_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#privatelink_connection ConnectionKafka#privatelink_connection}
   */
   readonly privatelinkConnection: ConnectionKafkaAwsPrivatelinkPrivatelinkConnection;
 }
@@ -560,19 +560,19 @@ export interface ConnectionKafkaKafkaBrokerPrivatelinkConnection {
   /**
   * The privatelink_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The privatelink_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The privatelink_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -713,19 +713,19 @@ export interface ConnectionKafkaKafkaBrokerSshTunnel {
   /**
   * The ssh_tunnel database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssh_tunnel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The ssh_tunnel schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -866,31 +866,31 @@ export interface ConnectionKafkaKafkaBroker {
   /**
   * The availability zone of the Kafka broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#availability_zone ConnectionKafka#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#availability_zone ConnectionKafka#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The Kafka broker, in the form of `host:port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#broker ConnectionKafka#broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#broker ConnectionKafka#broker}
   */
   readonly broker: string;
   /**
   * The port of the target group associated with the Kafka broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#target_group_port ConnectionKafka#target_group_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#target_group_port ConnectionKafka#target_group_port}
   */
   readonly targetGroupPort?: number;
   /**
   * privatelink_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#privatelink_connection ConnectionKafka#privatelink_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#privatelink_connection ConnectionKafka#privatelink_connection}
   */
   readonly privatelinkConnection?: ConnectionKafkaKafkaBrokerPrivatelinkConnection;
   /**
   * ssh_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#ssh_tunnel ConnectionKafka#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#ssh_tunnel ConnectionKafka#ssh_tunnel}
   */
   readonly sshTunnel?: ConnectionKafkaKafkaBrokerSshTunnel;
 }
@@ -1121,19 +1121,19 @@ export interface ConnectionKafkaSaslPassword {
   /**
   * The sasl_password database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The sasl_password name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The sasl_password schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1274,19 +1274,19 @@ export interface ConnectionKafkaSaslUsernameSecret {
   /**
   * The sasl_username database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The sasl_username name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The sasl_username schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1427,13 +1427,13 @@ export interface ConnectionKafkaSaslUsername {
   /**
   * The `sasl_username` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#text ConnectionKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#text ConnectionKafka#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#secret ConnectionKafka#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#secret ConnectionKafka#secret}
   */
   readonly secret?: ConnectionKafkaSaslUsernameSecret;
 }
@@ -1548,19 +1548,19 @@ export interface ConnectionKafkaSshTunnel {
   /**
   * The ssh_tunnel database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssh_tunnel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The ssh_tunnel schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1701,19 +1701,19 @@ export interface ConnectionKafkaSslCertificateSecret {
   /**
   * The ssl_certificate database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1854,13 +1854,13 @@ export interface ConnectionKafkaSslCertificate {
   /**
   * The `ssl_certificate` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#text ConnectionKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#text ConnectionKafka#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#secret ConnectionKafka#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#secret ConnectionKafka#secret}
   */
   readonly secret?: ConnectionKafkaSslCertificateSecret;
 }
@@ -1975,19 +1975,19 @@ export interface ConnectionKafkaSslCertificateAuthoritySecret {
   /**
   * The ssl_certificate_authority database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate_authority name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate_authority schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -2128,13 +2128,13 @@ export interface ConnectionKafkaSslCertificateAuthority {
   /**
   * The `ssl_certificate_authority` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#text ConnectionKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#text ConnectionKafka#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#secret ConnectionKafka#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#secret ConnectionKafka#secret}
   */
   readonly secret?: ConnectionKafkaSslCertificateAuthoritySecret;
 }
@@ -2249,19 +2249,19 @@ export interface ConnectionKafkaSslKey {
   /**
   * The ssl_key database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#database_name ConnectionKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#name ConnectionKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#name ConnectionKafka#name}
   */
   readonly name: string;
   /**
   * The ssl_key schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#schema_name ConnectionKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -2400,7 +2400,7 @@ export class ConnectionKafkaSslKeyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka materialize_connection_kafka}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka materialize_connection_kafka}
 */
 export class ConnectionKafka extends cdktf.TerraformResource {
 
@@ -2416,7 +2416,7 @@ export class ConnectionKafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionKafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionKafka to import
-  * @param importFromId The id of the existing ConnectionKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionKafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2428,7 +2428,7 @@ export class ConnectionKafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/connection_kafka materialize_connection_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_kafka materialize_connection_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2439,8 +2439,8 @@ export class ConnectionKafka extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_kafka',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

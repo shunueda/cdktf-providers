@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface NodebalancerConfigAConfig extends cdktf.TerraformMetaArguments 
   /**
   * What algorithm this NodeBalancer should use for routing traffic to backends: roundrobin, leastconn, source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#algorithm NodebalancerConfigA#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#algorithm NodebalancerConfigA#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The type of check to perform against backends to ensure they are serving requests. This is used to determine if backends are up or down. If none no check is performed. connection requires only a connection to the backend to succeed. http and http_body rely on the backend serving HTTP, and that the response returned matches what is expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check NodebalancerConfigA#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check NodebalancerConfigA#check}
   */
   readonly check?: string;
   /**
   * How many times to attempt a check before considering a backend to be down. (1-30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_attempts NodebalancerConfigA#check_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_attempts NodebalancerConfigA#check_attempts}
   */
   readonly checkAttempts?: number;
   /**
   * This value must be present in the response body of the check in order for it to pass. If this value is not present in the response body of a check request, the backend is considered to be down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_body NodebalancerConfigA#check_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_body NodebalancerConfigA#check_body}
   */
   readonly checkBody?: string;
   /**
   * How often, in seconds, to check that backends are up and serving requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_interval NodebalancerConfigA#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_interval NodebalancerConfigA#check_interval}
   */
   readonly checkInterval?: number;
   /**
   * If true, any response from this backend with a 5xx status code will be enough for it to be considered unhealthy and taken out of rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_passive NodebalancerConfigA#check_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_passive NodebalancerConfigA#check_passive}
   */
   readonly checkPassive?: boolean | cdktf.IResolvable;
   /**
   * The URL path to check on each backend. If the backend does not respond to this request it is considered to be down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_path NodebalancerConfigA#check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_path NodebalancerConfigA#check_path}
   */
   readonly checkPath?: string;
   /**
   * How long, in seconds, to wait for a check attempt before considering it failed. (1-30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#check_timeout NodebalancerConfigA#check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#check_timeout NodebalancerConfigA#check_timeout}
   */
   readonly checkTimeout?: number;
   /**
   * What ciphers to use for SSL connections served by this NodeBalancer. `legacy` is considered insecure and should only be used if necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#cipher_suite NodebalancerConfigA#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#cipher_suite NodebalancerConfigA#cipher_suite}
   */
   readonly cipherSuite?: string;
   /**
   * The ID of the NodeBalancer to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#nodebalancer_id NodebalancerConfigA#nodebalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#nodebalancer_id NodebalancerConfigA#nodebalancer_id}
   */
   readonly nodebalancerId: number;
   /**
   * The TCP port this Config is for. These values must be unique across configs on a single NodeBalancer (you can't have two configs for port 80, for example). While some ports imply some protocols, no enforcement is done and you may configure your NodeBalancer however is useful to you. For example, while port 443 is generally used for HTTPS, you do not need SSL configured to have a NodeBalancer listening on port 443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#port NodebalancerConfigA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#port NodebalancerConfigA#port}
   */
   readonly port?: number;
   /**
   * The protocol this port is configured to serve. If this is set to https you must include an ssl_cert and an ssl_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#protocol NodebalancerConfigA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#protocol NodebalancerConfigA#protocol}
   */
   readonly protocol?: string;
   /**
   * The version of ProxyProtocol to use for the underlying NodeBalancer. This requires protocol to be `tcp`. Valid values are `none`, `v1`, and `v2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#proxy_protocol NodebalancerConfigA#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#proxy_protocol NodebalancerConfigA#proxy_protocol}
   */
   readonly proxyProtocol?: string;
   /**
   * The certificate this port is serving. This is not returned. If set, this field will come back as `<REDACTED>`. Please use the ssl_commonname and ssl_fingerprint to identify the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#ssl_cert NodebalancerConfigA#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#ssl_cert NodebalancerConfigA#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * The private key corresponding to this port's certificate. This is not returned. If set, this field will come back as `<REDACTED>`. Please use the ssl_commonname and ssl_fingerprint to identify the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#ssl_key NodebalancerConfigA#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#ssl_key NodebalancerConfigA#ssl_key}
   */
   readonly sslKey?: string;
   /**
   * Controls how session stickiness is handled on this port: 'none', 'table', 'http_cookie'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#stickiness NodebalancerConfigA#stickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#stickiness NodebalancerConfigA#stickiness}
   */
   readonly stickiness?: string;
   /**
   * Specifies the port on the backend node used for active health checks, which may differ from the port serving traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#udp_check_port NodebalancerConfigA#udp_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#udp_check_port NodebalancerConfigA#udp_check_port}
   */
   readonly udpCheckPort?: number;
 }
@@ -192,7 +192,7 @@ export class NodebalancerConfigNodeStatusList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config linode_nodebalancer_config}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config linode_nodebalancer_config}
 */
 export class NodebalancerConfigA extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class NodebalancerConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodebalancerConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodebalancerConfigA to import
-  * @param importFromId The id of the existing NodebalancerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodebalancerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodebalancerConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class NodebalancerConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer_config linode_nodebalancer_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_config linode_nodebalancer_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class NodebalancerConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'linode_nodebalancer_config',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

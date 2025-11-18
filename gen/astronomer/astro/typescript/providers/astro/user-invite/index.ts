@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface UserInviteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email address of the user being invited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite#email UserInvite#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite#email UserInvite#email}
   */
   readonly email: string;
   /**
   * The Organization role to assign to the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite#role UserInvite#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite#role UserInvite#role}
   */
   readonly role: string;
 }
@@ -180,7 +180,7 @@ export class UserInviteInviterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite astro_user_invite}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite astro_user_invite}
 */
 export class UserInvite extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class UserInvite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserInvite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserInvite to import
-  * @param importFromId The id of the existing UserInvite that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserInvite that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserInvite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class UserInvite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/user_invite astro_user_invite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/user_invite astro_user_invite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class UserInvite extends cdktf.TerraformResource {
       terraformResourceType: 'astro_user_invite',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

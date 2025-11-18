@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user
+// https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IamUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#email IamUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#email IamUser#email}
   */
   readonly email: string;
   /**
   * The member's first name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#first_name IamUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#first_name IamUser#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#id IamUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#id IamUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface IamUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The member's last name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#last_name IamUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#last_name IamUser#last_name}
   */
   readonly lastName?: string;
   /**
   * The member's locale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#locale IamUser#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#locale IamUser#locale}
   */
   readonly locale?: string;
   /**
   * ID of organization the resource is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#organization_id IamUser#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#organization_id IamUser#organization_id}
   */
   readonly organizationId?: string;
   /**
   * The member's password for first access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#password IamUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#password IamUser#password}
   */
   readonly password?: string;
   /**
   * The member's phone number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#phone_number IamUser#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#phone_number IamUser#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * Whether or not to send an email containing the member's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#send_password_email IamUser#send_password_email}
   */
   readonly sendPasswordEmail?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to send a welcome email that includes onboarding information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#send_welcome_email IamUser#send_welcome_email}
   */
   readonly sendWelcomeEmail?: boolean | cdktf.IResolvable;
   /**
   * The tags associated with the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#tags IamUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#tags IamUser#tags}
   */
   readonly tags?: string[];
   /**
   * The member's username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#username IamUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#username IamUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user scaleway_iam_user}
+* Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user scaleway_iam_user}
 */
 export class IamUser extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class IamUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamUser to import
-  * @param importFromId The id of the existing IamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class IamUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/iam_user scaleway_iam_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/iam_user scaleway_iam_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class IamUser extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_iam_user',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0',
-        providerVersionConstraint: '2.62.0'
+        providerVersion: '2.63.0',
+        providerVersionConstraint: '2.63.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

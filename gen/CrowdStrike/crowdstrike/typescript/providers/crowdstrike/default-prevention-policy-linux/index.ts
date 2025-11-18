@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,151 @@ export interface DefaultPreventionPolicyLinuxConfig extends cdktf.TerraformMetaA
   /**
   * Use cloud-based machine learning informed by global analysis of executables to detect and prevent known malware for your online hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#cloud_anti_malware DefaultPreventionPolicyLinux#cloud_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#cloud_anti_malware DefaultPreventionPolicyLinux#cloud_anti_malware}
   */
   readonly cloudAntiMalware?: DefaultPreventionPolicyLinuxCloudAntiMalware;
   /**
   * Whether to enable the setting. Block processes matching hashes that you add to IOC Management with the action set to "Block" or "Block, hide detection".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#custom_blocking DefaultPreventionPolicyLinux#custom_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#custom_blocking DefaultPreventionPolicyLinux#custom_blocking}
   */
   readonly customBlocking?: boolean | cdktf.IResolvable;
   /**
+  * Whether to enable the setting. Allows the sensor to monitor local D-Bus traffic for malicious patterns and improved detections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#dbus_visibility DefaultPreventionPolicyLinux#dbus_visibility}
+  */
+  readonly dbusVisibility?: boolean | cdktf.IResolvable;
+  /**
   * Description of the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#description DefaultPreventionPolicyLinux#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#description DefaultPreventionPolicyLinux#description}
   */
   readonly description?: string;
   /**
   * Whether to enable the setting. Block new processes originating from files written in a container. This prevents a container from drifting from its immutable runtime state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#drift_prevention DefaultPreventionPolicyLinux#drift_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#drift_prevention DefaultPreventionPolicyLinux#drift_prevention}
   */
   readonly driftPrevention?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor SMTP, IMAP, and POP3 traffic for malicious patterns and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#email_protocol_visibility DefaultPreventionPolicyLinux#email_protocol_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#email_protocol_visibility DefaultPreventionPolicyLinux#email_protocol_visibility}
   */
   readonly emailProtocolVisibility?: boolean | cdktf.IResolvable;
   /**
+  * Whether to enable the setting. Allows the sensor to monitor an extended set of changes to environment variables in order to enhance visibility.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#enhance_environment_variable_visibility DefaultPreventionPolicyLinux#enhance_environment_variable_visibility}
+  */
+  readonly enhanceEnvironmentVariableVisibility?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to enable the setting. Allows the sensor to monitor activities performed by PHP scripts to provide additional telemetry and improved detections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#enhance_php_visibility DefaultPreventionPolicyLinux#enhance_php_visibility}
+  */
+  readonly enhancePhpVisibility?: boolean | cdktf.IResolvable;
+  /**
   * Whether to enable the setting. Allows the sensor to monitor full CLI commands that include pipes and redirects. This is applicable only for User mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#extended_command_line_visibility DefaultPreventionPolicyLinux#extended_command_line_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#extended_command_line_visibility DefaultPreventionPolicyLinux#extended_command_line_visibility}
   */
   readonly extendedCommandLineVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor filesystem activity for additional telemetry and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#filesystem_visibility DefaultPreventionPolicyLinux#filesystem_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#filesystem_visibility DefaultPreventionPolicyLinux#filesystem_visibility}
   */
   readonly filesystemVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor unencrypted FTP traffic for malicious patterns and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#ftp_visibility DefaultPreventionPolicyLinux#ftp_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#ftp_visibility DefaultPreventionPolicyLinux#ftp_visibility}
   */
   readonly ftpVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor unencrypted HTTP traffic for malicious patterns and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#http_visibility DefaultPreventionPolicyLinux#http_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#http_visibility DefaultPreventionPolicyLinux#http_visibility}
   */
   readonly httpVisibility?: boolean | cdktf.IResolvable;
   /**
   * IOA Rule Group to attach to the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#ioa_rule_groups DefaultPreventionPolicyLinux#ioa_rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#ioa_rule_groups DefaultPreventionPolicyLinux#ioa_rule_groups}
   */
   readonly ioaRuleGroups: string[];
   /**
   * Whether to enable the setting. When enabled, the sensor will inspect memory-related operations: mmap, mprotect, ptrace and reading/writing remote process memory and produce events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#memory_visibility DefaultPreventionPolicyLinux#memory_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#memory_visibility DefaultPreventionPolicyLinux#memory_visibility}
   */
   readonly memoryVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor network activity for additional telemetry and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#network_visibility DefaultPreventionPolicyLinux#network_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#network_visibility DefaultPreventionPolicyLinux#network_visibility}
   */
   readonly networkVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides improved visibility into various script files being written to disk in addition to clouding a portion of their content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#on_write_script_file_visibility DefaultPreventionPolicyLinux#on_write_script_file_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#on_write_script_file_visibility DefaultPreventionPolicyLinux#on_write_script_file_visibility}
   */
   readonly onWriteScriptFileVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes that CrowdStrike analysts classify as suspicious. These are focused on dynamic IOAs, such as malware, exploits and other threats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#prevent_suspicious_processes DefaultPreventionPolicyLinux#prevent_suspicious_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#prevent_suspicious_processes DefaultPreventionPolicyLinux#prevent_suspicious_processes}
   */
   readonly preventSuspiciousProcesses?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Quarantine executable files after they’re prevented by NGAV. When this is enabled, we recommend setting anti-malware prevention levels to Moderate or higher and not using other antivirus solutions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#quarantine DefaultPreventionPolicyLinux#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#quarantine DefaultPreventionPolicyLinux#quarantine}
   */
   readonly quarantine?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into suspicious scripts, including shell and other scripting languages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#script_based_execution_monitoring DefaultPreventionPolicyLinux#script_based_execution_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#script_based_execution_monitoring DefaultPreventionPolicyLinux#script_based_execution_monitoring}
   */
   readonly scriptBasedExecutionMonitoring?: boolean | cdktf.IResolvable;
   /**
   * For offline and online hosts, use sensor-based machine learning to identify and analyze unknown executables as they run to detect and prevent malware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#sensor_anti_malware DefaultPreventionPolicyLinux#sensor_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#sensor_anti_malware DefaultPreventionPolicyLinux#sensor_anti_malware}
   */
   readonly sensorAntiMalware?: DefaultPreventionPolicyLinuxSensorAntiMalware;
   /**
   * Whether to enable the setting. Block attempts to tamper with the sensor by protecting critical components and resources. If disabled, the sensor still creates detections for tampering attempts but will not prevent the activity from occurring. Disabling is not recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#sensor_tampering_protection DefaultPreventionPolicyLinux#sensor_tampering_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#sensor_tampering_protection DefaultPreventionPolicyLinux#sensor_tampering_protection}
   */
   readonly sensorTamperingProtection?: boolean | cdktf.IResolvable;
   /**
+  * Whether to enable the setting. Upload suspicious files for advanced threat analysis with QuickScan Pro.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#suspicious_file_analysis DefaultPreventionPolicyLinux#suspicious_file_analysis}
+  */
+  readonly suspiciousFileAnalysis?: boolean | cdktf.IResolvable;
+  /**
   * Whether to enable the setting. Allows the sensor to monitor TLS traffic for malicious patterns and improved detections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#tls_visibility DefaultPreventionPolicyLinux#tls_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#tls_visibility DefaultPreventionPolicyLinux#tls_visibility}
   */
   readonly tlsVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown detection-related executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#upload_unknown_detection_related_executables DefaultPreventionPolicyLinux#upload_unknown_detection_related_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#upload_unknown_detection_related_executables DefaultPreventionPolicyLinux#upload_unknown_detection_related_executables}
   */
   readonly uploadUnknownDetectionRelatedExecutables?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#upload_unknown_executables DefaultPreventionPolicyLinux#upload_unknown_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#upload_unknown_executables DefaultPreventionPolicyLinux#upload_unknown_executables}
   */
   readonly uploadUnknownExecutables?: boolean | cdktf.IResolvable;
 }
@@ -138,13 +162,13 @@ export interface DefaultPreventionPolicyLinuxCloudAntiMalware {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#detection DefaultPreventionPolicyLinux#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#detection DefaultPreventionPolicyLinux#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#prevention DefaultPreventionPolicyLinux#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#prevention DefaultPreventionPolicyLinux#prevention}
   */
   readonly prevention: string;
 }
@@ -263,13 +287,13 @@ export interface DefaultPreventionPolicyLinuxSensorAntiMalware {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#detection DefaultPreventionPolicyLinux#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#detection DefaultPreventionPolicyLinux#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#prevention DefaultPreventionPolicyLinux#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#prevention DefaultPreventionPolicyLinux#prevention}
   */
   readonly prevention: string;
 }
@@ -386,7 +410,7 @@ export class DefaultPreventionPolicyLinuxSensorAntiMalwareOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux crowdstrike_default_prevention_policy_linux}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux crowdstrike_default_prevention_policy_linux}
 */
 export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
 
@@ -402,7 +426,7 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefaultPreventionPolicyLinux resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultPreventionPolicyLinux to import
-  * @param importFromId The id of the existing DefaultPreventionPolicyLinux that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultPreventionPolicyLinux that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultPreventionPolicyLinux to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +438,7 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_linux crowdstrike_default_prevention_policy_linux} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_linux crowdstrike_default_prevention_policy_linux} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +449,8 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_default_prevention_policy_linux',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43',
-        providerVersionConstraint: '0.0.43'
+        providerVersion: '0.0.46',
+        providerVersionConstraint: '0.0.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -438,9 +462,12 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
     });
     this._cloudAntiMalware.internalValue = config.cloudAntiMalware;
     this._customBlocking = config.customBlocking;
+    this._dbusVisibility = config.dbusVisibility;
     this._description = config.description;
     this._driftPrevention = config.driftPrevention;
     this._emailProtocolVisibility = config.emailProtocolVisibility;
+    this._enhanceEnvironmentVariableVisibility = config.enhanceEnvironmentVariableVisibility;
+    this._enhancePhpVisibility = config.enhancePhpVisibility;
     this._extendedCommandLineVisibility = config.extendedCommandLineVisibility;
     this._filesystemVisibility = config.filesystemVisibility;
     this._ftpVisibility = config.ftpVisibility;
@@ -454,6 +481,7 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
     this._scriptBasedExecutionMonitoring = config.scriptBasedExecutionMonitoring;
     this._sensorAntiMalware.internalValue = config.sensorAntiMalware;
     this._sensorTamperingProtection = config.sensorTamperingProtection;
+    this._suspiciousFileAnalysis = config.suspiciousFileAnalysis;
     this._tlsVisibility = config.tlsVisibility;
     this._uploadUnknownDetectionRelatedExecutables = config.uploadUnknownDetectionRelatedExecutables;
     this._uploadUnknownExecutables = config.uploadUnknownExecutables;
@@ -493,6 +521,22 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get customBlockingInput() {
     return this._customBlocking;
+  }
+
+  // dbus_visibility - computed: true, optional: true, required: false
+  private _dbusVisibility?: boolean | cdktf.IResolvable; 
+  public get dbusVisibility() {
+    return this.getBooleanAttribute('dbus_visibility');
+  }
+  public set dbusVisibility(value: boolean | cdktf.IResolvable) {
+    this._dbusVisibility = value;
+  }
+  public resetDbusVisibility() {
+    this._dbusVisibility = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dbusVisibilityInput() {
+    return this._dbusVisibility;
   }
 
   // description - computed: false, optional: true, required: false
@@ -541,6 +585,38 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get emailProtocolVisibilityInput() {
     return this._emailProtocolVisibility;
+  }
+
+  // enhance_environment_variable_visibility - computed: true, optional: true, required: false
+  private _enhanceEnvironmentVariableVisibility?: boolean | cdktf.IResolvable; 
+  public get enhanceEnvironmentVariableVisibility() {
+    return this.getBooleanAttribute('enhance_environment_variable_visibility');
+  }
+  public set enhanceEnvironmentVariableVisibility(value: boolean | cdktf.IResolvable) {
+    this._enhanceEnvironmentVariableVisibility = value;
+  }
+  public resetEnhanceEnvironmentVariableVisibility() {
+    this._enhanceEnvironmentVariableVisibility = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enhanceEnvironmentVariableVisibilityInput() {
+    return this._enhanceEnvironmentVariableVisibility;
+  }
+
+  // enhance_php_visibility - computed: true, optional: true, required: false
+  private _enhancePhpVisibility?: boolean | cdktf.IResolvable; 
+  public get enhancePhpVisibility() {
+    return this.getBooleanAttribute('enhance_php_visibility');
+  }
+  public set enhancePhpVisibility(value: boolean | cdktf.IResolvable) {
+    this._enhancePhpVisibility = value;
+  }
+  public resetEnhancePhpVisibility() {
+    this._enhancePhpVisibility = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enhancePhpVisibilityInput() {
+    return this._enhancePhpVisibility;
   }
 
   // extended_command_line_visibility - computed: true, optional: true, required: false
@@ -758,6 +834,22 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
     return this._sensorTamperingProtection;
   }
 
+  // suspicious_file_analysis - computed: true, optional: true, required: false
+  private _suspiciousFileAnalysis?: boolean | cdktf.IResolvable; 
+  public get suspiciousFileAnalysis() {
+    return this.getBooleanAttribute('suspicious_file_analysis');
+  }
+  public set suspiciousFileAnalysis(value: boolean | cdktf.IResolvable) {
+    this._suspiciousFileAnalysis = value;
+  }
+  public resetSuspiciousFileAnalysis() {
+    this._suspiciousFileAnalysis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suspiciousFileAnalysisInput() {
+    return this._suspiciousFileAnalysis;
+  }
+
   // tls_visibility - computed: true, optional: true, required: false
   private _tlsVisibility?: boolean | cdktf.IResolvable; 
   public get tlsVisibility() {
@@ -814,9 +906,12 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
     return {
       cloud_anti_malware: defaultPreventionPolicyLinuxCloudAntiMalwareToTerraform(this._cloudAntiMalware.internalValue),
       custom_blocking: cdktf.booleanToTerraform(this._customBlocking),
+      dbus_visibility: cdktf.booleanToTerraform(this._dbusVisibility),
       description: cdktf.stringToTerraform(this._description),
       drift_prevention: cdktf.booleanToTerraform(this._driftPrevention),
       email_protocol_visibility: cdktf.booleanToTerraform(this._emailProtocolVisibility),
+      enhance_environment_variable_visibility: cdktf.booleanToTerraform(this._enhanceEnvironmentVariableVisibility),
+      enhance_php_visibility: cdktf.booleanToTerraform(this._enhancePhpVisibility),
       extended_command_line_visibility: cdktf.booleanToTerraform(this._extendedCommandLineVisibility),
       filesystem_visibility: cdktf.booleanToTerraform(this._filesystemVisibility),
       ftp_visibility: cdktf.booleanToTerraform(this._ftpVisibility),
@@ -830,6 +925,7 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
       script_based_execution_monitoring: cdktf.booleanToTerraform(this._scriptBasedExecutionMonitoring),
       sensor_anti_malware: defaultPreventionPolicyLinuxSensorAntiMalwareToTerraform(this._sensorAntiMalware.internalValue),
       sensor_tampering_protection: cdktf.booleanToTerraform(this._sensorTamperingProtection),
+      suspicious_file_analysis: cdktf.booleanToTerraform(this._suspiciousFileAnalysis),
       tls_visibility: cdktf.booleanToTerraform(this._tlsVisibility),
       upload_unknown_detection_related_executables: cdktf.booleanToTerraform(this._uploadUnknownDetectionRelatedExecutables),
       upload_unknown_executables: cdktf.booleanToTerraform(this._uploadUnknownExecutables),
@@ -850,6 +946,12 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      dbus_visibility: {
+        value: cdktf.booleanToHclTerraform(this._dbusVisibility),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       description: {
         value: cdktf.stringToHclTerraform(this._description),
         isBlock: false,
@@ -864,6 +966,18 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
       },
       email_protocol_visibility: {
         value: cdktf.booleanToHclTerraform(this._emailProtocolVisibility),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enhance_environment_variable_visibility: {
+        value: cdktf.booleanToHclTerraform(this._enhanceEnvironmentVariableVisibility),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enhance_php_visibility: {
+        value: cdktf.booleanToHclTerraform(this._enhancePhpVisibility),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -942,6 +1056,12 @@ export class DefaultPreventionPolicyLinux extends cdktf.TerraformResource {
       },
       sensor_tampering_protection: {
         value: cdktf.booleanToHclTerraform(this._sensorTamperingProtection),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      suspicious_file_analysis: {
+        value: cdktf.booleanToHclTerraform(this._suspiciousFileAnalysis),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

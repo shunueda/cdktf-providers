@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SecurityGroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ An (`INGRESS`) source / (`EGRESS`) destination IP subnet (in [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)) to match (conflicts with `public_security_group`/`user_security_group`/`user_security_group_id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#cidr SecurityGroupRule#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#cidr SecurityGroupRule#cidr}
   */
   readonly cidr?: string;
   /**
   * ❗ A free-form text describing the security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#description SecurityGroupRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#description SecurityGroupRule#description}
   */
   readonly description?: string;
   /**
   * ❗ A `TCP`/`UDP` port range to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#end_port SecurityGroupRule#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#end_port SecurityGroupRule#end_port}
   */
   readonly endPort?: number;
   /**
   * ❗ An ICMP/ICMPv6 [type/code](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Control_messages) to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#icmp_code SecurityGroupRule#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#icmp_code SecurityGroupRule#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * ❗ An ICMP/ICMPv6 [type/code](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Control_messages) to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#icmp_type SecurityGroupRule#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#icmp_type SecurityGroupRule#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#id SecurityGroupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#id SecurityGroupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,69 +47,69 @@ export interface SecurityGroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The network protocol to match (`TCP`, `UDP`, `ICMP`, `ICMPv6`, `AH`, `ESP`, `GRE`, `IPIP` or `ALL`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#protocol SecurityGroupRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#protocol SecurityGroupRule#protocol}
   */
   readonly protocol?: string;
   /**
   * ❗ An (`INGRESS`) source / (`EGRESS`) destination public security group name to match (conflicts with `cidr`/`user_security_group`/`user_security_group_id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#public_security_group SecurityGroupRule#public_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#public_security_group SecurityGroupRule#public_security_group}
   */
   readonly publicSecurityGroup?: string;
   /**
   * ❗ The parent security group name. Please use the `security_group_id` argument along the [exoscale_security_group](../data-sources/security_group.md) data source instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#security_group SecurityGroupRule#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#security_group SecurityGroupRule#security_group}
   */
   readonly securityGroup?: string;
   /**
   * ❗ The parent [exoscale_security_group](./security_group.md) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * ❗ A `TCP`/`UDP` port range to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#start_port SecurityGroupRule#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#start_port SecurityGroupRule#start_port}
   */
   readonly startPort?: number;
   /**
   * ❗ The traffic direction to match (`INGRESS` or `EGRESS`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#type SecurityGroupRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#type SecurityGroupRule#type}
   */
   readonly type: string;
   /**
   * ❗ An (`INGRESS`) source / (`EGRESS`) destination security group name to match (conflicts with `cidr`/`public_security_group`/`user_security_group_id`). Please use the `user_security_group_id` argument along the [exoscale_security_group](../data-sources/security_group.md) data source instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#user_security_group SecurityGroupRule#user_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#user_security_group SecurityGroupRule#user_security_group}
   */
   readonly userSecurityGroup?: string;
   /**
   * ❗ An (`INGRESS`) source / (`EGRESS`) destination security group ID to match (conflicts with `cidr`/`public_security_group`/`user_security_group)`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#user_security_group_id SecurityGroupRule#user_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#user_security_group_id SecurityGroupRule#user_security_group_id}
   */
   readonly userSecurityGroupId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#timeouts SecurityGroupRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#timeouts SecurityGroupRule#timeouts}
   */
   readonly timeouts?: SecurityGroupRuleTimeouts;
 }
 export interface SecurityGroupRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#create SecurityGroupRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#create SecurityGroupRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#delete SecurityGroupRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#delete SecurityGroupRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#read SecurityGroupRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#read SecurityGroupRule#read}
   */
   readonly read?: string;
 }
@@ -261,7 +261,7 @@ export class SecurityGroupRuleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule exoscale_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule exoscale_security_group_rule}
 */
 export class SecurityGroupRule extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupRule to import
-  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/security_group_rule exoscale_security_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/security_group_rule exoscale_security_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,37 @@ export interface DataOctopusdeployTagSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#ids DataOctopusdeployTagSets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#ids DataOctopusdeployTagSets#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#partial_name DataOctopusdeployTagSets#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#partial_name DataOctopusdeployTagSets#partial_name}
   */
   readonly partialName?: string;
   /**
+  * A filter to search by scopes. Valid values are `"Tenant"`, `"Environment"`, `"Project"`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#scopes DataOctopusdeployTagSets#scopes}
+  */
+  readonly scopes?: string[];
+  /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#skip DataOctopusdeployTagSets#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#skip DataOctopusdeployTagSets#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#space_id DataOctopusdeployTagSets#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#space_id DataOctopusdeployTagSets#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#take DataOctopusdeployTagSets#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#take DataOctopusdeployTagSets#take}
   */
   readonly take?: number;
 }
@@ -204,6 +210,11 @@ export class DataOctopusdeployTagSetsTagSetsOutputReference extends cdktf.Comple
     return this.getStringAttribute('name');
   }
 
+  // scopes - computed: true, optional: false, required: false
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+
   // sort_order - computed: true, optional: false, required: false
   public get sortOrder() {
     return this.getNumberAttribute('sort_order');
@@ -218,6 +229,11 @@ export class DataOctopusdeployTagSetsTagSetsOutputReference extends cdktf.Comple
   private _tags = new DataOctopusdeployTagSetsTagSetsTagsList(this, "tags", false);
   public get tags() {
     return this._tags;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
   }
 }
 
@@ -241,7 +257,7 @@ export class DataOctopusdeployTagSetsTagSetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets octopusdeploy_tag_sets}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets octopusdeploy_tag_sets}
 */
 export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
 
@@ -257,7 +273,7 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployTagSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployTagSets to import
-  * @param importFromId The id of the existing DataOctopusdeployTagSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployTagSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployTagSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +285,7 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/tag_sets octopusdeploy_tag_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/tag_sets octopusdeploy_tag_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +296,8 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_tag_sets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -293,6 +309,7 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
     });
     this._ids = config.ids;
     this._partialName = config.partialName;
+    this._scopes = config.scopes;
     this._skip = config.skip;
     this._spaceId = config.spaceId;
     this._take = config.take;
@@ -337,6 +354,22 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get partialNameInput() {
     return this._partialName;
+  }
+
+  // scopes - computed: false, optional: true, required: false
+  private _scopes?: string[]; 
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+  public set scopes(value: string[]) {
+    this._scopes = value;
+  }
+  public resetScopes() {
+    this._scopes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopesInput() {
+    return this._scopes;
   }
 
   // skip - computed: false, optional: true, required: false
@@ -401,6 +434,7 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
     return {
       ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ids),
       partial_name: cdktf.stringToTerraform(this._partialName),
+      scopes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scopes),
       skip: cdktf.numberToTerraform(this._skip),
       space_id: cdktf.stringToTerraform(this._spaceId),
       take: cdktf.numberToTerraform(this._take),
@@ -420,6 +454,12 @@ export class DataOctopusdeployTagSets extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      scopes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._scopes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       skip: {
         value: cdktf.numberToHclTerraform(this._skip),

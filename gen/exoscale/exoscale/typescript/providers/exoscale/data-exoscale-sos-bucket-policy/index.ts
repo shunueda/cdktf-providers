@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataExoscaleSosBucketPolicyConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the bucket to which the policy is to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy#bucket DataExoscaleSosBucketPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy#bucket DataExoscaleSosBucketPolicy#bucket}
   */
   readonly bucket: string;
   /**
   * The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy#zone DataExoscaleSosBucketPolicy#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy#zone DataExoscaleSosBucketPolicy#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy#timeouts DataExoscaleSosBucketPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy#timeouts DataExoscaleSosBucketPolicy#timeouts}
   */
   readonly timeouts?: DataExoscaleSosBucketPolicyTimeouts;
 }
@@ -30,7 +30,7 @@ export interface DataExoscaleSosBucketPolicyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy#read DataExoscaleSosBucketPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy#read DataExoscaleSosBucketPolicy#read}
   */
   readonly read?: string;
 }
@@ -124,7 +124,7 @@ export class DataExoscaleSosBucketPolicyTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy exoscale_sos_bucket_policy}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy exoscale_sos_bucket_policy}
 */
 export class DataExoscaleSosBucketPolicy extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataExoscaleSosBucketPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleSosBucketPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleSosBucketPolicy to import
-  * @param importFromId The id of the existing DataExoscaleSosBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleSosBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleSosBucketPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataExoscaleSosBucketPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sos_bucket_policy exoscale_sos_bucket_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sos_bucket_policy exoscale_sos_bucket_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataExoscaleSosBucketPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_sos_bucket_policy',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

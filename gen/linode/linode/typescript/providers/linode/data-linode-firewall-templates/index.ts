@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,9 @@ export interface DataLinodeFirewallTemplatesConfig extends cdktf.TerraformMetaAr
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#filter DataLinodeFirewallTemplates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates#filter DataLinodeFirewallTemplates#filter}
   */
   readonly filter?: DataLinodeFirewallTemplatesFilter[] | cdktf.IResolvable;
-  /**
-  * firewall_templates block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#firewall_templates DataLinodeFirewallTemplates#firewall_templates}
-  */
-  readonly firewallTemplates?: DataLinodeFirewallTemplatesFirewallTemplates[] | cdktf.IResolvable;
-}
-export interface DataLinodeFirewallTemplatesFilter {
-  /**
-  * The type of comparison to use for this filter.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#match_by DataLinodeFirewallTemplates#match_by}
-  */
-  readonly matchBy?: string;
-  /**
-  * The name of the attribute to filter on.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#name DataLinodeFirewallTemplates#name}
-  */
-  readonly name: string;
-  /**
-  * The value(s) to be used in the filter.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#values DataLinodeFirewallTemplates#values}
-  */
-  readonly values: string[];
-}
-
-export function dataLinodeFirewallTemplatesFilterToTerraform(struct?: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    match_by: cdktf.stringToTerraform(struct!.matchBy),
-    name: cdktf.stringToTerraform(struct!.name),
-    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
-  }
-}
-
-
-export function dataLinodeFirewallTemplatesFilterToHclTerraform(struct?: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    match_by: {
-      value: cdktf.stringToHclTerraform(struct!.matchBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataLinodeFirewallTemplatesFilterOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeFirewallTemplatesFilter | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._matchBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.matchBy = this._matchBy;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._values !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.values = this._values;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._matchBy = undefined;
-      this._name = undefined;
-      this._values = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._matchBy = value.matchBy;
-      this._name = value.name;
-      this._values = value.values;
-    }
-  }
-
-  // match_by - computed: false, optional: true, required: false
-  private _matchBy?: string; 
-  public get matchBy() {
-    return this.getStringAttribute('match_by');
-  }
-  public set matchBy(value: string) {
-    this._matchBy = value;
-  }
-  public resetMatchBy() {
-    this._matchBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get matchByInput() {
-    return this._matchBy;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
-  public get values() {
-    return cdktf.Fn.tolist(this.getListAttribute('values'));
-  }
-  public set values(value: string[]) {
-    this._values = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valuesInput() {
-    return this._values;
-  }
-}
-
-export class DataLinodeFirewallTemplatesFilterList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeFirewallTemplatesFilter[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeFirewallTemplatesFilterOutputReference {
-    return new DataLinodeFirewallTemplatesFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
 }
 export interface DataLinodeFirewallTemplatesFirewallTemplatesInbound {
 }
@@ -415,7 +227,7 @@ export class DataLinodeFirewallTemplatesFirewallTemplatesOutboundList extends cd
 export interface DataLinodeFirewallTemplatesFirewallTemplates {
 }
 
-export function dataLinodeFirewallTemplatesFirewallTemplatesToTerraform(struct?: DataLinodeFirewallTemplatesFirewallTemplates | cdktf.IResolvable): any {
+export function dataLinodeFirewallTemplatesFirewallTemplatesToTerraform(struct?: DataLinodeFirewallTemplatesFirewallTemplates): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -425,7 +237,7 @@ export function dataLinodeFirewallTemplatesFirewallTemplatesToTerraform(struct?:
 }
 
 
-export function dataLinodeFirewallTemplatesFirewallTemplatesToHclTerraform(struct?: DataLinodeFirewallTemplatesFirewallTemplates | cdktf.IResolvable): any {
+export function dataLinodeFirewallTemplatesFirewallTemplatesToHclTerraform(struct?: DataLinodeFirewallTemplatesFirewallTemplates): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -437,7 +249,6 @@ export function dataLinodeFirewallTemplatesFirewallTemplatesToHclTerraform(struc
 
 export class DataLinodeFirewallTemplatesFirewallTemplatesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -449,27 +260,18 @@ export class DataLinodeFirewallTemplatesFirewallTemplatesOutputReference extends
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeFirewallTemplatesFirewallTemplates | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeFirewallTemplatesFirewallTemplates | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeFirewallTemplatesFirewallTemplates | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeFirewallTemplatesFirewallTemplates | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -502,7 +304,6 @@ export class DataLinodeFirewallTemplatesFirewallTemplatesOutputReference extends
 }
 
 export class DataLinodeFirewallTemplatesFirewallTemplatesList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeFirewallTemplatesFirewallTemplates[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -520,9 +321,191 @@ export class DataLinodeFirewallTemplatesFirewallTemplatesList extends cdktf.Comp
     return new DataLinodeFirewallTemplatesFirewallTemplatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataLinodeFirewallTemplatesFilter {
+  /**
+  * The type of comparison to use for this filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates#match_by DataLinodeFirewallTemplates#match_by}
+  */
+  readonly matchBy?: string;
+  /**
+  * The name of the attribute to filter on.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates#name DataLinodeFirewallTemplates#name}
+  */
+  readonly name: string;
+  /**
+  * The value(s) to be used in the filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates#values DataLinodeFirewallTemplates#values}
+  */
+  readonly values: string[];
+}
+
+export function dataLinodeFirewallTemplatesFilterToTerraform(struct?: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    match_by: cdktf.stringToTerraform(struct!.matchBy),
+    name: cdktf.stringToTerraform(struct!.name),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+  }
+}
+
+
+export function dataLinodeFirewallTemplatesFilterToHclTerraform(struct?: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    match_by: {
+      value: cdktf.stringToHclTerraform(struct!.matchBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataLinodeFirewallTemplatesFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeFirewallTemplatesFilter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._matchBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchBy = this._matchBy;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeFirewallTemplatesFilter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._matchBy = undefined;
+      this._name = undefined;
+      this._values = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._matchBy = value.matchBy;
+      this._name = value.name;
+      this._values = value.values;
+    }
+  }
+
+  // match_by - computed: false, optional: true, required: false
+  private _matchBy?: string; 
+  public get matchBy() {
+    return this.getStringAttribute('match_by');
+  }
+  public set matchBy(value: string) {
+    this._matchBy = value;
+  }
+  public resetMatchBy() {
+    this._matchBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchByInput() {
+    return this._matchBy;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // values - computed: false, optional: false, required: true
+  private _values?: string[]; 
+  public get values() {
+    return cdktf.Fn.tolist(this.getListAttribute('values'));
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+}
+
+export class DataLinodeFirewallTemplatesFilterList extends cdktf.ComplexList {
+  public internalValue? : DataLinodeFirewallTemplatesFilter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeFirewallTemplatesFilterOutputReference {
+    return new DataLinodeFirewallTemplatesFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates linode_firewall_templates}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates linode_firewall_templates}
 */
 export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
 
@@ -538,7 +521,7 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeFirewallTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeFirewallTemplates to import
-  * @param importFromId The id of the existing DataLinodeFirewallTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeFirewallTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeFirewallTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +533,7 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates linode_firewall_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall_templates linode_firewall_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +544,8 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_firewall_templates',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -573,12 +556,17 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._filter.internalValue = config.filter;
-    this._firewallTemplates.internalValue = config.firewallTemplates;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // firewall_templates - computed: true, optional: false, required: false
+  private _firewallTemplates = new DataLinodeFirewallTemplatesFirewallTemplatesList(this, "firewall_templates", false);
+  public get firewallTemplates() {
+    return this._firewallTemplates;
+  }
 
   // id - computed: true, optional: false, required: false
   public get id() {
@@ -601,22 +589,6 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // firewall_templates - computed: false, optional: true, required: false
-  private _firewallTemplates = new DataLinodeFirewallTemplatesFirewallTemplatesList(this, "firewall_templates", false);
-  public get firewallTemplates() {
-    return this._firewallTemplates;
-  }
-  public putFirewallTemplates(value: DataLinodeFirewallTemplatesFirewallTemplates[] | cdktf.IResolvable) {
-    this._firewallTemplates.internalValue = value;
-  }
-  public resetFirewallTemplates() {
-    this._firewallTemplates.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get firewallTemplatesInput() {
-    return this._firewallTemplates.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -624,7 +596,6 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       filter: cdktf.listMapper(dataLinodeFirewallTemplatesFilterToTerraform, true)(this._filter.internalValue),
-      firewall_templates: cdktf.listMapper(dataLinodeFirewallTemplatesFirewallTemplatesToTerraform, true)(this._firewallTemplates.internalValue),
     };
   }
 
@@ -635,12 +606,6 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeFirewallTemplatesFilterList",
-      },
-      firewall_templates: {
-        value: cdktf.listMapperHcl(dataLinodeFirewallTemplatesFirewallTemplatesToHclTerraform, true)(this._firewallTemplates.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeFirewallTemplatesFirewallTemplatesList",
       },
     };
 

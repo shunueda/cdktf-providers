@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataOctopusdeployDeploymentFreezesConfig extends cdktf.Terrafor
   /**
   * A filter to search by a list of environment IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#environment_ids DataOctopusdeployDeploymentFreezes#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#environment_ids DataOctopusdeployDeploymentFreezes#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#ids DataOctopusdeployDeploymentFreezes#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#ids DataOctopusdeployDeploymentFreezes#ids}
   */
   readonly ids?: string[];
   /**
   * Include deployment freezes that completed, default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#include_complete DataOctopusdeployDeploymentFreezes#include_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#include_complete DataOctopusdeployDeploymentFreezes#include_complete}
   */
   readonly includeComplete?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#partial_name DataOctopusdeployDeploymentFreezes#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#partial_name DataOctopusdeployDeploymentFreezes#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to search by a list of project IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#project_ids DataOctopusdeployDeploymentFreezes#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#project_ids DataOctopusdeployDeploymentFreezes#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#skip DataOctopusdeployDeploymentFreezes#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#skip DataOctopusdeployDeploymentFreezes#skip}
   */
   readonly skip?: number;
   /**
   * Filter by the status of the deployment freeze, value values are Expired, Active, Scheduled (case-insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#status DataOctopusdeployDeploymentFreezes#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#status DataOctopusdeployDeploymentFreezes#status}
   */
   readonly status?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#take DataOctopusdeployDeploymentFreezes#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#take DataOctopusdeployDeploymentFreezes#take}
   */
   readonly take?: number;
   /**
   * A filter to search by a list of tenant IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#tenant_ids DataOctopusdeployDeploymentFreezes#tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#tenant_ids DataOctopusdeployDeploymentFreezes#tenant_ids}
   */
   readonly tenantIds?: string[];
 }
@@ -356,7 +356,7 @@ export class DataOctopusdeployDeploymentFreezesDeploymentFreezesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes octopusdeploy_deployment_freezes}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes octopusdeploy_deployment_freezes}
 */
 export class DataOctopusdeployDeploymentFreezes extends cdktf.TerraformDataSource {
 
@@ -372,7 +372,7 @@ export class DataOctopusdeployDeploymentFreezes extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOctopusdeployDeploymentFreezes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployDeploymentFreezes to import
-  * @param importFromId The id of the existing DataOctopusdeployDeploymentFreezes that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployDeploymentFreezes that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployDeploymentFreezes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class DataOctopusdeployDeploymentFreezes extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/deployment_freezes octopusdeploy_deployment_freezes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/deployment_freezes octopusdeploy_deployment_freezes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class DataOctopusdeployDeploymentFreezes extends cdktf.TerraformDataSourc
       terraformResourceType: 'octopusdeploy_deployment_freezes',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

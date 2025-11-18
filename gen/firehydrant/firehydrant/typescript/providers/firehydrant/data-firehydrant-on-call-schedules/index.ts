@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules
+// https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,200 @@ import * as cdktf from 'cdktf';
 
 export interface DataFirehydrantOnCallSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules#id DataFirehydrantOnCallSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules#id DataFirehydrantOnCallSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules#query DataFirehydrantOnCallSchedules#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules#query DataFirehydrantOnCallSchedules#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules#team_id DataFirehydrantOnCallSchedules#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules#team_id DataFirehydrantOnCallSchedules#team_id}
   */
   readonly teamId: string;
+}
+export interface DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictions {
+}
+
+export function dataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsToTerraform(struct?: DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsToHclTerraform(struct?: DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // end_day - computed: true, optional: false, required: false
+  public get endDay() {
+    return this.getStringAttribute('end_day');
+  }
+
+  // end_time - computed: true, optional: false, required: false
+  public get endTime() {
+    return this.getStringAttribute('end_time');
+  }
+
+  // start_day - computed: true, optional: false, required: false
+  public get startDay() {
+    return this.getStringAttribute('start_day');
+  }
+
+  // start_time - computed: true, optional: false, required: false
+  public get startTime() {
+    return this.getStringAttribute('start_time');
+  }
+}
+
+export class DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsOutputReference {
+    return new DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataFirehydrantOnCallSchedulesOnCallSchedulesStrategy {
+}
+
+export function dataFirehydrantOnCallSchedulesOnCallSchedulesStrategyToTerraform(struct?: DataFirehydrantOnCallSchedulesOnCallSchedulesStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataFirehydrantOnCallSchedulesOnCallSchedulesStrategyToHclTerraform(struct?: DataFirehydrantOnCallSchedulesOnCallSchedulesStrategy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataFirehydrantOnCallSchedulesOnCallSchedulesStrategyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataFirehydrantOnCallSchedulesOnCallSchedulesStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataFirehydrantOnCallSchedulesOnCallSchedulesStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // handoff_day - computed: true, optional: false, required: false
+  public get handoffDay() {
+    return this.getStringAttribute('handoff_day');
+  }
+
+  // handoff_time - computed: true, optional: false, required: false
+  public get handoffTime() {
+    return this.getStringAttribute('handoff_time');
+  }
+
+  // shift_duration - computed: true, optional: false, required: false
+  public get shiftDuration() {
+    return this.getStringAttribute('shift_duration');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataFirehydrantOnCallSchedulesOnCallSchedulesStrategyList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataFirehydrantOnCallSchedulesOnCallSchedulesStrategyOutputReference {
+    return new DataFirehydrantOnCallSchedulesOnCallSchedulesStrategyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataFirehydrantOnCallSchedulesOnCallSchedules {
 }
@@ -89,9 +269,21 @@ export class DataFirehydrantOnCallSchedulesOnCallSchedulesOutputReference extend
     return this.getStringAttribute('name');
   }
 
+  // restrictions - computed: true, optional: false, required: false
+  private _restrictions = new DataFirehydrantOnCallSchedulesOnCallSchedulesRestrictionsList(this, "restrictions", false);
+  public get restrictions() {
+    return this._restrictions;
+  }
+
   // slack_user_group_id - computed: true, optional: false, required: false
   public get slackUserGroupId() {
     return this.getStringAttribute('slack_user_group_id');
+  }
+
+  // strategy - computed: true, optional: false, required: false
+  private _strategy = new DataFirehydrantOnCallSchedulesOnCallSchedulesStrategyList(this, "strategy", false);
+  public get strategy() {
+    return this._strategy;
   }
 
   // team_id - computed: true, optional: false, required: false
@@ -125,7 +317,7 @@ export class DataFirehydrantOnCallSchedulesOnCallSchedulesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules firehydrant_on_call_schedules}
+* Represents a {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules firehydrant_on_call_schedules}
 */
 export class DataFirehydrantOnCallSchedules extends cdktf.TerraformDataSource {
 
@@ -141,7 +333,7 @@ export class DataFirehydrantOnCallSchedules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFirehydrantOnCallSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFirehydrantOnCallSchedules to import
-  * @param importFromId The id of the existing DataFirehydrantOnCallSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFirehydrantOnCallSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFirehydrantOnCallSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +345,7 @@ export class DataFirehydrantOnCallSchedules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/on_call_schedules firehydrant_on_call_schedules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/on_call_schedules firehydrant_on_call_schedules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +356,8 @@ export class DataFirehydrantOnCallSchedules extends cdktf.TerraformDataSource {
       terraformResourceType: 'firehydrant_on_call_schedules',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9',
-        providerVersionConstraint: '0.14.9'
+        providerVersion: '0.14.11',
+        providerVersionConstraint: '0.14.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

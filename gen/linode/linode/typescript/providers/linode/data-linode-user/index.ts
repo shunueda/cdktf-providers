@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,84 +10,84 @@ export interface DataLinodeUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#database_grant DataLinodeUser#database_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#database_grant DataLinodeUser#database_grant}
   */
   readonly databaseGrant?: DataLinodeUserDatabaseGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#domain_grant DataLinodeUser#domain_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#domain_grant DataLinodeUser#domain_grant}
   */
   readonly domainGrant?: DataLinodeUserDomainGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#firewall_grant DataLinodeUser#firewall_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#firewall_grant DataLinodeUser#firewall_grant}
   */
   readonly firewallGrant?: DataLinodeUserFirewallGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#image_grant DataLinodeUser#image_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#image_grant DataLinodeUser#image_grant}
   */
   readonly imageGrant?: DataLinodeUserImageGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#linode_grant DataLinodeUser#linode_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#linode_grant DataLinodeUser#linode_grant}
   */
   readonly linodeGrant?: DataLinodeUserLinodeGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#longview_grant DataLinodeUser#longview_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#longview_grant DataLinodeUser#longview_grant}
   */
   readonly longviewGrant?: DataLinodeUserLongviewGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#nodebalancer_grant DataLinodeUser#nodebalancer_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#nodebalancer_grant DataLinodeUser#nodebalancer_grant}
   */
   readonly nodebalancerGrant?: DataLinodeUserNodebalancerGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#stackscript_grant DataLinodeUser#stackscript_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#stackscript_grant DataLinodeUser#stackscript_grant}
   */
   readonly stackscriptGrant?: DataLinodeUserStackscriptGrant[] | cdktf.IResolvable;
   /**
   * This User's username. This is used for logging in, and may also be displayed alongside actions the User performs (for example, in Events or public StackScripts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#username DataLinodeUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#username DataLinodeUser#username}
   */
   readonly username: string;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#volume_grant DataLinodeUser#volume_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#volume_grant DataLinodeUser#volume_grant}
   */
   readonly volumeGrant?: DataLinodeUserVolumeGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#vpc_grant DataLinodeUser#vpc_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#vpc_grant DataLinodeUser#vpc_grant}
   */
   readonly vpcGrant?: DataLinodeUserVpcGrant[] | cdktf.IResolvable;
 }
 export interface DataLinodeUserDatabaseGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -261,18 +261,18 @@ export class DataLinodeUserDatabaseGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserDomainGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -446,18 +446,18 @@ export class DataLinodeUserDomainGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserFirewallGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -766,18 +766,18 @@ export class DataLinodeUserGlobalGrantsList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserImageGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -951,18 +951,18 @@ export class DataLinodeUserImageGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserLinodeGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -1136,18 +1136,18 @@ export class DataLinodeUserLinodeGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserLongviewGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -1321,18 +1321,18 @@ export class DataLinodeUserLongviewGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserNodebalancerGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -1506,18 +1506,18 @@ export class DataLinodeUserNodebalancerGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserStackscriptGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -1691,18 +1691,18 @@ export class DataLinodeUserStackscriptGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserVolumeGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -1876,18 +1876,18 @@ export class DataLinodeUserVolumeGrantList extends cdktf.ComplexList {
 }
 export interface DataLinodeUserVpcGrant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#id DataLinodeUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#id DataLinodeUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#label DataLinodeUser#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#label DataLinodeUser#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#permissions DataLinodeUser#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#permissions DataLinodeUser#permissions}
   */
   readonly permissions?: string;
 }
@@ -2061,7 +2061,7 @@ export class DataLinodeUserVpcGrantList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user linode_user}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user linode_user}
 */
 export class DataLinodeUser extends cdktf.TerraformDataSource {
 
@@ -2077,7 +2077,7 @@ export class DataLinodeUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeUser to import
-  * @param importFromId The id of the existing DataLinodeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2089,7 +2089,7 @@ export class DataLinodeUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/user linode_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/user linode_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2100,8 +2100,8 @@ export class DataLinodeUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_user',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

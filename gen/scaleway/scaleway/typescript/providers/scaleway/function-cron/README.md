@@ -1,3 +1,3 @@
 # `scaleway_function_cron`
 
-Refer to the Terraform Registry for docs: [`scaleway_function_cron`](https://registry.terraform.io/providers/scaleway/scaleway/2.62.0/docs/resources/function_cron).
+Refer to the Terraform Registry for docs: [`scaleway_function_cron`](https://registry.terraform.io/providers/scaleway/scaleway/2.63.0/docs/resources/function_cron).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,19 @@ export interface DataLinodeDomainsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#order DataLinodeDomains#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#order DataLinodeDomains#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#order_by DataLinodeDomains#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#order_by DataLinodeDomains#order_by}
   */
   readonly orderBy?: string;
   /**
-  * domains block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#domains DataLinodeDomains#domains}
-  */
-  readonly domains?: DataLinodeDomainsDomains[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#filter DataLinodeDomains#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#filter DataLinodeDomains#filter}
   */
   readonly filter?: DataLinodeDomainsFilter[] | cdktf.IResolvable;
 }
@@ -36,13 +30,13 @@ export interface DataLinodeDomainsDomains {
   /**
   * The domain this Domain represents. These must be unique in our system; you cannot have two Domains representing the same domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#domain DataLinodeDomains#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#domain DataLinodeDomains#domain}
   */
   readonly domain?: string;
   /**
   * The Domain's unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#id DataLinodeDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#id DataLinodeDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +44,7 @@ export interface DataLinodeDomainsDomains {
   readonly id?: number;
 }
 
-export function dataLinodeDomainsDomainsToTerraform(struct?: DataLinodeDomainsDomains | cdktf.IResolvable): any {
+export function dataLinodeDomainsDomainsToTerraform(struct?: DataLinodeDomainsDomains): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -62,7 +56,7 @@ export function dataLinodeDomainsDomainsToTerraform(struct?: DataLinodeDomainsDo
 }
 
 
-export function dataLinodeDomainsDomainsToHclTerraform(struct?: DataLinodeDomainsDomains | cdktf.IResolvable): any {
+export function dataLinodeDomainsDomainsToHclTerraform(struct?: DataLinodeDomainsDomains): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -88,7 +82,6 @@ export function dataLinodeDomainsDomainsToHclTerraform(struct?: DataLinodeDomain
 
 export class DataLinodeDomainsDomainsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -100,10 +93,7 @@ export class DataLinodeDomainsDomainsOutputReference extends cdktf.ComplexObject
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeDomainsDomains | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeDomainsDomains | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._domain !== undefined) {
@@ -117,20 +107,14 @@ export class DataLinodeDomainsDomainsOutputReference extends cdktf.ComplexObject
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeDomainsDomains | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeDomainsDomains | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._domain = undefined;
       this._id = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._domain = value.domain;
       this._id = value.id;
     }
@@ -146,7 +130,7 @@ export class DataLinodeDomainsDomainsOutputReference extends cdktf.ComplexObject
     return this.getStringAttribute('description');
   }
 
-  // domain - computed: false, optional: true, required: false
+  // domain - computed: true, optional: true, required: false
   private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
@@ -172,7 +156,7 @@ export class DataLinodeDomainsDomainsOutputReference extends cdktf.ComplexObject
     return this.getStringAttribute('group');
   }
 
-  // id - computed: false, optional: true, required: false
+  // id - computed: true, optional: true, required: false
   private _id?: number; 
   public get id() {
     return this.getNumberAttribute('id');
@@ -252,19 +236,19 @@ export interface DataLinodeDomainsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#match_by DataLinodeDomains#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#match_by DataLinodeDomains#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#name DataLinodeDomains#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#name DataLinodeDomains#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#values DataLinodeDomains#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#values DataLinodeDomains#values}
   */
   readonly values: string[];
 }
@@ -432,7 +416,7 @@ export class DataLinodeDomainsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains linode_domains}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains linode_domains}
 */
 export class DataLinodeDomains extends cdktf.TerraformDataSource {
 
@@ -448,7 +432,7 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDomains to import
-  * @param importFromId The id of the existing DataLinodeDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +444,7 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/domains linode_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domains linode_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +455,8 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_domains',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -484,13 +468,18 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
     });
     this._order = config.order;
     this._orderBy = config.orderBy;
-    this._domains.internalValue = config.domains;
     this._filter.internalValue = config.filter;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // domains - computed: true, optional: false, required: false
+  private _domains = new DataLinodeDomainsDomainsList(this, "domains", false);
+  public get domains() {
+    return this._domains;
+  }
 
   // id - computed: true, optional: false, required: false
   public get id() {
@@ -529,22 +518,6 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
-  // domains - computed: false, optional: true, required: false
-  private _domains = new DataLinodeDomainsDomainsList(this, "domains", false);
-  public get domains() {
-    return this._domains;
-  }
-  public putDomains(value: DataLinodeDomainsDomains[] | cdktf.IResolvable) {
-    this._domains.internalValue = value;
-  }
-  public resetDomains() {
-    this._domains.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get domainsInput() {
-    return this._domains.internalValue;
-  }
-
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeDomainsFilterList(this, "filter", true);
   public get filter() {
@@ -569,7 +542,6 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
     return {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
-      domains: cdktf.listMapper(dataLinodeDomainsDomainsToTerraform, true)(this._domains.internalValue),
       filter: cdktf.listMapper(dataLinodeDomainsFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -587,12 +559,6 @@ export class DataLinodeDomains extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      domains: {
-        value: cdktf.listMapperHcl(dataLinodeDomainsDomainsToHclTerraform, true)(this._domains.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeDomainsDomainsList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeDomainsFilterToHclTerraform, true)(this._filter.internalValue),

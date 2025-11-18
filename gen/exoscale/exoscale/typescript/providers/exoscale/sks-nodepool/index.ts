@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface SksNodepoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of [exoscale_anti_affinity_group](./anti_affinity_group.md) (IDs) to be attached to the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#anti_affinity_group_ids SksNodepool#anti_affinity_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#anti_affinity_group_ids SksNodepool#anti_affinity_group_ids}
   */
   readonly antiAffinityGroupIds?: string[];
   /**
   * ❗ The parent [exoscale_sks_cluster](./sks_cluster.md) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#cluster_id SksNodepool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#cluster_id SksNodepool#cluster_id}
   */
   readonly clusterId: string;
   /**
   * A deploy target ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#deploy_target_id SksNodepool#deploy_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#deploy_target_id SksNodepool#deploy_target_id}
   */
   readonly deployTargetId?: string;
   /**
   * A free-form text describing the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#description SksNodepool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#description SksNodepool#description}
   */
   readonly description?: string;
   /**
   * The managed instances disk size (GiB; default: `50`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#disk_size SksNodepool#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#disk_size SksNodepool#disk_size}
   */
   readonly diskSize?: number;
   /**
   * The string used to prefix the managed instances name (default `pool`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#instance_prefix SksNodepool#instance_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#instance_prefix SksNodepool#instance_prefix}
   */
   readonly instancePrefix?: string;
   /**
   * The managed compute instances type (`<family>.<size>`, e.g. `standard.medium`; use the [Exoscale CLI](https://github.com/exoscale/cli/) - `exo compute instance-type list` - for the list of available types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#instance_type SksNodepool#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#instance_type SksNodepool#instance_type}
   */
   readonly instanceType: string;
   /**
   * Enable IPV6 for the nodepool nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#ipv6 SksNodepool#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#ipv6 SksNodepool#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#labels SksNodepool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#labels SksNodepool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The SKS node pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#name SksNodepool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#name SksNodepool#name}
   */
   readonly name: string;
   /**
   * A list of [exoscale_private_network](./private_network.md) (IDs) to be attached to the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#private_network_ids SksNodepool#private_network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#private_network_ids SksNodepool#private_network_ids}
   */
   readonly privateNetworkIds?: string[];
   /**
   * A list of [exoscale_security_group](./security_group.md) (IDs) to be attached to the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#security_group_ids SksNodepool#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#security_group_ids SksNodepool#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#size SksNodepool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#size SksNodepool#size}
   */
   readonly size: number;
   /**
   * Create nodes with non-standard partitioning for persistent storage (requires min 100G of disk space) (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#storage_lvm SksNodepool#storage_lvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#storage_lvm SksNodepool#storage_lvm}
   */
   readonly storageLvm?: boolean | cdktf.IResolvable;
   /**
   * A map of key/value Kubernetes [taints](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) ('taints = { <key> = "<value>:<effect>" }').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#taints SksNodepool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#taints SksNodepool#taints}
   */
   readonly taints?: { [key: string]: string };
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#zone SksNodepool#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#zone SksNodepool#zone}
   */
   readonly zone: string;
   /**
   * kubelet_image_gc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#kubelet_image_gc SksNodepool#kubelet_image_gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#kubelet_image_gc SksNodepool#kubelet_image_gc}
   */
   readonly kubeletImageGc?: SksNodepoolKubeletImageGc[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#timeouts SksNodepool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#timeouts SksNodepool#timeouts}
   */
   readonly timeouts?: SksNodepoolTimeouts;
 }
@@ -118,19 +118,19 @@ export interface SksNodepoolKubeletImageGc {
   /**
   * The percent of disk usage after which image garbage collection is always run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#high_threshold SksNodepool#high_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#high_threshold SksNodepool#high_threshold}
   */
   readonly highThreshold?: number;
   /**
   * The percent of disk usage before which image garbage collection is never run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#low_threshold SksNodepool#low_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#low_threshold SksNodepool#low_threshold}
   */
   readonly lowThreshold?: number;
   /**
   * The minimum age for an unused image before it is garbage collected (k8s duration format, eg. 1h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#min_age SksNodepool#min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#min_age SksNodepool#min_age}
   */
   readonly minAge?: string;
 }
@@ -304,19 +304,19 @@ export class SksNodepoolKubeletImageGcList extends cdktf.ComplexList {
 }
 export interface SksNodepoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#create SksNodepool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#create SksNodepool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#delete SksNodepool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#delete SksNodepool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#read SksNodepool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#read SksNodepool#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#update SksNodepool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#update SksNodepool#update}
   */
   readonly update?: string;
 }
@@ -497,7 +497,7 @@ export class SksNodepoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool exoscale_sks_nodepool}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool exoscale_sks_nodepool}
 */
 export class SksNodepool extends cdktf.TerraformResource {
 
@@ -513,7 +513,7 @@ export class SksNodepool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SksNodepool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SksNodepool to import
-  * @param importFromId The id of the existing SksNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SksNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SksNodepool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -525,7 +525,7 @@ export class SksNodepool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_nodepool exoscale_sks_nodepool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/sks_nodepool exoscale_sks_nodepool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -536,8 +536,8 @@ export class SksNodepool extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_sks_nodepool',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

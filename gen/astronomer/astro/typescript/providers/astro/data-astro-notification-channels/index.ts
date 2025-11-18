@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataAstroNotificationChannelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#channel_types DataAstroNotificationChannels#channel_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#channel_types DataAstroNotificationChannels#channel_types}
   */
   readonly channelTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#deployment_ids DataAstroNotificationChannels#deployment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#deployment_ids DataAstroNotificationChannels#deployment_ids}
   */
   readonly deploymentIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#entity_type DataAstroNotificationChannels#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#entity_type DataAstroNotificationChannels#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#notification_channel_ids DataAstroNotificationChannels#notification_channel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#notification_channel_ids DataAstroNotificationChannels#notification_channel_ids}
   */
   readonly notificationChannelIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#workspace_ids DataAstroNotificationChannels#workspace_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#workspace_ids DataAstroNotificationChannels#workspace_ids}
   */
   readonly workspaceIds?: string[];
 }
@@ -274,7 +274,7 @@ export interface DataAstroNotificationChannelsNotificationChannels {
   /**
   * The notification channel's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#id DataAstroNotificationChannels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#id DataAstroNotificationChannels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -448,7 +448,7 @@ export class DataAstroNotificationChannelsNotificationChannelsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels astro_notification_channels}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels astro_notification_channels}
 */
 export class DataAstroNotificationChannels extends cdktf.TerraformDataSource {
 
@@ -464,7 +464,7 @@ export class DataAstroNotificationChannels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroNotificationChannels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroNotificationChannels to import
-  * @param importFromId The id of the existing DataAstroNotificationChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroNotificationChannels that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroNotificationChannels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -476,7 +476,7 @@ export class DataAstroNotificationChannels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/notification_channels astro_notification_channels} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/notification_channels astro_notification_channels} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -487,8 +487,8 @@ export class DataAstroNotificationChannels extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_notification_channels',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item
+// https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface ItemConfig extends cdktf.TerraformMetaArguments {
   /**
   * The category of the item. One of ["login" "password" "database" "secure_note"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#category Item#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#category Item#category}
   */
   readonly category?: string;
   /**
   * (Only applies to the database category) The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#database Item#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#database Item#database}
   */
   readonly database?: string;
   /**
   * (Only applies to the database category) The address where the database can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#hostname Item#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#hostname Item#hostname}
   */
   readonly hostname?: string;
   /**
   * Secure Note value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#note_value Item#note_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#note_value Item#note_value}
   */
   readonly noteValue?: string;
   /**
   * Password for this item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#password Item#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#password Item#password}
   */
   readonly password?: string;
   /**
   * (Only applies to the database category) The port the database is listening on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#port Item#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#port Item#port}
   */
   readonly port?: string;
   /**
   * An array of strings of the tags assigned to the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#tags Item#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#tags Item#tags}
   */
   readonly tags?: string[];
   /**
   * The title of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#title Item#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#title Item#title}
   */
   readonly title?: string;
   /**
   * (Only applies to the database category) The type of database. One of ["db2" "filemaker" "msaccess" "mssql" "mysql" "oracle" "postgresql" "sqlite" "other"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#type Item#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#type Item#type}
   */
   readonly type?: string;
   /**
   * The primary URL for the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#url Item#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#url Item#url}
   */
   readonly url?: string;
   /**
   * Username for this item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#username Item#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#username Item#username}
   */
   readonly username?: string;
   /**
   * The UUID of the vault the item is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#vault Item#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#vault Item#vault}
   */
   readonly vault: string;
   /**
   * password_recipe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#password_recipe Item#password_recipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#password_recipe Item#password_recipe}
   */
   readonly passwordRecipe?: ItemPasswordRecipe[] | cdktf.IResolvable;
   /**
   * section block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#section Item#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#section Item#section}
   */
   readonly section?: ItemSection[] | cdktf.IResolvable;
 }
@@ -96,25 +96,25 @@ export interface ItemPasswordRecipe {
   /**
   * Use digits [0-9] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#digits Item#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#digits Item#digits}
   */
   readonly digits?: boolean | cdktf.IResolvable;
   /**
   * The length of the password to be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#length Item#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#length Item#length}
   */
   readonly length?: number;
   /**
   * Use letters [a-zA-Z] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#letters Item#letters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#letters Item#letters}
   */
   readonly letters?: boolean | cdktf.IResolvable;
   /**
   * Use symbols [!@.-_*] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#symbols Item#symbols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#symbols Item#symbols}
   */
   readonly symbols?: boolean | cdktf.IResolvable;
 }
@@ -319,25 +319,25 @@ export interface ItemSectionFieldPasswordRecipe {
   /**
   * Use digits [0-9] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#digits Item#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#digits Item#digits}
   */
   readonly digits?: boolean | cdktf.IResolvable;
   /**
   * The length of the password to be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#length Item#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#length Item#length}
   */
   readonly length?: number;
   /**
   * Use letters [a-zA-Z] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#letters Item#letters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#letters Item#letters}
   */
   readonly letters?: boolean | cdktf.IResolvable;
   /**
   * Use symbols [!@.-_*] when generating the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#symbols Item#symbols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#symbols Item#symbols}
   */
   readonly symbols?: boolean | cdktf.IResolvable;
 }
@@ -542,7 +542,7 @@ export interface ItemSectionField {
   /**
   * A unique identifier for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#id Item#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#id Item#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -551,31 +551,31 @@ export interface ItemSectionField {
   /**
   * The label for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#label Item#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#label Item#label}
   */
   readonly label: string;
   /**
   * Purpose indicates this is a special field: a username, password, or notes field. One of ["USERNAME" "PASSWORD" "NOTES"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#purpose Item#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#purpose Item#purpose}
   */
   readonly purpose?: string;
   /**
   * The type of value stored in the field. One of ["STRING" "CONCEALED" "EMAIL" "URL" "OTP" "DATE" "MONTH_YEAR" "MENU"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#type Item#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#type Item#type}
   */
   readonly type?: string;
   /**
   * The value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#value Item#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#value Item#value}
   */
   readonly value?: string;
   /**
   * password_recipe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#password_recipe Item#password_recipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#password_recipe Item#password_recipe}
   */
   readonly passwordRecipe?: ItemSectionFieldPasswordRecipe[] | cdktf.IResolvable;
 }
@@ -835,13 +835,13 @@ export interface ItemSection {
   /**
   * The label for the section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#label Item#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#label Item#label}
   */
   readonly label: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#field Item#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#field Item#field}
   */
   readonly field?: ItemSectionField[] | cdktf.IResolvable;
 }
@@ -988,7 +988,7 @@ export class ItemSectionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item onepassword_item}
+* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item onepassword_item}
 */
 export class Item extends cdktf.TerraformResource {
 
@@ -1004,7 +1004,7 @@ export class Item extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Item resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Item to import
-  * @param importFromId The id of the existing Item that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Item that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Item to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1016,7 +1016,7 @@ export class Item extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/2.2.0/docs/resources/item onepassword_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/2.2.1/docs/resources/item onepassword_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1027,8 +1027,8 @@ export class Item extends cdktf.TerraformResource {
       terraformResourceType: 'onepassword_item',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,83 +8,83 @@ import * as cdktf from 'cdktf';
 
 export interface DataExoscaleSksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#addons DataExoscaleSksCluster#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#addons DataExoscaleSksCluster#addons}
   */
   readonly addons?: string[];
   /**
   * The CA certificate (in PEM format) for TLS communications between the control plane and the aggregation layer (e.g. `metrics-server`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#aggregation_ca DataExoscaleSksCluster#aggregation_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#aggregation_ca DataExoscaleSksCluster#aggregation_ca}
   */
   readonly aggregationCa?: string;
   /**
   * Enable automatic upgrading of the control plane version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#auto_upgrade DataExoscaleSksCluster#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#auto_upgrade DataExoscaleSksCluster#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * The CNI plugin that is to be used. Available options are "calico" or "cilium". Defaults to "calico". Setting empty string will result in a cluster with no CNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#cni DataExoscaleSksCluster#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#cni DataExoscaleSksCluster#cni}
   */
   readonly cni?: string;
   /**
   * The CA certificate (in PEM format) for TLS communications between control plane components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#control_plane_ca DataExoscaleSksCluster#control_plane_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#control_plane_ca DataExoscaleSksCluster#control_plane_ca}
   */
   readonly controlPlaneCa?: string;
   /**
   * The cluster creation date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#created_at DataExoscaleSksCluster#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#created_at DataExoscaleSksCluster#created_at}
   */
   readonly createdAt?: string;
   /**
   * A free-form text describing the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#description DataExoscaleSksCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#description DataExoscaleSksCluster#description}
   */
   readonly description?: string;
   /**
   * Indicates whether to deploy Karpenter for cluster autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#enable_karpenter DataExoscaleSksCluster#enable_karpenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#enable_karpenter DataExoscaleSksCluster#enable_karpenter}
   */
   readonly enableKarpenter?: boolean | cdktf.IResolvable;
   /**
   * ❗ Indicates whether to deploy the Kubernetes network proxy. (may only be set at creation time)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#enable_kube_proxy DataExoscaleSksCluster#enable_kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#enable_kube_proxy DataExoscaleSksCluster#enable_kube_proxy}
   */
   readonly enableKubeProxy?: boolean | cdktf.IResolvable;
   /**
   * The cluster API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#endpoint DataExoscaleSksCluster#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#endpoint DataExoscaleSksCluster#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Deploy the Exoscale [Cloud Controller Manager](https://github.com/exoscale/exoscale-cloud-controller-manager/) in the control plane (boolean; default: `true`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#exoscale_ccm DataExoscaleSksCluster#exoscale_ccm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#exoscale_ccm DataExoscaleSksCluster#exoscale_ccm}
   */
   readonly exoscaleCcm?: boolean | cdktf.IResolvable;
   /**
   * Deploy the Exoscale [Container Storage Interface](https://github.com/exoscale/exoscale-csi-driver/) on worker nodes (boolean; default: `false`; requires the CCM to be enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#exoscale_csi DataExoscaleSksCluster#exoscale_csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#exoscale_csi DataExoscaleSksCluster#exoscale_csi}
   */
   readonly exoscaleCsi?: boolean | cdktf.IResolvable;
   /**
   * Feature gates options for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#feature_gates DataExoscaleSksCluster#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#feature_gates DataExoscaleSksCluster#feature_gates}
   */
   readonly featureGates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#id DataExoscaleSksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#id DataExoscaleSksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,63 +93,63 @@ export interface DataExoscaleSksClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * The CA certificate (in PEM format) for TLS communications between kubelets and the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#kubelet_ca DataExoscaleSksCluster#kubelet_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#kubelet_ca DataExoscaleSksCluster#kubelet_ca}
   */
   readonly kubeletCa?: string;
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#labels DataExoscaleSksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#labels DataExoscaleSksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Deploy the [Kubernetes Metrics Server](https://github.com/kubernetes-sigs/metrics-server/) in the control plane (boolean; default: `true`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#metrics_server DataExoscaleSksCluster#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#metrics_server DataExoscaleSksCluster#metrics_server}
   */
   readonly metricsServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#name DataExoscaleSksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#name DataExoscaleSksCluster#name}
   */
   readonly name?: string;
   /**
   * The list of [exoscale_sks_nodepool](./sks_nodepool.md) (IDs) attached to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#nodepools DataExoscaleSksCluster#nodepools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#nodepools DataExoscaleSksCluster#nodepools}
   */
   readonly nodepools?: string[];
   /**
   * The service level of the control plane (`pro` or `starter`; default: `pro`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#service_level DataExoscaleSksCluster#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#service_level DataExoscaleSksCluster#service_level}
   */
   readonly serviceLevel?: string;
   /**
   * The cluster state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#state DataExoscaleSksCluster#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#state DataExoscaleSksCluster#state}
   */
   readonly state?: string;
   /**
   * The version of the control plane (default: latest version available from the API; see `exo compute sks versions` for reference; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#version DataExoscaleSksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#version DataExoscaleSksCluster#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#zone DataExoscaleSksCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#zone DataExoscaleSksCluster#zone}
   */
   readonly zone: string;
   /**
   * audit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#audit DataExoscaleSksCluster#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#audit DataExoscaleSksCluster#audit}
   */
   readonly audit?: DataExoscaleSksClusterAudit;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#oidc DataExoscaleSksCluster#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#oidc DataExoscaleSksCluster#oidc}
   */
   readonly oidc?: DataExoscaleSksClusterOidc;
 }
@@ -157,25 +157,25 @@ export interface DataExoscaleSksClusterAudit {
   /**
   * The optional bearer token to include in the request header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#bearer_token DataExoscaleSksCluster#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#bearer_token DataExoscaleSksCluster#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Whether to run the APIServer with the configured Kubernetes Audit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#enabled DataExoscaleSksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#enabled DataExoscaleSksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Endpoint URL for the Webserver responsible of processing Audit events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#endpoint DataExoscaleSksCluster#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#endpoint DataExoscaleSksCluster#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The Initial Backoff to wait before sending data to the remote server (default '10s')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#initial_backoff DataExoscaleSksCluster#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#initial_backoff DataExoscaleSksCluster#initial_backoff}
   */
   readonly initialBackoff?: string;
 }
@@ -348,43 +348,43 @@ export interface DataExoscaleSksClusterOidc {
   /**
   * The OpenID client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#client_id DataExoscaleSksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#client_id DataExoscaleSksCluster#client_id}
   */
   readonly clientId: string;
   /**
   * An OpenID JWT claim to use as the user's group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#groups_claim DataExoscaleSksCluster#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#groups_claim DataExoscaleSksCluster#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * An OpenID prefix prepended to group claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#groups_prefix DataExoscaleSksCluster#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#groups_prefix DataExoscaleSksCluster#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * The OpenID provider URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#issuer_url DataExoscaleSksCluster#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#issuer_url DataExoscaleSksCluster#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * A map of key/value pairs that describes a required claim in the OpenID Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#required_claim DataExoscaleSksCluster#required_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#required_claim DataExoscaleSksCluster#required_claim}
   */
   readonly requiredClaim?: { [key: string]: string };
   /**
   * An OpenID JWT claim to use as the user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#username_claim DataExoscaleSksCluster#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#username_claim DataExoscaleSksCluster#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * An OpenID prefix prepended to username claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#username_prefix DataExoscaleSksCluster#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#username_prefix DataExoscaleSksCluster#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -636,7 +636,7 @@ export class DataExoscaleSksClusterOidcOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster exoscale_sks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster exoscale_sks_cluster}
 */
 export class DataExoscaleSksCluster extends cdktf.TerraformDataSource {
 
@@ -652,7 +652,7 @@ export class DataExoscaleSksCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleSksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleSksCluster to import
-  * @param importFromId The id of the existing DataExoscaleSksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleSksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleSksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -664,7 +664,7 @@ export class DataExoscaleSksCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/sks_cluster exoscale_sks_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/data-sources/sks_cluster exoscale_sks_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -675,8 +675,8 @@ export class DataExoscaleSksCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_sks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

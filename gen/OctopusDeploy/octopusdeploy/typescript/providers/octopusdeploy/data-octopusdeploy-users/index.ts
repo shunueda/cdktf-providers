@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataOctopusdeployUsersConfig extends cdktf.TerraformMetaArgumen
   /**
   * A filter search by username, display name or email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#filter DataOctopusdeployUsers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#filter DataOctopusdeployUsers#filter}
   */
   readonly filter?: string;
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#ids DataOctopusdeployUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#ids DataOctopusdeployUsers#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#skip DataOctopusdeployUsers#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#skip DataOctopusdeployUsers#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#space_id DataOctopusdeployUsers#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#space_id DataOctopusdeployUsers#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#take DataOctopusdeployUsers#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#take DataOctopusdeployUsers#take}
   */
   readonly take?: number;
 }
@@ -42,19 +42,19 @@ export interface DataOctopusdeployUsersUsersIdentityClaim {
   /**
   * Specifies whether or not the claim is an identifying claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#is_identifying_claim DataOctopusdeployUsers#is_identifying_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#is_identifying_claim DataOctopusdeployUsers#is_identifying_claim}
   */
   readonly isIdentifyingClaim?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#name DataOctopusdeployUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#name DataOctopusdeployUsers#name}
   */
   readonly name: string;
   /**
   * The value of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#value DataOctopusdeployUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#value DataOctopusdeployUsers#value}
   */
   readonly value: string;
 }
@@ -306,49 +306,49 @@ export interface DataOctopusdeployUsersUsers {
   /**
   * Specifies whether or not the password can be edited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#can_password_be_edited DataOctopusdeployUsers#can_password_be_edited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#can_password_be_edited DataOctopusdeployUsers#can_password_be_edited}
   */
   readonly canPasswordBeEdited?: boolean | cdktf.IResolvable;
   /**
   * The display name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#display_name DataOctopusdeployUsers#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#display_name DataOctopusdeployUsers#display_name}
   */
   readonly displayName: string;
   /**
   * The email address of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#email_address DataOctopusdeployUsers#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#email_address DataOctopusdeployUsers#email_address}
   */
   readonly emailAddress?: string;
   /**
   * The identities associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#identity DataOctopusdeployUsers#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#identity DataOctopusdeployUsers#identity}
   */
   readonly identity?: DataOctopusdeployUsersUsersIdentity[] | cdktf.IResolvable;
   /**
   * Specifies whether or not the user is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#is_active DataOctopusdeployUsers#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#is_active DataOctopusdeployUsers#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not the user is the requestor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#is_requestor DataOctopusdeployUsers#is_requestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#is_requestor DataOctopusdeployUsers#is_requestor}
   */
   readonly isRequestor?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether or not the user is a service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#is_service DataOctopusdeployUsers#is_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#is_service DataOctopusdeployUsers#is_service}
   */
   readonly isService?: boolean | cdktf.IResolvable;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#username DataOctopusdeployUsers#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#username DataOctopusdeployUsers#username}
   */
   readonly username: string;
 }
@@ -656,7 +656,7 @@ export class DataOctopusdeployUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users octopusdeploy_users}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users octopusdeploy_users}
 */
 export class DataOctopusdeployUsers extends cdktf.TerraformDataSource {
 
@@ -672,7 +672,7 @@ export class DataOctopusdeployUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployUsers to import
-  * @param importFromId The id of the existing DataOctopusdeployUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class DataOctopusdeployUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/users octopusdeploy_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/users octopusdeploy_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class DataOctopusdeployUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_users',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

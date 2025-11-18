@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface AzureSubscriptionAccountConfig extends cdktf.TerraformMetaArgum
   /**
   * The Azure environment associated with this Azure subscription account. Valid Azure environments are `AzureCloud`, `AzureChinaCloud`, `AzureGermanCloud`, or `AzureUSGovernment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#azure_environment AzureSubscriptionAccount#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#azure_environment AzureSubscriptionAccount#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * The management certificate associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#certificate AzureSubscriptionAccount#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#certificate AzureSubscriptionAccount#certificate}
   */
   readonly certificate?: string;
   /**
   * The thumbprint of the management certificate associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#certificate_thumbprint AzureSubscriptionAccount#certificate_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#certificate_thumbprint AzureSubscriptionAccount#certificate_thumbprint}
   */
   readonly certificateThumbprint?: string;
   /**
   * The description of this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#description AzureSubscriptionAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#description AzureSubscriptionAccount#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#environments AzureSubscriptionAccount#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#environments AzureSubscriptionAccount#environments}
   */
   readonly environments?: string[];
   /**
   * The management endpoint associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#management_endpoint AzureSubscriptionAccount#management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#management_endpoint AzureSubscriptionAccount#management_endpoint}
   */
   readonly managementEndpoint?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#name AzureSubscriptionAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#name AzureSubscriptionAccount#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#space_id AzureSubscriptionAccount#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#space_id AzureSubscriptionAccount#space_id}
   */
   readonly spaceId?: string;
   /**
   * The storage endpoint suffix associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#storage_endpoint_suffix AzureSubscriptionAccount#storage_endpoint_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#storage_endpoint_suffix AzureSubscriptionAccount#storage_endpoint_suffix}
   */
   readonly storageEndpointSuffix?: string;
   /**
   * The subscription ID of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#subscription_id AzureSubscriptionAccount#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#subscription_id AzureSubscriptionAccount#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * A list of tenant tags associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#tenant_tags AzureSubscriptionAccount#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#tenant_tags AzureSubscriptionAccount#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#tenanted_deployment_participation AzureSubscriptionAccount#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#tenanted_deployment_participation AzureSubscriptionAccount#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this Azure subscription account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#tenants AzureSubscriptionAccount#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#tenants AzureSubscriptionAccount#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account octopusdeploy_azure_subscription_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account octopusdeploy_azure_subscription_account}
 */
 export class AzureSubscriptionAccount extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class AzureSubscriptionAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSubscriptionAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSubscriptionAccount to import
-  * @param importFromId The id of the existing AzureSubscriptionAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSubscriptionAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSubscriptionAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class AzureSubscriptionAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/azure_subscription_account octopusdeploy_azure_subscription_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/azure_subscription_account octopusdeploy_azure_subscription_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class AzureSubscriptionAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_azure_subscription_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

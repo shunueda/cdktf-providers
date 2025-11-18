@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deployment cloud provider - required for 'STANDARD' deployments. If changing this value, the deployment will be recreated in the new cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#cloud_provider Deployment#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#cloud_provider Deployment#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * Deployment cluster identifier - required for 'HYBRID' and 'DEDICATED' deployments. If changing this value, the deployment will be recreated in the new cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#cluster_id Deployment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#cluster_id Deployment#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Deployment contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#contact_emails Deployment#contact_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#contact_emails Deployment#contact_emails}
   */
   readonly contactEmails: string[];
   /**
   * Deployment default task pod CPU - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#default_task_pod_cpu Deployment#default_task_pod_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#default_task_pod_cpu Deployment#default_task_pod_cpu}
   */
   readonly defaultTaskPodCpu?: string;
   /**
   * Deployment default task pod memory - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#default_task_pod_memory Deployment#default_task_pod_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#default_task_pod_memory Deployment#default_task_pod_memory}
   */
   readonly defaultTaskPodMemory?: string;
   /**
   * Deployment description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#description Deployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#description Deployment#description}
   */
   readonly description: string;
   /**
   * Deployment's desired workload identity. The Terraform provider will use this provided workload identity to create the Deployment. If it is not provided the workload identity will be assigned automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#desired_workload_identity Deployment#desired_workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#desired_workload_identity Deployment#desired_workload_identity}
   */
   readonly desiredWorkloadIdentity?: string;
   /**
   * Deployment environment variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#environment_variables Deployment#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#environment_variables Deployment#environment_variables}
   */
   readonly environmentVariables: DeploymentEnvironmentVariables[] | cdktf.IResolvable;
   /**
   * Deployment executor. Valid values: CELERY, KUBERNETES, ASTRO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#executor Deployment#executor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#executor Deployment#executor}
   */
   readonly executor: string;
   /**
   * Deployment CI/CD enforced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_cicd_enforced Deployment#is_cicd_enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_cicd_enforced Deployment#is_cicd_enforced}
   */
   readonly isCicdEnforced: boolean | cdktf.IResolvable;
   /**
   * Whether DAG deploy is enabled - Changing this value may disrupt your deployment. Read more at https://docs.astronomer.io/astro/deploy-dags#enable-or-disable-dag-only-deploys-on-a-deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_dag_deploy_enabled Deployment#is_dag_deploy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_dag_deploy_enabled Deployment#is_dag_deploy_enabled}
   */
   readonly isDagDeployEnabled: boolean | cdktf.IResolvable;
   /**
   * Deployment development mode - required for 'STANDARD' and 'DEDICATED' deployments. If changing from 'False' to 'True', the deployment will be recreated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_development_mode Deployment#is_development_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_development_mode Deployment#is_development_mode}
   */
   readonly isDevelopmentMode?: boolean | cdktf.IResolvable;
   /**
   * Deployment high availability - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_high_availability Deployment#is_high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_high_availability Deployment#is_high_availability}
   */
   readonly isHighAvailability?: boolean | cdktf.IResolvable;
   /**
   * Deployment name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#name Deployment#name}
   */
   readonly name: string;
   /**
   * Deployment's original Astro Runtime version. The Terraform provider will use this provided Astro runtime version to create the Deployment. The Astro runtime version can be updated with your Astro project Dockerfile, but if this value is changed, the Deployment will be recreated with this new Astro runtime version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#original_astro_runtime_version Deployment#original_astro_runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#original_astro_runtime_version Deployment#original_astro_runtime_version}
   */
   readonly originalAstroRuntimeVersion?: string;
   /**
   * Deployment region - required for 'STANDARD' deployments. If changing this value, the deployment will be recreated in the new region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#region Deployment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#region Deployment#region}
   */
   readonly region?: string;
   /**
   * Deployment remote execution configuration - only for 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#remote_execution Deployment#remote_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#remote_execution Deployment#remote_execution}
   */
   readonly remoteExecution?: DeploymentRemoteExecution;
   /**
   * Deployment resource quota CPU - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#resource_quota_cpu Deployment#resource_quota_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#resource_quota_cpu Deployment#resource_quota_cpu}
   */
   readonly resourceQuotaCpu?: string;
   /**
   * Deployment resource quota memory - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#resource_quota_memory Deployment#resource_quota_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#resource_quota_memory Deployment#resource_quota_memory}
   */
   readonly resourceQuotaMemory?: string;
   /**
   * Deployment scaling spec - only for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#scaling_spec Deployment#scaling_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#scaling_spec Deployment#scaling_spec}
   */
   readonly scalingSpec?: DeploymentScalingSpec;
   /**
   * Deployment scheduler AU - required for 'HYBRID' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#scheduler_au Deployment#scheduler_au}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#scheduler_au Deployment#scheduler_au}
   */
   readonly schedulerAu?: number;
   /**
   * Deployment scheduler replicas - required for 'HYBRID' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#scheduler_replicas Deployment#scheduler_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#scheduler_replicas Deployment#scheduler_replicas}
   */
   readonly schedulerReplicas?: number;
   /**
   * Deployment scheduler size - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#scheduler_size Deployment#scheduler_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#scheduler_size Deployment#scheduler_size}
   */
   readonly schedulerSize?: string;
   /**
   * Deployment task pod node pool identifier - required if executor is 'KUBERNETES' and type is 'HYBRID'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#task_pod_node_pool_id Deployment#task_pod_node_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#task_pod_node_pool_id Deployment#task_pod_node_pool_id}
   */
   readonly taskPodNodePoolId?: string;
   /**
   * Deployment type - if changing this value, the deployment will be recreated with the new type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#type Deployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#type Deployment#type}
   */
   readonly type: string;
   /**
   * Deployment worker queues - required for deployments with 'CELERY' executor. For 'STANDARD' and 'DEDICATED' deployments, use astro_machine. For 'HYBRID' deployments, use node_pool_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#worker_queues Deployment#worker_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#worker_queues Deployment#worker_queues}
   */
   readonly workerQueues?: DeploymentWorkerQueues[] | cdktf.IResolvable;
   /**
   * Deployment workspace identifier - if changing this value, the deployment will be recreated in the new workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#workspace_id Deployment#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#workspace_id Deployment#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -253,19 +253,19 @@ export interface DeploymentEnvironmentVariables {
   /**
   * Whether Environment variable is a secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_secret Deployment#is_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_secret Deployment#is_secret}
   */
   readonly isSecret: boolean | cdktf.IResolvable;
   /**
   * Environment variable key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#key Deployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#key Deployment#key}
   */
   readonly key: string;
   /**
   * Environment variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#value Deployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#value Deployment#value}
   */
   readonly value?: string;
 }
@@ -440,25 +440,25 @@ export interface DeploymentRemoteExecution {
   /**
   * The allowed IP address ranges for remote execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#allowed_ip_address_ranges Deployment#allowed_ip_address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#allowed_ip_address_ranges Deployment#allowed_ip_address_ranges}
   */
   readonly allowedIpAddressRanges?: string[];
   /**
   * Whether remote execution is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#enabled Deployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#enabled Deployment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The bucket for task logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#task_log_bucket Deployment#task_log_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#task_log_bucket Deployment#task_log_bucket}
   */
   readonly taskLogBucket?: string;
   /**
   * The URL pattern for task logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#task_log_url_pattern Deployment#task_log_url_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#task_log_url_pattern Deployment#task_log_url_pattern}
   */
   readonly taskLogUrlPattern?: string;
 }
@@ -641,11 +641,11 @@ export class DeploymentRemoteExecutionOutputReference extends cdktf.ComplexObjec
 }
 export interface DeploymentScalingSpecHibernationSpecOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_hibernating Deployment#is_hibernating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_hibernating Deployment#is_hibernating}
   */
   readonly isHibernating: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#override_until Deployment#override_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#override_until Deployment#override_until}
   */
   readonly overrideUntil?: string;
 }
@@ -770,19 +770,19 @@ export class DeploymentScalingSpecHibernationSpecOverrideOutputReference extends
 }
 export interface DeploymentScalingSpecHibernationSpecSchedules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#description Deployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#description Deployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#hibernate_at_cron Deployment#hibernate_at_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#hibernate_at_cron Deployment#hibernate_at_cron}
   */
   readonly hibernateAtCron: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_enabled Deployment#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_enabled Deployment#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#wake_at_cron Deployment#wake_at_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#wake_at_cron Deployment#wake_at_cron}
   */
   readonly wakeAtCron: string;
 }
@@ -978,13 +978,13 @@ export interface DeploymentScalingSpecHibernationSpec {
   /**
   * Hibernation override configuration. Set to null to remove the override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#override Deployment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#override Deployment#override}
   */
   readonly override?: DeploymentScalingSpecHibernationSpecOverride;
   /**
   * List of hibernation schedules. Set to null to remove all schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#schedules Deployment#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#schedules Deployment#schedules}
   */
   readonly schedules?: DeploymentScalingSpecHibernationSpecSchedules[] | cdktf.IResolvable;
 }
@@ -1109,7 +1109,7 @@ export interface DeploymentScalingSpec {
   /**
   * Hibernation configuration for the deployment. The deployment will hibernate according to the schedules defined in this configuration. To remove the hibernation configuration, set scaling_spec to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#hibernation_spec Deployment#hibernation_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#hibernation_spec Deployment#hibernation_spec}
   */
   readonly hibernationSpec: DeploymentScalingSpecHibernationSpec;
 }
@@ -1405,43 +1405,43 @@ export interface DeploymentWorkerQueues {
   /**
   * Worker queue Astro machine value - required for 'STANDARD' and 'DEDICATED' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#astro_machine Deployment#astro_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#astro_machine Deployment#astro_machine}
   */
   readonly astroMachine?: string;
   /**
   * Worker queue default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#is_default Deployment#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#is_default Deployment#is_default}
   */
   readonly isDefault: boolean | cdktf.IResolvable;
   /**
   * Worker queue max worker count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#max_worker_count Deployment#max_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#max_worker_count Deployment#max_worker_count}
   */
   readonly maxWorkerCount: number;
   /**
   * Worker queue min worker count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#min_worker_count Deployment#min_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#min_worker_count Deployment#min_worker_count}
   */
   readonly minWorkerCount: number;
   /**
   * Worker queue name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#name Deployment#name}
   */
   readonly name: string;
   /**
   * Worker queue Node pool identifier - required for 'HYBRID' deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#node_pool_id Deployment#node_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#node_pool_id Deployment#node_pool_id}
   */
   readonly nodePoolId?: string;
   /**
   * Worker queue worker concurrency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#worker_concurrency Deployment#worker_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#worker_concurrency Deployment#worker_concurrency}
   */
   readonly workerConcurrency: number;
 }
@@ -1726,7 +1726,7 @@ export class DeploymentWorkerQueuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment astro_deployment}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment astro_deployment}
 */
 export class Deployment extends cdktf.TerraformResource {
 
@@ -1742,7 +1742,7 @@ export class Deployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deployment to import
-  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1754,7 +1754,7 @@ export class Deployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/deployment astro_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/deployment astro_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1765,8 +1765,8 @@ export class Deployment extends cdktf.TerraformResource {
       terraformResourceType: 'astro_deployment',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

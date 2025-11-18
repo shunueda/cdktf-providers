@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,9 @@ import * as cdktf from 'cdktf';
 
 export interface DataLinodeAccountAvailabilitiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * availabilities block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#availabilities DataLinodeAccountAvailabilities#availabilities}
-  */
-  readonly availabilities?: DataLinodeAccountAvailabilitiesAvailabilities[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#filter DataLinodeAccountAvailabilities#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#filter DataLinodeAccountAvailabilities#filter}
   */
   readonly filter?: DataLinodeAccountAvailabilitiesFilter[] | cdktf.IResolvable;
 }
@@ -24,12 +18,12 @@ export interface DataLinodeAccountAvailabilitiesAvailabilities {
   /**
   * The region of this availability entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#region DataLinodeAccountAvailabilities#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#region DataLinodeAccountAvailabilities#region}
   */
   readonly region: string;
 }
 
-export function dataLinodeAccountAvailabilitiesAvailabilitiesToTerraform(struct?: DataLinodeAccountAvailabilitiesAvailabilities | cdktf.IResolvable): any {
+export function dataLinodeAccountAvailabilitiesAvailabilitiesToTerraform(struct?: DataLinodeAccountAvailabilitiesAvailabilities): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -40,7 +34,7 @@ export function dataLinodeAccountAvailabilitiesAvailabilitiesToTerraform(struct?
 }
 
 
-export function dataLinodeAccountAvailabilitiesAvailabilitiesToHclTerraform(struct?: DataLinodeAccountAvailabilitiesAvailabilities | cdktf.IResolvable): any {
+export function dataLinodeAccountAvailabilitiesAvailabilitiesToHclTerraform(struct?: DataLinodeAccountAvailabilitiesAvailabilities): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -60,7 +54,6 @@ export function dataLinodeAccountAvailabilitiesAvailabilitiesToHclTerraform(stru
 
 export class DataLinodeAccountAvailabilitiesAvailabilitiesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -72,10 +65,7 @@ export class DataLinodeAccountAvailabilitiesAvailabilitiesOutputReference extend
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeAccountAvailabilitiesAvailabilities | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeAccountAvailabilitiesAvailabilities | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._region !== undefined) {
@@ -85,19 +75,13 @@ export class DataLinodeAccountAvailabilitiesAvailabilitiesOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeAccountAvailabilitiesAvailabilities | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeAccountAvailabilitiesAvailabilities | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._region = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._region = value.region;
     }
   }
@@ -107,7 +91,7 @@ export class DataLinodeAccountAvailabilitiesAvailabilitiesOutputReference extend
     return cdktf.Fn.tolist(this.getListAttribute('available'));
   }
 
-  // region - computed: false, optional: false, required: true
+  // region - computed: true, optional: false, required: true
   private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
@@ -149,19 +133,19 @@ export interface DataLinodeAccountAvailabilitiesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#match_by DataLinodeAccountAvailabilities#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#match_by DataLinodeAccountAvailabilities#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#name DataLinodeAccountAvailabilities#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#name DataLinodeAccountAvailabilities#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#values DataLinodeAccountAvailabilities#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#values DataLinodeAccountAvailabilities#values}
   */
   readonly values: string[];
 }
@@ -329,7 +313,7 @@ export class DataLinodeAccountAvailabilitiesFilterList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities linode_account_availabilities}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities linode_account_availabilities}
 */
 export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
 
@@ -345,7 +329,7 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeAccountAvailabilities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeAccountAvailabilities to import
-  * @param importFromId The id of the existing DataLinodeAccountAvailabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeAccountAvailabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeAccountAvailabilities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +341,7 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities linode_account_availabilities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_availabilities linode_account_availabilities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +352,8 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_account_availabilities',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -379,7 +363,6 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._availabilities.internalValue = config.availabilities;
     this._filter.internalValue = config.filter;
   }
 
@@ -387,25 +370,15 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // availabilities - computed: false, optional: true, required: false
+  // availabilities - computed: true, optional: false, required: false
   private _availabilities = new DataLinodeAccountAvailabilitiesAvailabilitiesList(this, "availabilities", false);
   public get availabilities() {
     return this._availabilities;
   }
-  public putAvailabilities(value: DataLinodeAccountAvailabilitiesAvailabilities[] | cdktf.IResolvable) {
-    this._availabilities.internalValue = value;
-  }
-  public resetAvailabilities() {
-    this._availabilities.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get availabilitiesInput() {
-    return this._availabilities.internalValue;
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
   }
 
   // filter - computed: false, optional: true, required: false
@@ -430,19 +403,12 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      availabilities: cdktf.listMapper(dataLinodeAccountAvailabilitiesAvailabilitiesToTerraform, true)(this._availabilities.internalValue),
       filter: cdktf.listMapper(dataLinodeAccountAvailabilitiesFilterToTerraform, true)(this._filter.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      availabilities: {
-        value: cdktf.listMapperHcl(dataLinodeAccountAvailabilitiesAvailabilitiesToHclTerraform, true)(this._availabilities.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeAccountAvailabilitiesAvailabilitiesList",
-      },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeAccountAvailabilitiesFilterToHclTerraform, true)(this._filter.internalValue),
         isBlock: true,

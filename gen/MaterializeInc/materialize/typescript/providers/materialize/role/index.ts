@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#comment Role#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#comment Role#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#id Role#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#id Role#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,49 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the role can log in. Only available in self-hosted Materialize environments with password authentication enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#login Role#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#login Role#login}
   */
   readonly login?: boolean | cdktf.IResolvable;
   /**
   * The identifier for the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#name Role#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#name Role#name}
   */
   readonly name: string;
   /**
-  * Password for the role. Only available in self-hosted Materialize environments with password authentication enabled. Required for password-based authentication.
+  * Password for the role. Only available in self-hosted Materialize environments with password authentication enabled. Required for password-based authentication. Use password_wo for write-only ephemeral values that won't be stored in state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#password Role#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#password Role#password}
   */
   readonly password?: string;
   /**
+  * Write-only password for the role that supports ephemeral values and won't be stored in Terraform state or plan. Only available in self-hosted Materialize environments with password authentication enabled. Required for password-based authentication. Requires Terraform 1.11+. Must be used with password_wo_version.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#password_wo Role#password_wo}
+  */
+  readonly passwordWo?: string;
+  /**
+  * Version number for the write-only password. Increment this to trigger an update of the password value when using password_wo. Must be used with password_wo.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#password_wo_version Role#password_wo_version}
+  */
+  readonly passwordWoVersion?: number;
+  /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#region Role#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#region Role#region}
   */
   readonly region?: string;
   /**
   * Whether the role is a superuser. Only available in self-hosted Materialize environments with password authentication enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#superuser Role#superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#superuser Role#superuser}
   */
   readonly superuser?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role materialize_role}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role materialize_role}
 */
 export class Role extends cdktf.TerraformResource {
 
@@ -69,7 +81,7 @@ export class Role extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Role resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Role to import
-  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Role to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +93,7 @@ export class Role extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/role materialize_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role materialize_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +104,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_role',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,6 +120,8 @@ export class Role extends cdktf.TerraformResource {
     this._login = config.login;
     this._name = config.name;
     this._password = config.password;
+    this._passwordWo = config.passwordWo;
+    this._passwordWoVersion = config.passwordWoVersion;
     this._region = config.region;
     this._superuser = config.superuser;
   }
@@ -198,6 +212,38 @@ export class Role extends cdktf.TerraformResource {
     return this._password;
   }
 
+  // password_wo - computed: false, optional: true, required: false
+  private _passwordWo?: string; 
+  public get passwordWo() {
+    return this.getStringAttribute('password_wo');
+  }
+  public set passwordWo(value: string) {
+    this._passwordWo = value;
+  }
+  public resetPasswordWo() {
+    this._passwordWo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoInput() {
+    return this._passwordWo;
+  }
+
+  // password_wo_version - computed: false, optional: true, required: false
+  private _passwordWoVersion?: number; 
+  public get passwordWoVersion() {
+    return this.getNumberAttribute('password_wo_version');
+  }
+  public set passwordWoVersion(value: number) {
+    this._passwordWoVersion = value;
+  }
+  public resetPasswordWoVersion() {
+    this._passwordWoVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoVersionInput() {
+    return this._passwordWoVersion;
+  }
+
   // qualified_sql_name - computed: true, optional: false, required: false
   public get qualifiedSqlName() {
     return this.getStringAttribute('qualified_sql_name');
@@ -246,6 +292,8 @@ export class Role extends cdktf.TerraformResource {
       login: cdktf.booleanToTerraform(this._login),
       name: cdktf.stringToTerraform(this._name),
       password: cdktf.stringToTerraform(this._password),
+      password_wo: cdktf.stringToTerraform(this._passwordWo),
+      password_wo_version: cdktf.numberToTerraform(this._passwordWoVersion),
       region: cdktf.stringToTerraform(this._region),
       superuser: cdktf.booleanToTerraform(this._superuser),
     };
@@ -282,6 +330,18 @@ export class Role extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      password_wo: {
+        value: cdktf.stringToHclTerraform(this._passwordWo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      password_wo_version: {
+        value: cdktf.numberToHclTerraform(this._passwordWoVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       region: {
         value: cdktf.stringToHclTerraform(this._region),

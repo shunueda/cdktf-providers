@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCrowdstrikeCloudAwsAccountConfig extends cdktf.TerraformMet
   /**
   * Filter the results to a specific AWS Account ID. When specified, returns details for the matching AWS account. Can be used together with organization_id filter for OR matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account#account_id DataCrowdstrikeCloudAwsAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account#account_id DataCrowdstrikeCloudAwsAccount#account_id}
   */
   readonly accountId?: string;
   /**
   * Filter the results to accounts within a specific AWS Organization. When specified, returns all AWS accounts associated with this organization ID. Can be used together with account_id filter for OR matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account#organization_id DataCrowdstrikeCloudAwsAccount#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account#organization_id DataCrowdstrikeCloudAwsAccount#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -24,13 +24,13 @@ export interface DataCrowdstrikeCloudAwsAccountAccounts {
   /**
   * The prefix to be added to all resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account#resource_name_prefix DataCrowdstrikeCloudAwsAccount#resource_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account#resource_name_prefix DataCrowdstrikeCloudAwsAccount#resource_name_prefix}
   */
   readonly resourceNamePrefix?: string;
   /**
   * The suffix to be added to all resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account#resource_name_suffix DataCrowdstrikeCloudAwsAccount#resource_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account#resource_name_suffix DataCrowdstrikeCloudAwsAccount#resource_name_suffix}
   */
   readonly resourceNameSuffix?: string;
 }
@@ -119,6 +119,11 @@ export class DataCrowdstrikeCloudAwsAccountAccountsOutputReference extends cdktf
   // account_type - computed: true, optional: false, required: false
   public get accountType() {
     return this.getStringAttribute('account_type');
+  }
+
+  // agentless_scanning_role_name - computed: true, optional: false, required: false
+  public get agentlessScanningRoleName() {
+    return this.getStringAttribute('agentless_scanning_role_name');
   }
 
   // asset_inventory_enabled - computed: true, optional: false, required: false
@@ -242,6 +247,21 @@ export class DataCrowdstrikeCloudAwsAccountAccountsOutputReference extends cdktf
   public get targetOus() {
     return this.getListAttribute('target_ous');
   }
+
+  // vulnerability_scanning_enabled - computed: true, optional: false, required: false
+  public get vulnerabilityScanningEnabled() {
+    return this.getBooleanAttribute('vulnerability_scanning_enabled');
+  }
+
+  // vulnerability_scanning_role_arn - computed: true, optional: false, required: false
+  public get vulnerabilityScanningRoleArn() {
+    return this.getStringAttribute('vulnerability_scanning_role_arn');
+  }
+
+  // vulnerability_scanning_role_name - computed: true, optional: false, required: false
+  public get vulnerabilityScanningRoleName() {
+    return this.getStringAttribute('vulnerability_scanning_role_name');
+  }
 }
 
 export class DataCrowdstrikeCloudAwsAccountAccountsList extends cdktf.ComplexList {
@@ -265,7 +285,7 @@ export class DataCrowdstrikeCloudAwsAccountAccountsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account crowdstrike_cloud_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account crowdstrike_cloud_aws_account}
 */
 export class DataCrowdstrikeCloudAwsAccount extends cdktf.TerraformDataSource {
 
@@ -281,7 +301,7 @@ export class DataCrowdstrikeCloudAwsAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCrowdstrikeCloudAwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCrowdstrikeCloudAwsAccount to import
-  * @param importFromId The id of the existing DataCrowdstrikeCloudAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCrowdstrikeCloudAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCrowdstrikeCloudAwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +313,7 @@ export class DataCrowdstrikeCloudAwsAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/data-sources/cloud_aws_account crowdstrike_cloud_aws_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/data-sources/cloud_aws_account crowdstrike_cloud_aws_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +324,8 @@ export class DataCrowdstrikeCloudAwsAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'crowdstrike_cloud_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43',
-        providerVersionConstraint: '0.0.43'
+        providerVersion: '0.0.46',
+        providerVersionConstraint: '0.0.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ListeningTentacleDeploymentTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#certificate_signature_algorithm ListeningTentacleDeploymentTarget#certificate_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#certificate_signature_algorithm ListeningTentacleDeploymentTarget#certificate_signature_algorithm}
   */
   readonly certificateSignatureAlgorithm?: string;
   /**
   * A list of environment IDs associated with this listening tentacle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#environments ListeningTentacleDeploymentTarget#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#environments ListeningTentacleDeploymentTarget#environments}
   */
   readonly environments: string[];
   /**
   * Represents the health status of this deployment target. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#health_status ListeningTentacleDeploymentTarget#health_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#health_status ListeningTentacleDeploymentTarget#health_status}
   */
   readonly healthStatus?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#id ListeningTentacleDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#id ListeningTentacleDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,133 +35,133 @@ export interface ListeningTentacleDeploymentTargetConfig extends cdktf.Terraform
   /**
   * Represents the disabled status of this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#is_disabled ListeningTentacleDeploymentTarget#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#is_disabled ListeningTentacleDeploymentTarget#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Represents the in-process status of this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#is_in_process ListeningTentacleDeploymentTarget#is_in_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#is_in_process ListeningTentacleDeploymentTarget#is_in_process}
   */
   readonly isInProcess?: boolean | cdktf.IResolvable;
   /**
   * The machine policy ID that is associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#machine_policy_id ListeningTentacleDeploymentTarget#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#machine_policy_id ListeningTentacleDeploymentTarget#machine_policy_id}
   */
   readonly machinePolicyId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#name ListeningTentacleDeploymentTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#name ListeningTentacleDeploymentTarget#name}
   */
   readonly name: string;
   /**
   * The operating system that is associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#operating_system ListeningTentacleDeploymentTarget#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#operating_system ListeningTentacleDeploymentTarget#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * The proxy ID that is associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#proxy_id ListeningTentacleDeploymentTarget#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#proxy_id ListeningTentacleDeploymentTarget#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * A list of role IDs that are associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#roles ListeningTentacleDeploymentTarget#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#roles ListeningTentacleDeploymentTarget#roles}
   */
   readonly roles: string[];
   /**
   * The shell name associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#shell_name ListeningTentacleDeploymentTarget#shell_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#shell_name ListeningTentacleDeploymentTarget#shell_name}
   */
   readonly shellName?: string;
   /**
   * The shell version associated with this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#shell_version ListeningTentacleDeploymentTarget#shell_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#shell_version ListeningTentacleDeploymentTarget#shell_version}
   */
   readonly shellVersion?: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#space_id ListeningTentacleDeploymentTarget#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#space_id ListeningTentacleDeploymentTarget#space_id}
   */
   readonly spaceId?: string;
   /**
   * The status of this resource. Valid statuses are `CalamariNeedsUpgrade`, `Disabled`, `NeedsUpgrade`, `Offline`, `Online`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#status ListeningTentacleDeploymentTarget#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#status ListeningTentacleDeploymentTarget#status}
   */
   readonly status?: string;
   /**
   * A summary elaborating on the status of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#status_summary ListeningTentacleDeploymentTarget#status_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#status_summary ListeningTentacleDeploymentTarget#status_summary}
   */
   readonly statusSummary?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#tenant_tags ListeningTentacleDeploymentTarget#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#tenant_tags ListeningTentacleDeploymentTarget#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#tenanted_deployment_participation ListeningTentacleDeploymentTarget#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#tenanted_deployment_participation ListeningTentacleDeploymentTarget#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#tenants ListeningTentacleDeploymentTarget#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#tenants ListeningTentacleDeploymentTarget#tenants}
   */
   readonly tenants?: string[];
   /**
   * The tenant URL of this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#tentacle_url ListeningTentacleDeploymentTarget#tentacle_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#tentacle_url ListeningTentacleDeploymentTarget#tentacle_url}
   */
   readonly tentacleUrl: string;
   /**
   * The thumbprint of this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#thumbprint ListeningTentacleDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#thumbprint ListeningTentacleDeploymentTarget#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * The URI of this deployment target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#uri ListeningTentacleDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#uri ListeningTentacleDeploymentTarget#uri}
   */
   readonly uri?: string;
   /**
   * tentacle_version_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#tentacle_version_details ListeningTentacleDeploymentTarget#tentacle_version_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#tentacle_version_details ListeningTentacleDeploymentTarget#tentacle_version_details}
   */
   readonly tentacleVersionDetails?: ListeningTentacleDeploymentTargetTentacleVersionDetails[] | cdktf.IResolvable;
 }
 export interface ListeningTentacleDeploymentTargetTentacleVersionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#upgrade_locked ListeningTentacleDeploymentTarget#upgrade_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#upgrade_locked ListeningTentacleDeploymentTarget#upgrade_locked}
   */
   readonly upgradeLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#upgrade_required ListeningTentacleDeploymentTarget#upgrade_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#upgrade_required ListeningTentacleDeploymentTarget#upgrade_required}
   */
   readonly upgradeRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#upgrade_suggested ListeningTentacleDeploymentTarget#upgrade_suggested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#upgrade_suggested ListeningTentacleDeploymentTarget#upgrade_suggested}
   */
   readonly upgradeSuggested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#version ListeningTentacleDeploymentTarget#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#version ListeningTentacleDeploymentTarget#version}
   */
   readonly version?: string;
 }
@@ -364,7 +364,7 @@ export class ListeningTentacleDeploymentTargetTentacleVersionDetailsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target octopusdeploy_listening_tentacle_deployment_target}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target octopusdeploy_listening_tentacle_deployment_target}
 */
 export class ListeningTentacleDeploymentTarget extends cdktf.TerraformResource {
 
@@ -380,7 +380,7 @@ export class ListeningTentacleDeploymentTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ListeningTentacleDeploymentTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ListeningTentacleDeploymentTarget to import
-  * @param importFromId The id of the existing ListeningTentacleDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ListeningTentacleDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ListeningTentacleDeploymentTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class ListeningTentacleDeploymentTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_deployment_target octopusdeploy_listening_tentacle_deployment_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_deployment_target octopusdeploy_listening_tentacle_deployment_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class ListeningTentacleDeploymentTarget extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_listening_tentacle_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

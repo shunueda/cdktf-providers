@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DomainRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Domain to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#domain_id DomainRecord#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#domain_id DomainRecord#domain_id}
   */
   readonly domainId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#id DomainRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#id DomainRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface DomainRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of this Record. This field's actual usage depends on the type of record this represents. For A and AAAA records, this is the subdomain being associated with an IP address. Generated for SRV records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#name DomainRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#name DomainRecord#name}
   */
   readonly name?: string;
   /**
   * The port this Record points to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#port DomainRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#port DomainRecord#port}
   */
   readonly port?: number;
   /**
   * The priority of the target host. Lower values are preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#priority DomainRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#priority DomainRecord#priority}
   */
   readonly priority?: number;
   /**
   * The protocol this Record's service communicates with. Only valid for SRV records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#protocol DomainRecord#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#protocol DomainRecord#protocol}
   */
   readonly protocol?: string;
   /**
   * The type of Record this is in the DNS system. For example, A records associate a domain name with an IPv4 address, and AAAA records associate a domain name with an IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#record_type DomainRecord#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#record_type DomainRecord#record_type}
   */
   readonly recordType: string;
   /**
   * The service this Record identified. Only valid for SRV records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#service DomainRecord#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#service DomainRecord#service}
   */
   readonly service?: string;
   /**
   * The tag portion of a CAA record. It is invalid to set this on other record types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#tag DomainRecord#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#tag DomainRecord#tag}
   */
   readonly tag?: string;
   /**
   * The target for this Record. This field's actual usage depends on the type of record this represents. For A and AAAA records, this is the address the named Domain should resolve to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#target DomainRecord#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#target DomainRecord#target}
   */
   readonly target: string;
   /**
   * 'Time to Live' - the amount of time in seconds that this Domain's records may be cached by resolvers or other domain servers. Valid values are 30, 120, 300, 3600, 7200, 14400, 28800, 57600, 86400, 172800, 345600, 604800, 1209600, and 2419200 - any other value will be rounded to the nearest valid value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#ttl_sec DomainRecord#ttl_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#ttl_sec DomainRecord#ttl_sec}
   */
   readonly ttlSec?: number;
   /**
   * The relative weight of this Record. Higher values are preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#weight DomainRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#weight DomainRecord#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record linode_domain_record}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record linode_domain_record}
 */
 export class DomainRecord extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DomainRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainRecord to import
-  * @param importFromId The id of the existing DomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DomainRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/domain_record linode_domain_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/domain_record linode_domain_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DomainRecord extends cdktf.TerraformResource {
       terraformResourceType: 'linode_domain_record',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

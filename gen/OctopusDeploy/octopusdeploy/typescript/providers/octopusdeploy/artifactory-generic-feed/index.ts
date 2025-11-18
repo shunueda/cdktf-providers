@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface ArtifactoryGenericFeedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#feed_uri ArtifactoryGenericFeed#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#feed_uri ArtifactoryGenericFeed#feed_uri}
   */
   readonly feedUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#layout_regex ArtifactoryGenericFeed#layout_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#layout_regex ArtifactoryGenericFeed#layout_regex}
   */
   readonly layoutRegex?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#name ArtifactoryGenericFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#name ArtifactoryGenericFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#package_acquisition_location_options ArtifactoryGenericFeed#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#package_acquisition_location_options ArtifactoryGenericFeed#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#password ArtifactoryGenericFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#password ArtifactoryGenericFeed#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#repository ArtifactoryGenericFeed#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#repository ArtifactoryGenericFeed#repository}
   */
   readonly repository: string;
   /**
   * The space ID associated with this artifactory generic feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#space_id ArtifactoryGenericFeed#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#space_id ArtifactoryGenericFeed#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#username ArtifactoryGenericFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#username ArtifactoryGenericFeed#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed octopusdeploy_artifactory_generic_feed}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed octopusdeploy_artifactory_generic_feed}
 */
 export class ArtifactoryGenericFeed extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class ArtifactoryGenericFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArtifactoryGenericFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArtifactoryGenericFeed to import
-  * @param importFromId The id of the existing ArtifactoryGenericFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArtifactoryGenericFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArtifactoryGenericFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class ArtifactoryGenericFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/artifactory_generic_feed octopusdeploy_artifactory_generic_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/artifactory_generic_feed octopusdeploy_artifactory_generic_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class ArtifactoryGenericFeed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_artifactory_generic_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

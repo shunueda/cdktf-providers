@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface ServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow server reinstallation when operating_system, ssh_keys, user_data, raid, or ipxe changes. If false, only in-place updates are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#allow_reinstall Server#allow_reinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#allow_reinstall Server#allow_reinstall}
   */
   readonly allowReinstall?: boolean | cdktf.IResolvable;
   /**
   * The server billing type (hourly, monthly, yearly). Defaults to monthly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#billing Server#billing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#billing Server#billing}
   */
   readonly billing?: string;
   /**
   * The server hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#hostname Server#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#hostname Server#hostname}
   */
   readonly hostname?: string;
   /**
   * URL where iPXE script is stored on, OR the iPXE script encoded in base64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#ipxe Server#ipxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#ipxe Server#ipxe}
   */
   readonly ipxe?: string;
   /**
   * Whether the server is locked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#locked Server#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#locked Server#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The operating system for the new server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#operating_system Server#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#operating_system Server#operating_system}
   */
   readonly operatingSystem: string;
   /**
   * The plan to choose server from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#plan Server#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#plan Server#plan}
   */
   readonly plan: string;
   /**
   * The project (ID or Slug) to deploy the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#project Server#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#project Server#project}
   */
   readonly project?: string;
   /**
   * RAID mode for the server (raid-0, raid-1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#raid Server#raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#raid Server#raid}
   */
   readonly raid?: string;
   /**
-  * The site to deploy the server
+  * The site to deploy the server (case-insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#site Server#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#site Server#site}
   */
   readonly site: string;
   /**
   * SSH Keys to set on the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#ssh_keys Server#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#ssh_keys Server#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * List of server tag IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#tags Server#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#tags Server#tags}
   */
   readonly tags?: string[];
   /**
   * User data ID to assign to the server (reference to latitudesh_user_data resource)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#user_data Server#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#user_data Server#user_data}
   */
   readonly userData?: string;
 }
@@ -173,7 +173,7 @@ export class ServerInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server latitudesh_server}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server latitudesh_server}
 */
 export class Server extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class Server extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Server resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Server to import
-  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Server to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class Server extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/server latitudesh_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/server latitudesh_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_server',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2',
-        providerVersionConstraint: '2.8.2'
+        providerVersion: '2.8.3',
+        providerVersionConstraint: '2.8.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

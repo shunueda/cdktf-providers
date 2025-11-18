@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user
+// https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,307 +10,307 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of allowed IPs if applicable.  Newline delimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#allowed_ips User#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#allowed_ips User#allowed_ips}
   */
   readonly allowedIps?: string;
   /**
   * Signifies that the user has read all the announcements in the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#announcements_read User#announcements_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#announcements_read User#announcements_read}
   */
   readonly announcementsRead?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the user can user create Bundles (aka Share Links). Use the bundle permission instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#attachments_permission User#attachments_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#attachments_permission User#attachments_permission}
   */
   readonly attachmentsPermission?: boolean | cdktf.IResolvable;
   /**
   * Scheduled Date/Time at which user will be deactivated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#authenticate_until User#authenticate_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#authenticate_until User#authenticate_until}
   */
   readonly authenticateUntil?: string;
   /**
   * How is this user authenticated?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#authentication_method User#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#authentication_method User#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * If true, the avatar will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#avatar_delete User#avatar_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#avatar_delete User#avatar_delete}
   */
   readonly avatarDelete?: boolean | cdktf.IResolvable;
   /**
   * Allow this user to perform operations on the account, payments, and invoices?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#billing_permission User#billing_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#billing_permission User#billing_permission}
   */
   readonly billingPermission?: boolean | cdktf.IResolvable;
   /**
   * Allow this user to skip site-wide IP blacklists?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#bypass_site_allowed_ips User#bypass_site_allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#bypass_site_allowed_ips User#bypass_site_allowed_ips}
   */
   readonly bypassSiteAllowedIps?: boolean | cdktf.IResolvable;
   /**
   * Exempt this user from user lifecycle rules?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#bypass_user_lifecycle_rules User#bypass_user_lifecycle_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#bypass_user_lifecycle_rules User#bypass_user_lifecycle_rules}
   */
   readonly bypassUserLifecycleRules?: boolean | cdktf.IResolvable;
   /**
   * Used for changing a password on an existing user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#change_password User#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#change_password User#change_password}
   */
   readonly changePassword?: string;
   /**
   * Optional, but if provided, we will ensure that it matches the value sent in `change_password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#change_password_confirmation User#change_password_confirmation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#change_password_confirmation User#change_password_confirmation}
   */
   readonly changePasswordConfirmation?: string;
   /**
   * User's company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#company User#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#company User#company}
   */
   readonly company?: string;
   /**
   * Can the user connect with WebDAV?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#dav_permission User#dav_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#dav_permission User#dav_permission}
   */
   readonly davPermission?: boolean | cdktf.IResolvable;
   /**
   * Is user disabled? Disabled users cannot log in, and do not count for billing purposes. Users can be automatically disabled after an inactivity period via a Site setting or schedule to be deactivated after specific date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#disabled User#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#disabled User#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * User email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#email User#email}
   */
   readonly email?: string;
   /**
   * File system layout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#filesystem_layout User#filesystem_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#filesystem_layout User#filesystem_layout}
   */
   readonly filesystemLayout?: string;
   /**
   * Can the user access with FTP/FTPS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#ftp_permission User#ftp_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#ftp_permission User#ftp_permission}
   */
   readonly ftpPermission?: boolean | cdktf.IResolvable;
   /**
   * Permission to grant on the User Root upon user creation. Can be blank or `full`, `read`, `write`, `list`, `read+write`, or `list+write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#grant_permission User#grant_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#grant_permission User#grant_permission}
   */
   readonly grantPermission?: string;
   /**
   * Group ID to associate this user with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#group_id User#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#group_id User#group_id}
   */
   readonly groupId?: number;
   /**
   * Comma-separated list of group IDs of which this user is a member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#group_ids User#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#group_ids User#group_ids}
   */
   readonly groupIds?: string;
   /**
   * Text to display to the user in the header of the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#header_text User#header_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#header_text User#header_text}
   */
   readonly headerText?: string;
   /**
   * Pre-calculated hash of the user's password. If supplied, this will be used to authenticate the user on first login. Supported hash methods are MD5, SHA1, and SHA256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#imported_password_hash User#imported_password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#imported_password_hash User#imported_password_hash}
   */
   readonly importedPasswordHash?: string;
   /**
   * Preferred language
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#language User#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#language User#language}
   */
   readonly language?: string;
   /**
   * User's full name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#name User#name}
   */
   readonly name?: string;
   /**
   * Any internal notes on the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#notes User#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#notes User#notes}
   */
   readonly notes?: string;
   /**
   * Hour of the day at which daily notifications should be sent. Can be in range 0 to 23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#notification_daily_send_time User#notification_daily_send_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#notification_daily_send_time User#notification_daily_send_time}
   */
   readonly notificationDailySendTime?: number;
   /**
   * Enable integration with Office for the web?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#office_integration_enabled User#office_integration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#office_integration_enabled User#office_integration_enabled}
   */
   readonly officeIntegrationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is this user a Partner administrator?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#partner_admin User#partner_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#partner_admin User#partner_admin}
   */
   readonly partnerAdmin?: boolean | cdktf.IResolvable;
   /**
   * Partner ID if this user belongs to a Partner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#partner_id User#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#partner_id User#partner_id}
   */
   readonly partnerId?: number;
   /**
   * User password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * Optional, but if provided, we will ensure that it matches the value sent in `password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#password_confirmation User#password_confirmation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#password_confirmation User#password_confirmation}
   */
   readonly passwordConfirmation?: string;
   /**
   * Number of days to allow user to use the same password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#password_validity_days User#password_validity_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#password_validity_days User#password_validity_days}
   */
   readonly passwordValidityDays?: number;
   /**
   * Is the user an allowed to view all (non-billing) site configuration for this site?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#readonly_site_admin User#readonly_site_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#readonly_site_admin User#readonly_site_admin}
   */
   readonly readonlySiteAdmin?: boolean | cdktf.IResolvable;
   /**
   * Should the user receive admin alerts such a certificate expiration notifications and overages?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#receive_admin_alerts User#receive_admin_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#receive_admin_alerts User#receive_admin_alerts}
   */
   readonly receiveAdminAlerts?: boolean | cdktf.IResolvable;
   /**
   * 2FA required setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#require_2fa User#require_2fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#require_2fa User#require_2fa}
   */
   readonly require2Fa?: string;
   /**
   * Require user to login by specified date otherwise it will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#require_login_by User#require_login_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#require_login_by User#require_login_by}
   */
   readonly requireLoginBy?: string;
   /**
   * Is a password change required upon next user login?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#require_password_change User#require_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#require_password_change User#require_password_change}
   */
   readonly requirePasswordChange?: boolean | cdktf.IResolvable;
   /**
   * Can this user access the Web app, Desktop app, SDKs, or REST API?  (All of these tools use the API internally, so this is one unified permission set.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#restapi_permission User#restapi_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#restapi_permission User#restapi_permission}
   */
   readonly restapiPermission?: boolean | cdktf.IResolvable;
   /**
   * Does this user manage it's own credentials or is it a shared/bot user?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#self_managed User#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#self_managed User#self_managed}
   */
   readonly selfManaged?: boolean | cdktf.IResolvable;
   /**
   * Can the user access with SFTP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#sftp_permission User#sftp_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#sftp_permission User#sftp_permission}
   */
   readonly sftpPermission?: boolean | cdktf.IResolvable;
   /**
   * Is the user an administrator for this site?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#site_admin User#site_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#site_admin User#site_admin}
   */
   readonly siteAdmin?: boolean | cdktf.IResolvable;
   /**
   * Skip Welcome page in the UI?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#skip_welcome_screen User#skip_welcome_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#skip_welcome_screen User#skip_welcome_screen}
   */
   readonly skipWelcomeScreen?: boolean | cdktf.IResolvable;
   /**
   * SSL required setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#ssl_required User#ssl_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#ssl_required User#ssl_required}
   */
   readonly sslRequired?: string;
   /**
   * SSO (Single Sign On) strategy ID for the user, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#sso_strategy_id User#sso_strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#sso_strategy_id User#sso_strategy_id}
   */
   readonly ssoStrategyId?: number;
   /**
   * Is the user subscribed to the newsletter?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#subscribe_to_newsletter User#subscribe_to_newsletter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#subscribe_to_newsletter User#subscribe_to_newsletter}
   */
   readonly subscribeToNewsletter?: boolean | cdktf.IResolvable;
   /**
   * Comma-separated list of Tags for this user. Tags are used for other features, such as UserLifecycleRules, which can target specific tags.  Tags must only contain lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#tags User#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#tags User#tags}
   */
   readonly tags?: string;
   /**
   * User time zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#time_zone User#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#time_zone User#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Home folder for FTP/SFTP.  Note that this is not used for API, Desktop, or Web interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#user_home User#user_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#user_home User#user_home}
   */
   readonly userHome?: string;
   /**
   * Root folder for FTP (and optionally SFTP if the appropriate site-wide setting is set).  Note that this is not used for API, Desktop, or Web interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#user_root User#user_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#user_root User#user_root}
   */
   readonly userRoot?: string;
   /**
   * User's username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#username User#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user files_user}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user files_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/user files_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/user files_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'files_user',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.379',
-        providerVersionConstraint: '0.1.379'
+        providerVersion: '0.1.383',
+        providerVersionConstraint: '0.1.383'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

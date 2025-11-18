@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TeamRolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The roles to assign to the deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#deployment_roles TeamRoles#deployment_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#deployment_roles TeamRoles#deployment_roles}
   */
   readonly deploymentRoles?: TeamRolesDeploymentRoles[] | cdktf.IResolvable;
   /**
   * The role to assign to the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#organization_role TeamRoles#organization_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#organization_role TeamRoles#organization_role}
   */
   readonly organizationRole: string;
   /**
   * The ID of the team to assign the roles to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#team_id TeamRoles#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#team_id TeamRoles#team_id}
   */
   readonly teamId: string;
   /**
   * The roles to assign to the workspaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#workspace_roles TeamRoles#workspace_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#workspace_roles TeamRoles#workspace_roles}
   */
   readonly workspaceRoles?: TeamRolesWorkspaceRoles[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface TeamRolesDeploymentRoles {
   /**
   * The ID of the deployment to assign the role to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#deployment_id TeamRoles#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#deployment_id TeamRoles#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * The role to assign to the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#role TeamRoles#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#role TeamRoles#role}
   */
   readonly role: string;
 }
@@ -183,13 +183,13 @@ export interface TeamRolesWorkspaceRoles {
   /**
   * The role to assign to the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#role TeamRoles#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#role TeamRoles#role}
   */
   readonly role: string;
   /**
   * The ID of the workspace to assign the role to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#workspace_id TeamRoles#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#workspace_id TeamRoles#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -328,7 +328,7 @@ export class TeamRolesWorkspaceRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles astro_team_roles}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles astro_team_roles}
 */
 export class TeamRoles extends cdktf.TerraformResource {
 
@@ -344,7 +344,7 @@ export class TeamRoles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamRoles to import
-  * @param importFromId The id of the existing TeamRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class TeamRoles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/team_roles astro_team_roles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/team_roles astro_team_roles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class TeamRoles extends cdktf.TerraformResource {
       terraformResourceType: 'astro_team_roles',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

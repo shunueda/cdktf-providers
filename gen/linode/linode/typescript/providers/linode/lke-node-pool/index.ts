@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface LkeNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster to associate this node pool with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#cluster_id LkeNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#cluster_id LkeNodePool#cluster_id}
   */
   readonly clusterId: number;
   /**
   * The k8s version of the nodes in this node pool. For LKE enterprise only and may not currently available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#k8s_version LkeNodePool#k8s_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#k8s_version LkeNodePool#k8s_version}
   */
   readonly k8SVersion?: string;
   /**
   * The label of the Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#label LkeNodePool#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#label LkeNodePool#label}
   */
   readonly label?: string;
   /**
   * Key-value pairs added as labels to nodes in the node pool. Labels help classify your nodes and to easily select subsets of objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#labels LkeNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#labels LkeNodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The number of nodes in the Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#node_count LkeNodePool#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#node_count LkeNodePool#node_count}
   */
   readonly nodeCount?: number;
   /**
   * An array of tags applied to this object. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#tags LkeNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#tags LkeNodePool#tags}
   */
   readonly tags?: string[];
   /**
   * The type of node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#type LkeNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#type LkeNodePool#type}
   */
   readonly type: string;
   /**
   * The strategy for updating the node pool k8s version. For LKE enterprise only and may not currently available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#update_strategy LkeNodePool#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#update_strategy LkeNodePool#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#autoscaler LkeNodePool#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#autoscaler LkeNodePool#autoscaler}
   */
   readonly autoscaler?: LkeNodePoolAutoscaler[] | cdktf.IResolvable;
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#taint LkeNodePool#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#taint LkeNodePool#taint}
   */
   readonly taint?: LkeNodePoolTaint[] | cdktf.IResolvable;
 }
@@ -157,13 +157,13 @@ export interface LkeNodePoolAutoscaler {
   /**
   * The maximum number of nodes to automatically scale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#max LkeNodePool#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#max LkeNodePool#max}
   */
   readonly max?: number;
   /**
   * The minimum number of nodes to automatically scale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#min LkeNodePool#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#min LkeNodePool#min}
   */
   readonly min?: number;
 }
@@ -310,19 +310,19 @@ export interface LkeNodePoolTaint {
   /**
   * The Kubernetes taint effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#effect LkeNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#effect LkeNodePool#effect}
   */
   readonly effect: string;
   /**
   * The Kubernetes taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#key LkeNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#key LkeNodePool#key}
   */
   readonly key: string;
   /**
   * The Kubernetes taint value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#value LkeNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#value LkeNodePool#value}
   */
   readonly value: string;
 }
@@ -487,7 +487,7 @@ export class LkeNodePoolTaintList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool linode_lke_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool linode_lke_node_pool}
 */
 export class LkeNodePool extends cdktf.TerraformResource {
 
@@ -503,7 +503,7 @@ export class LkeNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LkeNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LkeNodePool to import
-  * @param importFromId The id of the existing LkeNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LkeNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LkeNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -515,7 +515,7 @@ export class LkeNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/lke_node_pool linode_lke_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_node_pool linode_lke_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,8 +526,8 @@ export class LkeNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'linode_lke_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

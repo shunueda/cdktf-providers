@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface UserDataConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64 encoded content of the User Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data#content UserData#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data#content UserData#content}
   */
   readonly content: string;
   /**
   * The User Data description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data#description UserData#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data#description UserData#description}
   */
   readonly description: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data latitudesh_user_data}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data latitudesh_user_data}
 */
 export class UserData extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class UserData extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserData to import
-  * @param importFromId The id of the existing UserData that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserData that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class UserData extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/user_data latitudesh_user_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/user_data latitudesh_user_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class UserData extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_user_data',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2',
-        providerVersionConstraint: '2.8.2'
+        providerVersion: '2.8.3',
+        providerVersionConstraint: '2.8.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

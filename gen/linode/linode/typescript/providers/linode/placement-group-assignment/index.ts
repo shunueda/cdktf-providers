@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface PlacementGroupAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment#compliant_only PlacementGroupAssignment#compliant_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment#compliant_only PlacementGroupAssignment#compliant_only}
   */
   readonly compliantOnly?: boolean | cdktf.IResolvable;
   /**
   * A set of Linode IDs to assign to the Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment#linode_id PlacementGroupAssignment#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment#linode_id PlacementGroupAssignment#linode_id}
   */
   readonly linodeId: number;
   /**
   * The ID of the Placement Group for this assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment#placement_group_id PlacementGroupAssignment#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment#placement_group_id PlacementGroupAssignment#placement_group_id}
   */
   readonly placementGroupId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment linode_placement_group_assignment}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment linode_placement_group_assignment}
 */
 export class PlacementGroupAssignment extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class PlacementGroupAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlacementGroupAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlacementGroupAssignment to import
-  * @param importFromId The id of the existing PlacementGroupAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlacementGroupAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlacementGroupAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class PlacementGroupAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/placement_group_assignment linode_placement_group_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group_assignment linode_placement_group_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class PlacementGroupAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'linode_placement_group_assignment',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

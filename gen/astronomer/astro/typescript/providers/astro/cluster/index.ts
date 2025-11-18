@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster cloud provider - if changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * Cluster pod subnet range - required for 'GCP' clusters. If changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#pod_subnet_range Cluster#pod_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#pod_subnet_range Cluster#pod_subnet_range}
   */
   readonly podSubnetRange?: string;
   /**
   * Cluster region - if changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#region Cluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#region Cluster#region}
   */
   readonly region: string;
   /**
   * Cluster service peering range - required for 'GCP' clusters. If changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#service_peering_range Cluster#service_peering_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#service_peering_range Cluster#service_peering_range}
   */
   readonly servicePeeringRange?: string;
   /**
   * Cluster service subnet range - required for 'GCP' clusters. If changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#service_subnet_range Cluster#service_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#service_subnet_range Cluster#service_subnet_range}
   */
   readonly serviceSubnetRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#timeouts Cluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#timeouts Cluster#timeouts}
   */
   readonly timeouts?: ClusterTimeouts;
   /**
   * Cluster type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
   /**
   * Cluster VPC subnet range. If changed, the cluster will be recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#vpc_subnet_range Cluster#vpc_subnet_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#vpc_subnet_range Cluster#vpc_subnet_range}
   */
   readonly vpcSubnetRange: string;
   /**
   * Cluster workspace IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#workspace_ids Cluster#workspace_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#workspace_ids Cluster#workspace_ids}
   */
   readonly workspaceIds: string[];
 }
@@ -399,19 +399,19 @@ export interface ClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#create Cluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#create Cluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#delete Cluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#delete Cluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#update Cluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#update Cluster#update}
   */
   readonly update?: string;
 }
@@ -563,7 +563,7 @@ export class ClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster astro_cluster}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster astro_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -579,7 +579,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -591,7 +591,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/cluster astro_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/cluster astro_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -602,8 +602,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'astro_cluster',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AntiAffinityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ A free-form text describing the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#description AntiAffinityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#description AntiAffinityGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#id AntiAffinityGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#id AntiAffinityGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,27 +23,27 @@ export interface AntiAffinityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The anti-affinity group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#name AntiAffinityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#name AntiAffinityGroup#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#timeouts AntiAffinityGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#timeouts AntiAffinityGroup#timeouts}
   */
   readonly timeouts?: AntiAffinityGroupTimeouts;
 }
 export interface AntiAffinityGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#create AntiAffinityGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#create AntiAffinityGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#delete AntiAffinityGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#delete AntiAffinityGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#read AntiAffinityGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#read AntiAffinityGroup#read}
   */
   readonly read?: string;
 }
@@ -195,7 +195,7 @@ export class AntiAffinityGroupTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group exoscale_anti_affinity_group}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group exoscale_anti_affinity_group}
 */
 export class AntiAffinityGroup extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class AntiAffinityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiAffinityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiAffinityGroup to import
-  * @param importFromId The id of the existing AntiAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiAffinityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class AntiAffinityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/anti_affinity_group exoscale_anti_affinity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/anti_affinity_group exoscale_anti_affinity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class AntiAffinityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_anti_affinity_group',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

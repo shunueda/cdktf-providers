@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface MaterializeProviderConfig {
   /**
   * The base endpoint for Materialize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#base_endpoint MaterializeProvider#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#base_endpoint MaterializeProvider#base_endpoint}
   */
   readonly baseEndpoint?: string;
   /**
   * The endpoint for the Materialize Cloud API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#cloud_endpoint MaterializeProvider#cloud_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#cloud_endpoint MaterializeProvider#cloud_endpoint}
   */
   readonly cloudEndpoint?: string;
   /**
   * The Materialize database. Can also come from the `MZ_DATABASE` environment variable. Defaults to `materialize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#database MaterializeProvider#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#database MaterializeProvider#database}
   */
   readonly database?: string;
   /**
   * The default region if not specified in the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#default_region MaterializeProvider#default_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#default_region MaterializeProvider#default_region}
   */
   readonly defaultRegion?: string;
   /**
   * The endpoint for the Materialize API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#endpoint MaterializeProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#endpoint MaterializeProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The Materialize host. Can also come from the `MZ_HOST` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#host MaterializeProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#host MaterializeProvider#host}
   */
   readonly host?: string;
   /**
   * Materialize host. Can also come from the `MZ_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#password MaterializeProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#password MaterializeProvider#password}
   */
   readonly password?: string;
   /**
   * The Materialize SQL port. Can also come from the `MZ_PORT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#port MaterializeProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#port MaterializeProvider#port}
   */
   readonly port?: number;
   /**
   * For testing purposes, the SSL mode to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#sslmode MaterializeProvider#sslmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#sslmode MaterializeProvider#sslmode}
   */
   readonly sslmode?: string;
   /**
   * The Materialize username. Can also come from the `MZ_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#username MaterializeProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#username MaterializeProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#alias MaterializeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#alias MaterializeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs materialize}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs materialize}
 */
 export class MaterializeProvider extends cdktf.TerraformProvider {
 
@@ -92,7 +92,7 @@ export class MaterializeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MaterializeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaterializeProvider to import
-  * @param importFromId The id of the existing MaterializeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaterializeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaterializeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class MaterializeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs materialize} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs materialize} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class MaterializeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'materialize',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       terraformProviderSource: 'MaterializeInc/materialize'
     });

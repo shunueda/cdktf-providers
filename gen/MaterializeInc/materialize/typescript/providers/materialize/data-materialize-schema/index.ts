@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataMaterializeSchemaConfig extends cdktf.TerraformMetaArgument
   /**
   * Limit schemas to a specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema#database_name DataMaterializeSchema#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema#database_name DataMaterializeSchema#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema#id DataMaterializeSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema#id DataMaterializeSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataMaterializeSchemaConfig extends cdktf.TerraformMetaArgument
   /**
   * The region in which the resource is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema#region DataMaterializeSchema#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema#region DataMaterializeSchema#region}
   */
   readonly region?: string;
 }
@@ -114,7 +114,7 @@ export class DataMaterializeSchemaSchemasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema materialize_schema}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema materialize_schema}
 */
 export class DataMaterializeSchema extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataMaterializeSchema extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMaterializeSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMaterializeSchema to import
-  * @param importFromId The id of the existing DataMaterializeSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMaterializeSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMaterializeSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataMaterializeSchema extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/schema materialize_schema} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/schema materialize_schema} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataMaterializeSchema extends cdktf.TerraformDataSource {
       terraformResourceType: 'materialize_schema',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,288 @@ export interface DataLinodeNodebalancersConfig extends cdktf.TerraformMetaArgume
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#order DataLinodeNodebalancers#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#order DataLinodeNodebalancers#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#order_by DataLinodeNodebalancers#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#order_by DataLinodeNodebalancers#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#filter DataLinodeNodebalancers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#filter DataLinodeNodebalancers#filter}
   */
   readonly filter?: DataLinodeNodebalancersFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeNodebalancersNodebalancersTransfer {
+}
+
+export function dataLinodeNodebalancersNodebalancersTransferToTerraform(struct?: DataLinodeNodebalancersNodebalancersTransfer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeNodebalancersNodebalancersTransferToHclTerraform(struct?: DataLinodeNodebalancersNodebalancersTransfer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeNodebalancersNodebalancersTransferOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
   /**
-  * nodebalancers block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#nodebalancers DataLinodeNodebalancers#nodebalancers}
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  readonly nodebalancers?: DataLinodeNodebalancersNodebalancers[] | cdktf.IResolvable;
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeNodebalancersNodebalancersTransfer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeNodebalancersNodebalancersTransfer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // in - computed: true, optional: false, required: false
+  public get in() {
+    return this.getNumberAttribute('in');
+  }
+
+  // out - computed: true, optional: false, required: false
+  public get out() {
+    return this.getNumberAttribute('out');
+  }
+
+  // total - computed: true, optional: false, required: false
+  public get total() {
+    return this.getNumberAttribute('total');
+  }
+}
+
+export class DataLinodeNodebalancersNodebalancersTransferList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeNodebalancersNodebalancersTransferOutputReference {
+    return new DataLinodeNodebalancersNodebalancersTransferOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataLinodeNodebalancersNodebalancers {
+  /**
+  * The unique ID of the Linode NodeBalancer.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#id DataLinodeNodebalancers#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: number;
+}
+
+export function dataLinodeNodebalancersNodebalancersToTerraform(struct?: DataLinodeNodebalancersNodebalancers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.numberToTerraform(struct!.id),
+  }
+}
+
+
+export function dataLinodeNodebalancersNodebalancersToHclTerraform(struct?: DataLinodeNodebalancersNodebalancers): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.numberToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataLinodeNodebalancersNodebalancersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeNodebalancersNodebalancers | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeNodebalancersNodebalancers | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+    }
+  }
+
+  // client_conn_throttle - computed: true, optional: false, required: false
+  public get clientConnThrottle() {
+    return this.getNumberAttribute('client_conn_throttle');
+  }
+
+  // client_udp_sess_throttle - computed: true, optional: false, required: false
+  public get clientUdpSessThrottle() {
+    return this.getNumberAttribute('client_udp_sess_throttle');
+  }
+
+  // created - computed: true, optional: false, required: false
+  public get created() {
+    return this.getStringAttribute('created');
+  }
+
+  // hostname - computed: true, optional: false, required: false
+  public get hostname() {
+    return this.getStringAttribute('hostname');
+  }
+
+  // id - computed: true, optional: false, required: true
+  private _id?: number; 
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+  public set id(value: number) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ipv4 - computed: true, optional: false, required: false
+  public get ipv4() {
+    return this.getStringAttribute('ipv4');
+  }
+
+  // ipv6 - computed: true, optional: false, required: false
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+  }
+
+  // transfer - computed: true, optional: false, required: false
+  private _transfer = new DataLinodeNodebalancersNodebalancersTransferList(this, "transfer", false);
+  public get transfer() {
+    return this._transfer;
+  }
+
+  // updated - computed: true, optional: false, required: false
+  public get updated() {
+    return this.getStringAttribute('updated');
+  }
+}
+
+export class DataLinodeNodebalancersNodebalancersList extends cdktf.ComplexList {
+  public internalValue? : DataLinodeNodebalancersNodebalancers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeNodebalancersNodebalancersOutputReference {
+    return new DataLinodeNodebalancersNodebalancersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeNodebalancersFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#match_by DataLinodeNodebalancers#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#match_by DataLinodeNodebalancers#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#name DataLinodeNodebalancers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#name DataLinodeNodebalancers#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#values DataLinodeNodebalancers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#values DataLinodeNodebalancers#values}
   */
   readonly values: string[];
 }
@@ -214,268 +457,9 @@ export class DataLinodeNodebalancersFilterList extends cdktf.ComplexList {
     return new DataLinodeNodebalancersFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeNodebalancersNodebalancersTransfer {
-}
-
-export function dataLinodeNodebalancersNodebalancersTransferToTerraform(struct?: DataLinodeNodebalancersNodebalancersTransfer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataLinodeNodebalancersNodebalancersTransferToHclTerraform(struct?: DataLinodeNodebalancersNodebalancersTransfer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataLinodeNodebalancersNodebalancersTransferOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeNodebalancersNodebalancersTransfer | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeNodebalancersNodebalancersTransfer | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // in - computed: true, optional: false, required: false
-  public get in() {
-    return this.getNumberAttribute('in');
-  }
-
-  // out - computed: true, optional: false, required: false
-  public get out() {
-    return this.getNumberAttribute('out');
-  }
-
-  // total - computed: true, optional: false, required: false
-  public get total() {
-    return this.getNumberAttribute('total');
-  }
-}
-
-export class DataLinodeNodebalancersNodebalancersTransferList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeNodebalancersNodebalancersTransferOutputReference {
-    return new DataLinodeNodebalancersNodebalancersTransferOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataLinodeNodebalancersNodebalancers {
-  /**
-  * The unique ID of the Linode NodeBalancer.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#id DataLinodeNodebalancers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id: number;
-}
-
-export function dataLinodeNodebalancersNodebalancersToTerraform(struct?: DataLinodeNodebalancersNodebalancers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    id: cdktf.numberToTerraform(struct!.id),
-  }
-}
-
-
-export function dataLinodeNodebalancersNodebalancersToHclTerraform(struct?: DataLinodeNodebalancersNodebalancers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataLinodeNodebalancersNodebalancersOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeNodebalancersNodebalancers | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeNodebalancersNodebalancers | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._id = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._id = value.id;
-    }
-  }
-
-  // client_conn_throttle - computed: true, optional: false, required: false
-  public get clientConnThrottle() {
-    return this.getNumberAttribute('client_conn_throttle');
-  }
-
-  // client_udp_sess_throttle - computed: true, optional: false, required: false
-  public get clientUdpSessThrottle() {
-    return this.getNumberAttribute('client_udp_sess_throttle');
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // hostname - computed: true, optional: false, required: false
-  public get hostname() {
-    return this.getStringAttribute('hostname');
-  }
-
-  // id - computed: false, optional: false, required: true
-  private _id?: number; 
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-  public set id(value: number) {
-    this._id = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
-
-  // ipv4 - computed: true, optional: false, required: false
-  public get ipv4() {
-    return this.getStringAttribute('ipv4');
-  }
-
-  // ipv6 - computed: true, optional: false, required: false
-  public get ipv6() {
-    return this.getStringAttribute('ipv6');
-  }
-
-  // label - computed: true, optional: false, required: false
-  public get label() {
-    return this.getStringAttribute('label');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return cdktf.Fn.tolist(this.getListAttribute('tags'));
-  }
-
-  // transfer - computed: true, optional: false, required: false
-  private _transfer = new DataLinodeNodebalancersNodebalancersTransferList(this, "transfer", false);
-  public get transfer() {
-    return this._transfer;
-  }
-
-  // updated - computed: true, optional: false, required: false
-  public get updated() {
-    return this.getStringAttribute('updated');
-  }
-}
-
-export class DataLinodeNodebalancersNodebalancersList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeNodebalancersNodebalancers[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeNodebalancersNodebalancersOutputReference {
-    return new DataLinodeNodebalancersNodebalancersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers linode_nodebalancers}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers linode_nodebalancers}
 */
 export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
 
@@ -491,7 +475,7 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNodebalancers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNodebalancers to import
-  * @param importFromId The id of the existing DataLinodeNodebalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNodebalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNodebalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +487,7 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers linode_nodebalancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancers linode_nodebalancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +498,8 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_nodebalancers',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -528,7 +512,6 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
     this._order = config.order;
     this._orderBy = config.orderBy;
     this._filter.internalValue = config.filter;
-    this._nodebalancers.internalValue = config.nodebalancers;
   }
 
   // ==========
@@ -538,6 +521,12 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // nodebalancers - computed: true, optional: false, required: false
+  private _nodebalancers = new DataLinodeNodebalancersNodebalancersList(this, "nodebalancers", false);
+  public get nodebalancers() {
+    return this._nodebalancers;
   }
 
   // order - computed: false, optional: true, required: false
@@ -588,22 +577,6 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // nodebalancers - computed: false, optional: true, required: false
-  private _nodebalancers = new DataLinodeNodebalancersNodebalancersList(this, "nodebalancers", false);
-  public get nodebalancers() {
-    return this._nodebalancers;
-  }
-  public putNodebalancers(value: DataLinodeNodebalancersNodebalancers[] | cdktf.IResolvable) {
-    this._nodebalancers.internalValue = value;
-  }
-  public resetNodebalancers() {
-    this._nodebalancers.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodebalancersInput() {
-    return this._nodebalancers.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -613,7 +586,6 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
       filter: cdktf.listMapper(dataLinodeNodebalancersFilterToTerraform, true)(this._filter.internalValue),
-      nodebalancers: cdktf.listMapper(dataLinodeNodebalancersNodebalancersToTerraform, true)(this._nodebalancers.internalValue),
     };
   }
 
@@ -636,12 +608,6 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeNodebalancersFilterList",
-      },
-      nodebalancers: {
-        value: cdktf.listMapperHcl(dataLinodeNodebalancersNodebalancersToHclTerraform, true)(this._nodebalancers.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeNodebalancersNodebalancersList",
       },
     };
 

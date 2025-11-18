@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,160 @@ export interface DataLinodeAccountLoginsConfig extends cdktf.TerraformMetaArgume
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#filter DataLinodeAccountLogins#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#filter DataLinodeAccountLogins#filter}
   */
   readonly filter?: DataLinodeAccountLoginsFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeAccountLoginsLogins {
   /**
-  * logins block
+  * The unique ID of this login object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#logins DataLinodeAccountLogins#logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#id DataLinodeAccountLogins#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
-  readonly logins?: DataLinodeAccountLoginsLogins[] | cdktf.IResolvable;
+  readonly id: number;
+}
+
+export function dataLinodeAccountLoginsLoginsToTerraform(struct?: DataLinodeAccountLoginsLogins): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.numberToTerraform(struct!.id),
+  }
+}
+
+
+export function dataLinodeAccountLoginsLoginsToHclTerraform(struct?: DataLinodeAccountLoginsLogins): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.numberToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataLinodeAccountLoginsLoginsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeAccountLoginsLogins | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeAccountLoginsLogins | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+    }
+  }
+
+  // datetime - computed: true, optional: false, required: false
+  public get datetime() {
+    return this.getStringAttribute('datetime');
+  }
+
+  // id - computed: true, optional: false, required: true
+  private _id?: number; 
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+  public set id(value: number) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ip - computed: true, optional: false, required: false
+  public get ip() {
+    return this.getStringAttribute('ip');
+  }
+
+  // restricted - computed: true, optional: false, required: false
+  public get restricted() {
+    return this.getBooleanAttribute('restricted');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+}
+
+export class DataLinodeAccountLoginsLoginsList extends cdktf.ComplexList {
+  public internalValue? : DataLinodeAccountLoginsLogins[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeAccountLoginsLoginsOutputReference {
+    return new DataLinodeAccountLoginsLoginsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeAccountLoginsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#match_by DataLinodeAccountLogins#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#match_by DataLinodeAccountLogins#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#name DataLinodeAccountLogins#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#name DataLinodeAccountLogins#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#values DataLinodeAccountLogins#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#values DataLinodeAccountLogins#values}
   */
   readonly values: string[];
 }
@@ -202,152 +329,9 @@ export class DataLinodeAccountLoginsFilterList extends cdktf.ComplexList {
     return new DataLinodeAccountLoginsFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeAccountLoginsLogins {
-  /**
-  * The unique ID of this login object.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#id DataLinodeAccountLogins#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id: number;
-}
-
-export function dataLinodeAccountLoginsLoginsToTerraform(struct?: DataLinodeAccountLoginsLogins | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    id: cdktf.numberToTerraform(struct!.id),
-  }
-}
-
-
-export function dataLinodeAccountLoginsLoginsToHclTerraform(struct?: DataLinodeAccountLoginsLogins | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataLinodeAccountLoginsLoginsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeAccountLoginsLogins | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeAccountLoginsLogins | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._id = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._id = value.id;
-    }
-  }
-
-  // datetime - computed: true, optional: false, required: false
-  public get datetime() {
-    return this.getStringAttribute('datetime');
-  }
-
-  // id - computed: false, optional: false, required: true
-  private _id?: number; 
-  public get id() {
-    return this.getNumberAttribute('id');
-  }
-  public set id(value: number) {
-    this._id = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
-
-  // ip - computed: true, optional: false, required: false
-  public get ip() {
-    return this.getStringAttribute('ip');
-  }
-
-  // restricted - computed: true, optional: false, required: false
-  public get restricted() {
-    return this.getBooleanAttribute('restricted');
-  }
-
-  // status - computed: true, optional: false, required: false
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-
-export class DataLinodeAccountLoginsLoginsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeAccountLoginsLogins[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeAccountLoginsLoginsOutputReference {
-    return new DataLinodeAccountLoginsLoginsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins linode_account_logins}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins linode_account_logins}
 */
 export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
 
@@ -363,7 +347,7 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeAccountLogins resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeAccountLogins to import
-  * @param importFromId The id of the existing DataLinodeAccountLogins that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeAccountLogins that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeAccountLogins to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +359,7 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_logins linode_account_logins} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/account_logins linode_account_logins} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +370,8 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_account_logins',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -398,7 +382,6 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._filter.internalValue = config.filter;
-    this._logins.internalValue = config.logins;
   }
 
   // ==========
@@ -408,6 +391,12 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // logins - computed: true, optional: false, required: false
+  private _logins = new DataLinodeAccountLoginsLoginsList(this, "logins", false);
+  public get logins() {
+    return this._logins;
   }
 
   // filter - computed: false, optional: true, required: false
@@ -426,22 +415,6 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // logins - computed: false, optional: true, required: false
-  private _logins = new DataLinodeAccountLoginsLoginsList(this, "logins", false);
-  public get logins() {
-    return this._logins;
-  }
-  public putLogins(value: DataLinodeAccountLoginsLogins[] | cdktf.IResolvable) {
-    this._logins.internalValue = value;
-  }
-  public resetLogins() {
-    this._logins.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get loginsInput() {
-    return this._logins.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -449,7 +422,6 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       filter: cdktf.listMapper(dataLinodeAccountLoginsFilterToTerraform, true)(this._filter.internalValue),
-      logins: cdktf.listMapper(dataLinodeAccountLoginsLoginsToTerraform, true)(this._logins.internalValue),
     };
   }
 
@@ -460,12 +432,6 @@ export class DataLinodeAccountLogins extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeAccountLoginsFilterList",
-      },
-      logins: {
-        value: cdktf.listMapperHcl(dataLinodeAccountLoginsLoginsToHclTerraform, true)(this._logins.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeAccountLoginsLoginsList",
       },
     };
 

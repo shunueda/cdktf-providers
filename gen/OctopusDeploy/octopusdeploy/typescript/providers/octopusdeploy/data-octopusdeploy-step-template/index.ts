@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOctopusdeployStepTemplateConfig extends cdktf.TerraformMeta
   /**
   * Unique identifier of the community step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template#id DataOctopusdeployStepTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template#id DataOctopusdeployStepTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataOctopusdeployStepTemplateConfig extends cdktf.TerraformMeta
   /**
   * Name of the Step Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template#name DataOctopusdeployStepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template#name DataOctopusdeployStepTemplate#name}
   */
   readonly name?: string;
   /**
   * SpaceID of the Step Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template#space_id DataOctopusdeployStepTemplate#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template#space_id DataOctopusdeployStepTemplate#space_id}
   */
   readonly spaceId?: string;
 }
@@ -520,7 +520,7 @@ export class DataOctopusdeployStepTemplateStepTemplateOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template octopusdeploy_step_template}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template octopusdeploy_step_template}
 */
 export class DataOctopusdeployStepTemplate extends cdktf.TerraformDataSource {
 
@@ -536,7 +536,7 @@ export class DataOctopusdeployStepTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployStepTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployStepTemplate to import
-  * @param importFromId The id of the existing DataOctopusdeployStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployStepTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +548,7 @@ export class DataOctopusdeployStepTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/step_template octopusdeploy_step_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/step_template octopusdeploy_step_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +559,8 @@ export class DataOctopusdeployStepTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_step_template',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ScriptModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this script module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#description ScriptModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#description ScriptModule#description}
   */
   readonly description?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#name ScriptModule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#name ScriptModule#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this Script Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#space_id ScriptModule#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#space_id ScriptModule#space_id}
   */
   readonly spaceId?: string;
   /**
   * The variable set ID for this script module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#variable_set_id ScriptModule#variable_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#variable_set_id ScriptModule#variable_set_id}
   */
   readonly variableSetId?: string;
   /**
   * script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#script ScriptModule#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#script ScriptModule#script}
   */
   readonly script?: ScriptModuleScript[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface ScriptModuleScript {
   /**
   * The body of this script module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#body ScriptModule#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#body ScriptModule#body}
   */
   readonly body: string;
   /**
   * The syntax of the script. Valid types are `Bash`, `CSharp`, `FSharp`, `PowerShell`, or `Python`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#syntax ScriptModule#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#syntax ScriptModule#syntax}
   */
   readonly syntax: string;
 }
@@ -187,7 +187,7 @@ export class ScriptModuleScriptList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module octopusdeploy_script_module}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module octopusdeploy_script_module}
 */
 export class ScriptModule extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class ScriptModule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScriptModule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScriptModule to import
-  * @param importFromId The id of the existing ScriptModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScriptModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScriptModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class ScriptModule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/script_module octopusdeploy_script_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/script_module octopusdeploy_script_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class ScriptModule extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_script_module',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

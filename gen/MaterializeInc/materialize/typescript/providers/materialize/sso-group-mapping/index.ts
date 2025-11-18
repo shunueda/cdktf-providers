@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SsoGroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SSO group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping#group SsoGroupMapping#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping#group SsoGroupMapping#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping#id SsoGroupMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping#id SsoGroupMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SsoGroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of role names associated with the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping#roles SsoGroupMapping#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping#roles SsoGroupMapping#roles}
   */
   readonly roles: string[];
   /**
   * The ID of the associated SSO configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping#sso_config_id SsoGroupMapping#sso_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping#sso_config_id SsoGroupMapping#sso_config_id}
   */
   readonly ssoConfigId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping materialize_sso_group_mapping}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping materialize_sso_group_mapping}
 */
 export class SsoGroupMapping extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SsoGroupMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SsoGroupMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoGroupMapping to import
-  * @param importFromId The id of the existing SsoGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoGroupMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SsoGroupMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_group_mapping materialize_sso_group_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_group_mapping materialize_sso_group_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SsoGroupMapping extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_sso_group_mapping',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

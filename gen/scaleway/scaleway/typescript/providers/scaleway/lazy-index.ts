@@ -80,6 +80,7 @@ Object.defineProperty(exports, 'lbBackend', { get: function () { return require(
 Object.defineProperty(exports, 'lbCertificate', { get: function () { return require('./lb-certificate'); } });
 Object.defineProperty(exports, 'lbFrontend', { get: function () { return require('./lb-frontend'); } });
 Object.defineProperty(exports, 'lbIp', { get: function () { return require('./lb-ip'); } });
+Object.defineProperty(exports, 'lbPrivateNetwork', { get: function () { return require('./lb-private-network'); } });
 Object.defineProperty(exports, 'lbRoute', { get: function () { return require('./lb-route'); } });
 Object.defineProperty(exports, 'mnqNatsAccount', { get: function () { return require('./mnq-nats-account'); } });
 Object.defineProperty(exports, 'mnqNatsCredentials', { get: function () { return require('./mnq-nats-credentials'); } });
@@ -142,6 +143,7 @@ Object.defineProperty(exports, 'dataScalewayBillingInvoices', { get: function ()
 Object.defineProperty(exports, 'dataScalewayBlockSnapshot', { get: function () { return require('./data-scaleway-block-snapshot'); } });
 Object.defineProperty(exports, 'dataScalewayBlockVolume', { get: function () { return require('./data-scaleway-block-volume'); } });
 Object.defineProperty(exports, 'dataScalewayCockpit', { get: function () { return require('./data-scaleway-cockpit'); } });
+Object.defineProperty(exports, 'dataScalewayCockpitGrafana', { get: function () { return require('./data-scaleway-cockpit-grafana'); } });
 Object.defineProperty(exports, 'dataScalewayCockpitSource', { get: function () { return require('./data-scaleway-cockpit-source'); } });
 Object.defineProperty(exports, 'dataScalewayCockpitSources', { get: function () { return require('./data-scaleway-cockpit-sources'); } });
 Object.defineProperty(exports, 'dataScalewayConfig', { get: function () { return require('./data-scaleway-config'); } });

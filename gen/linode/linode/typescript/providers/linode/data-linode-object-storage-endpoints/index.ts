@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,26 @@ export interface DataLinodeObjectStorageEndpointsConfig extends cdktf.TerraformM
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#order DataLinodeObjectStorageEndpoints#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#order DataLinodeObjectStorageEndpoints#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#order_by DataLinodeObjectStorageEndpoints#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#order_by DataLinodeObjectStorageEndpoints#order_by}
   */
   readonly orderBy?: string;
   /**
-  * endpoints block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#endpoints DataLinodeObjectStorageEndpoints#endpoints}
-  */
-  readonly endpoints?: DataLinodeObjectStorageEndpointsEndpoints[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#filter DataLinodeObjectStorageEndpoints#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#filter DataLinodeObjectStorageEndpoints#filter}
   */
   readonly filter?: DataLinodeObjectStorageEndpointsFilter[] | cdktf.IResolvable;
 }
 export interface DataLinodeObjectStorageEndpointsEndpoints {
 }
 
-export function dataLinodeObjectStorageEndpointsEndpointsToTerraform(struct?: DataLinodeObjectStorageEndpointsEndpoints | cdktf.IResolvable): any {
+export function dataLinodeObjectStorageEndpointsEndpointsToTerraform(struct?: DataLinodeObjectStorageEndpointsEndpoints): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -45,7 +39,7 @@ export function dataLinodeObjectStorageEndpointsEndpointsToTerraform(struct?: Da
 }
 
 
-export function dataLinodeObjectStorageEndpointsEndpointsToHclTerraform(struct?: DataLinodeObjectStorageEndpointsEndpoints | cdktf.IResolvable): any {
+export function dataLinodeObjectStorageEndpointsEndpointsToHclTerraform(struct?: DataLinodeObjectStorageEndpointsEndpoints): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -57,7 +51,6 @@ export function dataLinodeObjectStorageEndpointsEndpointsToHclTerraform(struct?:
 
 export class DataLinodeObjectStorageEndpointsEndpointsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -69,27 +62,18 @@ export class DataLinodeObjectStorageEndpointsEndpointsOutputReference extends cd
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeObjectStorageEndpointsEndpoints | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeObjectStorageEndpointsEndpoints | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeObjectStorageEndpointsEndpoints | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeObjectStorageEndpointsEndpoints | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -110,7 +94,6 @@ export class DataLinodeObjectStorageEndpointsEndpointsOutputReference extends cd
 }
 
 export class DataLinodeObjectStorageEndpointsEndpointsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeObjectStorageEndpointsEndpoints[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -132,19 +115,19 @@ export interface DataLinodeObjectStorageEndpointsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#match_by DataLinodeObjectStorageEndpoints#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#match_by DataLinodeObjectStorageEndpoints#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#name DataLinodeObjectStorageEndpoints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#name DataLinodeObjectStorageEndpoints#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#values DataLinodeObjectStorageEndpoints#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#values DataLinodeObjectStorageEndpoints#values}
   */
   readonly values: string[];
 }
@@ -312,7 +295,7 @@ export class DataLinodeObjectStorageEndpointsFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints}
 */
 export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource {
 
@@ -328,7 +311,7 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataLinodeObjectStorageEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeObjectStorageEndpoints to import
-  * @param importFromId The id of the existing DataLinodeObjectStorageEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeObjectStorageEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeObjectStorageEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +323,7 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +334,8 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
       terraformResourceType: 'linode_object_storage_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -364,13 +347,18 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
     });
     this._order = config.order;
     this._orderBy = config.orderBy;
-    this._endpoints.internalValue = config.endpoints;
     this._filter.internalValue = config.filter;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // endpoints - computed: true, optional: false, required: false
+  private _endpoints = new DataLinodeObjectStorageEndpointsEndpointsList(this, "endpoints", false);
+  public get endpoints() {
+    return this._endpoints;
+  }
 
   // id - computed: true, optional: false, required: false
   public get id() {
@@ -409,22 +397,6 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
     return this._orderBy;
   }
 
-  // endpoints - computed: false, optional: true, required: false
-  private _endpoints = new DataLinodeObjectStorageEndpointsEndpointsList(this, "endpoints", false);
-  public get endpoints() {
-    return this._endpoints;
-  }
-  public putEndpoints(value: DataLinodeObjectStorageEndpointsEndpoints[] | cdktf.IResolvable) {
-    this._endpoints.internalValue = value;
-  }
-  public resetEndpoints() {
-    this._endpoints.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endpointsInput() {
-    return this._endpoints.internalValue;
-  }
-
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeObjectStorageEndpointsFilterList(this, "filter", true);
   public get filter() {
@@ -449,7 +421,6 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
     return {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
-      endpoints: cdktf.listMapper(dataLinodeObjectStorageEndpointsEndpointsToTerraform, true)(this._endpoints.internalValue),
       filter: cdktf.listMapper(dataLinodeObjectStorageEndpointsFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -467,12 +438,6 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      endpoints: {
-        value: cdktf.listMapperHcl(dataLinodeObjectStorageEndpointsEndpointsToHclTerraform, true)(this._endpoints.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeObjectStorageEndpointsEndpointsList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeObjectStorageEndpointsFilterToHclTerraform, true)(this._filter.internalValue),

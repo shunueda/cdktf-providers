@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ListeningTentacleWorkerConfig extends cdktf.TerraformMetaArgume
   /**
   * When disabled, worker will not be included in any deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#is_disabled ListeningTentacleWorker#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#is_disabled ListeningTentacleWorker#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Select the machine policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#machine_policy_id ListeningTentacleWorker#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#machine_policy_id ListeningTentacleWorker#machine_policy_id}
   */
   readonly machinePolicyId: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#name ListeningTentacleWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#name ListeningTentacleWorker#name}
   */
   readonly name: string;
   /**
   * Specify the connection type for the Tentacle: direct(when not set) or via a proxy server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#proxy_id ListeningTentacleWorker#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#proxy_id ListeningTentacleWorker#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * The space ID associated with this Listening tentacle worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#space_id ListeningTentacleWorker#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#space_id ListeningTentacleWorker#space_id}
   */
   readonly spaceId?: string;
   /**
   * The X509 certificate thumbprint that securely identifies the Tentacle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#thumbprint ListeningTentacleWorker#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#thumbprint ListeningTentacleWorker#thumbprint}
   */
   readonly thumbprint: string;
   /**
   * The network address at which the Tentacle can be reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#uri ListeningTentacleWorker#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#uri ListeningTentacleWorker#uri}
   */
   readonly uri: string;
   /**
   * Select at least one worker pool for the worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#worker_pool_ids ListeningTentacleWorker#worker_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#worker_pool_ids ListeningTentacleWorker#worker_pool_ids}
   */
   readonly workerPoolIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker octopusdeploy_listening_tentacle_worker}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker octopusdeploy_listening_tentacle_worker}
 */
 export class ListeningTentacleWorker extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class ListeningTentacleWorker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ListeningTentacleWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ListeningTentacleWorker to import
-  * @param importFromId The id of the existing ListeningTentacleWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ListeningTentacleWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ListeningTentacleWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class ListeningTentacleWorker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/listening_tentacle_worker octopusdeploy_listening_tentacle_worker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/listening_tentacle_worker octopusdeploy_listening_tentacle_worker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class ListeningTentacleWorker extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_listening_tentacle_worker',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

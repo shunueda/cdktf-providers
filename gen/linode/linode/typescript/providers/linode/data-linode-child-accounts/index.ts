@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,16 @@ import * as cdktf from 'cdktf';
 
 export interface DataLinodeChildAccountsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * child_accounts block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#child_accounts DataLinodeChildAccounts#child_accounts}
-  */
-  readonly childAccounts?: DataLinodeChildAccountsChildAccounts[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#filter DataLinodeChildAccounts#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts#filter DataLinodeChildAccounts#filter}
   */
   readonly filter?: DataLinodeChildAccountsFilter[] | cdktf.IResolvable;
 }
 export interface DataLinodeChildAccountsChildAccounts {
 }
 
-export function dataLinodeChildAccountsChildAccountsToTerraform(struct?: DataLinodeChildAccountsChildAccounts | cdktf.IResolvable): any {
+export function dataLinodeChildAccountsChildAccountsToTerraform(struct?: DataLinodeChildAccountsChildAccounts): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -33,7 +27,7 @@ export function dataLinodeChildAccountsChildAccountsToTerraform(struct?: DataLin
 }
 
 
-export function dataLinodeChildAccountsChildAccountsToHclTerraform(struct?: DataLinodeChildAccountsChildAccounts | cdktf.IResolvable): any {
+export function dataLinodeChildAccountsChildAccountsToHclTerraform(struct?: DataLinodeChildAccountsChildAccounts): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -45,7 +39,6 @@ export function dataLinodeChildAccountsChildAccountsToHclTerraform(struct?: Data
 
 export class DataLinodeChildAccountsChildAccountsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -57,27 +50,18 @@ export class DataLinodeChildAccountsChildAccountsOutputReference extends cdktf.C
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeChildAccountsChildAccounts | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeChildAccountsChildAccounts | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeChildAccountsChildAccounts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeChildAccountsChildAccounts | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -163,7 +147,6 @@ export class DataLinodeChildAccountsChildAccountsOutputReference extends cdktf.C
 }
 
 export class DataLinodeChildAccountsChildAccountsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeChildAccountsChildAccounts[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -185,19 +168,19 @@ export interface DataLinodeChildAccountsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#match_by DataLinodeChildAccounts#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts#match_by DataLinodeChildAccounts#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#name DataLinodeChildAccounts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts#name DataLinodeChildAccounts#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#values DataLinodeChildAccounts#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts#values DataLinodeChildAccounts#values}
   */
   readonly values: string[];
 }
@@ -365,7 +348,7 @@ export class DataLinodeChildAccountsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts linode_child_accounts}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts linode_child_accounts}
 */
 export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
 
@@ -381,7 +364,7 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeChildAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeChildAccounts to import
-  * @param importFromId The id of the existing DataLinodeChildAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeChildAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeChildAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +376,7 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts linode_child_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/child_accounts linode_child_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +387,8 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_child_accounts',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -415,7 +398,6 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._childAccounts.internalValue = config.childAccounts;
     this._filter.internalValue = config.filter;
   }
 
@@ -423,25 +405,15 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // child_accounts - computed: false, optional: true, required: false
+  // child_accounts - computed: true, optional: false, required: false
   private _childAccounts = new DataLinodeChildAccountsChildAccountsList(this, "child_accounts", false);
   public get childAccounts() {
     return this._childAccounts;
   }
-  public putChildAccounts(value: DataLinodeChildAccountsChildAccounts[] | cdktf.IResolvable) {
-    this._childAccounts.internalValue = value;
-  }
-  public resetChildAccounts() {
-    this._childAccounts.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get childAccountsInput() {
-    return this._childAccounts.internalValue;
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
   }
 
   // filter - computed: false, optional: true, required: false
@@ -466,19 +438,12 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      child_accounts: cdktf.listMapper(dataLinodeChildAccountsChildAccountsToTerraform, true)(this._childAccounts.internalValue),
       filter: cdktf.listMapper(dataLinodeChildAccountsFilterToTerraform, true)(this._filter.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      child_accounts: {
-        value: cdktf.listMapperHcl(dataLinodeChildAccountsChildAccountsToHclTerraform, true)(this._childAccounts.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeChildAccountsChildAccountsList",
-      },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeChildAccountsFilterToHclTerraform, true)(this._filter.internalValue),
         isBlock: true,

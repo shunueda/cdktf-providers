@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,187 @@ export interface DataLinodeKernelsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#order DataLinodeKernels#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#order DataLinodeKernels#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#order_by DataLinodeKernels#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#order_by DataLinodeKernels#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#filter DataLinodeKernels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#filter DataLinodeKernels#filter}
   */
   readonly filter?: DataLinodeKernelsFilter[] | cdktf.IResolvable;
+}
+export interface DataLinodeKernelsKernels {
   /**
-  * kernels block
+  * The unique ID of this Kernel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#kernels DataLinodeKernels#kernels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#id DataLinodeKernels#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
-  readonly kernels?: DataLinodeKernelsKernels[] | cdktf.IResolvable;
+  readonly id: string;
+}
+
+export function dataLinodeKernelsKernelsToTerraform(struct?: DataLinodeKernelsKernels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function dataLinodeKernelsKernelsToHclTerraform(struct?: DataLinodeKernelsKernels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataLinodeKernelsKernelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeKernelsKernels | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeKernelsKernels | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+    }
+  }
+
+  // architecture - computed: true, optional: false, required: false
+  public get architecture() {
+    return this.getStringAttribute('architecture');
+  }
+
+  // built - computed: true, optional: false, required: false
+  public get built() {
+    return this.getStringAttribute('built');
+  }
+
+  // deprecated - computed: true, optional: false, required: false
+  public get deprecated() {
+    return this.getBooleanAttribute('deprecated');
+  }
+
+  // id - computed: true, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // kvm - computed: true, optional: false, required: false
+  public get kvm() {
+    return this.getBooleanAttribute('kvm');
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // pvops - computed: true, optional: false, required: false
+  public get pvops() {
+    return this.getBooleanAttribute('pvops');
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+
+  // xen - computed: true, optional: false, required: false
+  public get xen() {
+    return this.getBooleanAttribute('xen');
+  }
+}
+
+export class DataLinodeKernelsKernelsList extends cdktf.ComplexList {
+  public internalValue? : DataLinodeKernelsKernels[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeKernelsKernelsOutputReference {
+    return new DataLinodeKernelsKernelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataLinodeKernelsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#match_by DataLinodeKernels#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#match_by DataLinodeKernels#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#name DataLinodeKernels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#name DataLinodeKernels#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#values DataLinodeKernels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#values DataLinodeKernels#values}
   */
   readonly values: string[];
 }
@@ -214,167 +356,9 @@ export class DataLinodeKernelsFilterList extends cdktf.ComplexList {
     return new DataLinodeKernelsFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataLinodeKernelsKernels {
-  /**
-  * The unique ID of this Kernel.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#id DataLinodeKernels#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id: string;
-}
-
-export function dataLinodeKernelsKernelsToTerraform(struct?: DataLinodeKernelsKernels | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    id: cdktf.stringToTerraform(struct!.id),
-  }
-}
-
-
-export function dataLinodeKernelsKernelsToHclTerraform(struct?: DataLinodeKernelsKernels | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataLinodeKernelsKernelsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeKernelsKernels | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeKernelsKernels | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._id = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._id = value.id;
-    }
-  }
-
-  // architecture - computed: true, optional: false, required: false
-  public get architecture() {
-    return this.getStringAttribute('architecture');
-  }
-
-  // built - computed: true, optional: false, required: false
-  public get built() {
-    return this.getStringAttribute('built');
-  }
-
-  // deprecated - computed: true, optional: false, required: false
-  public get deprecated() {
-    return this.getBooleanAttribute('deprecated');
-  }
-
-  // id - computed: false, optional: false, required: true
-  private _id?: string; 
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
-
-  // kvm - computed: true, optional: false, required: false
-  public get kvm() {
-    return this.getBooleanAttribute('kvm');
-  }
-
-  // label - computed: true, optional: false, required: false
-  public get label() {
-    return this.getStringAttribute('label');
-  }
-
-  // pvops - computed: true, optional: false, required: false
-  public get pvops() {
-    return this.getBooleanAttribute('pvops');
-  }
-
-  // version - computed: true, optional: false, required: false
-  public get version() {
-    return this.getStringAttribute('version');
-  }
-
-  // xen - computed: true, optional: false, required: false
-  public get xen() {
-    return this.getBooleanAttribute('xen');
-  }
-}
-
-export class DataLinodeKernelsKernelsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeKernelsKernels[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeKernelsKernelsOutputReference {
-    return new DataLinodeKernelsKernelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels linode_kernels}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels linode_kernels}
 */
 export class DataLinodeKernels extends cdktf.TerraformDataSource {
 
@@ -390,7 +374,7 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeKernels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeKernels to import
-  * @param importFromId The id of the existing DataLinodeKernels that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeKernels that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeKernels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +386,7 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/kernels linode_kernels} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/kernels linode_kernels} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +397,8 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_kernels',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -427,7 +411,6 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
     this._order = config.order;
     this._orderBy = config.orderBy;
     this._filter.internalValue = config.filter;
-    this._kernels.internalValue = config.kernels;
   }
 
   // ==========
@@ -437,6 +420,12 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // kernels - computed: true, optional: false, required: false
+  private _kernels = new DataLinodeKernelsKernelsList(this, "kernels", false);
+  public get kernels() {
+    return this._kernels;
   }
 
   // order - computed: false, optional: true, required: false
@@ -487,22 +476,6 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // kernels - computed: false, optional: true, required: false
-  private _kernels = new DataLinodeKernelsKernelsList(this, "kernels", false);
-  public get kernels() {
-    return this._kernels;
-  }
-  public putKernels(value: DataLinodeKernelsKernels[] | cdktf.IResolvable) {
-    this._kernels.internalValue = value;
-  }
-  public resetKernels() {
-    this._kernels.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kernelsInput() {
-    return this._kernels.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -512,7 +485,6 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
       filter: cdktf.listMapper(dataLinodeKernelsFilterToTerraform, true)(this._filter.internalValue),
-      kernels: cdktf.listMapper(dataLinodeKernelsKernelsToTerraform, true)(this._kernels.internalValue),
     };
   }
 
@@ -535,12 +507,6 @@ export class DataLinodeKernels extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeKernelsFilterList",
-      },
-      kernels: {
-        value: cdktf.listMapperHcl(dataLinodeKernelsKernelsToHclTerraform, true)(this._kernels.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeKernelsKernelsList",
       },
     };
 

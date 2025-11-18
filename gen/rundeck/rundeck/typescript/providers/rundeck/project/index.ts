@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project
+// https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#default_node_executor_plugin Project#default_node_executor_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#default_node_executor_plugin Project#default_node_executor_plugin}
   */
   readonly defaultNodeExecutorPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#default_node_file_copier_plugin Project#default_node_file_copier_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#default_node_file_copier_plugin Project#default_node_file_copier_plugin}
   */
   readonly defaultNodeFileCopierPlugin?: string;
   /**
   * Description of the project to be shown in the Rundeck UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * Additional raw configuration parameters to include in the project configuration, with dots replaced with slashes in the key names due to limitations in Terraform's config language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#extra_config Project#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#extra_config Project#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,25 +37,25 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique name for the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#ssh_authentication_type Project#ssh_authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_authentication_type Project#ssh_authentication_type}
   */
   readonly sshAuthenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#ssh_key_file_path Project#ssh_key_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_key_file_path Project#ssh_key_file_path}
   */
   readonly sshKeyFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#ssh_key_storage_path Project#ssh_key_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#ssh_key_storage_path Project#ssh_key_storage_path}
   */
   readonly sshKeyStoragePath?: string;
   /**
   * resource_model_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#resource_model_source Project#resource_model_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#resource_model_source Project#resource_model_source}
   */
   readonly resourceModelSource: ProjectResourceModelSource[] | cdktf.IResolvable;
 }
@@ -63,13 +63,13 @@ export interface ProjectResourceModelSource {
   /**
   * Configuration parameters for the selected plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#config Project#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#config Project#config}
   */
   readonly config: { [key: string]: string };
   /**
   * Name of the resource model plugin to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#type Project#type}
   */
   readonly type: string;
 }
@@ -208,7 +208,7 @@ export class ProjectResourceModelSourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project rundeck_project}
+* Represents a {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project rundeck_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.2/docs/resources/project rundeck_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rundeck/rundeck/0.5.5/docs/resources/project rundeck_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'rundeck_project',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.2',
-        providerVersionConstraint: '0.5.2'
+        providerVersion: '0.5.5',
+        providerVersionConstraint: '0.5.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

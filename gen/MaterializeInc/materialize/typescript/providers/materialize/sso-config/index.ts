@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SsoConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether SSO is enabled or not. If enabled, users will be redirected to the SSO endpoint for authentication. The configuration needs to be valid for SSO to work.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#enabled SsoConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#enabled SsoConfig#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#id SsoConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#id SsoConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface SsoConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The client ID of the OIDC application. This is used to identify the application to the OIDC service. This is required if the type is OIDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#oidc_client_id SsoConfig#oidc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#oidc_client_id SsoConfig#oidc_client_id}
   */
   readonly oidcClientId?: string;
   /**
   * The client secret of the OIDC application. This is used to authenticate the application to the OIDC service. This is required if the type is OIDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#oidc_secret SsoConfig#oidc_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#oidc_secret SsoConfig#oidc_secret}
   */
   readonly oidcSecret?: string;
   /**
   * The public certificate of the SSO service. This is used to verify the SSO response. The certificate must be in PEM format. The certificate must be accessible from the browser. If the certificate is not accessible from the browser, you can use the public certificate of the Identity Provider (IdP) instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#public_certificate SsoConfig#public_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#public_certificate SsoConfig#public_certificate}
   */
   readonly publicCertificate: string;
   /**
   * Indicates whether the SSO request needs to be digitally signed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#sign_request SsoConfig#sign_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#sign_request SsoConfig#sign_request}
   */
   readonly signRequest: boolean | cdktf.IResolvable;
   /**
   * The URL endpoint for the SSO service. This is the URL that users will be redirected to for authentication. The URL must be accessible from the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#sso_endpoint SsoConfig#sso_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#sso_endpoint SsoConfig#sso_endpoint}
   */
   readonly ssoEndpoint: string;
   /**
   * Defines the type of SSO protocol being used (e.g., saml, oidc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#type SsoConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#type SsoConfig#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config materialize_sso_config}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config materialize_sso_config}
 */
 export class SsoConfig extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class SsoConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SsoConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoConfig to import
-  * @param importFromId The id of the existing SsoConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class SsoConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/sso_config materialize_sso_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/sso_config materialize_sso_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class SsoConfig extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_sso_config',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

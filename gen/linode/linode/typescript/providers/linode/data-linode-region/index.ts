@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,18 +10,12 @@ export interface DataLinodeRegionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID of this Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region#id DataLinodeRegion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/region#id DataLinodeRegion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
-  /**
-  * resolvers block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region#resolvers DataLinodeRegion#resolvers}
-  */
-  readonly resolvers?: DataLinodeRegionResolvers[] | cdktf.IResolvable;
 }
 export interface DataLinodeRegionPlacementGroupLimits {
 }
@@ -106,7 +100,7 @@ export class DataLinodeRegionPlacementGroupLimitsList extends cdktf.ComplexList 
 export interface DataLinodeRegionResolvers {
 }
 
-export function dataLinodeRegionResolversToTerraform(struct?: DataLinodeRegionResolvers | cdktf.IResolvable): any {
+export function dataLinodeRegionResolversToTerraform(struct?: DataLinodeRegionResolvers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -116,7 +110,7 @@ export function dataLinodeRegionResolversToTerraform(struct?: DataLinodeRegionRe
 }
 
 
-export function dataLinodeRegionResolversToHclTerraform(struct?: DataLinodeRegionResolvers | cdktf.IResolvable): any {
+export function dataLinodeRegionResolversToHclTerraform(struct?: DataLinodeRegionResolvers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -128,7 +122,6 @@ export function dataLinodeRegionResolversToHclTerraform(struct?: DataLinodeRegio
 
 export class DataLinodeRegionResolversOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -140,27 +133,18 @@ export class DataLinodeRegionResolversOutputReference extends cdktf.ComplexObjec
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeRegionResolvers | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeRegionResolvers | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeRegionResolvers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeRegionResolvers | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -176,7 +160,6 @@ export class DataLinodeRegionResolversOutputReference extends cdktf.ComplexObjec
 }
 
 export class DataLinodeRegionResolversList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeRegionResolvers[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -196,7 +179,7 @@ export class DataLinodeRegionResolversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region linode_region}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/region linode_region}
 */
 export class DataLinodeRegion extends cdktf.TerraformDataSource {
 
@@ -212,7 +195,7 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeRegion to import
-  * @param importFromId The id of the existing DataLinodeRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +207,7 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/region linode_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/region linode_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +218,8 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_region',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -247,7 +230,6 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._resolvers.internalValue = config.resolvers;
   }
 
   // ==========
@@ -288,6 +270,12 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
     return this._placementGroupLimits;
   }
 
+  // resolvers - computed: true, optional: false, required: false
+  private _resolvers = new DataLinodeRegionResolversList(this, "resolvers", false);
+  public get resolvers() {
+    return this._resolvers;
+  }
+
   // site_type - computed: true, optional: false, required: false
   public get siteType() {
     return this.getStringAttribute('site_type');
@@ -298,22 +286,6 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
     return this.getStringAttribute('status');
   }
 
-  // resolvers - computed: false, optional: true, required: false
-  private _resolvers = new DataLinodeRegionResolversList(this, "resolvers", false);
-  public get resolvers() {
-    return this._resolvers;
-  }
-  public putResolvers(value: DataLinodeRegionResolvers[] | cdktf.IResolvable) {
-    this._resolvers.internalValue = value;
-  }
-  public resetResolvers() {
-    this._resolvers.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get resolversInput() {
-    return this._resolvers.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -321,7 +293,6 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      resolvers: cdktf.listMapper(dataLinodeRegionResolversToTerraform, true)(this._resolvers.internalValue),
     };
   }
 
@@ -332,12 +303,6 @@ export class DataLinodeRegion extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      resolvers: {
-        value: cdktf.listMapperHcl(dataLinodeRegionResolversToHclTerraform, true)(this._resolvers.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeRegionResolversList",
       },
     };
 

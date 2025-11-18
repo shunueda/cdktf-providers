@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,15 @@ export interface DataLinodeLkeVersionsConfig extends cdktf.TerraformMetaArgument
   /**
   * The tier of the LKE versions, either standard or enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions#tier DataLinodeLkeVersions#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions#tier DataLinodeLkeVersions#tier}
   */
   readonly tier?: string;
-  /**
-  * versions block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions#versions DataLinodeLkeVersions#versions}
-  */
-  readonly versions?: DataLinodeLkeVersionsVersions[] | cdktf.IResolvable;
 }
 export interface DataLinodeLkeVersionsVersions {
   /**
   * The unique ID assigned to this LKE version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions#id DataLinodeLkeVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions#id DataLinodeLkeVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,12 +27,12 @@ export interface DataLinodeLkeVersionsVersions {
   /**
   * The tier of the LKE version, either standard or enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions#tier DataLinodeLkeVersions#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions#tier DataLinodeLkeVersions#tier}
   */
   readonly tier?: string;
 }
 
-export function dataLinodeLkeVersionsVersionsToTerraform(struct?: DataLinodeLkeVersionsVersions | cdktf.IResolvable): any {
+export function dataLinodeLkeVersionsVersionsToTerraform(struct?: DataLinodeLkeVersionsVersions): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -50,7 +44,7 @@ export function dataLinodeLkeVersionsVersionsToTerraform(struct?: DataLinodeLkeV
 }
 
 
-export function dataLinodeLkeVersionsVersionsToHclTerraform(struct?: DataLinodeLkeVersionsVersions | cdktf.IResolvable): any {
+export function dataLinodeLkeVersionsVersionsToHclTerraform(struct?: DataLinodeLkeVersionsVersions): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -76,7 +70,6 @@ export function dataLinodeLkeVersionsVersionsToHclTerraform(struct?: DataLinodeL
 
 export class DataLinodeLkeVersionsVersionsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -88,10 +81,7 @@ export class DataLinodeLkeVersionsVersionsOutputReference extends cdktf.ComplexO
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeLkeVersionsVersions | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeLkeVersionsVersions | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._id !== undefined) {
@@ -105,26 +95,20 @@ export class DataLinodeLkeVersionsVersionsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeLkeVersionsVersions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeLkeVersionsVersions | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._id = undefined;
       this._tier = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._id = value.id;
       this._tier = value.tier;
     }
   }
 
-  // id - computed: false, optional: false, required: true
+  // id - computed: true, optional: false, required: true
   private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
@@ -175,7 +159,7 @@ export class DataLinodeLkeVersionsVersionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions linode_lke_versions}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions linode_lke_versions}
 */
 export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
 
@@ -191,7 +175,7 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeLkeVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeLkeVersions to import
-  * @param importFromId The id of the existing DataLinodeLkeVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeLkeVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeLkeVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +187,7 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_versions linode_lke_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_versions linode_lke_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +198,8 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_lke_versions',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -226,7 +210,6 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._tier = config.tier;
-    this._versions.internalValue = config.versions;
   }
 
   // ==========
@@ -254,20 +237,10 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
     return this._tier;
   }
 
-  // versions - computed: false, optional: true, required: false
+  // versions - computed: true, optional: false, required: false
   private _versions = new DataLinodeLkeVersionsVersionsList(this, "versions", false);
   public get versions() {
     return this._versions;
-  }
-  public putVersions(value: DataLinodeLkeVersionsVersions[] | cdktf.IResolvable) {
-    this._versions.internalValue = value;
-  }
-  public resetVersions() {
-    this._versions.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get versionsInput() {
-    return this._versions.internalValue;
   }
 
   // =========
@@ -277,7 +250,6 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       tier: cdktf.stringToTerraform(this._tier),
-      versions: cdktf.listMapper(dataLinodeLkeVersionsVersionsToTerraform, true)(this._versions.internalValue),
     };
   }
 
@@ -288,12 +260,6 @@ export class DataLinodeLkeVersions extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      versions: {
-        value: cdktf.listMapperHcl(dataLinodeLkeVersionsVersionsToHclTerraform, true)(this._versions.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeLkeVersionsVersionsList",
       },
     };
 

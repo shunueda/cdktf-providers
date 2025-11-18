@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,226 +10,23 @@ export interface DataLinodeUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#order DataLinodeUsers#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#order DataLinodeUsers#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#order_by DataLinodeUsers#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#order_by DataLinodeUsers#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#filter DataLinodeUsers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#filter DataLinodeUsers#filter}
   */
   readonly filter?: DataLinodeUsersFilter[] | cdktf.IResolvable;
-  /**
-  * users block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#users DataLinodeUsers#users}
-  */
-  readonly users?: DataLinodeUsersUsers[] | cdktf.IResolvable;
-}
-export interface DataLinodeUsersFilter {
-  /**
-  * The type of comparison to use for this filter.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#match_by DataLinodeUsers#match_by}
-  */
-  readonly matchBy?: string;
-  /**
-  * The name of the attribute to filter on.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#name DataLinodeUsers#name}
-  */
-  readonly name: string;
-  /**
-  * The value(s) to be used in the filter.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#values DataLinodeUsers#values}
-  */
-  readonly values: string[];
-}
-
-export function dataLinodeUsersFilterToTerraform(struct?: DataLinodeUsersFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    match_by: cdktf.stringToTerraform(struct!.matchBy),
-    name: cdktf.stringToTerraform(struct!.name),
-    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
-  }
-}
-
-
-export function dataLinodeUsersFilterToHclTerraform(struct?: DataLinodeUsersFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    match_by: {
-      value: cdktf.stringToHclTerraform(struct!.matchBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DataLinodeUsersFilterOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataLinodeUsersFilter | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._matchBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.matchBy = this._matchBy;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._values !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.values = this._values;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataLinodeUsersFilter | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._matchBy = undefined;
-      this._name = undefined;
-      this._values = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._matchBy = value.matchBy;
-      this._name = value.name;
-      this._values = value.values;
-    }
-  }
-
-  // match_by - computed: false, optional: true, required: false
-  private _matchBy?: string; 
-  public get matchBy() {
-    return this.getStringAttribute('match_by');
-  }
-  public set matchBy(value: string) {
-    this._matchBy = value;
-  }
-  public resetMatchBy() {
-    this._matchBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get matchByInput() {
-    return this._matchBy;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // values - computed: false, optional: false, required: true
-  private _values?: string[]; 
-  public get values() {
-    return cdktf.Fn.tolist(this.getListAttribute('values'));
-  }
-  public set values(value: string[]) {
-    this._values = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valuesInput() {
-    return this._values;
-  }
-}
-
-export class DataLinodeUsersFilterList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeUsersFilter[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataLinodeUsersFilterOutputReference {
-    return new DataLinodeUsersFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
 }
 export interface DataLinodeUsersUsersDatabaseGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersDatabaseGrantToTerraform(struct?: DataLinodeUsersUsersDatabaseGrant | cdktf.IResolvable): any {
@@ -238,9 +35,6 @@ export function dataLinodeUsersUsersDatabaseGrantToTerraform(struct?: DataLinode
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -251,28 +45,8 @@ export function dataLinodeUsersUsersDatabaseGrantToHclTerraform(struct?: DataLin
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersDatabaseGrantOutputReference extends cdktf.ComplexObject {
@@ -295,18 +69,6 @@ export class DataLinodeUsersUsersDatabaseGrantOutputReference extends cdktf.Comp
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -314,9 +76,6 @@ export class DataLinodeUsersUsersDatabaseGrantOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -325,58 +84,22 @@ export class DataLinodeUsersUsersDatabaseGrantOutputReference extends cdktf.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -400,21 +123,6 @@ export class DataLinodeUsersUsersDatabaseGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersDomainGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersDomainGrantToTerraform(struct?: DataLinodeUsersUsersDomainGrant | cdktf.IResolvable): any {
@@ -423,9 +131,6 @@ export function dataLinodeUsersUsersDomainGrantToTerraform(struct?: DataLinodeUs
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -436,28 +141,8 @@ export function dataLinodeUsersUsersDomainGrantToHclTerraform(struct?: DataLinod
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersDomainGrantOutputReference extends cdktf.ComplexObject {
@@ -480,18 +165,6 @@ export class DataLinodeUsersUsersDomainGrantOutputReference extends cdktf.Comple
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -499,9 +172,6 @@ export class DataLinodeUsersUsersDomainGrantOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -510,58 +180,22 @@ export class DataLinodeUsersUsersDomainGrantOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -585,21 +219,6 @@ export class DataLinodeUsersUsersDomainGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersFirewallGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersFirewallGrantToTerraform(struct?: DataLinodeUsersUsersFirewallGrant | cdktf.IResolvable): any {
@@ -608,9 +227,6 @@ export function dataLinodeUsersUsersFirewallGrantToTerraform(struct?: DataLinode
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -621,28 +237,8 @@ export function dataLinodeUsersUsersFirewallGrantToHclTerraform(struct?: DataLin
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersFirewallGrantOutputReference extends cdktf.ComplexObject {
@@ -665,18 +261,6 @@ export class DataLinodeUsersUsersFirewallGrantOutputReference extends cdktf.Comp
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -684,9 +268,6 @@ export class DataLinodeUsersUsersFirewallGrantOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -695,58 +276,22 @@ export class DataLinodeUsersUsersFirewallGrantOutputReference extends cdktf.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -905,21 +450,6 @@ export class DataLinodeUsersUsersGlobalGrantsList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersImageGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersImageGrantToTerraform(struct?: DataLinodeUsersUsersImageGrant | cdktf.IResolvable): any {
@@ -928,9 +458,6 @@ export function dataLinodeUsersUsersImageGrantToTerraform(struct?: DataLinodeUse
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -941,28 +468,8 @@ export function dataLinodeUsersUsersImageGrantToHclTerraform(struct?: DataLinode
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersImageGrantOutputReference extends cdktf.ComplexObject {
@@ -985,18 +492,6 @@ export class DataLinodeUsersUsersImageGrantOutputReference extends cdktf.Complex
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1004,9 +499,6 @@ export class DataLinodeUsersUsersImageGrantOutputReference extends cdktf.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1015,58 +507,22 @@ export class DataLinodeUsersUsersImageGrantOutputReference extends cdktf.Complex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -1090,21 +546,6 @@ export class DataLinodeUsersUsersImageGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersLinodeGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersLinodeGrantToTerraform(struct?: DataLinodeUsersUsersLinodeGrant | cdktf.IResolvable): any {
@@ -1113,9 +554,6 @@ export function dataLinodeUsersUsersLinodeGrantToTerraform(struct?: DataLinodeUs
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -1126,28 +564,8 @@ export function dataLinodeUsersUsersLinodeGrantToHclTerraform(struct?: DataLinod
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersLinodeGrantOutputReference extends cdktf.ComplexObject {
@@ -1170,18 +588,6 @@ export class DataLinodeUsersUsersLinodeGrantOutputReference extends cdktf.Comple
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1189,9 +595,6 @@ export class DataLinodeUsersUsersLinodeGrantOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1200,58 +603,22 @@ export class DataLinodeUsersUsersLinodeGrantOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -1275,21 +642,6 @@ export class DataLinodeUsersUsersLinodeGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersLongviewGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersLongviewGrantToTerraform(struct?: DataLinodeUsersUsersLongviewGrant | cdktf.IResolvable): any {
@@ -1298,9 +650,6 @@ export function dataLinodeUsersUsersLongviewGrantToTerraform(struct?: DataLinode
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -1311,28 +660,8 @@ export function dataLinodeUsersUsersLongviewGrantToHclTerraform(struct?: DataLin
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersLongviewGrantOutputReference extends cdktf.ComplexObject {
@@ -1355,18 +684,6 @@ export class DataLinodeUsersUsersLongviewGrantOutputReference extends cdktf.Comp
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1374,9 +691,6 @@ export class DataLinodeUsersUsersLongviewGrantOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1385,58 +699,22 @@ export class DataLinodeUsersUsersLongviewGrantOutputReference extends cdktf.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -1460,21 +738,6 @@ export class DataLinodeUsersUsersLongviewGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersNodebalancerGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersNodebalancerGrantToTerraform(struct?: DataLinodeUsersUsersNodebalancerGrant | cdktf.IResolvable): any {
@@ -1483,9 +746,6 @@ export function dataLinodeUsersUsersNodebalancerGrantToTerraform(struct?: DataLi
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -1496,28 +756,8 @@ export function dataLinodeUsersUsersNodebalancerGrantToHclTerraform(struct?: Dat
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersNodebalancerGrantOutputReference extends cdktf.ComplexObject {
@@ -1540,18 +780,6 @@ export class DataLinodeUsersUsersNodebalancerGrantOutputReference extends cdktf.
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1559,9 +787,6 @@ export class DataLinodeUsersUsersNodebalancerGrantOutputReference extends cdktf.
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1570,58 +795,22 @@ export class DataLinodeUsersUsersNodebalancerGrantOutputReference extends cdktf.
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -1645,21 +834,6 @@ export class DataLinodeUsersUsersNodebalancerGrantList extends cdktf.ComplexList
   }
 }
 export interface DataLinodeUsersUsersStackscriptGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersStackscriptGrantToTerraform(struct?: DataLinodeUsersUsersStackscriptGrant | cdktf.IResolvable): any {
@@ -1668,9 +842,6 @@ export function dataLinodeUsersUsersStackscriptGrantToTerraform(struct?: DataLin
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -1681,28 +852,8 @@ export function dataLinodeUsersUsersStackscriptGrantToHclTerraform(struct?: Data
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersStackscriptGrantOutputReference extends cdktf.ComplexObject {
@@ -1725,18 +876,6 @@ export class DataLinodeUsersUsersStackscriptGrantOutputReference extends cdktf.C
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1744,9 +883,6 @@ export class DataLinodeUsersUsersStackscriptGrantOutputReference extends cdktf.C
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1755,58 +891,22 @@ export class DataLinodeUsersUsersStackscriptGrantOutputReference extends cdktf.C
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -1830,21 +930,6 @@ export class DataLinodeUsersUsersStackscriptGrantList extends cdktf.ComplexList 
   }
 }
 export interface DataLinodeUsersUsersVolumeGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersVolumeGrantToTerraform(struct?: DataLinodeUsersUsersVolumeGrant | cdktf.IResolvable): any {
@@ -1853,9 +938,6 @@ export function dataLinodeUsersUsersVolumeGrantToTerraform(struct?: DataLinodeUs
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -1866,28 +948,8 @@ export function dataLinodeUsersUsersVolumeGrantToHclTerraform(struct?: DataLinod
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersVolumeGrantOutputReference extends cdktf.ComplexObject {
@@ -1910,18 +972,6 @@ export class DataLinodeUsersUsersVolumeGrantOutputReference extends cdktf.Comple
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1929,9 +979,6 @@ export class DataLinodeUsersUsersVolumeGrantOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1940,58 +987,22 @@ export class DataLinodeUsersUsersVolumeGrantOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -2015,21 +1026,6 @@ export class DataLinodeUsersUsersVolumeGrantList extends cdktf.ComplexList {
   }
 }
 export interface DataLinodeUsersUsersVpcGrant {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#id DataLinodeUsers#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#label DataLinodeUsers#label}
-  */
-  readonly label?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#permissions DataLinodeUsers#permissions}
-  */
-  readonly permissions?: string;
 }
 
 export function dataLinodeUsersUsersVpcGrantToTerraform(struct?: DataLinodeUsersUsersVpcGrant | cdktf.IResolvable): any {
@@ -2038,9 +1034,6 @@ export function dataLinodeUsersUsersVpcGrantToTerraform(struct?: DataLinodeUsers
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    label: cdktf.stringToTerraform(struct!.label),
-    permissions: cdktf.stringToTerraform(struct!.permissions),
   }
 }
 
@@ -2051,28 +1044,8 @@ export function dataLinodeUsersUsersVpcGrantToHclTerraform(struct?: DataLinodeUs
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    label: {
-      value: cdktf.stringToHclTerraform(struct!.label),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    permissions: {
-      value: cdktf.stringToHclTerraform(struct!.permissions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
 export class DataLinodeUsersUsersVpcGrantOutputReference extends cdktf.ComplexObject {
@@ -2095,18 +1068,6 @@ export class DataLinodeUsersUsersVpcGrantOutputReference extends cdktf.ComplexOb
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._id !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.id = this._id;
-    }
-    if (this._label !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.label = this._label;
-    }
-    if (this._permissions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.permissions = this._permissions;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2114,9 +1075,6 @@ export class DataLinodeUsersUsersVpcGrantOutputReference extends cdktf.ComplexOb
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._id = undefined;
-      this._label = undefined;
-      this._permissions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2125,58 +1083,22 @@ export class DataLinodeUsersUsersVpcGrantOutputReference extends cdktf.ComplexOb
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._id = value.id;
-      this._label = value.label;
-      this._permissions = value.permissions;
     }
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: number; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getNumberAttribute('id');
   }
-  public set id(value: number) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // label - computed: true, optional: true, required: false
-  private _label?: string; 
+  // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
   }
-  public set label(value: string) {
-    this._label = value;
-  }
-  public resetLabel() {
-    this._label = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelInput() {
-    return this._label;
-  }
 
-  // permissions - computed: true, optional: true, required: false
-  private _permissions?: string; 
+  // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getStringAttribute('permissions');
-  }
-  public set permissions(value: string) {
-    this._permissions = value;
-  }
-  public resetPermissions() {
-    this._permissions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get permissionsInput() {
-    return this._permissions;
   }
 }
 
@@ -2203,72 +1125,72 @@ export interface DataLinodeUsersUsers {
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#database_grant DataLinodeUsers#database_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#database_grant DataLinodeUsers#database_grant}
   */
   readonly databaseGrant?: DataLinodeUsersUsersDatabaseGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#domain_grant DataLinodeUsers#domain_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#domain_grant DataLinodeUsers#domain_grant}
   */
   readonly domainGrant?: DataLinodeUsersUsersDomainGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#firewall_grant DataLinodeUsers#firewall_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#firewall_grant DataLinodeUsers#firewall_grant}
   */
   readonly firewallGrant?: DataLinodeUsersUsersFirewallGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#image_grant DataLinodeUsers#image_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#image_grant DataLinodeUsers#image_grant}
   */
   readonly imageGrant?: DataLinodeUsersUsersImageGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#linode_grant DataLinodeUsers#linode_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#linode_grant DataLinodeUsers#linode_grant}
   */
   readonly linodeGrant?: DataLinodeUsersUsersLinodeGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#longview_grant DataLinodeUsers#longview_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#longview_grant DataLinodeUsers#longview_grant}
   */
   readonly longviewGrant?: DataLinodeUsersUsersLongviewGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#nodebalancer_grant DataLinodeUsers#nodebalancer_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#nodebalancer_grant DataLinodeUsers#nodebalancer_grant}
   */
   readonly nodebalancerGrant?: DataLinodeUsersUsersNodebalancerGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#stackscript_grant DataLinodeUsers#stackscript_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#stackscript_grant DataLinodeUsers#stackscript_grant}
   */
   readonly stackscriptGrant?: DataLinodeUsersUsersStackscriptGrant[] | cdktf.IResolvable;
   /**
   * This User's username. This is used for logging in, and may also be displayed alongside actions the User performs (for example, in Events or public StackScripts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#username DataLinodeUsers#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#username DataLinodeUsers#username}
   */
   readonly username: string;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#volume_grant DataLinodeUsers#volume_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#volume_grant DataLinodeUsers#volume_grant}
   */
   readonly volumeGrant?: DataLinodeUsersUsersVolumeGrant[] | cdktf.IResolvable;
   /**
   * A set containing all of the user's active grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#vpc_grant DataLinodeUsers#vpc_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#vpc_grant DataLinodeUsers#vpc_grant}
   */
   readonly vpcGrant?: DataLinodeUsersUsersVpcGrant[] | cdktf.IResolvable;
 }
 
-export function dataLinodeUsersUsersToTerraform(struct?: DataLinodeUsersUsers | cdktf.IResolvable): any {
+export function dataLinodeUsersUsersToTerraform(struct?: DataLinodeUsersUsers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2289,7 +1211,7 @@ export function dataLinodeUsersUsersToTerraform(struct?: DataLinodeUsersUsers | 
 }
 
 
-export function dataLinodeUsersUsersToHclTerraform(struct?: DataLinodeUsersUsers | cdktf.IResolvable): any {
+export function dataLinodeUsersUsersToHclTerraform(struct?: DataLinodeUsersUsers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2369,7 +1291,6 @@ export function dataLinodeUsersUsersToHclTerraform(struct?: DataLinodeUsersUsers
 
 export class DataLinodeUsersUsersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2381,10 +1302,7 @@ export class DataLinodeUsersUsersOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeUsersUsers | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeUsersUsers | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._databaseGrant?.internalValue !== undefined) {
@@ -2434,10 +1352,9 @@ export class DataLinodeUsersUsersOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeUsersUsers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeUsersUsers | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._databaseGrant.internalValue = undefined;
       this._domainGrant.internalValue = undefined;
       this._firewallGrant.internalValue = undefined;
@@ -2450,13 +1367,8 @@ export class DataLinodeUsersUsersOutputReference extends cdktf.ComplexObject {
       this._volumeGrant.internalValue = undefined;
       this._vpcGrant.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._databaseGrant.internalValue = value.databaseGrant;
       this._domainGrant.internalValue = value.domainGrant;
       this._firewallGrant.internalValue = value.firewallGrant;
@@ -2640,7 +1552,7 @@ export class DataLinodeUsersUsersOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('user_type');
   }
 
-  // username - computed: false, optional: false, required: true
+  // username - computed: true, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -2710,9 +1622,191 @@ export class DataLinodeUsersUsersList extends cdktf.ComplexList {
     return new DataLinodeUsersUsersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataLinodeUsersFilter {
+  /**
+  * The type of comparison to use for this filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#match_by DataLinodeUsers#match_by}
+  */
+  readonly matchBy?: string;
+  /**
+  * The name of the attribute to filter on.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#name DataLinodeUsers#name}
+  */
+  readonly name: string;
+  /**
+  * The value(s) to be used in the filter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#values DataLinodeUsers#values}
+  */
+  readonly values: string[];
+}
+
+export function dataLinodeUsersFilterToTerraform(struct?: DataLinodeUsersFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    match_by: cdktf.stringToTerraform(struct!.matchBy),
+    name: cdktf.stringToTerraform(struct!.name),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+  }
+}
+
+
+export function dataLinodeUsersFilterToHclTerraform(struct?: DataLinodeUsersFilter | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    match_by: {
+      value: cdktf.stringToHclTerraform(struct!.matchBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataLinodeUsersFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLinodeUsersFilter | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._matchBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchBy = this._matchBy;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeUsersFilter | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._matchBy = undefined;
+      this._name = undefined;
+      this._values = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._matchBy = value.matchBy;
+      this._name = value.name;
+      this._values = value.values;
+    }
+  }
+
+  // match_by - computed: false, optional: true, required: false
+  private _matchBy?: string; 
+  public get matchBy() {
+    return this.getStringAttribute('match_by');
+  }
+  public set matchBy(value: string) {
+    this._matchBy = value;
+  }
+  public resetMatchBy() {
+    this._matchBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchByInput() {
+    return this._matchBy;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // values - computed: false, optional: false, required: true
+  private _values?: string[]; 
+  public get values() {
+    return cdktf.Fn.tolist(this.getListAttribute('values'));
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+}
+
+export class DataLinodeUsersFilterList extends cdktf.ComplexList {
+  public internalValue? : DataLinodeUsersFilter[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLinodeUsersFilterOutputReference {
+    return new DataLinodeUsersFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users linode_users}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users linode_users}
 */
 export class DataLinodeUsers extends cdktf.TerraformDataSource {
 
@@ -2728,7 +1822,7 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeUsers to import
-  * @param importFromId The id of the existing DataLinodeUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2740,7 +1834,7 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/users linode_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/users linode_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2751,8 +1845,8 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_users',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2765,7 +1859,6 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
     this._order = config.order;
     this._orderBy = config.orderBy;
     this._filter.internalValue = config.filter;
-    this._users.internalValue = config.users;
   }
 
   // ==========
@@ -2809,6 +1902,12 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
+  // users - computed: true, optional: false, required: false
+  private _users = new DataLinodeUsersUsersList(this, "users", false);
+  public get users() {
+    return this._users;
+  }
+
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeUsersFilterList(this, "filter", true);
   public get filter() {
@@ -2825,22 +1924,6 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
     return this._filter.internalValue;
   }
 
-  // users - computed: false, optional: true, required: false
-  private _users = new DataLinodeUsersUsersList(this, "users", false);
-  public get users() {
-    return this._users;
-  }
-  public putUsers(value: DataLinodeUsersUsers[] | cdktf.IResolvable) {
-    this._users.internalValue = value;
-  }
-  public resetUsers() {
-    this._users.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usersInput() {
-    return this._users.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -2850,7 +1933,6 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
       filter: cdktf.listMapper(dataLinodeUsersFilterToTerraform, true)(this._filter.internalValue),
-      users: cdktf.listMapper(dataLinodeUsersUsersToTerraform, true)(this._users.internalValue),
     };
   }
 
@@ -2873,12 +1955,6 @@ export class DataLinodeUsers extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "set",
         storageClassType: "DataLinodeUsersFilterList",
-      },
-      users: {
-        value: cdktf.listMapperHcl(dataLinodeUsersUsersToHclTerraform, true)(this._users.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeUsersUsersList",
       },
     };
 

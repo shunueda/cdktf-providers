@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "github": "6.8.2"
+    "github": "6.8.3"
   }
 }

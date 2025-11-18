@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_config
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_mysql_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -2455,7 +2455,7 @@ export class DataLinodeDatabaseMysqlConfigMysqlList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_config linode_database_mysql_config}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_mysql_config linode_database_mysql_config}
 */
 export class DataLinodeDatabaseMysqlConfigA extends cdktf.TerraformDataSource {
 
@@ -2471,7 +2471,7 @@ export class DataLinodeDatabaseMysqlConfigA extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabaseMysqlConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabaseMysqlConfigA to import
-  * @param importFromId The id of the existing DataLinodeDatabaseMysqlConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabaseMysqlConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_mysql_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabaseMysqlConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2483,7 +2483,7 @@ export class DataLinodeDatabaseMysqlConfigA extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_config linode_database_mysql_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_mysql_config linode_database_mysql_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2494,8 +2494,8 @@ export class DataLinodeDatabaseMysqlConfigA extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_mysql_config',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

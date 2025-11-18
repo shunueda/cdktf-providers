@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation
+// https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,205 +10,205 @@ export interface AutomationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ordinarily, files with identical size in the source and destination will be skipped from copy operations to prevent wasted transfer.  If this flag is `true` we will overwrite the destination file always.  Note that this may cause large amounts of wasted transfer usage.  This setting has no effect unless `overwrite_files` is also set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#always_overwrite_size_matching_files Automation#always_overwrite_size_matching_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#always_overwrite_size_matching_files Automation#always_overwrite_size_matching_files}
   */
   readonly alwaysOverwriteSizeMatchingFiles?: boolean | cdktf.IResolvable;
   /**
   * Ordinarily, we will allow automation runs to run in parallel for non-scheduled automations. If this flag is `true` we will force automation runs to be serialized (run one at a time, one after another). This can resolve some issues with race conditions on remote systems at the cost of some performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#always_serialize_jobs Automation#always_serialize_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#always_serialize_jobs Automation#always_serialize_jobs}
   */
   readonly alwaysSerializeJobs?: boolean | cdktf.IResolvable;
   /**
   * Automation type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#automation Automation#automation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#automation Automation#automation}
   */
   readonly automation: string;
   /**
   * Description for the this Automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#description Automation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#description Automation#description}
   */
   readonly description?: string;
   /**
   * If set, this string in the destination path will be replaced with the value in `destination_replace_to`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#destination_replace_from Automation#destination_replace_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#destination_replace_from Automation#destination_replace_from}
   */
   readonly destinationReplaceFrom?: string;
   /**
   * If set, this string will replace the value `destination_replace_from` in the destination filename. You can use special patterns here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#destination_replace_to Automation#destination_replace_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#destination_replace_to Automation#destination_replace_to}
   */
   readonly destinationReplaceTo?: string;
   /**
   * Destination Paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#destinations Automation#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#destinations Automation#destinations}
   */
   readonly destinations?: string[];
   /**
   * If true, this automation will not run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#disabled Automation#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#disabled Automation#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * If set, this glob pattern will exclude files from the automation. Supports globs, except on remote mounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#exclude_pattern Automation#exclude_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#exclude_pattern Automation#exclude_pattern}
   */
   readonly excludePattern?: string;
   /**
   * Normally copy and move automations that use globs will implicitly preserve the source folder structure in the destination.  If this flag is `true`, the source folder structure will be flattened in the destination.  This is useful for copying or moving files from multiple folders into a single destination folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#flatten_destination_structure Automation#flatten_destination_structure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#flatten_destination_structure Automation#flatten_destination_structure}
   */
   readonly flattenDestinationStructure?: boolean | cdktf.IResolvable;
   /**
   * IDs of Groups for the Automation (i.e. who to Request File from)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#group_ids Automation#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#group_ids Automation#group_ids}
   */
   readonly groupIds?: number[];
   /**
   * If trigger is `custom_schedule`, the Automation will check if there is a formal, observed holiday for the region, and if so, it will not run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#holiday_region Automation#holiday_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#holiday_region Automation#holiday_region}
   */
   readonly holidayRegion?: string;
   /**
   * If true, the Lock Folders behavior will be disregarded for automated actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#ignore_locked_folders Automation#ignore_locked_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#ignore_locked_folders Automation#ignore_locked_folders}
   */
   readonly ignoreLockedFolders?: boolean | cdktf.IResolvable;
   /**
   * List of URLs to be imported and names to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#import_urls Automation#import_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#import_urls Automation#import_urls}
   */
   readonly importUrls?: { [key: string]: any };
   /**
   * If trigger is `daily`, this specifies how often to run this automation.  One of: `day`, `week`, `week_end`, `month`, `month_end`, `quarter`, `quarter_end`, `year`, `year_end`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#interval Automation#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#interval Automation#interval}
   */
   readonly interval?: string;
   /**
   * If `true`, use the legacy behavior for this automation, where it can operate on folders in addition to just files.  This behavior no longer works and should not be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#legacy_folder_matching Automation#legacy_folder_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#legacy_folder_matching Automation#legacy_folder_matching}
   */
   readonly legacyFolderMatching?: boolean | cdktf.IResolvable;
   /**
   * IDs of remote sync folder behaviors to run by this Automation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#legacy_sync_ids Automation#legacy_sync_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#legacy_sync_ids Automation#legacy_sync_ids}
   */
   readonly legacySyncIds?: number[];
   /**
   * Name for this automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#name Automation#name}
   */
   readonly name?: string;
   /**
   * If true, existing files will be overwritten with new files on Move/Copy automations.  Note: by default files will not be overwritten on Copy automations if they appear to be the same file size as the newly incoming file.  Use the `always_overwrite_size_matching_files` option in conjunction with `overwrite_files` to override this behavior and overwrite files no matter what.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#overwrite_files Automation#overwrite_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#overwrite_files Automation#overwrite_files}
   */
   readonly overwriteFiles?: boolean | cdktf.IResolvable;
   /**
   * Path on which this Automation runs.  Supports globs, except on remote mounts. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#path Automation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#path Automation#path}
   */
   readonly path?: string;
   /**
   * Timezone to use when rendering timestamps in paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#path_time_zone Automation#path_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#path_time_zone Automation#path_time_zone}
   */
   readonly pathTimeZone?: string;
   /**
   * If trigger type is `daily`, this specifies a day number to run in one of the supported intervals: `week`, `month`, `quarter`, `year`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#recurring_day Automation#recurring_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#recurring_day Automation#recurring_day}
   */
   readonly recurringDay?: number;
   /**
   * If the Automation fails, retry at this interval (in minutes).  Acceptable values are 5 through 1440 (one day).  Set to null to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#retry_on_failure_interval_in_minutes Automation#retry_on_failure_interval_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#retry_on_failure_interval_in_minutes Automation#retry_on_failure_interval_in_minutes}
   */
   readonly retryOnFailureIntervalInMinutes?: number;
   /**
   * If the Automation fails, retry at most this many times.  Maximum allowed value: 10.  Set to null to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#retry_on_failure_number_of_attempts Automation#retry_on_failure_number_of_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#retry_on_failure_number_of_attempts Automation#retry_on_failure_number_of_attempts}
   */
   readonly retryOnFailureNumberOfAttempts?: number;
   /**
   * If trigger is `custom_schedule`, Custom schedule description for when the automation should be run. 0-based days of the week. 0 is Sunday, 1 is Monday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#schedule_days_of_week Automation#schedule_days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#schedule_days_of_week Automation#schedule_days_of_week}
   */
   readonly scheduleDaysOfWeek?: number[];
   /**
   * If trigger is `custom_schedule`, Custom schedule Time Zone for when the automation should be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#schedule_time_zone Automation#schedule_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#schedule_time_zone Automation#schedule_time_zone}
   */
   readonly scheduleTimeZone?: string;
   /**
   * If trigger is `custom_schedule`, Custom schedule description for when the automation should be run. Times of day in HH:MM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#schedule_times_of_day Automation#schedule_times_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#schedule_times_of_day Automation#schedule_times_of_day}
   */
   readonly scheduleTimesOfDay?: string[];
   /**
   * Source path/glob.  See Automation docs for exact description, but this is used to filter for files in the `path` to find files to operate on. Supports globs, except on remote mounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#source Automation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#source Automation#source}
   */
   readonly source?: string;
   /**
   * IDs of syncs to run by this Automation. This is the new way to specify syncs, and it is recommended to use this instead of `legacy_sync_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#sync_ids Automation#sync_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#sync_ids Automation#sync_ids}
   */
   readonly syncIds?: number[];
   /**
   * How this automation is triggered to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#trigger Automation#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#trigger Automation#trigger}
   */
   readonly trigger?: string;
   /**
   * If trigger is `action`, this is the list of action types on which to trigger the automation. Valid actions are create, read, update, destroy, move, archived_delete, copy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#trigger_actions Automation#trigger_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#trigger_actions Automation#trigger_actions}
   */
   readonly triggerActions?: string[];
   /**
   * IDs of Users for the Automation (i.e. who to Request File from)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#user_ids Automation#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#user_ids Automation#user_ids}
   */
   readonly userIds?: number[];
   /**
   * A Hash of attributes specific to the automation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#value Automation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#value Automation#value}
   */
   readonly value?: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation files_automation}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation files_automation}
 */
 export class Automation extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class Automation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Automation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Automation to import
-  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Automation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class Automation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/automation files_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/automation files_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class Automation extends cdktf.TerraformResource {
       terraformResourceType: 'files_automation',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.379',
-        providerVersionConstraint: '0.1.379'
+        providerVersion: '0.1.383',
+        providerVersionConstraint: '0.1.383'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

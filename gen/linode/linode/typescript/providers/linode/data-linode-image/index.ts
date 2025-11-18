@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,17 @@ export interface DataLinodeImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID assigned to this Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image#id DataLinodeImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/image#id DataLinodeImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
-  /**
-  * replications block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image#replications DataLinodeImage#replications}
-  */
-  readonly replications?: DataLinodeImageReplications[] | cdktf.IResolvable;
 }
-export interface DataLinodeImageReplications {
+export interface DataLinodeImageImageSharingSharedBy {
 }
 
-export function dataLinodeImageReplicationsToTerraform(struct?: DataLinodeImageReplications | cdktf.IResolvable): any {
+export function dataLinodeImageImageSharingSharedByToTerraform(struct?: DataLinodeImageImageSharingSharedBy): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -36,7 +30,196 @@ export function dataLinodeImageReplicationsToTerraform(struct?: DataLinodeImageR
 }
 
 
-export function dataLinodeImageReplicationsToHclTerraform(struct?: DataLinodeImageReplications | cdktf.IResolvable): any {
+export function dataLinodeImageImageSharingSharedByToHclTerraform(struct?: DataLinodeImageImageSharingSharedBy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeImageImageSharingSharedByOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataLinodeImageImageSharingSharedBy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeImageImageSharingSharedBy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // sharegroup_id - computed: true, optional: false, required: false
+  public get sharegroupId() {
+    return this.getNumberAttribute('sharegroup_id');
+  }
+
+  // sharegroup_label - computed: true, optional: false, required: false
+  public get sharegroupLabel() {
+    return this.getStringAttribute('sharegroup_label');
+  }
+
+  // sharegroup_uuid - computed: true, optional: false, required: false
+  public get sharegroupUuid() {
+    return this.getStringAttribute('sharegroup_uuid');
+  }
+
+  // source_image_id - computed: true, optional: false, required: false
+  public get sourceImageId() {
+    return this.getStringAttribute('source_image_id');
+  }
+}
+export interface DataLinodeImageImageSharingSharedWith {
+}
+
+export function dataLinodeImageImageSharingSharedWithToTerraform(struct?: DataLinodeImageImageSharingSharedWith): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeImageImageSharingSharedWithToHclTerraform(struct?: DataLinodeImageImageSharingSharedWith): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeImageImageSharingSharedWithOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataLinodeImageImageSharingSharedWith | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeImageImageSharingSharedWith | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // sharegroup_count - computed: true, optional: false, required: false
+  public get sharegroupCount() {
+    return this.getNumberAttribute('sharegroup_count');
+  }
+
+  // sharegroup_list_url - computed: true, optional: false, required: false
+  public get sharegroupListUrl() {
+    return this.getStringAttribute('sharegroup_list_url');
+  }
+}
+export interface DataLinodeImageImageSharing {
+}
+
+export function dataLinodeImageImageSharingToTerraform(struct?: DataLinodeImageImageSharing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeImageImageSharingToHclTerraform(struct?: DataLinodeImageImageSharing): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLinodeImageImageSharingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataLinodeImageImageSharing | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLinodeImageImageSharing | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // shared_by - computed: true, optional: false, required: false
+  private _sharedBy = new DataLinodeImageImageSharingSharedByOutputReference(this, "shared_by");
+  public get sharedBy() {
+    return this._sharedBy;
+  }
+
+  // shared_with - computed: true, optional: false, required: false
+  private _sharedWith = new DataLinodeImageImageSharingSharedWithOutputReference(this, "shared_with");
+  public get sharedWith() {
+    return this._sharedWith;
+  }
+}
+export interface DataLinodeImageReplications {
+}
+
+export function dataLinodeImageReplicationsToTerraform(struct?: DataLinodeImageReplications): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLinodeImageReplicationsToHclTerraform(struct?: DataLinodeImageReplications): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -48,7 +231,6 @@ export function dataLinodeImageReplicationsToHclTerraform(struct?: DataLinodeIma
 
 export class DataLinodeImageReplicationsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -60,27 +242,18 @@ export class DataLinodeImageReplicationsOutputReference extends cdktf.ComplexObj
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeImageReplications | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeImageReplications | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeImageReplications | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeImageReplications | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -96,7 +269,6 @@ export class DataLinodeImageReplicationsOutputReference extends cdktf.ComplexObj
 }
 
 export class DataLinodeImageReplicationsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeImageReplications[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -116,7 +288,7 @@ export class DataLinodeImageReplicationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image linode_image}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/image linode_image}
 */
 export class DataLinodeImage extends cdktf.TerraformDataSource {
 
@@ -132,7 +304,7 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeImage to import
-  * @param importFromId The id of the existing DataLinodeImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +316,7 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/image linode_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/image linode_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +327,8 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_image',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -167,7 +339,6 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._replications.internalValue = config.replications;
   }
 
   // ==========
@@ -217,14 +388,31 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
     return this._id;
   }
 
+  // image_sharing - computed: true, optional: false, required: false
+  private _imageSharing = new DataLinodeImageImageSharingOutputReference(this, "image_sharing");
+  public get imageSharing() {
+    return this._imageSharing;
+  }
+
   // is_public - computed: true, optional: false, required: false
   public get isPublic() {
     return this.getBooleanAttribute('is_public');
   }
 
+  // is_shared - computed: true, optional: false, required: false
+  public get isShared() {
+    return this.getBooleanAttribute('is_shared');
+  }
+
   // label - computed: true, optional: false, required: false
   public get label() {
     return this.getStringAttribute('label');
+  }
+
+  // replications - computed: true, optional: false, required: false
+  private _replications = new DataLinodeImageReplicationsList(this, "replications", false);
+  public get replications() {
+    return this._replications;
   }
 
   // size - computed: true, optional: false, required: false
@@ -257,22 +445,6 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
     return this.getStringAttribute('vendor');
   }
 
-  // replications - computed: false, optional: true, required: false
-  private _replications = new DataLinodeImageReplicationsList(this, "replications", false);
-  public get replications() {
-    return this._replications;
-  }
-  public putReplications(value: DataLinodeImageReplications[] | cdktf.IResolvable) {
-    this._replications.internalValue = value;
-  }
-  public resetReplications() {
-    this._replications.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get replicationsInput() {
-    return this._replications.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -280,7 +452,6 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      replications: cdktf.listMapper(dataLinodeImageReplicationsToTerraform, true)(this._replications.internalValue),
     };
   }
 
@@ -291,12 +462,6 @@ export class DataLinodeImage extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      replications: {
-        value: cdktf.listMapperHcl(dataLinodeImageReplicationsToHclTerraform, true)(this._replications.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeImageReplicationsList",
       },
     };
 

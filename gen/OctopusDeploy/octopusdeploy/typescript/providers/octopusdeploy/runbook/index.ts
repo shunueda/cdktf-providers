@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface RunbookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sets the runbook guided failure mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#default_guided_failure_mode Runbook#default_guided_failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#default_guided_failure_mode Runbook#default_guided_failure_mode}
   */
   readonly defaultGuidedFailureMode?: string;
   /**
   * The description of this runbook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#description Runbook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#description Runbook#description}
   */
   readonly description?: string;
   /**
   * Determines how the runbook is scoped to environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#environment_scope Runbook#environment_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#environment_scope Runbook#environment_scope}
   */
   readonly environmentScope?: string;
   /**
   * When environment_scope is set to "Specified", this is the list of environments the runbook can be run against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#environments Runbook#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#environments Runbook#environments}
   */
   readonly environments?: string[];
   /**
   * Whether to force packages to be re-downloaded or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#force_package_download Runbook#force_package_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#force_package_download Runbook#force_package_download}
   */
   readonly forcePackageDownload?: boolean | cdktf.IResolvable;
   /**
   * The tenanted deployment mode of the runbook. Valid modes are `Untenanted`, `TenantedOrUntenanted`, `Tenanted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#multi_tenancy_mode Runbook#multi_tenancy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#multi_tenancy_mode Runbook#multi_tenancy_mode}
   */
   readonly multiTenancyMode?: string;
   /**
   * The name of the runbook in Octopus Deploy. This name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#name Runbook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#name Runbook#name}
   */
   readonly name: string;
   /**
   * The project that this runbook belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#project_id Runbook#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#project_id Runbook#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with this runbook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#space_id Runbook#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#space_id Runbook#space_id}
   */
   readonly spaceId?: string;
   /**
   * connectivity_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#connectivity_policy Runbook#connectivity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#connectivity_policy Runbook#connectivity_policy}
   */
   readonly connectivityPolicy?: RunbookConnectivityPolicy[] | cdktf.IResolvable;
   /**
   * retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#retention_policy Runbook#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#retention_policy Runbook#retention_policy}
   */
   readonly retentionPolicy?: RunbookRetentionPolicy[] | cdktf.IResolvable;
 }
 export interface RunbookConnectivityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#allow_deployments_to_no_targets Runbook#allow_deployments_to_no_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#allow_deployments_to_no_targets Runbook#allow_deployments_to_no_targets}
   */
   readonly allowDeploymentsToNoTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#exclude_unhealthy_targets Runbook#exclude_unhealthy_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#exclude_unhealthy_targets Runbook#exclude_unhealthy_targets}
   */
   readonly excludeUnhealthyTargets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#skip_machine_behavior Runbook#skip_machine_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#skip_machine_behavior Runbook#skip_machine_behavior}
   */
   readonly skipMachineBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#target_roles Runbook#target_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#target_roles Runbook#target_roles}
   */
   readonly targetRoles?: string[];
 }
@@ -293,13 +293,13 @@ export interface RunbookRetentionPolicy {
   /**
   * How many runs to keep per environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#quantity_to_keep Runbook#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#quantity_to_keep Runbook#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * Indicates if items should never be deleted. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#should_keep_forever Runbook#should_keep_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#should_keep_forever Runbook#should_keep_forever}
   */
   readonly shouldKeepForever?: boolean | cdktf.IResolvable;
 }
@@ -444,7 +444,7 @@ export class RunbookRetentionPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook octopusdeploy_runbook}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook octopusdeploy_runbook}
 */
 export class Runbook extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class Runbook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Runbook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Runbook to import
-  * @param importFromId The id of the existing Runbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Runbook that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Runbook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class Runbook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/runbook octopusdeploy_runbook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/runbook octopusdeploy_runbook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class Runbook extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_runbook',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

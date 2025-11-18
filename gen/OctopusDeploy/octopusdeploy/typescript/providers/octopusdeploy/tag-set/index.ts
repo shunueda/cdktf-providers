@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,43 @@ export interface TagSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this tag set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set#description TagSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#description TagSet#description}
   */
   readonly description?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set#name TagSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#name TagSet#name}
   */
   readonly name: string;
   /**
+  * The resource scopes this tag set applies to. Valid values are `"Tenant"`, `"Environment"`, `"Project"`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#scopes TagSet#scopes}
+  */
+  readonly scopes?: string[];
+  /**
   * The sort order associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set#sort_order TagSet#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#sort_order TagSet#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set#space_id TagSet#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#space_id TagSet#space_id}
   */
   readonly spaceId?: string;
+  /**
+  * The type of this tag set. Valid values are `"SingleSelect"`, `"MultiSelect"`, `"FreeText"`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#type TagSet#type}
+  */
+  readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set octopusdeploy_tag_set}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set octopusdeploy_tag_set}
 */
 export class TagSet extends cdktf.TerraformResource {
 
@@ -50,7 +62,7 @@ export class TagSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TagSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TagSet to import
-  * @param importFromId The id of the existing TagSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TagSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TagSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +74,7 @@ export class TagSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/tag_set octopusdeploy_tag_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/tag_set octopusdeploy_tag_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +85,8 @@ export class TagSet extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tag_set',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -86,8 +98,10 @@ export class TagSet extends cdktf.TerraformResource {
     });
     this._description = config.description;
     this._name = config.name;
+    this._scopes = config.scopes;
     this._sortOrder = config.sortOrder;
     this._spaceId = config.spaceId;
+    this._type = config.type;
   }
 
   // ==========
@@ -128,6 +142,22 @@ export class TagSet extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // scopes - computed: true, optional: true, required: false
+  private _scopes?: string[]; 
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+  public set scopes(value: string[]) {
+    this._scopes = value;
+  }
+  public resetScopes() {
+    this._scopes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopesInput() {
+    return this._scopes;
+  }
+
   // sort_order - computed: true, optional: true, required: false
   private _sortOrder?: number; 
   public get sortOrder() {
@@ -160,6 +190,22 @@ export class TagSet extends cdktf.TerraformResource {
     return this._spaceId;
   }
 
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -168,8 +214,10 @@ export class TagSet extends cdktf.TerraformResource {
     return {
       description: cdktf.stringToTerraform(this._description),
       name: cdktf.stringToTerraform(this._name),
+      scopes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scopes),
       sort_order: cdktf.numberToTerraform(this._sortOrder),
       space_id: cdktf.stringToTerraform(this._spaceId),
+      type: cdktf.stringToTerraform(this._type),
     };
   }
 
@@ -187,6 +235,12 @@ export class TagSet extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      scopes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._scopes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       sort_order: {
         value: cdktf.numberToHclTerraform(this._sortOrder),
         isBlock: false,
@@ -195,6 +249,12 @@ export class TagSet extends cdktf.TerraformResource {
       },
       space_id: {
         value: cdktf.stringToHclTerraform(this._spaceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      type: {
+        value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

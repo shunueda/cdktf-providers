@@ -68,6 +68,8 @@ Object.defineProperty(exports, 'scopedUserRole', { get: function () { return req
 Object.defineProperty(exports, 'scriptModule', { get: function () { return require('./script-module'); } });
 Object.defineProperty(exports, 'serviceAccountOidcIdentity', { get: function () { return require('./service-account-oidc-identity'); } });
 Object.defineProperty(exports, 'space', { get: function () { return require('./space'); } });
+Object.defineProperty(exports, 'spaceDefaultLifecycleReleaseRetentionPolicy', { get: function () { return require('./space-default-lifecycle-release-retention-policy'); } });
+Object.defineProperty(exports, 'spaceDefaultLifecycleTentacleRetentionPolicy', { get: function () { return require('./space-default-lifecycle-tentacle-retention-policy'); } });
 Object.defineProperty(exports, 'sshConnectionDeploymentTarget', { get: function () { return require('./ssh-connection-deployment-target'); } });
 Object.defineProperty(exports, 'sshConnectionWorker', { get: function () { return require('./ssh-connection-worker'); } });
 Object.defineProperty(exports, 'sshKeyAccount', { get: function () { return require('./ssh-key-account'); } });
@@ -115,6 +117,8 @@ Object.defineProperty(exports, 'dataOctopusdeployProjects', { get: function () {
 Object.defineProperty(exports, 'dataOctopusdeployScriptModules', { get: function () { return require('./data-octopusdeploy-script-modules'); } });
 Object.defineProperty(exports, 'dataOctopusdeployServiceAccountOidcIdentity', { get: function () { return require('./data-octopusdeploy-service-account-oidc-identity'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySpace', { get: function () { return require('./data-octopusdeploy-space'); } });
+Object.defineProperty(exports, 'dataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy', { get: function () { return require('./data-octopusdeploy-space-default-lifecycle-release-retention-policy'); } });
+Object.defineProperty(exports, 'dataOctopusdeploySpaceDefaultLifecycleTentacleRetentionPolicy', { get: function () { return require('./data-octopusdeploy-space-default-lifecycle-tentacle-retention-policy'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySpaces', { get: function () { return require('./data-octopusdeploy-spaces'); } });
 Object.defineProperty(exports, 'dataOctopusdeploySshConnectionDeploymentTargets', { get: function () { return require('./data-octopusdeploy-ssh-connection-deployment-targets'); } });
 Object.defineProperty(exports, 'dataOctopusdeployStepTemplate', { get: function () { return require('./data-octopusdeploy-step-template'); } });

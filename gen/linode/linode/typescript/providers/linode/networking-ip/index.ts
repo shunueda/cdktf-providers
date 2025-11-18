@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkingIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Linode to allocate an IPv4 address for. Required when reserved is false or not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#linode_id NetworkingIp#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#linode_id NetworkingIp#linode_id}
   */
   readonly linodeId?: number;
   /**
   * Whether the IPv4 address is public or private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#public NetworkingIp#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#public NetworkingIp#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The region for the reserved IPv4 address. Required when reserved is true and linode_id is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#region NetworkingIp#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#region NetworkingIp#region}
   */
   readonly region?: string;
   /**
   * Whether the IPv4 address should be reserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#reserved NetworkingIp#reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#reserved NetworkingIp#reserved}
   */
   readonly reserved?: boolean | cdktf.IResolvable;
   /**
   * The type of IP address (ipv4).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#type NetworkingIp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#type NetworkingIp#type}
   */
   readonly type?: string;
 }
@@ -104,7 +104,7 @@ export class NetworkingIpVpcNat11OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip linode_networking_ip}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip linode_networking_ip}
 */
 export class NetworkingIp extends cdktf.TerraformResource {
 
@@ -120,7 +120,7 @@ export class NetworkingIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingIp to import
-  * @param importFromId The id of the existing NetworkingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class NetworkingIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip linode_networking_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip linode_networking_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class NetworkingIp extends cdktf.TerraformResource {
       terraformResourceType: 'linode_networking_ip',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

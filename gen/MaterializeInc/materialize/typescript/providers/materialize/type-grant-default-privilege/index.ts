@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TypeGrantDefaultPrivilegeConfig extends cdktf.TerraformMetaArgu
   /**
   * The default privilege will apply only to objects created in this database, if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#database_name TypeGrantDefaultPrivilege#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#database_name TypeGrantDefaultPrivilege#database_name}
   */
   readonly databaseName?: string;
   /**
   * The role name that will gain the default privilege. Use the `PUBLIC` pseudo-role to grant privileges to all roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#grantee_name TypeGrantDefaultPrivilege#grantee_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#grantee_name TypeGrantDefaultPrivilege#grantee_name}
   */
   readonly granteeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#id TypeGrantDefaultPrivilege#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#id TypeGrantDefaultPrivilege#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface TypeGrantDefaultPrivilegeConfig extends cdktf.TerraformMetaArgu
   /**
   * The privilege to grant to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#privilege TypeGrantDefaultPrivilege#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#privilege TypeGrantDefaultPrivilege#privilege}
   */
   readonly privilege: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#region TypeGrantDefaultPrivilege#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#region TypeGrantDefaultPrivilege#region}
   */
   readonly region?: string;
   /**
   * The default privilege will apply only to objects created in this schema, if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#schema_name TypeGrantDefaultPrivilege#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#schema_name TypeGrantDefaultPrivilege#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The default privilege will apply to objects created by this role. If this is left blank, then the current role is assumed. Use the `PUBLIC` pseudo-role to target objects created by all roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#target_role_name TypeGrantDefaultPrivilege#target_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#target_role_name TypeGrantDefaultPrivilege#target_role_name}
   */
   readonly targetRoleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege materialize_type_grant_default_privilege}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege materialize_type_grant_default_privilege}
 */
 export class TypeGrantDefaultPrivilege extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TypeGrantDefaultPrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TypeGrantDefaultPrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TypeGrantDefaultPrivilege to import
-  * @param importFromId The id of the existing TypeGrantDefaultPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TypeGrantDefaultPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TypeGrantDefaultPrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TypeGrantDefaultPrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/type_grant_default_privilege materialize_type_grant_default_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant_default_privilege materialize_type_grant_default_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TypeGrantDefaultPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_type_grant_default_privilege',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

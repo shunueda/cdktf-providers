@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IamRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A free-form text describing the IAM Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#description IamRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#description IamRole#description}
   */
   readonly description?: string;
   /**
   * Defines if IAM Role Policy is editable or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#editable IamRole#editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#editable IamRole#editable}
   */
   readonly editable?: boolean | cdktf.IResolvable;
   /**
   * IAM Role labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#labels IamRole#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#labels IamRole#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ❗Name of IAM Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#name IamRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#name IamRole#name}
   */
   readonly name: string;
   /**
   * IAM Role permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#permissions IamRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#permissions IamRole#permissions}
   */
   readonly permissions?: string[];
   /**
   * IAM Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#policy IamRole#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#policy IamRole#policy}
   */
   readonly policy?: IamRolePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#timeouts IamRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#timeouts IamRole#timeouts}
   */
   readonly timeouts?: IamRoleTimeouts;
 }
@@ -54,17 +54,17 @@ export interface IamRolePolicyServicesRules {
   /**
   * IAM policy rule action (`allow` or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#action IamRole#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#action IamRole#action}
   */
   readonly action?: string;
   /**
   * IAM policy rule expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#expression IamRole#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#expression IamRole#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#resources IamRole#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#resources IamRole#resources}
   */
   readonly resources?: string[];
 }
@@ -240,13 +240,13 @@ export interface IamRolePolicyServices {
   /**
   * List of IAM service rules (if type is `rules`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#rules IamRole#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#rules IamRole#rules}
   */
   readonly rules?: IamRolePolicyServicesRules[] | cdktf.IResolvable;
   /**
   * Service type (`rules`, `allow`, or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#type IamRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#type IamRole#type}
   */
   readonly type?: string;
 }
@@ -391,13 +391,13 @@ export interface IamRolePolicy {
   /**
   * Default service strategy (`allow` or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#default_service_strategy IamRole#default_service_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#default_service_strategy IamRole#default_service_strategy}
   */
   readonly defaultServiceStrategy?: string;
   /**
   * IAM policy services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#services IamRole#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#services IamRole#services}
   */
   readonly services?: { [key: string]: IamRolePolicyServices } | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export interface IamRoleTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#read IamRole#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#read IamRole#read}
   */
   readonly read?: string;
 }
@@ -616,7 +616,7 @@ export class IamRoleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role exoscale_iam_role}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role exoscale_iam_role}
 */
 export class IamRole extends cdktf.TerraformResource {
 
@@ -632,7 +632,7 @@ export class IamRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamRole to import
-  * @param importFromId The id of the existing IamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -644,7 +644,7 @@ export class IamRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_role exoscale_iam_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/iam_role exoscale_iam_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -655,8 +655,8 @@ export class IamRole extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

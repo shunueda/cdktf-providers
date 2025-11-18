@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/polling_subscription_id
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/polling_subscription_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PollingSubscriptionIdConfig extends cdktf.TerraformMetaArgument
   /**
   * Optional map of dependencies that when modified will trigger a re-creation of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/polling_subscription_id#dependencies PollingSubscriptionId#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/polling_subscription_id#dependencies PollingSubscriptionId#dependencies}
   */
   readonly dependencies?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/polling_subscription_id octopusdeploy_polling_subscription_id}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/polling_subscription_id octopusdeploy_polling_subscription_id}
 */
 export class PollingSubscriptionId extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class PollingSubscriptionId extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PollingSubscriptionId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PollingSubscriptionId to import
-  * @param importFromId The id of the existing PollingSubscriptionId that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/polling_subscription_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PollingSubscriptionId that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/polling_subscription_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PollingSubscriptionId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class PollingSubscriptionId extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/polling_subscription_id octopusdeploy_polling_subscription_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/polling_subscription_id octopusdeploy_polling_subscription_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class PollingSubscriptionId extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_polling_subscription_id',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

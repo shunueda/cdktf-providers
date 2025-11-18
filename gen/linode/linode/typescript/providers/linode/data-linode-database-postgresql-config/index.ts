@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_config
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -3990,7 +3990,7 @@ export class DataLinodeDatabasePostgresqlConfigWorkMemList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_config linode_database_postgresql_config}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_config linode_database_postgresql_config}
 */
 export class DataLinodeDatabasePostgresqlConfigA extends cdktf.TerraformDataSource {
 
@@ -4006,7 +4006,7 @@ export class DataLinodeDatabasePostgresqlConfigA extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataLinodeDatabasePostgresqlConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabasePostgresqlConfigA to import
-  * @param importFromId The id of the existing DataLinodeDatabasePostgresqlConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabasePostgresqlConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabasePostgresqlConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4018,7 +4018,7 @@ export class DataLinodeDatabasePostgresqlConfigA extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_postgresql_config linode_database_postgresql_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_postgresql_config linode_database_postgresql_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4029,8 +4029,8 @@ export class DataLinodeDatabasePostgresqlConfigA extends cdktf.TerraformDataSour
       terraformResourceType: 'linode_database_postgresql_config',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,379 +10,391 @@ export interface DefaultPreventionPolicyWindowsConfig extends cdktf.TerraformMet
   /**
   * Whether to enable the setting. Allows the sensor to get more data from a user-mode component it loads into all eligible processes, which augments online machine learning and turns on additional detections. Recommend testing with critical applications before full deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#additional_user_mode_data DefaultPreventionPolicyWindows#additional_user_mode_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#additional_user_mode_data DefaultPreventionPolicyWindows#additional_user_mode_data}
   */
   readonly additionalUserModeData?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Perform advanced remediation for IOA detections to kill processes, quarantine files, remove scheduled tasks, and clear and delete ASEP registry values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#advanced_remediation DefaultPreventionPolicyWindows#advanced_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#advanced_remediation DefaultPreventionPolicyWindows#advanced_remediation}
   */
   readonly advancedRemediation?: boolean | cdktf.IResolvable;
   /**
   * Use cloud-based machine learning informed by global analysis of executables to detect and prevent adware and potentially unwanted programs (PUP) for your online hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#adware_and_pup DefaultPreventionPolicyWindows#adware_and_pup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#adware_and_pup DefaultPreventionPolicyWindows#adware_and_pup}
   */
   readonly adwareAndPup?: DefaultPreventionPolicyWindowsAdwareAndPup;
   /**
   * Whether to enable the setting. Creation of a process, such as a command prompt, from an exploited browser or browser flash plugin was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#application_exploitation_activity DefaultPreventionPolicyWindows#application_exploitation_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#application_exploitation_activity DefaultPreventionPolicyWindows#application_exploitation_activity}
   */
   readonly applicationExploitationActivity?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Deletion of backups often indicative of ransomware activity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#backup_deletion DefaultPreventionPolicyWindows#backup_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#backup_deletion DefaultPreventionPolicyWindows#backup_deletion}
   */
   readonly backupDeletion?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into BIOS. Detects suspicious and unexpected images. Recommend testing to monitor system startup performance before full deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#bios_deep_visibility DefaultPreventionPolicyWindows#bios_deep_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#bios_deep_visibility DefaultPreventionPolicyWindows#bios_deep_visibility}
   */
   readonly biosDeepVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block BCD registry operations that CrowdStrike analysts classify as suspicious. Focuses on dynamic IOAs, such as security config changes. The associated process may be killed. Requires suspicious_registry_operations to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#boot_configuration_database_protection DefaultPreventionPolicyWindows#boot_configuration_database_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#boot_configuration_database_protection DefaultPreventionPolicyWindows#boot_configuration_database_protection}
   */
   readonly bootConfigurationDatabaseProtection?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Execution of a command shell was blocked and is indicative of the system hosting a Chopper web page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#chopper_webshell DefaultPreventionPolicyWindows#chopper_webshell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#chopper_webshell DefaultPreventionPolicyWindows#chopper_webshell}
   */
   readonly chopperWebshell?: boolean | cdktf.IResolvable;
   /**
+  * For online hosts running on-demand scans initiated by end users, use cloud-based machine learning informed by global analysis of executables to detect and prevent known PUP and Adware.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#cloud_adware_pup_user_initiated DefaultPreventionPolicyWindows#cloud_adware_pup_user_initiated}
+  */
+  readonly cloudAdwarePupUserInitiated?: DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated;
+  /**
   * Use cloud-based machine learning informed by global analysis of executables to detect and prevent known malware for your online hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#cloud_anti_malware DefaultPreventionPolicyWindows#cloud_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#cloud_anti_malware DefaultPreventionPolicyWindows#cloud_anti_malware}
   */
   readonly cloudAntiMalware?: DefaultPreventionPolicyWindowsCloudAntiMalware;
   /**
   * Identifies potentially malicious macros in Microsoft Office files and, if prevention is enabled, either quarantines the file or removes the malicious macros before releasing the file back to the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#cloud_anti_malware_microsoft_office_files DefaultPreventionPolicyWindows#cloud_anti_malware_microsoft_office_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#cloud_anti_malware_microsoft_office_files DefaultPreventionPolicyWindows#cloud_anti_malware_microsoft_office_files}
   */
   readonly cloudAntiMalwareMicrosoftOfficeFiles?: DefaultPreventionPolicyWindowsCloudAntiMalwareMicrosoftOfficeFiles;
   /**
   * For online hosts running on-demand scans initiated by end users, use cloud-based machine learning informed by global analysis of executables to detect and prevent known malware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#cloud_anti_malware_user_initiated DefaultPreventionPolicyWindows#cloud_anti_malware_user_initiated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#cloud_anti_malware_user_initiated DefaultPreventionPolicyWindows#cloud_anti_malware_user_initiated}
   */
   readonly cloudAntiMalwareUserInitiated?: DefaultPreventionPolicyWindowsCloudAntiMalwareUserInitiated;
   /**
   * Whether to enable the setting. Kill processes that unexpectedly injected code into another process. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#code_injection DefaultPreventionPolicyWindows#code_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#code_injection DefaultPreventionPolicyWindows#code_injection}
   */
   readonly codeInjection?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Kill suspicious processes determined to be stealing logins and passwords. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#credential_dumping DefaultPreventionPolicyWindows#credential_dumping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#credential_dumping DefaultPreventionPolicyWindows#credential_dumping}
   */
   readonly credentialDumping?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A process associated with Cryptowall was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#cryptowall DefaultPreventionPolicyWindows#cryptowall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#cryptowall DefaultPreventionPolicyWindows#cryptowall}
   */
   readonly cryptowall?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes matching hashes that you add to IOC Management with the action set to "Block" or "Block, hide detection".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#custom_blocking DefaultPreventionPolicyWindows#custom_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#custom_blocking DefaultPreventionPolicyWindows#custom_blocking}
   */
   readonly customBlocking?: boolean | cdktf.IResolvable;
   /**
   * Description of the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#description DefaultPreventionPolicyWindows#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#description DefaultPreventionPolicyWindows#description}
   */
   readonly description?: string;
   /**
   * Whether to enable the setting. Use machine learning to analyze suspicious files when they're written to disk. To adjust detection sensitivity, change Anti-malware Detection levels in Sensor Machine Learning and Cloud Machine Learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detect_on_write DefaultPreventionPolicyWindows#detect_on_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detect_on_write DefaultPreventionPolicyWindows#detect_on_write}
   */
   readonly detectOnWrite?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A suspicious file written by a browser attempted to execute and was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#drive_by_download DefaultPreventionPolicyWindows#drive_by_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#drive_by_download DefaultPreventionPolicyWindows#drive_by_download}
   */
   readonly driveByDownload?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block the loading of kernel drivers that CrowdStrike analysts have identified as malicious. Available on Windows 10 and Windows Server 2016 and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#driver_load_prevention DefaultPreventionPolicyWindows#driver_load_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#driver_load_prevention DefaultPreventionPolicyWindows#driver_load_prevention}
   */
   readonly driverLoadPrevention?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into malicious System Management Automation engine usage by any application. Requires interpreter_only to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#engine_full_visibility DefaultPreventionPolicyWindows#engine_full_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#engine_full_visibility DefaultPreventionPolicyWindows#engine_full_visibility}
   */
   readonly engineFullVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. For hosts running Windows Server, increases sensor visibility of loaded DLLs. Improves detection coverage and telemetry, but may cause a small performance impact. Recommend testing with critical applications before full deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#enhanced_dll_load_visibility DefaultPreventionPolicyWindows#enhanced_dll_load_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#enhanced_dll_load_visibility DefaultPreventionPolicyWindows#enhanced_dll_load_visibility}
   */
   readonly enhancedDllLoadVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. For hosts running Windows 10 1809 and Server 2019 and later, provides additional visibility into common exploitation techniques used to weaken or circumvent application security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#enhanced_exploitation_visibility DefaultPreventionPolicyWindows#enhanced_exploitation_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#enhanced_exploitation_visibility DefaultPreventionPolicyWindows#enhanced_exploitation_visibility}
   */
   readonly enhancedExploitationVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Expand ML file size coverage. Existing ML level settings apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#enhanced_ml_for_larger_files DefaultPreventionPolicyWindows#enhanced_ml_for_larger_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#enhanced_ml_for_larger_files DefaultPreventionPolicyWindows#enhanced_ml_for_larger_files}
   */
   readonly enhancedMlForLargerFiles?: boolean | cdktf.IResolvable;
   /**
   * Allows the sensor to get more data from a user-mode component it loads into all eligible processes, which augments online machine learning and turns on additional detections. Recommend testing with critical applications before full deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#extended_user_mode_data DefaultPreventionPolicyWindows#extended_user_mode_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#extended_user_mode_data DefaultPreventionPolicyWindows#extended_user_mode_data}
   */
   readonly extendedUserModeData?: DefaultPreventionPolicyWindowsExtendedUserModeData;
   /**
   * Whether to enable the setting. A process that created a file with a known ransomware extension was terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#file_encryption DefaultPreventionPolicyWindows#file_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#file_encryption DefaultPreventionPolicyWindows#file_encryption}
   */
   readonly fileEncryption?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A process associated with a high volume of file system operations typical of ransomware behavior was terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#file_system_access DefaultPreventionPolicyWindows#file_system_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#file_system_access DefaultPreventionPolicyWindows#file_system_access}
   */
   readonly fileSystemAccess?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. File System Containment will be enabled, this will allow prevention capabilities to automatically contain file system activity.  When disabled each user under active containment will be released and the File System Containment will enter a disabled mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#file_system_containment DefaultPreventionPolicyWindows#file_system_containment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#file_system_containment DefaultPreventionPolicyWindows#file_system_containment}
   */
   readonly fileSystemContainment?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. An Address Space Layout Randomization (ASLR) bypass attempt was detected and blocked. This may have been part of an attempted exploit. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#force_aslr DefaultPreventionPolicyWindows#force_aslr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#force_aslr DefaultPreventionPolicyWindows#force_aslr}
   */
   readonly forceAslr?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A process that had Force Data Execution Prevention (Force DEP) applied tried to execute non-executable memory and was blocked. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#force_dep DefaultPreventionPolicyWindows#force_dep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#force_dep DefaultPreventionPolicyWindows#force_dep}
   */
   readonly forceDep?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides additional visibility into application exploits by using CPU hardware features that detect suspicious control flows. Available only for hosts running Windows 10 (RS4) or Windows Server 2016 Version 1803 or later and Skylake or later CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#hardware_enhanced_exploit_detection DefaultPreventionPolicyWindows#hardware_enhanced_exploit_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#hardware_enhanced_exploit_detection DefaultPreventionPolicyWindows#hardware_enhanced_exploit_detection}
   */
   readonly hardwareEnhancedExploitDetection?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A heap spray attempt was detected and blocked. This may have been part of an attempted exploit. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#heap_spray_preallocation DefaultPreventionPolicyWindows#heap_spray_preallocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#heap_spray_preallocation DefaultPreventionPolicyWindows#heap_spray_preallocation}
   */
   readonly heapSprayPreallocation?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows the sensor to monitor unencrypted HTTP traffic and certain encrypted HTTPS traffic on the sensor for malicious patterns and generate detection events on non-Server systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#http_detections DefaultPreventionPolicyWindows#http_detections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#http_detections DefaultPreventionPolicyWindows#http_detections}
   */
   readonly httpDetections?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes that CrowdStrike Intelligence analysts classify as malicious. These are focused on static hash-based IOCs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#intelligence_sourced_threats DefaultPreventionPolicyWindows#intelligence_sourced_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#intelligence_sourced_threats DefaultPreventionPolicyWindows#intelligence_sourced_threats}
   */
   readonly intelligenceSourcedThreats?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into malicious PowerShell interpreter usage. For hosts running Windows 10, Script-Based Execution Monitoring may be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#interpreter_only DefaultPreventionPolicyWindows#interpreter_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#interpreter_only DefaultPreventionPolicyWindows#interpreter_only}
   */
   readonly interpreterOnly?: boolean | cdktf.IResolvable;
   /**
   * IOA Rule Group to attach to the prevention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#ioa_rule_groups DefaultPreventionPolicyWindows#ioa_rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#ioa_rule_groups DefaultPreventionPolicyWindows#ioa_rule_groups}
   */
   readonly ioaRuleGroups: string[];
   /**
   * Whether to enable the setting. JavaScript executing from a command line via rundll32.exe was prevented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#javascript_via_rundll32 DefaultPreventionPolicyWindows#javascript_via_rundll32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#javascript_via_rundll32 DefaultPreventionPolicyWindows#javascript_via_rundll32}
   */
   readonly javascriptViaRundll32?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A process determined to be associated with Locky was blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#locky DefaultPreventionPolicyWindows#locky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#locky DefaultPreventionPolicyWindows#locky}
   */
   readonly locky?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into in-memory attacks by scanning for suspicious artifacts on hosts with the following: an integrated GPU and supporting OS libraries, Windows 10 v1607 (RS1) or later, and a Skylake or newer Intel CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#memory_scanning DefaultPreventionPolicyWindows#memory_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#memory_scanning DefaultPreventionPolicyWindows#memory_scanning}
   */
   readonly memoryScanning?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allows memory scanning to use the CPU or virtual CPU when an integrated GPU is not available. All Intel processors supported, requires Windows 8.1/2012 R2 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#memory_scanning_scan_with_cpu DefaultPreventionPolicyWindows#memory_scanning_scan_with_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#memory_scanning_scan_with_cpu DefaultPreventionPolicyWindows#memory_scanning_scan_with_cpu}
   */
   readonly memoryScanningScanWithCpu?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Identifies potentially malicious macros in Microsoft Office files and, if prevention is enabled, either quarantines the file or removes the malicious macros before releasing the file back to the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#microsoft_office_file_suspicious_macro_removal DefaultPreventionPolicyWindows#microsoft_office_file_suspicious_macro_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#microsoft_office_file_suspicious_macro_removal DefaultPreventionPolicyWindows#microsoft_office_file_suspicious_macro_removal}
   */
   readonly microsoftOfficeFileSuspiciousMacroRemoval?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Show a pop-up notification to the end user when the Falcon sensor blocks, kills, or quarantines. These messages also show up in the Windows Event Viewer under Applications and Service Logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#notify_end_users DefaultPreventionPolicyWindows#notify_end_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#notify_end_users DefaultPreventionPolicyWindows#notify_end_users}
   */
   readonly notifyEndUsers?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Allocating memory to the NULL (0) memory page was detected and blocked. This may have been part of an attempted exploit. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#null_page_allocation DefaultPreventionPolicyWindows#null_page_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#null_page_allocation DefaultPreventionPolicyWindows#null_page_allocation}
   */
   readonly nullPageAllocation?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides improved visibility into various script files being written to disk in addition to clouding a portion of their content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#on_write_script_file_visibility DefaultPreventionPolicyWindows#on_write_script_file_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#on_write_script_file_visibility DefaultPreventionPolicyWindows#on_write_script_file_visibility}
   */
   readonly onWriteScriptFileVisibility?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block processes that CrowdStrike analysts classify as suspicious. These are focused on dynamic IOAs, such as malware, exploits and other threats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevent_suspicious_processes DefaultPreventionPolicyWindows#prevent_suspicious_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevent_suspicious_processes DefaultPreventionPolicyWindows#prevent_suspicious_processes}
   */
   readonly preventSuspiciousProcesses?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Quarantine executable files after they’re prevented by NGAV. When this is enabled, we recommend setting anti-malware prevention levels to Moderate or higher and not using other antivirus solutions. CrowdStrike Falcon registers with Windows Security Center, disabling Windows Defender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#quarantine_and_security_center_registration DefaultPreventionPolicyWindows#quarantine_and_security_center_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#quarantine_and_security_center_registration DefaultPreventionPolicyWindows#quarantine_and_security_center_registration}
   */
   readonly quarantineAndSecurityCenterRegistration?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Quarantine executable files after they’re prevented by NGAV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#quarantine_on_removable_media DefaultPreventionPolicyWindows#quarantine_on_removable_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#quarantine_on_removable_media DefaultPreventionPolicyWindows#quarantine_on_removable_media}
   */
   readonly quarantineOnRemovableMedia?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Use machine learning to quarantine suspicious files when they're written to disk. To adjust quarantine sensitivity, change Anti-malware Prevention levels in Sensor Machine Learning and Cloud Machine Learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#quarantine_on_write DefaultPreventionPolicyWindows#quarantine_on_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#quarantine_on_write DefaultPreventionPolicyWindows#quarantine_on_write}
   */
   readonly quarantineOnWrite?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Remove certain information from HTTP Detection events, including URL, raw HTTP header and POST bodies if they were present. This does not affect the generation of HTTP Detections, only additional details that would be included and may include personal information (depending on the malware in question). When disabled, the information is used to improve the response to detection events. Has no effect unless HTTP Detections is also enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#redact_http_detection_details DefaultPreventionPolicyWindows#redact_http_detection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#redact_http_detection_details DefaultPreventionPolicyWindows#redact_http_detection_details}
   */
   readonly redactHttpDetectionDetails?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. For hosts running Windows 10 and Servers 2016 and later, provides visibility into suspicious scripts and VBA macros in Office documents. Requires Quarantine & Security Center Registration toggle to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#script_based_execution_monitoring DefaultPreventionPolicyWindows#script_based_execution_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#script_based_execution_monitoring DefaultPreventionPolicyWindows#script_based_execution_monitoring}
   */
   readonly scriptBasedExecutionMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Overwriting a Structured Exception Handler (SEH) was detected and may have been blocked. This may have been part of an attempted exploit. Requires additional_user_mode_data to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#seh_overwrite_protection DefaultPreventionPolicyWindows#seh_overwrite_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#seh_overwrite_protection DefaultPreventionPolicyWindows#seh_overwrite_protection}
   */
   readonly sehOverwriteProtection?: boolean | cdktf.IResolvable;
   /**
   * For offline and online hosts, use sensor-based machine learning to identify and analyze unknown executables as they run to detect and prevent malware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#sensor_anti_malware DefaultPreventionPolicyWindows#sensor_anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#sensor_anti_malware DefaultPreventionPolicyWindows#sensor_anti_malware}
   */
   readonly sensorAntiMalware?: DefaultPreventionPolicyWindowsSensorAntiMalware;
   /**
   * For offline and online hosts running on-demand scans initiated by end users, use sensor-based machine learning to identify and analyze unknown executables to detect and prevent malware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#sensor_anti_malware_user_initiated DefaultPreventionPolicyWindows#sensor_anti_malware_user_initiated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#sensor_anti_malware_user_initiated DefaultPreventionPolicyWindows#sensor_anti_malware_user_initiated}
   */
   readonly sensorAntiMalwareUserInitiated?: DefaultPreventionPolicyWindowsSensorAntiMalwareUserInitiated;
   /**
   * Whether to enable the setting. Blocks attempts to tamper with the sensor. If disabled, the sensor still creates detections for tampering attempts but doesn’t block them. Disabling not recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#sensor_tampering_protection DefaultPreventionPolicyWindows#sensor_tampering_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#sensor_tampering_protection DefaultPreventionPolicyWindows#sensor_tampering_protection}
   */
   readonly sensorTamperingProtection?: boolean | cdktf.IResolvable;
   /**
+  * Whether to enable the setting. Upload suspicious files for advanced threat analysis with QuickScan Pro.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#suspicious_file_analysis DefaultPreventionPolicyWindows#suspicious_file_analysis}
+  */
+  readonly suspiciousFileAnalysis?: boolean | cdktf.IResolvable;
+  /**
   * Whether to enable the setting. Block registry operations that CrowdStrike analysts classify as suspicious. Focuses on dynamic IOAs, such as ASEPs and security config changes. The associated process may be killed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#suspicious_registry_operations DefaultPreventionPolicyWindows#suspicious_registry_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#suspicious_registry_operations DefaultPreventionPolicyWindows#suspicious_registry_operations}
   */
   readonly suspiciousRegistryOperations?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Block execution of scripts and commands that CrowdStrike analysts classify as suspicious. Requires Interpreter-Only and/or Script-Based Execution Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#suspicious_scripts_and_commands DefaultPreventionPolicyWindows#suspicious_scripts_and_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#suspicious_scripts_and_commands DefaultPreventionPolicyWindows#suspicious_scripts_and_commands}
   */
   readonly suspiciousScriptsAndCommands?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown detection-related executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#upload_unknown_detection_related_executables DefaultPreventionPolicyWindows#upload_unknown_detection_related_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#upload_unknown_detection_related_executables DefaultPreventionPolicyWindows#upload_unknown_detection_related_executables}
   */
   readonly uploadUnknownDetectionRelatedExecutables?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Upload all unknown executables for advanced analysis in the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#upload_unknown_executables DefaultPreventionPolicyWindows#upload_unknown_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#upload_unknown_executables DefaultPreventionPolicyWindows#upload_unknown_executables}
   */
   readonly uploadUnknownExecutables?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Start an on-demand scan when an end user inserts a USB device. To adjust detection sensitivity, change Anti-malware Detection levels in On-Demand Scans Machine Learning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#usb_insertion_triggered_scan DefaultPreventionPolicyWindows#usb_insertion_triggered_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#usb_insertion_triggered_scan DefaultPreventionPolicyWindows#usb_insertion_triggered_scan}
   */
   readonly usbInsertionTriggeredScan?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Create an alert when a suspicious process deletes volume shadow copies. Recommended: Use audit mode with a test group to try allowlisting trusted software before turning on Protect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#volume_shadow_copy_audit DefaultPreventionPolicyWindows#volume_shadow_copy_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#volume_shadow_copy_audit DefaultPreventionPolicyWindows#volume_shadow_copy_audit}
   */
   readonly volumeShadowCopyAudit?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Prevent suspicious processes from deleting volume shadow copies. Requires volume_shadow_copy_audit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#volume_shadow_copy_protect DefaultPreventionPolicyWindows#volume_shadow_copy_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#volume_shadow_copy_protect DefaultPreventionPolicyWindows#volume_shadow_copy_protect}
   */
   readonly volumeShadowCopyProtect?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Quarantine and block the loading of newly written kernel drivers that CrowdStrike analysts have identified as vulnerable. Available on Windows 10 and Windows 2016 and later. Requires driver_load_prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#vulnerable_driver_protection DefaultPreventionPolicyWindows#vulnerable_driver_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#vulnerable_driver_protection DefaultPreventionPolicyWindows#vulnerable_driver_protection}
   */
   readonly vulnerableDriverProtection?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. A command line process associated with Windows logon bypass was prevented from executing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#windows_logon_bypass_sticky_keys DefaultPreventionPolicyWindows#windows_logon_bypass_sticky_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#windows_logon_bypass_sticky_keys DefaultPreventionPolicyWindows#windows_logon_bypass_sticky_keys}
   */
   readonly windowsLogonBypassStickyKeys?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the setting. Provides visibility into WSL2 distributions by enabling a Falcon sensor plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#wsl2_visibility DefaultPreventionPolicyWindows#wsl2_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#wsl2_visibility DefaultPreventionPolicyWindows#wsl2_visibility}
   */
   readonly wsl2Visibility?: boolean | cdktf.IResolvable;
 }
@@ -390,13 +402,13 @@ export interface DefaultPreventionPolicyWindowsAdwareAndPup {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -511,17 +523,142 @@ export class DefaultPreventionPolicyWindowsAdwareAndPupOutputReference extends c
     return this._prevention;
   }
 }
-export interface DefaultPreventionPolicyWindowsCloudAntiMalware {
+export interface DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  */
+  readonly prevention: string;
+}
+
+export function defaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedToTerraform(struct?: DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    detection: cdktf.stringToTerraform(struct!.detection),
+    prevention: cdktf.stringToTerraform(struct!.prevention),
+  }
+}
+
+
+export function defaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedToHclTerraform(struct?: DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    detection: {
+      value: cdktf.stringToHclTerraform(struct!.detection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    prevention: {
+      value: cdktf.stringToHclTerraform(struct!.prevention),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._detection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.detection = this._detection;
+    }
+    if (this._prevention !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prevention = this._prevention;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._detection = undefined;
+      this._prevention = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._detection = value.detection;
+      this._prevention = value.prevention;
+    }
+  }
+
+  // detection - computed: true, optional: false, required: true
+  private _detection?: string; 
+  public get detection() {
+    return this.getStringAttribute('detection');
+  }
+  public set detection(value: string) {
+    this._detection = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get detectionInput() {
+    return this._detection;
+  }
+
+  // prevention - computed: true, optional: false, required: true
+  private _prevention?: string; 
+  public get prevention() {
+    return this.getStringAttribute('prevention');
+  }
+  public set prevention(value: string) {
+    this._prevention = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preventionInput() {
+    return this._prevention;
+  }
+}
+export interface DefaultPreventionPolicyWindowsCloudAntiMalware {
+  /**
+  * Machine learning level for detection.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  */
+  readonly detection: string;
+  /**
+  * Machine learning level for prevention.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -640,13 +777,13 @@ export interface DefaultPreventionPolicyWindowsCloudAntiMalwareMicrosoftOfficeFi
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -765,13 +902,13 @@ export interface DefaultPreventionPolicyWindowsCloudAntiMalwareUserInitiated {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -890,7 +1027,7 @@ export interface DefaultPreventionPolicyWindowsExtendedUserModeData {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
 }
@@ -983,13 +1120,13 @@ export interface DefaultPreventionPolicyWindowsSensorAntiMalware {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -1108,13 +1245,13 @@ export interface DefaultPreventionPolicyWindowsSensorAntiMalwareUserInitiated {
   /**
   * Machine learning level for detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#detection DefaultPreventionPolicyWindows#detection}
   */
   readonly detection: string;
   /**
   * Machine learning level for prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#prevention DefaultPreventionPolicyWindows#prevention}
   */
   readonly prevention: string;
 }
@@ -1231,7 +1368,7 @@ export class DefaultPreventionPolicyWindowsSensorAntiMalwareUserInitiatedOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows crowdstrike_default_prevention_policy_windows}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows crowdstrike_default_prevention_policy_windows}
 */
 export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
 
@@ -1247,7 +1384,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefaultPreventionPolicyWindows resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultPreventionPolicyWindows to import
-  * @param importFromId The id of the existing DefaultPreventionPolicyWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultPreventionPolicyWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultPreventionPolicyWindows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1396,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.43/docs/resources/default_prevention_policy_windows crowdstrike_default_prevention_policy_windows} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.46/docs/resources/default_prevention_policy_windows crowdstrike_default_prevention_policy_windows} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1407,8 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_default_prevention_policy_windows',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43',
-        providerVersionConstraint: '0.0.43'
+        providerVersion: '0.0.46',
+        providerVersionConstraint: '0.0.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1289,6 +1426,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
     this._biosDeepVisibility = config.biosDeepVisibility;
     this._bootConfigurationDatabaseProtection = config.bootConfigurationDatabaseProtection;
     this._chopperWebshell = config.chopperWebshell;
+    this._cloudAdwarePupUserInitiated.internalValue = config.cloudAdwarePupUserInitiated;
     this._cloudAntiMalware.internalValue = config.cloudAntiMalware;
     this._cloudAntiMalwareMicrosoftOfficeFiles.internalValue = config.cloudAntiMalwareMicrosoftOfficeFiles;
     this._cloudAntiMalwareUserInitiated.internalValue = config.cloudAntiMalwareUserInitiated;
@@ -1334,6 +1472,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
     this._sensorAntiMalware.internalValue = config.sensorAntiMalware;
     this._sensorAntiMalwareUserInitiated.internalValue = config.sensorAntiMalwareUserInitiated;
     this._sensorTamperingProtection = config.sensorTamperingProtection;
+    this._suspiciousFileAnalysis = config.suspiciousFileAnalysis;
     this._suspiciousRegistryOperations = config.suspiciousRegistryOperations;
     this._suspiciousScriptsAndCommands = config.suspiciousScriptsAndCommands;
     this._uploadUnknownDetectionRelatedExecutables = config.uploadUnknownDetectionRelatedExecutables;
@@ -1476,6 +1615,22 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get chopperWebshellInput() {
     return this._chopperWebshell;
+  }
+
+  // cloud_adware_pup_user_initiated - computed: true, optional: true, required: false
+  private _cloudAdwarePupUserInitiated = new DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedOutputReference(this, "cloud_adware_pup_user_initiated");
+  public get cloudAdwarePupUserInitiated() {
+    return this._cloudAdwarePupUserInitiated;
+  }
+  public putCloudAdwarePupUserInitiated(value: DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated) {
+    this._cloudAdwarePupUserInitiated.internalValue = value;
+  }
+  public resetCloudAdwarePupUserInitiated() {
+    this._cloudAdwarePupUserInitiated.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cloudAdwarePupUserInitiatedInput() {
+    return this._cloudAdwarePupUserInitiated.internalValue;
   }
 
   // cloud_anti_malware - computed: true, optional: true, required: false
@@ -2205,6 +2360,22 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
     return this._sensorTamperingProtection;
   }
 
+  // suspicious_file_analysis - computed: true, optional: true, required: false
+  private _suspiciousFileAnalysis?: boolean | cdktf.IResolvable; 
+  public get suspiciousFileAnalysis() {
+    return this.getBooleanAttribute('suspicious_file_analysis');
+  }
+  public set suspiciousFileAnalysis(value: boolean | cdktf.IResolvable) {
+    this._suspiciousFileAnalysis = value;
+  }
+  public resetSuspiciousFileAnalysis() {
+    this._suspiciousFileAnalysis = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suspiciousFileAnalysisInput() {
+    return this._suspiciousFileAnalysis;
+  }
+
   // suspicious_registry_operations - computed: true, optional: true, required: false
   private _suspiciousRegistryOperations?: boolean | cdktf.IResolvable; 
   public get suspiciousRegistryOperations() {
@@ -2379,6 +2550,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
       bios_deep_visibility: cdktf.booleanToTerraform(this._biosDeepVisibility),
       boot_configuration_database_protection: cdktf.booleanToTerraform(this._bootConfigurationDatabaseProtection),
       chopper_webshell: cdktf.booleanToTerraform(this._chopperWebshell),
+      cloud_adware_pup_user_initiated: defaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedToTerraform(this._cloudAdwarePupUserInitiated.internalValue),
       cloud_anti_malware: defaultPreventionPolicyWindowsCloudAntiMalwareToTerraform(this._cloudAntiMalware.internalValue),
       cloud_anti_malware_microsoft_office_files: defaultPreventionPolicyWindowsCloudAntiMalwareMicrosoftOfficeFilesToTerraform(this._cloudAntiMalwareMicrosoftOfficeFiles.internalValue),
       cloud_anti_malware_user_initiated: defaultPreventionPolicyWindowsCloudAntiMalwareUserInitiatedToTerraform(this._cloudAntiMalwareUserInitiated.internalValue),
@@ -2424,6 +2596,7 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
       sensor_anti_malware: defaultPreventionPolicyWindowsSensorAntiMalwareToTerraform(this._sensorAntiMalware.internalValue),
       sensor_anti_malware_user_initiated: defaultPreventionPolicyWindowsSensorAntiMalwareUserInitiatedToTerraform(this._sensorAntiMalwareUserInitiated.internalValue),
       sensor_tampering_protection: cdktf.booleanToTerraform(this._sensorTamperingProtection),
+      suspicious_file_analysis: cdktf.booleanToTerraform(this._suspiciousFileAnalysis),
       suspicious_registry_operations: cdktf.booleanToTerraform(this._suspiciousRegistryOperations),
       suspicious_scripts_and_commands: cdktf.booleanToTerraform(this._suspiciousScriptsAndCommands),
       upload_unknown_detection_related_executables: cdktf.booleanToTerraform(this._uploadUnknownDetectionRelatedExecutables),
@@ -2486,6 +2659,12 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      cloud_adware_pup_user_initiated: {
+        value: defaultPreventionPolicyWindowsCloudAdwarePupUserInitiatedToHclTerraform(this._cloudAdwarePupUserInitiated.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DefaultPreventionPolicyWindowsCloudAdwarePupUserInitiated",
       },
       cloud_anti_malware: {
         value: defaultPreventionPolicyWindowsCloudAntiMalwareToHclTerraform(this._cloudAntiMalware.internalValue),
@@ -2753,6 +2932,12 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
       },
       sensor_tampering_protection: {
         value: cdktf.booleanToHclTerraform(this._sensorTamperingProtection),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      suspicious_file_analysis: {
+        value: cdktf.booleanToHclTerraform(this._suspiciousFileAnalysis),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

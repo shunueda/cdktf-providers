@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SourceLoadGeneratorConfig extends cdktf.TerraformMetaArguments 
   /**
   * The cluster to maintain this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#cluster_name SourceLoadGenerator#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#cluster_name SourceLoadGenerator#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#comment SourceLoadGenerator#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#comment SourceLoadGenerator#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the source database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#database_name SourceLoadGenerator#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#database_name SourceLoadGenerator#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#id SourceLoadGenerator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#id SourceLoadGenerator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface SourceLoadGeneratorConfig extends cdktf.TerraformMetaArguments 
   /**
   * The load generator types: [AUCTION MARKETING TPCH].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#load_generator_type SourceLoadGenerator#load_generator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#load_generator_type SourceLoadGenerator#load_generator_type}
   */
   readonly loadGeneratorType: string;
   /**
   * The identifier for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#name SourceLoadGenerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#name SourceLoadGenerator#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#ownership_role SourceLoadGenerator#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#ownership_role SourceLoadGenerator#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#region SourceLoadGenerator#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#region SourceLoadGenerator#region}
   */
   readonly region?: string;
   /**
   * The identifier for the source schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#schema_name SourceLoadGenerator#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#schema_name SourceLoadGenerator#schema_name}
   */
   readonly schemaName?: string;
   /**
   * auction_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#auction_options SourceLoadGenerator#auction_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#auction_options SourceLoadGenerator#auction_options}
   */
   readonly auctionOptions?: SourceLoadGeneratorAuctionOptions;
   /**
   * expose_progress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#expose_progress SourceLoadGenerator#expose_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#expose_progress SourceLoadGenerator#expose_progress}
   */
   readonly exposeProgress?: SourceLoadGeneratorExposeProgress;
   /**
   * marketing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#marketing_options SourceLoadGenerator#marketing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#marketing_options SourceLoadGenerator#marketing_options}
   */
   readonly marketingOptions?: SourceLoadGeneratorMarketingOptions;
   /**
   * tpch_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#tpch_options SourceLoadGenerator#tpch_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#tpch_options SourceLoadGenerator#tpch_options}
   */
   readonly tpchOptions?: SourceLoadGeneratorTpchOptions;
 }
@@ -91,13 +91,13 @@ export interface SourceLoadGeneratorAuctionOptions {
   /**
   * (Deprecated) The scale factor for the generator. Defaults to 0.01 (~ 10MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
   */
   readonly scaleFactor?: number;
   /**
   * The interval at which the next datum should be emitted. Defaults to one second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
   */
   readonly tickInterval?: string;
 }
@@ -212,19 +212,19 @@ export interface SourceLoadGeneratorExposeProgress {
   /**
   * The expose_progress database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#database_name SourceLoadGenerator#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#database_name SourceLoadGenerator#database_name}
   */
   readonly databaseName?: string;
   /**
   * The expose_progress name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#name SourceLoadGenerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#name SourceLoadGenerator#name}
   */
   readonly name: string;
   /**
   * The expose_progress schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#schema_name SourceLoadGenerator#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#schema_name SourceLoadGenerator#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -365,13 +365,13 @@ export interface SourceLoadGeneratorMarketingOptions {
   /**
   * (Deprecated) The scale factor for the generator. Defaults to 0.01 (~ 10MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
   */
   readonly scaleFactor?: number;
   /**
   * The interval at which the next datum should be emitted. Defaults to one second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
   */
   readonly tickInterval?: string;
 }
@@ -486,13 +486,13 @@ export interface SourceLoadGeneratorTpchOptions {
   /**
   * The scale factor for the generator. Defaults to 0.01 (~ 10MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#scale_factor SourceLoadGenerator#scale_factor}
   */
   readonly scaleFactor?: number;
   /**
   * The interval at which the next datum should be emitted. Defaults to one second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#tick_interval SourceLoadGenerator#tick_interval}
   */
   readonly tickInterval?: string;
 }
@@ -605,7 +605,7 @@ export class SourceLoadGeneratorTpchOptionsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator materialize_source_load_generator}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator materialize_source_load_generator}
 */
 export class SourceLoadGenerator extends cdktf.TerraformResource {
 
@@ -621,7 +621,7 @@ export class SourceLoadGenerator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceLoadGenerator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceLoadGenerator to import
-  * @param importFromId The id of the existing SourceLoadGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceLoadGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceLoadGenerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -633,7 +633,7 @@ export class SourceLoadGenerator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/resources/source_load_generator materialize_source_load_generator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_load_generator materialize_source_load_generator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -644,8 +644,8 @@ export class SourceLoadGenerator extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_load_generator',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

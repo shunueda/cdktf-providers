@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DbaasMysqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ Authentication details. The possible values are `null`, `caching_sha2_password` and `mysql_native_password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#authentication DbaasMysqlUser#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#authentication DbaasMysqlUser#authentication}
   */
   readonly authentication?: string;
   /**
   * ❗ The name of the database service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#service DbaasMysqlUser#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#service DbaasMysqlUser#service}
   */
   readonly service: string;
   /**
   * ❗ The name of the user for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#username DbaasMysqlUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#username DbaasMysqlUser#username}
   */
   readonly username: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#zone DbaasMysqlUser#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#zone DbaasMysqlUser#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#timeouts DbaasMysqlUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#timeouts DbaasMysqlUser#timeouts}
   */
   readonly timeouts?: DbaasMysqlUserTimeouts;
 }
@@ -42,25 +42,25 @@ export interface DbaasMysqlUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#create DbaasMysqlUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#create DbaasMysqlUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#delete DbaasMysqlUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#delete DbaasMysqlUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#read DbaasMysqlUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#read DbaasMysqlUser#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#update DbaasMysqlUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#update DbaasMysqlUser#update}
   */
   readonly update?: string;
 }
@@ -241,7 +241,7 @@ export class DbaasMysqlUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user exoscale_dbaas_mysql_user}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user exoscale_dbaas_mysql_user}
 */
 export class DbaasMysqlUser extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class DbaasMysqlUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasMysqlUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasMysqlUser to import
-  * @param importFromId The id of the existing DbaasMysqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasMysqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasMysqlUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class DbaasMysqlUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_user exoscale_dbaas_mysql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.1/docs/resources/dbaas_mysql_user exoscale_dbaas_mysql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class DbaasMysqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_dbaas_mysql_user',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.67.0',
-        providerVersionConstraint: '0.67.0'
+        providerVersion: '0.67.1',
+        providerVersionConstraint: '0.67.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

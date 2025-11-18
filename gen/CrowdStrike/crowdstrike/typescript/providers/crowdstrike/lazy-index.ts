@@ -33,6 +33,7 @@ Object.defineProperty(exports, 'dataCrowdstrikeCloudAwsAccount', { get: function
 Object.defineProperty(exports, 'dataCrowdstrikeCloudComplianceFrameworkControls', { get: function () { return require('./data-crowdstrike-cloud-compliance-framework-controls'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeCloudSecurityRules', { get: function () { return require('./data-crowdstrike-cloud-security-rules'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeContentCategoryVersions', { get: function () { return require('./data-crowdstrike-content-category-versions'); } });
+Object.defineProperty(exports, 'dataCrowdstrikePreventionPolicies', { get: function () { return require('./data-crowdstrike-prevention-policies'); } });
 Object.defineProperty(exports, 'dataCrowdstrikeSensorUpdatePolicyBuilds', { get: function () { return require('./data-crowdstrike-sensor-update-policy-builds'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

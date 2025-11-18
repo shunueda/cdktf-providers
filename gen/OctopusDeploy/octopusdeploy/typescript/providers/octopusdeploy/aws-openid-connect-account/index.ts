@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AwsOpenidConnectAccountConfig extends cdktf.TerraformMetaArgume
   /**
   * Keys to include in an account test. Valid options are: `space`, `account`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#account_test_subject_keys AwsOpenidConnectAccount#account_test_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#account_test_subject_keys AwsOpenidConnectAccount#account_test_subject_keys}
   */
   readonly accountTestSubjectKeys?: string[];
   /**
   * A user-friendly description of this AWS OIDC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#description AwsOpenidConnectAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#description AwsOpenidConnectAccount#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#environments AwsOpenidConnectAccount#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#environments AwsOpenidConnectAccount#environments}
   */
   readonly environments?: string[];
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `environment`, `project`, `tenant`, `runbook`, `account`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#execution_subject_keys AwsOpenidConnectAccount#execution_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#execution_subject_keys AwsOpenidConnectAccount#execution_subject_keys}
   */
   readonly executionSubjectKeys?: string[];
   /**
   * Keys to include in a health check. Valid options are `space`, `account`, `target`, `type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#health_subject_keys AwsOpenidConnectAccount#health_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#health_subject_keys AwsOpenidConnectAccount#health_subject_keys}
   */
   readonly healthSubjectKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#id AwsOpenidConnectAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#id AwsOpenidConnectAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface AwsOpenidConnectAccountConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of this AWS OIDC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#name AwsOpenidConnectAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#name AwsOpenidConnectAccount#name}
   */
   readonly name: string;
   /**
   * The Amazon Resource Name (ARN) of the role that the caller is assuming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#role_arn AwsOpenidConnectAccount#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#role_arn AwsOpenidConnectAccount#role_arn}
   */
   readonly roleArn: string;
   /**
   * The duration, in seconds, of the role session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#session_duration AwsOpenidConnectAccount#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#session_duration AwsOpenidConnectAccount#session_duration}
   */
   readonly sessionDuration?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#space_id AwsOpenidConnectAccount#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#space_id AwsOpenidConnectAccount#space_id}
   */
   readonly spaceId?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#tenant_tags AwsOpenidConnectAccount#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#tenant_tags AwsOpenidConnectAccount#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#tenanted_deployment_participation AwsOpenidConnectAccount#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#tenanted_deployment_participation AwsOpenidConnectAccount#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#tenants AwsOpenidConnectAccount#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#tenants AwsOpenidConnectAccount#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account octopusdeploy_aws_openid_connect_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account octopusdeploy_aws_openid_connect_account}
 */
 export class AwsOpenidConnectAccount extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class AwsOpenidConnectAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsOpenidConnectAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsOpenidConnectAccount to import
-  * @param importFromId The id of the existing AwsOpenidConnectAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsOpenidConnectAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsOpenidConnectAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class AwsOpenidConnectAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_openid_connect_account octopusdeploy_aws_openid_connect_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_openid_connect_account octopusdeploy_aws_openid_connect_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class AwsOpenidConnectAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_aws_openid_connect_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

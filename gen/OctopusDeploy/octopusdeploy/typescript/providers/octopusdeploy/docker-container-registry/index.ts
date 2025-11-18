@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface DockerContainerRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#api_version DockerContainerRegistry#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#api_version DockerContainerRegistry#api_version}
   */
   readonly apiVersion?: string;
   /**
   * The number of times a deployment should attempt to download a package from this feed before failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#download_attempts DockerContainerRegistry#download_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#download_attempts DockerContainerRegistry#download_attempts}
   */
   readonly downloadAttempts?: number;
   /**
   * The number of seconds to apply as a linear back off between download attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#download_retry_backoff_seconds DockerContainerRegistry#download_retry_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#download_retry_backoff_seconds DockerContainerRegistry#download_retry_backoff_seconds}
   */
   readonly downloadRetryBackoffSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#feed_uri DockerContainerRegistry#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#feed_uri DockerContainerRegistry#feed_uri}
   */
   readonly feedUri: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#name DockerContainerRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#name DockerContainerRegistry#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#package_acquisition_location_options DockerContainerRegistry#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#package_acquisition_location_options DockerContainerRegistry#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#password DockerContainerRegistry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#password DockerContainerRegistry#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#registry_path DockerContainerRegistry#registry_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#registry_path DockerContainerRegistry#registry_path}
   */
   readonly registryPath?: string;
   /**
   * The space ID associated with this docker container registry feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#space_id DockerContainerRegistry#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#space_id DockerContainerRegistry#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#username DockerContainerRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#username DockerContainerRegistry#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry octopusdeploy_docker_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry octopusdeploy_docker_container_registry}
 */
 export class DockerContainerRegistry extends cdktf.TerraformResource {
 
@@ -78,7 +78,7 @@ export class DockerContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DockerContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerContainerRegistry to import
-  * @param importFromId The id of the existing DockerContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -90,7 +90,7 @@ export class DockerContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/docker_container_registry octopusdeploy_docker_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/docker_container_registry octopusdeploy_docker_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -101,8 +101,8 @@ export class DockerContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_docker_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

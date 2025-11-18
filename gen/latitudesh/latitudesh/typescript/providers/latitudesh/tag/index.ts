@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The tag color (hex color code, e.g., #ff0000). The API normalizes colors to lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag#color Tag#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag#color Tag#color}
   */
   readonly color?: string;
   /**
   * The tag description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag#description Tag#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag#description Tag#description}
   */
   readonly description?: string;
   /**
   * The tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag#name Tag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag#name Tag#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag latitudesh_tag}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag latitudesh_tag}
 */
 export class Tag extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Tag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tag to import
-  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tag that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Tag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.2/docs/resources/tag latitudesh_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/tag latitudesh_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Tag extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_tag',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2',
-        providerVersionConstraint: '2.8.2'
+        providerVersion: '2.8.3',
+        providerVersionConstraint: '2.8.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

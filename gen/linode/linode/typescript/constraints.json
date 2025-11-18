@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "linode": "3.5.1"
+    "linode": "3.6.0"
   }
 }

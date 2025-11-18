@@ -1,3 +1,3 @@
 # `linode_networking_ip_assignment`
 
-Refer to the Terraform Registry for docs: [`linode_networking_ip_assignment`](https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/networking_ip_assignment).
+Refer to the Terraform Registry for docs: [`linode_networking_ip_assignment`](https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment).

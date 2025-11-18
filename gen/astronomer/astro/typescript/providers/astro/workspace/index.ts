@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether new Deployments enforce CI/CD deploys by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace#cicd_enforced_default Workspace#cicd_enforced_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace#cicd_enforced_default Workspace#cicd_enforced_default}
   */
   readonly cicdEnforcedDefault: boolean | cdktf.IResolvable;
   /**
   * Workspace description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace#description Workspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace#description Workspace#description}
   */
   readonly description: string;
   /**
   * Workspace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace#name Workspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace#name Workspace#name}
   */
   readonly name: string;
 }
@@ -186,7 +186,7 @@ export class WorkspaceUpdatedByOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace astro_workspace}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace astro_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/resources/workspace astro_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/workspace astro_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'astro_workspace',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

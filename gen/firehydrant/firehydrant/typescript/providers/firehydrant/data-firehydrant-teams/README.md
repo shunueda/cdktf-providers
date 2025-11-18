@@ -1,3 +1,3 @@
 # `data_firehydrant_teams`
 
-Refer to the Terraform Registry for docs: [`data_firehydrant_teams`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.9/docs/data-sources/teams).
+Refer to the Terraform Registry for docs: [`data_firehydrant_teams`](https://registry.terraform.io/providers/firehydrant/firehydrant/0.14.11/docs/data-sources/teams).

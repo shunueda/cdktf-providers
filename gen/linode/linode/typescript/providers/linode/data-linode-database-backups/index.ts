@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,44 @@ export interface DataLinodeDatabaseBackupsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#database_id DataLinodeDatabaseBackups#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#database_id DataLinodeDatabaseBackups#database_id}
   */
   readonly databaseId: number;
   /**
   * The type of the Managed Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#database_type DataLinodeDatabaseBackups#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#database_type DataLinodeDatabaseBackups#database_type}
   */
   readonly databaseType: string;
   /**
   * If true, only the latest engine version will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#latest DataLinodeDatabaseBackups#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#latest DataLinodeDatabaseBackups#latest}
   */
   readonly latest?: boolean | cdktf.IResolvable;
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#order DataLinodeDatabaseBackups#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#order DataLinodeDatabaseBackups#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#order_by DataLinodeDatabaseBackups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#order_by DataLinodeDatabaseBackups#order_by}
   */
   readonly orderBy?: string;
   /**
-  * backups block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#backups DataLinodeDatabaseBackups#backups}
-  */
-  readonly backups?: DataLinodeDatabaseBackupsBackups[] | cdktf.IResolvable;
-  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#filter DataLinodeDatabaseBackups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#filter DataLinodeDatabaseBackups#filter}
   */
   readonly filter?: DataLinodeDatabaseBackupsFilter[] | cdktf.IResolvable;
 }
 export interface DataLinodeDatabaseBackupsBackups {
 }
 
-export function dataLinodeDatabaseBackupsBackupsToTerraform(struct?: DataLinodeDatabaseBackupsBackups | cdktf.IResolvable): any {
+export function dataLinodeDatabaseBackupsBackupsToTerraform(struct?: DataLinodeDatabaseBackupsBackups): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -63,7 +57,7 @@ export function dataLinodeDatabaseBackupsBackupsToTerraform(struct?: DataLinodeD
 }
 
 
-export function dataLinodeDatabaseBackupsBackupsToHclTerraform(struct?: DataLinodeDatabaseBackupsBackups | cdktf.IResolvable): any {
+export function dataLinodeDatabaseBackupsBackupsToHclTerraform(struct?: DataLinodeDatabaseBackupsBackups): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -75,7 +69,6 @@ export function dataLinodeDatabaseBackupsBackupsToHclTerraform(struct?: DataLino
 
 export class DataLinodeDatabaseBackupsBackupsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -87,27 +80,18 @@ export class DataLinodeDatabaseBackupsBackupsOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataLinodeDatabaseBackupsBackups | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): DataLinodeDatabaseBackupsBackups | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataLinodeDatabaseBackupsBackups | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataLinodeDatabaseBackupsBackups | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
     }
   }
 
@@ -133,7 +117,6 @@ export class DataLinodeDatabaseBackupsBackupsOutputReference extends cdktf.Compl
 }
 
 export class DataLinodeDatabaseBackupsBackupsList extends cdktf.ComplexList {
-  public internalValue? : DataLinodeDatabaseBackupsBackups[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -155,19 +138,19 @@ export interface DataLinodeDatabaseBackupsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#match_by DataLinodeDatabaseBackups#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#match_by DataLinodeDatabaseBackups#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#name DataLinodeDatabaseBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#name DataLinodeDatabaseBackups#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#values DataLinodeDatabaseBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#values DataLinodeDatabaseBackups#values}
   */
   readonly values: string[];
 }
@@ -335,7 +318,7 @@ export class DataLinodeDatabaseBackupsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups linode_database_backups}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups linode_database_backups}
 */
 export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
 
@@ -351,7 +334,7 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabaseBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabaseBackups to import
-  * @param importFromId The id of the existing DataLinodeDatabaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabaseBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +346,7 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_backups linode_database_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups linode_database_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +357,8 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_backups',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -390,13 +373,18 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
     this._latest = config.latest;
     this._order = config.order;
     this._orderBy = config.orderBy;
-    this._backups.internalValue = config.backups;
     this._filter.internalValue = config.filter;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // backups - computed: true, optional: false, required: false
+  private _backups = new DataLinodeDatabaseBackupsBackupsList(this, "backups", false);
+  public get backups() {
+    return this._backups;
+  }
 
   // database_id - computed: false, optional: false, required: true
   private _databaseId?: number; 
@@ -477,22 +465,6 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
     return this._orderBy;
   }
 
-  // backups - computed: false, optional: true, required: false
-  private _backups = new DataLinodeDatabaseBackupsBackupsList(this, "backups", false);
-  public get backups() {
-    return this._backups;
-  }
-  public putBackups(value: DataLinodeDatabaseBackupsBackups[] | cdktf.IResolvable) {
-    this._backups.internalValue = value;
-  }
-  public resetBackups() {
-    this._backups.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get backupsInput() {
-    return this._backups.internalValue;
-  }
-
   // filter - computed: false, optional: true, required: false
   private _filter = new DataLinodeDatabaseBackupsFilterList(this, "filter", true);
   public get filter() {
@@ -520,7 +492,6 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
       latest: cdktf.booleanToTerraform(this._latest),
       order: cdktf.stringToTerraform(this._order),
       order_by: cdktf.stringToTerraform(this._orderBy),
-      backups: cdktf.listMapper(dataLinodeDatabaseBackupsBackupsToTerraform, true)(this._backups.internalValue),
       filter: cdktf.listMapper(dataLinodeDatabaseBackupsFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -556,12 +527,6 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      backups: {
-        value: cdktf.listMapperHcl(dataLinodeDatabaseBackupsBackupsToHclTerraform, true)(this._backups.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DataLinodeDatabaseBackupsBackupsList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataLinodeDatabaseBackupsFilterToHclTerraform, true)(this._filter.internalValue),

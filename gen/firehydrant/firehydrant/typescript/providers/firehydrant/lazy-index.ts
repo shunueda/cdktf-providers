@@ -19,6 +19,7 @@ Object.defineProperty(exports, 'statusUpdateTemplate', { get: function () { retu
 Object.defineProperty(exports, 'taskList', { get: function () { return require('./task-list'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'dataFirehydrantEnvironment', { get: function () { return require('./data-firehydrant-environment'); } });
+Object.defineProperty(exports, 'dataFirehydrantEscalationPolicy', { get: function () { return require('./data-firehydrant-escalation-policy'); } });
 Object.defineProperty(exports, 'dataFirehydrantFunctionality', { get: function () { return require('./data-firehydrant-functionality'); } });
 Object.defineProperty(exports, 'dataFirehydrantIncidentRole', { get: function () { return require('./data-firehydrant-incident-role'); } });
 Object.defineProperty(exports, 'dataFirehydrantIncidentType', { get: function () { return require('./data-firehydrant-incident-type'); } });
@@ -35,6 +36,7 @@ Object.defineProperty(exports, 'dataFirehydrantSchedule', { get: function () { r
 Object.defineProperty(exports, 'dataFirehydrantService', { get: function () { return require('./data-firehydrant-service'); } });
 Object.defineProperty(exports, 'dataFirehydrantServices', { get: function () { return require('./data-firehydrant-services'); } });
 Object.defineProperty(exports, 'dataFirehydrantSeverity', { get: function () { return require('./data-firehydrant-severity'); } });
+Object.defineProperty(exports, 'dataFirehydrantSignalRule', { get: function () { return require('./data-firehydrant-signal-rule'); } });
 Object.defineProperty(exports, 'dataFirehydrantSlackChannel', { get: function () { return require('./data-firehydrant-slack-channel'); } });
 Object.defineProperty(exports, 'dataFirehydrantTaskList', { get: function () { return require('./data-firehydrant-task-list'); } });
 Object.defineProperty(exports, 'dataFirehydrantTeam', { get: function () { return require('./data-firehydrant-team'); } });

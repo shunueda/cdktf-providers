@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options
+// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAstroClusterOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options#cloud_provider DataAstroClusterOptions#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options#cloud_provider DataAstroClusterOptions#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options#type DataAstroClusterOptions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options#type DataAstroClusterOptions#type}
   */
   readonly type: string;
 }
@@ -611,7 +611,7 @@ export class DataAstroClusterOptionsClusterOptionsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options astro_cluster_options}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options astro_cluster_options}
 */
 export class DataAstroClusterOptions extends cdktf.TerraformDataSource {
 
@@ -627,7 +627,7 @@ export class DataAstroClusterOptions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroClusterOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroClusterOptions to import
-  * @param importFromId The id of the existing DataAstroClusterOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroClusterOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroClusterOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -639,7 +639,7 @@ export class DataAstroClusterOptions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.8/docs/data-sources/cluster_options astro_cluster_options} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/cluster_options astro_cluster_options} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -650,8 +650,8 @@ export class DataAstroClusterOptions extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_cluster_options',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8',
-        providerVersionConstraint: '1.0.8'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

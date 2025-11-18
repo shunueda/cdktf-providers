@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOctopusdeployMachinePoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#id DataOctopusdeployMachinePolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#id DataOctopusdeployMachinePolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataOctopusdeployMachinePoliciesConfig extends cdktf.TerraformM
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#ids DataOctopusdeployMachinePolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#ids DataOctopusdeployMachinePolicies#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#partial_name DataOctopusdeployMachinePolicies#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#partial_name DataOctopusdeployMachinePolicies#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#skip DataOctopusdeployMachinePolicies#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#skip DataOctopusdeployMachinePolicies#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#space_id DataOctopusdeployMachinePolicies#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#space_id DataOctopusdeployMachinePolicies#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#take DataOctopusdeployMachinePolicies#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#take DataOctopusdeployMachinePolicies#take}
   */
   readonly take?: number;
 }
@@ -799,7 +799,7 @@ export class DataOctopusdeployMachinePoliciesMachinePoliciesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies octopusdeploy_machine_policies}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies octopusdeploy_machine_policies}
 */
 export class DataOctopusdeployMachinePolicies extends cdktf.TerraformDataSource {
 
@@ -815,7 +815,7 @@ export class DataOctopusdeployMachinePolicies extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOctopusdeployMachinePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployMachinePolicies to import
-  * @param importFromId The id of the existing DataOctopusdeployMachinePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployMachinePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployMachinePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -827,7 +827,7 @@ export class DataOctopusdeployMachinePolicies extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/data-sources/machine_policies octopusdeploy_machine_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/data-sources/machine_policies octopusdeploy_machine_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -838,8 +838,8 @@ export class DataOctopusdeployMachinePolicies extends cdktf.TerraformDataSource 
       terraformResourceType: 'octopusdeploy_machine_policies',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

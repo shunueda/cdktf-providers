@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataMaterializeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster#id DataMaterializeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster#id DataMaterializeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataMaterializeClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * The region in which the resource is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster#region DataMaterializeCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster#region DataMaterializeCluster#region}
   */
   readonly region?: string;
 }
@@ -123,7 +123,7 @@ export class DataMaterializeClusterClustersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster materialize_cluster}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster materialize_cluster}
 */
 export class DataMaterializeCluster extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataMaterializeCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMaterializeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMaterializeCluster to import
-  * @param importFromId The id of the existing DataMaterializeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMaterializeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMaterializeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataMaterializeCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.2/docs/data-sources/cluster materialize_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/cluster materialize_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataMaterializeCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'materialize_cluster',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2',
-        providerVersionConstraint: '0.9.2'
+        providerVersion: '0.9.3',
+        providerVersionConstraint: '0.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

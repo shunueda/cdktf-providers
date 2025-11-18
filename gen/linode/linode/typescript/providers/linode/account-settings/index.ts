@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings
+// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AccountSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account-wide backups default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#backups_enabled AccountSettings#backups_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#backups_enabled AccountSettings#backups_enabled}
   */
   readonly backupsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Type of interfaces for new Linode instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#interfaces_for_new_linodes AccountSettings#interfaces_for_new_linodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#interfaces_for_new_linodes AccountSettings#interfaces_for_new_linodes}
   */
   readonly interfacesForNewLinodes?: string;
   /**
   * The Longview Pro tier you are currently subscribed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#longview_subscription AccountSettings#longview_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#longview_subscription AccountSettings#longview_subscription}
   */
   readonly longviewSubscription?: string;
   /**
   * The default Maintenance Policy for this account. If not provided, the default policy (linode/migrate) will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#maintenance_policy AccountSettings#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#maintenance_policy AccountSettings#maintenance_policy}
   */
   readonly maintenancePolicy?: string;
   /**
   * Enables network helper across all users by default for new Linodes and Linode Configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#network_helper AccountSettings#network_helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#network_helper AccountSettings#network_helper}
   */
   readonly networkHelper?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings linode_account_settings}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings linode_account_settings}
 */
 export class AccountSettings extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class AccountSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountSettings to import
-  * @param importFromId The id of the existing AccountSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class AccountSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/account_settings linode_account_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/account_settings linode_account_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class AccountSettings extends cdktf.TerraformResource {
       terraformResourceType: 'linode_account_settings',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.1',
-        providerVersionConstraint: '3.5.1'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

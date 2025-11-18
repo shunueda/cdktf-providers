@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProjectAutoCreateReleaseConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the channel in which triggered releases will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#channel_id ProjectAutoCreateRelease#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#channel_id ProjectAutoCreateRelease#channel_id}
   */
   readonly channelId: string;
   /**
   * The ID of the deployment process to enforce dependency on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#deployment_process_id ProjectAutoCreateRelease#deployment_process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#deployment_process_id ProjectAutoCreateRelease#deployment_process_id}
   */
   readonly deploymentProcessId: string;
   /**
   * The ID of the deployment step containing the package for release creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#release_creation_package_step_id ProjectAutoCreateRelease#release_creation_package_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#release_creation_package_step_id ProjectAutoCreateRelease#release_creation_package_step_id}
   */
   readonly releaseCreationPackageStepId?: string;
   /**
   * The space ID where the project is located. If not specified, the default space will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#space_id ProjectAutoCreateRelease#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#space_id ProjectAutoCreateRelease#space_id}
   */
   readonly spaceId?: string;
   /**
   * release_creation_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#release_creation_package ProjectAutoCreateRelease#release_creation_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#release_creation_package ProjectAutoCreateRelease#release_creation_package}
   */
   readonly releaseCreationPackage?: ProjectAutoCreateReleaseReleaseCreationPackage[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface ProjectAutoCreateReleaseReleaseCreationPackage {
   /**
   * The name of the deployment action that contains the package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#deployment_action ProjectAutoCreateRelease#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#deployment_action ProjectAutoCreateRelease#deployment_action}
   */
   readonly deploymentAction: string;
   /**
   * The name of the package reference within the deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#package_reference ProjectAutoCreateRelease#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#package_reference ProjectAutoCreateRelease#package_reference}
   */
   readonly packageReference: string;
 }
@@ -187,7 +187,7 @@ export class ProjectAutoCreateReleaseReleaseCreationPackageList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release octopusdeploy_project_auto_create_release}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release octopusdeploy_project_auto_create_release}
 */
 export class ProjectAutoCreateRelease extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class ProjectAutoCreateRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectAutoCreateRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectAutoCreateRelease to import
-  * @param importFromId The id of the existing ProjectAutoCreateRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectAutoCreateRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectAutoCreateRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class ProjectAutoCreateRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/project_auto_create_release octopusdeploy_project_auto_create_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/project_auto_create_release octopusdeploy_project_auto_create_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class ProjectAutoCreateRelease extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project_auto_create_release',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

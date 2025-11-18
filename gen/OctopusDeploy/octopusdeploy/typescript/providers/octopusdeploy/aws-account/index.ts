@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface AwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access key associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#access_key AwsAccount#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#access_key AwsAccount#access_key}
   */
   readonly accessKey: string;
   /**
   * The description of this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#description AwsAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#description AwsAccount#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#environments AwsAccount#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#environments AwsAccount#environments}
   */
   readonly environments?: string[];
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#name AwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#name AwsAccount#name}
   */
   readonly name: string;
   /**
   * The secret key associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#secret_key AwsAccount#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#secret_key AwsAccount#secret_key}
   */
   readonly secretKey: string;
   /**
   * The space ID associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#space_id AwsAccount#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#space_id AwsAccount#space_id}
   */
   readonly spaceId?: string;
   /**
   * A list of tenant tags associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#tenant_tags AwsAccount#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#tenant_tags AwsAccount#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#tenanted_deployment_participation AwsAccount#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#tenanted_deployment_participation AwsAccount#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#tenants AwsAccount#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#tenants AwsAccount#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account octopusdeploy_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account octopusdeploy_aws_account}
 */
 export class AwsAccount extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAccount to import
-  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.4.0/docs/resources/aws_account octopusdeploy_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.5.0/docs/resources/aws_account octopusdeploy_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class AwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0',
-        providerVersionConstraint: '1.4.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
