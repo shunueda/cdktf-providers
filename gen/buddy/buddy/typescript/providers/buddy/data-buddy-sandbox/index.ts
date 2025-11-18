@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBuddySandboxConfig extends cdktf.TerraformMetaArguments {
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox#domain DataBuddySandbox#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox#domain DataBuddySandbox#domain}
   */
   readonly domain: string;
   /**
   * The sandbox's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox#sandbox_id DataBuddySandbox#sandbox_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox#sandbox_id DataBuddySandbox#sandbox_id}
   */
   readonly sandboxId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox buddy_sandbox}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox buddy_sandbox}
 */
 export class DataBuddySandbox extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataBuddySandbox extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddySandbox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddySandbox to import
-  * @param importFromId The id of the existing DataBuddySandbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddySandbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddySandbox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataBuddySandbox extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/sandbox buddy_sandbox} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/sandbox buddy_sandbox} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataBuddySandbox extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_sandbox',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

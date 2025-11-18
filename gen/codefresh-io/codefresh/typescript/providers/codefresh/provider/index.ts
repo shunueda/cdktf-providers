@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CodefreshProviderConfig {
   /**
   * The Codefresh API URL. Defaults to `https://g.codefresh.io/api`. Can also be set using the `CODEFRESH_API_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs#api_url CodefreshProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs#api_url CodefreshProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * The Codefresh gitops API URL. Defaults to `https://g.codefresh.io/2.0/api/graphql`. Can also be set using the `CODEFRESH_API2_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs#api_url_v2 CodefreshProvider#api_url_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs#api_url_v2 CodefreshProvider#api_url_v2}
   */
   readonly apiUrlV2?: string;
   /**
   * The Codefresh API token. Can also be set using the `CODEFRESH_API_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs#token CodefreshProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs#token CodefreshProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs#alias CodefreshProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs#alias CodefreshProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs codefresh}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs codefresh}
 */
 export class CodefreshProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class CodefreshProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CodefreshProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodefreshProvider to import
-  * @param importFromId The id of the existing CodefreshProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodefreshProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodefreshProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CodefreshProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs codefresh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs codefresh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CodefreshProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'codefresh',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       terraformProviderSource: 'codefresh-io/codefresh'
     });

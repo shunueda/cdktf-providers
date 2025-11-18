@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataSelectelMksKubeconfigV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1#cluster_id DataSelectelMksKubeconfigV1#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1#cluster_id DataSelectelMksKubeconfigV1#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1#id DataSelectelMksKubeconfigV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1#id DataSelectelMksKubeconfigV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1#project_id DataSelectelMksKubeconfigV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1#project_id DataSelectelMksKubeconfigV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1#region DataSelectelMksKubeconfigV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1#region DataSelectelMksKubeconfigV1#region}
   */
   readonly region: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1 selectel_mks_kubeconfig_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1 selectel_mks_kubeconfig_v1}
 */
 export class DataSelectelMksKubeconfigV1 extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataSelectelMksKubeconfigV1 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSelectelMksKubeconfigV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSelectelMksKubeconfigV1 to import
-  * @param importFromId The id of the existing DataSelectelMksKubeconfigV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSelectelMksKubeconfigV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSelectelMksKubeconfigV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataSelectelMksKubeconfigV1 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/data-sources/mks_kubeconfig_v1 selectel_mks_kubeconfig_v1} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/data-sources/mks_kubeconfig_v1 selectel_mks_kubeconfig_v1} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataSelectelMksKubeconfigV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'selectel_mks_kubeconfig_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0',
-        providerVersionConstraint: '7.1.0'
+        providerVersion: '7.2.0',
+        providerVersionConstraint: '7.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

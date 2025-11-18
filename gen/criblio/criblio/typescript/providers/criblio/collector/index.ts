@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,48 +10,48 @@ export interface CollectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#group_id Collector#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#group_id Collector#group_id}
   */
   readonly groupId: string;
   /**
   * The id of this collector instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_azure_blob Collector#input_collector_azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_azure_blob Collector#input_collector_azure_blob}
   */
   readonly inputCollectorAzureBlob?: CollectorInputCollectorAzureBlob;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_cribl_lake Collector#input_collector_cribl_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_cribl_lake Collector#input_collector_cribl_lake}
   */
   readonly inputCollectorCriblLake?: CollectorInputCollectorCriblLake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_database Collector#input_collector_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_database Collector#input_collector_database}
   */
   readonly inputCollectorDatabase?: CollectorInputCollectorDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_gcs Collector#input_collector_gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_gcs Collector#input_collector_gcs}
   */
   readonly inputCollectorGcs?: CollectorInputCollectorGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_health_check Collector#input_collector_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_health_check Collector#input_collector_health_check}
   */
   readonly inputCollectorHealthCheck?: CollectorInputCollectorHealthCheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_rest Collector#input_collector_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_rest Collector#input_collector_rest}
   */
   readonly inputCollectorRest?: CollectorInputCollectorRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_s3 Collector#input_collector_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_s3 Collector#input_collector_s3}
   */
   readonly inputCollectorS3?: CollectorInputCollectorS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input_collector_splunk Collector#input_collector_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input_collector_splunk Collector#input_collector_splunk}
   */
   readonly inputCollectorSplunk?: CollectorInputCollectorSplunk;
 }
@@ -140,41 +140,41 @@ export interface CollectorInputCollectorAzureBlobCollectorConf {
   /**
   * must be one of ["manual", "secret", "clientSecret", "clientCert"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_type Collector#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_type Collector#auth_type}
   */
   readonly authType?: string;
   /**
   * Azure storage account Connection String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#connection_string Collector#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#connection_string Collector#connection_string}
   */
   readonly connectionString?: string;
   /**
   * Azure container to collect from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#container_name Collector#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#container_name Collector#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#extractors Collector#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#extractors Collector#extractors}
   */
   readonly extractors?: CollectorInputCollectorAzureBlobCollectorConfExtractors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_batch_size Collector#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_batch_size Collector#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Directory where data will be collected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#path Collector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#path Collector#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#recurse Collector#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#recurse Collector#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#storage_account_name Collector#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#storage_account_name Collector#storage_account_name}
   */
   readonly storageAccountName?: string;
 }
@@ -471,13 +471,13 @@ export class CollectorInputCollectorAzureBlobCollectorConfOutputReference extend
 }
 export interface CollectorInputCollectorAzureBlobCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorAzureBlobCollectorConf;
   /**
   * must be "azureblob"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -597,13 +597,13 @@ export class CollectorInputCollectorAzureBlobCollectorOutputReference extends cd
 }
 export interface CollectorInputCollectorAzureBlobInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -744,19 +744,19 @@ export interface CollectorInputCollectorAzureBlobInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -910,53 +910,53 @@ export interface CollectorInputCollectorAzureBlobInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorAzureBlobInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorAzureBlobInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -1343,15 +1343,15 @@ export interface CollectorInputCollectorAzureBlobScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -1564,79 +1564,79 @@ export interface CollectorInputCollectorAzureBlobScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorAzureBlobScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorAzureBlobScheduleRunTimeWarning;
 }
@@ -2080,7 +2080,7 @@ export interface CollectorInputCollectorAzureBlobSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2088,29 +2088,29 @@ export interface CollectorInputCollectorAzureBlobSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorAzureBlobScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -2349,15 +2349,15 @@ export class CollectorInputCollectorAzureBlobScheduleOutputReference extends cdk
 }
 export interface CollectorInputCollectorAzureBlob {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorAzureBlobCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2366,53 +2366,53 @@ export interface CollectorInputCollectorAzureBlob {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorAzureBlobInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorAzureBlobSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorAzureBlobSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -2824,7 +2824,7 @@ export interface CollectorInputCollectorCriblLakeCollectorConf {
   /**
   * Lake dataset to collect data from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#dataset Collector#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#dataset Collector#dataset}
   */
   readonly dataset?: string;
 }
@@ -2918,13 +2918,13 @@ export class CollectorInputCollectorCriblLakeCollectorConfOutputReference extend
 }
 export interface CollectorInputCollectorCriblLakeCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorCriblLakeCollectorConf;
   /**
   * must be "cribllake"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -3044,13 +3044,13 @@ export class CollectorInputCollectorCriblLakeCollectorOutputReference extends cd
 }
 export interface CollectorInputCollectorCriblLakeInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -3191,19 +3191,19 @@ export interface CollectorInputCollectorCriblLakeInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -3357,53 +3357,53 @@ export interface CollectorInputCollectorCriblLakeInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorCriblLakeInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorCriblLakeInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -3790,15 +3790,15 @@ export interface CollectorInputCollectorCriblLakeScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -4011,79 +4011,79 @@ export interface CollectorInputCollectorCriblLakeScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorCriblLakeScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorCriblLakeScheduleRunTimeWarning;
 }
@@ -4527,7 +4527,7 @@ export interface CollectorInputCollectorCriblLakeSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -4535,29 +4535,29 @@ export interface CollectorInputCollectorCriblLakeSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorCriblLakeScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -4796,15 +4796,15 @@ export class CollectorInputCollectorCriblLakeScheduleOutputReference extends cdk
 }
 export interface CollectorInputCollectorCriblLake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorCriblLakeCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4813,53 +4813,53 @@ export interface CollectorInputCollectorCriblLake {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorCriblLakeInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorCriblLakeSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorCriblLakeSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -5271,17 +5271,17 @@ export interface CollectorInputCollectorDatabaseCollectorConf {
   /**
   * Select an existing Database Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#connection_id Collector#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#connection_id Collector#connection_id}
   */
   readonly connectionId?: string;
   /**
   * Query string for selecting data from the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#query Collector#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#query Collector#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#query_validation_enabled Collector#query_validation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#query_validation_enabled Collector#query_validation_enabled}
   */
   readonly queryValidationEnabled?: boolean | cdktf.IResolvable;
 }
@@ -5433,13 +5433,13 @@ export class CollectorInputCollectorDatabaseCollectorConfOutputReference extends
 }
 export interface CollectorInputCollectorDatabaseCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorDatabaseCollectorConf;
   /**
   * must be "database"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -5559,13 +5559,13 @@ export class CollectorInputCollectorDatabaseCollectorOutputReference extends cdk
 }
 export interface CollectorInputCollectorDatabaseInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -5706,19 +5706,19 @@ export interface CollectorInputCollectorDatabaseInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -5872,53 +5872,53 @@ export interface CollectorInputCollectorDatabaseInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorDatabaseInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorDatabaseInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -6305,15 +6305,15 @@ export interface CollectorInputCollectorDatabaseScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -6526,79 +6526,79 @@ export interface CollectorInputCollectorDatabaseScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorDatabaseScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorDatabaseScheduleRunTimeWarning;
 }
@@ -7042,7 +7042,7 @@ export interface CollectorInputCollectorDatabaseSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -7050,29 +7050,29 @@ export interface CollectorInputCollectorDatabaseSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorDatabaseScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -7311,15 +7311,15 @@ export class CollectorInputCollectorDatabaseScheduleOutputReference extends cdkt
 }
 export interface CollectorInputCollectorDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorDatabaseCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7328,53 +7328,53 @@ export interface CollectorInputCollectorDatabase {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorDatabaseInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorDatabaseSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorDatabaseSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -7867,35 +7867,35 @@ export interface CollectorInputCollectorGcsCollectorConf {
   /**
   * must be one of ["manual", "secret", "clientSecret", "clientCert"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_type Collector#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_type Collector#auth_type}
   */
   readonly authType?: string;
   /**
   * GCS Bucket from which to collect data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#bucket Collector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#bucket Collector#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#extractors Collector#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#extractors Collector#extractors}
   */
   readonly extractors?: CollectorInputCollectorGcsCollectorConfExtractors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_batch_size Collector#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_batch_size Collector#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Directory where data will be collected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#path Collector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#path Collector#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#recurse Collector#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#recurse Collector#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#service_account_credentials Collector#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#service_account_credentials Collector#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
 }
@@ -8163,13 +8163,13 @@ export class CollectorInputCollectorGcsCollectorConfOutputReference extends cdkt
 }
 export interface CollectorInputCollectorGcsCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorGcsCollectorConf;
   /**
   * must be "gcs"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -8289,13 +8289,13 @@ export class CollectorInputCollectorGcsCollectorOutputReference extends cdktf.Co
 }
 export interface CollectorInputCollectorGcsInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -8436,19 +8436,19 @@ export interface CollectorInputCollectorGcsInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -8602,53 +8602,53 @@ export interface CollectorInputCollectorGcsInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorGcsInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorGcsInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -9035,15 +9035,15 @@ export interface CollectorInputCollectorGcsScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -9256,79 +9256,79 @@ export interface CollectorInputCollectorGcsScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorGcsScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorGcsScheduleRunTimeWarning;
 }
@@ -9772,7 +9772,7 @@ export interface CollectorInputCollectorGcsSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -9780,29 +9780,29 @@ export interface CollectorInputCollectorGcsSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorGcsScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -10041,15 +10041,15 @@ export class CollectorInputCollectorGcsScheduleOutputReference extends cdktf.Com
 }
 export interface CollectorInputCollectorGcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorGcsCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10058,53 +10058,53 @@ export interface CollectorInputCollectorGcs {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorGcsInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorGcsSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorGcsSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -10516,39 +10516,39 @@ export interface CollectorInputCollectorHealthCheckCollectorConf {
   /**
   * must be one of ["none", "basic", "basicSecret", "token", "tokenSecret", "login", "loginSecret", "oauth", "oauthSecret", "google_oauth", "google_oauthSecret", "hmac"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#authentication Collector#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#authentication Collector#authentication}
   */
   readonly authentication?: string;
   /**
   * must be one of ["get", "post", "post_with_body", "other"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_method Collector#collect_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_method Collector#collect_method}
   */
   readonly collectMethod?: string;
   /**
   * URL to use for the Collect operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_url Collector#collect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_url Collector#collect_url}
   */
   readonly collectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#credentials_secret Collector#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#credentials_secret Collector#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#password Collector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#password Collector#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#timeout Collector#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#timeout Collector#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#username Collector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#username Collector#username}
   */
   readonly username?: string;
 }
@@ -10845,13 +10845,13 @@ export class CollectorInputCollectorHealthCheckCollectorConfOutputReference exte
 }
 export interface CollectorInputCollectorHealthCheckCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorHealthCheckCollectorConf;
   /**
   * must be "healthcheck"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -10971,13 +10971,13 @@ export class CollectorInputCollectorHealthCheckCollectorOutputReference extends 
 }
 export interface CollectorInputCollectorHealthCheckInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -11118,19 +11118,19 @@ export interface CollectorInputCollectorHealthCheckInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -11284,53 +11284,53 @@ export interface CollectorInputCollectorHealthCheckInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorHealthCheckInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorHealthCheckInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -11717,15 +11717,15 @@ export interface CollectorInputCollectorHealthCheckScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -11938,79 +11938,79 @@ export interface CollectorInputCollectorHealthCheckScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorHealthCheckScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorHealthCheckScheduleRunTimeWarning;
 }
@@ -12454,7 +12454,7 @@ export interface CollectorInputCollectorHealthCheckSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -12462,29 +12462,29 @@ export interface CollectorInputCollectorHealthCheckSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorHealthCheckScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -12723,15 +12723,15 @@ export class CollectorInputCollectorHealthCheckScheduleOutputReference extends c
 }
 export interface CollectorInputCollectorHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorHealthCheckCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12740,53 +12740,53 @@ export interface CollectorInputCollectorHealthCheck {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorHealthCheckInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorHealthCheckSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorHealthCheckSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -13196,11 +13196,11 @@ export class CollectorInputCollectorHealthCheckOutputReference extends cdktf.Com
 }
 export interface CollectorInputCollectorRestCollectorConfAuthRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -13345,11 +13345,11 @@ export class CollectorInputCollectorRestCollectorConfAuthRequestHeadersList exte
 }
 export interface CollectorInputCollectorRestCollectorConfAuthRequestParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -13494,11 +13494,11 @@ export class CollectorInputCollectorRestCollectorConfAuthRequestParamsList exten
 }
 export interface CollectorInputCollectorRestCollectorConfCollectRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -13643,11 +13643,11 @@ export class CollectorInputCollectorRestCollectorConfCollectRequestHeadersList e
 }
 export interface CollectorInputCollectorRestCollectorConfCollectRequestParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -13792,11 +13792,11 @@ export class CollectorInputCollectorRestCollectorConfCollectRequestParamsList ex
 }
 export interface CollectorInputCollectorRestCollectorConfDiscoveryDiscoverRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value?: string;
 }
@@ -14022,65 +14022,65 @@ export class CollectorInputCollectorRestCollectorConfDiscoveryDiscoverRequestPar
 }
 export interface CollectorInputCollectorRestCollectorConfDiscoveryPagination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#attribute Collector#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#attribute Collector#attribute}
   */
   readonly attribute?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#last_page_expr Collector#last_page_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#last_page_expr Collector#last_page_expr}
   */
   readonly lastPageExpr?: string;
   /**
   * Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#limit Collector#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#limit Collector#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#limit_field Collector#limit_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#limit_field Collector#limit_field}
   */
   readonly limitField?: string;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_pages Collector#max_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_pages Collector#max_pages}
   */
   readonly maxPages?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#offset Collector#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#offset Collector#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#offset_field Collector#offset_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#offset_field Collector#offset_field}
   */
   readonly offsetField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#page_field Collector#page_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#page_field Collector#page_field}
   */
   readonly pageField?: string;
   /**
   * Default: 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#size Collector#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#size Collector#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#size_field Collector#size_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#size_field Collector#size_field}
   */
   readonly sizeField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#total_record_field Collector#total_record_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#total_record_field Collector#total_record_field}
   */
   readonly totalRecordField?: string;
   /**
   * Default: "none"; must be one of ["none", "offset", "cursor", "page"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#zero_indexed Collector#zero_indexed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#zero_indexed Collector#zero_indexed}
   */
   readonly zeroIndexed?: boolean | cdktf.IResolvable;
 }
@@ -14522,53 +14522,53 @@ export class CollectorInputCollectorRestCollectorConfDiscoveryPaginationOutputRe
 }
 export interface CollectorInputCollectorRestCollectorConfDiscovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_body Collector#discover_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_body Collector#discover_body}
   */
   readonly discoverBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_data_field Collector#discover_data_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_data_field Collector#discover_data_field}
   */
   readonly discoverDataField?: string;
   /**
   * must be one of ["get", "post", "post_with_body", "other"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_method Collector#discover_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_method Collector#discover_method}
   */
   readonly discoverMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_request_headers Collector#discover_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_request_headers Collector#discover_request_headers}
   */
   readonly discoverRequestHeaders?: CollectorInputCollectorRestCollectorConfDiscoveryDiscoverRequestHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_request_params Collector#discover_request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_request_params Collector#discover_request_params}
   */
   readonly discoverRequestParams?: CollectorInputCollectorRestCollectorConfDiscoveryDiscoverRequestParams[] | cdktf.IResolvable;
   /**
   * must be "http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_type Collector#discover_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_type Collector#discover_type}
   */
   readonly discoverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discover_url Collector#discover_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discover_url Collector#discover_url}
   */
   readonly discoverUrl?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enable_discover_code Collector#enable_discover_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enable_discover_code Collector#enable_discover_code}
   */
   readonly enableDiscoverCode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#format_result_code Collector#format_result_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#format_result_code Collector#format_result_code}
   */
   readonly formatResultCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#item_list Collector#item_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#item_list Collector#item_list}
   */
   readonly itemList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pagination Collector#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pagination Collector#pagination}
   */
   readonly pagination?: CollectorInputCollectorRestCollectorConfDiscoveryPagination;
 }
@@ -14952,65 +14952,65 @@ export class CollectorInputCollectorRestCollectorConfDiscoveryOutputReference ex
 }
 export interface CollectorInputCollectorRestCollectorConfPagination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#attribute Collector#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#attribute Collector#attribute}
   */
   readonly attribute?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#last_page_expr Collector#last_page_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#last_page_expr Collector#last_page_expr}
   */
   readonly lastPageExpr?: string;
   /**
   * Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#limit Collector#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#limit Collector#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#limit_field Collector#limit_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#limit_field Collector#limit_field}
   */
   readonly limitField?: string;
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_pages Collector#max_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_pages Collector#max_pages}
   */
   readonly maxPages?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#offset Collector#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#offset Collector#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#offset_field Collector#offset_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#offset_field Collector#offset_field}
   */
   readonly offsetField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#page_field Collector#page_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#page_field Collector#page_field}
   */
   readonly pageField?: string;
   /**
   * Default: 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#size Collector#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#size Collector#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#size_field Collector#size_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#size_field Collector#size_field}
   */
   readonly sizeField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#total_record_field Collector#total_record_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#total_record_field Collector#total_record_field}
   */
   readonly totalRecordField?: string;
   /**
   * Default: "none"; must be one of ["none", "offset", "cursor", "page"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#zero_indexed Collector#zero_indexed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#zero_indexed Collector#zero_indexed}
   */
   readonly zeroIndexed?: boolean | cdktf.IResolvable;
 }
@@ -15454,61 +15454,61 @@ export interface CollectorInputCollectorRestCollectorConfRetryRules {
   /**
   * Default: [429,503]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#codes Collector#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#codes Collector#codes}
   */
   readonly codes?: number[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enable_header Collector#enable_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enable_header Collector#enable_header}
   */
   readonly enableHeader?: boolean | cdktf.IResolvable;
   /**
   * Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#interval Collector#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#interval Collector#interval}
   */
   readonly interval?: number;
   /**
   * Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#limit Collector#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#limit Collector#limit}
   */
   readonly limit?: number;
   /**
   * Default: 20000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_interval_ms Collector#max_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_interval_ms Collector#max_interval_ms}
   */
   readonly maxIntervalMs?: number;
   /**
   * Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#multiplier Collector#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#multiplier Collector#multiplier}
   */
   readonly multiplier?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#retry_connect_reset Collector#retry_connect_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#retry_connect_reset Collector#retry_connect_reset}
   */
   readonly retryConnectReset?: boolean | cdktf.IResolvable;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#retry_connect_timeout Collector#retry_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#retry_connect_timeout Collector#retry_connect_timeout}
   */
   readonly retryConnectTimeout?: boolean | cdktf.IResolvable;
   /**
   * Default: "retry-after"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#retry_header_name Collector#retry_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#retry_header_name Collector#retry_header_name}
   */
   readonly retryHeaderName?: string;
   /**
   * Default: "backoff"; must be one of ["backoff", "fixed"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -15922,7 +15922,7 @@ export class CollectorInputCollectorRestCollectorConfSchedulingStateTrackingOutp
 }
 export interface CollectorInputCollectorRestCollectorConfScheduling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorRestCollectorConfSchedulingStateTracking;
 }
@@ -16018,137 +16018,137 @@ export interface CollectorInputCollectorRestCollectorConf {
   /**
   * Expression for auth header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_header_expr Collector#auth_header_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_header_expr Collector#auth_header_expr}
   */
   readonly authHeaderExpr?: string;
   /**
   * Header key for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_header_key Collector#auth_header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_header_key Collector#auth_header_key}
   */
   readonly authHeaderKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_request_headers Collector#auth_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_request_headers Collector#auth_request_headers}
   */
   readonly authRequestHeaders?: CollectorInputCollectorRestCollectorConfAuthRequestHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#auth_request_params Collector#auth_request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#auth_request_params Collector#auth_request_params}
   */
   readonly authRequestParams?: CollectorInputCollectorRestCollectorConfAuthRequestParams[] | cdktf.IResolvable;
   /**
   * must be one of ["none", "basic", "basicSecret", "token", "tokenSecret", "login", "loginSecret", "oauth", "oauthSecret", "google_oauth", "google_oauthSecret", "hmac"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#authentication Collector#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#authentication Collector#authentication}
   */
   readonly authentication?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#capture_headers Collector#capture_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#capture_headers Collector#capture_headers}
   */
   readonly captureHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#client_secret_param_name Collector#client_secret_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#client_secret_param_name Collector#client_secret_param_name}
   */
   readonly clientSecretParamName?: string;
   /**
   * must be one of ["get", "post", "post_with_body", "other"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_method Collector#collect_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_method Collector#collect_method}
   */
   readonly collectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_request_headers Collector#collect_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_request_headers Collector#collect_request_headers}
   */
   readonly collectRequestHeaders?: CollectorInputCollectorRestCollectorConfCollectRequestHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_request_params Collector#collect_request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_request_params Collector#collect_request_params}
   */
   readonly collectRequestParams?: CollectorInputCollectorRestCollectorConfCollectRequestParams[] | cdktf.IResolvable;
   /**
   * URL to use for the Collect operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collect_url Collector#collect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collect_url Collector#collect_url}
   */
   readonly collectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#credentials_secret Collector#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#credentials_secret Collector#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#decode_url Collector#decode_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#decode_url Collector#decode_url}
   */
   readonly decodeUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disable_time_filter Collector#disable_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disable_time_filter Collector#disable_time_filter}
   */
   readonly disableTimeFilter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#discovery Collector#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#discovery Collector#discovery}
   */
   readonly discovery?: CollectorInputCollectorRestCollectorConfDiscovery;
   /**
   * Body content for login request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#login_body Collector#login_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#login_body Collector#login_body}
   */
   readonly loginBody?: string;
   /**
   * URL for authentication login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#login_url Collector#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#login_url Collector#login_url}
   */
   readonly loginUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pagination Collector#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pagination Collector#pagination}
   */
   readonly pagination?: CollectorInputCollectorRestCollectorConfPagination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#password Collector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#password Collector#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#retry_rules Collector#retry_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#retry_rules Collector#retry_rules}
   */
   readonly retryRules?: CollectorInputCollectorRestCollectorConfRetryRules;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#safe_headers Collector#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#safe_headers Collector#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#scheduling Collector#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#scheduling Collector#scheduling}
   */
   readonly scheduling?: CollectorInputCollectorRestCollectorConfScheduling;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#timeout Collector#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#timeout Collector#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#token Collector#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#token Collector#token}
   */
   readonly token?: string;
   /**
   * Attribute name for token in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#token_resp_attribute Collector#token_resp_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#token_resp_attribute Collector#token_resp_attribute}
   */
   readonly tokenRespAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#token_secret Collector#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#token_secret Collector#token_secret}
   */
   readonly tokenSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#use_round_robin_dns Collector#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#use_round_robin_dns Collector#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#username Collector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#username Collector#username}
   */
   readonly username?: string;
 }
@@ -17054,13 +17054,13 @@ export class CollectorInputCollectorRestCollectorConfOutputReference extends cdk
 }
 export interface CollectorInputCollectorRestCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorRestCollectorConf;
   /**
   * must be "rest"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -17180,13 +17180,13 @@ export class CollectorInputCollectorRestCollectorOutputReference extends cdktf.C
 }
 export interface CollectorInputCollectorRestInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -17327,19 +17327,19 @@ export interface CollectorInputCollectorRestInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -17493,53 +17493,53 @@ export interface CollectorInputCollectorRestInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorRestInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorRestInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -17926,15 +17926,15 @@ export interface CollectorInputCollectorRestScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -18147,79 +18147,79 @@ export interface CollectorInputCollectorRestScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorRestScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorRestScheduleRunTimeWarning;
 }
@@ -18663,7 +18663,7 @@ export interface CollectorInputCollectorRestSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -18671,29 +18671,29 @@ export interface CollectorInputCollectorRestSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorRestScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -18932,15 +18932,15 @@ export class CollectorInputCollectorRestScheduleOutputReference extends cdktf.Co
 }
 export interface CollectorInputCollectorRest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorRestCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -18949,53 +18949,53 @@ export interface CollectorInputCollectorRest {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorRestInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorRestSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorRestSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -19486,51 +19486,51 @@ export class CollectorInputCollectorS3CollectorConfExtractorsList extends cdktf.
 }
 export interface CollectorInputCollectorS3CollectorConf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#aws_api_key Collector#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#aws_api_key Collector#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#aws_authentication_method Collector#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#aws_authentication_method Collector#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#aws_secret Collector#aws_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#aws_secret Collector#aws_secret}
   */
   readonly awsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#aws_secret_key Collector#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#aws_secret_key Collector#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * S3 Bucket from which to collect data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#bucket Collector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#bucket Collector#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#extractors Collector#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#extractors Collector#extractors}
   */
   readonly extractors?: CollectorInputCollectorS3CollectorConfExtractors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_batch_size Collector#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_batch_size Collector#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
   * Directory where data will be collected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#path Collector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#path Collector#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#recurse Collector#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#recurse Collector#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * AWS region from which to retrieve data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#region Collector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#region Collector#region}
   */
   readonly region?: string;
 }
@@ -19885,13 +19885,13 @@ export class CollectorInputCollectorS3CollectorConfOutputReference extends cdktf
 }
 export interface CollectorInputCollectorS3Collector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorS3CollectorConf;
   /**
   * must be "s3"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -20011,13 +20011,13 @@ export class CollectorInputCollectorS3CollectorOutputReference extends cdktf.Com
 }
 export interface CollectorInputCollectorS3InputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -20158,19 +20158,19 @@ export interface CollectorInputCollectorS3InputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -20324,53 +20324,53 @@ export interface CollectorInputCollectorS3Input {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorS3InputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorS3InputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -20757,15 +20757,15 @@ export interface CollectorInputCollectorS3ScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -20978,79 +20978,79 @@ export interface CollectorInputCollectorS3ScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorS3ScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorS3ScheduleRunTimeWarning;
 }
@@ -21494,7 +21494,7 @@ export interface CollectorInputCollectorS3Schedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -21502,29 +21502,29 @@ export interface CollectorInputCollectorS3Schedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorS3ScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -21763,15 +21763,15 @@ export class CollectorInputCollectorS3ScheduleOutputReference extends cdktf.Comp
 }
 export interface CollectorInputCollectorS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorS3Collector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21780,53 +21780,53 @@ export interface CollectorInputCollectorS3 {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorS3Input;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorS3SavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorS3Schedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -22238,83 +22238,83 @@ export interface CollectorInputCollectorSplunkCollectorConf {
   /**
   * must be one of ["none", "basic", "basicSecret", "token", "tokenSecret", "login", "loginSecret", "oauth", "oauthSecret", "google_oauth", "google_oauthSecret", "hmac"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#authentication Collector#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#authentication Collector#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#credentials_secret Collector#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#credentials_secret Collector#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disable_time_filter Collector#disable_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disable_time_filter Collector#disable_time_filter}
   */
   readonly disableTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Earliest time boundary for the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: string;
   /**
   * REST API endpoint used to create a search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#endpoint Collector#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#endpoint Collector#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#handle_escaped_chars Collector#handle_escaped_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#handle_escaped_chars Collector#handle_escaped_chars}
   */
   readonly handleEscapedChars?: boolean | cdktf.IResolvable;
   /**
   * Latest time boundary for the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: string;
   /**
   * must be one of ["csv", "json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output_mode Collector#output_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output_mode Collector#output_mode}
   */
   readonly outputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#password Collector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#password Collector#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reject_unauthorized Collector#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Splunk search query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#search Collector#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#search Collector#search}
   */
   readonly search?: string;
   /**
   * Search head base URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#search_head Collector#search_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#search_head Collector#search_head}
   */
   readonly searchHead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#timeout Collector#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#timeout Collector#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#token Collector#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#token Collector#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#token_secret Collector#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#token_secret Collector#token_secret}
   */
   readonly tokenSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#use_round_robin_dns Collector#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#use_round_robin_dns Collector#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#username Collector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#username Collector#username}
   */
   readonly username?: string;
 }
@@ -22872,13 +22872,13 @@ export class CollectorInputCollectorSplunkCollectorConfOutputReference extends c
 }
 export interface CollectorInputCollectorSplunkCollector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#conf Collector#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#conf Collector#conf}
   */
   readonly conf?: CollectorInputCollectorSplunkCollectorConf;
   /**
   * must be "splunk"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type: string;
 }
@@ -22998,13 +22998,13 @@ export class CollectorInputCollectorSplunkCollectorOutputReference extends cdktf
 }
 export interface CollectorInputCollectorSplunkInputMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#name Collector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#name Collector#name}
   */
   readonly name: string;
   /**
   * JavaScript expression to compute field's value, enclosed in quotes or backticks. (Can evaluate to a constant.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#value Collector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#value Collector#value}
   */
   readonly value: string;
 }
@@ -23145,19 +23145,19 @@ export interface CollectorInputCollectorSplunkInputPreprocess {
   /**
   * Arguments to be added to the custom command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#args Collector#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#args Collector#args}
   */
   readonly args?: string[];
   /**
   * Command to feed the data through (via stdin) and process its output (stdout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#command Collector#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#command Collector#command}
   */
   readonly command?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#disabled Collector#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#disabled Collector#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -23311,53 +23311,53 @@ export interface CollectorInputCollectorSplunkInput {
   /**
   * A list of event-breaking rulesets that will be applied, in order, to the input data stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#breaker_rulesets Collector#breaker_rulesets}
   */
   readonly breakerRulesets?: string[];
   /**
   * Fields to add to events from this input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#metadata Collector#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#metadata Collector#metadata}
   */
   readonly metadata?: CollectorInputCollectorSplunkInputMetadata[] | cdktf.IResolvable;
   /**
   * Destination to send results to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#output Collector#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#output Collector#output}
   */
   readonly output?: string;
   /**
   * Pipeline to process results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#pipeline Collector#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#pipeline Collector#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#preprocess Collector#preprocess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#preprocess Collector#preprocess}
   */
   readonly preprocess?: CollectorInputCollectorSplunkInputPreprocess;
   /**
   * Send events to normal routing and event processing. Disable to select a specific Pipeline/Destination combination. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#send_to_routes Collector#send_to_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#send_to_routes Collector#send_to_routes}
   */
   readonly sendToRoutes?: boolean | cdktf.IResolvable;
   /**
   * How long (in milliseconds) the Event Breaker will wait for new data to be sent to a specific channel before flushing the data stream out, as is, to the Pipelines. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#stale_channel_flush_ms Collector#stale_channel_flush_ms}
   */
   readonly staleChannelFlushMs?: number;
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#throttle_rate_per_sec Collector#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * Default: "collection"; must be "collection"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#type Collector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#type Collector#type}
   */
   readonly type?: string;
 }
@@ -23744,15 +23744,15 @@ export interface CollectorInputCollectorSplunkScheduleRunStateTracking {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_merge_expression Collector#state_merge_expression}
   */
   readonly stateMergeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_update_expression Collector#state_update_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_update_expression Collector#state_update_expression}
   */
   readonly stateUpdateExpression?: string;
 }
@@ -23965,79 +23965,79 @@ export interface CollectorInputCollectorSplunkScheduleRun {
   /**
   * Earliest time to collect data for the selected timezone. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#earliest Collector#earliest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#earliest Collector#earliest}
   */
   readonly earliest?: number;
   /**
   * A filter for tokens in the provided collect path and/or the events being collected. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#expression Collector#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#expression Collector#expression}
   */
   readonly expression?: string;
   /**
   * Maximum time the job is allowed to run. Time unit defaults to seconds if not specified (examples: 30, 45s, 15m). Enter 0 for unlimited time. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#job_timeout Collector#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#job_timeout Collector#job_timeout}
   */
   readonly jobTimeout?: string;
   /**
   * Latest time to collect data for the selected timezone. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#latest Collector#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#latest Collector#latest}
   */
   readonly latest?: number;
   /**
   * Level at which to set task logging. Default: "info"; must be one of ["error", "warn", "info", "debug", "silly"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#log_level Collector#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#log_level Collector#log_level}
   */
   readonly logLevel?: string;
   /**
   * Maximum number of times a task can be rescheduled. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_reschedule Collector#max_task_reschedule}
   */
   readonly maxTaskReschedule?: number;
   /**
   * Limits the bundle size for files above the lower task bundle size. For example, if your upper bundle size is 10MB, you can bundle up to five 2MB files into one task. Files greater than this size will be assigned to individual tasks. Default: "10MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_task_size Collector#max_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_task_size Collector#max_task_size}
   */
   readonly maxTaskSize?: string;
   /**
   * Limits the bundle size for small tasks. For example, if your lower bundle size is 1MB, you can bundle up to five 200KB files into one task. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#min_task_size Collector#min_task_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#min_task_size Collector#min_task_size}
   */
   readonly minTaskSize?: string;
   /**
   * Job run mode. Preview will either return up to N matching results, or will run until capture time T is reached. Discovery will gather the list of files to turn into streaming tasks, without running the data collection job. Full Run will run the collection job. Default: "list"; must be one of ["list", "preview", "run"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#mode Collector#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#mode Collector#mode}
   */
   readonly mode?: string;
   /**
   * Reschedule tasks that failed with non-fatal errors. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#reschedule_dropped_tasks Collector#reschedule_dropped_tasks}
   */
   readonly rescheduleDroppedTasks?: boolean | cdktf.IResolvable;
   /**
   * State tracking configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#state_tracking Collector#state_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#state_tracking Collector#state_tracking}
   */
   readonly stateTracking?: CollectorInputCollectorSplunkScheduleRunStateTracking;
   /**
   * Default: "relative"; must be one of ["relative", "absolute"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_range_type Collector#time_range_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_range_type Collector#time_range_type}
   */
   readonly timeRangeType?: string;
   /**
   * Time warning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#time_warning Collector#time_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#time_warning Collector#time_warning}
   */
   readonly timeWarning?: CollectorInputCollectorSplunkScheduleRunTimeWarning;
 }
@@ -24481,7 +24481,7 @@ export interface CollectorInputCollectorSplunkSchedule {
   /**
   * A cron schedule on which to run this job. Default: "* /5 * * * *"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#cron_schedule Collector#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#cron_schedule Collector#cron_schedule}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -24489,29 +24489,29 @@ export interface CollectorInputCollectorSplunkSchedule {
   /**
   * Enable to configure scheduling for this Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#enabled Collector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#enabled Collector#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of instances of this scheduled job that may be running at any time. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#max_concurrent_runs Collector#max_concurrent_runs}
   */
   readonly maxConcurrentRuns?: number;
   /**
   * Resume missed scheduled runs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_missed Collector#resume_missed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_missed Collector#resume_missed}
   */
   readonly resumeMissed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#run Collector#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#run Collector#run}
   */
   readonly run?: CollectorInputCollectorSplunkScheduleRun;
   /**
   * Skippable jobs can be delayed, up to their next run time, if the system is hitting concurrency limits. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#skippable Collector#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#skippable Collector#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
 }
@@ -24750,15 +24750,15 @@ export class CollectorInputCollectorSplunkScheduleOutputReference extends cdktf.
 }
 export interface CollectorInputCollectorSplunk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#collector Collector#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#collector Collector#collector}
   */
   readonly collector: CollectorInputCollectorSplunkCollector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#environment Collector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#environment Collector#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#id Collector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#id Collector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24767,53 +24767,53 @@ export interface CollectorInputCollectorSplunk {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ignore_group_jobs_limit Collector#ignore_group_jobs_limit}
   */
   readonly ignoreGroupJobsLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#input Collector#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#input Collector#input}
   */
   readonly input?: CollectorInputCollectorSplunkInput;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#remove_fields Collector#remove_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#remove_fields Collector#remove_fields}
   */
   readonly removeFields?: string[];
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#resume_on_boot Collector#resume_on_boot}
   */
   readonly resumeOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Saved state for the collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#saved_state Collector#saved_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#saved_state Collector#saved_state}
   */
   readonly savedState?: CollectorInputCollectorSplunkSavedState;
   /**
   * Configuration for a scheduled job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#schedule Collector#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#schedule Collector#schedule}
   */
   readonly schedule?: CollectorInputCollectorSplunkSchedule;
   /**
   * Tags for filtering and grouping. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#streamtags Collector#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#streamtags Collector#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Default: "4h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#ttl Collector#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#ttl Collector#ttl}
   */
   readonly ttl?: string;
   /**
   * If enabled, tasks are created and run by the same Worker Node. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#worker_affinity Collector#worker_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#worker_affinity Collector#worker_affinity}
   */
   readonly workerAffinity?: boolean | cdktf.IResolvable;
 }
@@ -25223,7 +25223,7 @@ export class CollectorInputCollectorSplunkOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector criblio_collector}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector criblio_collector}
 */
 export class Collector extends cdktf.TerraformResource {
 
@@ -25239,7 +25239,7 @@ export class Collector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Collector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Collector to import
-  * @param importFromId The id of the existing Collector that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Collector that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Collector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -25251,7 +25251,7 @@ export class Collector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/collector criblio_collector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/collector criblio_collector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25262,8 +25262,8 @@ export class Collector extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_collector',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

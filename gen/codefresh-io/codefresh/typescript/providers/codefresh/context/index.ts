@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ContextConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#id Context#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#id Context#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ContextConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name for the context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#name Context#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#name Context#name}
   */
   readonly name: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#spec Context#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#spec Context#spec}
   */
   readonly spec: ContextSpec;
 }
@@ -31,7 +31,7 @@ export interface ContextSpecConfig {
   /**
   * The map of variables representing the shared config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: { [key: string]: string };
 }
@@ -114,7 +114,7 @@ export interface ContextSpecSecret {
   /**
   * The map of variables representing the shared config (secret).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: { [key: string]: string };
 }
@@ -197,7 +197,7 @@ export interface ContextSpecSecretyaml {
   /**
   * The YAML string representing the shared config (secret).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: string;
 }
@@ -278,15 +278,15 @@ export class ContextSpecSecretyamlOutputReference extends cdktf.ComplexObject {
 }
 export interface ContextSpecStorageazurefDataAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#account_key Context#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#account_key Context#account_key}
   */
   readonly accountKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#account_name Context#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#account_name Context#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#type Context#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#type Context#type}
   */
   readonly type: string;
 }
@@ -421,7 +421,7 @@ export interface ContextSpecStorageazurefData {
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#auth Context#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#auth Context#auth}
   */
   readonly auth: ContextSpecStorageazurefDataAuth;
 }
@@ -504,7 +504,7 @@ export interface ContextSpecStorageazuref {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: ContextSpecStorageazurefData;
 }
@@ -585,11 +585,11 @@ export class ContextSpecStorageazurefOutputReference extends cdktf.ComplexObject
 }
 export interface ContextSpecStoragegcDataAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#json_config Context#json_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#json_config Context#json_config}
   */
   readonly jsonConfig: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#type Context#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#type Context#type}
   */
   readonly type: string;
 }
@@ -698,7 +698,7 @@ export interface ContextSpecStoragegcData {
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#auth Context#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#auth Context#auth}
   */
   readonly auth: ContextSpecStoragegcDataAuth;
 }
@@ -781,7 +781,7 @@ export interface ContextSpecStoragegc {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: ContextSpecStoragegcData;
 }
@@ -862,11 +862,11 @@ export class ContextSpecStoragegcOutputReference extends cdktf.ComplexObject {
 }
 export interface ContextSpecStorages3DataAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#json_config Context#json_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#json_config Context#json_config}
   */
   readonly jsonConfig: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#type Context#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#type Context#type}
   */
   readonly type: string;
 }
@@ -975,7 +975,7 @@ export interface ContextSpecStorages3Data {
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#auth Context#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#auth Context#auth}
   */
   readonly auth: ContextSpecStorages3DataAuth;
 }
@@ -1058,7 +1058,7 @@ export interface ContextSpecStorages3 {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: ContextSpecStorages3Data;
 }
@@ -1141,7 +1141,7 @@ export interface ContextSpecYaml {
   /**
   * The YAML string representing the shared config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#data Context#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#data Context#data}
   */
   readonly data: string;
 }
@@ -1224,43 +1224,43 @@ export interface ContextSpec {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#config Context#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#config Context#config}
   */
   readonly config?: ContextSpecConfig;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#secret Context#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#secret Context#secret}
   */
   readonly secret?: ContextSpecSecret;
   /**
   * secretyaml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#secretyaml Context#secretyaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#secretyaml Context#secretyaml}
   */
   readonly secretyaml?: ContextSpecSecretyaml;
   /**
   * storageazuref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#storageazuref Context#storageazuref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#storageazuref Context#storageazuref}
   */
   readonly storageazuref?: ContextSpecStorageazuref;
   /**
   * storagegc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#storagegc Context#storagegc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#storagegc Context#storagegc}
   */
   readonly storagegc?: ContextSpecStoragegc;
   /**
   * storages3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#storages3 Context#storages3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#storages3 Context#storages3}
   */
   readonly storages3?: ContextSpecStorages3;
   /**
   * yaml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#yaml Context#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#yaml Context#yaml}
   */
   readonly yaml?: ContextSpecYaml;
 }
@@ -1518,7 +1518,7 @@ export class ContextSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context codefresh_context}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context codefresh_context}
 */
 export class Context extends cdktf.TerraformResource {
 
@@ -1534,7 +1534,7 @@ export class Context extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Context resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Context to import
-  * @param importFromId The id of the existing Context that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Context that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Context to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1546,7 +1546,7 @@ export class Context extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/context codefresh_context} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/context codefresh_context} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1557,8 +1557,8 @@ export class Context extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_context',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

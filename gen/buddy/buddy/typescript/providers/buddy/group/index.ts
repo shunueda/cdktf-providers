@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The permission's ID with which the group will be assigned to new projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#auto_assign_permission_set_id Group#auto_assign_permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#auto_assign_permission_set_id Group#auto_assign_permission_set_id}
   */
   readonly autoAssignPermissionSetId?: number;
   /**
   * Defines whether or not to automatically assign group to new projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#auto_assign_to_new_projects Group#auto_assign_to_new_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#auto_assign_to_new_projects Group#auto_assign_to_new_projects}
   */
   readonly autoAssignToNewProjects?: boolean | cdktf.IResolvable;
   /**
   * The group's description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#domain Group#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#domain Group#domain}
   */
   readonly domain: string;
   /**
   * The group's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group buddy_group}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group buddy_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/group buddy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/group buddy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_group',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

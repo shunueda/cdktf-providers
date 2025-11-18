@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,91 +8,91 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDatasetProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_aws_provider SearchDatasetProvider#api_aws_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_aws_provider SearchDatasetProvider#api_aws_provider}
   */
   readonly apiAwsProvider?: SearchDatasetProviderApiAwsProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_azure_data_explorer_provider SearchDatasetProvider#api_azure_data_explorer_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_azure_data_explorer_provider SearchDatasetProvider#api_azure_data_explorer_provider}
   */
   readonly apiAzureDataExplorerProvider?: SearchDatasetProviderApiAzureDataExplorerProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_azure_provider SearchDatasetProvider#api_azure_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_azure_provider SearchDatasetProvider#api_azure_provider}
   */
   readonly apiAzureProvider?: SearchDatasetProviderApiAzureProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_elastic_search_provider SearchDatasetProvider#api_elastic_search_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_elastic_search_provider SearchDatasetProvider#api_elastic_search_provider}
   */
   readonly apiElasticSearchProvider?: SearchDatasetProviderApiElasticSearchProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_gcp_provider SearchDatasetProvider#api_gcp_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_gcp_provider SearchDatasetProvider#api_gcp_provider}
   */
   readonly apiGcpProvider?: SearchDatasetProviderApiGcpProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_google_workspace_provider SearchDatasetProvider#api_google_workspace_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_google_workspace_provider SearchDatasetProvider#api_google_workspace_provider}
   */
   readonly apiGoogleWorkspaceProvider?: SearchDatasetProviderApiGoogleWorkspaceProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_ms_graph_provider SearchDatasetProvider#api_ms_graph_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_ms_graph_provider SearchDatasetProvider#api_ms_graph_provider}
   */
   readonly apiMsGraphProvider?: SearchDatasetProviderApiMsGraphProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_okta_provider SearchDatasetProvider#api_okta_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_okta_provider SearchDatasetProvider#api_okta_provider}
   */
   readonly apiOktaProvider?: SearchDatasetProviderApiOktaProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_open_search_provider SearchDatasetProvider#api_open_search_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_open_search_provider SearchDatasetProvider#api_open_search_provider}
   */
   readonly apiOpenSearchProvider?: SearchDatasetProviderApiOpenSearchProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_tailscale_provider SearchDatasetProvider#api_tailscale_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_tailscale_provider SearchDatasetProvider#api_tailscale_provider}
   */
   readonly apiTailscaleProvider?: SearchDatasetProviderApiTailscaleProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_zoom_provider SearchDatasetProvider#api_zoom_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_zoom_provider SearchDatasetProvider#api_zoom_provider}
   */
   readonly apiZoomProvider?: SearchDatasetProviderApiZoomProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#apihttp_provider SearchDatasetProvider#apihttp_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#apihttp_provider SearchDatasetProvider#apihttp_provider}
   */
   readonly apihttpProvider?: SearchDatasetProviderApihttpProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_security_lake_provider SearchDatasetProvider#aws_security_lake_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_security_lake_provider SearchDatasetProvider#aws_security_lake_provider}
   */
   readonly awsSecurityLakeProvider?: SearchDatasetProviderAwsSecurityLakeProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#azure_blob_provider SearchDatasetProvider#azure_blob_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#azure_blob_provider SearchDatasetProvider#azure_blob_provider}
   */
   readonly azureBlobProvider?: SearchDatasetProviderAzureBlobProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#click_house_provider SearchDatasetProvider#click_house_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#click_house_provider SearchDatasetProvider#click_house_provider}
   */
   readonly clickHouseProvider?: SearchDatasetProviderClickHouseProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#cribl_leader_provider SearchDatasetProvider#cribl_leader_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#cribl_leader_provider SearchDatasetProvider#cribl_leader_provider}
   */
   readonly criblLeaderProvider?: SearchDatasetProviderCriblLeaderProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#edge_provider SearchDatasetProvider#edge_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#edge_provider SearchDatasetProvider#edge_provider}
   */
   readonly edgeProvider?: SearchDatasetProviderEdgeProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#gcs_provider SearchDatasetProvider#gcs_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#gcs_provider SearchDatasetProvider#gcs_provider}
   */
   readonly gcsProvider?: SearchDatasetProviderGcsProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#meta_provider SearchDatasetProvider#meta_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#meta_provider SearchDatasetProvider#meta_provider}
   */
   readonly metaProvider?: SearchDatasetProviderMetaProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#prometheus_provider SearchDatasetProvider#prometheus_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#prometheus_provider SearchDatasetProvider#prometheus_provider}
   */
   readonly prometheusProvider?: SearchDatasetProviderPrometheusProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#s3_provider SearchDatasetProvider#s3_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#s3_provider SearchDatasetProvider#s3_provider}
   */
   readonly s3Provider?: SearchDatasetProviderS3Provider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#snowflake_provider SearchDatasetProvider#snowflake_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#snowflake_provider SearchDatasetProvider#snowflake_provider}
   */
   readonly snowflakeProvider?: SearchDatasetProviderSnowflakeProvider;
 }
@@ -100,31 +100,31 @@ export interface SearchDatasetProviderApiAwsProviderAccountConfigs {
   /**
   * ARN of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID for role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -358,19 +358,19 @@ export interface SearchDatasetProviderApiAwsProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiAwsProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -379,7 +379,7 @@ export interface SearchDatasetProviderApiAwsProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -562,25 +562,25 @@ export interface SearchDatasetProviderApiAzureDataExplorerProvider {
   /**
   * The Client ID (also known as Secret ID) of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The Client Secret of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -589,13 +589,13 @@ export interface SearchDatasetProviderApiAzureDataExplorerProvider {
   /**
   * The Tenant ID of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -836,25 +836,25 @@ export interface SearchDatasetProviderApiAzureProviderAccountConfigs {
   /**
   * The clientId of the service principal. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret of the service principal. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * The ID of your Azure tenant. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -1059,19 +1059,19 @@ export interface SearchDatasetProviderApiAzureProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiAzureProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,7 +1080,7 @@ export interface SearchDatasetProviderApiAzureProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -1263,19 +1263,19 @@ export interface SearchDatasetProviderApiElasticSearchProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Elasticsearch API endpoint URL. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1284,19 +1284,19 @@ export interface SearchDatasetProviderApiElasticSearchProvider {
   /**
   * Elasticsearch password for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * Elasticsearch username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -1537,13 +1537,13 @@ export interface SearchDatasetProviderApiGcpProviderAccountConfigs {
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * JSON blob downloaded from the Google Cloud Console, containing creds for a service account. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
 }
@@ -1690,19 +1690,19 @@ export interface SearchDatasetProviderApiGcpProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiGcpProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1711,7 +1711,7 @@ export interface SearchDatasetProviderApiGcpProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -1894,19 +1894,19 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProviderAccountConfigs {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Contents of Google Cloud service account credentials (JSON keys) file. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Email matching Google service account of the authorized principal whose role this integration is assuming. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#subject SearchDatasetProvider#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#subject SearchDatasetProvider#subject}
   */
   readonly subject?: string;
 }
@@ -2082,19 +2082,19 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiGoogleWorkspaceProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2103,7 +2103,7 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -2286,25 +2286,25 @@ export interface SearchDatasetProviderApiMsGraphProviderAccountConfigs {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Azure account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -2509,19 +2509,19 @@ export interface SearchDatasetProviderApiMsGraphProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiMsGraphProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2530,7 +2530,7 @@ export interface SearchDatasetProviderApiMsGraphProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -2713,19 +2713,19 @@ export interface SearchDatasetProviderApiOktaProviderAccountConfigs {
   /**
   * API token for authorizing requests. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#api_token SearchDatasetProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#api_token SearchDatasetProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * URL for the subdomain of your organization. Example: subdomain.okta.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#domain_endpoint SearchDatasetProvider#domain_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#domain_endpoint SearchDatasetProvider#domain_endpoint}
   */
   readonly domainEndpoint?: string;
   /**
   * Okta account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -2901,19 +2901,19 @@ export interface SearchDatasetProviderApiOktaProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiOktaProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2922,7 +2922,7 @@ export interface SearchDatasetProviderApiOktaProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -3105,19 +3105,19 @@ export interface SearchDatasetProviderApiOpenSearchProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * OpenSearch API endpoint URL. Example: https://opensearch.mycompany.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3126,19 +3126,19 @@ export interface SearchDatasetProviderApiOpenSearchProvider {
   /**
   * OpenSearch password for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * OpenSearch username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -3379,19 +3379,19 @@ export interface SearchDatasetProviderApiTailscaleProviderAccountConfigs {
   /**
   * Client ID string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Tailscale account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -3567,19 +3567,19 @@ export interface SearchDatasetProviderApiTailscaleProvider {
   /**
   * A list of account configuration. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiTailscaleProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3588,7 +3588,7 @@ export interface SearchDatasetProviderApiTailscaleProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -3771,25 +3771,25 @@ export interface SearchDatasetProviderApiZoomProviderAccountConfigs {
   /**
   * Zoom account ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_id SearchDatasetProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_id SearchDatasetProvider#account_id}
   */
   readonly accountId?: string;
   /**
   * Client ID string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Zoom account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -3994,19 +3994,19 @@ export interface SearchDatasetProviderApiZoomProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiZoomProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4015,7 +4015,7 @@ export interface SearchDatasetProviderApiZoomProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -4198,13 +4198,13 @@ export interface SearchDatasetProviderApihttpProviderAvailableEndpointsHeaders {
   /**
   * Header name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Header value. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#value SearchDatasetProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#value SearchDatasetProvider#value}
   */
   readonly value?: string;
 }
@@ -4351,31 +4351,31 @@ export interface SearchDatasetProviderApihttpProviderAvailableEndpoints {
   /**
   * Within the response JSON, name of the field or array element to pull results from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#data_field SearchDatasetProvider#data_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#data_field SearchDatasetProvider#data_field}
   */
   readonly dataField?: string;
   /**
   * Optional headers for the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#headers SearchDatasetProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#headers SearchDatasetProvider#headers}
   */
   readonly headers?: SearchDatasetProviderApihttpProviderAvailableEndpointsHeaders[] | cdktf.IResolvable;
   /**
   * Method for the endpoint. Default: "GET"; must be one of ["GET", "POST"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#method SearchDatasetProvider#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#method SearchDatasetProvider#method}
   */
   readonly method?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * The URL for this endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#url SearchDatasetProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#url SearchDatasetProvider#url}
   */
   readonly url?: string;
 }
@@ -4609,25 +4609,25 @@ export interface SearchDatasetProviderApihttpProvider {
   /**
   * The authentication method for API calls. Default: "none"; must be one of ["none", "basic", "login", "oauth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * A list of the available endpoints for this provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#available_endpoints SearchDatasetProvider#available_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#available_endpoints SearchDatasetProvider#available_endpoints}
   */
   readonly availableEndpoints?: SearchDatasetProviderApihttpProviderAvailableEndpoints[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4636,7 +4636,7 @@ export interface SearchDatasetProviderApihttpProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -4848,13 +4848,13 @@ export interface SearchDatasetProviderAwsSecurityLakeProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4863,7 +4863,7 @@ export interface SearchDatasetProviderAwsSecurityLakeProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -5017,13 +5017,13 @@ export interface SearchDatasetProviderAzureBlobProviderSasConfigs {
   /**
   * Container-specific Blob SAS URL. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#blob_sas_url SearchDatasetProvider#blob_sas_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#blob_sas_url SearchDatasetProvider#blob_sas_url}
   */
   readonly blobSasUrl?: string;
   /**
   * Name of the Azure Blob Storage container. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#container_name SearchDatasetProvider#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#container_name SearchDatasetProvider#container_name}
   */
   readonly containerName?: string;
 }
@@ -5170,37 +5170,37 @@ export interface SearchDatasetProviderAzureBlobProvider {
   /**
   * Azure Storage authentication method. Default: "connection_string"; must be one of ["connection_string", "blob_sas_url", "client_secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Azure AD application client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Azure AD application client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Storage account connection string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#connection_string SearchDatasetProvider#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#connection_string SearchDatasetProvider#connection_string}
   */
   readonly connectionString?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5209,31 +5209,31 @@ export interface SearchDatasetProviderAzureBlobProvider {
   /**
   * Primary region in which the storage account is located. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#location SearchDatasetProvider#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#location SearchDatasetProvider#location}
   */
   readonly location?: string;
   /**
   * A list of container-specific SAS configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#sas_configs SearchDatasetProvider#sas_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#sas_configs SearchDatasetProvider#sas_configs}
   */
   readonly sasConfigs?: SearchDatasetProviderAzureBlobProviderSasConfigs[] | cdktf.IResolvable;
   /**
   * The name of your Azure storage account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#storage_account_name SearchDatasetProvider#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#storage_account_name SearchDatasetProvider#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
   * Azure AD tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -5619,19 +5619,19 @@ export interface SearchDatasetProviderClickHouseProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * URL to ClickHouse server with HTTP interface enabled. Ideally should be HTTPS over port 8443. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5640,19 +5640,19 @@ export interface SearchDatasetProviderClickHouseProvider {
   /**
   * The ClickHouse user password for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * The ClickHouse username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -5893,13 +5893,13 @@ export interface SearchDatasetProviderCriblLeaderProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5908,7 +5908,7 @@ export interface SearchDatasetProviderCriblLeaderProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6062,13 +6062,13 @@ export interface SearchDatasetProviderEdgeProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6077,7 +6077,7 @@ export interface SearchDatasetProviderEdgeProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6231,19 +6231,19 @@ export interface SearchDatasetProviderGcsProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Google Cloud Storage service endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6252,13 +6252,13 @@ export interface SearchDatasetProviderGcsProvider {
   /**
   * Contents of Google Cloud service account credentials (JSON keys) file. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6466,2888 +6466,17 @@ export class SearchDatasetProviderGcsProviderOutputReference extends cdktf.Compl
     return this._type;
   }
 }
-export interface SearchDatasetProviderItemsApiAwsProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiAwsProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiAwsProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiAwsProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiAwsProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiAwsProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiAwsProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiAwsProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // assume_role_arn - computed: true, optional: false, required: false
-  public get assumeRoleArn() {
-    return this.getStringAttribute('assume_role_arn');
-  }
-
-  // assume_role_external_id - computed: true, optional: false, required: false
-  public get assumeRoleExternalId() {
-    return this.getStringAttribute('assume_role_external_id');
-  }
-
-  // aws_api_key - computed: true, optional: false, required: false
-  public get awsApiKey() {
-    return this.getStringAttribute('aws_api_key');
-  }
-
-  // aws_secret_key - computed: true, optional: false, required: false
-  public get awsSecretKey() {
-    return this.getStringAttribute('aws_secret_key');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class SearchDatasetProviderItemsApiAwsProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiAwsProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiAwsProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiAwsProvider {
-}
-
-export function searchDatasetProviderItemsApiAwsProviderToTerraform(struct?: SearchDatasetProviderItemsApiAwsProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiAwsProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiAwsProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiAwsProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiAwsProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiAwsProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiAwsProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiAzureDataExplorerProvider {
-}
-
-export function searchDatasetProviderItemsApiAzureDataExplorerProviderToTerraform(struct?: SearchDatasetProviderItemsApiAzureDataExplorerProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiAzureDataExplorerProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiAzureDataExplorerProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiAzureDataExplorerProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiAzureDataExplorerProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiAzureDataExplorerProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // tenant_id - computed: true, optional: false, required: false
-  public get tenantId() {
-    return this.getStringAttribute('tenant_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiAzureProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiAzureProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiAzureProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiAzureProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiAzureProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiAzureProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiAzureProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiAzureProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // tenant_id - computed: true, optional: false, required: false
-  public get tenantId() {
-    return this.getStringAttribute('tenant_id');
-  }
-}
-
-export class SearchDatasetProviderItemsApiAzureProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiAzureProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiAzureProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiAzureProvider {
-}
-
-export function searchDatasetProviderItemsApiAzureProviderToTerraform(struct?: SearchDatasetProviderItemsApiAzureProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiAzureProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiAzureProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiAzureProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiAzureProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiAzureProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiAzureProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiElasticSearchProvider {
-}
-
-export function searchDatasetProviderItemsApiElasticSearchProviderToTerraform(struct?: SearchDatasetProviderItemsApiElasticSearchProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiElasticSearchProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiElasticSearchProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiElasticSearchProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiElasticSearchProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiElasticSearchProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // password - computed: true, optional: false, required: false
-  public get password() {
-    return this.getStringAttribute('password');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-export interface SearchDatasetProviderItemsApiGcpProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiGcpProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiGcpProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiGcpProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiGcpProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiGcpProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiGcpProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiGcpProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // service_account_credentials - computed: true, optional: false, required: false
-  public get serviceAccountCredentials() {
-    return this.getStringAttribute('service_account_credentials');
-  }
-}
-
-export class SearchDatasetProviderItemsApiGcpProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiGcpProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiGcpProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiGcpProvider {
-}
-
-export function searchDatasetProviderItemsApiGcpProviderToTerraform(struct?: SearchDatasetProviderItemsApiGcpProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiGcpProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiGcpProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiGcpProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiGcpProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiGcpProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiGcpProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // service_account_credentials - computed: true, optional: false, required: false
-  public get serviceAccountCredentials() {
-    return this.getStringAttribute('service_account_credentials');
-  }
-
-  // subject - computed: true, optional: false, required: false
-  public get subject() {
-    return this.getStringAttribute('subject');
-  }
-}
-
-export class SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiGoogleWorkspaceProvider {
-}
-
-export function searchDatasetProviderItemsApiGoogleWorkspaceProviderToTerraform(struct?: SearchDatasetProviderItemsApiGoogleWorkspaceProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiGoogleWorkspaceProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiGoogleWorkspaceProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiGoogleWorkspaceProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiGoogleWorkspaceProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiGoogleWorkspaceProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiGoogleWorkspaceProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiMsGraphProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiMsGraphProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiMsGraphProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiMsGraphProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiMsGraphProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiMsGraphProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiMsGraphProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiMsGraphProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // tenant_id - computed: true, optional: false, required: false
-  public get tenantId() {
-    return this.getStringAttribute('tenant_id');
-  }
-}
-
-export class SearchDatasetProviderItemsApiMsGraphProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiMsGraphProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiMsGraphProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiMsGraphProvider {
-}
-
-export function searchDatasetProviderItemsApiMsGraphProviderToTerraform(struct?: SearchDatasetProviderItemsApiMsGraphProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiMsGraphProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiMsGraphProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiMsGraphProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiMsGraphProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiMsGraphProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiMsGraphProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiOktaProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiOktaProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiOktaProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiOktaProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiOktaProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiOktaProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiOktaProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiOktaProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // api_token - computed: true, optional: false, required: false
-  public get apiToken() {
-    return this.getStringAttribute('api_token');
-  }
-
-  // domain_endpoint - computed: true, optional: false, required: false
-  public get domainEndpoint() {
-    return this.getStringAttribute('domain_endpoint');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class SearchDatasetProviderItemsApiOktaProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiOktaProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiOktaProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiOktaProvider {
-}
-
-export function searchDatasetProviderItemsApiOktaProviderToTerraform(struct?: SearchDatasetProviderItemsApiOktaProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiOktaProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiOktaProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiOktaProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiOktaProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiOktaProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiOktaProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiOpenSearchProvider {
-}
-
-export function searchDatasetProviderItemsApiOpenSearchProviderToTerraform(struct?: SearchDatasetProviderItemsApiOpenSearchProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiOpenSearchProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiOpenSearchProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiOpenSearchProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiOpenSearchProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiOpenSearchProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // password - computed: true, optional: false, required: false
-  public get password() {
-    return this.getStringAttribute('password');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-export interface SearchDatasetProviderItemsApiTailscaleProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiTailscaleProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiTailscaleProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiTailscaleProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiTailscaleProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiTailscaleProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiTailscaleProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiTailscaleProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class SearchDatasetProviderItemsApiTailscaleProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiTailscaleProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiTailscaleProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiTailscaleProvider {
-}
-
-export function searchDatasetProviderItemsApiTailscaleProviderToTerraform(struct?: SearchDatasetProviderItemsApiTailscaleProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiTailscaleProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiTailscaleProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiTailscaleProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiTailscaleProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiTailscaleProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiTailscaleProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApiZoomProviderAccountConfigs {
-}
-
-export function searchDatasetProviderItemsApiZoomProviderAccountConfigsToTerraform(struct?: SearchDatasetProviderItemsApiZoomProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiZoomProviderAccountConfigsToHclTerraform(struct?: SearchDatasetProviderItemsApiZoomProviderAccountConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiZoomProviderAccountConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiZoomProviderAccountConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiZoomProviderAccountConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_id - computed: true, optional: false, required: false
-  public get accountId() {
-    return this.getStringAttribute('account_id');
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class SearchDatasetProviderItemsApiZoomProviderAccountConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApiZoomProviderAccountConfigsOutputReference {
-    return new SearchDatasetProviderItemsApiZoomProviderAccountConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApiZoomProvider {
-}
-
-export function searchDatasetProviderItemsApiZoomProviderToTerraform(struct?: SearchDatasetProviderItemsApiZoomProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApiZoomProviderToHclTerraform(struct?: SearchDatasetProviderItemsApiZoomProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApiZoomProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApiZoomProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApiZoomProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_configs - computed: true, optional: false, required: false
-  private _accountConfigs = new SearchDatasetProviderItemsApiZoomProviderAccountConfigsList(this, "account_configs", false);
-  public get accountConfigs() {
-    return this._accountConfigs;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeaders {
-}
-
-export function searchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersToTerraform(struct?: SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeaders): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersToHclTerraform(struct?: SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeaders): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeaders | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeaders | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersOutputReference {
-    return new SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApihttpProviderAvailableEndpoints {
-}
-
-export function searchDatasetProviderItemsApihttpProviderAvailableEndpointsToTerraform(struct?: SearchDatasetProviderItemsApihttpProviderAvailableEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApihttpProviderAvailableEndpointsToHclTerraform(struct?: SearchDatasetProviderItemsApihttpProviderAvailableEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApihttpProviderAvailableEndpointsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApihttpProviderAvailableEndpoints | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApihttpProviderAvailableEndpoints | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // data_field - computed: true, optional: false, required: false
-  public get dataField() {
-    return this.getStringAttribute('data_field');
-  }
-
-  // headers - computed: true, optional: false, required: false
-  private _headers = new SearchDatasetProviderItemsApihttpProviderAvailableEndpointsHeadersList(this, "headers", false);
-  public get headers() {
-    return this._headers;
-  }
-
-  // method - computed: true, optional: false, required: false
-  public get method() {
-    return this.getStringAttribute('method');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // url - computed: true, optional: false, required: false
-  public get url() {
-    return this.getStringAttribute('url');
-  }
-}
-
-export class SearchDatasetProviderItemsApihttpProviderAvailableEndpointsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsApihttpProviderAvailableEndpointsOutputReference {
-    return new SearchDatasetProviderItemsApihttpProviderAvailableEndpointsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsApihttpProvider {
-}
-
-export function searchDatasetProviderItemsApihttpProviderToTerraform(struct?: SearchDatasetProviderItemsApihttpProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsApihttpProviderToHclTerraform(struct?: SearchDatasetProviderItemsApihttpProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsApihttpProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsApihttpProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsApihttpProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // authentication_method - computed: true, optional: false, required: false
-  public get authenticationMethod() {
-    return this.getStringAttribute('authentication_method');
-  }
-
-  // available_endpoints - computed: true, optional: false, required: false
-  private _availableEndpoints = new SearchDatasetProviderItemsApihttpProviderAvailableEndpointsList(this, "available_endpoints", false);
-  public get availableEndpoints() {
-    return this._availableEndpoints;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsAwsSecurityLakeProvider {
-}
-
-export function searchDatasetProviderItemsAwsSecurityLakeProviderToTerraform(struct?: SearchDatasetProviderItemsAwsSecurityLakeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsAwsSecurityLakeProviderToHclTerraform(struct?: SearchDatasetProviderItemsAwsSecurityLakeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsAwsSecurityLakeProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsAwsSecurityLakeProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsAwsSecurityLakeProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsAzureBlobProviderSasConfigs {
-}
-
-export function searchDatasetProviderItemsAzureBlobProviderSasConfigsToTerraform(struct?: SearchDatasetProviderItemsAzureBlobProviderSasConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsAzureBlobProviderSasConfigsToHclTerraform(struct?: SearchDatasetProviderItemsAzureBlobProviderSasConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsAzureBlobProviderSasConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsAzureBlobProviderSasConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsAzureBlobProviderSasConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // blob_sas_url - computed: true, optional: false, required: false
-  public get blobSasUrl() {
-    return this.getStringAttribute('blob_sas_url');
-  }
-
-  // container_name - computed: true, optional: false, required: false
-  public get containerName() {
-    return this.getStringAttribute('container_name');
-  }
-}
-
-export class SearchDatasetProviderItemsAzureBlobProviderSasConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsAzureBlobProviderSasConfigsOutputReference {
-    return new SearchDatasetProviderItemsAzureBlobProviderSasConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetProviderItemsAzureBlobProvider {
-}
-
-export function searchDatasetProviderItemsAzureBlobProviderToTerraform(struct?: SearchDatasetProviderItemsAzureBlobProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsAzureBlobProviderToHclTerraform(struct?: SearchDatasetProviderItemsAzureBlobProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsAzureBlobProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsAzureBlobProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsAzureBlobProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // authentication_method - computed: true, optional: false, required: false
-  public get authenticationMethod() {
-    return this.getStringAttribute('authentication_method');
-  }
-
-  // client_id - computed: true, optional: false, required: false
-  public get clientId() {
-    return this.getStringAttribute('client_id');
-  }
-
-  // client_secret - computed: true, optional: false, required: false
-  public get clientSecret() {
-    return this.getStringAttribute('client_secret');
-  }
-
-  // connection_string - computed: true, optional: false, required: false
-  public get connectionString() {
-    return this.getStringAttribute('connection_string');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // location - computed: true, optional: false, required: false
-  public get location() {
-    return this.getStringAttribute('location');
-  }
-
-  // sas_configs - computed: true, optional: false, required: false
-  private _sasConfigs = new SearchDatasetProviderItemsAzureBlobProviderSasConfigsList(this, "sas_configs", false);
-  public get sasConfigs() {
-    return this._sasConfigs;
-  }
-
-  // storage_account_name - computed: true, optional: false, required: false
-  public get storageAccountName() {
-    return this.getStringAttribute('storage_account_name');
-  }
-
-  // tenant_id - computed: true, optional: false, required: false
-  public get tenantId() {
-    return this.getStringAttribute('tenant_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsClickHouseProvider {
-}
-
-export function searchDatasetProviderItemsClickHouseProviderToTerraform(struct?: SearchDatasetProviderItemsClickHouseProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsClickHouseProviderToHclTerraform(struct?: SearchDatasetProviderItemsClickHouseProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsClickHouseProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsClickHouseProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsClickHouseProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // password - computed: true, optional: false, required: false
-  public get password() {
-    return this.getStringAttribute('password');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-export interface SearchDatasetProviderItemsCriblLeaderProvider {
-}
-
-export function searchDatasetProviderItemsCriblLeaderProviderToTerraform(struct?: SearchDatasetProviderItemsCriblLeaderProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsCriblLeaderProviderToHclTerraform(struct?: SearchDatasetProviderItemsCriblLeaderProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsCriblLeaderProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsCriblLeaderProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsCriblLeaderProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsEdgeProvider {
-}
-
-export function searchDatasetProviderItemsEdgeProviderToTerraform(struct?: SearchDatasetProviderItemsEdgeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsEdgeProviderToHclTerraform(struct?: SearchDatasetProviderItemsEdgeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsEdgeProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsEdgeProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsEdgeProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsGcsProvider {
-}
-
-export function searchDatasetProviderItemsGcsProviderToTerraform(struct?: SearchDatasetProviderItemsGcsProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsGcsProviderToHclTerraform(struct?: SearchDatasetProviderItemsGcsProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsGcsProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsGcsProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsGcsProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // service_account_credentials - computed: true, optional: false, required: false
-  public get serviceAccountCredentials() {
-    return this.getStringAttribute('service_account_credentials');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsMetaProvider {
-}
-
-export function searchDatasetProviderItemsMetaProviderToTerraform(struct?: SearchDatasetProviderItemsMetaProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsMetaProviderToHclTerraform(struct?: SearchDatasetProviderItemsMetaProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsMetaProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsMetaProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsMetaProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsPrometheusProvider {
-}
-
-export function searchDatasetProviderItemsPrometheusProviderToTerraform(struct?: SearchDatasetProviderItemsPrometheusProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsPrometheusProviderToHclTerraform(struct?: SearchDatasetProviderItemsPrometheusProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsPrometheusProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsPrometheusProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsPrometheusProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // auth_type - computed: true, optional: false, required: false
-  public get authType() {
-    return this.getStringAttribute('auth_type');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // max_concurrency - computed: true, optional: false, required: false
-  public get maxConcurrency() {
-    return this.getNumberAttribute('max_concurrency');
-  }
-
-  // password - computed: true, optional: false, required: false
-  public get password() {
-    return this.getStringAttribute('password');
-  }
-
-  // token - computed: true, optional: false, required: false
-  public get token() {
-    return this.getStringAttribute('token');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-export interface SearchDatasetProviderItemsS3Provider {
-}
-
-export function searchDatasetProviderItemsS3ProviderToTerraform(struct?: SearchDatasetProviderItemsS3Provider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsS3ProviderToHclTerraform(struct?: SearchDatasetProviderItemsS3Provider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsS3ProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsS3Provider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsS3Provider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // assume_role_arn - computed: true, optional: false, required: false
-  public get assumeRoleArn() {
-    return this.getStringAttribute('assume_role_arn');
-  }
-
-  // assume_role_external_id - computed: true, optional: false, required: false
-  public get assumeRoleExternalId() {
-    return this.getStringAttribute('assume_role_external_id');
-  }
-
-  // aws_api_key - computed: true, optional: false, required: false
-  public get awsApiKey() {
-    return this.getStringAttribute('aws_api_key');
-  }
-
-  // aws_authentication_method - computed: true, optional: false, required: false
-  public get awsAuthenticationMethod() {
-    return this.getStringAttribute('aws_authentication_method');
-  }
-
-  // aws_secret_key - computed: true, optional: false, required: false
-  public get awsSecretKey() {
-    return this.getStringAttribute('aws_secret_key');
-  }
-
-  // bucket - computed: true, optional: false, required: false
-  public get bucket() {
-    return this.getStringAttribute('bucket');
-  }
-
-  // bucket_path_suggestion - computed: true, optional: false, required: false
-  public get bucketPathSuggestion() {
-    return this.getStringAttribute('bucket_path_suggestion');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enable_abac_tagging - computed: true, optional: false, required: false
-  public get enableAbacTagging() {
-    return this.getBooleanAttribute('enable_abac_tagging');
-  }
-
-  // enable_assume_role - computed: true, optional: false, required: false
-  public get enableAssumeRole() {
-    return this.getBooleanAttribute('enable_assume_role');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // reject_unauthorized - computed: true, optional: false, required: false
-  public get rejectUnauthorized() {
-    return this.getBooleanAttribute('reject_unauthorized');
-  }
-
-  // reuse_connections - computed: true, optional: false, required: false
-  public get reuseConnections() {
-    return this.getBooleanAttribute('reuse_connections');
-  }
-
-  // session_token - computed: true, optional: false, required: false
-  public get sessionToken() {
-    return this.getStringAttribute('session_token');
-  }
-
-  // signature_version - computed: true, optional: false, required: false
-  public get signatureVersion() {
-    return this.getStringAttribute('signature_version');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetProviderItemsSnowflakeProvider {
-}
-
-export function searchDatasetProviderItemsSnowflakeProviderToTerraform(struct?: SearchDatasetProviderItemsSnowflakeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsSnowflakeProviderToHclTerraform(struct?: SearchDatasetProviderItemsSnowflakeProvider): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsSnowflakeProviderOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetProviderItemsSnowflakeProvider | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItemsSnowflakeProvider | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // account_identifier - computed: true, optional: false, required: false
-  public get accountIdentifier() {
-    return this.getStringAttribute('account_identifier');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint - computed: true, optional: false, required: false
-  public get endpoint() {
-    return this.getStringAttribute('endpoint');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // max_concurrency - computed: true, optional: false, required: false
-  public get maxConcurrency() {
-    return this.getNumberAttribute('max_concurrency');
-  }
-
-  // passphrase - computed: true, optional: false, required: false
-  public get passphrase() {
-    return this.getStringAttribute('passphrase');
-  }
-
-  // priv_key - computed: true, optional: false, required: false
-  public get privKey() {
-    return this.getStringAttribute('priv_key');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // username - computed: true, optional: false, required: false
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-}
-export interface SearchDatasetProviderItems {
-}
-
-export function searchDatasetProviderItemsToTerraform(struct?: SearchDatasetProviderItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetProviderItemsToHclTerraform(struct?: SearchDatasetProviderItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetProviderItemsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetProviderItems | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetProviderItems | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // api_aws_provider - computed: true, optional: false, required: false
-  private _apiAwsProvider = new SearchDatasetProviderItemsApiAwsProviderOutputReference(this, "api_aws_provider");
-  public get apiAwsProvider() {
-    return this._apiAwsProvider;
-  }
-
-  // api_azure_data_explorer_provider - computed: true, optional: false, required: false
-  private _apiAzureDataExplorerProvider = new SearchDatasetProviderItemsApiAzureDataExplorerProviderOutputReference(this, "api_azure_data_explorer_provider");
-  public get apiAzureDataExplorerProvider() {
-    return this._apiAzureDataExplorerProvider;
-  }
-
-  // api_azure_provider - computed: true, optional: false, required: false
-  private _apiAzureProvider = new SearchDatasetProviderItemsApiAzureProviderOutputReference(this, "api_azure_provider");
-  public get apiAzureProvider() {
-    return this._apiAzureProvider;
-  }
-
-  // api_elastic_search_provider - computed: true, optional: false, required: false
-  private _apiElasticSearchProvider = new SearchDatasetProviderItemsApiElasticSearchProviderOutputReference(this, "api_elastic_search_provider");
-  public get apiElasticSearchProvider() {
-    return this._apiElasticSearchProvider;
-  }
-
-  // api_gcp_provider - computed: true, optional: false, required: false
-  private _apiGcpProvider = new SearchDatasetProviderItemsApiGcpProviderOutputReference(this, "api_gcp_provider");
-  public get apiGcpProvider() {
-    return this._apiGcpProvider;
-  }
-
-  // api_google_workspace_provider - computed: true, optional: false, required: false
-  private _apiGoogleWorkspaceProvider = new SearchDatasetProviderItemsApiGoogleWorkspaceProviderOutputReference(this, "api_google_workspace_provider");
-  public get apiGoogleWorkspaceProvider() {
-    return this._apiGoogleWorkspaceProvider;
-  }
-
-  // api_ms_graph_provider - computed: true, optional: false, required: false
-  private _apiMsGraphProvider = new SearchDatasetProviderItemsApiMsGraphProviderOutputReference(this, "api_ms_graph_provider");
-  public get apiMsGraphProvider() {
-    return this._apiMsGraphProvider;
-  }
-
-  // api_okta_provider - computed: true, optional: false, required: false
-  private _apiOktaProvider = new SearchDatasetProviderItemsApiOktaProviderOutputReference(this, "api_okta_provider");
-  public get apiOktaProvider() {
-    return this._apiOktaProvider;
-  }
-
-  // api_open_search_provider - computed: true, optional: false, required: false
-  private _apiOpenSearchProvider = new SearchDatasetProviderItemsApiOpenSearchProviderOutputReference(this, "api_open_search_provider");
-  public get apiOpenSearchProvider() {
-    return this._apiOpenSearchProvider;
-  }
-
-  // api_tailscale_provider - computed: true, optional: false, required: false
-  private _apiTailscaleProvider = new SearchDatasetProviderItemsApiTailscaleProviderOutputReference(this, "api_tailscale_provider");
-  public get apiTailscaleProvider() {
-    return this._apiTailscaleProvider;
-  }
-
-  // api_zoom_provider - computed: true, optional: false, required: false
-  private _apiZoomProvider = new SearchDatasetProviderItemsApiZoomProviderOutputReference(this, "api_zoom_provider");
-  public get apiZoomProvider() {
-    return this._apiZoomProvider;
-  }
-
-  // apihttp_provider - computed: true, optional: false, required: false
-  private _apihttpProvider = new SearchDatasetProviderItemsApihttpProviderOutputReference(this, "apihttp_provider");
-  public get apihttpProvider() {
-    return this._apihttpProvider;
-  }
-
-  // aws_security_lake_provider - computed: true, optional: false, required: false
-  private _awsSecurityLakeProvider = new SearchDatasetProviderItemsAwsSecurityLakeProviderOutputReference(this, "aws_security_lake_provider");
-  public get awsSecurityLakeProvider() {
-    return this._awsSecurityLakeProvider;
-  }
-
-  // azure_blob_provider - computed: true, optional: false, required: false
-  private _azureBlobProvider = new SearchDatasetProviderItemsAzureBlobProviderOutputReference(this, "azure_blob_provider");
-  public get azureBlobProvider() {
-    return this._azureBlobProvider;
-  }
-
-  // click_house_provider - computed: true, optional: false, required: false
-  private _clickHouseProvider = new SearchDatasetProviderItemsClickHouseProviderOutputReference(this, "click_house_provider");
-  public get clickHouseProvider() {
-    return this._clickHouseProvider;
-  }
-
-  // cribl_leader_provider - computed: true, optional: false, required: false
-  private _criblLeaderProvider = new SearchDatasetProviderItemsCriblLeaderProviderOutputReference(this, "cribl_leader_provider");
-  public get criblLeaderProvider() {
-    return this._criblLeaderProvider;
-  }
-
-  // edge_provider - computed: true, optional: false, required: false
-  private _edgeProvider = new SearchDatasetProviderItemsEdgeProviderOutputReference(this, "edge_provider");
-  public get edgeProvider() {
-    return this._edgeProvider;
-  }
-
-  // gcs_provider - computed: true, optional: false, required: false
-  private _gcsProvider = new SearchDatasetProviderItemsGcsProviderOutputReference(this, "gcs_provider");
-  public get gcsProvider() {
-    return this._gcsProvider;
-  }
-
-  // meta_provider - computed: true, optional: false, required: false
-  private _metaProvider = new SearchDatasetProviderItemsMetaProviderOutputReference(this, "meta_provider");
-  public get metaProvider() {
-    return this._metaProvider;
-  }
-
-  // prometheus_provider - computed: true, optional: false, required: false
-  private _prometheusProvider = new SearchDatasetProviderItemsPrometheusProviderOutputReference(this, "prometheus_provider");
-  public get prometheusProvider() {
-    return this._prometheusProvider;
-  }
-
-  // s3_provider - computed: true, optional: false, required: false
-  private _s3Provider = new SearchDatasetProviderItemsS3ProviderOutputReference(this, "s3_provider");
-  public get s3Provider() {
-    return this._s3Provider;
-  }
-
-  // snowflake_provider - computed: true, optional: false, required: false
-  private _snowflakeProvider = new SearchDatasetProviderItemsSnowflakeProviderOutputReference(this, "snowflake_provider");
-  public get snowflakeProvider() {
-    return this._snowflakeProvider;
-  }
-}
-
-export class SearchDatasetProviderItemsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetProviderItemsOutputReference {
-    return new SearchDatasetProviderItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface SearchDatasetProviderMetaProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9356,7 +6485,7 @@ export interface SearchDatasetProviderMetaProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -9510,25 +6639,25 @@ export interface SearchDatasetProviderPrometheusProvider {
   /**
   * Default: "none"; must be one of ["none", "basic", "token"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#auth_type SearchDatasetProvider#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#auth_type SearchDatasetProvider#auth_type}
   */
   readonly authType?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Prometheus API endpoint URL. Example: https://prometheus.goats.biz. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9537,31 +6666,31 @@ export interface SearchDatasetProviderPrometheusProvider {
   /**
   * Maximum number of concurrent API requests. Default: 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * Basic auth password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Bearer token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#token SearchDatasetProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#token SearchDatasetProvider#token}
   */
   readonly token?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * Basic auth username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -9889,73 +7018,73 @@ export interface SearchDatasetProviderS3Provider {
   /**
   * ARN of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID for role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS authentication method. must be one of ["auto", "manual"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_authentication_method SearchDatasetProvider#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_authentication_method SearchDatasetProvider#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * AWS secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#bucket SearchDatasetProvider#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#bucket SearchDatasetProvider#bucket}
   */
   readonly bucket?: string;
   /**
   * Suggested bucket path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#bucket_path_suggestion SearchDatasetProvider#bucket_path_suggestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#bucket_path_suggestion SearchDatasetProvider#bucket_path_suggestion}
   */
   readonly bucketPathSuggestion?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Whether to enable ABAC source-ip tagging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#enable_abac_tagging SearchDatasetProvider#enable_abac_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#enable_abac_tagging SearchDatasetProvider#enable_abac_tagging}
   */
   readonly enableAbacTagging?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#enable_assume_role SearchDatasetProvider#enable_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#enable_assume_role SearchDatasetProvider#enable_assume_role}
   */
   readonly enableAssumeRole?: boolean | cdktf.IResolvable;
   /**
   * S3 endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9964,37 +7093,37 @@ export interface SearchDatasetProviderS3Provider {
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#region SearchDatasetProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#region SearchDatasetProvider#region}
   */
   readonly region?: string;
   /**
   * Whether to reject unauthorized requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#reject_unauthorized SearchDatasetProvider#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#reject_unauthorized SearchDatasetProvider#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Reuse existing S3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#reuse_connections SearchDatasetProvider#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#reuse_connections SearchDatasetProvider#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * AWS session token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#session_token SearchDatasetProvider#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#session_token SearchDatasetProvider#session_token}
   */
   readonly sessionToken?: string;
   /**
   * AWS signature version. Not Null; must be one of ["v2", "v4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#signature_version SearchDatasetProvider#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#signature_version SearchDatasetProvider#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -10583,25 +7712,25 @@ export interface SearchDatasetProviderSnowflakeProvider {
   /**
   * The Snowflake account identifier, in the format <orgname>-<account_name>. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#account_identifier SearchDatasetProvider#account_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#account_identifier SearchDatasetProvider#account_identifier}
   */
   readonly accountIdentifier?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Optional endpoint to override default REST API endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10610,31 +7739,31 @@ export interface SearchDatasetProviderSnowflakeProvider {
   /**
   * Total number of concurrent executors for processing Snowflake partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * The key password for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#passphrase SearchDatasetProvider#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#passphrase SearchDatasetProvider#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The private key string out of the key file, from the pair of keys generated for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#priv_key SearchDatasetProvider#priv_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#priv_key SearchDatasetProvider#priv_key}
   */
   readonly privKey?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * The Snowflake user for key pair authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -10960,7 +8089,7 @@ export class SearchDatasetProviderSnowflakeProviderOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider criblio_search_dataset_provider}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider criblio_search_dataset_provider}
 */
 export class SearchDatasetProvider extends cdktf.TerraformResource {
 
@@ -10976,7 +8105,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDatasetProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDatasetProvider to import
-  * @param importFromId The id of the existing SearchDatasetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDatasetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDatasetProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10988,7 +8117,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset_provider criblio_search_dataset_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset_provider criblio_search_dataset_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10999,8 +8128,8 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dataset_provider',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -11038,7 +8167,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // api_aws_provider - computed: true, optional: true, required: false
+  // api_aws_provider - computed: false, optional: true, required: false
   private _apiAwsProvider = new SearchDatasetProviderApiAwsProviderOutputReference(this, "api_aws_provider");
   public get apiAwsProvider() {
     return this._apiAwsProvider;
@@ -11054,7 +8183,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiAwsProvider.internalValue;
   }
 
-  // api_azure_data_explorer_provider - computed: true, optional: true, required: false
+  // api_azure_data_explorer_provider - computed: false, optional: true, required: false
   private _apiAzureDataExplorerProvider = new SearchDatasetProviderApiAzureDataExplorerProviderOutputReference(this, "api_azure_data_explorer_provider");
   public get apiAzureDataExplorerProvider() {
     return this._apiAzureDataExplorerProvider;
@@ -11070,7 +8199,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiAzureDataExplorerProvider.internalValue;
   }
 
-  // api_azure_provider - computed: true, optional: true, required: false
+  // api_azure_provider - computed: false, optional: true, required: false
   private _apiAzureProvider = new SearchDatasetProviderApiAzureProviderOutputReference(this, "api_azure_provider");
   public get apiAzureProvider() {
     return this._apiAzureProvider;
@@ -11086,7 +8215,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiAzureProvider.internalValue;
   }
 
-  // api_elastic_search_provider - computed: true, optional: true, required: false
+  // api_elastic_search_provider - computed: false, optional: true, required: false
   private _apiElasticSearchProvider = new SearchDatasetProviderApiElasticSearchProviderOutputReference(this, "api_elastic_search_provider");
   public get apiElasticSearchProvider() {
     return this._apiElasticSearchProvider;
@@ -11102,7 +8231,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiElasticSearchProvider.internalValue;
   }
 
-  // api_gcp_provider - computed: true, optional: true, required: false
+  // api_gcp_provider - computed: false, optional: true, required: false
   private _apiGcpProvider = new SearchDatasetProviderApiGcpProviderOutputReference(this, "api_gcp_provider");
   public get apiGcpProvider() {
     return this._apiGcpProvider;
@@ -11118,7 +8247,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiGcpProvider.internalValue;
   }
 
-  // api_google_workspace_provider - computed: true, optional: true, required: false
+  // api_google_workspace_provider - computed: false, optional: true, required: false
   private _apiGoogleWorkspaceProvider = new SearchDatasetProviderApiGoogleWorkspaceProviderOutputReference(this, "api_google_workspace_provider");
   public get apiGoogleWorkspaceProvider() {
     return this._apiGoogleWorkspaceProvider;
@@ -11134,7 +8263,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiGoogleWorkspaceProvider.internalValue;
   }
 
-  // api_ms_graph_provider - computed: true, optional: true, required: false
+  // api_ms_graph_provider - computed: false, optional: true, required: false
   private _apiMsGraphProvider = new SearchDatasetProviderApiMsGraphProviderOutputReference(this, "api_ms_graph_provider");
   public get apiMsGraphProvider() {
     return this._apiMsGraphProvider;
@@ -11150,7 +8279,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiMsGraphProvider.internalValue;
   }
 
-  // api_okta_provider - computed: true, optional: true, required: false
+  // api_okta_provider - computed: false, optional: true, required: false
   private _apiOktaProvider = new SearchDatasetProviderApiOktaProviderOutputReference(this, "api_okta_provider");
   public get apiOktaProvider() {
     return this._apiOktaProvider;
@@ -11166,7 +8295,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiOktaProvider.internalValue;
   }
 
-  // api_open_search_provider - computed: true, optional: true, required: false
+  // api_open_search_provider - computed: false, optional: true, required: false
   private _apiOpenSearchProvider = new SearchDatasetProviderApiOpenSearchProviderOutputReference(this, "api_open_search_provider");
   public get apiOpenSearchProvider() {
     return this._apiOpenSearchProvider;
@@ -11182,7 +8311,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiOpenSearchProvider.internalValue;
   }
 
-  // api_tailscale_provider - computed: true, optional: true, required: false
+  // api_tailscale_provider - computed: false, optional: true, required: false
   private _apiTailscaleProvider = new SearchDatasetProviderApiTailscaleProviderOutputReference(this, "api_tailscale_provider");
   public get apiTailscaleProvider() {
     return this._apiTailscaleProvider;
@@ -11198,7 +8327,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiTailscaleProvider.internalValue;
   }
 
-  // api_zoom_provider - computed: true, optional: true, required: false
+  // api_zoom_provider - computed: false, optional: true, required: false
   private _apiZoomProvider = new SearchDatasetProviderApiZoomProviderOutputReference(this, "api_zoom_provider");
   public get apiZoomProvider() {
     return this._apiZoomProvider;
@@ -11214,7 +8343,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apiZoomProvider.internalValue;
   }
 
-  // apihttp_provider - computed: true, optional: true, required: false
+  // apihttp_provider - computed: false, optional: true, required: false
   private _apihttpProvider = new SearchDatasetProviderApihttpProviderOutputReference(this, "apihttp_provider");
   public get apihttpProvider() {
     return this._apihttpProvider;
@@ -11230,7 +8359,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._apihttpProvider.internalValue;
   }
 
-  // aws_security_lake_provider - computed: true, optional: true, required: false
+  // aws_security_lake_provider - computed: false, optional: true, required: false
   private _awsSecurityLakeProvider = new SearchDatasetProviderAwsSecurityLakeProviderOutputReference(this, "aws_security_lake_provider");
   public get awsSecurityLakeProvider() {
     return this._awsSecurityLakeProvider;
@@ -11246,7 +8375,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._awsSecurityLakeProvider.internalValue;
   }
 
-  // azure_blob_provider - computed: true, optional: true, required: false
+  // azure_blob_provider - computed: false, optional: true, required: false
   private _azureBlobProvider = new SearchDatasetProviderAzureBlobProviderOutputReference(this, "azure_blob_provider");
   public get azureBlobProvider() {
     return this._azureBlobProvider;
@@ -11262,7 +8391,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._azureBlobProvider.internalValue;
   }
 
-  // click_house_provider - computed: true, optional: true, required: false
+  // click_house_provider - computed: false, optional: true, required: false
   private _clickHouseProvider = new SearchDatasetProviderClickHouseProviderOutputReference(this, "click_house_provider");
   public get clickHouseProvider() {
     return this._clickHouseProvider;
@@ -11278,7 +8407,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._clickHouseProvider.internalValue;
   }
 
-  // cribl_leader_provider - computed: true, optional: true, required: false
+  // cribl_leader_provider - computed: false, optional: true, required: false
   private _criblLeaderProvider = new SearchDatasetProviderCriblLeaderProviderOutputReference(this, "cribl_leader_provider");
   public get criblLeaderProvider() {
     return this._criblLeaderProvider;
@@ -11299,7 +8428,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this.getStringAttribute('description');
   }
 
-  // edge_provider - computed: true, optional: true, required: false
+  // edge_provider - computed: false, optional: true, required: false
   private _edgeProvider = new SearchDatasetProviderEdgeProviderOutputReference(this, "edge_provider");
   public get edgeProvider() {
     return this._edgeProvider;
@@ -11315,7 +8444,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._edgeProvider.internalValue;
   }
 
-  // gcs_provider - computed: true, optional: true, required: false
+  // gcs_provider - computed: false, optional: true, required: false
   private _gcsProvider = new SearchDatasetProviderGcsProviderOutputReference(this, "gcs_provider");
   public get gcsProvider() {
     return this._gcsProvider;
@@ -11336,13 +8465,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // items - computed: true, optional: false, required: false
-  private _items = new SearchDatasetProviderItemsList(this, "items", false);
-  public get items() {
-    return this._items;
-  }
-
-  // meta_provider - computed: true, optional: true, required: false
+  // meta_provider - computed: false, optional: true, required: false
   private _metaProvider = new SearchDatasetProviderMetaProviderOutputReference(this, "meta_provider");
   public get metaProvider() {
     return this._metaProvider;
@@ -11358,7 +8481,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._metaProvider.internalValue;
   }
 
-  // prometheus_provider - computed: true, optional: true, required: false
+  // prometheus_provider - computed: false, optional: true, required: false
   private _prometheusProvider = new SearchDatasetProviderPrometheusProviderOutputReference(this, "prometheus_provider");
   public get prometheusProvider() {
     return this._prometheusProvider;
@@ -11374,7 +8497,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._prometheusProvider.internalValue;
   }
 
-  // s3_provider - computed: true, optional: true, required: false
+  // s3_provider - computed: false, optional: true, required: false
   private _s3Provider = new SearchDatasetProviderS3ProviderOutputReference(this, "s3_provider");
   public get s3Provider() {
     return this._s3Provider;
@@ -11390,7 +8513,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
     return this._s3Provider.internalValue;
   }
 
-  // snowflake_provider - computed: true, optional: true, required: false
+  // snowflake_provider - computed: false, optional: true, required: false
   private _snowflakeProvider = new SearchDatasetProviderSnowflakeProviderOutputReference(this, "snowflake_provider");
   public get snowflakeProvider() {
     return this._snowflakeProvider;

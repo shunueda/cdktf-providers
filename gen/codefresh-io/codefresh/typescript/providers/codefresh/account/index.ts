@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,11 +18,11 @@ export interface AccountConfig extends cdktf.TerraformMetaArguments {
   * * customKubernetesCluster: true
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#features Account#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#features Account#features}
   */
   readonly features?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#id Account#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#id Account#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface AccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#name Account#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#name Account#name}
   */
   readonly name: string;
   /**
   * build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#build Account#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#build Account#build}
   */
   readonly buildAttribute?: AccountBuild[] | cdktf.IResolvable;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#limits Account#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#limits Account#limits}
   */
   readonly limits?: AccountLimits[] | cdktf.IResolvable;
 }
@@ -51,13 +51,13 @@ export interface AccountBuild {
   /**
   * The number of nodes allowed for this account (default: `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#nodes Account#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#nodes Account#nodes}
   */
   readonly nodes?: number;
   /**
   * The number of parallel builds allowed for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#parallel Account#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#parallel Account#parallel}
   */
   readonly parallel: number;
 }
@@ -201,13 +201,13 @@ export interface AccountLimits {
   /**
   * The number of collaborators allowed for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#collaborators Account#collaborators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#collaborators Account#collaborators}
   */
   readonly collaborators: number;
   /**
   * Specifies the number of weeks for which to store the builds (default: `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#data_retention_weeks Account#data_retention_weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#data_retention_weeks Account#data_retention_weeks}
   */
   readonly dataRetentionWeeks?: number;
 }
@@ -349,7 +349,7 @@ export class AccountLimitsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account codefresh_account}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account codefresh_account}
 */
 export class Account extends cdktf.TerraformResource {
 
@@ -365,7 +365,7 @@ export class Account extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Account resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Account to import
-  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Account that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Account to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class Account extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account codefresh_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account codefresh_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,8 +388,8 @@ export class Account extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_account',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

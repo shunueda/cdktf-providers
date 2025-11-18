@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DomainRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The record's geolocation continent list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#continent DomainRecord#continent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#continent DomainRecord#continent}
   */
   readonly continent?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The record's geolocation country list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#country DomainRecord#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#country DomainRecord#country}
   */
   readonly country?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The record's full domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#domain DomainRecord#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#domain DomainRecord#domain}
   */
   readonly domain: string;
   /**
   * The domain's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#domain_id DomainRecord#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#domain_id DomainRecord#domain_id}
   */
   readonly domainId: string;
   /**
   * The record's routing type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#routing DomainRecord#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#routing DomainRecord#routing}
   */
   readonly routing?: string;
   /**
   * The record's ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#ttl DomainRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#ttl DomainRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The record's type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#type DomainRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#type DomainRecord#type}
   */
   readonly type: string;
   /**
   * The record's value list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#value DomainRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#value DomainRecord#value}
   */
   readonly value: string[];
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#workspace_domain DomainRecord#workspace_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#workspace_domain DomainRecord#workspace_domain}
   */
   readonly workspaceDomain: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record buddy_domain_record}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record buddy_domain_record}
 */
 export class DomainRecord extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class DomainRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainRecord to import
-  * @param importFromId The id of the existing DomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DomainRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/domain_record buddy_domain_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/domain_record buddy_domain_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class DomainRecord extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_domain_record',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface EnvironmentVariableJobOverrideConfig extends cdktf.TerraformMet
   /**
   * The job ID for which the environment variable is being overridden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override#job_definition_id EnvironmentVariableJobOverride#job_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override#job_definition_id EnvironmentVariableJobOverride#job_definition_id}
   */
   readonly jobDefinitionId: number;
   /**
   * The environment variable name to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override#name EnvironmentVariableJobOverride#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override#name EnvironmentVariableJobOverride#name}
   */
   readonly name: string;
   /**
   * Project ID to create the environment variable job override in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override#project_id EnvironmentVariableJobOverride#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override#project_id EnvironmentVariableJobOverride#project_id}
   */
   readonly projectId: number;
   /**
   * The value for the override of the environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override#raw_value EnvironmentVariableJobOverride#raw_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override#raw_value EnvironmentVariableJobOverride#raw_value}
   */
   readonly rawValue: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override dbtcloud_environment_variable_job_override}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override dbtcloud_environment_variable_job_override}
 */
 export class EnvironmentVariableJobOverride extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class EnvironmentVariableJobOverride extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentVariableJobOverride resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentVariableJobOverride to import
-  * @param importFromId The id of the existing EnvironmentVariableJobOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentVariableJobOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentVariableJobOverride to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class EnvironmentVariableJobOverride extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/environment_variable_job_override dbtcloud_environment_variable_job_override} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/environment_variable_job_override dbtcloud_environment_variable_job_override} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class EnvironmentVariableJobOverride extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_environment_variable_job_override',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

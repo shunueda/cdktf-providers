@@ -17,6 +17,8 @@ Object.defineProperty(exports, 'image', { get: function () { return require('./i
 Object.defineProperty(exports, 'imageAssurancePolicy', { get: function () { return require('./image-assurance-policy'); } });
 Object.defineProperty(exports, 'integrationRegistry', { get: function () { return require('./integration-registry'); } });
 Object.defineProperty(exports, 'kubernetesAssurancePolicy', { get: function () { return require('./kubernetes-assurance-policy'); } });
+Object.defineProperty(exports, 'logManagement', { get: function () { return require('./log-management'); } });
+Object.defineProperty(exports, 'monitoringSystem', { get: function () { return require('./monitoring-system'); } });
 Object.defineProperty(exports, 'notification', { get: function () { return require('./notification'); } });
 Object.defineProperty(exports, 'notificationSlack', { get: function () { return require('./notification-slack'); } });
 Object.defineProperty(exports, 'permissionSetSaas', { get: function () { return require('./permission-set-saas'); } });
@@ -25,6 +27,7 @@ Object.defineProperty(exports, 'role', { get: function () { return require('./ro
 Object.defineProperty(exports, 'roleMapping', { get: function () { return require('./role-mapping'); } });
 Object.defineProperty(exports, 'roleMappingSaas', { get: function () { return require('./role-mapping-saas'); } });
 Object.defineProperty(exports, 'scannerGroup', { get: function () { return require('./scanner-group'); } });
+Object.defineProperty(exports, 'serverlessApplication', { get: function () { return require('./serverless-application'); } });
 Object.defineProperty(exports, 'service', { get: function () { return require('./service'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
 Object.defineProperty(exports, 'userSaas', { get: function () { return require('./user-saas'); } });
@@ -49,6 +52,8 @@ Object.defineProperty(exports, 'dataAquasecImageAssurancePolicy', { get: functio
 Object.defineProperty(exports, 'dataAquasecIntegrationRegistries', { get: function () { return require('./data-aquasec-integration-registries'); } });
 Object.defineProperty(exports, 'dataAquasecIntegrationState', { get: function () { return require('./data-aquasec-integration-state'); } });
 Object.defineProperty(exports, 'dataAquasecKubernetesAssurancePolicy', { get: function () { return require('./data-aquasec-kubernetes-assurance-policy'); } });
+Object.defineProperty(exports, 'dataAquasecLogManagements', { get: function () { return require('./data-aquasec-log-managements'); } });
+Object.defineProperty(exports, 'dataAquasecMonitoringSystems', { get: function () { return require('./data-aquasec-monitoring-systems'); } });
 Object.defineProperty(exports, 'dataAquasecNotifications', { get: function () { return require('./data-aquasec-notifications'); } });
 Object.defineProperty(exports, 'dataAquasecPermissionsSets', { get: function () { return require('./data-aquasec-permissions-sets'); } });
 Object.defineProperty(exports, 'dataAquasecPermissionsSetsSaas', { get: function () { return require('./data-aquasec-permissions-sets-saas'); } });
@@ -56,6 +61,7 @@ Object.defineProperty(exports, 'dataAquasecRoles', { get: function () { return r
 Object.defineProperty(exports, 'dataAquasecRolesMapping', { get: function () { return require('./data-aquasec-roles-mapping'); } });
 Object.defineProperty(exports, 'dataAquasecRolesMappingSaas', { get: function () { return require('./data-aquasec-roles-mapping-saas'); } });
 Object.defineProperty(exports, 'dataAquasecScannerGroup', { get: function () { return require('./data-aquasec-scanner-group'); } });
+Object.defineProperty(exports, 'dataAquasecServerlessApplications', { get: function () { return require('./data-aquasec-serverless-applications'); } });
 Object.defineProperty(exports, 'dataAquasecService', { get: function () { return require('./data-aquasec-service'); } });
 Object.defineProperty(exports, 'dataAquasecUsers', { get: function () { return require('./data-aquasec-users'); } });
 Object.defineProperty(exports, 'dataAquasecUsersSaas', { get: function () { return require('./data-aquasec-users-saas'); } });

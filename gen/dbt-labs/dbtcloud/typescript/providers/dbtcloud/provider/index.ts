@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DbtcloudProviderConfig {
   /**
   * Account identifier for your dbt Cloud implementation. Instead of setting the parameter, you can set the environment variable `DBT_CLOUD_ACCOUNT_ID`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#account_id DbtcloudProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#account_id DbtcloudProvider#account_id}
   */
   readonly accountId?: number;
   /**
   * If set to true, the provider will not retry requests that fail due to rate limiting. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#disable_retry DbtcloudProvider#disable_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#disable_retry DbtcloudProvider#disable_retry}
   */
   readonly disableRetry?: boolean | cdktf.IResolvable;
   /**
   * URL for your dbt Cloud deployment. Instead of setting the parameter, you can set the environment variable `DBT_CLOUD_HOST_URL` - Defaults to https://cloud.getdbt.com/api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#host_url DbtcloudProvider#host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#host_url DbtcloudProvider#host_url}
   */
   readonly hostUrl?: string;
   /**
   * The maximum number of retries to attempt for requests that fail due to rate limiting. Defaults to 3 retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#max_retries DbtcloudProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#max_retries DbtcloudProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * List of HTTP status codes that should be retried when encountered. Defaults to [429, 500, 502, 503, 504].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#retriable_status_codes DbtcloudProvider#retriable_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#retriable_status_codes DbtcloudProvider#retriable_status_codes}
   */
   readonly retriableStatusCodes?: string[];
   /**
   * The number of seconds to wait before retrying a request that failed due to rate limiting. Defaults to 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#retry_interval_seconds DbtcloudProvider#retry_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#retry_interval_seconds DbtcloudProvider#retry_interval_seconds}
   */
   readonly retryIntervalSeconds?: number;
   /**
   * API token for your dbt Cloud. Instead of setting the parameter, you can set the environment variable `DBT_CLOUD_TOKEN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#token DbtcloudProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#token DbtcloudProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#alias DbtcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#alias DbtcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs dbtcloud}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs dbtcloud}
 */
 export class DbtcloudProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class DbtcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DbtcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbtcloudProvider to import
-  * @param importFromId The id of the existing DbtcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbtcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbtcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class DbtcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs dbtcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs dbtcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class DbtcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dbtcloud',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       terraformProviderSource: 'dbt-labs/dbtcloud'
     });

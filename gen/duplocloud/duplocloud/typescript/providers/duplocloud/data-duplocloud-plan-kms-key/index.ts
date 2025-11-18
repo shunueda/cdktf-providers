@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudPlanKmsKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key#id DataDuplocloudPlanKmsKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key#id DataDuplocloudPlanKmsKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataDuplocloudPlanKmsKeyConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the plan to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key#plan_id DataDuplocloudPlanKmsKey#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key#plan_id DataDuplocloudPlanKmsKey#plan_id}
   */
   readonly planId: string;
 }
@@ -108,7 +108,7 @@ export class DataDuplocloudPlanKmsKeyDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key duplocloud_plan_kms_key}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key duplocloud_plan_kms_key}
 */
 export class DataDuplocloudPlanKmsKey extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataDuplocloudPlanKmsKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudPlanKmsKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudPlanKmsKey to import
-  * @param importFromId The id of the existing DataDuplocloudPlanKmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudPlanKmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudPlanKmsKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataDuplocloudPlanKmsKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/plan_kms_key duplocloud_plan_kms_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/plan_kms_key duplocloud_plan_kms_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataDuplocloudPlanKmsKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_plan_kms_key',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

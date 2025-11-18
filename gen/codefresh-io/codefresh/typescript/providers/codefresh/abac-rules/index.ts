@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,7 +20,7 @@ export interface AbacRulesConfig extends cdktf.TerraformMetaArguments {
   * 	* PROMOTE_TO
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#actions AbacRules#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#actions AbacRules#actions}
   */
   readonly actions: string[];
   /**
@@ -32,13 +32,13 @@ export interface AbacRulesConfig extends cdktf.TerraformMetaArguments {
   * 	* environments
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#entity_type AbacRules#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#entity_type AbacRules#entity_type}
   */
   readonly entityType: string;
   /**
   * The abac rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#id AbacRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#id AbacRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,33 +51,33 @@ export interface AbacRulesConfig extends cdktf.TerraformMetaArguments {
   * 	* * (asterisk): Apply to all resources with any tag.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#tags AbacRules#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#tags AbacRules#tags}
   */
   readonly tags?: string[];
   /**
   * The IDs of the teams the ABAC rules apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#teams AbacRules#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#teams AbacRules#teams}
   */
   readonly teams: string[];
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#attribute AbacRules#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#attribute AbacRules#attribute}
   */
   readonly attribute?: AbacRulesAttribute[] | cdktf.IResolvable;
 }
 export interface AbacRulesAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#key AbacRules#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#key AbacRules#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#name AbacRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#name AbacRules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#value AbacRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#value AbacRules#value}
   */
   readonly value: string;
 }
@@ -245,7 +245,7 @@ export class AbacRulesAttributeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules codefresh_abac_rules}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules codefresh_abac_rules}
 */
 export class AbacRules extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class AbacRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AbacRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AbacRules to import
-  * @param importFromId The id of the existing AbacRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AbacRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AbacRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class AbacRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/abac_rules codefresh_abac_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/abac_rules codefresh_abac_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class AbacRules extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_abac_rules',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

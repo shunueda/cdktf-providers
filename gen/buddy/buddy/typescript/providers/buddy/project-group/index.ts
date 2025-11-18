@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProjectGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group#domain ProjectGroup#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group#domain ProjectGroup#domain}
   */
   readonly domain: string;
   /**
   * The group's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group#group_id ProjectGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group#group_id ProjectGroup#group_id}
   */
   readonly groupId: number;
   /**
   * The permission's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group#permission_id ProjectGroup#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group#permission_id ProjectGroup#permission_id}
   */
   readonly permissionId: number;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group#project_name ProjectGroup#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group#project_name ProjectGroup#project_name}
   */
   readonly projectName: string;
 }
@@ -144,7 +144,7 @@ export class ProjectGroupPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group buddy_project_group}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group buddy_project_group}
 */
 export class ProjectGroup extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class ProjectGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectGroup to import
-  * @param importFromId The id of the existing ProjectGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class ProjectGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project_group buddy_project_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project_group buddy_project_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class ProjectGroup extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_project_group',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

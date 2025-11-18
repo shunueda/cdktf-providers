@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EcacheGlobalDatastoreConfig extends cdktf.TerraformMetaArgument
   /**
   * Specify descritpion for global datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#description EcacheGlobalDatastore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#description EcacheGlobalDatastore#description}
   */
   readonly description?: string;
   /**
   * Specify name of global datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#global_replication_group_name EcacheGlobalDatastore#global_replication_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#global_replication_group_name EcacheGlobalDatastore#global_replication_group_name}
   */
   readonly globalReplicationGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#id EcacheGlobalDatastore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#id EcacheGlobalDatastore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface EcacheGlobalDatastoreConfig extends cdktf.TerraformMetaArgument
   /**
   * Specify primary instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#primary_instance_name EcacheGlobalDatastore#primary_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#primary_instance_name EcacheGlobalDatastore#primary_instance_name}
   */
   readonly primaryInstanceName: string;
   /**
   * The GUID of the tenant that the global datastore  will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#tenant_id EcacheGlobalDatastore#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#tenant_id EcacheGlobalDatastore#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#timeouts EcacheGlobalDatastore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#timeouts EcacheGlobalDatastore#timeouts}
   */
   readonly timeouts?: EcacheGlobalDatastoreTimeouts;
 }
 export interface EcacheGlobalDatastoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#create EcacheGlobalDatastore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#create EcacheGlobalDatastore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#delete EcacheGlobalDatastore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#delete EcacheGlobalDatastore#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class EcacheGlobalDatastoreTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore duplocloud_ecache_global_datastore}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore duplocloud_ecache_global_datastore}
 */
 export class EcacheGlobalDatastore extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class EcacheGlobalDatastore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcacheGlobalDatastore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcacheGlobalDatastore to import
-  * @param importFromId The id of the existing EcacheGlobalDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcacheGlobalDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcacheGlobalDatastore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class EcacheGlobalDatastore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_global_datastore duplocloud_ecache_global_datastore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_global_datastore duplocloud_ecache_global_datastore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class EcacheGlobalDatastore extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_ecache_global_datastore',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

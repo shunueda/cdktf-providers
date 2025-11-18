@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface GitopsEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#id GitopsEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#id GitopsEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,25 +19,25 @@ export interface GitopsEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of environment. Possible values: NON_PROD, PROD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#kind GitopsEnvironment#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#kind GitopsEnvironment#kind}
   */
   readonly kind: string;
   /**
   * List of labels and values in the format label=value that can be used to assign applications to the environment. Example: ['codefresh.io/environment=prod']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#label_pairs GitopsEnvironment#label_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#label_pairs GitopsEnvironment#label_pairs}
   */
   readonly labelPairs?: string[];
   /**
   * The name of the environment. Must be unique per account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#name GitopsEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#name GitopsEnvironment#name}
   */
   readonly name: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#cluster GitopsEnvironment#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#cluster GitopsEnvironment#cluster}
   */
   readonly cluster: GitopsEnvironmentCluster[] | cdktf.IResolvable;
 }
@@ -45,19 +45,19 @@ export interface GitopsEnvironmentCluster {
   /**
   * Target cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#name GitopsEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#name GitopsEnvironment#name}
   */
   readonly name: string;
   /**
   * List of namespaces in the target cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#namespaces GitopsEnvironment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#namespaces GitopsEnvironment#namespaces}
   */
   readonly namespaces: string[];
   /**
   * Runtime name where the target cluster is registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#runtime_name GitopsEnvironment#runtime_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#runtime_name GitopsEnvironment#runtime_name}
   */
   readonly runtimeName: string;
 }
@@ -222,7 +222,7 @@ export class GitopsEnvironmentClusterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment codefresh_gitops_environment}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment codefresh_gitops_environment}
 */
 export class GitopsEnvironment extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class GitopsEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitopsEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitopsEnvironment to import
-  * @param importFromId The id of the existing GitopsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitopsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitopsEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class GitopsEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/gitops_environment codefresh_gitops_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/gitops_environment codefresh_gitops_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class GitopsEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_gitops_environment',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

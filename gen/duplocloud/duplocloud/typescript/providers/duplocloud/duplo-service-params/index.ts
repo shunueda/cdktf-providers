@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DuploServiceParamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DNS prefix to assign to this service's load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#dns_prfx DuploServiceParams#dns_prfx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#dns_prfx DuploServiceParams#dns_prfx}
   */
   readonly dnsPrfx?: string;
   /**
   * Whether or not to drop invalid HTTP headers received by the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#drop_invalid_headers DuploServiceParams#drop_invalid_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#drop_invalid_headers DuploServiceParams#drop_invalid_headers}
   */
   readonly dropInvalidHeaders?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable access logs.  When enabled, Duplo will send access logs to a centralized S3 bucket per plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#enable_access_logs DuploServiceParams#enable_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#enable_access_logs DuploServiceParams#enable_access_logs}
   */
   readonly enableAccessLogs?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable http to https redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#http_to_https_redirect DuploServiceParams#http_to_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#http_to_https_redirect DuploServiceParams#http_to_https_redirect}
   */
   readonly httpToHttpsRedirect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#id DuploServiceParams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#id DuploServiceParams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,45 +41,45 @@ export interface DuploServiceParamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time in seconds that the connection is allowed to be idle. Only valid for Load Balancers of type `application`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#idle_timeout DuploServiceParams#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#idle_timeout DuploServiceParams#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * The name of the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#replication_controller_name DuploServiceParams#replication_controller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#replication_controller_name DuploServiceParams#replication_controller_name}
   */
   readonly replicationControllerName: string;
   /**
   * The GUID of the tenant that hosts the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#tenant_id DuploServiceParams#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#tenant_id DuploServiceParams#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The ARN of a web application firewall to associate this load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#webaclid DuploServiceParams#webaclid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#webaclid DuploServiceParams#webaclid}
   */
   readonly webaclid?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#timeouts DuploServiceParams#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#timeouts DuploServiceParams#timeouts}
   */
   readonly timeouts?: DuploServiceParamsTimeouts;
 }
 export interface DuploServiceParamsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#create DuploServiceParams#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#create DuploServiceParams#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#delete DuploServiceParams#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#delete DuploServiceParams#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#update DuploServiceParams#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#update DuploServiceParams#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class DuploServiceParamsTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params duplocloud_duplo_service_params}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params duplocloud_duplo_service_params}
 */
 export class DuploServiceParams extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class DuploServiceParams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DuploServiceParams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DuploServiceParams to import
-  * @param importFromId The id of the existing DuploServiceParams that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DuploServiceParams that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DuploServiceParams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DuploServiceParams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/duplo_service_params duplocloud_duplo_service_params} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/duplo_service_params duplocloud_duplo_service_params} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class DuploServiceParams extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_duplo_service_params',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

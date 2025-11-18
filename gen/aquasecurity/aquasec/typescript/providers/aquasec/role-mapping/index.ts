@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RoleMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#id RoleMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#id RoleMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface RoleMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#ldap RoleMapping#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#ldap RoleMapping#ldap}
   */
   readonly ldap?: RoleMappingLdap;
   /**
   * oauth2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#oauth2 RoleMapping#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#oauth2 RoleMapping#oauth2}
   */
   readonly oauth2?: RoleMappingOauth2;
   /**
   * openid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#openid RoleMapping#openid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#openid RoleMapping#openid}
   */
   readonly openid?: RoleMappingOpenid;
   /**
   * saml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#saml RoleMapping#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#saml RoleMapping#saml}
   */
   readonly saml?: RoleMappingSaml;
 }
@@ -43,7 +43,7 @@ export interface RoleMappingLdap {
   /**
   * Role Mapping is used to define the IdP role that the user will assume in Aqua. Use '|' as a separator for multiple roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
   */
   readonly roleMapping: { [key: string]: string };
 }
@@ -126,7 +126,7 @@ export interface RoleMappingOauth2 {
   /**
   * Role Mapping is used to define the IdP role that the user will assume in Aqua. Use '|' as a separator for multiple roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
   */
   readonly roleMapping: { [key: string]: string };
 }
@@ -209,7 +209,7 @@ export interface RoleMappingOpenid {
   /**
   * Role Mapping is used to define the IdP role that the user will assume in Aqua. Use '|' as a separator for multiple roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
   */
   readonly roleMapping: { [key: string]: string };
 }
@@ -292,7 +292,7 @@ export interface RoleMappingSaml {
   /**
   * Role Mapping is used to define the IdP role that the user will assume in Aqua. Use '|' as a separator for multiple roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#role_mapping RoleMapping#role_mapping}
   */
   readonly roleMapping: { [key: string]: string };
 }
@@ -373,7 +373,7 @@ export class RoleMappingSamlOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping aquasec_role_mapping}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping aquasec_role_mapping}
 */
 export class RoleMapping extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class RoleMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleMapping to import
-  * @param importFromId The id of the existing RoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class RoleMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/role_mapping aquasec_role_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/role_mapping aquasec_role_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class RoleMapping extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

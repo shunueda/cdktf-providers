@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GcpCloudFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not to allow unauthenticated invocations. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#allow_unauthenticated GcpCloudFunction#allow_unauthenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#allow_unauthenticated GcpCloudFunction#allow_unauthenticated}
   */
   readonly allowUnauthenticated?: boolean | cdktf.IResolvable;
   /**
   * The amount of memory available to the cloud function. Defaults to `256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#available_memory_mb GcpCloudFunction#available_memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#available_memory_mb GcpCloudFunction#available_memory_mb}
   */
   readonly availableMemoryMb?: number;
   /**
   * The build environment variables for this cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#build_environment_variables GcpCloudFunction#build_environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#build_environment_variables GcpCloudFunction#build_environment_variables}
   */
   readonly buildEnvironmentVariables?: { [key: string]: string };
   /**
   * The description of the cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#description GcpCloudFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#description GcpCloudFunction#description}
   */
   readonly description?: string;
   /**
   * The entry point of the cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#entrypoint GcpCloudFunction#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#entrypoint GcpCloudFunction#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * The environment variables for this cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#environment_variables GcpCloudFunction#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#environment_variables GcpCloudFunction#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#id GcpCloudFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#id GcpCloudFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,25 +59,25 @@ export interface GcpCloudFunctionConfig extends cdktf.TerraformMetaArguments {
   *    - `3` : Allow internal traffic and GCP load balancing
   *  Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#ingress_type GcpCloudFunction#ingress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#ingress_type GcpCloudFunction#ingress_type}
   */
   readonly ingressType?: number;
   /**
   * The labels assigned to this cloud function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#labels GcpCloudFunction#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#labels GcpCloudFunction#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The short name of the cloud function.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#name GcpCloudFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#name GcpCloudFunction#name}
   */
   readonly name: string;
   /**
   * Whether or not to require HTTPS. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#require_https GcpCloudFunction#require_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#require_https GcpCloudFunction#require_https}
   */
   readonly requireHttps?: boolean | cdktf.IResolvable;
   /**
@@ -99,25 +99,25 @@ export interface GcpCloudFunctionConfig extends cdktf.TerraformMetaArguments {
   *  - `nodejs6` :  Node.js 6 (deprecated)
   *  - `nodejs8` :  Node.js 8 (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#runtime GcpCloudFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#runtime GcpCloudFunction#runtime}
   */
   readonly runtime: string;
   /**
   * The cloud storage URL where the cloud function package is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#source_archive_url GcpCloudFunction#source_archive_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#source_archive_url GcpCloudFunction#source_archive_url}
   */
   readonly sourceArchiveUrl: string;
   /**
   * The GUID of the tenant that the cloud function will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#tenant_id GcpCloudFunction#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#tenant_id GcpCloudFunction#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The execution time limit for the cloud function. Defaults to `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#timeout GcpCloudFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#timeout GcpCloudFunction#timeout}
   */
   readonly timeout?: number;
   /**
@@ -129,25 +129,25 @@ export interface GcpCloudFunctionConfig extends cdktf.TerraformMetaArguments {
   *    - `2` : No VPC networking
   *  Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#vpc_networking_type GcpCloudFunction#vpc_networking_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#vpc_networking_type GcpCloudFunction#vpc_networking_type}
   */
   readonly vpcNetworkingType?: number;
   /**
   * event_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#event_trigger GcpCloudFunction#event_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#event_trigger GcpCloudFunction#event_trigger}
   */
   readonly eventTrigger?: GcpCloudFunctionEventTrigger;
   /**
   * https_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#https_trigger GcpCloudFunction#https_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#https_trigger GcpCloudFunction#https_trigger}
   */
   readonly httpsTrigger?: GcpCloudFunctionHttpsTrigger;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#timeouts GcpCloudFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#timeouts GcpCloudFunction#timeouts}
   */
   readonly timeouts?: GcpCloudFunctionTimeouts;
 }
@@ -155,19 +155,19 @@ export interface GcpCloudFunctionEventTrigger {
   /**
   * The type of event that will trigger the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#event_type GcpCloudFunction#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#event_type GcpCloudFunction#event_type}
   */
   readonly eventType: string;
   /**
   * The resource that will trigger the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#resource GcpCloudFunction#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#resource GcpCloudFunction#resource}
   */
   readonly resource?: string;
   /**
   * The service that will trigger the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#service GcpCloudFunction#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#service GcpCloudFunction#service}
   */
   readonly service?: string;
 }
@@ -308,7 +308,7 @@ export interface GcpCloudFunctionHttpsTrigger {
   /**
   * Must be set to `true`. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#enabled GcpCloudFunction#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#enabled GcpCloudFunction#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -402,15 +402,15 @@ export class GcpCloudFunctionHttpsTriggerOutputReference extends cdktf.ComplexOb
 }
 export interface GcpCloudFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#create GcpCloudFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#create GcpCloudFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#delete GcpCloudFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#delete GcpCloudFunction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#update GcpCloudFunction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#update GcpCloudFunction#update}
   */
   readonly update?: string;
 }
@@ -562,7 +562,7 @@ export class GcpCloudFunctionTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function duplocloud_gcp_cloud_function}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function duplocloud_gcp_cloud_function}
 */
 export class GcpCloudFunction extends cdktf.TerraformResource {
 
@@ -578,7 +578,7 @@ export class GcpCloudFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpCloudFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpCloudFunction to import
-  * @param importFromId The id of the existing GcpCloudFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpCloudFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpCloudFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -590,7 +590,7 @@ export class GcpCloudFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_cloud_function duplocloud_gcp_cloud_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_cloud_function duplocloud_gcp_cloud_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -601,8 +601,8 @@ export class GcpCloudFunction extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_cloud_function',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

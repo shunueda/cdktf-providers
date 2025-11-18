@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsApiGatewayIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#id AwsApiGatewayIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#id AwsApiGatewayIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface AwsApiGatewayIntegrationConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the lambda function to be integrated with API gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#lambda_function_name AwsApiGatewayIntegration#lambda_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#lambda_function_name AwsApiGatewayIntegration#lambda_function_name}
   */
   readonly lambdaFunctionName: string;
   /**
   * The short name of the api gateway.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#name AwsApiGatewayIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#name AwsApiGatewayIntegration#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the aws api gateway integration will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#tenant_id AwsApiGatewayIntegration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#tenant_id AwsApiGatewayIntegration#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#timeouts AwsApiGatewayIntegration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#timeouts AwsApiGatewayIntegration#timeouts}
   */
   readonly timeouts?: AwsApiGatewayIntegrationTimeouts;
 }
 export interface AwsApiGatewayIntegrationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#create AwsApiGatewayIntegration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#create AwsApiGatewayIntegration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#delete AwsApiGatewayIntegration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#delete AwsApiGatewayIntegration#delete}
   */
   readonly delete?: string;
 }
@@ -168,7 +168,7 @@ export class AwsApiGatewayIntegrationTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration duplocloud_aws_api_gateway_integration}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration duplocloud_aws_api_gateway_integration}
 */
 export class AwsApiGatewayIntegration extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class AwsApiGatewayIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsApiGatewayIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsApiGatewayIntegration to import
-  * @param importFromId The id of the existing AwsApiGatewayIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsApiGatewayIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsApiGatewayIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class AwsApiGatewayIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_api_gateway_integration duplocloud_aws_api_gateway_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_api_gateway_integration duplocloud_aws_api_gateway_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class AwsApiGatewayIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_api_gateway_integration',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

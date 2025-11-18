@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines whether or not environment can be used in all pipelines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#all_pipelines_allowed Environment#all_pipelines_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#all_pipelines_allowed Environment#all_pipelines_allowed}
   */
   readonly allPipelinesAllowed?: boolean | cdktf.IResolvable;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#domain Environment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#domain Environment#domain}
   */
   readonly domain: string;
   /**
   * The environment's identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#identifier Environment#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#identifier Environment#identifier}
   */
   readonly identifier: string;
   /**
   * The environment's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#project_name Environment#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#project_name Environment#project_name}
   */
   readonly projectName: string;
   /**
   * The environment's public URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#public_url Environment#public_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#public_url Environment#public_url}
   */
   readonly publicUrl?: string;
   /**
   * The environment's list of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#tags Environment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#tags Environment#tags}
   */
   readonly tags?: string[];
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#permissions Environment#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#permissions Environment#permissions}
   */
   readonly permissions?: EnvironmentPermissions[] | cdktf.IResolvable;
   /**
   * var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#var Environment#var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#var Environment#var}
   */
   readonly var?: EnvironmentVar[] | cdktf.IResolvable;
 }
@@ -154,11 +154,11 @@ export class EnvironmentProjectList extends cdktf.ComplexList {
 }
 export interface EnvironmentPermissionsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#access_level Environment#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#access_level Environment#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -300,11 +300,11 @@ export class EnvironmentPermissionsGroupList extends cdktf.ComplexList {
 }
 export interface EnvironmentPermissionsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#access_level Environment#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#access_level Environment#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -446,19 +446,19 @@ export class EnvironmentPermissionsUserList extends cdktf.ComplexList {
 }
 export interface EnvironmentPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#others Environment#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#others Environment#others}
   */
   readonly others?: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#group Environment#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#group Environment#group}
   */
   readonly group?: EnvironmentPermissionsGroup[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#user Environment#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#user Environment#user}
   */
   readonly user?: EnvironmentPermissionsUser[] | cdktf.IResolvable;
 }
@@ -632,23 +632,23 @@ export class EnvironmentPermissionsList extends cdktf.ComplexList {
 }
 export interface EnvironmentVar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#encrypted Environment#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#encrypted Environment#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#key Environment#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#settable Environment#settable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#settable Environment#settable}
   */
   readonly settable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#value Environment#value}
   */
   readonly value: string;
 }
@@ -874,7 +874,7 @@ export class EnvironmentVarList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment buddy_environment}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment buddy_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -890,7 +890,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -902,7 +902,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/environment buddy_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/environment buddy_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -913,8 +913,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_environment',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

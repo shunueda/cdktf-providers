@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PackLookupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * File content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#content PackLookups#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#content PackLookups#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#description PackLookups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#description PackLookups#description}
   */
   readonly description?: string;
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#group_id PackLookups#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#group_id PackLookups#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH for pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#id PackLookups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#id PackLookups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PackLookupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: "memory"; must be one of ["memory", "disk"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#mode PackLookups#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#mode PackLookups#mode}
   */
   readonly mode?: string;
   /**
   * pack ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#pack PackLookups#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#pack PackLookups#pack}
   */
   readonly pack: string;
   /**
   * One or more tags related to this lookup. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#tags PackLookups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#tags PackLookups#tags}
   */
   readonly tags?: string;
 }
@@ -434,7 +434,7 @@ export class PackLookupsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups criblio_pack_lookups}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups criblio_pack_lookups}
 */
 export class PackLookups extends cdktf.TerraformResource {
 
@@ -450,7 +450,7 @@ export class PackLookups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackLookups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackLookups to import
-  * @param importFromId The id of the existing PackLookups that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackLookups that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackLookups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -462,7 +462,7 @@ export class PackLookups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/pack_lookups criblio_pack_lookups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_lookups criblio_pack_lookups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,8 +473,8 @@ export class PackLookups extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_lookups',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

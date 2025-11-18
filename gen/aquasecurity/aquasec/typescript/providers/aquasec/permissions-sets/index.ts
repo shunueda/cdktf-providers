@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PermissionsSetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of allowed actions for the Permission Set (not relevant if 'is_super' is true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#actions PermissionsSets#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#actions PermissionsSets#actions}
   */
   readonly actions: string[];
   /**
   * Free text description for the Permission Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#description PermissionsSets#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#description PermissionsSets#description}
   */
   readonly description?: string;
   /**
   * Give the Permission Set full access, meaning all actions are allowed without restriction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#is_super PermissionsSets#is_super}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#is_super PermissionsSets#is_super}
   */
   readonly isSuper?: boolean | cdktf.IResolvable;
   /**
   * The name of the Permission Set, comprised of alphanumeric characters and '-', '_', ' ', ':', '.', '@', '!', '^'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#name PermissionsSets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#name PermissionsSets#name}
   */
   readonly name: string;
   /**
   * Whether to allow UI access for users with this Permission Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#ui_access PermissionsSets#ui_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#ui_access PermissionsSets#ui_access}
   */
   readonly uiAccess: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets aquasec_permissions_sets}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets aquasec_permissions_sets}
 */
 export class PermissionsSets extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class PermissionsSets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PermissionsSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PermissionsSets to import
-  * @param importFromId The id of the existing PermissionsSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PermissionsSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PermissionsSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class PermissionsSets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/permissions_sets aquasec_permissions_sets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/permissions_sets aquasec_permissions_sets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class PermissionsSets extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_permissions_sets',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

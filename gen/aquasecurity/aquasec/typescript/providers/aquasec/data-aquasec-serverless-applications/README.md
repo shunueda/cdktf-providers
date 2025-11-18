@@ -1,0 +1,3 @@
+# `data_aquasec_serverless_applications`
+
+Refer to the Terraform Registry for docs: [`data_aquasec_serverless_applications`](https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/serverless_applications).

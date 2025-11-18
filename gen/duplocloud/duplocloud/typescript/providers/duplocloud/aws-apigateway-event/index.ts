@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AwsApigatewayEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the REST API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#api_gateway_id AwsApigatewayEvent#api_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#api_gateway_id AwsApigatewayEvent#api_gateway_id}
   */
   readonly apiGatewayId: string;
   /**
   * Specify if the method requires an API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#api_key_required AwsApigatewayEvent#api_key_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#api_key_required AwsApigatewayEvent#api_key_required}
   */
   readonly apiKeyRequired?: boolean | cdktf.IResolvable;
   /**
   * Type of authorization used for the method. (`NONE`, `CUSTOM`, `AWS_IAM`, `COGNITO_USER_POOLS`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#authorization_type AwsApigatewayEvent#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#authorization_type AwsApigatewayEvent#authorization_type}
   */
   readonly authorizationType?: string;
   /**
   * Authorizer id to be used when the authorization is `CUSTOM` or `COGNITO_USER_POOLS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#authorizer_id AwsApigatewayEvent#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#authorizer_id AwsApigatewayEvent#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
   * How to handle request payload content type conversions. Supported values are `CONVERT_TO_BINARY` and `CONVERT_TO_TEXT`. If this property is not defined, the request payload will be passed through from the method request to integration request without modification, provided that the passthroughBehaviors is configured to support payload pass-through.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#content_handling AwsApigatewayEvent#content_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#content_handling AwsApigatewayEvent#content_handling}
   */
   readonly contentHandling?: string;
   /**
   * Enable handling of preflight requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#cors AwsApigatewayEvent#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#cors AwsApigatewayEvent#cors}
   */
   readonly cors?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#id AwsApigatewayEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#id AwsApigatewayEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface AwsApigatewayEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * HTTP Method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#method AwsApigatewayEvent#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#method AwsApigatewayEvent#method}
   */
   readonly method: string;
   /**
   * The path segment of API resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#path AwsApigatewayEvent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#path AwsApigatewayEvent#path}
   */
   readonly path: string;
   /**
   * The GUID of the tenant that the API gateway event will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#tenant_id AwsApigatewayEvent#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#tenant_id AwsApigatewayEvent#tenant_id}
   */
   readonly tenantId: string;
   /**
   * integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#integration AwsApigatewayEvent#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#integration AwsApigatewayEvent#integration}
   */
   readonly integration: AwsApigatewayEventIntegration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#timeouts AwsApigatewayEvent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#timeouts AwsApigatewayEvent#timeouts}
   */
   readonly timeouts?: AwsApigatewayEventTimeouts;
 }
@@ -85,19 +85,19 @@ export interface AwsApigatewayEventIntegration {
   /**
   * Custom timeout between 50 and 300,000 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#timeout AwsApigatewayEvent#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#timeout AwsApigatewayEvent#timeout}
   */
   readonly timeout?: number;
   /**
   * Integration input's type. Valid values are `HTTP` (for HTTP backends), `MOCK` (not calling any real backend), `AWS` (for AWS services), `AWS_PROXY` (for Lambda proxy integration) and `HTTP_PROXY` (for HTTP proxy integration).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#type AwsApigatewayEvent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#type AwsApigatewayEvent#type}
   */
   readonly type: string;
   /**
   * Input's URI. Required if type is `AWS`, `AWS_PROXY`, `HTTP` or `HTTP_PROXY`. For AWS integrations, the URI should be of the form `arn:aws:apigateway:{region}:{subdomain.service|service}:{path|action}/{service_api}`. `region`, `subdomain` and `service` are used to determine the right endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#uri AwsApigatewayEvent#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#uri AwsApigatewayEvent#uri}
   */
   readonly uri: string;
 }
@@ -233,15 +233,15 @@ export class AwsApigatewayEventIntegrationOutputReference extends cdktf.ComplexO
 }
 export interface AwsApigatewayEventTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#create AwsApigatewayEvent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#create AwsApigatewayEvent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#delete AwsApigatewayEvent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#delete AwsApigatewayEvent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#update AwsApigatewayEvent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#update AwsApigatewayEvent#update}
   */
   readonly update?: string;
 }
@@ -393,7 +393,7 @@ export class AwsApigatewayEventTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event duplocloud_aws_apigateway_event}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event duplocloud_aws_apigateway_event}
 */
 export class AwsApigatewayEvent extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class AwsApigatewayEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsApigatewayEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsApigatewayEvent to import
-  * @param importFromId The id of the existing AwsApigatewayEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsApigatewayEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsApigatewayEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class AwsApigatewayEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_apigateway_event duplocloud_aws_apigateway_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_apigateway_event duplocloud_aws_apigateway_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class AwsApigatewayEvent extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_apigateway_event',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

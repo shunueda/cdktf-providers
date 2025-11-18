@@ -12,11 +12,11 @@ export interface DataDuplocloudK8SJobConfig extends cdktf.TerraformMetaArguments
   /**
   * Allocation tags is the simplest way to constraint containers/pods with hosts/nodes. DuploCloud/Kubernetes Orchestrator will make sure containers will run on the hosts having same allocation tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#allocation_tags DataDuplocloudK8SJob#allocation_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#allocation_tags DataDuplocloudK8SJob#allocation_tags}
   */
   readonly allocationTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#id DataDuplocloudK8SJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#id DataDuplocloudK8SJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface DataDuplocloudK8SJobConfig extends cdktf.TerraformMetaArguments
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#is_any_host_allowed DataDuplocloudK8SJob#is_any_host_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#is_any_host_allowed DataDuplocloudK8SJob#is_any_host_allowed}
   */
   readonly isAnyHostAllowed?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the job will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#tenant_id DataDuplocloudK8SJob#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#tenant_id DataDuplocloudK8SJob#tenant_id}
   */
   readonly tenantId: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#metadata DataDuplocloudK8SJob#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#metadata DataDuplocloudK8SJob#metadata}
   */
   readonly metadata: DataDuplocloudK8SJobMetadata;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job duplocloud_k8s_job}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job duplocloud_k8s_job}
 */
 export class DataDuplocloudK8SJob extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataDuplocloudK8SJob extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDuplocloudK8SJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudK8SJob to import
-  * @param importFromId The id of the existing DataDuplocloudK8SJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudK8SJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudK8SJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataDuplocloudK8SJob extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/k8s_job duplocloud_k8s_job} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/k8s_job duplocloud_k8s_job} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataDuplocloudK8SJob extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_k8s_job',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

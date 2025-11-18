@@ -1,3 +1,3 @@
 # `dbtcloud_user_groups`
 
-Refer to the Terraform Registry for docs: [`dbtcloud_user_groups`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/user_groups).
+Refer to the Terraform Registry for docs: [`dbtcloud_user_groups`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/user_groups).

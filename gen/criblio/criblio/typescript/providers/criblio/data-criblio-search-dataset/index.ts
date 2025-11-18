@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/search_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCriblioSearchDatasetConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/search_dataset#id DataCriblioSearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dataset#id DataCriblioSearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
-export interface DataCriblioSearchDatasetItemsApiAwsDatasetMetadata {
+export interface DataCriblioSearchDatasetApiAwsDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiAwsDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiAwsDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAwsDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiAwsDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -30,7 +30,7 @@ export function dataCriblioSearchDatasetItemsApiAwsDatasetMetadataToTerraform(st
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAwsDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAwsDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAwsDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiAwsDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -40,7 +40,7 @@ export function dataCriblioSearchDatasetItemsApiAwsDatasetMetadataToHclTerraform
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAwsDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAwsDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -51,13 +51,13 @@ export class DataCriblioSearchDatasetItemsApiAwsDatasetMetadataOutputReference e
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAwsDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAwsDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAwsDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAwsDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -86,10 +86,10 @@ export class DataCriblioSearchDatasetItemsApiAwsDatasetMetadataOutputReference e
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiAwsDataset {
+export interface DataCriblioSearchDatasetApiAwsDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiAwsDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiAwsDataset): any {
+export function dataCriblioSearchDatasetApiAwsDatasetToTerraform(struct?: DataCriblioSearchDatasetApiAwsDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -99,7 +99,7 @@ export function dataCriblioSearchDatasetItemsApiAwsDatasetToTerraform(struct?: D
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAwsDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAwsDataset): any {
+export function dataCriblioSearchDatasetApiAwsDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiAwsDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -109,7 +109,7 @@ export function dataCriblioSearchDatasetItemsApiAwsDatasetToHclTerraform(struct?
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAwsDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAwsDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -120,13 +120,13 @@ export class DataCriblioSearchDatasetItemsApiAwsDatasetOutputReference extends c
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAwsDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAwsDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAwsDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAwsDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -151,7 +151,7 @@ export class DataCriblioSearchDatasetItemsApiAwsDatasetOutputReference extends c
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiAwsDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiAwsDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -171,10 +171,10 @@ export class DataCriblioSearchDatasetItemsApiAwsDatasetOutputReference extends c
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata {
+export interface DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -184,7 +184,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -194,7 +194,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -205,13 +205,13 @@ export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -240,10 +240,10 @@ export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataOut
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiAzureDataExplorerDataset {
+export interface DataCriblioSearchDatasetApiAzureDataExplorerDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataExplorerDataset): any {
+export function dataCriblioSearchDatasetApiAzureDataExplorerDatasetToTerraform(struct?: DataCriblioSearchDatasetApiAzureDataExplorerDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -253,7 +253,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetToTerraf
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataExplorerDataset): any {
+export function dataCriblioSearchDatasetApiAzureDataExplorerDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiAzureDataExplorerDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -263,7 +263,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetToHclTer
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAzureDataExplorerDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -274,13 +274,13 @@ export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetOutputRefer
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAzureDataExplorerDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAzureDataExplorerDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAzureDataExplorerDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAzureDataExplorerDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -315,7 +315,7 @@ export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetOutputRefer
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiAzureDataExplorerDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -345,10 +345,10 @@ export class DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetOutputRefer
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiAzureDatasetMetadata {
+export interface DataCriblioSearchDatasetApiAzureDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiAzureDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAzureDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiAzureDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -358,7 +358,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDatasetMetadataToTerraform(
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAzureDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiAzureDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiAzureDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -368,7 +368,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDatasetMetadataToHclTerrafo
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAzureDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAzureDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -379,13 +379,13 @@ export class DataCriblioSearchDatasetItemsApiAzureDatasetMetadataOutputReference
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAzureDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAzureDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAzureDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAzureDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -414,10 +414,10 @@ export class DataCriblioSearchDatasetItemsApiAzureDatasetMetadataOutputReference
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiAzureDataset {
+export interface DataCriblioSearchDatasetApiAzureDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiAzureDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataset): any {
+export function dataCriblioSearchDatasetApiAzureDatasetToTerraform(struct?: DataCriblioSearchDatasetApiAzureDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -427,7 +427,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDatasetToTerraform(struct?:
 }
 
 
-export function dataCriblioSearchDatasetItemsApiAzureDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiAzureDataset): any {
+export function dataCriblioSearchDatasetApiAzureDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiAzureDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -437,7 +437,7 @@ export function dataCriblioSearchDatasetItemsApiAzureDatasetToHclTerraform(struc
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiAzureDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiAzureDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -448,13 +448,13 @@ export class DataCriblioSearchDatasetItemsApiAzureDatasetOutputReference extends
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiAzureDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiAzureDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiAzureDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiAzureDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -479,7 +479,7 @@ export class DataCriblioSearchDatasetItemsApiAzureDatasetOutputReference extends
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiAzureDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiAzureDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -499,10 +499,10 @@ export class DataCriblioSearchDatasetItemsApiAzureDatasetOutputReference extends
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadata {
+export interface DataCriblioSearchDatasetApiElasticSearchDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiElasticSearchDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiElasticSearchDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -512,7 +512,7 @@ export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataToTe
 }
 
 
-export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiElasticSearchDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiElasticSearchDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -522,7 +522,7 @@ export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataToHc
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiElasticSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -533,13 +533,13 @@ export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataOutputR
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiElasticSearchDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiElasticSearchDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -568,10 +568,10 @@ export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataOutputR
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiElasticSearchDataset {
+export interface DataCriblioSearchDatasetApiElasticSearchDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiElasticSearchDataset): any {
+export function dataCriblioSearchDatasetApiElasticSearchDatasetToTerraform(struct?: DataCriblioSearchDatasetApiElasticSearchDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -581,7 +581,7 @@ export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetToTerraform(
 }
 
 
-export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiElasticSearchDataset): any {
+export function dataCriblioSearchDatasetApiElasticSearchDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiElasticSearchDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -591,7 +591,7 @@ export function dataCriblioSearchDatasetItemsApiElasticSearchDatasetToHclTerrafo
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiElasticSearchDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -602,13 +602,13 @@ export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetOutputReference
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiElasticSearchDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiElasticSearchDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiElasticSearchDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiElasticSearchDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -633,7 +633,7 @@ export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetOutputReference
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiElasticSearchDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiElasticSearchDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -653,10 +653,10 @@ export class DataCriblioSearchDatasetItemsApiElasticSearchDatasetOutputReference
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigs {
+export interface DataCriblioSearchDatasetApiGcpDatasetEndpointConfigs {
 }
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsToTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigs): any {
+export function dataCriblioSearchDatasetApiGcpDatasetEndpointConfigsToTerraform(struct?: DataCriblioSearchDatasetApiGcpDatasetEndpointConfigs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -666,7 +666,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsToTerra
 }
 
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigs): any {
+export function dataCriblioSearchDatasetApiGcpDatasetEndpointConfigsToHclTerraform(struct?: DataCriblioSearchDatasetApiGcpDatasetEndpointConfigs): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -676,7 +676,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsToHclTe
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiGcpDatasetEndpointConfigsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -689,13 +689,13 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsOutputRefe
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigs | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiGcpDatasetEndpointConfigs | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigs | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiGcpDatasetEndpointConfigs | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -715,7 +715,7 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsOutputRefe
   }
 }
 
-export class DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetApiGcpDatasetEndpointConfigsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -729,14 +729,14 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsList exten
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference {
-    return new DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetApiGcpDatasetEndpointConfigsOutputReference {
+    return new DataCriblioSearchDatasetApiGcpDatasetEndpointConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsApiGcpDatasetMetadata {
+export interface DataCriblioSearchDatasetApiGcpDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiGcpDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiGcpDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -746,7 +746,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetMetadataToTerraform(st
 }
 
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiGcpDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiGcpDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -756,7 +756,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetMetadataToHclTerraform
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiGcpDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiGcpDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -767,13 +767,13 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetMetadataOutputReference e
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiGcpDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiGcpDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiGcpDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiGcpDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -802,10 +802,10 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetMetadataOutputReference e
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiGcpDataset {
+export interface DataCriblioSearchDatasetApiGcpDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDataset): any {
+export function dataCriblioSearchDatasetApiGcpDatasetToTerraform(struct?: DataCriblioSearchDatasetApiGcpDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -815,7 +815,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetToTerraform(struct?: D
 }
 
 
-export function dataCriblioSearchDatasetItemsApiGcpDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiGcpDataset): any {
+export function dataCriblioSearchDatasetApiGcpDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiGcpDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -825,7 +825,7 @@ export function dataCriblioSearchDatasetItemsApiGcpDatasetToHclTerraform(struct?
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiGcpDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -836,13 +836,13 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference extends c
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiGcpDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiGcpDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiGcpDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiGcpDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -857,7 +857,7 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference extends c
   }
 
   // endpoint_configs - computed: true, optional: false, required: false
-  private _endpointConfigs = new DataCriblioSearchDatasetItemsApiGcpDatasetEndpointConfigsList(this, "endpoint_configs", false);
+  private _endpointConfigs = new DataCriblioSearchDatasetApiGcpDatasetEndpointConfigsList(this, "endpoint_configs", false);
   public get endpointConfigs() {
     return this._endpointConfigs;
   }
@@ -868,7 +868,7 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference extends c
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiGcpDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiGcpDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -883,10 +883,10 @@ export class DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference extends c
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadata {
+export interface DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -896,7 +896,7 @@ export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataTo
 }
 
 
-export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -906,7 +906,7 @@ export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataTo
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -917,13 +917,13 @@ export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutpu
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -952,10 +952,10 @@ export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutpu
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiGoogleWorkspaceDataset {
+export interface DataCriblioSearchDatasetApiGoogleWorkspaceDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDataset): any {
+export function dataCriblioSearchDatasetApiGoogleWorkspaceDatasetToTerraform(struct?: DataCriblioSearchDatasetApiGoogleWorkspaceDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -965,7 +965,7 @@ export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetToTerrafor
 }
 
 
-export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDataset): any {
+export function dataCriblioSearchDatasetApiGoogleWorkspaceDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiGoogleWorkspaceDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -975,7 +975,7 @@ export function dataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetToHclTerra
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiGoogleWorkspaceDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -986,13 +986,13 @@ export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetOutputReferen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiGoogleWorkspaceDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiGoogleWorkspaceDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiGoogleWorkspaceDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiGoogleWorkspaceDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1017,7 +1017,7 @@ export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetOutputReferen
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiGoogleWorkspaceDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1032,10 +1032,10 @@ export class DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetOutputReferen
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadata {
+export interface DataCriblioSearchDatasetApiMsGraphDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiMsGraphDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiMsGraphDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1045,7 +1045,7 @@ export function dataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataToTerrafor
 }
 
 
-export function dataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiMsGraphDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiMsGraphDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1055,7 +1055,7 @@ export function dataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataToHclTerra
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiMsGraphDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1066,13 +1066,13 @@ export class DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataOutputReferen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiMsGraphDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiMsGraphDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1101,10 +1101,10 @@ export class DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataOutputReferen
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiMsGraphDataset {
+export interface DataCriblioSearchDatasetApiMsGraphDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiMsGraphDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiMsGraphDataset): any {
+export function dataCriblioSearchDatasetApiMsGraphDatasetToTerraform(struct?: DataCriblioSearchDatasetApiMsGraphDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1114,7 +1114,7 @@ export function dataCriblioSearchDatasetItemsApiMsGraphDatasetToTerraform(struct
 }
 
 
-export function dataCriblioSearchDatasetItemsApiMsGraphDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiMsGraphDataset): any {
+export function dataCriblioSearchDatasetApiMsGraphDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiMsGraphDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1124,7 +1124,7 @@ export function dataCriblioSearchDatasetItemsApiMsGraphDatasetToHclTerraform(str
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiMsGraphDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiMsGraphDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1135,13 +1135,13 @@ export class DataCriblioSearchDatasetItemsApiMsGraphDatasetOutputReference exten
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiMsGraphDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiMsGraphDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiMsGraphDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiMsGraphDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1166,7 +1166,7 @@ export class DataCriblioSearchDatasetItemsApiMsGraphDatasetOutputReference exten
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiMsGraphDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiMsGraphDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1181,10 +1181,10 @@ export class DataCriblioSearchDatasetItemsApiMsGraphDatasetOutputReference exten
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiOktaDatasetMetadata {
+export interface DataCriblioSearchDatasetApiOktaDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiOktaDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiOktaDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiOktaDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiOktaDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1194,7 +1194,7 @@ export function dataCriblioSearchDatasetItemsApiOktaDatasetMetadataToTerraform(s
 }
 
 
-export function dataCriblioSearchDatasetItemsApiOktaDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiOktaDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiOktaDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiOktaDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1204,7 +1204,7 @@ export function dataCriblioSearchDatasetItemsApiOktaDatasetMetadataToHclTerrafor
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiOktaDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiOktaDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1215,13 +1215,13 @@ export class DataCriblioSearchDatasetItemsApiOktaDatasetMetadataOutputReference 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiOktaDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiOktaDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiOktaDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiOktaDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1250,10 +1250,10 @@ export class DataCriblioSearchDatasetItemsApiOktaDatasetMetadataOutputReference 
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiOktaDataset {
+export interface DataCriblioSearchDatasetApiOktaDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiOktaDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiOktaDataset): any {
+export function dataCriblioSearchDatasetApiOktaDatasetToTerraform(struct?: DataCriblioSearchDatasetApiOktaDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1263,7 +1263,7 @@ export function dataCriblioSearchDatasetItemsApiOktaDatasetToTerraform(struct?: 
 }
 
 
-export function dataCriblioSearchDatasetItemsApiOktaDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiOktaDataset): any {
+export function dataCriblioSearchDatasetApiOktaDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiOktaDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1273,7 +1273,7 @@ export function dataCriblioSearchDatasetItemsApiOktaDatasetToHclTerraform(struct
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiOktaDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiOktaDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1284,13 +1284,13 @@ export class DataCriblioSearchDatasetItemsApiOktaDatasetOutputReference extends 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiOktaDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiOktaDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiOktaDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiOktaDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1315,7 +1315,7 @@ export class DataCriblioSearchDatasetItemsApiOktaDatasetOutputReference extends 
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiOktaDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiOktaDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1330,10 +1330,10 @@ export class DataCriblioSearchDatasetItemsApiOktaDatasetOutputReference extends 
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadata {
+export interface DataCriblioSearchDatasetApiOpenSearchDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiOpenSearchDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiOpenSearchDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1343,7 +1343,7 @@ export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataToTerra
 }
 
 
-export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiOpenSearchDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiOpenSearchDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1353,7 +1353,7 @@ export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataToHclTe
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiOpenSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1364,13 +1364,13 @@ export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataOutputRefe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiOpenSearchDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiOpenSearchDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1399,10 +1399,10 @@ export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataOutputRefe
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiOpenSearchDataset {
+export interface DataCriblioSearchDatasetApiOpenSearchDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiOpenSearchDataset): any {
+export function dataCriblioSearchDatasetApiOpenSearchDatasetToTerraform(struct?: DataCriblioSearchDatasetApiOpenSearchDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1412,7 +1412,7 @@ export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetToTerraform(str
 }
 
 
-export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiOpenSearchDataset): any {
+export function dataCriblioSearchDatasetApiOpenSearchDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiOpenSearchDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1422,7 +1422,7 @@ export function dataCriblioSearchDatasetItemsApiOpenSearchDatasetToHclTerraform(
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiOpenSearchDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1433,13 +1433,13 @@ export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetOutputReference ex
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiOpenSearchDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiOpenSearchDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiOpenSearchDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiOpenSearchDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1464,7 +1464,7 @@ export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetOutputReference ex
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiOpenSearchDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiOpenSearchDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1484,10 +1484,10 @@ export class DataCriblioSearchDatasetItemsApiOpenSearchDatasetOutputReference ex
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadata {
+export interface DataCriblioSearchDatasetApiTailscaleDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiTailscaleDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiTailscaleDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1497,7 +1497,7 @@ export function dataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataToTerraf
 }
 
 
-export function dataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiTailscaleDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiTailscaleDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1507,7 +1507,7 @@ export function dataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataToHclTer
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiTailscaleDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1518,13 +1518,13 @@ export class DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataOutputRefer
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiTailscaleDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiTailscaleDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1553,10 +1553,10 @@ export class DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataOutputRefer
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiTailscaleDataset {
+export interface DataCriblioSearchDatasetApiTailscaleDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiTailscaleDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiTailscaleDataset): any {
+export function dataCriblioSearchDatasetApiTailscaleDatasetToTerraform(struct?: DataCriblioSearchDatasetApiTailscaleDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1566,7 +1566,7 @@ export function dataCriblioSearchDatasetItemsApiTailscaleDatasetToTerraform(stru
 }
 
 
-export function dataCriblioSearchDatasetItemsApiTailscaleDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiTailscaleDataset): any {
+export function dataCriblioSearchDatasetApiTailscaleDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiTailscaleDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1576,7 +1576,7 @@ export function dataCriblioSearchDatasetItemsApiTailscaleDatasetToHclTerraform(s
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiTailscaleDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiTailscaleDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1587,13 +1587,13 @@ export class DataCriblioSearchDatasetItemsApiTailscaleDatasetOutputReference ext
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiTailscaleDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiTailscaleDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiTailscaleDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiTailscaleDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1618,7 +1618,7 @@ export class DataCriblioSearchDatasetItemsApiTailscaleDatasetOutputReference ext
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiTailscaleDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiTailscaleDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1633,10 +1633,10 @@ export class DataCriblioSearchDatasetItemsApiTailscaleDatasetOutputReference ext
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiZoomDatasetMetadata {
+export interface DataCriblioSearchDatasetApiZoomDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApiZoomDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApiZoomDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiZoomDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApiZoomDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1646,7 +1646,7 @@ export function dataCriblioSearchDatasetItemsApiZoomDatasetMetadataToTerraform(s
 }
 
 
-export function dataCriblioSearchDatasetItemsApiZoomDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiZoomDatasetMetadata): any {
+export function dataCriblioSearchDatasetApiZoomDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApiZoomDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1656,7 +1656,7 @@ export function dataCriblioSearchDatasetItemsApiZoomDatasetMetadataToHclTerrafor
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiZoomDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiZoomDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1667,13 +1667,13 @@ export class DataCriblioSearchDatasetItemsApiZoomDatasetMetadataOutputReference 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiZoomDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiZoomDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiZoomDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiZoomDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1702,10 +1702,10 @@ export class DataCriblioSearchDatasetItemsApiZoomDatasetMetadataOutputReference 
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApiZoomDataset {
+export interface DataCriblioSearchDatasetApiZoomDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApiZoomDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApiZoomDataset): any {
+export function dataCriblioSearchDatasetApiZoomDatasetToTerraform(struct?: DataCriblioSearchDatasetApiZoomDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1715,7 +1715,7 @@ export function dataCriblioSearchDatasetItemsApiZoomDatasetToTerraform(struct?: 
 }
 
 
-export function dataCriblioSearchDatasetItemsApiZoomDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApiZoomDataset): any {
+export function dataCriblioSearchDatasetApiZoomDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApiZoomDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1725,7 +1725,7 @@ export function dataCriblioSearchDatasetItemsApiZoomDatasetToHclTerraform(struct
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApiZoomDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApiZoomDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1736,13 +1736,13 @@ export class DataCriblioSearchDatasetItemsApiZoomDatasetOutputReference extends 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApiZoomDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApiZoomDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApiZoomDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApiZoomDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1767,7 +1767,7 @@ export class DataCriblioSearchDatasetItemsApiZoomDatasetOutputReference extends 
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApiZoomDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApiZoomDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1782,10 +1782,10 @@ export class DataCriblioSearchDatasetItemsApiZoomDatasetOutputReference extends 
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsApihttpDatasetMetadata {
+export interface DataCriblioSearchDatasetApihttpDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsApihttpDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsApihttpDatasetMetadata): any {
+export function dataCriblioSearchDatasetApihttpDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetApihttpDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1795,7 +1795,7 @@ export function dataCriblioSearchDatasetItemsApihttpDatasetMetadataToTerraform(s
 }
 
 
-export function dataCriblioSearchDatasetItemsApihttpDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsApihttpDatasetMetadata): any {
+export function dataCriblioSearchDatasetApihttpDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetApihttpDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1805,7 +1805,7 @@ export function dataCriblioSearchDatasetItemsApihttpDatasetMetadataToHclTerrafor
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApihttpDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApihttpDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1816,13 +1816,13 @@ export class DataCriblioSearchDatasetItemsApihttpDatasetMetadataOutputReference 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApihttpDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApihttpDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApihttpDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApihttpDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1851,10 +1851,10 @@ export class DataCriblioSearchDatasetItemsApihttpDatasetMetadataOutputReference 
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsApihttpDataset {
+export interface DataCriblioSearchDatasetApihttpDataset {
 }
 
-export function dataCriblioSearchDatasetItemsApihttpDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsApihttpDataset): any {
+export function dataCriblioSearchDatasetApihttpDatasetToTerraform(struct?: DataCriblioSearchDatasetApihttpDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1864,7 +1864,7 @@ export function dataCriblioSearchDatasetItemsApihttpDatasetToTerraform(struct?: 
 }
 
 
-export function dataCriblioSearchDatasetItemsApihttpDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsApihttpDataset): any {
+export function dataCriblioSearchDatasetApihttpDatasetToHclTerraform(struct?: DataCriblioSearchDatasetApihttpDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1874,7 +1874,7 @@ export function dataCriblioSearchDatasetItemsApihttpDatasetToHclTerraform(struct
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsApihttpDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetApihttpDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1885,13 +1885,13 @@ export class DataCriblioSearchDatasetItemsApihttpDatasetOutputReference extends 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsApihttpDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetApihttpDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsApihttpDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetApihttpDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1916,7 +1916,7 @@ export class DataCriblioSearchDatasetItemsApihttpDatasetOutputReference extends 
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsApihttpDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetApihttpDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -1931,10 +1931,10 @@ export class DataCriblioSearchDatasetItemsApihttpDatasetOutputReference extends 
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadata {
+export interface DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadata): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1944,7 +1944,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataToTer
 }
 
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadata): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1954,7 +1954,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataToHcl
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1965,13 +1965,13 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputRe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2000,10 +2000,10 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputRe
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets {
+export interface DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBuckets {
 }
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsToTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsToTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBuckets): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2013,7 +2013,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucke
 }
 
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsToHclTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsToHclTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBuckets): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2023,7 +2023,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucke
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2036,13 +2036,13 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsO
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBuckets | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBuckets | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2062,7 +2062,7 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsO
   }
 }
 
-export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -2076,14 +2076,14 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsL
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference {
-    return new DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsOutputReference {
+    return new DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsAwsSecurityLakeDataset {
+export interface DataCriblioSearchDatasetAwsSecurityLakeDataset {
 }
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDataset): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetToTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2093,7 +2093,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetToTerraform(s
 }
 
 
-export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsAwsSecurityLakeDataset): any {
+export function dataCriblioSearchDatasetAwsSecurityLakeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetAwsSecurityLakeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2103,7 +2103,7 @@ export function dataCriblioSearchDatasetItemsAwsSecurityLakeDatasetToHclTerrafor
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAwsSecurityLakeDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2114,13 +2114,13 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference 
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAwsSecurityLakeDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAwsSecurityLakeDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAwsSecurityLakeDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAwsSecurityLakeDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2145,7 +2145,7 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference 
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetAwsSecurityLakeDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -2161,7 +2161,7 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference 
   }
 
   // selected_buckets - computed: true, optional: false, required: false
-  private _selectedBuckets = new DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsList(this, "selected_buckets", false);
+  private _selectedBuckets = new DataCriblioSearchDatasetAwsSecurityLakeDatasetSelectedBucketsList(this, "selected_buckets", false);
   public get selectedBuckets() {
     return this._selectedBuckets;
   }
@@ -2171,10 +2171,10 @@ export class DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference 
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPaths {
+export interface DataCriblioSearchDatasetAzureBlobDatasetExtraPaths {
 }
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetAzureBlobDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2184,7 +2184,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsToTerrafo
 }
 
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetAzureBlobDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2194,7 +2194,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsToHclTerr
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAzureBlobDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2207,13 +2207,13 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsOutputRefere
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPaths | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAzureBlobDatasetExtraPaths | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPaths | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAzureBlobDatasetExtraPaths | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2238,7 +2238,7 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsOutputRefere
   }
 }
 
-export class DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetAzureBlobDatasetExtraPathsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -2252,14 +2252,14 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsList extends
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference {
-    return new DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetAzureBlobDatasetExtraPathsOutputReference {
+    return new DataCriblioSearchDatasetAzureBlobDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsAzureBlobDatasetMetadata {
+export interface DataCriblioSearchDatasetAzureBlobDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDatasetMetadata): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetAzureBlobDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2269,7 +2269,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetMetadataToTerraform
 }
 
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDatasetMetadata): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetAzureBlobDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2279,7 +2279,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetMetadataToHclTerraf
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAzureBlobDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAzureBlobDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2290,13 +2290,13 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetMetadataOutputReferenc
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAzureBlobDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAzureBlobDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAzureBlobDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAzureBlobDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2325,10 +2325,10 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetMetadataOutputReferenc
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsAzureBlobDataset {
+export interface DataCriblioSearchDatasetAzureBlobDataset {
 }
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDataset): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetToTerraform(struct?: DataCriblioSearchDatasetAzureBlobDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2338,7 +2338,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetToTerraform(struct?
 }
 
 
-export function dataCriblioSearchDatasetItemsAzureBlobDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsAzureBlobDataset): any {
+export function dataCriblioSearchDatasetAzureBlobDatasetToHclTerraform(struct?: DataCriblioSearchDatasetAzureBlobDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2348,7 +2348,7 @@ export function dataCriblioSearchDatasetItemsAzureBlobDatasetToHclTerraform(stru
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetAzureBlobDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2359,13 +2359,13 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference extend
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsAzureBlobDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetAzureBlobDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsAzureBlobDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetAzureBlobDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2385,7 +2385,7 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference extend
   }
 
   // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new DataCriblioSearchDatasetItemsAzureBlobDatasetExtraPathsList(this, "extra_paths", false);
+  private _extraPaths = new DataCriblioSearchDatasetAzureBlobDatasetExtraPathsList(this, "extra_paths", false);
   public get extraPaths() {
     return this._extraPaths;
   }
@@ -2401,7 +2401,7 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference extend
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsAzureBlobDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetAzureBlobDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -2431,10 +2431,10 @@ export class DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference extend
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsClickHouseDatasetMetadata {
+export interface DataCriblioSearchDatasetClickHouseDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsClickHouseDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsClickHouseDatasetMetadata): any {
+export function dataCriblioSearchDatasetClickHouseDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetClickHouseDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2444,7 +2444,7 @@ export function dataCriblioSearchDatasetItemsClickHouseDatasetMetadataToTerrafor
 }
 
 
-export function dataCriblioSearchDatasetItemsClickHouseDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsClickHouseDatasetMetadata): any {
+export function dataCriblioSearchDatasetClickHouseDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetClickHouseDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2454,7 +2454,7 @@ export function dataCriblioSearchDatasetItemsClickHouseDatasetMetadataToHclTerra
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsClickHouseDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetClickHouseDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2465,13 +2465,13 @@ export class DataCriblioSearchDatasetItemsClickHouseDatasetMetadataOutputReferen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsClickHouseDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetClickHouseDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsClickHouseDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetClickHouseDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2500,10 +2500,10 @@ export class DataCriblioSearchDatasetItemsClickHouseDatasetMetadataOutputReferen
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsClickHouseDataset {
+export interface DataCriblioSearchDatasetClickHouseDataset {
 }
 
-export function dataCriblioSearchDatasetItemsClickHouseDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsClickHouseDataset): any {
+export function dataCriblioSearchDatasetClickHouseDatasetToTerraform(struct?: DataCriblioSearchDatasetClickHouseDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2513,7 +2513,7 @@ export function dataCriblioSearchDatasetItemsClickHouseDatasetToTerraform(struct
 }
 
 
-export function dataCriblioSearchDatasetItemsClickHouseDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsClickHouseDataset): any {
+export function dataCriblioSearchDatasetClickHouseDatasetToHclTerraform(struct?: DataCriblioSearchDatasetClickHouseDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2523,7 +2523,7 @@ export function dataCriblioSearchDatasetItemsClickHouseDatasetToHclTerraform(str
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsClickHouseDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetClickHouseDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2534,13 +2534,13 @@ export class DataCriblioSearchDatasetItemsClickHouseDatasetOutputReference exten
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsClickHouseDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetClickHouseDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsClickHouseDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetClickHouseDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2565,7 +2565,7 @@ export class DataCriblioSearchDatasetItemsClickHouseDatasetOutputReference exten
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsClickHouseDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetClickHouseDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -2590,10 +2590,10 @@ export class DataCriblioSearchDatasetItemsClickHouseDatasetOutputReference exten
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPaths {
+export interface DataCriblioSearchDatasetCriblLeaderDatasetExtraPaths {
 }
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2603,7 +2603,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsToTerra
 }
 
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2613,7 +2613,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsToHclTe
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetCriblLeaderDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2626,13 +2626,13 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsOutputRefe
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPaths | undefined {
+  public get internalValue(): DataCriblioSearchDatasetCriblLeaderDatasetExtraPaths | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPaths | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetCriblLeaderDatasetExtraPaths | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2652,7 +2652,7 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsOutputRefe
   }
 }
 
-export class DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetCriblLeaderDatasetExtraPathsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -2666,14 +2666,14 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsList exten
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference {
-    return new DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetCriblLeaderDatasetExtraPathsOutputReference {
+    return new DataCriblioSearchDatasetCriblLeaderDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadata {
+export interface DataCriblioSearchDatasetCriblLeaderDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadata): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2683,7 +2683,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataToTerrafo
 }
 
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadata): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2693,7 +2693,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataToHclTerr
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetCriblLeaderDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2704,13 +2704,13 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataOutputRefere
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetCriblLeaderDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetCriblLeaderDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2739,10 +2739,10 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataOutputRefere
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsCriblLeaderDataset {
+export interface DataCriblioSearchDatasetCriblLeaderDataset {
 }
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDataset): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetToTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2752,7 +2752,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetToTerraform(struc
 }
 
 
-export function dataCriblioSearchDatasetItemsCriblLeaderDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsCriblLeaderDataset): any {
+export function dataCriblioSearchDatasetCriblLeaderDatasetToHclTerraform(struct?: DataCriblioSearchDatasetCriblLeaderDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2762,7 +2762,7 @@ export function dataCriblioSearchDatasetItemsCriblLeaderDatasetToHclTerraform(st
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetCriblLeaderDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2773,13 +2773,13 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference exte
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsCriblLeaderDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetCriblLeaderDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsCriblLeaderDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetCriblLeaderDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2794,7 +2794,7 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference exte
   }
 
   // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new DataCriblioSearchDatasetItemsCriblLeaderDatasetExtraPathsList(this, "extra_paths", false);
+  private _extraPaths = new DataCriblioSearchDatasetCriblLeaderDatasetExtraPathsList(this, "extra_paths", false);
   public get extraPaths() {
     return this._extraPaths;
   }
@@ -2810,7 +2810,7 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference exte
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsCriblLeaderDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetCriblLeaderDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -2830,10 +2830,10 @@ export class DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference exte
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsEdgeDatasetMetadata {
+export interface DataCriblioSearchDatasetEdgeDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsEdgeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsEdgeDatasetMetadata): any {
+export function dataCriblioSearchDatasetEdgeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetEdgeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2843,7 +2843,7 @@ export function dataCriblioSearchDatasetItemsEdgeDatasetMetadataToTerraform(stru
 }
 
 
-export function dataCriblioSearchDatasetItemsEdgeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsEdgeDatasetMetadata): any {
+export function dataCriblioSearchDatasetEdgeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetEdgeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2853,7 +2853,7 @@ export function dataCriblioSearchDatasetItemsEdgeDatasetMetadataToHclTerraform(s
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsEdgeDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetEdgeDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2864,13 +2864,13 @@ export class DataCriblioSearchDatasetItemsEdgeDatasetMetadataOutputReference ext
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsEdgeDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetEdgeDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsEdgeDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetEdgeDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2899,10 +2899,10 @@ export class DataCriblioSearchDatasetItemsEdgeDatasetMetadataOutputReference ext
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsEdgeDataset {
+export interface DataCriblioSearchDatasetEdgeDataset {
 }
 
-export function dataCriblioSearchDatasetItemsEdgeDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsEdgeDataset): any {
+export function dataCriblioSearchDatasetEdgeDatasetToTerraform(struct?: DataCriblioSearchDatasetEdgeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2912,7 +2912,7 @@ export function dataCriblioSearchDatasetItemsEdgeDatasetToTerraform(struct?: Dat
 }
 
 
-export function dataCriblioSearchDatasetItemsEdgeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsEdgeDataset): any {
+export function dataCriblioSearchDatasetEdgeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetEdgeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2922,7 +2922,7 @@ export function dataCriblioSearchDatasetItemsEdgeDatasetToHclTerraform(struct?: 
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsEdgeDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetEdgeDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -2933,13 +2933,13 @@ export class DataCriblioSearchDatasetItemsEdgeDatasetOutputReference extends cdk
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsEdgeDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetEdgeDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsEdgeDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetEdgeDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -2969,7 +2969,7 @@ export class DataCriblioSearchDatasetItemsEdgeDatasetOutputReference extends cdk
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsEdgeDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetEdgeDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -2989,10 +2989,10 @@ export class DataCriblioSearchDatasetItemsEdgeDatasetOutputReference extends cdk
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsGcsDatasetExtraPaths {
+export interface DataCriblioSearchDatasetGcsDatasetExtraPaths {
 }
 
-export function dataCriblioSearchDatasetItemsGcsDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetItemsGcsDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetGcsDatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetGcsDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3002,7 +3002,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetExtraPathsToTerraform(str
 }
 
 
-export function dataCriblioSearchDatasetItemsGcsDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetItemsGcsDatasetExtraPaths): any {
+export function dataCriblioSearchDatasetGcsDatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetGcsDatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3012,7 +3012,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetExtraPathsToHclTerraform(
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsGcsDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetGcsDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3025,13 +3025,13 @@ export class DataCriblioSearchDatasetItemsGcsDatasetExtraPathsOutputReference ex
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsGcsDatasetExtraPaths | undefined {
+  public get internalValue(): DataCriblioSearchDatasetGcsDatasetExtraPaths | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsGcsDatasetExtraPaths | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetGcsDatasetExtraPaths | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3056,7 +3056,7 @@ export class DataCriblioSearchDatasetItemsGcsDatasetExtraPathsOutputReference ex
   }
 }
 
-export class DataCriblioSearchDatasetItemsGcsDatasetExtraPathsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetGcsDatasetExtraPathsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -3070,14 +3070,14 @@ export class DataCriblioSearchDatasetItemsGcsDatasetExtraPathsList extends cdktf
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsGcsDatasetExtraPathsOutputReference {
-    return new DataCriblioSearchDatasetItemsGcsDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetGcsDatasetExtraPathsOutputReference {
+    return new DataCriblioSearchDatasetGcsDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsGcsDatasetMetadata {
+export interface DataCriblioSearchDatasetGcsDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsGcsDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsGcsDatasetMetadata): any {
+export function dataCriblioSearchDatasetGcsDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetGcsDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3087,7 +3087,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetMetadataToTerraform(struc
 }
 
 
-export function dataCriblioSearchDatasetItemsGcsDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsGcsDatasetMetadata): any {
+export function dataCriblioSearchDatasetGcsDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetGcsDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3097,7 +3097,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetMetadataToHclTerraform(st
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsGcsDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetGcsDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3108,13 +3108,13 @@ export class DataCriblioSearchDatasetItemsGcsDatasetMetadataOutputReference exte
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsGcsDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetGcsDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsGcsDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetGcsDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3143,10 +3143,10 @@ export class DataCriblioSearchDatasetItemsGcsDatasetMetadataOutputReference exte
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsGcsDataset {
+export interface DataCriblioSearchDatasetGcsDataset {
 }
 
-export function dataCriblioSearchDatasetItemsGcsDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsGcsDataset): any {
+export function dataCriblioSearchDatasetGcsDatasetToTerraform(struct?: DataCriblioSearchDatasetGcsDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3156,7 +3156,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetToTerraform(struct?: Data
 }
 
 
-export function dataCriblioSearchDatasetItemsGcsDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsGcsDataset): any {
+export function dataCriblioSearchDatasetGcsDatasetToHclTerraform(struct?: DataCriblioSearchDatasetGcsDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3166,7 +3166,7 @@ export function dataCriblioSearchDatasetItemsGcsDatasetToHclTerraform(struct?: D
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsGcsDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetGcsDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3177,13 +3177,13 @@ export class DataCriblioSearchDatasetItemsGcsDatasetOutputReference extends cdkt
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsGcsDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetGcsDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsGcsDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetGcsDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3203,7 +3203,7 @@ export class DataCriblioSearchDatasetItemsGcsDatasetOutputReference extends cdkt
   }
 
   // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new DataCriblioSearchDatasetItemsGcsDatasetExtraPathsList(this, "extra_paths", false);
+  private _extraPaths = new DataCriblioSearchDatasetGcsDatasetExtraPathsList(this, "extra_paths", false);
   public get extraPaths() {
     return this._extraPaths;
   }
@@ -3219,7 +3219,7 @@ export class DataCriblioSearchDatasetItemsGcsDatasetOutputReference extends cdkt
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsGcsDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetGcsDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -3249,10 +3249,10 @@ export class DataCriblioSearchDatasetItemsGcsDatasetOutputReference extends cdkt
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsMetaDatasetMetadata {
+export interface DataCriblioSearchDatasetMetaDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsMetaDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsMetaDatasetMetadata): any {
+export function dataCriblioSearchDatasetMetaDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetMetaDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3262,7 +3262,7 @@ export function dataCriblioSearchDatasetItemsMetaDatasetMetadataToTerraform(stru
 }
 
 
-export function dataCriblioSearchDatasetItemsMetaDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsMetaDatasetMetadata): any {
+export function dataCriblioSearchDatasetMetaDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetMetaDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3272,7 +3272,7 @@ export function dataCriblioSearchDatasetItemsMetaDatasetMetadataToHclTerraform(s
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsMetaDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetMetaDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3283,13 +3283,13 @@ export class DataCriblioSearchDatasetItemsMetaDatasetMetadataOutputReference ext
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsMetaDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetMetaDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsMetaDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetMetaDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3318,10 +3318,10 @@ export class DataCriblioSearchDatasetItemsMetaDatasetMetadataOutputReference ext
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsMetaDataset {
+export interface DataCriblioSearchDatasetMetaDataset {
 }
 
-export function dataCriblioSearchDatasetItemsMetaDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsMetaDataset): any {
+export function dataCriblioSearchDatasetMetaDatasetToTerraform(struct?: DataCriblioSearchDatasetMetaDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3331,7 +3331,7 @@ export function dataCriblioSearchDatasetItemsMetaDatasetToTerraform(struct?: Dat
 }
 
 
-export function dataCriblioSearchDatasetItemsMetaDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsMetaDataset): any {
+export function dataCriblioSearchDatasetMetaDatasetToHclTerraform(struct?: DataCriblioSearchDatasetMetaDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3341,7 +3341,7 @@ export function dataCriblioSearchDatasetItemsMetaDatasetToHclTerraform(struct?: 
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsMetaDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetMetaDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3352,13 +3352,13 @@ export class DataCriblioSearchDatasetItemsMetaDatasetOutputReference extends cdk
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsMetaDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetMetaDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsMetaDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetMetaDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3383,7 +3383,7 @@ export class DataCriblioSearchDatasetItemsMetaDatasetOutputReference extends cdk
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsMetaDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetMetaDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -3398,10 +3398,10 @@ export class DataCriblioSearchDatasetItemsMetaDatasetOutputReference extends cdk
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsPrometheusDatasetMetadata {
+export interface DataCriblioSearchDatasetPrometheusDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsPrometheusDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsPrometheusDatasetMetadata): any {
+export function dataCriblioSearchDatasetPrometheusDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetPrometheusDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3411,7 +3411,7 @@ export function dataCriblioSearchDatasetItemsPrometheusDatasetMetadataToTerrafor
 }
 
 
-export function dataCriblioSearchDatasetItemsPrometheusDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsPrometheusDatasetMetadata): any {
+export function dataCriblioSearchDatasetPrometheusDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetPrometheusDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3421,7 +3421,7 @@ export function dataCriblioSearchDatasetItemsPrometheusDatasetMetadataToHclTerra
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsPrometheusDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetPrometheusDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3432,13 +3432,13 @@ export class DataCriblioSearchDatasetItemsPrometheusDatasetMetadataOutputReferen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsPrometheusDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetPrometheusDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsPrometheusDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetPrometheusDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3467,10 +3467,10 @@ export class DataCriblioSearchDatasetItemsPrometheusDatasetMetadataOutputReferen
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsPrometheusDataset {
+export interface DataCriblioSearchDatasetPrometheusDataset {
 }
 
-export function dataCriblioSearchDatasetItemsPrometheusDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsPrometheusDataset): any {
+export function dataCriblioSearchDatasetPrometheusDatasetToTerraform(struct?: DataCriblioSearchDatasetPrometheusDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3480,7 +3480,7 @@ export function dataCriblioSearchDatasetItemsPrometheusDatasetToTerraform(struct
 }
 
 
-export function dataCriblioSearchDatasetItemsPrometheusDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsPrometheusDataset): any {
+export function dataCriblioSearchDatasetPrometheusDatasetToHclTerraform(struct?: DataCriblioSearchDatasetPrometheusDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3490,7 +3490,7 @@ export function dataCriblioSearchDatasetItemsPrometheusDatasetToHclTerraform(str
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsPrometheusDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetPrometheusDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3501,13 +3501,13 @@ export class DataCriblioSearchDatasetItemsPrometheusDatasetOutputReference exten
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsPrometheusDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetPrometheusDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsPrometheusDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetPrometheusDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3532,7 +3532,7 @@ export class DataCriblioSearchDatasetItemsPrometheusDatasetOutputReference exten
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsPrometheusDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetPrometheusDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -3557,10 +3557,10 @@ export class DataCriblioSearchDatasetItemsPrometheusDatasetOutputReference exten
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsS3DatasetExtraPaths {
+export interface DataCriblioSearchDatasetS3DatasetExtraPaths {
 }
 
-export function dataCriblioSearchDatasetItemsS3DatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetItemsS3DatasetExtraPaths): any {
+export function dataCriblioSearchDatasetS3DatasetExtraPathsToTerraform(struct?: DataCriblioSearchDatasetS3DatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3570,7 +3570,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetExtraPathsToTerraform(stru
 }
 
 
-export function dataCriblioSearchDatasetItemsS3DatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetItemsS3DatasetExtraPaths): any {
+export function dataCriblioSearchDatasetS3DatasetExtraPathsToHclTerraform(struct?: DataCriblioSearchDatasetS3DatasetExtraPaths): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3580,7 +3580,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetExtraPathsToHclTerraform(s
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsS3DatasetExtraPathsOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetS3DatasetExtraPathsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3593,13 +3593,13 @@ export class DataCriblioSearchDatasetItemsS3DatasetExtraPathsOutputReference ext
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsS3DatasetExtraPaths | undefined {
+  public get internalValue(): DataCriblioSearchDatasetS3DatasetExtraPaths | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsS3DatasetExtraPaths | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetS3DatasetExtraPaths | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3634,7 +3634,7 @@ export class DataCriblioSearchDatasetItemsS3DatasetExtraPathsOutputReference ext
   }
 }
 
-export class DataCriblioSearchDatasetItemsS3DatasetExtraPathsList extends cdktf.ComplexList {
+export class DataCriblioSearchDatasetS3DatasetExtraPathsList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -3648,14 +3648,14 @@ export class DataCriblioSearchDatasetItemsS3DatasetExtraPathsList extends cdktf.
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataCriblioSearchDatasetItemsS3DatasetExtraPathsOutputReference {
-    return new DataCriblioSearchDatasetItemsS3DatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataCriblioSearchDatasetS3DatasetExtraPathsOutputReference {
+    return new DataCriblioSearchDatasetS3DatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataCriblioSearchDatasetItemsS3DatasetMetadata {
+export interface DataCriblioSearchDatasetS3DatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsS3DatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsS3DatasetMetadata): any {
+export function dataCriblioSearchDatasetS3DatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetS3DatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3665,7 +3665,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetMetadataToTerraform(struct
 }
 
 
-export function dataCriblioSearchDatasetItemsS3DatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsS3DatasetMetadata): any {
+export function dataCriblioSearchDatasetS3DatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetS3DatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3675,7 +3675,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetMetadataToHclTerraform(str
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsS3DatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetS3DatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3686,13 +3686,13 @@ export class DataCriblioSearchDatasetItemsS3DatasetMetadataOutputReference exten
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsS3DatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetS3DatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsS3DatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetS3DatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3721,10 +3721,10 @@ export class DataCriblioSearchDatasetItemsS3DatasetMetadataOutputReference exten
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsS3Dataset {
+export interface DataCriblioSearchDatasetS3Dataset {
 }
 
-export function dataCriblioSearchDatasetItemsS3DatasetToTerraform(struct?: DataCriblioSearchDatasetItemsS3Dataset): any {
+export function dataCriblioSearchDatasetS3DatasetToTerraform(struct?: DataCriblioSearchDatasetS3Dataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3734,7 +3734,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetToTerraform(struct?: DataC
 }
 
 
-export function dataCriblioSearchDatasetItemsS3DatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsS3Dataset): any {
+export function dataCriblioSearchDatasetS3DatasetToHclTerraform(struct?: DataCriblioSearchDatasetS3Dataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3744,7 +3744,7 @@ export function dataCriblioSearchDatasetItemsS3DatasetToHclTerraform(struct?: Da
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsS3DatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetS3DatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3755,13 +3755,13 @@ export class DataCriblioSearchDatasetItemsS3DatasetOutputReference extends cdktf
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsS3Dataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetS3Dataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsS3Dataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetS3Dataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3786,7 +3786,7 @@ export class DataCriblioSearchDatasetItemsS3DatasetOutputReference extends cdktf
   }
 
   // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new DataCriblioSearchDatasetItemsS3DatasetExtraPathsList(this, "extra_paths", false);
+  private _extraPaths = new DataCriblioSearchDatasetS3DatasetExtraPathsList(this, "extra_paths", false);
   public get extraPaths() {
     return this._extraPaths;
   }
@@ -3802,7 +3802,7 @@ export class DataCriblioSearchDatasetItemsS3DatasetOutputReference extends cdktf
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsS3DatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetS3DatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -3837,10 +3837,10 @@ export class DataCriblioSearchDatasetItemsS3DatasetOutputReference extends cdktf
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDatasetItemsSnowflakeDatasetMetadata {
+export interface DataCriblioSearchDatasetSnowflakeDatasetMetadata {
 }
 
-export function dataCriblioSearchDatasetItemsSnowflakeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetItemsSnowflakeDatasetMetadata): any {
+export function dataCriblioSearchDatasetSnowflakeDatasetMetadataToTerraform(struct?: DataCriblioSearchDatasetSnowflakeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3850,7 +3850,7 @@ export function dataCriblioSearchDatasetItemsSnowflakeDatasetMetadataToTerraform
 }
 
 
-export function dataCriblioSearchDatasetItemsSnowflakeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetItemsSnowflakeDatasetMetadata): any {
+export function dataCriblioSearchDatasetSnowflakeDatasetMetadataToHclTerraform(struct?: DataCriblioSearchDatasetSnowflakeDatasetMetadata): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3860,7 +3860,7 @@ export function dataCriblioSearchDatasetItemsSnowflakeDatasetMetadataToHclTerraf
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsSnowflakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetSnowflakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3871,13 +3871,13 @@ export class DataCriblioSearchDatasetItemsSnowflakeDatasetMetadataOutputReferenc
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsSnowflakeDatasetMetadata | undefined {
+  public get internalValue(): DataCriblioSearchDatasetSnowflakeDatasetMetadata | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsSnowflakeDatasetMetadata | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetSnowflakeDatasetMetadata | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3906,10 +3906,10 @@ export class DataCriblioSearchDatasetItemsSnowflakeDatasetMetadataOutputReferenc
     return this.getListAttribute('tags');
   }
 }
-export interface DataCriblioSearchDatasetItemsSnowflakeDataset {
+export interface DataCriblioSearchDatasetSnowflakeDataset {
 }
 
-export function dataCriblioSearchDatasetItemsSnowflakeDatasetToTerraform(struct?: DataCriblioSearchDatasetItemsSnowflakeDataset): any {
+export function dataCriblioSearchDatasetSnowflakeDatasetToTerraform(struct?: DataCriblioSearchDatasetSnowflakeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3919,7 +3919,7 @@ export function dataCriblioSearchDatasetItemsSnowflakeDatasetToTerraform(struct?
 }
 
 
-export function dataCriblioSearchDatasetItemsSnowflakeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetItemsSnowflakeDataset): any {
+export function dataCriblioSearchDatasetSnowflakeDatasetToHclTerraform(struct?: DataCriblioSearchDatasetSnowflakeDataset): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3929,7 +3929,7 @@ export function dataCriblioSearchDatasetItemsSnowflakeDatasetToHclTerraform(stru
   return attrs;
 }
 
-export class DataCriblioSearchDatasetItemsSnowflakeDatasetOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDatasetSnowflakeDatasetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -3940,13 +3940,13 @@ export class DataCriblioSearchDatasetItemsSnowflakeDatasetOutputReference extend
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDatasetItemsSnowflakeDataset | undefined {
+  public get internalValue(): DataCriblioSearchDatasetSnowflakeDataset | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDatasetItemsSnowflakeDataset | undefined) {
+  public set internalValue(value: DataCriblioSearchDatasetSnowflakeDataset | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3971,7 +3971,7 @@ export class DataCriblioSearchDatasetItemsSnowflakeDatasetOutputReference extend
   }
 
   // metadata - computed: true, optional: false, required: false
-  private _metadata = new DataCriblioSearchDatasetItemsSnowflakeDatasetMetadataOutputReference(this, "metadata");
+  private _metadata = new DataCriblioSearchDatasetSnowflakeDatasetMetadataOutputReference(this, "metadata");
   public get metadata() {
     return this._metadata;
   }
@@ -4011,211 +4011,9 @@ export class DataCriblioSearchDatasetItemsSnowflakeDatasetOutputReference extend
     return this.getStringAttribute('warehouse');
   }
 }
-export interface DataCriblioSearchDatasetItems {
-}
-
-export function dataCriblioSearchDatasetItemsToTerraform(struct?: DataCriblioSearchDatasetItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataCriblioSearchDatasetItemsToHclTerraform(struct?: DataCriblioSearchDatasetItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataCriblioSearchDatasetItemsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataCriblioSearchDatasetItems | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataCriblioSearchDatasetItems | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // api_aws_dataset - computed: true, optional: false, required: false
-  private _apiAwsDataset = new DataCriblioSearchDatasetItemsApiAwsDatasetOutputReference(this, "api_aws_dataset");
-  public get apiAwsDataset() {
-    return this._apiAwsDataset;
-  }
-
-  // api_azure_data_explorer_dataset - computed: true, optional: false, required: false
-  private _apiAzureDataExplorerDataset = new DataCriblioSearchDatasetItemsApiAzureDataExplorerDatasetOutputReference(this, "api_azure_data_explorer_dataset");
-  public get apiAzureDataExplorerDataset() {
-    return this._apiAzureDataExplorerDataset;
-  }
-
-  // api_azure_dataset - computed: true, optional: false, required: false
-  private _apiAzureDataset = new DataCriblioSearchDatasetItemsApiAzureDatasetOutputReference(this, "api_azure_dataset");
-  public get apiAzureDataset() {
-    return this._apiAzureDataset;
-  }
-
-  // api_elastic_search_dataset - computed: true, optional: false, required: false
-  private _apiElasticSearchDataset = new DataCriblioSearchDatasetItemsApiElasticSearchDatasetOutputReference(this, "api_elastic_search_dataset");
-  public get apiElasticSearchDataset() {
-    return this._apiElasticSearchDataset;
-  }
-
-  // api_gcp_dataset - computed: true, optional: false, required: false
-  private _apiGcpDataset = new DataCriblioSearchDatasetItemsApiGcpDatasetOutputReference(this, "api_gcp_dataset");
-  public get apiGcpDataset() {
-    return this._apiGcpDataset;
-  }
-
-  // api_google_workspace_dataset - computed: true, optional: false, required: false
-  private _apiGoogleWorkspaceDataset = new DataCriblioSearchDatasetItemsApiGoogleWorkspaceDatasetOutputReference(this, "api_google_workspace_dataset");
-  public get apiGoogleWorkspaceDataset() {
-    return this._apiGoogleWorkspaceDataset;
-  }
-
-  // api_ms_graph_dataset - computed: true, optional: false, required: false
-  private _apiMsGraphDataset = new DataCriblioSearchDatasetItemsApiMsGraphDatasetOutputReference(this, "api_ms_graph_dataset");
-  public get apiMsGraphDataset() {
-    return this._apiMsGraphDataset;
-  }
-
-  // api_okta_dataset - computed: true, optional: false, required: false
-  private _apiOktaDataset = new DataCriblioSearchDatasetItemsApiOktaDatasetOutputReference(this, "api_okta_dataset");
-  public get apiOktaDataset() {
-    return this._apiOktaDataset;
-  }
-
-  // api_open_search_dataset - computed: true, optional: false, required: false
-  private _apiOpenSearchDataset = new DataCriblioSearchDatasetItemsApiOpenSearchDatasetOutputReference(this, "api_open_search_dataset");
-  public get apiOpenSearchDataset() {
-    return this._apiOpenSearchDataset;
-  }
-
-  // api_tailscale_dataset - computed: true, optional: false, required: false
-  private _apiTailscaleDataset = new DataCriblioSearchDatasetItemsApiTailscaleDatasetOutputReference(this, "api_tailscale_dataset");
-  public get apiTailscaleDataset() {
-    return this._apiTailscaleDataset;
-  }
-
-  // api_zoom_dataset - computed: true, optional: false, required: false
-  private _apiZoomDataset = new DataCriblioSearchDatasetItemsApiZoomDatasetOutputReference(this, "api_zoom_dataset");
-  public get apiZoomDataset() {
-    return this._apiZoomDataset;
-  }
-
-  // apihttp_dataset - computed: true, optional: false, required: false
-  private _apihttpDataset = new DataCriblioSearchDatasetItemsApihttpDatasetOutputReference(this, "apihttp_dataset");
-  public get apihttpDataset() {
-    return this._apihttpDataset;
-  }
-
-  // aws_security_lake_dataset - computed: true, optional: false, required: false
-  private _awsSecurityLakeDataset = new DataCriblioSearchDatasetItemsAwsSecurityLakeDatasetOutputReference(this, "aws_security_lake_dataset");
-  public get awsSecurityLakeDataset() {
-    return this._awsSecurityLakeDataset;
-  }
-
-  // azure_blob_dataset - computed: true, optional: false, required: false
-  private _azureBlobDataset = new DataCriblioSearchDatasetItemsAzureBlobDatasetOutputReference(this, "azure_blob_dataset");
-  public get azureBlobDataset() {
-    return this._azureBlobDataset;
-  }
-
-  // click_house_dataset - computed: true, optional: false, required: false
-  private _clickHouseDataset = new DataCriblioSearchDatasetItemsClickHouseDatasetOutputReference(this, "click_house_dataset");
-  public get clickHouseDataset() {
-    return this._clickHouseDataset;
-  }
-
-  // cribl_leader_dataset - computed: true, optional: false, required: false
-  private _criblLeaderDataset = new DataCriblioSearchDatasetItemsCriblLeaderDatasetOutputReference(this, "cribl_leader_dataset");
-  public get criblLeaderDataset() {
-    return this._criblLeaderDataset;
-  }
-
-  // edge_dataset - computed: true, optional: false, required: false
-  private _edgeDataset = new DataCriblioSearchDatasetItemsEdgeDatasetOutputReference(this, "edge_dataset");
-  public get edgeDataset() {
-    return this._edgeDataset;
-  }
-
-  // gcs_dataset - computed: true, optional: false, required: false
-  private _gcsDataset = new DataCriblioSearchDatasetItemsGcsDatasetOutputReference(this, "gcs_dataset");
-  public get gcsDataset() {
-    return this._gcsDataset;
-  }
-
-  // meta_dataset - computed: true, optional: false, required: false
-  private _metaDataset = new DataCriblioSearchDatasetItemsMetaDatasetOutputReference(this, "meta_dataset");
-  public get metaDataset() {
-    return this._metaDataset;
-  }
-
-  // prometheus_dataset - computed: true, optional: false, required: false
-  private _prometheusDataset = new DataCriblioSearchDatasetItemsPrometheusDatasetOutputReference(this, "prometheus_dataset");
-  public get prometheusDataset() {
-    return this._prometheusDataset;
-  }
-
-  // s3_dataset - computed: true, optional: false, required: false
-  private _s3Dataset = new DataCriblioSearchDatasetItemsS3DatasetOutputReference(this, "s3_dataset");
-  public get s3Dataset() {
-    return this._s3Dataset;
-  }
-
-  // snowflake_dataset - computed: true, optional: false, required: false
-  private _snowflakeDataset = new DataCriblioSearchDatasetItemsSnowflakeDatasetOutputReference(this, "snowflake_dataset");
-  public get snowflakeDataset() {
-    return this._snowflakeDataset;
-  }
-}
-
-export class DataCriblioSearchDatasetItemsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataCriblioSearchDatasetItemsOutputReference {
-    return new DataCriblioSearchDatasetItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/search_dataset criblio_search_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dataset criblio_search_dataset}
 */
 export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
 
@@ -4231,7 +4029,7 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDataset to import
-  * @param importFromId The id of the existing DataCriblioSearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/search_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4243,7 +4041,7 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/search_dataset criblio_search_dataset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dataset criblio_search_dataset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4254,8 +4052,8 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4272,6 +4070,119 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
+  // api_aws_dataset - computed: true, optional: false, required: false
+  private _apiAwsDataset = new DataCriblioSearchDatasetApiAwsDatasetOutputReference(this, "api_aws_dataset");
+  public get apiAwsDataset() {
+    return this._apiAwsDataset;
+  }
+
+  // api_azure_data_explorer_dataset - computed: true, optional: false, required: false
+  private _apiAzureDataExplorerDataset = new DataCriblioSearchDatasetApiAzureDataExplorerDatasetOutputReference(this, "api_azure_data_explorer_dataset");
+  public get apiAzureDataExplorerDataset() {
+    return this._apiAzureDataExplorerDataset;
+  }
+
+  // api_azure_dataset - computed: true, optional: false, required: false
+  private _apiAzureDataset = new DataCriblioSearchDatasetApiAzureDatasetOutputReference(this, "api_azure_dataset");
+  public get apiAzureDataset() {
+    return this._apiAzureDataset;
+  }
+
+  // api_elastic_search_dataset - computed: true, optional: false, required: false
+  private _apiElasticSearchDataset = new DataCriblioSearchDatasetApiElasticSearchDatasetOutputReference(this, "api_elastic_search_dataset");
+  public get apiElasticSearchDataset() {
+    return this._apiElasticSearchDataset;
+  }
+
+  // api_gcp_dataset - computed: true, optional: false, required: false
+  private _apiGcpDataset = new DataCriblioSearchDatasetApiGcpDatasetOutputReference(this, "api_gcp_dataset");
+  public get apiGcpDataset() {
+    return this._apiGcpDataset;
+  }
+
+  // api_google_workspace_dataset - computed: true, optional: false, required: false
+  private _apiGoogleWorkspaceDataset = new DataCriblioSearchDatasetApiGoogleWorkspaceDatasetOutputReference(this, "api_google_workspace_dataset");
+  public get apiGoogleWorkspaceDataset() {
+    return this._apiGoogleWorkspaceDataset;
+  }
+
+  // api_ms_graph_dataset - computed: true, optional: false, required: false
+  private _apiMsGraphDataset = new DataCriblioSearchDatasetApiMsGraphDatasetOutputReference(this, "api_ms_graph_dataset");
+  public get apiMsGraphDataset() {
+    return this._apiMsGraphDataset;
+  }
+
+  // api_okta_dataset - computed: true, optional: false, required: false
+  private _apiOktaDataset = new DataCriblioSearchDatasetApiOktaDatasetOutputReference(this, "api_okta_dataset");
+  public get apiOktaDataset() {
+    return this._apiOktaDataset;
+  }
+
+  // api_open_search_dataset - computed: true, optional: false, required: false
+  private _apiOpenSearchDataset = new DataCriblioSearchDatasetApiOpenSearchDatasetOutputReference(this, "api_open_search_dataset");
+  public get apiOpenSearchDataset() {
+    return this._apiOpenSearchDataset;
+  }
+
+  // api_tailscale_dataset - computed: true, optional: false, required: false
+  private _apiTailscaleDataset = new DataCriblioSearchDatasetApiTailscaleDatasetOutputReference(this, "api_tailscale_dataset");
+  public get apiTailscaleDataset() {
+    return this._apiTailscaleDataset;
+  }
+
+  // api_zoom_dataset - computed: true, optional: false, required: false
+  private _apiZoomDataset = new DataCriblioSearchDatasetApiZoomDatasetOutputReference(this, "api_zoom_dataset");
+  public get apiZoomDataset() {
+    return this._apiZoomDataset;
+  }
+
+  // apihttp_dataset - computed: true, optional: false, required: false
+  private _apihttpDataset = new DataCriblioSearchDatasetApihttpDatasetOutputReference(this, "apihttp_dataset");
+  public get apihttpDataset() {
+    return this._apihttpDataset;
+  }
+
+  // aws_security_lake_dataset - computed: true, optional: false, required: false
+  private _awsSecurityLakeDataset = new DataCriblioSearchDatasetAwsSecurityLakeDatasetOutputReference(this, "aws_security_lake_dataset");
+  public get awsSecurityLakeDataset() {
+    return this._awsSecurityLakeDataset;
+  }
+
+  // azure_blob_dataset - computed: true, optional: false, required: false
+  private _azureBlobDataset = new DataCriblioSearchDatasetAzureBlobDatasetOutputReference(this, "azure_blob_dataset");
+  public get azureBlobDataset() {
+    return this._azureBlobDataset;
+  }
+
+  // click_house_dataset - computed: true, optional: false, required: false
+  private _clickHouseDataset = new DataCriblioSearchDatasetClickHouseDatasetOutputReference(this, "click_house_dataset");
+  public get clickHouseDataset() {
+    return this._clickHouseDataset;
+  }
+
+  // cribl_leader_dataset - computed: true, optional: false, required: false
+  private _criblLeaderDataset = new DataCriblioSearchDatasetCriblLeaderDatasetOutputReference(this, "cribl_leader_dataset");
+  public get criblLeaderDataset() {
+    return this._criblLeaderDataset;
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // edge_dataset - computed: true, optional: false, required: false
+  private _edgeDataset = new DataCriblioSearchDatasetEdgeDatasetOutputReference(this, "edge_dataset");
+  public get edgeDataset() {
+    return this._edgeDataset;
+  }
+
+  // gcs_dataset - computed: true, optional: false, required: false
+  private _gcsDataset = new DataCriblioSearchDatasetGcsDatasetOutputReference(this, "gcs_dataset");
+  public get gcsDataset() {
+    return this._gcsDataset;
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -4285,10 +4196,38 @@ export class DataCriblioSearchDataset extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // items - computed: true, optional: false, required: false
-  private _items = new DataCriblioSearchDatasetItemsList(this, "items", false);
-  public get items() {
-    return this._items;
+  // meta_dataset - computed: true, optional: false, required: false
+  private _metaDataset = new DataCriblioSearchDatasetMetaDatasetOutputReference(this, "meta_dataset");
+  public get metaDataset() {
+    return this._metaDataset;
+  }
+
+  // prometheus_dataset - computed: true, optional: false, required: false
+  private _prometheusDataset = new DataCriblioSearchDatasetPrometheusDatasetOutputReference(this, "prometheus_dataset");
+  public get prometheusDataset() {
+    return this._prometheusDataset;
+  }
+
+  // provider_id - computed: true, optional: false, required: false
+  public get providerId() {
+    return this.getStringAttribute('provider_id');
+  }
+
+  // s3_dataset - computed: true, optional: false, required: false
+  private _s3Dataset = new DataCriblioSearchDatasetS3DatasetOutputReference(this, "s3_dataset");
+  public get s3Dataset() {
+    return this._s3Dataset;
+  }
+
+  // snowflake_dataset - computed: true, optional: false, required: false
+  private _snowflakeDataset = new DataCriblioSearchDatasetSnowflakeDatasetOutputReference(this, "snowflake_dataset");
+  public get snowflakeDataset() {
+    return this._snowflakeDataset;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
   }
 
   // =========

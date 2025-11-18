@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FileShareConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#id FileShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#id FileShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface FileShareConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the file share. It must be unique within the project and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#name FileShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#name FileShare#name}
   */
   readonly name: string;
   /**
   * Project ID, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#project_id FileShare#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#project_id FileShare#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#project_name FileShare#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#project_name FileShare#project_name}
   */
   readonly projectName?: string;
   /**
   * The protocol used by the file share. Currently, only 'NFS' is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#protocol FileShare#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#protocol FileShare#protocol}
   */
   readonly protocol: string;
   /**
   * Region ID, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#region_id FileShare#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#region_id FileShare#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#region_name FileShare#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#region_name FileShare#region_name}
   */
   readonly regionName?: string;
   /**
   * The size of the file share in GB. It must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#size FileShare#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#size FileShare#size}
   */
   readonly size: number;
   /**
   * Tags to associate with the file share. Tags are key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#tags FileShare#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#tags FileShare#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The type of the file share. Must be one of 'standard' or 'vast'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#type_name FileShare#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#type_name FileShare#type_name}
   */
   readonly typeName: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#access FileShare#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#access FileShare#access}
   */
   readonly access?: FileShareAccess[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#network FileShare#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#network FileShare#network}
   */
   readonly network?: FileShareNetwork;
   /**
   * share_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#share_settings FileShare#share_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#share_settings FileShare#share_settings}
   */
   readonly shareSettings?: FileShareShareSettings;
 }
@@ -91,13 +91,13 @@ export interface FileShareAccess {
   /**
   * The access mode of the file share (ro/rw).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#access_mode FileShare#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#access_mode FileShare#access_mode}
   */
   readonly accessMode: string;
   /**
   * The IP address of the file share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#ip_address FileShare#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#ip_address FileShare#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -238,13 +238,13 @@ export interface FileShareNetwork {
   /**
   * The ID of the network to which the file share will be connected. This is required for 'standard'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#network_id FileShare#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#network_id FileShare#network_id}
   */
   readonly networkId?: string;
   /**
   * The ID of the subnet within the network. This is optional and can be used to specify a particular subnet for the file share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#subnet_id FileShare#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#subnet_id FileShare#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -359,19 +359,19 @@ export interface FileShareShareSettings {
   /**
   * Allowed characters in file names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#allowed_characters FileShare#allowed_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#allowed_characters FileShare#allowed_characters}
   */
   readonly allowedCharacters?: string;
   /**
   * Affects the maximum limit of file path component name length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#path_length FileShare#path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#path_length FileShare#path_length}
   */
   readonly pathLength?: string;
   /**
   * Indicates if root squash is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#root_squash FileShare#root_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#root_squash FileShare#root_squash}
   */
   readonly rootSquash?: boolean | cdktf.IResolvable;
 }
@@ -513,7 +513,7 @@ export class FileShareShareSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share gcore_file_share}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share gcore_file_share}
 */
 export class FileShare extends cdktf.TerraformResource {
 
@@ -529,7 +529,7 @@ export class FileShare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileShare to import
-  * @param importFromId The id of the existing FileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -541,7 +541,7 @@ export class FileShare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/file_share gcore_file_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/file_share gcore_file_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,8 +552,8 @@ export class FileShare extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_file_share',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

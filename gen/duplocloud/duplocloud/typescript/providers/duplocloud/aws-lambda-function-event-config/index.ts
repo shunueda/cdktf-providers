@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsLambdaFunctionEventConfigConfig extends cdktf.TerraformMetaA
   /**
   * Name of Lambda function this configuration should apply to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#function_name AwsLambdaFunctionEventConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#function_name AwsLambdaFunctionEventConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#id AwsLambdaFunctionEventConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#id AwsLambdaFunctionEventConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface AwsLambdaFunctionEventConfigConfig extends cdktf.TerraformMetaA
   /**
   * The maximum age of a request that Lambda sends to a function for processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#max_event_age_in_seconds AwsLambdaFunctionEventConfig#max_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#max_event_age_in_seconds AwsLambdaFunctionEventConfig#max_event_age_in_seconds}
   */
   readonly maxEventAgeInSeconds?: number;
   /**
   * Maximum number of attempts a Lambda function may retry in case of error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#max_retry_attempts AwsLambdaFunctionEventConfig#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#max_retry_attempts AwsLambdaFunctionEventConfig#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
   /**
   * The qualifier for the lambda event invoke configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#qualifier AwsLambdaFunctionEventConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#qualifier AwsLambdaFunctionEventConfig#qualifier}
   */
   readonly qualifier?: string;
   /**
   * The GUID of the tenant that the lambda asynchronous invocation configuration will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#tenant_id AwsLambdaFunctionEventConfig#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#tenant_id AwsLambdaFunctionEventConfig#tenant_id}
   */
   readonly tenantId: string;
   /**
   * destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#destination_config AwsLambdaFunctionEventConfig#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#destination_config AwsLambdaFunctionEventConfig#destination_config}
   */
   readonly destinationConfig?: AwsLambdaFunctionEventConfigDestinationConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#timeouts AwsLambdaFunctionEventConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#timeouts AwsLambdaFunctionEventConfig#timeouts}
   */
   readonly timeouts?: AwsLambdaFunctionEventConfigTimeouts;
 }
@@ -61,7 +61,7 @@ export interface AwsLambdaFunctionEventConfigDestinationConfigOnFailure {
   /**
   * The AWS ARN of the destination resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#destination AwsLambdaFunctionEventConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#destination AwsLambdaFunctionEventConfig#destination}
   */
   readonly destination: string;
 }
@@ -144,7 +144,7 @@ export interface AwsLambdaFunctionEventConfigDestinationConfigOnSuccess {
   /**
   * The AWS ARN of the destination resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#destination AwsLambdaFunctionEventConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#destination AwsLambdaFunctionEventConfig#destination}
   */
   readonly destination: string;
 }
@@ -227,13 +227,13 @@ export interface AwsLambdaFunctionEventConfigDestinationConfig {
   /**
   * on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#on_failure AwsLambdaFunctionEventConfig#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#on_failure AwsLambdaFunctionEventConfig#on_failure}
   */
   readonly onFailure?: AwsLambdaFunctionEventConfigDestinationConfigOnFailure;
   /**
   * on_success block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#on_success AwsLambdaFunctionEventConfig#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#on_success AwsLambdaFunctionEventConfig#on_success}
   */
   readonly onSuccess?: AwsLambdaFunctionEventConfigDestinationConfigOnSuccess;
 }
@@ -346,11 +346,11 @@ export class AwsLambdaFunctionEventConfigDestinationConfigOutputReference extend
 }
 export interface AwsLambdaFunctionEventConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#create AwsLambdaFunctionEventConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#create AwsLambdaFunctionEventConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#delete AwsLambdaFunctionEventConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#delete AwsLambdaFunctionEventConfig#delete}
   */
   readonly delete?: string;
 }
@@ -473,7 +473,7 @@ export class AwsLambdaFunctionEventConfigTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config duplocloud_aws_lambda_function_event_config}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config duplocloud_aws_lambda_function_event_config}
 */
 export class AwsLambdaFunctionEventConfig extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class AwsLambdaFunctionEventConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLambdaFunctionEventConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLambdaFunctionEventConfig to import
-  * @param importFromId The id of the existing AwsLambdaFunctionEventConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLambdaFunctionEventConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLambdaFunctionEventConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class AwsLambdaFunctionEventConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lambda_function_event_config duplocloud_aws_lambda_function_event_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lambda_function_event_config duplocloud_aws_lambda_function_event_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class AwsLambdaFunctionEventConfig extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lambda_function_event_config',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

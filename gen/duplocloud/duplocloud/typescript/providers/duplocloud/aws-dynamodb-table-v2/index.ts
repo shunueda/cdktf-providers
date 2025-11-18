@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsDynamodbTableV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Controls how you are charged for read and write throughput and how you manage capacity. The valid values are `PROVISIONED` and `PAY_PER_REQUEST`. Defaults to `PROVISIONED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#billing_mode AwsDynamodbTableV2#billing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#billing_mode AwsDynamodbTableV2#billing_mode}
   */
   readonly billingMode?: string;
   /**
   * Deletion protection keeps the tables from being deleted unintentionally. While this setting is on, you can't delete the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#deletion_protection_enabled AwsDynamodbTableV2#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#deletion_protection_enabled AwsDynamodbTableV2#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#id AwsDynamodbTableV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#id AwsDynamodbTableV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,97 +29,97 @@ export interface AwsDynamodbTableV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The point in time recovery status of the dynamodb table. Enabled if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#is_point_in_time_recovery AwsDynamodbTableV2#is_point_in_time_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#is_point_in_time_recovery AwsDynamodbTableV2#is_point_in_time_recovery}
   */
   readonly isPointInTimeRecovery?: boolean | cdktf.IResolvable;
   /**
   * The name of the table, this needs to be unique within a region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
   */
   readonly name: string;
   /**
   * The number of read units for this table. If the `billing_mode` is `PROVISIONED`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#read_capacity AwsDynamodbTableV2#read_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#read_capacity AwsDynamodbTableV2#read_capacity}
   */
   readonly readCapacity?: number;
   /**
   * Indicates whether Streams are to be enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#stream_enabled AwsDynamodbTableV2#stream_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#stream_enabled AwsDynamodbTableV2#stream_enabled}
   */
   readonly streamEnabled?: boolean | cdktf.IResolvable;
   /**
   * When an item in the table is modified, StreamViewType determines what information is written to the table's stream. Valid values are `KEYS_ONLY`, `NEW_IMAGE`, `OLD_IMAGE`, `NEW_AND_OLD_IMAGES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#stream_view_type AwsDynamodbTableV2#stream_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#stream_view_type AwsDynamodbTableV2#stream_view_type}
   */
   readonly streamViewType?: string;
   /**
   * The GUID of the tenant that the dynamodb table will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#tenant_id AwsDynamodbTableV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#tenant_id AwsDynamodbTableV2#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until dynamodb instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#wait_until_ready AwsDynamodbTableV2#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#wait_until_ready AwsDynamodbTableV2#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * The number of write units for this table. If the `billing_mode` is `PROVISIONED`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#write_capacity AwsDynamodbTableV2#write_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#write_capacity AwsDynamodbTableV2#write_capacity}
   */
   readonly writeCapacity?: number;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#attribute AwsDynamodbTableV2#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#attribute AwsDynamodbTableV2#attribute}
   */
   readonly attribute: AwsDynamodbTableV2Attribute[] | cdktf.IResolvable;
   /**
   * global_secondary_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#global_secondary_index AwsDynamodbTableV2#global_secondary_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#global_secondary_index AwsDynamodbTableV2#global_secondary_index}
   */
   readonly globalSecondaryIndex?: AwsDynamodbTableV2GlobalSecondaryIndex[] | cdktf.IResolvable;
   /**
   * key_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#key_schema AwsDynamodbTableV2#key_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#key_schema AwsDynamodbTableV2#key_schema}
   */
   readonly keySchema: AwsDynamodbTableV2KeySchema[] | cdktf.IResolvable;
   /**
   * local_secondary_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#local_secondary_index AwsDynamodbTableV2#local_secondary_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#local_secondary_index AwsDynamodbTableV2#local_secondary_index}
   */
   readonly localSecondaryIndex?: AwsDynamodbTableV2LocalSecondaryIndex[] | cdktf.IResolvable;
   /**
   * server_side_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#server_side_encryption AwsDynamodbTableV2#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#server_side_encryption AwsDynamodbTableV2#server_side_encryption}
   */
   readonly serverSideEncryption?: AwsDynamodbTableV2ServerSideEncryption;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#tag AwsDynamodbTableV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#tag AwsDynamodbTableV2#tag}
   */
   readonly tag?: AwsDynamodbTableV2Tag[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#timeouts AwsDynamodbTableV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#timeouts AwsDynamodbTableV2#timeouts}
   */
   readonly timeouts?: AwsDynamodbTableV2Timeouts;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#ttl AwsDynamodbTableV2#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#ttl AwsDynamodbTableV2#ttl}
   */
   readonly ttl?: AwsDynamodbTableV2Ttl;
 }
@@ -127,13 +127,13 @@ export interface AwsDynamodbTableV2Attribute {
   /**
   * The name of the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
   */
   readonly name: string;
   /**
   * Attribute type, which must be a scalar type: `S`, `N`, or `B` for (S)tring, (N)umber or (B)inary data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#type AwsDynamodbTableV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#type AwsDynamodbTableV2#type}
   */
   readonly type: string;
 }
@@ -274,43 +274,43 @@ export interface AwsDynamodbTableV2GlobalSecondaryIndex {
   /**
   * The name of the hash key in the index; must be defined as an attribute in the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#hash_key AwsDynamodbTableV2#hash_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#hash_key AwsDynamodbTableV2#hash_key}
   */
   readonly hashKey: string;
   /**
   * The name of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
   */
   readonly name: string;
   /**
   * Only required with `INCLUDE` as a projection type; a list of attributes to project into the index. These do not need to be defined as attributes on the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#non_key_attributes AwsDynamodbTableV2#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#non_key_attributes AwsDynamodbTableV2#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
   * One of `ALL`, `INCLUDE` or `KEYS_ONLY` where `ALL` projects every attribute into the index, `KEYS_ONLY` projects just the hash and range key into the index, and `INCLUDE` projects only the keys specified in the `non_key_attributes` parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#projection_type AwsDynamodbTableV2#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#projection_type AwsDynamodbTableV2#projection_type}
   */
   readonly projectionType: string;
   /**
   * The name of the range key; must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#range_key AwsDynamodbTableV2#range_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#range_key AwsDynamodbTableV2#range_key}
   */
   readonly rangeKey?: string;
   /**
   * The number of read units for this index. Must be set if `billing_mode` is set to `PROVISIONED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#read_capacity AwsDynamodbTableV2#read_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#read_capacity AwsDynamodbTableV2#read_capacity}
   */
   readonly readCapacity?: number;
   /**
   * The number of write units for this index. Must be set if `billing_mode` is set to `PROVISIONED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#write_capacity AwsDynamodbTableV2#write_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#write_capacity AwsDynamodbTableV2#write_capacity}
   */
   readonly writeCapacity?: number;
 }
@@ -593,13 +593,13 @@ export interface AwsDynamodbTableV2KeySchema {
   /**
   * The name of the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#attribute_name AwsDynamodbTableV2#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#attribute_name AwsDynamodbTableV2#attribute_name}
   */
   readonly attributeName: string;
   /**
   * Applicable key types are `HASH` or `RANGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#key_type AwsDynamodbTableV2#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#key_type AwsDynamodbTableV2#key_type}
   */
   readonly keyType: string;
 }
@@ -740,31 +740,31 @@ export interface AwsDynamodbTableV2LocalSecondaryIndex {
   /**
   * The name of the hash key in the index; must be defined as an attribute in the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#hash_key AwsDynamodbTableV2#hash_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#hash_key AwsDynamodbTableV2#hash_key}
   */
   readonly hashKey: string;
   /**
   * The name of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#name AwsDynamodbTableV2#name}
   */
   readonly name: string;
   /**
   * Only required with `INCLUDE` as a projection type; a list of attributes to project into the index. These do not need to be defined as attributes on the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#non_key_attributes AwsDynamodbTableV2#non_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#non_key_attributes AwsDynamodbTableV2#non_key_attributes}
   */
   readonly nonKeyAttributes?: string[];
   /**
   * One of `ALL`, `INCLUDE` or `KEYS_ONLY` where `ALL` projects every attribute into the index, `KEYS_ONLY` projects just the hash and range key into the index, and `INCLUDE` projects only the keys specified in the `non_key_attributes` parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#projection_type AwsDynamodbTableV2#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#projection_type AwsDynamodbTableV2#projection_type}
   */
   readonly projectionType: string;
   /**
   * The name of the range key; must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#range_key AwsDynamodbTableV2#range_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#range_key AwsDynamodbTableV2#range_key}
   */
   readonly rangeKey: string;
 }
@@ -986,13 +986,13 @@ export interface AwsDynamodbTableV2ServerSideEncryption {
   /**
   * Whether or not to enable encryption at rest using an AWS managed KMS customer master key (CMK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#enabled AwsDynamodbTableV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#enabled AwsDynamodbTableV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The ARN of the CMK that should be used for the AWS KMS encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#kms_key_arn AwsDynamodbTableV2#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#kms_key_arn AwsDynamodbTableV2#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -1102,11 +1102,11 @@ export class AwsDynamodbTableV2ServerSideEncryptionOutputReference extends cdktf
 }
 export interface AwsDynamodbTableV2Tag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#key AwsDynamodbTableV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#key AwsDynamodbTableV2#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#value AwsDynamodbTableV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#value AwsDynamodbTableV2#value}
   */
   readonly value: string;
 }
@@ -1245,19 +1245,19 @@ export class AwsDynamodbTableV2TagList extends cdktf.ComplexList {
 }
 export interface AwsDynamodbTableV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#create AwsDynamodbTableV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#create AwsDynamodbTableV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#delete AwsDynamodbTableV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#delete AwsDynamodbTableV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#read AwsDynamodbTableV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#read AwsDynamodbTableV2#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#update AwsDynamodbTableV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#update AwsDynamodbTableV2#update}
   */
   readonly update?: string;
 }
@@ -1440,13 +1440,13 @@ export interface AwsDynamodbTableV2Ttl {
   /**
   * The name of the attribute that will be stored in the ttl timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#attribute_name AwsDynamodbTableV2#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#attribute_name AwsDynamodbTableV2#attribute_name}
   */
   readonly attributeName: string;
   /**
   * Status of the ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#enabled AwsDynamodbTableV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#enabled AwsDynamodbTableV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1553,7 +1553,7 @@ export class AwsDynamodbTableV2TtlOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2 duplocloud_aws_dynamodb_table_v2}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2 duplocloud_aws_dynamodb_table_v2}
 */
 export class AwsDynamodbTableV2 extends cdktf.TerraformResource {
 
@@ -1569,7 +1569,7 @@ export class AwsDynamodbTableV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsDynamodbTableV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsDynamodbTableV2 to import
-  * @param importFromId The id of the existing AwsDynamodbTableV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsDynamodbTableV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsDynamodbTableV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1581,7 +1581,7 @@ export class AwsDynamodbTableV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_dynamodb_table_v2 duplocloud_aws_dynamodb_table_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_dynamodb_table_v2 duplocloud_aws_dynamodb_table_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1592,8 +1592,8 @@ export class AwsDynamodbTableV2 extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_dynamodb_table_v2',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

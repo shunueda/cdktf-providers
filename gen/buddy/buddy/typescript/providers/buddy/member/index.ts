@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is the member a workspace administrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#admin Member#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#admin Member#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
   * The permission's ID with which the member will be assigned to new projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#auto_assign_permission_set_id Member#auto_assign_permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#auto_assign_permission_set_id Member#auto_assign_permission_set_id}
   */
   readonly autoAssignPermissionSetId?: number;
   /**
   * Defines whether or not to automatically assign member to new projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#auto_assign_to_new_projects Member#auto_assign_to_new_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#auto_assign_to_new_projects Member#auto_assign_to_new_projects}
   */
   readonly autoAssignToNewProjects?: boolean | cdktf.IResolvable;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#domain Member#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#domain Member#domain}
   */
   readonly domain: string;
   /**
   * The member's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#email Member#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#email Member#email}
   */
   readonly email: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member buddy_member}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member buddy_member}
 */
 export class Member extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Member extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Member resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Member to import
-  * @param importFromId The id of the existing Member that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Member that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Member to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Member extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/member buddy_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/member buddy_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Member extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_member',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureStorageclassQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#id AzureStorageclassQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#id AzureStorageclassQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface AzureStorageclassQueueConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the Queue. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#name AzureStorageclassQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#name AzureStorageclassQueue#name}
   */
   readonly name: string;
   /**
   * Specifies the storage class in which to create the queue. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#storage_account_name AzureStorageclassQueue#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#storage_account_name AzureStorageclassQueue#storage_account_name}
   */
   readonly storageAccountName: string;
   /**
   * The GUID of the tenant that the azure storage class queue will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#tenant_id AzureStorageclassQueue#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#tenant_id AzureStorageclassQueue#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#timeouts AzureStorageclassQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#timeouts AzureStorageclassQueue#timeouts}
   */
   readonly timeouts?: AzureStorageclassQueueTimeouts;
 }
 export interface AzureStorageclassQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#create AzureStorageclassQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#create AzureStorageclassQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#delete AzureStorageclassQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#delete AzureStorageclassQueue#delete}
   */
   readonly delete?: string;
 }
@@ -168,7 +168,7 @@ export class AzureStorageclassQueueTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue duplocloud_azure_storageclass_queue}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue duplocloud_azure_storageclass_queue}
 */
 export class AzureStorageclassQueue extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class AzureStorageclassQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureStorageclassQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureStorageclassQueue to import
-  * @param importFromId The id of the existing AzureStorageclassQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureStorageclassQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureStorageclassQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class AzureStorageclassQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storageclass_queue duplocloud_azure_storageclass_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storageclass_queue duplocloud_azure_storageclass_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class AzureStorageclassQueue extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_storageclass_queue',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

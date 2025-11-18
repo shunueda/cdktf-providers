@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataBuddyVariableSshKeyConfig extends cdktf.TerraformMetaArgume
   /**
   * The variable's action ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#action_id DataBuddyVariableSshKey#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#action_id DataBuddyVariableSshKey#action_id}
   */
   readonly actionId?: number;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#domain DataBuddyVariableSshKey#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#domain DataBuddyVariableSshKey#domain}
   */
   readonly domain: string;
   /**
   * The variable's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#key DataBuddyVariableSshKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#key DataBuddyVariableSshKey#key}
   */
   readonly key?: string;
   /**
   * The variable's pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#pipeline_id DataBuddyVariableSshKey#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#pipeline_id DataBuddyVariableSshKey#pipeline_id}
   */
   readonly pipelineId?: number;
   /**
   * The variable's project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#project_name DataBuddyVariableSshKey#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#project_name DataBuddyVariableSshKey#project_name}
   */
   readonly projectName?: string;
   /**
   * The variable's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#variable_id DataBuddyVariableSshKey#variable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#variable_id DataBuddyVariableSshKey#variable_id}
   */
   readonly variableId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key buddy_variable_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key buddy_variable_ssh_key}
 */
 export class DataBuddyVariableSshKey extends cdktf.TerraformDataSource {
 
@@ -62,7 +62,7 @@ export class DataBuddyVariableSshKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyVariableSshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyVariableSshKey to import
-  * @param importFromId The id of the existing DataBuddyVariableSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyVariableSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyVariableSshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DataBuddyVariableSshKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/variable_ssh_key buddy_variable_ssh_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/variable_ssh_key buddy_variable_ssh_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DataBuddyVariableSshKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_variable_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBuddyEnvironmentsConfig extends cdktf.TerraformMetaArgument
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments#domain DataBuddyEnvironments#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments#domain DataBuddyEnvironments#domain}
   */
   readonly domain: string;
   /**
   * The environment's name regular expression to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments#name_regex DataBuddyEnvironments#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments#name_regex DataBuddyEnvironments#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments#project_name DataBuddyEnvironments#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments#project_name DataBuddyEnvironments#project_name}
   */
   readonly projectName: string;
 }
@@ -128,7 +128,7 @@ export class DataBuddyEnvironmentsEnvironmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments buddy_environments}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments buddy_environments}
 */
 export class DataBuddyEnvironments extends cdktf.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataBuddyEnvironments extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyEnvironments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyEnvironments to import
-  * @param importFromId The id of the existing DataBuddyEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyEnvironments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataBuddyEnvironments extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environments buddy_environments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environments buddy_environments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class DataBuddyEnvironments extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_environments',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

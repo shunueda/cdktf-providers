@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AccountIdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name for the IDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#display_name AccountIdp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#display_name AccountIdp#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#id AccountIdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#id AccountIdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface AccountIdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the IDP, will be generated if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#name AccountIdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#name AccountIdp#name}
   */
   readonly name?: string;
   /**
   * auth0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#auth0 AccountIdp#auth0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#auth0 AccountIdp#auth0}
   */
   readonly auth0?: AccountIdpAuth0;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#azure AccountIdp#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#azure AccountIdp#azure}
   */
   readonly azure?: AccountIdpAzure;
   /**
   * github block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#github AccountIdp#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#github AccountIdp#github}
   */
   readonly github?: AccountIdpGithub;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#gitlab AccountIdp#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#gitlab AccountIdp#gitlab}
   */
   readonly gitlab?: AccountIdpGitlab;
   /**
   * google block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#google AccountIdp#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#google AccountIdp#google}
   */
   readonly google?: AccountIdpGoogle;
   /**
   * keycloak block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#keycloak AccountIdp#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#keycloak AccountIdp#keycloak}
   */
   readonly keycloak?: AccountIdpKeycloak;
   /**
   * ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#ldap AccountIdp#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#ldap AccountIdp#ldap}
   */
   readonly ldap?: AccountIdpLdap;
   /**
   * okta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#okta AccountIdp#okta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#okta AccountIdp#okta}
   */
   readonly okta?: AccountIdpOkta;
   /**
   * onelogin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#onelogin AccountIdp#onelogin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#onelogin AccountIdp#onelogin}
   */
   readonly onelogin?: AccountIdpOnelogin;
   /**
   * saml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#saml AccountIdp#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#saml AccountIdp#saml}
   */
   readonly saml?: AccountIdpSaml;
 }
@@ -91,19 +91,19 @@ export interface AccountIdpAuth0 {
   /**
   * Client ID from Auth0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from Auth0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The domain of the Auth0 application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#domain AccountIdp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#domain AccountIdp#domain}
   */
   readonly domain: string;
 }
@@ -238,37 +238,37 @@ export interface AccountIdpAzure {
   /**
   * The Application ID from your Enterprise Application Properties in Azure AD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#app_id AccountIdp#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#app_id AccountIdp#app_id}
   */
   readonly appId: string;
   /**
   * Set to true to sync user accounts in Azure AD to your Codefresh account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#autosync_teams_and_users AccountIdp#autosync_teams_and_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#autosync_teams_and_users AccountIdp#autosync_teams_and_users}
   */
   readonly autosyncTeamsAndUsers?: boolean | cdktf.IResolvable;
   /**
   * Client secret from Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The Object ID from your Enterprise Application Properties in Azure AD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#object_id AccountIdp#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#object_id AccountIdp#object_id}
   */
   readonly objectId?: string;
   /**
   * Sync interval in hours for syncing user accounts in Azure AD to your Codefresh account. If not set the sync inteval will be 12 hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#sync_interval AccountIdp#sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#sync_interval AccountIdp#sync_interval}
   */
   readonly syncInterval?: number;
   /**
   * Azure tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#tenant AccountIdp#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#tenant AccountIdp#tenant}
   */
   readonly tenant?: string;
 }
@@ -493,43 +493,43 @@ export interface AccountIdpGithub {
   /**
   * GitHub API host, Defaults to api.github.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#api_host AccountIdp#api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#api_host AccountIdp#api_host}
   */
   readonly apiHost?: string;
   /**
   * GitHub API url path prefix, defaults to /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#api_path_prefix AccountIdp#api_path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#api_path_prefix AccountIdp#api_path_prefix}
   */
   readonly apiPathPrefix?: string;
   /**
   * Authentication url, Defaults to https://github.com/login/oauth/authorize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#authentication_url AccountIdp#authentication_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#authentication_url AccountIdp#authentication_url}
   */
   readonly authenticationUrl?: string;
   /**
   * Client ID from Github
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from GitHub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * GitHub token endpoint url, Defaults to https://github.com/login/oauth/access_token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#token_url AccountIdp#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#token_url AccountIdp#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * GitHub user profile url, Defaults to https://api.github.com/user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#user_profile_url AccountIdp#user_profile_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#user_profile_url AccountIdp#user_profile_url}
   */
   readonly userProfileUrl?: string;
 }
@@ -783,31 +783,31 @@ export interface AccountIdpGitlab {
   /**
   * Base url for Gitlab API, Defaults to https://gitlab.com/api/v4/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#api_url AccountIdp#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#api_url AccountIdp#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Authentication url, Defaults to https://gitlab.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#authentication_url AccountIdp#authentication_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#authentication_url AccountIdp#authentication_url}
   */
   readonly authenticationUrl?: string;
   /**
   * Client ID from Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * User profile url, Defaults to https://gitlab.com/api/v4/user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#user_profile_url AccountIdp#user_profile_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#user_profile_url AccountIdp#user_profile_url}
   */
   readonly userProfileUrl?: string;
 }
@@ -1003,37 +1003,37 @@ export interface AccountIdpGoogle {
   /**
   * Email of a user with admin permissions on google, relevant only for synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#admin_email AccountIdp#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#admin_email AccountIdp#admin_email}
   */
   readonly adminEmail?: string;
   /**
   * Comma separated list of groups to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
   */
   readonly allowedGroupsForSync?: string;
   /**
   * Client ID in Google, must be unique across all identity providers in Codefresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret in Google
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * JSON keyfile for google service account used for synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#json_keyfile AccountIdp#json_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#json_keyfile AccountIdp#json_keyfile}
   */
   readonly jsonKeyfile?: string;
   /**
   * Relevant for custom schema-based synchronization only. See Codefresh documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#sync_field AccountIdp#sync_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#sync_field AccountIdp#sync_field}
   */
   readonly syncField?: string;
 }
@@ -1258,25 +1258,25 @@ export interface AccountIdpKeycloak {
   /**
   * Client ID from Keycloak
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from Keycloak
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The Keycloak URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#host AccountIdp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#host AccountIdp#host}
   */
   readonly host: string;
   /**
   * The Realm ID for Codefresh in Keycloak. Defaults to master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#realm AccountIdp#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#realm AccountIdp#realm}
   */
   readonly realm?: string;
 }
@@ -1440,49 +1440,49 @@ export interface AccountIdpLdap {
   /**
   * To sync only by specified groups - specify a comma separated list of groups, by default all groups will be synced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
   */
   readonly allowedGroupsForSync?: string;
   /**
   * For ldaps only: The security certificate of the LDAP server. Do not convert to base64 or any other encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#certificate AccountIdp#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#certificate AccountIdp#certificate}
   */
   readonly certificate?: string;
   /**
   * The username to be used to search other users in LDAP notation (combination of cn, ou,dc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#distinguished_name AccountIdp#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#distinguished_name AccountIdp#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
   * The password of the user defined in Distinguished name that will be used to search other users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#password AccountIdp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#password AccountIdp#password}
   */
   readonly password: string;
   /**
   * The search-user scope in LDAP notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#search_base AccountIdp#search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#search_base AccountIdp#search_base}
   */
   readonly searchBase: string;
   /**
   * Synchronize using a custom search base, by deafult seach_base is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#search_base_for_sync AccountIdp#search_base_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#search_base_for_sync AccountIdp#search_base_for_sync}
   */
   readonly searchBaseForSync?: string;
   /**
   * The attribute by which to search for the user on the LDAP server. By default, set to uid. For the Azure LDAP server, set this field to sAMAccountName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#search_filter AccountIdp#search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#search_filter AccountIdp#search_filter}
   */
   readonly searchFilter?: string;
   /**
   * ldap server url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#url AccountIdp#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#url AccountIdp#url}
   */
   readonly url: string;
 }
@@ -1762,37 +1762,37 @@ export interface AccountIdpOkta {
   /**
   * The Okta API token generated in Okta, used to sync groups and their users from Okta to Codefresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#access_token AccountIdp#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#access_token AccountIdp#access_token}
   */
   readonly accessToken?: string;
   /**
   * The Codefresh application ID in your OKTA organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#app_id AccountIdp#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#app_id AccountIdp#app_id}
   */
   readonly appId?: string;
   /**
   * The OKTA organization URL, for example, https://<company>.okta.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_host AccountIdp#client_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_host AccountIdp#client_host}
   */
   readonly clientHost: string;
   /**
   * Client ID in Okta, must be unique across all identity providers in Codefresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret in Okta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The names of the additional Codefresh accounts to be synced from Okta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#sync_mirror_accounts AccountIdp#sync_mirror_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#sync_mirror_accounts AccountIdp#sync_mirror_accounts}
   */
   readonly syncMirrorAccounts?: string[];
 }
@@ -2014,37 +2014,37 @@ export interface AccountIdpOnelogin {
   /**
   * Client ID for onelogin API, only needed if syncing users and groups from Onelogin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#api_client_id AccountIdp#api_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#api_client_id AccountIdp#api_client_id}
   */
   readonly apiClientId?: string;
   /**
   * Client secret for onelogin API, only needed if syncing users and groups from Onelogin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#api_client_secret AccountIdp#api_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#api_client_secret AccountIdp#api_client_secret}
   */
   readonly apiClientSecret?: string;
   /**
   * The Codefresh application ID in your Onelogin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#app_id AccountIdp#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#app_id AccountIdp#app_id}
   */
   readonly appId?: string;
   /**
   * Client ID from Onelogin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_id AccountIdp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_id AccountIdp#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from Onelogin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_secret AccountIdp#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The domain to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#domain AccountIdp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#domain AccountIdp#domain}
   */
   readonly domain: string;
 }
@@ -2266,73 +2266,73 @@ export interface AccountIdpSaml {
   /**
   * Valid for Okta only: The Okta API token generated in Okta, used to sync groups and their users from Okta to Codefresh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#access_token AccountIdp#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#access_token AccountIdp#access_token}
   */
   readonly accessToken?: string;
   /**
   * Valid for Okta only: If set to true, Codefresh will automatically invite and activate new users added during the automated sync, without waiting for the users to accept the invitations. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#activate_users_after_sync AccountIdp#activate_users_after_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#activate_users_after_sync AccountIdp#activate_users_after_sync}
   */
   readonly activateUsersAfterSync?: boolean | cdktf.IResolvable;
   /**
   * Valid for GSuite only: Email of a user with admin permissions on google, relevant only for synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#admin_email AccountIdp#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#admin_email AccountIdp#admin_email}
   */
   readonly adminEmail?: string;
   /**
   * Valid for GSuite only: Comma separated list of groups to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#allowed_groups_for_sync AccountIdp#allowed_groups_for_sync}
   */
   readonly allowedGroupsForSync?: string;
   /**
   * Valid for Okta only: The Codefresh application ID in Okta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#app_id AccountIdp#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#app_id AccountIdp#app_id}
   */
   readonly appId?: string;
   /**
   * The security certificate of your Identity Provider. Paste the value directly on the field. Do not convert to base64 or any other encoding by hand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#application_certificate AccountIdp#application_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#application_certificate AccountIdp#application_certificate}
   */
   readonly applicationCertificate: string;
   /**
   * Valid for Okta/GSuite: Set to true to sync user accounts and teams in okta/gsuite to your Codefresh account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#autosync_teams_and_users AccountIdp#autosync_teams_and_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#autosync_teams_and_users AccountIdp#autosync_teams_and_users}
   */
   readonly autosyncTeamsAndUsers?: boolean | cdktf.IResolvable;
   /**
   * Valid for Okta only: OKTA organization URL, for example, https://<company>.okta.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#client_host AccountIdp#client_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#client_host AccountIdp#client_host}
   */
   readonly clientHost?: string;
   /**
   * The SSO endpoint of your Identity Provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#endpoint AccountIdp#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#endpoint AccountIdp#endpoint}
   */
   readonly endpoint: string;
   /**
   * Valid for GSuite only: JSON keyfile for google service account used for synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#json_keyfile AccountIdp#json_keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#json_keyfile AccountIdp#json_keyfile}
   */
   readonly jsonKeyfile?: string;
   /**
   * SAML provider. Currently supported values - GSuite, okta or empty string for generic provider. Defaults to empty string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#provider AccountIdp#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#provider AccountIdp#provider}
   */
   readonly provider?: string;
   /**
   * Valid for Okta/GSuite: Sync interval in hours for syncing user accounts in okta/gsuite to your Codefresh account. If not set the sync inteval will be 12 hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#sync_interval AccountIdp#sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#sync_interval AccountIdp#sync_interval}
   */
   readonly syncInterval?: number;
 }
@@ -2729,7 +2729,7 @@ export class AccountIdpSamlOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp codefresh_account_idp}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp codefresh_account_idp}
 */
 export class AccountIdp extends cdktf.TerraformResource {
 
@@ -2745,7 +2745,7 @@ export class AccountIdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountIdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountIdp to import
-  * @param importFromId The id of the existing AccountIdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountIdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountIdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2757,7 +2757,7 @@ export class AccountIdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_idp codefresh_account_idp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_idp codefresh_account_idp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2768,8 +2768,8 @@ export class AccountIdp extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_account_idp',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

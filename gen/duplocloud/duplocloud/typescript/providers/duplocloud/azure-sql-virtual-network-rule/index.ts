@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureSqlVirtualNetworkRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#id AzureSqlVirtualNetworkRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#id AzureSqlVirtualNetworkRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface AzureSqlVirtualNetworkRuleConfig extends cdktf.TerraformMetaArg
   /**
   * Create the virtual network rule before the subnet has the virtual network service endpoint enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#ignore_missing_vnet_service_endpoint AzureSqlVirtualNetworkRule#ignore_missing_vnet_service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#ignore_missing_vnet_service_endpoint AzureSqlVirtualNetworkRule#ignore_missing_vnet_service_endpoint}
   */
   readonly ignoreMissingVnetServiceEndpoint?: boolean | cdktf.IResolvable;
   /**
   * The name of the SQL virtual network rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#name AzureSqlVirtualNetworkRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#name AzureSqlVirtualNetworkRule#name}
   */
   readonly name: string;
   /**
   * The name of the SQL Server to which this SQL virtual network rule will be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#server_name AzureSqlVirtualNetworkRule#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#server_name AzureSqlVirtualNetworkRule#server_name}
   */
   readonly serverName: string;
   /**
   * The ID of the subnet that the SQL server will be connected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#subnet_id AzureSqlVirtualNetworkRule#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#subnet_id AzureSqlVirtualNetworkRule#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The GUID of the tenant that the sql virtual network rule will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#tenant_id AzureSqlVirtualNetworkRule#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#tenant_id AzureSqlVirtualNetworkRule#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until Redis cache instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#wait_until_ready AzureSqlVirtualNetworkRule#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#wait_until_ready AzureSqlVirtualNetworkRule#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#timeouts AzureSqlVirtualNetworkRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#timeouts AzureSqlVirtualNetworkRule#timeouts}
   */
   readonly timeouts?: AzureSqlVirtualNetworkRuleTimeouts;
 }
 export interface AzureSqlVirtualNetworkRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#create AzureSqlVirtualNetworkRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#create AzureSqlVirtualNetworkRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#delete AzureSqlVirtualNetworkRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#delete AzureSqlVirtualNetworkRule#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +186,7 @@ export class AzureSqlVirtualNetworkRuleTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule}
 */
 export class AzureSqlVirtualNetworkRule extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class AzureSqlVirtualNetworkRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSqlVirtualNetworkRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSqlVirtualNetworkRule to import
-  * @param importFromId The id of the existing AzureSqlVirtualNetworkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSqlVirtualNetworkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSqlVirtualNetworkRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class AzureSqlVirtualNetworkRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_virtual_network_rule duplocloud_azure_sql_virtual_network_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class AzureSqlVirtualNetworkRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_sql_virtual_network_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

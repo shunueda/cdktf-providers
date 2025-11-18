@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,241 +10,247 @@ export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines whether or not to upload everything from scratch on every run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#always_from_scratch Pipeline#always_from_scratch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#always_from_scratch Pipeline#always_from_scratch}
   */
   readonly alwaysFromScratch?: boolean | cdktf.IResolvable;
   /**
   * Defines whether or not to automatically clear cache before running the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#auto_clear_cache Pipeline#auto_clear_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#auto_clear_cache Pipeline#auto_clear_cache}
   */
   readonly autoClearCache?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's filesystem clone depth. Creates a shallow clone with a history truncated to the specified number of commits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#clone_depth Pipeline#clone_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#clone_depth Pipeline#clone_depth}
   */
   readonly cloneDepth?: number;
   /**
   * Defines whether or not pipeline can be run concurrently
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#concurrent_pipeline_runs Pipeline#concurrent_pipeline_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#concurrent_pipeline_runs Pipeline#concurrent_pipeline_runs}
   */
   readonly concurrentPipelineRuns?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's cpu. Allowed: `X64`, `ARM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#cpu Pipeline#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#cpu Pipeline#cpu}
   */
   readonly cpu?: string;
   /**
   * The pipeline's definition source. Allowed: `LOCAL`, `REMOTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#definition_source Pipeline#definition_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#definition_source Pipeline#definition_source}
   */
   readonly definitionSource?: string;
   /**
   * Defines whether or not pipeline's execution must be commented
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#description_required Pipeline#description_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#description_required Pipeline#description_required}
   */
   readonly descriptionRequired?: boolean | cdktf.IResolvable;
   /**
   * Defines whether or not the pipeline can be run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's disabling reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#disabling_reason Pipeline#disabling_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#disabling_reason Pipeline#disabling_reason}
   */
   readonly disablingReason?: string;
   /**
   * Defines whether or not to omit sending commit statuses to GitHub or GitLab upon execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#do_not_create_commit_status Pipeline#do_not_create_commit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#do_not_create_commit_status Pipeline#do_not_create_commit_status}
   */
   readonly doNotCreateCommitStatus?: boolean | cdktf.IResolvable;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#domain Pipeline#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#domain Pipeline#domain}
   */
   readonly domain: string;
   /**
   * The pipeline's run title. Default: `$BUDDY_EXECUTION_REVISION_SUBJECT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#execution_message_template Pipeline#execution_message_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#execution_message_template Pipeline#execution_message_template}
   */
   readonly executionMessageTemplate?: string;
   /**
   * Defines either or not run should fail if any warning occurs in prepare environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#fail_on_prepare_env_warning Pipeline#fail_on_prepare_env_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#fail_on_prepare_env_warning Pipeline#fail_on_prepare_env_warning}
   */
   readonly failOnPrepareEnvWarning?: boolean | cdktf.IResolvable;
   /**
   * Defines whether or not fetch all refs from repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#fetch_all_refs Pipeline#fetch_all_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#fetch_all_refs Pipeline#fetch_all_refs}
   */
   readonly fetchAllRefs?: boolean | cdktf.IResolvable;
   /**
   * Defines pipeline's filesystem changeset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#filesystem_changeset_base Pipeline#filesystem_changeset_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#filesystem_changeset_base Pipeline#filesystem_changeset_base}
   */
   readonly filesystemChangesetBase?: string;
   /**
   * Defines pipeline's GIT changeset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#git_changeset_base Pipeline#git_changeset_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#git_changeset_base Pipeline#git_changeset_base}
   */
   readonly gitChangesetBase?: string;
   /**
   * The pipeline's GIT configuration spec for `git_config_ref` = `FIXED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#git_config Pipeline#git_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#git_config Pipeline#git_config}
   */
   readonly gitConfig?: PipelineGitConfig;
   /**
   * The pipeline's GIT configuration type. Allowed: `NONE`, `FIXED`, `DYNAMIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#git_config_ref Pipeline#git_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#git_config_ref Pipeline#git_config_ref}
   */
   readonly gitConfigRef?: string;
   /**
   * The pipeline's identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#identifier Pipeline#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#identifier Pipeline#identifier}
   */
   readonly identifier?: string;
   /**
   * If set to true the status of a given pipeline will be ignored on the projects' dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#ignore_fail_on_project_status Pipeline#ignore_fail_on_project_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#ignore_fail_on_project_status Pipeline#ignore_fail_on_project_status}
   */
   readonly ignoreFailOnProjectStatus?: boolean | cdktf.IResolvable;
   /**
+  * Specify multiple variables to create a multi-dimensional matrix. A pipeline will run for each possible combination of the variables
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#loop Pipeline#loop}
+  */
+  readonly loop?: string[];
+  /**
   * If set to true pipeline permissions will be managed by yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#manage_permissions_by_yaml Pipeline#manage_permissions_by_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#manage_permissions_by_yaml Pipeline#manage_permissions_by_yaml}
   */
   readonly managePermissionsByYaml?: boolean | cdktf.IResolvable;
   /**
   * If set to true pipeline variables will be managed by yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#manage_variables_by_yaml Pipeline#manage_variables_by_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#manage_variables_by_yaml Pipeline#manage_variables_by_yaml}
   */
   readonly manageVariablesByYaml?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
   * Defines whether or not to skip run to the most recent run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#no_skip_to_most_recent Pipeline#no_skip_to_most_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#no_skip_to_most_recent Pipeline#no_skip_to_most_recent}
   */
   readonly noSkipToMostRecent?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's max failed executions before it is paused. Restricted to schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#pause_on_repeated_failures Pipeline#pause_on_repeated_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#pause_on_repeated_failures Pipeline#pause_on_repeated_failures}
   */
   readonly pauseOnRepeatedFailures?: number;
   /**
   * Is the pipeline's run paused. Restricted schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#paused Pipeline#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#paused Pipeline#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The pipeline's priority. Allowed: `LOW`, `NORMAL`, `HIGH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#priority Pipeline#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#priority Pipeline#priority}
   */
   readonly priority?: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#project_name Pipeline#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#project_name Pipeline#project_name}
   */
   readonly projectName: string;
   /**
   * The pipeline's list of refs for manual mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#refs Pipeline#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#refs Pipeline#refs}
   */
   readonly refs?: string[];
   /**
   * The pipeline's remote definition branch name. Set it if `definition_source: REMOTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#remote_branch Pipeline#remote_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#remote_branch Pipeline#remote_branch}
   */
   readonly remoteBranch?: string;
   /**
   * The pipeline's remote definition path. Set it if `definition_source: REMOTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#remote_path Pipeline#remote_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#remote_path Pipeline#remote_path}
   */
   readonly remotePath?: string;
   /**
   * The pipeline's remote definition project name. Set it if `definition_source: REMOTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#remote_project_name Pipeline#remote_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#remote_project_name Pipeline#remote_project_name}
   */
   readonly remoteProjectName?: string;
   /**
   * The pipeline's remote definition ref name. Set it if `definition_source: REMOTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#remote_ref Pipeline#remote_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#remote_ref Pipeline#remote_ref}
   */
   readonly remoteRef?: string;
   /**
   * The pipeline's list of tags. Only for `Buddy Enterprise`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#tags Pipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#tags Pipeline#tags}
   */
   readonly tags?: string[];
   /**
   * The pipeline's website target URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#target_site_url Pipeline#target_site_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#target_site_url Pipeline#target_site_url}
   */
   readonly targetSiteUrl?: string;
   /**
   * The pipeline's worker name. Only for `Buddy Enterprise`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#worker Pipeline#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#worker Pipeline#worker}
   */
   readonly worker?: string;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#event Pipeline#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#event Pipeline#event}
   */
   readonly event?: PipelineEvent[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#permissions Pipeline#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#permissions Pipeline#permissions}
   */
   readonly permissions?: PipelinePermissions[] | cdktf.IResolvable;
   /**
   * remote_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#remote_parameter Pipeline#remote_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#remote_parameter Pipeline#remote_parameter}
   */
   readonly remoteParameter?: PipelineRemoteParameter[] | cdktf.IResolvable;
   /**
   * trigger_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#trigger_condition Pipeline#trigger_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#trigger_condition Pipeline#trigger_condition}
   */
   readonly triggerCondition?: PipelineTriggerCondition[] | cdktf.IResolvable;
 }
@@ -360,15 +366,15 @@ export class PipelineCreatorList extends cdktf.ComplexList {
 }
 export interface PipelineGitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#branch Pipeline#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#branch Pipeline#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#path Pipeline#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#path Pipeline#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#project Pipeline#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#project Pipeline#project}
   */
   readonly project?: string;
 }
@@ -610,47 +616,47 @@ export class PipelineProjectList extends cdktf.ComplexList {
 }
 export interface PipelineEvent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#branches Pipeline#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#branches Pipeline#branches}
   */
   readonly branches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#cron Pipeline#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#cron Pipeline#cron}
   */
   readonly cron?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#delay Pipeline#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#delay Pipeline#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#events Pipeline#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#events Pipeline#events}
   */
   readonly events?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#prefix Pipeline#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#prefix Pipeline#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#refs Pipeline#refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#refs Pipeline#refs}
   */
   readonly refs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#start_date Pipeline#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#start_date Pipeline#start_date}
   */
   readonly startDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#timezone Pipeline#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#timezone Pipeline#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#totp Pipeline#totp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#totp Pipeline#totp}
   */
   readonly totp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#type Pipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#type Pipeline#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#whitelist Pipeline#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#whitelist Pipeline#whitelist}
   */
   readonly whitelist?: string[];
 }
@@ -1053,11 +1059,11 @@ export class PipelineEventList extends cdktf.ComplexList {
 }
 export interface PipelinePermissionsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#access_level Pipeline#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#access_level Pipeline#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1199,11 +1205,11 @@ export class PipelinePermissionsGroupList extends cdktf.ComplexList {
 }
 export interface PipelinePermissionsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#access_level Pipeline#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#access_level Pipeline#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1345,19 +1351,19 @@ export class PipelinePermissionsUserList extends cdktf.ComplexList {
 }
 export interface PipelinePermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#others Pipeline#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#others Pipeline#others}
   */
   readonly others?: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#group Pipeline#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#group Pipeline#group}
   */
   readonly group?: PipelinePermissionsGroup[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#user Pipeline#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#user Pipeline#user}
   */
   readonly user?: PipelinePermissionsUser[] | cdktf.IResolvable;
 }
@@ -1531,11 +1537,11 @@ export class PipelinePermissionsList extends cdktf.ComplexList {
 }
 export interface PipelineRemoteParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#key Pipeline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#key Pipeline#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#value Pipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#value Pipeline#value}
   */
   readonly value: string;
 }
@@ -1674,47 +1680,47 @@ export class PipelineRemoteParameterList extends cdktf.ComplexList {
 }
 export interface PipelineTriggerCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#condition Pipeline#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#condition Pipeline#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#days Pipeline#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#days Pipeline#days}
   */
   readonly days?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#hours Pipeline#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#hours Pipeline#hours}
   */
   readonly hours?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#paths Pipeline#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#paths Pipeline#paths}
   */
   readonly paths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#pipeline_name Pipeline#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#pipeline_name Pipeline#pipeline_name}
   */
   readonly pipelineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#project_name Pipeline#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#project_name Pipeline#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#timezone Pipeline#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#timezone Pipeline#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#trigger_group Pipeline#trigger_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#trigger_group Pipeline#trigger_group}
   */
   readonly triggerGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#trigger_user Pipeline#trigger_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#trigger_user Pipeline#trigger_user}
   */
   readonly triggerUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#variable_key Pipeline#variable_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#variable_key Pipeline#variable_key}
   */
   readonly variableKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#variable_value Pipeline#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#variable_value Pipeline#variable_value}
   */
   readonly variableValue?: string;
 }
@@ -2117,7 +2123,7 @@ export class PipelineTriggerConditionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline buddy_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline buddy_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -2133,7 +2139,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2145,7 +2151,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/pipeline buddy_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/pipeline buddy_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2156,8 +2162,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2187,6 +2193,7 @@ export class Pipeline extends cdktf.TerraformResource {
     this._gitConfigRef = config.gitConfigRef;
     this._identifier = config.identifier;
     this._ignoreFailOnProjectStatus = config.ignoreFailOnProjectStatus;
+    this._loop = config.loop;
     this._managePermissionsByYaml = config.managePermissionsByYaml;
     this._manageVariablesByYaml = config.manageVariablesByYaml;
     this._name = config.name;
@@ -2561,6 +2568,22 @@ export class Pipeline extends cdktf.TerraformResource {
     return this.getStringAttribute('last_execution_status');
   }
 
+  // loop - computed: true, optional: true, required: false
+  private _loop?: string[]; 
+  public get loop() {
+    return cdktf.Fn.tolist(this.getListAttribute('loop'));
+  }
+  public set loop(value: string[]) {
+    this._loop = value;
+  }
+  public resetLoop() {
+    this._loop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loopInput() {
+    return this._loop;
+  }
+
   // manage_permissions_by_yaml - computed: true, optional: true, required: false
   private _managePermissionsByYaml?: boolean | cdktf.IResolvable; 
   public get managePermissionsByYaml() {
@@ -2912,6 +2935,7 @@ export class Pipeline extends cdktf.TerraformResource {
       git_config_ref: cdktf.stringToTerraform(this._gitConfigRef),
       identifier: cdktf.stringToTerraform(this._identifier),
       ignore_fail_on_project_status: cdktf.booleanToTerraform(this._ignoreFailOnProjectStatus),
+      loop: cdktf.listMapper(cdktf.stringToTerraform, false)(this._loop),
       manage_permissions_by_yaml: cdktf.booleanToTerraform(this._managePermissionsByYaml),
       manage_variables_by_yaml: cdktf.booleanToTerraform(this._manageVariablesByYaml),
       name: cdktf.stringToTerraform(this._name),
@@ -3056,6 +3080,12 @@ export class Pipeline extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      loop: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._loop),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       manage_permissions_by_yaml: {
         value: cdktf.booleanToHclTerraform(this._managePermissionsByYaml),

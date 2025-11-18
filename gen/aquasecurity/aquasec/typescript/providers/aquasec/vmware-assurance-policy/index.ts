@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,520 +10,520 @@ export interface VmwareAssurancePolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Aggregated vulnerability information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#aggregated_vulnerability VmwareAssurancePolicy#aggregated_vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#aggregated_vulnerability VmwareAssurancePolicy#aggregated_vulnerability}
   */
   readonly aggregatedVulnerability?: { [key: string]: string };
   /**
   * List of explicitly allowed images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#allowed_images VmwareAssurancePolicy#allowed_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#allowed_images VmwareAssurancePolicy#allowed_images}
   */
   readonly allowedImages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#application_scopes VmwareAssurancePolicy#application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#application_scopes VmwareAssurancePolicy#application_scopes}
   */
   readonly applicationScopes: string[];
   /**
   * What type of assurance policy is described.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#assurance_type VmwareAssurancePolicy#assurance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#assurance_type VmwareAssurancePolicy#assurance_type}
   */
   readonly assuranceType: string;
   /**
   * Indicates if auditing for failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#audit_on_failure VmwareAssurancePolicy#audit_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#audit_on_failure VmwareAssurancePolicy#audit_on_failure}
   */
   readonly auditOnFailure?: boolean | cdktf.IResolvable;
   /**
   * Name of user account that created the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#author VmwareAssurancePolicy#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#author VmwareAssurancePolicy#author}
   */
   readonly author?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#auto_scan_configured VmwareAssurancePolicy#auto_scan_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#auto_scan_configured VmwareAssurancePolicy#auto_scan_configured}
   */
   readonly autoScanConfigured?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#auto_scan_enabled VmwareAssurancePolicy#auto_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#auto_scan_enabled VmwareAssurancePolicy#auto_scan_enabled}
   */
   readonly autoScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of function's forbidden permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#blacklist_permissions VmwareAssurancePolicy#blacklist_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#blacklist_permissions VmwareAssurancePolicy#blacklist_permissions}
   */
   readonly blacklistPermissions?: string[];
   /**
   * Indicates if blacklist permissions is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#blacklist_permissions_enabled VmwareAssurancePolicy#blacklist_permissions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#blacklist_permissions_enabled VmwareAssurancePolicy#blacklist_permissions_enabled}
   */
   readonly blacklistPermissionsEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of blacklisted licenses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#blacklisted_licenses VmwareAssurancePolicy#blacklisted_licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#blacklisted_licenses VmwareAssurancePolicy#blacklisted_licenses}
   */
   readonly blacklistedLicenses?: string[];
   /**
   * Indicates if license blacklist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#blacklisted_licenses_enabled VmwareAssurancePolicy#blacklisted_licenses_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#blacklisted_licenses_enabled VmwareAssurancePolicy#blacklisted_licenses_enabled}
   */
   readonly blacklistedLicensesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if failed images are blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#block_failed VmwareAssurancePolicy#block_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#block_failed VmwareAssurancePolicy#block_failed}
   */
   readonly blockFailed?: boolean | cdktf.IResolvable;
   /**
   * Indicates the category of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#category VmwareAssurancePolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#category VmwareAssurancePolicy#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#control_exclude_no_fix VmwareAssurancePolicy#control_exclude_no_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#control_exclude_no_fix VmwareAssurancePolicy#control_exclude_no_fix}
   */
   readonly controlExcludeNoFix?: boolean | cdktf.IResolvable;
   /**
   * Indicates if scanning should include custom checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#custom_checks_enabled VmwareAssurancePolicy#custom_checks_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#custom_checks_enabled VmwareAssurancePolicy#custom_checks_enabled}
   */
   readonly customChecksEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#custom_severity VmwareAssurancePolicy#custom_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#custom_severity VmwareAssurancePolicy#custom_severity}
   */
   readonly customSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#custom_severity_enabled VmwareAssurancePolicy#custom_severity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#custom_severity_enabled VmwareAssurancePolicy#custom_severity_enabled}
   */
   readonly customSeverityEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of cves blacklisted items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cves_black_list VmwareAssurancePolicy#cves_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cves_black_list VmwareAssurancePolicy#cves_black_list}
   */
   readonly cvesBlackList?: string[];
   /**
   * Indicates if CVEs blacklist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cves_black_list_enabled VmwareAssurancePolicy#cves_black_list_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cves_black_list_enabled VmwareAssurancePolicy#cves_black_list_enabled}
   */
   readonly cvesBlackListEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of cves whitelisted licenses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cves_white_list VmwareAssurancePolicy#cves_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cves_white_list VmwareAssurancePolicy#cves_white_list}
   */
   readonly cvesWhiteList?: string[];
   /**
   * Indicates if cves whitelist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cves_white_list_enabled VmwareAssurancePolicy#cves_white_list_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cves_white_list_enabled VmwareAssurancePolicy#cves_white_list_enabled}
   */
   readonly cvesWhiteListEnabled?: boolean | cdktf.IResolvable;
   /**
   * Identifier of the cvss severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cvss_severity VmwareAssurancePolicy#cvss_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cvss_severity VmwareAssurancePolicy#cvss_severity}
   */
   readonly cvssSeverity?: string;
   /**
   * Indicates if the cvss severity is scanned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cvss_severity_enabled VmwareAssurancePolicy#cvss_severity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cvss_severity_enabled VmwareAssurancePolicy#cvss_severity_enabled}
   */
   readonly cvssSeverityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates that policy should ignore cvss cases that do not have a known fix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#cvss_severity_exclude_no_fix VmwareAssurancePolicy#cvss_severity_exclude_no_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#cvss_severity_exclude_no_fix VmwareAssurancePolicy#cvss_severity_exclude_no_fix}
   */
   readonly cvssSeverityExcludeNoFix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#disallow_exploit_types VmwareAssurancePolicy#disallow_exploit_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#disallow_exploit_types VmwareAssurancePolicy#disallow_exploit_types}
   */
   readonly disallowExploitTypes?: string[];
   /**
   * Indicates if malware should block the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#disallow_malware VmwareAssurancePolicy#disallow_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#disallow_malware VmwareAssurancePolicy#disallow_malware}
   */
   readonly disallowMalware?: boolean | cdktf.IResolvable;
   /**
   * Checks the host according to the Docker CIS benchmark, if Docker is found on the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#docker_cis_enabled VmwareAssurancePolicy#docker_cis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#docker_cis_enabled VmwareAssurancePolicy#docker_cis_enabled}
   */
   readonly dockerCisEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#domain VmwareAssurancePolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#domain VmwareAssurancePolicy#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#domain_name VmwareAssurancePolicy#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#domain_name VmwareAssurancePolicy#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#dta_enabled VmwareAssurancePolicy#dta_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#dta_enabled VmwareAssurancePolicy#dta_enabled}
   */
   readonly dtaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#dta_severity VmwareAssurancePolicy#dta_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#dta_severity VmwareAssurancePolicy#dta_severity}
   */
   readonly dtaSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enabled VmwareAssurancePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enabled VmwareAssurancePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enforce VmwareAssurancePolicy#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enforce VmwareAssurancePolicy#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enforce_after_days VmwareAssurancePolicy#enforce_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enforce_after_days VmwareAssurancePolicy#enforce_after_days}
   */
   readonly enforceAfterDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enforce_excessive_permissions VmwareAssurancePolicy#enforce_excessive_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enforce_excessive_permissions VmwareAssurancePolicy#enforce_excessive_permissions}
   */
   readonly enforceExcessivePermissions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#exceptional_monitored_malware_paths VmwareAssurancePolicy#exceptional_monitored_malware_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#exceptional_monitored_malware_paths VmwareAssurancePolicy#exceptional_monitored_malware_paths}
   */
   readonly exceptionalMonitoredMalwarePaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#exclude_application_scopes VmwareAssurancePolicy#exclude_application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#exclude_application_scopes VmwareAssurancePolicy#exclude_application_scopes}
   */
   readonly excludeApplicationScopes?: string[];
   /**
   * Indicates if cicd failures will fail the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#fail_cicd VmwareAssurancePolicy#fail_cicd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#fail_cicd VmwareAssurancePolicy#fail_cicd}
   */
   readonly failCicd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#forbidden_labels_enabled VmwareAssurancePolicy#forbidden_labels_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#forbidden_labels_enabled VmwareAssurancePolicy#forbidden_labels_enabled}
   */
   readonly forbiddenLabelsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#force_microenforcer VmwareAssurancePolicy#force_microenforcer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#force_microenforcer VmwareAssurancePolicy#force_microenforcer}
   */
   readonly forceMicroenforcer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#function_integrity_enabled VmwareAssurancePolicy#function_integrity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#function_integrity_enabled VmwareAssurancePolicy#function_integrity_enabled}
   */
   readonly functionIntegrityEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#id VmwareAssurancePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#id VmwareAssurancePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_base_image_vln VmwareAssurancePolicy#ignore_base_image_vln}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_base_image_vln VmwareAssurancePolicy#ignore_base_image_vln}
   */
   readonly ignoreBaseImageVln?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to ignore recently published vulnerabilities with fixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_recently_published_fix_vln VmwareAssurancePolicy#ignore_recently_published_fix_vln}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_recently_published_fix_vln VmwareAssurancePolicy#ignore_recently_published_fix_vln}
   */
   readonly ignoreRecentlyPublishedFixVln?: boolean | cdktf.IResolvable;
   /**
   * Period for ignoring recently published vulnerabilities with fixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_recently_published_fix_vln_period VmwareAssurancePolicy#ignore_recently_published_fix_vln_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_recently_published_fix_vln_period VmwareAssurancePolicy#ignore_recently_published_fix_vln_period}
   */
   readonly ignoreRecentlyPublishedFixVlnPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_recently_published_vln VmwareAssurancePolicy#ignore_recently_published_vln}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_recently_published_vln VmwareAssurancePolicy#ignore_recently_published_vln}
   */
   readonly ignoreRecentlyPublishedVln?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_recently_published_vln_period VmwareAssurancePolicy#ignore_recently_published_vln_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_recently_published_vln_period VmwareAssurancePolicy#ignore_recently_published_vln_period}
   */
   readonly ignoreRecentlyPublishedVlnPeriod?: number;
   /**
   * Indicates if risk resources are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignore_risk_resources_enabled VmwareAssurancePolicy#ignore_risk_resources_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignore_risk_resources_enabled VmwareAssurancePolicy#ignore_risk_resources_enabled}
   */
   readonly ignoreRiskResourcesEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of ignored risk resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignored_risk_resources VmwareAssurancePolicy#ignored_risk_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignored_risk_resources VmwareAssurancePolicy#ignored_risk_resources}
   */
   readonly ignoredRiskResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ignored_sensitive_resources VmwareAssurancePolicy#ignored_sensitive_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ignored_sensitive_resources VmwareAssurancePolicy#ignored_sensitive_resources}
   */
   readonly ignoredSensitiveResources?: string[];
   /**
   * List of images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#images VmwareAssurancePolicy#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#images VmwareAssurancePolicy#images}
   */
   readonly images?: string[];
   /**
   * Performs a Kubernetes CIS benchmark check for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#kube_cis_enabled VmwareAssurancePolicy#kube_cis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#kube_cis_enabled VmwareAssurancePolicy#kube_cis_enabled}
   */
   readonly kubeCisEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#kubernetes_controls_avd_ids VmwareAssurancePolicy#kubernetes_controls_avd_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#kubernetes_controls_avd_ids VmwareAssurancePolicy#kubernetes_controls_avd_ids}
   */
   readonly kubernetesControlsAvdIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#kubernetes_controls_names VmwareAssurancePolicy#kubernetes_controls_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#kubernetes_controls_names VmwareAssurancePolicy#kubernetes_controls_names}
   */
   readonly kubernetesControlsNames?: string[];
   /**
   * List of labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#labels VmwareAssurancePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#labels VmwareAssurancePolicy#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#lastupdate VmwareAssurancePolicy#lastupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#lastupdate VmwareAssurancePolicy#lastupdate}
   */
   readonly lastupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#linux_cis_enabled VmwareAssurancePolicy#linux_cis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#linux_cis_enabled VmwareAssurancePolicy#linux_cis_enabled}
   */
   readonly linuxCisEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#malware_action VmwareAssurancePolicy#malware_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#malware_action VmwareAssurancePolicy#malware_action}
   */
   readonly malwareAction?: string;
   /**
   * Value of allowed maximum score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#maximum_score VmwareAssurancePolicy#maximum_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#maximum_score VmwareAssurancePolicy#maximum_score}
   */
   readonly maximumScore?: number;
   /**
   * Indicates if exceeding the maximum score is scanned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#maximum_score_enabled VmwareAssurancePolicy#maximum_score_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#maximum_score_enabled VmwareAssurancePolicy#maximum_score_enabled}
   */
   readonly maximumScoreEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#maximum_score_exclude_no_fix VmwareAssurancePolicy#maximum_score_exclude_no_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#maximum_score_exclude_no_fix VmwareAssurancePolicy#maximum_score_exclude_no_fix}
   */
   readonly maximumScoreExcludeNoFix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#monitored_malware_paths VmwareAssurancePolicy#monitored_malware_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#monitored_malware_paths VmwareAssurancePolicy#monitored_malware_paths}
   */
   readonly monitoredMalwarePaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name: string;
   /**
   * Indicates if raise a warning for images that should only be run as root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#only_none_root_users VmwareAssurancePolicy#only_none_root_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#only_none_root_users VmwareAssurancePolicy#only_none_root_users}
   */
   readonly onlyNoneRootUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#openshift_hardening_enabled VmwareAssurancePolicy#openshift_hardening_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#openshift_hardening_enabled VmwareAssurancePolicy#openshift_hardening_enabled}
   */
   readonly openshiftHardeningEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if packages blacklist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#packages_black_list_enabled VmwareAssurancePolicy#packages_black_list_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#packages_black_list_enabled VmwareAssurancePolicy#packages_black_list_enabled}
   */
   readonly packagesBlackListEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if packages whitelist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#packages_white_list_enabled VmwareAssurancePolicy#packages_white_list_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#packages_white_list_enabled VmwareAssurancePolicy#packages_white_list_enabled}
   */
   readonly packagesWhiteListEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#partial_results_image_fail VmwareAssurancePolicy#partial_results_image_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#partial_results_image_fail VmwareAssurancePolicy#partial_results_image_fail}
   */
   readonly partialResultsImageFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#permission VmwareAssurancePolicy#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#permission VmwareAssurancePolicy#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#read_only VmwareAssurancePolicy#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#read_only VmwareAssurancePolicy#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * List of registries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#registries VmwareAssurancePolicy#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#registries VmwareAssurancePolicy#registries}
   */
   readonly registries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#registry VmwareAssurancePolicy#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#registry VmwareAssurancePolicy#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#required_labels_enabled VmwareAssurancePolicy#required_labels_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#required_labels_enabled VmwareAssurancePolicy#required_labels_enabled}
   */
   readonly requiredLabelsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scan_malware_in_archives VmwareAssurancePolicy#scan_malware_in_archives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scan_malware_in_archives VmwareAssurancePolicy#scan_malware_in_archives}
   */
   readonly scanMalwareInArchives?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scan_nfs_mounts VmwareAssurancePolicy#scan_nfs_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scan_nfs_mounts VmwareAssurancePolicy#scan_nfs_mounts}
   */
   readonly scanNfsMounts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scan_process_memory VmwareAssurancePolicy#scan_process_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scan_process_memory VmwareAssurancePolicy#scan_process_memory}
   */
   readonly scanProcessMemory?: boolean | cdktf.IResolvable;
   /**
   * Indicates if scan should include sensitive data in the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scan_sensitive_data VmwareAssurancePolicy#scan_sensitive_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scan_sensitive_data VmwareAssurancePolicy#scan_sensitive_data}
   */
   readonly scanSensitiveData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scan_windows_registry VmwareAssurancePolicy#scan_windows_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scan_windows_registry VmwareAssurancePolicy#scan_windows_registry}
   */
   readonly scanWindowsRegistry?: boolean | cdktf.IResolvable;
   /**
   * Indicates if scanning should include scap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scap_enabled VmwareAssurancePolicy#scap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scap_enabled VmwareAssurancePolicy#scap_enabled}
   */
   readonly scapEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of SCAP user scripts for checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scap_files VmwareAssurancePolicy#scap_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scap_files VmwareAssurancePolicy#scap_files}
   */
   readonly scapFiles?: string[];
   /**
   * Indicates if list of trusted base images is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#trusted_base_images_enabled VmwareAssurancePolicy#trusted_base_images_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#trusted_base_images_enabled VmwareAssurancePolicy#trusted_base_images_enabled}
   */
   readonly trustedBaseImagesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#vulnerability_exploitability VmwareAssurancePolicy#vulnerability_exploitability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#vulnerability_exploitability VmwareAssurancePolicy#vulnerability_exploitability}
   */
   readonly vulnerabilityExploitability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#vulnerability_score_range VmwareAssurancePolicy#vulnerability_score_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#vulnerability_score_range VmwareAssurancePolicy#vulnerability_score_range}
   */
   readonly vulnerabilityScoreRange?: number[];
   /**
   * List of whitelisted licenses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#whitelisted_licenses VmwareAssurancePolicy#whitelisted_licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#whitelisted_licenses VmwareAssurancePolicy#whitelisted_licenses}
   */
   readonly whitelistedLicenses?: string[];
   /**
   * Indicates if license blacklist is relevant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#whitelisted_licenses_enabled VmwareAssurancePolicy#whitelisted_licenses_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#whitelisted_licenses_enabled VmwareAssurancePolicy#whitelisted_licenses_enabled}
   */
   readonly whitelistedLicensesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates if windows cis scan enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#windows_cis_enabled VmwareAssurancePolicy#windows_cis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#windows_cis_enabled VmwareAssurancePolicy#windows_cis_enabled}
   */
   readonly windowsCisEnabled?: boolean | cdktf.IResolvable;
   /**
   * auto_scan_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#auto_scan_time VmwareAssurancePolicy#auto_scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#auto_scan_time VmwareAssurancePolicy#auto_scan_time}
   */
   readonly autoScanTime?: VmwareAssurancePolicyAutoScanTime[] | cdktf.IResolvable;
   /**
   * custom_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#custom_checks VmwareAssurancePolicy#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#custom_checks VmwareAssurancePolicy#custom_checks}
   */
   readonly customChecks?: VmwareAssurancePolicyCustomChecks[] | cdktf.IResolvable;
   /**
   * forbidden_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#forbidden_labels VmwareAssurancePolicy#forbidden_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#forbidden_labels VmwareAssurancePolicy#forbidden_labels}
   */
   readonly forbiddenLabels?: VmwareAssurancePolicyForbiddenLabels[] | cdktf.IResolvable;
   /**
   * kubernetes_controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#kubernetes_controls VmwareAssurancePolicy#kubernetes_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#kubernetes_controls VmwareAssurancePolicy#kubernetes_controls}
   */
   readonly kubernetesControls?: VmwareAssurancePolicyKubernetesControls[] | cdktf.IResolvable;
   /**
   * packages_black_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#packages_black_list VmwareAssurancePolicy#packages_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#packages_black_list VmwareAssurancePolicy#packages_black_list}
   */
   readonly packagesBlackList?: VmwareAssurancePolicyPackagesBlackListStruct[] | cdktf.IResolvable;
   /**
   * packages_white_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#packages_white_list VmwareAssurancePolicy#packages_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#packages_white_list VmwareAssurancePolicy#packages_white_list}
   */
   readonly packagesWhiteList?: VmwareAssurancePolicyPackagesWhiteListStruct[] | cdktf.IResolvable;
   /**
   * policy_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#policy_settings VmwareAssurancePolicy#policy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#policy_settings VmwareAssurancePolicy#policy_settings}
   */
   readonly policySettings?: VmwareAssurancePolicyPolicySettings;
   /**
   * required_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#required_labels VmwareAssurancePolicy#required_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#required_labels VmwareAssurancePolicy#required_labels}
   */
   readonly requiredLabels?: VmwareAssurancePolicyRequiredLabels[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#scope VmwareAssurancePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#scope VmwareAssurancePolicy#scope}
   */
   readonly scope?: VmwareAssurancePolicyScope[] | cdktf.IResolvable;
   /**
   * trusted_base_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#trusted_base_images VmwareAssurancePolicy#trusted_base_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#trusted_base_images VmwareAssurancePolicy#trusted_base_images}
   */
   readonly trustedBaseImages?: VmwareAssurancePolicyTrustedBaseImages[] | cdktf.IResolvable;
 }
 export interface VmwareAssurancePolicyAutoScanTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#iteration VmwareAssurancePolicy#iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#iteration VmwareAssurancePolicy#iteration}
   */
   readonly iteration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#iteration_type VmwareAssurancePolicy#iteration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#iteration_type VmwareAssurancePolicy#iteration_type}
   */
   readonly iterationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#time VmwareAssurancePolicy#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#time VmwareAssurancePolicy#time}
   */
   readonly time?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#week_days VmwareAssurancePolicy#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#week_days VmwareAssurancePolicy#week_days}
   */
   readonly weekDays?: string[];
 }
@@ -728,43 +728,43 @@ export interface VmwareAssurancePolicyCustomChecks {
   /**
   * Name of user account that created the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#author VmwareAssurancePolicy#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#author VmwareAssurancePolicy#author}
   */
   readonly author?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#engine VmwareAssurancePolicy#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#engine VmwareAssurancePolicy#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#last_modified VmwareAssurancePolicy#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#last_modified VmwareAssurancePolicy#last_modified}
   */
   readonly lastModified?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#path VmwareAssurancePolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#path VmwareAssurancePolicy#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#read_only VmwareAssurancePolicy#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#read_only VmwareAssurancePolicy#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#script_id VmwareAssurancePolicy#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#script_id VmwareAssurancePolicy#script_id}
   */
   readonly scriptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#severity VmwareAssurancePolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#severity VmwareAssurancePolicy#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#snippet VmwareAssurancePolicy#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#snippet VmwareAssurancePolicy#snippet}
   */
   readonly snippet?: string;
 }
@@ -1141,11 +1141,11 @@ export class VmwareAssurancePolicyCustomChecksList extends cdktf.ComplexList {
 }
 export interface VmwareAssurancePolicyForbiddenLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#key VmwareAssurancePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#key VmwareAssurancePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
   */
   readonly value?: string;
 }
@@ -1290,35 +1290,35 @@ export class VmwareAssurancePolicyForbiddenLabelsList extends cdktf.ComplexList 
 }
 export interface VmwareAssurancePolicyKubernetesControls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#avd_id VmwareAssurancePolicy#avd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#avd_id VmwareAssurancePolicy#avd_id}
   */
   readonly avdId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#description VmwareAssurancePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enabled VmwareAssurancePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enabled VmwareAssurancePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#kind VmwareAssurancePolicy#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#kind VmwareAssurancePolicy#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#ootb VmwareAssurancePolicy#ootb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#ootb VmwareAssurancePolicy#ootb}
   */
   readonly ootb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#script_id VmwareAssurancePolicy#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#script_id VmwareAssurancePolicy#script_id}
   */
   readonly scriptId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#severity VmwareAssurancePolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#severity VmwareAssurancePolicy#severity}
   */
   readonly severity?: string;
 }
@@ -1637,39 +1637,39 @@ export class VmwareAssurancePolicyKubernetesControlsList extends cdktf.ComplexLi
 }
 export interface VmwareAssurancePolicyPackagesBlackListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#arch VmwareAssurancePolicy#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#arch VmwareAssurancePolicy#arch}
   */
   readonly arch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#display VmwareAssurancePolicy#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#display VmwareAssurancePolicy#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#epoch VmwareAssurancePolicy#epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#epoch VmwareAssurancePolicy#epoch}
   */
   readonly epoch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#format VmwareAssurancePolicy#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#format VmwareAssurancePolicy#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#license VmwareAssurancePolicy#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#license VmwareAssurancePolicy#license}
   */
   readonly license?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#release VmwareAssurancePolicy#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#release VmwareAssurancePolicy#release}
   */
   readonly release?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#version VmwareAssurancePolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#version VmwareAssurancePolicy#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#version_range VmwareAssurancePolicy#version_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#version_range VmwareAssurancePolicy#version_range}
   */
   readonly versionRange?: string;
 }
@@ -2017,39 +2017,39 @@ export class VmwareAssurancePolicyPackagesBlackListStructList extends cdktf.Comp
 }
 export interface VmwareAssurancePolicyPackagesWhiteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#arch VmwareAssurancePolicy#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#arch VmwareAssurancePolicy#arch}
   */
   readonly arch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#display VmwareAssurancePolicy#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#display VmwareAssurancePolicy#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#epoch VmwareAssurancePolicy#epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#epoch VmwareAssurancePolicy#epoch}
   */
   readonly epoch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#format VmwareAssurancePolicy#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#format VmwareAssurancePolicy#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#license VmwareAssurancePolicy#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#license VmwareAssurancePolicy#license}
   */
   readonly license?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#release VmwareAssurancePolicy#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#release VmwareAssurancePolicy#release}
   */
   readonly release?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#version VmwareAssurancePolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#version VmwareAssurancePolicy#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#version_range VmwareAssurancePolicy#version_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#version_range VmwareAssurancePolicy#version_range}
   */
   readonly versionRange?: string;
 }
@@ -2397,19 +2397,19 @@ export class VmwareAssurancePolicyPackagesWhiteListStructList extends cdktf.Comp
 }
 export interface VmwareAssurancePolicyPolicySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#enforce VmwareAssurancePolicy#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#enforce VmwareAssurancePolicy#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#is_audit_checked VmwareAssurancePolicy#is_audit_checked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#is_audit_checked VmwareAssurancePolicy#is_audit_checked}
   */
   readonly isAuditChecked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#warn VmwareAssurancePolicy#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#warn VmwareAssurancePolicy#warn}
   */
   readonly warn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#warning_message VmwareAssurancePolicy#warning_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#warning_message VmwareAssurancePolicy#warning_message}
   */
   readonly warningMessage?: string;
 }
@@ -2580,11 +2580,11 @@ export class VmwareAssurancePolicyPolicySettingsOutputReference extends cdktf.Co
 }
 export interface VmwareAssurancePolicyRequiredLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#key VmwareAssurancePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#key VmwareAssurancePolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
   */
   readonly value?: string;
 }
@@ -2729,15 +2729,15 @@ export class VmwareAssurancePolicyRequiredLabelsList extends cdktf.ComplexList {
 }
 export interface VmwareAssurancePolicyScopeVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#attribute VmwareAssurancePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#attribute VmwareAssurancePolicy#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#name VmwareAssurancePolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#value VmwareAssurancePolicy#value}
   */
   readonly value?: string;
 }
@@ -2911,13 +2911,13 @@ export class VmwareAssurancePolicyScopeVariablesList extends cdktf.ComplexList {
 }
 export interface VmwareAssurancePolicyScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#expression VmwareAssurancePolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#expression VmwareAssurancePolicy#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#variables VmwareAssurancePolicy#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#variables VmwareAssurancePolicy#variables}
   */
   readonly variables?: VmwareAssurancePolicyScopeVariables[] | cdktf.IResolvable;
 }
@@ -3062,11 +3062,11 @@ export class VmwareAssurancePolicyScopeList extends cdktf.ComplexList {
 }
 export interface VmwareAssurancePolicyTrustedBaseImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#imagename VmwareAssurancePolicy#imagename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#imagename VmwareAssurancePolicy#imagename}
   */
   readonly imagename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#registry VmwareAssurancePolicy#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#registry VmwareAssurancePolicy#registry}
   */
   readonly registry?: string;
 }
@@ -3211,7 +3211,7 @@ export class VmwareAssurancePolicyTrustedBaseImagesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy aquasec_vmware_assurance_policy}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy aquasec_vmware_assurance_policy}
 */
 export class VmwareAssurancePolicy extends cdktf.TerraformResource {
 
@@ -3227,7 +3227,7 @@ export class VmwareAssurancePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmwareAssurancePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmwareAssurancePolicy to import
-  * @param importFromId The id of the existing VmwareAssurancePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmwareAssurancePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmwareAssurancePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3239,7 +3239,7 @@ export class VmwareAssurancePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/vmware_assurance_policy aquasec_vmware_assurance_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/vmware_assurance_policy aquasec_vmware_assurance_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3250,8 +3250,8 @@ export class VmwareAssurancePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_vmware_assurance_policy',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

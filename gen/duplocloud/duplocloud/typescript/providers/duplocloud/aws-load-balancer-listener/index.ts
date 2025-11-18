@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsLoadBalancerListenerConfig extends cdktf.TerraformMetaArgume
   /**
   * The ARN of the certificate to attach to the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#certificate_arn AwsLoadBalancerListener#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#certificate_arn AwsLoadBalancerListener#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#id AwsLoadBalancerListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#id AwsLoadBalancerListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface AwsLoadBalancerListenerConfig extends cdktf.TerraformMetaArgume
   /**
   * The short name of the load balancer.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#load_balancer_name AwsLoadBalancerListener#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#load_balancer_name AwsLoadBalancerListener#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
   * Port on which the load balancer is listening.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#port AwsLoadBalancerListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#port AwsLoadBalancerListener#port}
   */
   readonly port: number;
   /**
   * Protocol for connections from clients to the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#protocol AwsLoadBalancerListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#protocol AwsLoadBalancerListener#protocol}
   */
   readonly protocol: string;
   /**
   * ARN of the Target Group to which to route traffic. target_group_arn has moved to default_actions.forward.target_group_arn. This field is available for backward compatibility. We recommend to use default_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#target_group_arn AwsLoadBalancerListener#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#target_group_arn AwsLoadBalancerListener#target_group_arn}
   */
   readonly targetGroupArn?: string;
   /**
   * The GUID of the tenant that the load balancer will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#tenant_id AwsLoadBalancerListener#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#tenant_id AwsLoadBalancerListener#tenant_id}
   */
   readonly tenantId: string;
   /**
   * default_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#default_actions AwsLoadBalancerListener#default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#default_actions AwsLoadBalancerListener#default_actions}
   */
   readonly defaultActions?: AwsLoadBalancerListenerDefaultActions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#timeouts AwsLoadBalancerListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#timeouts AwsLoadBalancerListener#timeouts}
   */
   readonly timeouts?: AwsLoadBalancerListenerTimeouts;
 }
@@ -147,17 +147,17 @@ export interface AwsLoadBalancerListenerDefaultActionsFixedResponse {
   /**
   * Defaults to `text/plain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#content_type AwsLoadBalancerListener#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#content_type AwsLoadBalancerListener#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#message_body AwsLoadBalancerListener#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#message_body AwsLoadBalancerListener#message_body}
   */
   readonly messageBody?: string;
   /**
   * Defaults to `200`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#status_code AwsLoadBalancerListener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#status_code AwsLoadBalancerListener#status_code}
   */
   readonly statusCode?: string;
 }
@@ -299,7 +299,7 @@ export class AwsLoadBalancerListenerDefaultActionsFixedResponseOutputReference e
 }
 export interface AwsLoadBalancerListenerDefaultActionsForward {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#target_group_arn AwsLoadBalancerListener#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#target_group_arn AwsLoadBalancerListener#target_group_arn}
   */
   readonly targetGroupArn: string;
 }
@@ -382,31 +382,31 @@ export interface AwsLoadBalancerListenerDefaultActionsRedirect {
   /**
   * Defaults to `#{host}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#host AwsLoadBalancerListener#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#host AwsLoadBalancerListener#host}
   */
   readonly host?: string;
   /**
   * Defaults to `/#{path}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#path AwsLoadBalancerListener#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#path AwsLoadBalancerListener#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#port AwsLoadBalancerListener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#port AwsLoadBalancerListener#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#protocol AwsLoadBalancerListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#protocol AwsLoadBalancerListener#protocol}
   */
   readonly protocol: string;
   /**
   * Defaults to `#{query}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#query AwsLoadBalancerListener#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#query AwsLoadBalancerListener#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#status_code AwsLoadBalancerListener#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#status_code AwsLoadBalancerListener#status_code}
   */
   readonly statusCode: string;
 }
@@ -628,19 +628,19 @@ export interface AwsLoadBalancerListenerDefaultActions {
   /**
   * fixed_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#fixed_response AwsLoadBalancerListener#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#fixed_response AwsLoadBalancerListener#fixed_response}
   */
   readonly fixedResponse?: AwsLoadBalancerListenerDefaultActionsFixedResponse;
   /**
   * forward block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#forward AwsLoadBalancerListener#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#forward AwsLoadBalancerListener#forward}
   */
   readonly forward?: AwsLoadBalancerListenerDefaultActionsForward;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#redirect AwsLoadBalancerListener#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#redirect AwsLoadBalancerListener#redirect}
   */
   readonly redirect?: AwsLoadBalancerListenerDefaultActionsRedirect;
 }
@@ -782,11 +782,11 @@ export class AwsLoadBalancerListenerDefaultActionsOutputReference extends cdktf.
 }
 export interface AwsLoadBalancerListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#create AwsLoadBalancerListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#create AwsLoadBalancerListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#delete AwsLoadBalancerListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#delete AwsLoadBalancerListener#delete}
   */
   readonly delete?: string;
 }
@@ -909,7 +909,7 @@ export class AwsLoadBalancerListenerTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener duplocloud_aws_load_balancer_listener}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener duplocloud_aws_load_balancer_listener}
 */
 export class AwsLoadBalancerListener extends cdktf.TerraformResource {
 
@@ -925,7 +925,7 @@ export class AwsLoadBalancerListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLoadBalancerListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLoadBalancerListener to import
-  * @param importFromId The id of the existing AwsLoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLoadBalancerListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLoadBalancerListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -937,7 +937,7 @@ export class AwsLoadBalancerListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_load_balancer_listener duplocloud_aws_load_balancer_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_load_balancer_listener duplocloud_aws_load_balancer_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -948,8 +948,8 @@ export class AwsLoadBalancerListener extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_load_balancer_listener',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

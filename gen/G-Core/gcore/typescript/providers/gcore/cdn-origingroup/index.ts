@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CdnOrigingroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#id CdnOrigingroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#id CdnOrigingroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface CdnOrigingroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the origin group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#name CdnOrigingroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#name CdnOrigingroup#name}
   */
   readonly name: string;
   /**
   * Available values: error, timeout, invalid_header, http_403, http_404, http_429, http_500, http_502, http_503, http_504.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#proxy_next_upstream CdnOrigingroup#proxy_next_upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#proxy_next_upstream CdnOrigingroup#proxy_next_upstream}
   */
   readonly proxyNextUpstream?: string[];
   /**
   * This options have two possible values: true — The option is active. In case the origin responds with 4XX or 5XX codes, use the next origin from the list. false — The option is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#use_next CdnOrigingroup#use_next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#use_next CdnOrigingroup#use_next}
   */
   readonly useNext?: boolean | cdktf.IResolvable;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#auth CdnOrigingroup#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#auth CdnOrigingroup#auth}
   */
   readonly auth?: CdnOrigingroupAuth;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#origin CdnOrigingroup#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#origin CdnOrigingroup#origin}
   */
   readonly origin?: CdnOrigingroupOrigin[] | cdktf.IResolvable;
 }
@@ -49,37 +49,37 @@ export interface CdnOrigingroupAuth {
   /**
   * Access key ID for the S3 storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_access_key_id CdnOrigingroup#s3_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_access_key_id CdnOrigingroup#s3_access_key_id}
   */
   readonly s3AccessKeyId: string;
   /**
   * Bucket name of the S3 storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_bucket_name CdnOrigingroup#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_bucket_name CdnOrigingroup#s3_bucket_name}
   */
   readonly s3BucketName: string;
   /**
   * Region of the S3 storage, required if s3_type is 'amazon'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_region CdnOrigingroup#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_region CdnOrigingroup#s3_region}
   */
   readonly s3Region?: string;
   /**
   * Secret access key for the S3 storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_secret_access_key CdnOrigingroup#s3_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_secret_access_key CdnOrigingroup#s3_secret_access_key}
   */
   readonly s3SecretAccessKey: string;
   /**
   * Hostname of the S3 storage, required if s3_type is 'other'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_storage_hostname CdnOrigingroup#s3_storage_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_storage_hostname CdnOrigingroup#s3_storage_hostname}
   */
   readonly s3StorageHostname?: string;
   /**
   * Type of the S3 storage, accepted values: 'other' or 'amazon'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#s3_type CdnOrigingroup#s3_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#s3_type CdnOrigingroup#s3_type}
   */
   readonly s3Type: string;
 }
@@ -298,19 +298,19 @@ export interface CdnOrigingroupOrigin {
   /**
   * true — The option is active. The origin will not be used until one of active origins become unavailable. false — The option is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#backup CdnOrigingroup#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#backup CdnOrigingroup#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * The setting allows to enable or disable an Origin source in the Origins group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#enabled CdnOrigingroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#enabled CdnOrigingroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP address or Domain name of your origin and the port if custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#source CdnOrigingroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#source CdnOrigingroup#source}
   */
   readonly source: string;
 }
@@ -481,7 +481,7 @@ export class CdnOrigingroupOriginList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup gcore_cdn_origingroup}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup gcore_cdn_origingroup}
 */
 export class CdnOrigingroup extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnOrigingroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnOrigingroup to import
-  * @param importFromId The id of the existing CdnOrigingroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnOrigingroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnOrigingroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_origingroup gcore_cdn_origingroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_origingroup gcore_cdn_origingroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class CdnOrigingroup extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_origingroup',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

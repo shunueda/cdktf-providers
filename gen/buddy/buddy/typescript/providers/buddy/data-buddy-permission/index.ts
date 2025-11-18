@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataBuddyPermissionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission#domain DataBuddyPermission#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission#domain DataBuddyPermission#domain}
   */
   readonly domain: string;
   /**
   * The permission's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission#name DataBuddyPermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission#name DataBuddyPermission#name}
   */
   readonly name?: string;
   /**
   * The permission's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission#permission_id DataBuddyPermission#permission_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission#permission_id DataBuddyPermission#permission_id}
   */
   readonly permissionId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission buddy_permission}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission buddy_permission}
 */
 export class DataBuddyPermission extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataBuddyPermission extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyPermission to import
-  * @param importFromId The id of the existing DataBuddyPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataBuddyPermission extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permission buddy_permission} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permission buddy_permission} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataBuddyPermission extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_permission',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

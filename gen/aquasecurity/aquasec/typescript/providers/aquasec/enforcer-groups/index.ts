@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,167 +14,167 @@ export interface EnforcerGroupsConfig extends cdktf.TerraformMetaArguments {
   * 				* Block Unregistered Images\
   * 				This functionality can work only when the KubeEnforcer is deployed in Enforce mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#admission_control EnforcerGroups#admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#admission_control EnforcerGroups#admission_control}
   */
   readonly admissionControl?: boolean | cdktf.IResolvable;
   /**
   * Allow kube enforcer audit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#allow_kube_enforcer_audit EnforcerGroups#allow_kube_enforcer_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#allow_kube_enforcer_audit EnforcerGroups#allow_kube_enforcer_audit}
   */
   readonly allowKubeEnforcerAudit?: boolean | cdktf.IResolvable;
   /**
   * List of application names to allow on the hosts. if provided, only containers of the listed applications will be allowed to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#allowed_applications EnforcerGroups#allowed_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#allowed_applications EnforcerGroups#allowed_applications}
   */
   readonly allowedApplications?: string[];
   /**
   * List of label names to allow on the hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#allowed_labels EnforcerGroups#allowed_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#allowed_labels EnforcerGroups#allowed_labels}
   */
   readonly allowedLabels?: string[];
   /**
   * List of registry names to allow on the hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#allowed_registries EnforcerGroups#allowed_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#allowed_registries EnforcerGroups#allowed_registries}
   */
   readonly allowedRegistries?: string[];
   /**
   * This setting is available only when you have license for `Advanced Malware Protection`. Send true to make use of the license and enable the `Real-time Malware Protection` control in the Host Runtime policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#antivirus_protection EnforcerGroups#antivirus_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#antivirus_protection EnforcerGroups#antivirus_protection}
   */
   readonly antivirusProtection?: boolean | cdktf.IResolvable;
   /**
   * Agent will send extra audit messages to the server for success operations from inside the container (runtime).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#audit_all EnforcerGroups#audit_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#audit_all EnforcerGroups#audit_all}
   */
   readonly auditAll?: boolean | cdktf.IResolvable;
   /**
   * This option is applicable only if `Enable Pod Enforcer injection` is selected. Select this option if you want Aqua Enterprise to copy the secrets defined above to the Pod Enforcer namespace and container. Otherwise, you can choose to copy these secrets by other means.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#auto_copy_secrets EnforcerGroups#auto_copy_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#auto_copy_secrets EnforcerGroups#auto_copy_secrets}
   */
   readonly autoCopySecrets?: boolean | cdktf.IResolvable;
   /**
   * This option is available only if `Enable workload discovery` is selected. If selected, the KubeEnforcer will add previously unknown image registries from the cluster to Aqua.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#auto_discover_configure_registries EnforcerGroups#auto_discover_configure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#auto_discover_configure_registries EnforcerGroups#auto_discover_configure_registries}
   */
   readonly autoDiscoverConfigureRegistries?: boolean | cdktf.IResolvable;
   /**
   * When this option is selected, the KubeEnforcer will discover workloads on its cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#auto_discovery_enabled EnforcerGroups#auto_discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#auto_discovery_enabled EnforcerGroups#auto_discovery_enabled}
   */
   readonly autoDiscoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * This option is available only if `Enable workload discovery` is selected. If selected, the KubeEnforcer will automatically register images running as workloads (and scan the discovered images for security issues).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#auto_scan_discovered_images_running_containers EnforcerGroups#auto_scan_discovered_images_running_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#auto_scan_discovered_images_running_containers EnforcerGroups#auto_scan_discovered_images_running_containers}
   */
   readonly autoScanDiscoveredImagesRunningContainers?: boolean | cdktf.IResolvable;
   /**
   * Select Enabled to detect suspicious activity in your containers and display potential security threats in the Incidents and Audit pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#behavioral_engine EnforcerGroups#behavioral_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#behavioral_engine EnforcerGroups#behavioral_engine}
   */
   readonly behavioralEngine?: boolean | cdktf.IResolvable;
   /**
   * This applies only if both `Enable admission control` and Enforce mode are set. This additional option must be selected for admission control to work if the KubeEnforcer is not connected to any Gateway. If this option is not selected, admission control will be disabled; this will have no effect on containers already running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#block_admission_control EnforcerGroups#block_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#block_admission_control EnforcerGroups#block_admission_control}
   */
   readonly blockAdmissionControl?: boolean | cdktf.IResolvable;
   /**
   * Set `True` to apply Container Runtime Policies, Image Profiles, and Firewall Policies to containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#container_activity_protection EnforcerGroups#container_activity_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#container_activity_protection EnforcerGroups#container_activity_protection}
   */
   readonly containerActivityProtection?: boolean | cdktf.IResolvable;
   /**
   * This setting is available only when you have license for `Advanced Malware Protection`. Send true to make use of the license and enable the `Real-time Malware Protection` control in the Container Runtime policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#container_antivirus_protection EnforcerGroups#container_antivirus_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#container_antivirus_protection EnforcerGroups#container_antivirus_protection}
   */
   readonly containerAntivirusProtection?: boolean | cdktf.IResolvable;
   /**
   * A description of the Aqua Enforcer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#description EnforcerGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#description EnforcerGroups#description}
   */
   readonly description?: string;
   /**
   * Whether to enable enforce mode on the Enforcers, defaults to False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#enforce EnforcerGroups#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#enforce EnforcerGroups#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Select Enabled to send activity logs in your containers to the Aqua Server for forensics purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#forensics EnforcerGroups#forensics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#forensics EnforcerGroups#forensics}
   */
   readonly forensics?: boolean | cdktf.IResolvable;
   /**
   * List of Aqua gateway IDs for the Enforcers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#gateways EnforcerGroups#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#gateways EnforcerGroups#gateways}
   */
   readonly gateways?: string[];
   /**
   * The ID of the Enforcer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#group_id EnforcerGroups#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#group_id EnforcerGroups#group_id}
   */
   readonly groupId: string;
   /**
   * Set `True` to enable host scanning and respective Host Assurance controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_assurance EnforcerGroups#host_assurance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_assurance EnforcerGroups#host_assurance}
   */
   readonly hostAssurance?: boolean | cdktf.IResolvable;
   /**
   * Set `True` to enable these Host Runtime Policy controls: `OS Users and Groups Allowed` and `OS Users and Groups Blocked`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_behavioral_engine EnforcerGroups#host_behavioral_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_behavioral_engine EnforcerGroups#host_behavioral_engine}
   */
   readonly hostBehavioralEngine?: boolean | cdktf.IResolvable;
   /**
   * Select Enabled to send activity logs in your host to the Aqua Server for forensics purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_forensics_collection EnforcerGroups#host_forensics_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_forensics_collection EnforcerGroups#host_forensics_collection}
   */
   readonly hostForensicsCollection?: boolean | cdktf.IResolvable;
   /**
   * Set `True` to apply Firewall Policies to hosts, and allow recording network maps for Aqua services. The Network Firewall setting must be disabled when deploying the Aqua Enforcer on a machine running Rocky Linux. See https://docs.aquasec.com/docs/platform-support-limitations-rocky-linux for further information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_network_protection EnforcerGroups#host_network_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_network_protection EnforcerGroups#host_network_protection}
   */
   readonly hostNetworkProtection?: boolean | cdktf.IResolvable;
   /**
   * The OS type for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_os EnforcerGroups#host_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_os EnforcerGroups#host_os}
   */
   readonly hostOs?: string;
   /**
   * Set `True` to enable all Host Runtime Policy controls except for `OS Users and Groups Allowed` and `OS Users and Groups Blocked`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_protection EnforcerGroups#host_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_protection EnforcerGroups#host_protection}
   */
   readonly hostProtection?: boolean | cdktf.IResolvable;
   /**
   * Set `True` to enable these Host Runtime Policy controls: `OS Users and Groups Allowed` and `OS Users and Groups Blocked`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#host_user_protection EnforcerGroups#host_user_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#host_user_protection EnforcerGroups#host_user_protection}
   */
   readonly hostUserProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#id EnforcerGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#id EnforcerGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -183,104 +183,104 @@ export interface EnforcerGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set `True` to enable selected controls: Container Runtime Policy (`Block Non-Compliant Images`, `Block Unregistered Images`, and `Registries Allowed`) and Default Image Assurance Policy (`Images Blocked`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#image_assurance EnforcerGroups#image_assurance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#image_assurance EnforcerGroups#image_assurance}
   */
   readonly imageAssurance?: boolean | cdktf.IResolvable;
   /**
   * See https://docs.aquasec.com/docs/securing-kubernetes-applications#section-configuration-hardening, The KubeEnforcer can deploy the Aqua Security kube-bench open-source product to perform Kubernetes CIS benchmark testing of nodes.
   * 				This field specifies the path and file name of the kube-bench product image for the KubeEnforcer to deploy; it will be filled in automatically. You can optionally enter a different value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#kube_bench_image_name EnforcerGroups#kube_bench_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#kube_bench_image_name EnforcerGroups#kube_bench_image_name}
   */
   readonly kubeBenchImageName?: string;
   /**
   * Name for the batch install record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#logical_name EnforcerGroups#logical_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#logical_name EnforcerGroups#logical_name}
   */
   readonly logicalName?: string;
   /**
   * This option is applicable only if `Enable Pod Enforcer injection` is selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#micro_enforcer_certs_secrets_name EnforcerGroups#micro_enforcer_certs_secrets_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#micro_enforcer_certs_secrets_name EnforcerGroups#micro_enforcer_certs_secrets_name}
   */
   readonly microEnforcerCertsSecretsName?: string;
   /**
   * This option is applicable only if `Enable Pod Enforcer injection` is selected. This field specifies the path and file name of the KubeEnforcer product image to be deployed; it will be filled in automatically. You can optionally enter a different value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#micro_enforcer_image_name EnforcerGroups#micro_enforcer_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#micro_enforcer_image_name EnforcerGroups#micro_enforcer_image_name}
   */
   readonly microEnforcerImageName?: string;
   /**
   * This applies only if both `Enable admission control` and Enforce mode are set. This additional option must be selected for admission control to work if the KubeEnforcer is not connected to any Gateway. If this option is not selected, admission control will be disabled; this will have no effect on containers already running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#micro_enforcer_injection EnforcerGroups#micro_enforcer_injection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#micro_enforcer_injection EnforcerGroups#micro_enforcer_injection}
   */
   readonly microEnforcerInjection?: boolean | cdktf.IResolvable;
   /**
   * You can specify the name of the secret (in the Aqua namespace) that Aqua copies into the Pod Enforcer namespace and kube-bench, allowing them access to the Pod Enforcer and kube-bench product images, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#micro_enforcer_secrets_name EnforcerGroups#micro_enforcer_secrets_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#micro_enforcer_secrets_name EnforcerGroups#micro_enforcer_secrets_name}
   */
   readonly microEnforcerSecretsName?: string;
   /**
   * Send true to apply Firewall Policies to containers, and allow recording network maps for Aqua services. The Network Firewall setting must be disabled when deploying the Aqua Enforcer on a machine running Rocky Linux. See https://docs.aquasec.com/docs/platform-support-limitations-rocky-linux for further information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#network_protection EnforcerGroups#network_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#network_protection EnforcerGroups#network_protection}
   */
   readonly networkProtection?: boolean | cdktf.IResolvable;
   /**
   * Permission Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#permission EnforcerGroups#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#permission EnforcerGroups#permission}
   */
   readonly permission?: string;
   /**
   * Set `True` to allow Enforcers to be discovered in the Risk Explorer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#risk_explorer_auto_discovery EnforcerGroups#risk_explorer_auto_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#risk_explorer_auto_discovery EnforcerGroups#risk_explorer_auto_discovery}
   */
   readonly riskExplorerAutoDiscovery?: boolean | cdktf.IResolvable;
   /**
   * The container runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#runtime_type EnforcerGroups#runtime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#runtime_type EnforcerGroups#runtime_type}
   */
   readonly runtimeType?: string;
   /**
   * Set `True` to configure Enforcers to discover local host images. Discovered images will be listed under Images > Host Images, as well as under Infrastructure (in the Images tab for applicable hosts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#sync_host_images EnforcerGroups#sync_host_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#sync_host_images EnforcerGroups#sync_host_images}
   */
   readonly syncHostImages?: boolean | cdktf.IResolvable;
   /**
   * Set `True` will allow profiling and monitoring system calls made by running containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#syscall_enabled EnforcerGroups#syscall_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#syscall_enabled EnforcerGroups#syscall_enabled}
   */
   readonly syscallEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enforcer Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#type EnforcerGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#type EnforcerGroups#type}
   */
   readonly type: string;
   /**
   * Set `True` to apply User Access Control Policies to containers. Note that Aqua Enforcers must be deployed with the AQUA_RUNC_INTERCEPTION environment variable set to 0 in order to use User Access Control Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#user_access_control EnforcerGroups#user_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#user_access_control EnforcerGroups#user_access_control}
   */
   readonly userAccessControl?: boolean | cdktf.IResolvable;
   /**
   * orchestrator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#orchestrator EnforcerGroups#orchestrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#orchestrator EnforcerGroups#orchestrator}
   */
   readonly orchestrator: EnforcerGroupsOrchestrator[] | cdktf.IResolvable;
   /**
   * schedule_scan_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#schedule_scan_settings EnforcerGroups#schedule_scan_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#schedule_scan_settings EnforcerGroups#schedule_scan_settings}
   */
   readonly scheduleScanSettings?: EnforcerGroupsScheduleScanSettings;
 }
@@ -376,23 +376,23 @@ export class EnforcerGroupsCommandList extends cdktf.ComplexList {
 }
 export interface EnforcerGroupsOrchestrator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#master EnforcerGroups#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#master EnforcerGroups#master}
   */
   readonly master?: boolean | cdktf.IResolvable;
   /**
   * May be specified for these orchestrators: Kubernetes, Kubernetes GKE, VMware Tanzu Kubernetes Grid Integrated Edition (PKS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#namespace EnforcerGroups#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#namespace EnforcerGroups#namespace}
   */
   readonly namespace?: string;
   /**
   * May be specified for these orchestrators: Kubernetes, Kubernetes GKE, OpenShift, VMware Tanzu Kubernetes Grid Integrated Edition (PKS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#service_account EnforcerGroups#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#service_account EnforcerGroups#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#type EnforcerGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#type EnforcerGroups#type}
   */
   readonly type?: string;
 }
@@ -595,19 +595,19 @@ export class EnforcerGroupsOrchestratorList extends cdktf.ComplexList {
 }
 export interface EnforcerGroupsScheduleScanSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#days EnforcerGroups#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#days EnforcerGroups#days}
   */
   readonly days?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#disabled EnforcerGroups#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#disabled EnforcerGroups#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#is_custom EnforcerGroups#is_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#is_custom EnforcerGroups#is_custom}
   */
   readonly isCustom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#time EnforcerGroups#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#time EnforcerGroups#time}
   */
   readonly time?: number[];
 }
@@ -778,7 +778,7 @@ export class EnforcerGroupsScheduleScanSettingsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups aquasec_enforcer_groups}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups aquasec_enforcer_groups}
 */
 export class EnforcerGroups extends cdktf.TerraformResource {
 
@@ -794,7 +794,7 @@ export class EnforcerGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnforcerGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnforcerGroups to import
-  * @param importFromId The id of the existing EnforcerGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnforcerGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnforcerGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -806,7 +806,7 @@ export class EnforcerGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/enforcer_groups aquasec_enforcer_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/enforcer_groups aquasec_enforcer_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -817,8 +817,8 @@ export class EnforcerGroups extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_enforcer_groups',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

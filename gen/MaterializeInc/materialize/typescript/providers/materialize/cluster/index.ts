@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The specific availability zones of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#availability_zones Cluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#availability_zones Cluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#comment Cluster#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#comment Cluster#comment}
   */
   readonly comment?: string;
   /**
   * **Deprecated**. This attribute is maintained for backward compatibility with existing configurations. New users should use 'cc' sizes for disk access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#disk Cluster#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#disk Cluster#disk}
   */
   readonly disk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use the cluster name as the resource identifier in your state file, rather than the internal cluster ID. This is particularly useful in scenarios like dbt-materialize blue/green deployments, where clusters are swapped but the ID changes. By identifying by name, the resource can be managed consistently even when the underlying cluster ID is updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#identify_by_name Cluster#identify_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#identify_by_name Cluster#identify_by_name}
   */
   readonly identifyByName?: boolean | cdktf.IResolvable;
   /**
   * Whether to introspect the gathering of the introspection data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#introspection_debugging Cluster#introspection_debugging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#introspection_debugging Cluster#introspection_debugging}
   */
   readonly introspectionDebugging?: boolean | cdktf.IResolvable;
   /**
   * The interval at which to collect introspection data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#introspection_interval Cluster#introspection_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#introspection_interval Cluster#introspection_interval}
   */
   readonly introspectionInterval?: string;
   /**
   * The identifier for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#ownership_role Cluster#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#ownership_role Cluster#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#region Cluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#region Cluster#region}
   */
   readonly region?: string;
   /**
   * The number of replicas of each dataflow-powered object to maintain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#replication_factor Cluster#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#replication_factor Cluster#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * The size of the managed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#size Cluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#size Cluster#size}
   */
   readonly size?: string;
   /**
   * scheduling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#scheduling Cluster#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#scheduling Cluster#scheduling}
   */
   readonly scheduling?: ClusterScheduling;
   /**
   * wait_until_ready block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#wait_until_ready Cluster#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#wait_until_ready Cluster#wait_until_ready}
   */
   readonly waitUntilReady?: ClusterWaitUntilReady;
 }
@@ -97,19 +97,19 @@ export interface ClusterSchedulingOnRefresh {
   /**
   * Enable scheduling to refresh the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#enabled Cluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#enabled Cluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Estimated time to hydrate the cluster during refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#hydration_time_estimate Cluster#hydration_time_estimate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#hydration_time_estimate Cluster#hydration_time_estimate}
   */
   readonly hydrationTimeEstimate?: string;
   /**
   * Estimated time to rehydrate the cluster during refresh. This field is deprecated and will be removed in a future release. Use `hydration_time_estimate` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#rehydration_time_estimate Cluster#rehydration_time_estimate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#rehydration_time_estimate Cluster#rehydration_time_estimate}
   */
   readonly rehydrationTimeEstimate?: string;
 }
@@ -253,7 +253,7 @@ export interface ClusterScheduling {
   /**
   * on_refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#on_refresh Cluster#on_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#on_refresh Cluster#on_refresh}
   */
   readonly onRefresh?: ClusterSchedulingOnRefresh;
 }
@@ -339,19 +339,19 @@ export interface ClusterWaitUntilReady {
   /**
   * Enable wait_until_ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#enabled Cluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#enabled Cluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Action to take on timeout: COMMIT|ROLLBACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#on_timeout Cluster#on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#on_timeout Cluster#on_timeout}
   */
   readonly onTimeout?: string;
   /**
   * Max duration to wait for the new replicas to be ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#timeout Cluster#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#timeout Cluster#timeout}
   */
   readonly timeout?: string;
 }
@@ -493,7 +493,7 @@ export class ClusterWaitUntilReadyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster materialize_cluster}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster materialize_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -509,7 +509,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/cluster materialize_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/cluster materialize_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_cluster',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ConnectionAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the IAM role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#assume_role_arn ConnectionAws#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#assume_role_arn ConnectionAws#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * The session name to use when assuming the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#assume_role_session_name ConnectionAws#assume_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#assume_role_session_name ConnectionAws#assume_role_session_name}
   */
   readonly assumeRoleSessionName?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#aws_region ConnectionAws#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#aws_region ConnectionAws#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#comment ConnectionAws#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#comment ConnectionAws#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#database_name ConnectionAws#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#database_name ConnectionAws#database_name}
   */
   readonly databaseName?: string;
   /**
   * Override the default AWS endpoint URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#endpoint ConnectionAws#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#endpoint ConnectionAws#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#id ConnectionAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#id ConnectionAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface ConnectionAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#name ConnectionAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#name ConnectionAws#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#ownership_role ConnectionAws#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#ownership_role ConnectionAws#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#region ConnectionAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#region ConnectionAws#region}
   */
   readonly region?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
   */
   readonly schemaName?: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#validate ConnectionAws#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#validate ConnectionAws#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * access_key_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#access_key_id ConnectionAws#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#access_key_id ConnectionAws#access_key_id}
   */
   readonly accessKeyId?: ConnectionAwsAccessKeyId;
   /**
   * secret_access_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#secret_access_key ConnectionAws#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#secret_access_key ConnectionAws#secret_access_key}
   */
   readonly secretAccessKey?: ConnectionAwsSecretAccessKey;
   /**
   * session_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#session_token ConnectionAws#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#session_token ConnectionAws#session_token}
   */
   readonly sessionToken?: ConnectionAwsSessionToken;
 }
@@ -103,19 +103,19 @@ export interface ConnectionAwsAccessKeyIdSecret {
   /**
   * The access_key_id database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#database_name ConnectionAws#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#database_name ConnectionAws#database_name}
   */
   readonly databaseName?: string;
   /**
   * The access_key_id name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#name ConnectionAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#name ConnectionAws#name}
   */
   readonly name: string;
   /**
   * The access_key_id schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -256,13 +256,13 @@ export interface ConnectionAwsAccessKeyId {
   /**
   * The `access_key_id` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#text ConnectionAws#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#text ConnectionAws#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#secret ConnectionAws#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#secret ConnectionAws#secret}
   */
   readonly secret?: ConnectionAwsAccessKeyIdSecret;
 }
@@ -377,19 +377,19 @@ export interface ConnectionAwsSecretAccessKey {
   /**
   * The secret_access_key database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#database_name ConnectionAws#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#database_name ConnectionAws#database_name}
   */
   readonly databaseName?: string;
   /**
   * The secret_access_key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#name ConnectionAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#name ConnectionAws#name}
   */
   readonly name: string;
   /**
   * The secret_access_key schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -530,19 +530,19 @@ export interface ConnectionAwsSessionTokenSecret {
   /**
   * The session_token database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#database_name ConnectionAws#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#database_name ConnectionAws#database_name}
   */
   readonly databaseName?: string;
   /**
   * The session_token name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#name ConnectionAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#name ConnectionAws#name}
   */
   readonly name: string;
   /**
   * The session_token schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#schema_name ConnectionAws#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -683,13 +683,13 @@ export interface ConnectionAwsSessionToken {
   /**
   * The `session_token` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#text ConnectionAws#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#text ConnectionAws#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#secret ConnectionAws#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#secret ConnectionAws#secret}
   */
   readonly secret?: ConnectionAwsSessionTokenSecret;
 }
@@ -802,7 +802,7 @@ export class ConnectionAwsSessionTokenOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws materialize_connection_aws}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws materialize_connection_aws}
 */
 export class ConnectionAws extends cdktf.TerraformResource {
 
@@ -818,7 +818,7 @@ export class ConnectionAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionAws to import
-  * @param importFromId The id of the existing ConnectionAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -830,7 +830,7 @@ export class ConnectionAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_aws materialize_connection_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_aws materialize_connection_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -841,8 +841,8 @@ export class ConnectionAws extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_aws',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

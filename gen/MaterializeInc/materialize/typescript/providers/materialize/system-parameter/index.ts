@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SystemParameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter#id SystemParameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter#id SystemParameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SystemParameterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the system parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter#name SystemParameter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter#name SystemParameter#name}
   */
   readonly name: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter#region SystemParameter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter#region SystemParameter#region}
   */
   readonly region?: string;
   /**
   * The value to set for the system parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter#value SystemParameter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter#value SystemParameter#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter materialize_system_parameter}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter materialize_system_parameter}
 */
 export class SystemParameter extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SystemParameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemParameter to import
-  * @param importFromId The id of the existing SystemParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SystemParameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/system_parameter materialize_system_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/system_parameter materialize_system_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SystemParameter extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_system_parameter',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

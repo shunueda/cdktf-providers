@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TypeGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The database that the type belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#database_name TypeGrant#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#database_name TypeGrant#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#id TypeGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#id TypeGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TypeGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The privilege to grant to the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#privilege TypeGrant#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#privilege TypeGrant#privilege}
   */
   readonly privilege: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#region TypeGrant#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#region TypeGrant#region}
   */
   readonly region?: string;
   /**
   * The name of the role to grant privilege to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#role_name TypeGrant#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#role_name TypeGrant#role_name}
   */
   readonly roleName: string;
   /**
   * The schema that the type being to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#schema_name TypeGrant#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#schema_name TypeGrant#schema_name}
   */
   readonly schemaName: string;
   /**
   * The type that is being granted on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#type_name TypeGrant#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#type_name TypeGrant#type_name}
   */
   readonly typeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant materialize_type_grant}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant materialize_type_grant}
 */
 export class TypeGrant extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TypeGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TypeGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TypeGrant to import
-  * @param importFromId The id of the existing TypeGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TypeGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TypeGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TypeGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/type_grant materialize_type_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/type_grant materialize_type_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TypeGrant extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_type_grant',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

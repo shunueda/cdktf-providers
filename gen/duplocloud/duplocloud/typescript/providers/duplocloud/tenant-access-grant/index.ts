@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TenantAccessGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The area the grant allows access to. Currently supported: ['s3', 'dynamodb', 'kms']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#grant_area TenantAccessGrant#grant_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#grant_area TenantAccessGrant#grant_area}
   */
   readonly grantArea: string;
   /**
   * The GUID of the tenant that will receive the granted access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#grantee_tenant_id TenantAccessGrant#grantee_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#grantee_tenant_id TenantAccessGrant#grantee_tenant_id}
   */
   readonly granteeTenantId: string;
   /**
   * The GUID of the tenant that will grant the access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#grantor_tenant_id TenantAccessGrant#grantor_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#grantor_tenant_id TenantAccessGrant#grantor_tenant_id}
   */
   readonly grantorTenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#id TenantAccessGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#id TenantAccessGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,21 +35,21 @@ export interface TenantAccessGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#timeouts TenantAccessGrant#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#timeouts TenantAccessGrant#timeouts}
   */
   readonly timeouts?: TenantAccessGrantTimeouts;
 }
 export interface TenantAccessGrantTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#create TenantAccessGrant#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#create TenantAccessGrant#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#delete TenantAccessGrant#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#delete TenantAccessGrant#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#update TenantAccessGrant#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#update TenantAccessGrant#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class TenantAccessGrantTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant duplocloud_tenant_access_grant}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant duplocloud_tenant_access_grant}
 */
 export class TenantAccessGrant extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class TenantAccessGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantAccessGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantAccessGrant to import
-  * @param importFromId The id of the existing TenantAccessGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantAccessGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantAccessGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class TenantAccessGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/tenant_access_grant duplocloud_tenant_access_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/tenant_access_grant duplocloud_tenant_access_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class TenantAccessGrant extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_access_grant',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

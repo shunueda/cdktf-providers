@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether this registry is the default registry (default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#default Registry#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#default Registry#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The name of the fallback registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#fallback_registry Registry#fallback_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#fallback_registry Registry#fallback_registry}
   */
   readonly fallbackRegistry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#id Registry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#id Registry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface RegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name for the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#name Registry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#name Registry#name}
   */
   readonly name: string;
   /**
   * Whether this registry is the primary registry (default: `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#primary Registry#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#primary Registry#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#spec Registry#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#spec Registry#spec}
   */
   readonly spec: RegistrySpec;
 }
@@ -49,25 +49,25 @@ export interface RegistrySpecAcr {
   /**
   * The Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#client_id Registry#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#client_id Registry#client_id}
   */
   readonly clientId: string;
   /**
   * The Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#client_secret Registry#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#client_secret Registry#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The ACR registry domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#domain Registry#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#domain Registry#domain}
   */
   readonly domain: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
 }
@@ -231,25 +231,25 @@ export interface RegistrySpecBintray {
   /**
   * The Bintray domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#domain Registry#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#domain Registry#domain}
   */
   readonly domain: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
   /**
   * The Bintray token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#token Registry#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#token Registry#token}
   */
   readonly token: string;
   /**
   * The Bintray username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#username Registry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#username Registry#username}
   */
   readonly username: string;
 }
@@ -413,13 +413,13 @@ export interface RegistrySpecDockerhub {
   /**
   * The DockerHub password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#password Registry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#password Registry#password}
   */
   readonly password: string;
   /**
   * The DockerHub username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#username Registry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#username Registry#username}
   */
   readonly username: string;
 }
@@ -528,25 +528,25 @@ export interface RegistrySpecEcr {
   /**
   * The AWS access key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#access_key_id Registry#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#access_key_id Registry#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#region Registry#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#region Registry#region}
   */
   readonly region: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
   /**
   * The AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#secret_access_key Registry#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#secret_access_key Registry#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -710,19 +710,19 @@ export interface RegistrySpecGar {
   /**
   * The serviceaccount json file contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#keyfile Registry#keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#keyfile Registry#keyfile}
   */
   readonly keyfile: string;
   /**
   * The GAR location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#location Registry#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#location Registry#location}
   */
   readonly location: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
 }
@@ -860,19 +860,19 @@ export interface RegistrySpecGcr {
   /**
   * The GCR registry domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#domain Registry#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#domain Registry#domain}
   */
   readonly domain: string;
   /**
   * The serviceaccount json file contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#keyfile Registry#keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#keyfile Registry#keyfile}
   */
   readonly keyfile: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
 }
@@ -1010,31 +1010,31 @@ export interface RegistrySpecOther {
   /**
   * See the [docs](https://codefresh.io/docs/docs/administration/behind-the-firewall/#accessing-an-internal-docker-registry).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#behind_firewall Registry#behind_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#behind_firewall Registry#behind_firewall}
   */
   readonly behindFirewall?: boolean | cdktf.IResolvable;
   /**
   * The domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#domain Registry#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#domain Registry#domain}
   */
   readonly domain: string;
   /**
   * The password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#password Registry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#password Registry#password}
   */
   readonly password: string;
   /**
   * See the [docs](https://codefresh.io/docs/docs/integrations/docker-registries/#using-an-optional-repository-prefix).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#repository_prefix Registry#repository_prefix}
   */
   readonly repositoryPrefix?: string;
   /**
   * The username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#username Registry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#username Registry#username}
   */
   readonly username: string;
 }
@@ -1227,43 +1227,43 @@ export interface RegistrySpec {
   /**
   * acr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#acr Registry#acr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#acr Registry#acr}
   */
   readonly acr?: RegistrySpecAcr;
   /**
   * bintray block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#bintray Registry#bintray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#bintray Registry#bintray}
   */
   readonly bintray?: RegistrySpecBintray;
   /**
   * dockerhub block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#dockerhub Registry#dockerhub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#dockerhub Registry#dockerhub}
   */
   readonly dockerhub?: RegistrySpecDockerhub;
   /**
   * ecr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#ecr Registry#ecr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#ecr Registry#ecr}
   */
   readonly ecr?: RegistrySpecEcr;
   /**
   * gar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#gar Registry#gar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#gar Registry#gar}
   */
   readonly gar?: RegistrySpecGar;
   /**
   * gcr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#gcr Registry#gcr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#gcr Registry#gcr}
   */
   readonly gcr?: RegistrySpecGcr;
   /**
   * other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#other Registry#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#other Registry#other}
   */
   readonly other?: RegistrySpecOther;
 }
@@ -1521,7 +1521,7 @@ export class RegistrySpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry codefresh_registry}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry codefresh_registry}
 */
 export class Registry extends cdktf.TerraformResource {
 
@@ -1537,7 +1537,7 @@ export class Registry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Registry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Registry to import
-  * @param importFromId The id of the existing Registry that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Registry that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Registry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1549,7 +1549,7 @@ export class Registry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/registry codefresh_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/registry codefresh_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1560,8 +1560,8 @@ export class Registry extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_registry',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

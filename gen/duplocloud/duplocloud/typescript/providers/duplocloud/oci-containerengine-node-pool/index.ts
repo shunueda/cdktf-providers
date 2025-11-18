@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OciContainerengineNodePoolConfig extends cdktf.TerraformMetaArg
   /**
   * Defined tags for this resource. Each key is predefined and scoped to a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#defined_tags OciContainerengineNodePool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#defined_tags OciContainerengineNodePool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
   * Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#freeform_tags OciContainerengineNodePool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#freeform_tags OciContainerengineNodePool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#id OciContainerengineNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#id OciContainerengineNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,105 +29,105 @@ export interface OciContainerengineNodePoolConfig extends cdktf.TerraformMetaArg
   /**
   * The version of Kubernetes to install on the nodes in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#kubernetes_version OciContainerengineNodePool#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#kubernetes_version OciContainerengineNodePool#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * The name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#name OciContainerengineNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#name OciContainerengineNodePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_image_id OciContainerengineNodePool#node_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_image_id OciContainerengineNodePool#node_image_id}
   */
   readonly nodeImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_image_name OciContainerengineNodePool#node_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_image_name OciContainerengineNodePool#node_image_name}
   */
   readonly nodeImageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_metadata OciContainerengineNodePool#node_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_metadata OciContainerengineNodePool#node_metadata}
   */
   readonly nodeMetadata?: { [key: string]: string };
   /**
   * The name of the node shape of the nodes in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_shape OciContainerengineNodePool#node_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_shape OciContainerengineNodePool#node_shape}
   */
   readonly nodeShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#quantity_per_subnet OciContainerengineNodePool#quantity_per_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#quantity_per_subnet OciContainerengineNodePool#quantity_per_subnet}
   */
   readonly quantityPerSubnet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#ssh_public_key OciContainerengineNodePool#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#ssh_public_key OciContainerengineNodePool#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#subnet_ids OciContainerengineNodePool#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#subnet_ids OciContainerengineNodePool#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#system_tags OciContainerengineNodePool#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#system_tags OciContainerengineNodePool#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * The GUID of the tenant that the Node Pool resource in Oracle Cloud Infrastructure Container Engine service be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#tenant_id OciContainerengineNodePool#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#tenant_id OciContainerengineNodePool#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Whether or not to wait until oci node pool to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#wait_until_ready OciContainerengineNodePool#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#wait_until_ready OciContainerengineNodePool#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * initial_node_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#initial_node_labels OciContainerengineNodePool#initial_node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#initial_node_labels OciContainerengineNodePool#initial_node_labels}
   */
   readonly initialNodeLabels?: OciContainerengineNodePoolInitialNodeLabels[] | cdktf.IResolvable;
   /**
   * node_config_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_config_details OciContainerengineNodePool#node_config_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_config_details OciContainerengineNodePool#node_config_details}
   */
   readonly nodeConfigDetails?: OciContainerengineNodePoolNodeConfigDetails;
   /**
   * node_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_shape_config OciContainerengineNodePool#node_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_shape_config OciContainerengineNodePool#node_shape_config}
   */
   readonly nodeShapeConfig: OciContainerengineNodePoolNodeShapeConfig;
   /**
   * node_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#node_source_details OciContainerengineNodePool#node_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#node_source_details OciContainerengineNodePool#node_source_details}
   */
   readonly nodeSourceDetails?: OciContainerengineNodePoolNodeSourceDetails;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#nodes OciContainerengineNodePool#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#nodes OciContainerengineNodePool#nodes}
   */
   readonly nodes?: OciContainerengineNodePoolNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#timeouts OciContainerengineNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#timeouts OciContainerengineNodePool#timeouts}
   */
   readonly timeouts?: OciContainerengineNodePoolTimeouts;
 }
 export interface OciContainerengineNodePoolInitialNodeLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#key OciContainerengineNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#key OciContainerengineNodePool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#value OciContainerengineNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#value OciContainerengineNodePool#value}
   */
   readonly value?: string;
 }
@@ -272,15 +272,15 @@ export class OciContainerengineNodePoolInitialNodeLabelsList extends cdktf.Compl
 }
 export interface OciContainerengineNodePoolNodeConfigDetailsPlacementConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#availability_domain OciContainerengineNodePool#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#availability_domain OciContainerengineNodePool#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#capacity_reservation_id OciContainerengineNodePool#capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#capacity_reservation_id OciContainerengineNodePool#capacity_reservation_id}
   */
   readonly capacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#subnet_id OciContainerengineNodePool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#subnet_id OciContainerengineNodePool#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -448,33 +448,33 @@ export class OciContainerengineNodePoolNodeConfigDetailsPlacementConfigsList ext
 }
 export interface OciContainerengineNodePoolNodeConfigDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#defined_tags OciContainerengineNodePool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#defined_tags OciContainerengineNodePool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#freeform_tags OciContainerengineNodePool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#freeform_tags OciContainerengineNodePool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#is_pv_encryption_in_transit_enabled OciContainerengineNodePool#is_pv_encryption_in_transit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#is_pv_encryption_in_transit_enabled OciContainerengineNodePool#is_pv_encryption_in_transit_enabled}
   */
   readonly isPvEncryptionInTransitEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#kms_key_id OciContainerengineNodePool#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#kms_key_id OciContainerengineNodePool#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#nsg_ids OciContainerengineNodePool#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#nsg_ids OciContainerengineNodePool#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#size OciContainerengineNodePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#size OciContainerengineNodePool#size}
   */
   readonly size: number;
   /**
   * placement_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#placement_configs OciContainerengineNodePool#placement_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#placement_configs OciContainerengineNodePool#placement_configs}
   */
   readonly placementConfigs: OciContainerengineNodePoolNodeConfigDetailsPlacementConfigs[] | cdktf.IResolvable;
 }
@@ -726,11 +726,11 @@ export class OciContainerengineNodePoolNodeConfigDetailsOutputReference extends 
 }
 export interface OciContainerengineNodePoolNodeShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#memory_in_gbs OciContainerengineNodePool#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#memory_in_gbs OciContainerengineNodePool#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#ocpus OciContainerengineNodePool#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#ocpus OciContainerengineNodePool#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -843,15 +843,15 @@ export class OciContainerengineNodePoolNodeShapeConfigOutputReference extends cd
 }
 export interface OciContainerengineNodePoolNodeSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#boot_volume_size_in_gbs OciContainerengineNodePool#boot_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#boot_volume_size_in_gbs OciContainerengineNodePool#boot_volume_size_in_gbs}
   */
   readonly bootVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#image_id OciContainerengineNodePool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#image_id OciContainerengineNodePool#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#source_type OciContainerengineNodePool#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#source_type OciContainerengineNodePool#source_type}
   */
   readonly sourceType: string;
 }
@@ -1141,11 +1141,11 @@ export class OciContainerengineNodePoolNodesList extends cdktf.ComplexList {
 }
 export interface OciContainerengineNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#create OciContainerengineNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#create OciContainerengineNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#delete OciContainerengineNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#delete OciContainerengineNodePool#delete}
   */
   readonly delete?: string;
 }
@@ -1268,7 +1268,7 @@ export class OciContainerengineNodePoolTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool duplocloud_oci_containerengine_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool duplocloud_oci_containerengine_node_pool}
 */
 export class OciContainerengineNodePool extends cdktf.TerraformResource {
 
@@ -1284,7 +1284,7 @@ export class OciContainerengineNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OciContainerengineNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OciContainerengineNodePool to import
-  * @param importFromId The id of the existing OciContainerengineNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OciContainerengineNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OciContainerengineNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1296,7 +1296,7 @@ export class OciContainerengineNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/oci_containerengine_node_pool duplocloud_oci_containerengine_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/oci_containerengine_node_pool duplocloud_oci_containerengine_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1307,8 +1307,8 @@ export class OciContainerengineNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_oci_containerengine_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

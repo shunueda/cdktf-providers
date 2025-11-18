@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,163 @@ export interface SandboxConfig extends cdktf.TerraformMetaArguments {
   /**
   * The sandbox's app dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#app_dir Sandbox#app_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#app_dir Sandbox#app_dir}
   */
   readonly appDir?: string;
   /**
   * The sandbox's app type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#app_type Sandbox#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#app_type Sandbox#app_type}
   */
   readonly appType?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#domain Sandbox#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#domain Sandbox#domain}
   */
   readonly domain: string;
   /**
   * The sandbox's map of endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#endpoints Sandbox#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#endpoints Sandbox#endpoints}
   */
   readonly endpoints?: { [key: string]: SandboxEndpoints } | cdktf.IResolvable;
   /**
   * The sandbox's identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#identifier Sandbox#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#identifier Sandbox#identifier}
   */
   readonly identifier?: string;
   /**
   * The sandbox's install commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#install_commands Sandbox#install_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#install_commands Sandbox#install_commands}
   */
   readonly installCommands?: string;
   /**
   * The sandbox's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#name Sandbox#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#name Sandbox#name}
   */
   readonly name: string;
   /**
   * The sandbox's operating system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#os Sandbox#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#os Sandbox#os}
   */
   readonly os?: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#project_name Sandbox#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#project_name Sandbox#project_name}
   */
   readonly projectName: string;
   /**
   * The sandbox's resources (cpu, ram)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#resources Sandbox#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#resources Sandbox#resources}
   */
   readonly resources?: string;
   /**
   * The sandbox's command for app to start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#run_command Sandbox#run_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#run_command Sandbox#run_command}
   */
   readonly runCommand?: string;
   /**
   * The sandbox's list of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#tags Sandbox#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#tags Sandbox#tags}
   */
   readonly tags?: string[];
   /**
   * Wait until sandbox running app commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_app Sandbox#wait_for_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_app Sandbox#wait_for_app}
   */
   readonly waitForApp?: boolean | cdktf.IResolvable;
   /**
   * Seconds to wait until sandbox ran app commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_app_timeout Sandbox#wait_for_app_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_app_timeout Sandbox#wait_for_app_timeout}
   */
   readonly waitForAppTimeout?: number;
   /**
   * Wait until sandbox ran setup commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_configured Sandbox#wait_for_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_configured Sandbox#wait_for_configured}
   */
   readonly waitForConfigured?: boolean | cdktf.IResolvable;
   /**
   * Seconds to wait until sandbox ran setup commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_configured_timeout Sandbox#wait_for_configured_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_configured_timeout Sandbox#wait_for_configured_timeout}
   */
   readonly waitForConfiguredTimeout?: number;
   /**
   * Wait until sandbox is running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_running Sandbox#wait_for_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_running Sandbox#wait_for_running}
   */
   readonly waitForRunning?: boolean | cdktf.IResolvable;
   /**
   * Seconds to wait until sandbox is running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#wait_for_running_timeout Sandbox#wait_for_running_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#wait_for_running_timeout Sandbox#wait_for_running_timeout}
   */
   readonly waitForRunningTimeout?: number;
 }
 export interface SandboxEndpointsHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#auth_type Sandbox#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#auth_type Sandbox#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#circuit_breaker Sandbox#circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#circuit_breaker Sandbox#circuit_breaker}
   */
   readonly circuitBreaker?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#compression Sandbox#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#compression Sandbox#compression}
   */
   readonly compression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#http2 Sandbox#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#http2 Sandbox#http2}
   */
   readonly http2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#log_requests Sandbox#log_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#log_requests Sandbox#log_requests}
   */
   readonly logRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#login Sandbox#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#login Sandbox#login}
   */
   readonly login?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#password Sandbox#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#password Sandbox#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#request_headers Sandbox#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#request_headers Sandbox#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#response_headers Sandbox#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#response_headers Sandbox#response_headers}
   */
   readonly responseHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#rewrite_host_header Sandbox#rewrite_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#rewrite_host_header Sandbox#rewrite_host_header}
   */
   readonly rewriteHostHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#tls_ca Sandbox#tls_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#tls_ca Sandbox#tls_ca}
   */
   readonly tlsCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#verify_certificate Sandbox#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#verify_certificate Sandbox#verify_certificate}
   */
   readonly verifyCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#whitelist_user_agents Sandbox#whitelist_user_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#whitelist_user_agents Sandbox#whitelist_user_agents}
   */
   readonly whitelistUserAgents?: string[];
 }
@@ -608,19 +608,19 @@ export class SandboxEndpointsHttpOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxEndpointsTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#ca_certificate Sandbox#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#ca_certificate Sandbox#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#certificate Sandbox#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#certificate Sandbox#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#private_key Sandbox#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#private_key Sandbox#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#terminate_at Sandbox#terminate_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#terminate_at Sandbox#terminate_at}
   */
   readonly terminateAt?: string;
 }
@@ -801,31 +801,31 @@ export class SandboxEndpointsTlsOutputReference extends cdktf.ComplexObject {
 }
 export interface SandboxEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#endpoint Sandbox#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#endpoint Sandbox#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#http Sandbox#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#http Sandbox#http}
   */
   readonly http?: SandboxEndpointsHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#region Sandbox#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#region Sandbox#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#timeout Sandbox#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#timeout Sandbox#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#tls Sandbox#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#tls Sandbox#tls}
   */
   readonly tls?: SandboxEndpointsTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#type Sandbox#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#type Sandbox#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#whitelist Sandbox#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#whitelist Sandbox#whitelist}
   */
   readonly whitelist?: string[];
 }
@@ -1107,7 +1107,7 @@ export class SandboxEndpointsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox buddy_sandbox}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox buddy_sandbox}
 */
 export class Sandbox extends cdktf.TerraformResource {
 
@@ -1123,7 +1123,7 @@ export class Sandbox extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sandbox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sandbox to import
-  * @param importFromId The id of the existing Sandbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sandbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sandbox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1135,7 +1135,7 @@ export class Sandbox extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox buddy_sandbox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox buddy_sandbox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1146,8 +1146,8 @@ export class Sandbox extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_sandbox',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

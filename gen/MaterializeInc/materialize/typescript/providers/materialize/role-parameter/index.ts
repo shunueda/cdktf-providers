@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RoleParameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#id RoleParameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#id RoleParameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface RoleParameterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#region RoleParameter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#region RoleParameter#region}
   */
   readonly region?: string;
   /**
   * The name of the role to grant privilege to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#role_name RoleParameter#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#role_name RoleParameter#role_name}
   */
   readonly roleName: string;
   /**
   * The name of the session variable to modify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#variable_name RoleParameter#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#variable_name RoleParameter#variable_name}
   */
   readonly variableName: string;
   /**
   * The value to assign to the session variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#variable_value RoleParameter#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#variable_value RoleParameter#variable_value}
   */
   readonly variableValue: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter materialize_role_parameter}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter materialize_role_parameter}
 */
 export class RoleParameter extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RoleParameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleParameter to import
-  * @param importFromId The id of the existing RoleParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RoleParameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/role_parameter materialize_role_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/role_parameter materialize_role_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RoleParameter extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_role_parameter',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

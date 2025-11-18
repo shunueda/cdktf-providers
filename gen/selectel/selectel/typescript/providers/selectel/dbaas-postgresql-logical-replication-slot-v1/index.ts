@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DbaasPostgresqlLogicalReplicationSlotV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#database_id DbaasPostgresqlLogicalReplicationSlotV1#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#database_id DbaasPostgresqlLogicalReplicationSlotV1#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#datastore_id DbaasPostgresqlLogicalReplicationSlotV1#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#datastore_id DbaasPostgresqlLogicalReplicationSlotV1#datastore_id}
   */
   readonly datastoreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#id DbaasPostgresqlLogicalReplicationSlotV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#id DbaasPostgresqlLogicalReplicationSlotV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#name DbaasPostgresqlLogicalReplicationSlotV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#name DbaasPostgresqlLogicalReplicationSlotV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#project_id DbaasPostgresqlLogicalReplicationSlotV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#project_id DbaasPostgresqlLogicalReplicationSlotV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#region DbaasPostgresqlLogicalReplicationSlotV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#region DbaasPostgresqlLogicalReplicationSlotV1#region}
   */
   readonly region: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#timeouts DbaasPostgresqlLogicalReplicationSlotV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#timeouts DbaasPostgresqlLogicalReplicationSlotV1#timeouts}
   */
   readonly timeouts?: DbaasPostgresqlLogicalReplicationSlotV1Timeouts;
 }
 export interface DbaasPostgresqlLogicalReplicationSlotV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#create DbaasPostgresqlLogicalReplicationSlotV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#create DbaasPostgresqlLogicalReplicationSlotV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#delete DbaasPostgresqlLogicalReplicationSlotV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#delete DbaasPostgresqlLogicalReplicationSlotV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#update DbaasPostgresqlLogicalReplicationSlotV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#update DbaasPostgresqlLogicalReplicationSlotV1#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class DbaasPostgresqlLogicalReplicationSlotV1TimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1 selectel_dbaas_postgresql_logical_replication_slot_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1 selectel_dbaas_postgresql_logical_replication_slot_v1}
 */
 export class DbaasPostgresqlLogicalReplicationSlotV1 extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class DbaasPostgresqlLogicalReplicationSlotV1 extends cdktf.TerraformReso
   * Generates CDKTF code for importing a DbaasPostgresqlLogicalReplicationSlotV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasPostgresqlLogicalReplicationSlotV1 to import
-  * @param importFromId The id of the existing DbaasPostgresqlLogicalReplicationSlotV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasPostgresqlLogicalReplicationSlotV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasPostgresqlLogicalReplicationSlotV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DbaasPostgresqlLogicalReplicationSlotV1 extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1 selectel_dbaas_postgresql_logical_replication_slot_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_postgresql_logical_replication_slot_v1 selectel_dbaas_postgresql_logical_replication_slot_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DbaasPostgresqlLogicalReplicationSlotV1 extends cdktf.TerraformReso
       terraformResourceType: 'selectel_dbaas_postgresql_logical_replication_slot_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0',
-        providerVersionConstraint: '7.1.0'
+        providerVersion: '7.2.0',
+        providerVersionConstraint: '7.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

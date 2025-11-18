@@ -44,6 +44,7 @@ Object.defineProperty(exports, 'loadbalancer', { get: function () { return requi
 Object.defineProperty(exports, 'loadbalancerv2', { get: function () { return require('./loadbalancerv2'); } });
 Object.defineProperty(exports, 'network', { get: function () { return require('./network'); } });
 Object.defineProperty(exports, 'portAllowedAddressPairs', { get: function () { return require('./port-allowed-address-pairs'); } });
+Object.defineProperty(exports, 'portSecurity', { get: function () { return require('./port-security'); } });
 Object.defineProperty(exports, 'postgresCluster', { get: function () { return require('./postgres-cluster'); } });
 Object.defineProperty(exports, 'registryCredential', { get: function () { return require('./registry-credential'); } });
 Object.defineProperty(exports, 'reservedfixedip', { get: function () { return require('./reservedfixedip'); } });

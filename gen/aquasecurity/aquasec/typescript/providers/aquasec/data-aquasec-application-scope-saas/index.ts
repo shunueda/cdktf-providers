@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAquasecApplicationScopeSaasConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#id DataAquasecApplicationScopeSaas#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#id DataAquasecApplicationScopeSaas#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,27 +17,27 @@ export interface DataAquasecApplicationScopeSaasConfig extends cdktf.TerraformMe
   /**
   * Name of an application scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name: string;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#categories DataAquasecApplicationScopeSaas#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#categories DataAquasecApplicationScopeSaas#categories}
   */
   readonly categories?: DataAquasecApplicationScopeSaasCategories[] | cdktf.IResolvable;
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsCfVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -211,13 +211,13 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsCfVariablesList e
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsCf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesArtifactsCfVariables[] | cdktf.IResolvable;
 }
@@ -362,15 +362,15 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsCfList extends cd
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsFunctionVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -544,13 +544,13 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsFunctionVariables
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsFunction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesArtifactsFunctionVariables[] | cdktf.IResolvable;
 }
@@ -695,15 +695,15 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsFunctionList exte
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsImageVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -877,13 +877,13 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsImageVariablesLis
 }
 export interface DataAquasecApplicationScopeSaasCategoriesArtifactsImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesArtifactsImageVariables[] | cdktf.IResolvable;
 }
@@ -1030,19 +1030,19 @@ export interface DataAquasecApplicationScopeSaasCategoriesArtifacts {
   /**
   * cf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#cf DataAquasecApplicationScopeSaas#cf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#cf DataAquasecApplicationScopeSaas#cf}
   */
   readonly cf?: DataAquasecApplicationScopeSaasCategoriesArtifactsCf[] | cdktf.IResolvable;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#function DataAquasecApplicationScopeSaas#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#function DataAquasecApplicationScopeSaas#function}
   */
   readonly function?: DataAquasecApplicationScopeSaasCategoriesArtifactsFunction[] | cdktf.IResolvable;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#image DataAquasecApplicationScopeSaas#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#image DataAquasecApplicationScopeSaas#image}
   */
   readonly image?: DataAquasecApplicationScopeSaasCategoriesArtifactsImage[] | cdktf.IResolvable;
 }
@@ -1216,15 +1216,15 @@ export class DataAquasecApplicationScopeSaasCategoriesArtifactsList extends cdkt
 }
 export interface DataAquasecApplicationScopeSaasCategoriesEntityScopeVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -1398,13 +1398,13 @@ export class DataAquasecApplicationScopeSaasCategoriesEntityScopeVariablesList e
 }
 export interface DataAquasecApplicationScopeSaasCategoriesEntityScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesEntityScopeVariables[] | cdktf.IResolvable;
 }
@@ -1549,15 +1549,15 @@ export class DataAquasecApplicationScopeSaasCategoriesEntityScopeList extends cd
 }
 export interface DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetesVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -1731,13 +1731,13 @@ export class DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetesVa
 }
 export interface DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetesVariables[] | cdktf.IResolvable;
 }
@@ -1882,15 +1882,15 @@ export class DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetesLi
 }
 export interface DataAquasecApplicationScopeSaasCategoriesInfrastructureOsVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -2064,13 +2064,13 @@ export class DataAquasecApplicationScopeSaasCategoriesInfrastructureOsVariablesL
 }
 export interface DataAquasecApplicationScopeSaasCategoriesInfrastructureOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesInfrastructureOsVariables[] | cdktf.IResolvable;
 }
@@ -2217,13 +2217,13 @@ export interface DataAquasecApplicationScopeSaasCategoriesInfrastructure {
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#kubernetes DataAquasecApplicationScopeSaas#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#kubernetes DataAquasecApplicationScopeSaas#kubernetes}
   */
   readonly kubernetes?: DataAquasecApplicationScopeSaasCategoriesInfrastructureKubernetes[] | cdktf.IResolvable;
   /**
   * os block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#os DataAquasecApplicationScopeSaas#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#os DataAquasecApplicationScopeSaas#os}
   */
   readonly os?: DataAquasecApplicationScopeSaasCategoriesInfrastructureOs[] | cdktf.IResolvable;
 }
@@ -2368,15 +2368,15 @@ export class DataAquasecApplicationScopeSaasCategoriesInfrastructureList extends
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsCfVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -2550,13 +2550,13 @@ export class DataAquasecApplicationScopeSaasCategoriesWorkloadsCfVariablesList e
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsCf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesWorkloadsCfVariables[] | cdktf.IResolvable;
 }
@@ -2701,15 +2701,15 @@ export class DataAquasecApplicationScopeSaasCategoriesWorkloadsCfList extends cd
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetesVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -2883,13 +2883,13 @@ export class DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetesVariabl
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetesVariables[] | cdktf.IResolvable;
 }
@@ -3034,15 +3034,15 @@ export class DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetesList ex
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsOsVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#attribute DataAquasecApplicationScopeSaas#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#name DataAquasecApplicationScopeSaas#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#value DataAquasecApplicationScopeSaas#value}
   */
   readonly value?: string;
 }
@@ -3216,13 +3216,13 @@ export class DataAquasecApplicationScopeSaasCategoriesWorkloadsOsVariablesList e
 }
 export interface DataAquasecApplicationScopeSaasCategoriesWorkloadsOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#expression DataAquasecApplicationScopeSaas#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#variables DataAquasecApplicationScopeSaas#variables}
   */
   readonly variables?: DataAquasecApplicationScopeSaasCategoriesWorkloadsOsVariables[] | cdktf.IResolvable;
 }
@@ -3369,19 +3369,19 @@ export interface DataAquasecApplicationScopeSaasCategoriesWorkloads {
   /**
   * cf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#cf DataAquasecApplicationScopeSaas#cf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#cf DataAquasecApplicationScopeSaas#cf}
   */
   readonly cf?: DataAquasecApplicationScopeSaasCategoriesWorkloadsCf[] | cdktf.IResolvable;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#kubernetes DataAquasecApplicationScopeSaas#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#kubernetes DataAquasecApplicationScopeSaas#kubernetes}
   */
   readonly kubernetes?: DataAquasecApplicationScopeSaasCategoriesWorkloadsKubernetes[] | cdktf.IResolvable;
   /**
   * os block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#os DataAquasecApplicationScopeSaas#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#os DataAquasecApplicationScopeSaas#os}
   */
   readonly os?: DataAquasecApplicationScopeSaasCategoriesWorkloadsOs[] | cdktf.IResolvable;
 }
@@ -3557,25 +3557,25 @@ export interface DataAquasecApplicationScopeSaasCategories {
   /**
   * artifacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#artifacts DataAquasecApplicationScopeSaas#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#artifacts DataAquasecApplicationScopeSaas#artifacts}
   */
   readonly artifacts?: DataAquasecApplicationScopeSaasCategoriesArtifacts[] | cdktf.IResolvable;
   /**
   * entity_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#entity_scope DataAquasecApplicationScopeSaas#entity_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#entity_scope DataAquasecApplicationScopeSaas#entity_scope}
   */
   readonly entityScope?: DataAquasecApplicationScopeSaasCategoriesEntityScope[] | cdktf.IResolvable;
   /**
   * infrastructure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#infrastructure DataAquasecApplicationScopeSaas#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#infrastructure DataAquasecApplicationScopeSaas#infrastructure}
   */
   readonly infrastructure?: DataAquasecApplicationScopeSaasCategoriesInfrastructure[] | cdktf.IResolvable;
   /**
   * workloads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#workloads DataAquasecApplicationScopeSaas#workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#workloads DataAquasecApplicationScopeSaas#workloads}
   */
   readonly workloads?: DataAquasecApplicationScopeSaasCategoriesWorkloads[] | cdktf.IResolvable;
 }
@@ -3778,7 +3778,7 @@ export class DataAquasecApplicationScopeSaasCategoriesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas aquasec_application_scope_saas}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas aquasec_application_scope_saas}
 */
 export class DataAquasecApplicationScopeSaas extends cdktf.TerraformDataSource {
 
@@ -3794,7 +3794,7 @@ export class DataAquasecApplicationScopeSaas extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAquasecApplicationScopeSaas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAquasecApplicationScopeSaas to import
-  * @param importFromId The id of the existing DataAquasecApplicationScopeSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAquasecApplicationScopeSaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAquasecApplicationScopeSaas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3806,7 +3806,7 @@ export class DataAquasecApplicationScopeSaas extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/data-sources/application_scope_saas aquasec_application_scope_saas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/data-sources/application_scope_saas aquasec_application_scope_saas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3817,8 +3817,8 @@ export class DataAquasecApplicationScopeSaas extends cdktf.TerraformDataSource {
       terraformResourceType: 'aquasec_application_scope_saas',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -31,12 +31,14 @@ Object.defineProperty(exports, 'projectRepository', { get: function () { return 
 Object.defineProperty(exports, 'redshiftCredential', { get: function () { return require('./redshift-credential'); } });
 Object.defineProperty(exports, 'redshiftSemanticLayerCredential', { get: function () { return require('./redshift-semantic-layer-credential'); } });
 Object.defineProperty(exports, 'repository', { get: function () { return require('./repository'); } });
+Object.defineProperty(exports, 'scimGroupPartialPermissions', { get: function () { return require('./scim-group-partial-permissions'); } });
 Object.defineProperty(exports, 'scimGroupPermissions', { get: function () { return require('./scim-group-permissions'); } });
 Object.defineProperty(exports, 'semanticLayerConfiguration', { get: function () { return require('./semantic-layer-configuration'); } });
 Object.defineProperty(exports, 'semanticLayerCredentialServiceTokenMapping', { get: function () { return require('./semantic-layer-credential-service-token-mapping'); } });
 Object.defineProperty(exports, 'serviceToken', { get: function () { return require('./service-token'); } });
 Object.defineProperty(exports, 'snowflakeCredential', { get: function () { return require('./snowflake-credential'); } });
 Object.defineProperty(exports, 'snowflakeSemanticLayerCredential', { get: function () { return require('./snowflake-semantic-layer-credential'); } });
+Object.defineProperty(exports, 'sparkCredential', { get: function () { return require('./spark-credential'); } });
 Object.defineProperty(exports, 'starburstCredential', { get: function () { return require('./starburst-credential'); } });
 Object.defineProperty(exports, 'synapseCredential', { get: function () { return require('./synapse-credential'); } });
 Object.defineProperty(exports, 'teradataCredential', { get: function () { return require('./teradata-credential'); } });
@@ -70,6 +72,7 @@ Object.defineProperty(exports, 'dataDbtcloudRepository', { get: function () { re
 Object.defineProperty(exports, 'dataDbtcloudRuns', { get: function () { return require('./data-dbtcloud-runs'); } });
 Object.defineProperty(exports, 'dataDbtcloudServiceToken', { get: function () { return require('./data-dbtcloud-service-token'); } });
 Object.defineProperty(exports, 'dataDbtcloudSnowflakeCredential', { get: function () { return require('./data-dbtcloud-snowflake-credential'); } });
+Object.defineProperty(exports, 'dataDbtcloudSparkCredential', { get: function () { return require('./data-dbtcloud-spark-credential'); } });
 Object.defineProperty(exports, 'dataDbtcloudStarburstCredential', { get: function () { return require('./data-dbtcloud-starburst-credential'); } });
 Object.defineProperty(exports, 'dataDbtcloudSynapseCredential', { get: function () { return require('./data-dbtcloud-synapse-credential'); } });
 Object.defineProperty(exports, 'dataDbtcloudTeradataCredential', { get: function () { return require('./data-dbtcloud-teradata-credential'); } });

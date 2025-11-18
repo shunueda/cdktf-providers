@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataDbtcloudRepositoryConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether we should return the public deploy key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository#fetch_deploy_key DataDbtcloudRepository#fetch_deploy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository#fetch_deploy_key DataDbtcloudRepository#fetch_deploy_key}
   */
   readonly fetchDeployKey?: boolean | cdktf.IResolvable;
   /**
   * Project ID to create the repository in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository#project_id DataDbtcloudRepository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository#project_id DataDbtcloudRepository#project_id}
   */
   readonly projectId: number;
   /**
   * ID for the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository#repository_id DataDbtcloudRepository#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository#repository_id DataDbtcloudRepository#repository_id}
   */
   readonly repositoryId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository dbtcloud_repository}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository dbtcloud_repository}
 */
 export class DataDbtcloudRepository extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataDbtcloudRepository extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudRepository to import
-  * @param importFromId The id of the existing DataDbtcloudRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataDbtcloudRepository extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/repository dbtcloud_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/repository dbtcloud_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataDbtcloudRepository extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_repository',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/cribl_lake_house
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_house
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,106 +10,16 @@ export interface DataCriblioCriblLakeHouseConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the lakehouse to retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/cribl_lake_house#id DataCriblioCriblLakeHouse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_house#id DataCriblioCriblLakeHouse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
-export interface DataCriblioCriblLakeHouseItems {
-}
-
-export function dataCriblioCriblLakeHouseItemsToTerraform(struct?: DataCriblioCriblLakeHouseItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataCriblioCriblLakeHouseItemsToHclTerraform(struct?: DataCriblioCriblLakeHouseItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataCriblioCriblLakeHouseItemsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataCriblioCriblLakeHouseItems | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataCriblioCriblLakeHouseItems | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // status - computed: true, optional: false, required: false
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-
-  // tier_size - computed: true, optional: false, required: false
-  public get tierSize() {
-    return this.getStringAttribute('tier_size');
-  }
-}
-
-export class DataCriblioCriblLakeHouseItemsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataCriblioCriblLakeHouseItemsOutputReference {
-    return new DataCriblioCriblLakeHouseItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/cribl_lake_house criblio_cribl_lake_house}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_house criblio_cribl_lake_house}
 */
 export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
 
@@ -125,7 +35,7 @@ export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioCriblLakeHouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioCriblLakeHouse to import
-  * @param importFromId The id of the existing DataCriblioCriblLakeHouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/cribl_lake_house#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioCriblLakeHouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_house#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioCriblLakeHouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +47,7 @@ export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/cribl_lake_house criblio_cribl_lake_house} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_house criblio_cribl_lake_house} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +58,8 @@ export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_cribl_lake_house',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -166,6 +76,11 @@ export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -179,10 +94,14 @@ export class DataCriblioCriblLakeHouse extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // items - computed: true, optional: false, required: false
-  private _items = new DataCriblioCriblLakeHouseItemsList(this, "items", false);
-  public get items() {
-    return this._items;
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+
+  // tier_size - computed: true, optional: false, required: false
+  public get tierSize() {
+    return this.getStringAttribute('tier_size');
   }
 
   // =========

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureSqlManagedDatabaseConfig extends cdktf.TerraformMetaArgume
   /**
   * The administrator login name for the new server. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#administrator_login AzureSqlManagedDatabase#administrator_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#administrator_login AzureSqlManagedDatabase#administrator_login}
   */
   readonly administratorLogin: string;
   /**
   * The password associated with the `administrator_login` user. Needs to comply with Azure's Password Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#administrator_login_password AzureSqlManagedDatabase#administrator_login_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#administrator_login_password AzureSqlManagedDatabase#administrator_login_password}
   */
   readonly administratorLoginPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#id AzureSqlManagedDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#id AzureSqlManagedDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,65 +29,65 @@ export interface AzureSqlManagedDatabaseConfig extends cdktf.TerraformMetaArgume
   /**
   * The Minimum TLS Version for all SQL managed Database and SQL Data Warehouse databases associated with the server. Valid values are: `1.0`, `1.1` and `1.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#minimum_tls_version AzureSqlManagedDatabase#minimum_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#minimum_tls_version AzureSqlManagedDatabase#minimum_tls_version}
   */
   readonly minimumTlsVersion?: string;
   /**
   * The name of the SQL Managed Instance. This needs to be globally unique within Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#name AzureSqlManagedDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#name AzureSqlManagedDatabase#name}
   */
   readonly name: string;
   /**
   * Is the public data endpoint enabled? Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#public_data_endpoint_enabled AzureSqlManagedDatabase#public_data_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#public_data_endpoint_enabled AzureSqlManagedDatabase#public_data_endpoint_enabled}
   */
   readonly publicDataEndpointEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the SKU Name for the SQL Managed Instance. Valid values include `GP_Gen4`, `GP_Gen5`, `BC_Gen4`, `BC_Gen5`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#sku_name AzureSqlManagedDatabase#sku_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#sku_name AzureSqlManagedDatabase#sku_name}
   */
   readonly skuName: string;
   /**
   * Maximum storage space for your instance. It should be a multiple of 32GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#storage_size_in_gb AzureSqlManagedDatabase#storage_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#storage_size_in_gb AzureSqlManagedDatabase#storage_size_in_gb}
   */
   readonly storageSizeInGb: number;
   /**
   * The subnet resource id that the SQL Managed Instance will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#subnet_id AzureSqlManagedDatabase#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#subnet_id AzureSqlManagedDatabase#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The GUID of the tenant that the azure sql managed database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#tenant_id AzureSqlManagedDatabase#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#tenant_id AzureSqlManagedDatabase#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Number of cores that should be assigned to your instance. Values can be `8`, `16`, or `24` if `sku_name` is `GP_Gen4`, or `8`, `16`, `24`, `32`, or `40` if `sku_name` is `GP_Gen5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#vcores AzureSqlManagedDatabase#vcores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#vcores AzureSqlManagedDatabase#vcores}
   */
   readonly vcores: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#timeouts AzureSqlManagedDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#timeouts AzureSqlManagedDatabase#timeouts}
   */
   readonly timeouts?: AzureSqlManagedDatabaseTimeouts;
 }
 export interface AzureSqlManagedDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#create AzureSqlManagedDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#create AzureSqlManagedDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#delete AzureSqlManagedDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#delete AzureSqlManagedDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -210,7 +210,7 @@ export class AzureSqlManagedDatabaseTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database duplocloud_azure_sql_managed_database}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database duplocloud_azure_sql_managed_database}
 */
 export class AzureSqlManagedDatabase extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class AzureSqlManagedDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSqlManagedDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSqlManagedDatabase to import
-  * @param importFromId The id of the existing AzureSqlManagedDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSqlManagedDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSqlManagedDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class AzureSqlManagedDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_sql_managed_database duplocloud_azure_sql_managed_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_sql_managed_database duplocloud_azure_sql_managed_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class AzureSqlManagedDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_sql_managed_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBuddyProjectMembersConfig extends cdktf.TerraformMetaArgume
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members#domain DataBuddyProjectMembers#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members#domain DataBuddyProjectMembers#domain}
   */
   readonly domain: string;
   /**
   * The project member's name regular expression to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members#name_regex DataBuddyProjectMembers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members#name_regex DataBuddyProjectMembers#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members#project_name DataBuddyProjectMembers#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members#project_name DataBuddyProjectMembers#project_name}
   */
   readonly projectName: string;
 }
@@ -138,7 +138,7 @@ export class DataBuddyProjectMembersMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members buddy_project_members}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members buddy_project_members}
 */
 export class DataBuddyProjectMembers extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataBuddyProjectMembers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyProjectMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyProjectMembers to import
-  * @param importFromId The id of the existing DataBuddyProjectMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyProjectMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyProjectMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataBuddyProjectMembers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/project_members buddy_project_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/project_members buddy_project_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataBuddyProjectMembers extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_project_members',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

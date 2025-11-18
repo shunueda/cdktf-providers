@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataMaterializeMaterializedViewConfig extends cdktf.TerraformMe
   /**
   * Limit materialized views to a specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view#database_name DataMaterializeMaterializedView#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view#database_name DataMaterializeMaterializedView#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view#id DataMaterializeMaterializedView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view#id DataMaterializeMaterializedView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataMaterializeMaterializedViewConfig extends cdktf.TerraformMe
   /**
   * The region in which the resource is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view#region DataMaterializeMaterializedView#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view#region DataMaterializeMaterializedView#region}
   */
   readonly region?: string;
   /**
   * Limit materialized views to a specific schema within a specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view#schema_name DataMaterializeMaterializedView#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view#schema_name DataMaterializeMaterializedView#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -125,7 +125,7 @@ export class DataMaterializeMaterializedViewMaterializedViewsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view materialize_materialized_view}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view materialize_materialized_view}
 */
 export class DataMaterializeMaterializedView extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataMaterializeMaterializedView extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMaterializeMaterializedView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMaterializeMaterializedView to import
-  * @param importFromId The id of the existing DataMaterializeMaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMaterializeMaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMaterializeMaterializedView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataMaterializeMaterializedView extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/data-sources/materialized_view materialize_materialized_view} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/data-sources/materialized_view materialize_materialized_view} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataMaterializeMaterializedView extends cdktf.TerraformDataSource {
       terraformResourceType: 'materialize_materialized_view',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

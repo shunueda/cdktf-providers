@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean that specifies if the build logs are publicly accessible (default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#is_public Pipeline#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#is_public Pipeline#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * The display name for the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
@@ -37,19 +37,19 @@ export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   * Or: <code>original_yaml_string = file("/path/to/my/codefresh.yml")</code>
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#original_yaml_string Pipeline#original_yaml_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#original_yaml_string Pipeline#original_yaml_string}
   */
   readonly originalYamlString?: string;
   /**
   * A list of tags to mark a project for easy management and access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#tags Pipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#tags Pipeline#tags}
   */
   readonly tags?: string[];
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#spec Pipeline#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#spec Pipeline#spec}
   */
   readonly spec?: PipelineSpec;
 }
@@ -57,25 +57,25 @@ export interface PipelineSpecCronTriggerOptions {
   /**
   * If false the pipeline will not send notifications to Slack and status updates back to the Git provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
   */
   readonly enableNotifications?: boolean | cdktf.IResolvable;
   /**
   * If true, docker layer cache is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#no_cache Pipeline#no_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#no_cache Pipeline#no_cache}
   */
   readonly noCache?: boolean | cdktf.IResolvable;
   /**
   * If true, extra Codefresh caching is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#no_cf_cache Pipeline#no_cf_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#no_cf_cache Pipeline#no_cf_cache}
   */
   readonly noCfCache?: boolean | cdktf.IResolvable;
   /**
   * If true, all files on volume will be deleted before each execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#reset_volume Pipeline#reset_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#reset_volume Pipeline#reset_volume}
   */
   readonly resetVolume?: boolean | cdktf.IResolvable;
 }
@@ -280,31 +280,31 @@ export interface PipelineSpecCronTriggerRuntimeEnvironment {
   /**
   * The CPU allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#cpu Pipeline#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#cpu Pipeline#cpu}
   */
   readonly cpu?: string;
   /**
   * The storage allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
   */
   readonly dindStorage?: string;
   /**
   * The memory allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#memory Pipeline#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#memory Pipeline#memory}
   */
   readonly memory?: string;
   /**
   * The name of the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
   /**
   * Minimum disk space required for build filesystem ( unit Gi is required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
   */
   readonly requiredAvailableStorage?: string;
 }
@@ -538,63 +538,63 @@ export interface PipelineSpecCronTrigger {
   /**
   * Branch that should be passed for build triggered by this cron trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#branch Pipeline#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#branch Pipeline#branch}
   */
   readonly branch?: string;
   /**
   * Flag to disable the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Trigger level encrypted variables. Please note that drift will not be detected for encrypted variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
   */
   readonly encryptedVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#expression Pipeline#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#expression Pipeline#expression}
   */
   readonly expression: string;
   /**
   * Related git-trigger id. Will by used to take all possible git information by branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#git_trigger_id Pipeline#git_trigger_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#git_trigger_id Pipeline#git_trigger_id}
   */
   readonly gitTriggerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#message Pipeline#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#message Pipeline#message}
   */
   readonly message: string;
   /**
   * The name of the cron trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
   * The type of the trigger (default: `cron`; see notes above).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#type Pipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#type Pipeline#type}
   */
   readonly type?: string;
   /**
   * Trigger variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#variables Pipeline#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#variables Pipeline#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#options Pipeline#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#options Pipeline#options}
   */
   readonly options?: PipelineSpecCronTriggerOptions[] | cdktf.IResolvable;
   /**
   * runtime_environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
   */
   readonly runtimeEnvironment?: PipelineSpecCronTriggerRuntimeEnvironment[] | cdktf.IResolvable;
 }
@@ -993,43 +993,43 @@ export interface PipelineSpecExternalResource {
   /**
   * Context name for the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#context Pipeline#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#context Pipeline#context}
   */
   readonly context: string;
   /**
   * Whether or not the resource specified in source_path is a folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#is_folder Pipeline#is_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#is_folder Pipeline#is_folder}
   */
   readonly isFolder?: boolean | cdktf.IResolvable;
   /**
   * git repository url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#repo Pipeline#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#repo Pipeline#repo}
   */
   readonly repo: string;
   /**
   * Revision/branch in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#revision Pipeline#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#revision Pipeline#revision}
   */
   readonly revision: string;
   /**
   * The source folder in the repository (use relative path)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#source_path Pipeline#source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#source_path Pipeline#source_path}
   */
   readonly sourcePath: string;
   /**
   * The target folder in the pipeline workspace where the file/folder will be copied to (use absolute path)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#target_path Pipeline#target_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#target_path Pipeline#target_path}
   */
   readonly targetPath: string;
   /**
   * Type of the external resource. Currently only 'git' is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#type Pipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#type Pipeline#type}
   */
   readonly type?: string;
 }
@@ -1309,7 +1309,7 @@ export class PipelineSpecExternalResourceList extends cdktf.ComplexList {
 }
 export interface PipelineSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
   */
   readonly enableNotifications?: boolean | cdktf.IResolvable;
   /**
@@ -1320,7 +1320,7 @@ export interface PipelineSpecOptions {
   * 	* false: "Be removed"
   * 										
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#keep_pvcs_for_pending_approval Pipeline#keep_pvcs_for_pending_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#keep_pvcs_for_pending_approval Pipeline#keep_pvcs_for_pending_approval}
   */
   readonly keepPvcsForPendingApproval?: boolean | cdktf.IResolvable;
   /**
@@ -1331,7 +1331,7 @@ export interface PipelineSpecOptions {
   * 	* false: "Not included in concurrency"
   * 										
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#pending_approval_concurrency_applied Pipeline#pending_approval_concurrency_applied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#pending_approval_concurrency_applied Pipeline#pending_approval_concurrency_applied}
   */
   readonly pendingApprovalConcurrencyApplied?: boolean | cdktf.IResolvable;
 }
@@ -1475,31 +1475,31 @@ export interface PipelineSpecRuntimeEnvironment {
   /**
   * The CPU allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#cpu Pipeline#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#cpu Pipeline#cpu}
   */
   readonly cpu?: string;
   /**
   * The storage allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
   */
   readonly dindStorage?: string;
   /**
   * The memory allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#memory Pipeline#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#memory Pipeline#memory}
   */
   readonly memory?: string;
   /**
   * The name of the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
   /**
   * Minimum disk space required for build filesystem ( unit Gi is required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
   */
   readonly requiredAvailableStorage?: string;
 }
@@ -1733,31 +1733,31 @@ export interface PipelineSpecSpecTemplate {
   /**
   * The Codefresh git context (default: `github`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#context Pipeline#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#context Pipeline#context}
   */
   readonly context?: string;
   /**
   * The location of the spec template (default: `git`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#location Pipeline#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#location Pipeline#location}
   */
   readonly location?: string;
   /**
   * The relative path to the Codefresh pipeline file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#path Pipeline#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#path Pipeline#path}
   */
   readonly path: string;
   /**
   * The repository of the spec template (owner/repo).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#repo Pipeline#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#repo Pipeline#repo}
   */
   readonly repo: string;
   /**
   * The git revision of the spec template. Possible values: '', *name of branch*. Use '' to autoselect a branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#revision Pipeline#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#revision Pipeline#revision}
   */
   readonly revision: string;
 }
@@ -1982,19 +1982,19 @@ export interface PipelineSpecTerminationPolicyOnCreateBranch {
   /**
   * A regular expression to filter the branches on with the termination policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#branch_name Pipeline#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#branch_name Pipeline#branch_name}
   */
   readonly branchName?: string;
   /**
   * Whether to ignore the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#ignore_branch Pipeline#ignore_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#ignore_branch Pipeline#ignore_branch}
   */
   readonly ignoreBranch?: boolean | cdktf.IResolvable;
   /**
   * Whether to ignore the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#ignore_trigger Pipeline#ignore_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#ignore_trigger Pipeline#ignore_trigger}
   */
   readonly ignoreTrigger?: boolean | cdktf.IResolvable;
 }
@@ -2138,13 +2138,13 @@ export interface PipelineSpecTerminationPolicy {
   /**
   * Enables the policy `Once a build is terminated, terminate all child builds initiated from it`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#on_terminate_annotation Pipeline#on_terminate_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#on_terminate_annotation Pipeline#on_terminate_annotation}
   */
   readonly onTerminateAnnotation?: boolean | cdktf.IResolvable;
   /**
   * on_create_branch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#on_create_branch Pipeline#on_create_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#on_create_branch Pipeline#on_create_branch}
   */
   readonly onCreateBranch?: PipelineSpecTerminationPolicyOnCreateBranch;
 }
@@ -2259,25 +2259,25 @@ export interface PipelineSpecTriggerOptions {
   /**
   * If false the pipeline will not send notifications to Slack and status updates back to the Git provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#enable_notifications Pipeline#enable_notifications}
   */
   readonly enableNotifications?: boolean | cdktf.IResolvable;
   /**
   * If true, docker layer cache is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#no_cache Pipeline#no_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#no_cache Pipeline#no_cache}
   */
   readonly noCache?: boolean | cdktf.IResolvable;
   /**
   * If true, extra Codefresh caching is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#no_cf_cache Pipeline#no_cf_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#no_cf_cache Pipeline#no_cf_cache}
   */
   readonly noCfCache?: boolean | cdktf.IResolvable;
   /**
   * If true, all files on volume will be deleted before each execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#reset_volume Pipeline#reset_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#reset_volume Pipeline#reset_volume}
   */
   readonly resetVolume?: boolean | cdktf.IResolvable;
 }
@@ -2482,31 +2482,31 @@ export interface PipelineSpecTriggerRuntimeEnvironment {
   /**
   * The CPU allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#cpu Pipeline#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#cpu Pipeline#cpu}
   */
   readonly cpu?: string;
   /**
   * The storage allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#dind_storage Pipeline#dind_storage}
   */
   readonly dindStorage?: string;
   /**
   * The memory allocated to the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#memory Pipeline#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#memory Pipeline#memory}
   */
   readonly memory?: string;
   /**
   * The name of the runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
   /**
   * Minimum disk space required for build filesystem ( unit Gi is required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
   */
   readonly requiredAvailableStorage?: string;
 }
@@ -2740,7 +2740,7 @@ export interface PipelineSpecTrigger {
   /**
   *  A regular expression and will only trigger for branches that match this naming pattern (default: `/.* /gi`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#branch_regex Pipeline#branch_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#branch_regex Pipeline#branch_regex}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2748,13 +2748,13 @@ export interface PipelineSpecTrigger {
   /**
   * Flag to manage how the `branch_regex` field is interpreted. Possible values: `multiselect-exclude`, `multiselect`, `regex` (default: `regex`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#branch_regex_input Pipeline#branch_regex_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#branch_regex_input Pipeline#branch_regex_input}
   */
   readonly branchRegexInput?: string;
   /**
   *  A regular expression and will only trigger for pull requests where a comment matches this naming pattern (default: `/.* /gi`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#comment_regex Pipeline#comment_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#comment_regex Pipeline#comment_regex}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2762,103 +2762,103 @@ export interface PipelineSpecTrigger {
   /**
   * The commit status title pushed to the git provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#commit_status_title Pipeline#commit_status_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#commit_status_title Pipeline#commit_status_title}
   */
   readonly commitStatusTitle?: string;
   /**
   * The Codefresh git context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#context Pipeline#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#context Pipeline#context}
   */
   readonly context?: string;
   /**
   * A list of strings representing the contexts ([shared_configuration](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/shared-configuration/)) to be loaded when the trigger is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#contexts Pipeline#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#contexts Pipeline#contexts}
   */
   readonly contexts?: string[];
   /**
   * The description of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * Flag to disable the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Trigger level encrypted variables. Please note that drift will not be detected for encrypted variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
   */
   readonly encryptedVariables?: { [key: string]: string };
   /**
   * A list of GitHub events for which a Pipeline is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#events Pipeline#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#events Pipeline#events}
   */
   readonly events?: string[];
   /**
   * Allows to constrain the build and trigger it only if the modified files from the commit match this glob expression (default: `""`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#modified_files_glob Pipeline#modified_files_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#modified_files_glob Pipeline#modified_files_glob}
   */
   readonly modifiedFilesGlob?: string;
   /**
   * The name of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
   /**
   * The git provider tied to the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#provider Pipeline#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#provider Pipeline#provider}
   */
   readonly provider?: string;
   /**
   * If this trigger is also applicable to git forks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#pull_request_allow_fork_events Pipeline#pull_request_allow_fork_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#pull_request_allow_fork_events Pipeline#pull_request_allow_fork_events}
   */
   readonly pullRequestAllowForkEvents?: boolean | cdktf.IResolvable;
   /**
   * A regular expression and will only trigger for pull requests to branches that match this naming pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#pull_request_target_branch_regex Pipeline#pull_request_target_branch_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#pull_request_target_branch_regex Pipeline#pull_request_target_branch_regex}
   */
   readonly pullRequestTargetBranchRegex?: string;
   /**
   * The repository name, (owner/repo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#repo Pipeline#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#repo Pipeline#repo}
   */
   readonly repo?: string;
   /**
   * The type of the trigger (default: `git`; see notes above).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#type Pipeline#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#type Pipeline#type}
   */
   readonly type?: string;
   /**
   * Trigger variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#variables Pipeline#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#variables Pipeline#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#options Pipeline#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#options Pipeline#options}
   */
   readonly options?: PipelineSpecTriggerOptions[] | cdktf.IResolvable;
   /**
   * runtime_environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
   */
   readonly runtimeEnvironment?: PipelineSpecTriggerRuntimeEnvironment[] | cdktf.IResolvable;
 }
@@ -3527,109 +3527,109 @@ export interface PipelineSpec {
   /**
   * The maximum amount of concurrent builds that may run for each branch. Zero is unlimited (default: `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#branch_concurrency Pipeline#branch_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#branch_concurrency Pipeline#branch_concurrency}
   */
   readonly branchConcurrency?: number;
   /**
   * The maximum amount of concurrent builds. Zero is unlimited (default: `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#concurrency Pipeline#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#concurrency Pipeline#concurrency}
   */
   readonly concurrency?: number;
   /**
   * A list of strings representing the contexts ([shared_configuration](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/shared-configuration/)) to be configured for the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#contexts Pipeline#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#contexts Pipeline#contexts}
   */
   readonly contexts?: string[];
   /**
   * Pipeline level encrypted variables. Please note that drift will not be detected for encrypted variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#encrypted_variables Pipeline#encrypted_variables}
   */
   readonly encryptedVariables?: { [key: string]: string };
   /**
   * SAAS pack (`5cd1746617313f468d669013` for Small; `5cd1746717313f468d669014` for Medium; `5cd1746817313f468d669015` for Large; `5cd1746817313f468d669017` for XL; `5cd1746817313f468d669018` for XXL); `5cd1746817313f468d669020` for 4XL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#pack_id Pipeline#pack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#pack_id Pipeline#pack_id}
   */
   readonly packId?: string;
   /**
   * Defines whether it is permitted to restart builds in this pipeline from failed step (default: `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#permit_restart_from_failed_steps Pipeline#permit_restart_from_failed_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#permit_restart_from_failed_steps Pipeline#permit_restart_from_failed_steps}
   */
   readonly permitRestartFromFailedSteps?: boolean | cdktf.IResolvable;
   /**
   * Defines whether `permit_restart_from_failed_steps` should be set to “Use account settings” (default: `false`). If set, `permit_restart_from_failed_steps` will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#permit_restart_from_failed_steps_use_account_settings Pipeline#permit_restart_from_failed_steps_use_account_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#permit_restart_from_failed_steps_use_account_settings Pipeline#permit_restart_from_failed_steps_use_account_settings}
   */
   readonly permitRestartFromFailedStepsUseAccountSettings?: boolean | cdktf.IResolvable;
   /**
   * Helps to organize the order of builds execution in case of reaching the concurrency limit (default: `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#priority Pipeline#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#priority Pipeline#priority}
   */
   readonly priority?: number;
   /**
   *  Minimum disk space required for build filesystem ( unit Gi is required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#required_available_storage Pipeline#required_available_storage}
   */
   readonly requiredAvailableStorage?: string;
   /**
   * The maximum amount of concurrent builds that may run for each trigger (default: `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#trigger_concurrency Pipeline#trigger_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#trigger_concurrency Pipeline#trigger_concurrency}
   */
   readonly triggerConcurrency?: number;
   /**
   * The pipeline's variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#variables Pipeline#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#variables Pipeline#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * cron_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#cron_trigger Pipeline#cron_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#cron_trigger Pipeline#cron_trigger}
   */
   readonly cronTrigger?: PipelineSpecCronTrigger[] | cdktf.IResolvable;
   /**
   * external_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#external_resource Pipeline#external_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#external_resource Pipeline#external_resource}
   */
   readonly externalResource?: PipelineSpecExternalResource[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#options Pipeline#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#options Pipeline#options}
   */
   readonly options?: PipelineSpecOptions;
   /**
   * runtime_environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#runtime_environment Pipeline#runtime_environment}
   */
   readonly runtimeEnvironment?: PipelineSpecRuntimeEnvironment[] | cdktf.IResolvable;
   /**
   * spec_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#spec_template Pipeline#spec_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#spec_template Pipeline#spec_template}
   */
   readonly specTemplate?: PipelineSpecSpecTemplate[] | cdktf.IResolvable;
   /**
   * termination_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#termination_policy Pipeline#termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#termination_policy Pipeline#termination_policy}
   */
   readonly terminationPolicy?: PipelineSpecTerminationPolicy;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#trigger Pipeline#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#trigger Pipeline#trigger}
   */
   readonly trigger?: PipelineSpecTrigger[] | cdktf.IResolvable;
 }
@@ -4206,7 +4206,7 @@ export class PipelineSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline codefresh_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline codefresh_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -4222,7 +4222,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4234,7 +4234,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline codefresh_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline codefresh_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4245,8 +4245,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

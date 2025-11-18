@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PortAllowedAddressPairsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#id PortAllowedAddressPairs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#id PortAllowedAddressPairs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface PortAllowedAddressPairsConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of the port where allowed address pairs will be managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#port_id PortAllowedAddressPairs#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#port_id PortAllowedAddressPairs#port_id}
   */
   readonly portId: string;
   /**
   * Project ID in which the port exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#project_id PortAllowedAddressPairs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#project_id PortAllowedAddressPairs#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name in which the port exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#project_name PortAllowedAddressPairs#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#project_name PortAllowedAddressPairs#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID where the port is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#region_id PortAllowedAddressPairs#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#region_id PortAllowedAddressPairs#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name where the port is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#region_name PortAllowedAddressPairs#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#region_name PortAllowedAddressPairs#region_name}
   */
   readonly regionName?: string;
   /**
   * allowed_address_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#allowed_address_pair PortAllowedAddressPairs#allowed_address_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#allowed_address_pair PortAllowedAddressPairs#allowed_address_pair}
   */
   readonly allowedAddressPair?: PortAllowedAddressPairsAllowedAddressPair[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PortAllowedAddressPairsAllowedAddressPair {
   /**
   * IP address or subnet of the allowed address pair (e.g., 192.0.2.10/32).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#ip_address PortAllowedAddressPairs#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#ip_address PortAllowedAddressPairs#ip_address}
   */
   readonly ipAddress: string;
   /**
   * MAC address of the allowed address pair. If omitted, port's MAC address will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#mac_address PortAllowedAddressPairs#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#mac_address PortAllowedAddressPairs#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -203,7 +203,7 @@ export class PortAllowedAddressPairsAllowedAddressPairList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs gcore_port_allowed_address_pairs}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs gcore_port_allowed_address_pairs}
 */
 export class PortAllowedAddressPairs extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class PortAllowedAddressPairs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortAllowedAddressPairs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortAllowedAddressPairs to import
-  * @param importFromId The id of the existing PortAllowedAddressPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortAllowedAddressPairs that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortAllowedAddressPairs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class PortAllowedAddressPairs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/port_allowed_address_pairs gcore_port_allowed_address_pairs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/port_allowed_address_pairs gcore_port_allowed_address_pairs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class PortAllowedAddressPairs extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_port_allowed_address_pairs',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBuddyPermissionsConfig extends cdktf.TerraformMetaArguments
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions#domain DataBuddyPermissions#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions#domain DataBuddyPermissions#domain}
   */
   readonly domain: string;
   /**
   * The permission's name regular expression to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions#name_regex DataBuddyPermissions#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions#name_regex DataBuddyPermissions#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Filter permissions by type (`CUSTOM`, `READ_ONLY`, `DEVELOPER`, `PROJECT_MANAGER`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions#type DataBuddyPermissions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions#type DataBuddyPermissions#type}
   */
   readonly type?: string;
 }
@@ -138,7 +138,7 @@ export class DataBuddyPermissionsPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions buddy_permissions}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions buddy_permissions}
 */
 export class DataBuddyPermissions extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataBuddyPermissions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyPermissions to import
-  * @param importFromId The id of the existing DataBuddyPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataBuddyPermissions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/permissions buddy_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/permissions buddy_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataBuddyPermissions extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_permissions',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

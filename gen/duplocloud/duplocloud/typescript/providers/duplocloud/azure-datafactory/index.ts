@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureDatafactoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#id AzureDatafactory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#id AzureDatafactory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface AzureDatafactoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the datafactory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#name AzureDatafactory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#name AzureDatafactory#name}
   */
   readonly name: string;
   /**
   * Enable or disable public access to datafactory Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#public_access AzureDatafactory#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#public_access AzureDatafactory#public_access}
   */
   readonly publicAccess?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the azure node pool will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#tenant_id AzureDatafactory#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#tenant_id AzureDatafactory#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#timeouts AzureDatafactory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#timeouts AzureDatafactory#timeouts}
   */
   readonly timeouts?: AzureDatafactoryTimeouts;
 }
 export interface AzureDatafactoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#create AzureDatafactory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#create AzureDatafactory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#delete AzureDatafactory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#delete AzureDatafactory#delete}
   */
   readonly delete?: string;
 }
@@ -168,7 +168,7 @@ export class AzureDatafactoryTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory duplocloud_azure_datafactory}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory duplocloud_azure_datafactory}
 */
 export class AzureDatafactory extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class AzureDatafactory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureDatafactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureDatafactory to import
-  * @param importFromId The id of the existing AzureDatafactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureDatafactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureDatafactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class AzureDatafactory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_datafactory duplocloud_azure_datafactory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_datafactory duplocloud_azure_datafactory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class AzureDatafactory extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_datafactory',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsRdsTagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#id AwsRdsTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#id AwsRdsTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface AwsRdsTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The tag name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#key AwsRdsTag#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#key AwsRdsTag#key}
   */
   readonly key: string;
   /**
   * The ID of the RDS resource to manage the tag for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#resource_id AwsRdsTag#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#resource_id AwsRdsTag#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of the RDS resource to manage the tag for. Valid values are `cluster` and `instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#resource_type AwsRdsTag#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#resource_type AwsRdsTag#resource_type}
   */
   readonly resourceType: string;
   /**
   * The GUID of the tenant that the RDS tag will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#tenant_id AwsRdsTag#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#tenant_id AwsRdsTag#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#value AwsRdsTag#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#value AwsRdsTag#value}
   */
   readonly value: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#timeouts AwsRdsTag#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#timeouts AwsRdsTag#timeouts}
   */
   readonly timeouts?: AwsRdsTagTimeouts;
 }
 export interface AwsRdsTagTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#create AwsRdsTag#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#create AwsRdsTag#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#delete AwsRdsTag#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#delete AwsRdsTag#delete}
   */
   readonly delete?: string;
 }
@@ -180,7 +180,7 @@ export class AwsRdsTagTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag duplocloud_aws_rds_tag}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag duplocloud_aws_rds_tag}
 */
 export class AwsRdsTag extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class AwsRdsTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsRdsTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsRdsTag to import
-  * @param importFromId The id of the existing AwsRdsTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsRdsTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsRdsTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class AwsRdsTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_tag duplocloud_aws_rds_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_tag duplocloud_aws_rds_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class AwsRdsTag extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_rds_tag',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

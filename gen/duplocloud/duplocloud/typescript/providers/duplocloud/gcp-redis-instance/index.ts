@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GcpRedisInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable OSS Redis AUTH. Defaults to false (AUTH disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#auth_enabled GcpRedisInstance#auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#auth_enabled GcpRedisInstance#auth_enabled}
   */
   readonly authEnabled?: boolean | cdktf.IResolvable;
   /**
   * User-provided name for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#display_name GcpRedisInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#display_name GcpRedisInstance#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#id GcpRedisInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#id GcpRedisInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,87 +29,87 @@ export interface GcpRedisInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource labels for user-provided metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#labels GcpRedisInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#labels GcpRedisInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Redis memory size in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#memory_size_gb GcpRedisInstance#memory_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#memory_size_gb GcpRedisInstance#memory_size_gb}
   */
   readonly memorySizeGb: number;
   /**
   * Short name of the Redis instance. Duplo adds a prefix; retrieve the full name from `fullname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#name GcpRedisInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#name GcpRedisInstance#name}
   */
   readonly name: string;
   /**
   * Enable read replica mode (can only be set during instance creation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#read_replicas_enabled GcpRedisInstance#read_replicas_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#read_replicas_enabled GcpRedisInstance#read_replicas_enabled}
   */
   readonly readReplicasEnabled?: boolean | cdktf.IResolvable;
   /**
   * Redis configuration parameters. See https://cloud.google.com/memorystore/docs/redis/reference/rest/v1/projects.locations.instances#Instance.FIELDS.redis_configs for supported parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#redis_configs GcpRedisInstance#redis_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#redis_configs GcpRedisInstance#redis_configs}
   */
   readonly redisConfigs?: { [key: string]: string };
   /**
   * Version of Redis software. Defaults to the latest supported version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#redis_version GcpRedisInstance#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#redis_version GcpRedisInstance#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Number of replica nodes. Valid range for Standard Tier with read replicas enabled is [1-5], default is 2. For basic tier, valid value is 0, default is 0. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#replica_count GcpRedisInstance#replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#replica_count GcpRedisInstance#replica_count}
   */
   readonly replicaCount?: number;
   /**
   * GUID of the tenant the Redis instance will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#tenant_id GcpRedisInstance#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#tenant_id GcpRedisInstance#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Service tier. Must be one of ['BASIC', 'STANDARD_HA'].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#tier GcpRedisInstance#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#tier GcpRedisInstance#tier}
   */
   readonly tier: string;
   /**
   * Enable TLS for the Redis instance. Defaults to disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#transit_encryption_enabled GcpRedisInstance#transit_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#transit_encryption_enabled GcpRedisInstance#transit_encryption_enabled}
   */
   readonly transitEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to wait until redis instance to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#wait_until_ready GcpRedisInstance#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#wait_until_ready GcpRedisInstance#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#timeouts GcpRedisInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#timeouts GcpRedisInstance#timeouts}
   */
   readonly timeouts?: GcpRedisInstanceTimeouts;
 }
 export interface GcpRedisInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#create GcpRedisInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#create GcpRedisInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#delete GcpRedisInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#delete GcpRedisInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#update GcpRedisInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#update GcpRedisInstance#update}
   */
   readonly update?: string;
 }
@@ -261,7 +261,7 @@ export class GcpRedisInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance duplocloud_gcp_redis_instance}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance duplocloud_gcp_redis_instance}
 */
 export class GcpRedisInstance extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class GcpRedisInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpRedisInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpRedisInstance to import
-  * @param importFromId The id of the existing GcpRedisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpRedisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpRedisInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class GcpRedisInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_redis_instance duplocloud_gcp_redis_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_redis_instance duplocloud_gcp_redis_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class GcpRedisInstance extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_redis_instance',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,11 +19,11 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   * 	* debug (Only valid for pipeline resource)
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#action Permission#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#action Permission#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#id Permission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#id Permission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   * 	* project
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#related_resource Permission#related_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#related_resource Permission#related_resource}
   */
   readonly relatedResource?: string;
   /**
@@ -47,7 +47,7 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   * 	* runtime-environment
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#resource Permission#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#resource Permission#resource}
   */
   readonly resource: string;
   /**
@@ -57,19 +57,19 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   *   * (asterisk): Apply to all resources with any tag
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#tags Permission#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#tags Permission#tags}
   */
   readonly tags?: string[];
   /**
   * The Id of the team the permissions apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#team Permission#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#team Permission#team}
   */
   readonly team: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission codefresh_permission}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission codefresh_permission}
 */
 export class Permission extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class Permission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Permission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Permission to import
-  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Permission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class Permission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/permission codefresh_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/permission codefresh_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class Permission extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_permission',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

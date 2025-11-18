@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#id DataGcoreSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#id DataGcoreSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#metadata_k DataGcoreSubnet#metadata_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#metadata_k DataGcoreSubnet#metadata_k}
   */
   readonly metadataK?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#metadata_kv DataGcoreSubnet#metadata_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#metadata_kv DataGcoreSubnet#metadata_kv}
   */
   readonly metadataKv?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#name DataGcoreSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#name DataGcoreSubnet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#network_id DataGcoreSubnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#network_id DataGcoreSubnet#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#project_id DataGcoreSubnet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#project_id DataGcoreSubnet#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#project_name DataGcoreSubnet#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#project_name DataGcoreSubnet#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#region_id DataGcoreSubnet#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#region_id DataGcoreSubnet#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#region_name DataGcoreSubnet#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#region_name DataGcoreSubnet#region_name}
   */
   readonly regionName?: string;
 }
@@ -214,7 +214,7 @@ export class DataGcoreSubnetMetadataReadOnlyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet gcore_subnet}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet gcore_subnet}
 */
 export class DataGcoreSubnet extends cdktf.TerraformDataSource {
 
@@ -230,7 +230,7 @@ export class DataGcoreSubnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreSubnet to import
-  * @param importFromId The id of the existing DataGcoreSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class DataGcoreSubnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/subnet gcore_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/data-sources/subnet gcore_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class DataGcoreSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_subnet',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

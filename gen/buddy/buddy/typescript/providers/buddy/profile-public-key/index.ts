@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProfilePublicKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The public key's content (starts with ssh-rsa)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key#content ProfilePublicKey#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key#content ProfilePublicKey#content}
   */
   readonly content: string;
   /**
   * The public key's title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key#title ProfilePublicKey#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key#title ProfilePublicKey#title}
   */
   readonly title?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key buddy_profile_public_key}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key buddy_profile_public_key}
 */
 export class ProfilePublicKey extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ProfilePublicKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfilePublicKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfilePublicKey to import
-  * @param importFromId The id of the existing ProfilePublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfilePublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfilePublicKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ProfilePublicKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/profile_public_key buddy_profile_public_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/profile_public_key buddy_profile_public_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ProfilePublicKey extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_profile_public_key',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

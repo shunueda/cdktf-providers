@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,47 +15,47 @@ export interface AwsHostConfig extends cdktf.TerraformMetaArguments {
   * - 7: EKS Linux
   * - 8: ECS Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#agent_platform AwsHost#agent_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#agent_platform AwsHost#agent_platform}
   */
   readonly agentPlatform?: number;
   /**
   * Whether or not to allocate a public IP. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#allocated_public_ip AwsHost#allocated_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#allocated_public_ip AwsHost#allocated_public_ip}
   */
   readonly allocatedPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Base64 encoded EC2 user data to associated with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#base64_user_data AwsHost#base64_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#base64_user_data AwsHost#base64_user_data}
   */
   readonly base64UserData?: string;
   /**
   * The AWS EC2 instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#capacity AwsHost#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#capacity AwsHost#capacity}
   */
   readonly capacity: string;
   /**
   * The numeric ID of the cloud provider to launch the host in. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#cloud AwsHost#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#cloud AwsHost#cloud}
   */
   readonly cloud?: number;
   /**
   * Specify the labels to attach to the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#custom_node_labels AwsHost#custom_node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#custom_node_labels AwsHost#custom_node_labels}
   */
   readonly customNodeLabels?: { [key: string]: string };
   /**
   * The short name of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#friendly_name AwsHost#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#friendly_name AwsHost#friendly_name}
   */
   readonly friendlyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#id AwsHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#id AwsHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,19 +64,19 @@ export interface AwsHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AMI ID to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#image_id AwsHost#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#image_id AwsHost#image_id}
   */
   readonly imageId: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#is_ebs_optimized AwsHost#is_ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#is_ebs_optimized AwsHost#is_ebs_optimized}
   */
   readonly isEbsOptimized?: boolean | cdktf.IResolvable;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#is_minion AwsHost#is_minion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#is_minion AwsHost#is_minion}
   */
   readonly isMinion?: boolean | cdktf.IResolvable;
   /**
@@ -86,89 +86,89 @@ export interface AwsHostConfig extends cdktf.TerraformMetaArguments {
   *    - `1` : RSA (deprecated - some operating systems no longer support it)
   *    - `2` : ED25519
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#keypair_type AwsHost#keypair_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#keypair_type AwsHost#keypair_type}
   */
   readonly keypairType?: number;
   /**
   * Bootstrap an EKS host with Duplo's user data, prepending it to custom user data if also provided. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#prepend_user_data AwsHost#prepend_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#prepend_user_data AwsHost#prepend_user_data}
   */
   readonly prependUserData?: boolean | cdktf.IResolvable;
   /**
   * The GUID of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#tenant_id AwsHost#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#tenant_id AwsHost#tenant_id}
   */
   readonly tenantId: string;
   /**
   * The name of the tenant that the host will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#user_account AwsHost#user_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#user_account AwsHost#user_account}
   */
   readonly userAccount?: string;
   /**
   * Whether or not to wait until Duplo can connect to the host, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#wait_until_connected AwsHost#wait_until_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#wait_until_connected AwsHost#wait_until_connected}
   */
   readonly waitUntilConnected?: boolean | cdktf.IResolvable;
   /**
   * The availability zone to launch the host in, expressed as a number and starting at 0. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#zone AwsHost#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#zone AwsHost#zone}
   */
   readonly zone?: number;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#metadata AwsHost#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#metadata AwsHost#metadata}
   */
   readonly metadata?: AwsHostMetadata[] | cdktf.IResolvable;
   /**
   * minion_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#minion_tags AwsHost#minion_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#minion_tags AwsHost#minion_tags}
   */
   readonly minionTags?: AwsHostMinionTags[] | cdktf.IResolvable;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#network_interface AwsHost#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#network_interface AwsHost#network_interface}
   */
   readonly networkInterface?: AwsHostNetworkInterface[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#tags AwsHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#tags AwsHost#tags}
   */
   readonly tags?: AwsHostTags[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#taints AwsHost#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#taints AwsHost#taints}
   */
   readonly taints?: AwsHostTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#timeouts AwsHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#timeouts AwsHost#timeouts}
   */
   readonly timeouts?: AwsHostTimeouts;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#volume AwsHost#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#volume AwsHost#volume}
   */
   readonly volume?: AwsHostVolume[] | cdktf.IResolvable;
 }
 export interface AwsHostMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#key AwsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#key AwsHost#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#value AwsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#value AwsHost#value}
   */
   readonly value: string;
 }
@@ -307,11 +307,11 @@ export class AwsHostMetadataList extends cdktf.ComplexList {
 }
 export interface AwsHostMinionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#key AwsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#key AwsHost#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#value AwsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#value AwsHost#value}
   */
   readonly value: string;
 }
@@ -450,11 +450,11 @@ export class AwsHostMinionTagsList extends cdktf.ComplexList {
 }
 export interface AwsHostNetworkInterfaceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#key AwsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#key AwsHost#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#value AwsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#value AwsHost#value}
   */
   readonly value: string;
 }
@@ -595,35 +595,35 @@ export interface AwsHostNetworkInterface {
   /**
   * Whether or not to associate a public IP with the newly created ENI.  Cannot be specified if `network_interface_id` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#associate_public_ip AwsHost#associate_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#associate_public_ip AwsHost#associate_public_ip}
   */
   readonly associatePublicIp?: boolean | cdktf.IResolvable;
   /**
   * The device index to pass to AWS for attaching the ENI.  Starts at zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#device_index AwsHost#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#device_index AwsHost#device_index}
   */
   readonly deviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#groups AwsHost#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#groups AwsHost#groups}
   */
   readonly groups?: string[];
   /**
   * The ID of an ENI to attach to this host.  Cannot be specified if `subnet_id` or `associate_public_ip` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#network_interface_id AwsHost#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#network_interface_id AwsHost#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
   * The ID of a subnet in which to create a new ENI.  Cannot be specified if `network_interface_id` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#subnet_id AwsHost#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#subnet_id AwsHost#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#metadata AwsHost#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#metadata AwsHost#metadata}
   */
   readonly metadata?: AwsHostNetworkInterfaceMetadata[] | cdktf.IResolvable;
 }
@@ -884,11 +884,11 @@ export class AwsHostNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface AwsHostTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#key AwsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#key AwsHost#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#value AwsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#value AwsHost#value}
   */
   readonly value: string;
 }
@@ -1029,15 +1029,15 @@ export interface AwsHostTaints {
   /**
   * Update strategy of the node. Effect types <br>      - NoSchedule<br>     - PreferNoSchedule<br>     - NoExecute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#effect AwsHost#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#effect AwsHost#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#key AwsHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#key AwsHost#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#value AwsHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#value AwsHost#value}
   */
   readonly value?: string;
 }
@@ -1205,15 +1205,15 @@ export class AwsHostTaintsList extends cdktf.ComplexList {
 }
 export interface AwsHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#create AwsHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#create AwsHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#delete AwsHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#delete AwsHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#update AwsHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#update AwsHost#update}
   */
   readonly update?: string;
 }
@@ -1365,23 +1365,23 @@ export class AwsHostTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface AwsHostVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#iops AwsHost#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#iops AwsHost#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#name AwsHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#name AwsHost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#size AwsHost#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#size AwsHost#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#volume_id AwsHost#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#volume_id AwsHost#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#volume_type AwsHost#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#volume_type AwsHost#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -1613,7 +1613,7 @@ export class AwsHostVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host duplocloud_aws_host}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host duplocloud_aws_host}
 */
 export class AwsHost extends cdktf.TerraformResource {
 
@@ -1629,7 +1629,7 @@ export class AwsHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsHost to import
-  * @param importFromId The id of the existing AwsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1641,7 +1641,7 @@ export class AwsHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_host duplocloud_aws_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_host duplocloud_aws_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1652,8 +1652,8 @@ export class AwsHost extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_host',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

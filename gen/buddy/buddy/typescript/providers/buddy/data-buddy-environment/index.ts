@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataBuddyEnvironmentConfig extends cdktf.TerraformMetaArguments
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment#domain DataBuddyEnvironment#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment#domain DataBuddyEnvironment#domain}
   */
   readonly domain: string;
   /**
   * The environment's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment#environment_id DataBuddyEnvironment#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment#environment_id DataBuddyEnvironment#environment_id}
   */
   readonly environmentId?: string;
   /**
   * The environment's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment#name DataBuddyEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment#name DataBuddyEnvironment#name}
   */
   readonly name?: string;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment#project_name DataBuddyEnvironment#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment#project_name DataBuddyEnvironment#project_name}
   */
   readonly projectName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment buddy_environment}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment buddy_environment}
 */
 export class DataBuddyEnvironment extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataBuddyEnvironment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyEnvironment to import
-  * @param importFromId The id of the existing DataBuddyEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataBuddyEnvironment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/environment buddy_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/environment buddy_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataBuddyEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_environment',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

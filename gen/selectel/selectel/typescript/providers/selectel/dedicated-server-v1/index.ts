@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface DedicatedServerV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#configuration_id DedicatedServerV1#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#configuration_id DedicatedServerV1#configuration_id}
   */
   readonly configurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#force_update_additional_params DedicatedServerV1#force_update_additional_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#force_update_additional_params DedicatedServerV1#force_update_additional_params}
   */
   readonly forceUpdateAdditionalParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#id DedicatedServerV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#id DedicatedServerV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#location_id DedicatedServerV1#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#location_id DedicatedServerV1#location_id}
   */
   readonly locationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#os_host_name DedicatedServerV1#os_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#os_host_name DedicatedServerV1#os_host_name}
   */
   readonly osHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#os_id DedicatedServerV1#os_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#os_id DedicatedServerV1#os_id}
   */
   readonly osId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#os_password DedicatedServerV1#os_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#os_password DedicatedServerV1#os_password}
   */
   readonly osPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#price_plan_name DedicatedServerV1#price_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#price_plan_name DedicatedServerV1#price_plan_name}
   */
   readonly pricePlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#private_subnet DedicatedServerV1#private_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#private_subnet DedicatedServerV1#private_subnet}
   */
   readonly privateSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#project_id DedicatedServerV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#project_id DedicatedServerV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#public_subnet_id DedicatedServerV1#public_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#public_subnet_id DedicatedServerV1#public_subnet_id}
   */
   readonly publicSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#public_subnet_ip DedicatedServerV1#public_subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#public_subnet_ip DedicatedServerV1#public_subnet_ip}
   */
   readonly publicSubnetIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#ssh_key DedicatedServerV1#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#ssh_key DedicatedServerV1#ssh_key}
   */
   readonly sshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#ssh_key_name DedicatedServerV1#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#ssh_key_name DedicatedServerV1#ssh_key_name}
   */
   readonly sshKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#user_data DedicatedServerV1#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#user_data DedicatedServerV1#user_data}
   */
   readonly userData?: string;
   /**
   * partitions_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#partitions_config DedicatedServerV1#partitions_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#partitions_config DedicatedServerV1#partitions_config}
   */
   readonly partitionsConfig?: DedicatedServerV1PartitionsConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#timeouts DedicatedServerV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#timeouts DedicatedServerV1#timeouts}
   */
   readonly timeouts?: DedicatedServerV1Timeouts;
 }
 export interface DedicatedServerV1PartitionsConfigDiskPartitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#fs_type DedicatedServerV1#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#fs_type DedicatedServerV1#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#mount DedicatedServerV1#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#mount DedicatedServerV1#mount}
   */
   readonly mount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#raid DedicatedServerV1#raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#raid DedicatedServerV1#raid}
   */
   readonly raid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#size DedicatedServerV1#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#size DedicatedServerV1#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#size_percent DedicatedServerV1#size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#size_percent DedicatedServerV1#size_percent}
   */
   readonly sizePercent?: number;
 }
@@ -327,15 +327,15 @@ export class DedicatedServerV1PartitionsConfigDiskPartitionsList extends cdktf.C
 }
 export interface DedicatedServerV1PartitionsConfigSoftRaidConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#disk_type DedicatedServerV1#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#disk_type DedicatedServerV1#disk_type}
   */
   readonly diskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#level DedicatedServerV1#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#level DedicatedServerV1#level}
   */
   readonly level: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#name DedicatedServerV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#name DedicatedServerV1#name}
   */
   readonly name: string;
 }
@@ -502,13 +502,13 @@ export interface DedicatedServerV1PartitionsConfig {
   /**
   * disk_partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#disk_partitions DedicatedServerV1#disk_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#disk_partitions DedicatedServerV1#disk_partitions}
   */
   readonly diskPartitions?: DedicatedServerV1PartitionsConfigDiskPartitions[] | cdktf.IResolvable;
   /**
   * soft_raid_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#soft_raid_config DedicatedServerV1#soft_raid_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#soft_raid_config DedicatedServerV1#soft_raid_config}
   */
   readonly softRaidConfig?: DedicatedServerV1PartitionsConfigSoftRaidConfig[] | cdktf.IResolvable;
 }
@@ -653,15 +653,15 @@ export class DedicatedServerV1PartitionsConfigList extends cdktf.ComplexList {
 }
 export interface DedicatedServerV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#create DedicatedServerV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#create DedicatedServerV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#delete DedicatedServerV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#delete DedicatedServerV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#update DedicatedServerV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#update DedicatedServerV1#update}
   */
   readonly update?: string;
 }
@@ -813,7 +813,7 @@ export class DedicatedServerV1TimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1 selectel_dedicated_server_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1 selectel_dedicated_server_v1}
 */
 export class DedicatedServerV1 extends cdktf.TerraformResource {
 
@@ -829,7 +829,7 @@ export class DedicatedServerV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DedicatedServerV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DedicatedServerV1 to import
-  * @param importFromId The id of the existing DedicatedServerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DedicatedServerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DedicatedServerV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -841,7 +841,7 @@ export class DedicatedServerV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dedicated_server_v1 selectel_dedicated_server_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dedicated_server_v1 selectel_dedicated_server_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -852,8 +852,8 @@ export class DedicatedServerV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dedicated_server_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0',
-        providerVersionConstraint: '7.1.0'
+        providerVersion: '7.2.0',
+        providerVersionConstraint: '7.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

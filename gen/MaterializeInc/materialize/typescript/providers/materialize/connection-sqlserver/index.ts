@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ConnectionSqlserverConfig extends cdktf.TerraformMetaArguments 
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#comment ConnectionSqlserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#comment ConnectionSqlserver#comment}
   */
   readonly comment?: string;
   /**
   * The target SQL Server database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database ConnectionSqlserver#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database ConnectionSqlserver#database}
   */
   readonly database: string;
   /**
   * The identifier for the connection database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The SQL Server database hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#host ConnectionSqlserver#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#host ConnectionSqlserver#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#id ConnectionSqlserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#id ConnectionSqlserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface ConnectionSqlserverConfig extends cdktf.TerraformMetaArguments 
   /**
   * The identifier for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#ownership_role ConnectionSqlserver#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#ownership_role ConnectionSqlserver#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The SQL Server database port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#port ConnectionSqlserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#port ConnectionSqlserver#port}
   */
   readonly port?: number;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#region ConnectionSqlserver#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#region ConnectionSqlserver#region}
   */
   readonly region?: string;
   /**
   * The identifier for the connection schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The SSL mode for the SQL Server database. Allowed values are disabled, required, verify, verify-ca.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#ssl_mode ConnectionSqlserver#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#ssl_mode ConnectionSqlserver#ssl_mode}
   */
   readonly sslMode?: string;
   /**
   * If the connection should wait for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#validate ConnectionSqlserver#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#validate ConnectionSqlserver#validate}
   */
   readonly validate?: boolean | cdktf.IResolvable;
   /**
   * aws_privatelink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#aws_privatelink ConnectionSqlserver#aws_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#aws_privatelink ConnectionSqlserver#aws_privatelink}
   */
   readonly awsPrivatelink?: ConnectionSqlserverAwsPrivatelink;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#password ConnectionSqlserver#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#password ConnectionSqlserver#password}
   */
   readonly password?: ConnectionSqlserverPassword;
   /**
   * ssh_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#ssh_tunnel ConnectionSqlserver#ssh_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#ssh_tunnel ConnectionSqlserver#ssh_tunnel}
   */
   readonly sshTunnel?: ConnectionSqlserverSshTunnel;
   /**
   * ssl_certificate_authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#ssl_certificate_authority ConnectionSqlserver#ssl_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#ssl_certificate_authority ConnectionSqlserver#ssl_certificate_authority}
   */
   readonly sslCertificateAuthority?: ConnectionSqlserverSslCertificateAuthority;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#user ConnectionSqlserver#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#user ConnectionSqlserver#user}
   */
   readonly user: ConnectionSqlserverUser;
 }
@@ -115,19 +115,19 @@ export interface ConnectionSqlserverAwsPrivatelink {
   /**
   * The aws_privatelink database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The aws_privatelink name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The aws_privatelink schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -268,19 +268,19 @@ export interface ConnectionSqlserverPassword {
   /**
   * The password database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The password name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The password schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -421,19 +421,19 @@ export interface ConnectionSqlserverSshTunnel {
   /**
   * The ssh_tunnel database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssh_tunnel name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The ssh_tunnel schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -574,19 +574,19 @@ export interface ConnectionSqlserverSslCertificateAuthoritySecret {
   /**
   * The ssl_certificate_authority database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The ssl_certificate_authority name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The ssl_certificate_authority schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -727,13 +727,13 @@ export interface ConnectionSqlserverSslCertificateAuthority {
   /**
   * The `ssl_certificate_authority` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#text ConnectionSqlserver#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#text ConnectionSqlserver#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#secret ConnectionSqlserver#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#secret ConnectionSqlserver#secret}
   */
   readonly secret?: ConnectionSqlserverSslCertificateAuthoritySecret;
 }
@@ -848,19 +848,19 @@ export interface ConnectionSqlserverUserSecret {
   /**
   * The user database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#database_name ConnectionSqlserver#database_name}
   */
   readonly databaseName?: string;
   /**
   * The user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#name ConnectionSqlserver#name}
   */
   readonly name: string;
   /**
   * The user schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#schema_name ConnectionSqlserver#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1001,13 +1001,13 @@ export interface ConnectionSqlserverUser {
   /**
   * The `user` text value. Conflicts with `secret` within this block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#text ConnectionSqlserver#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#text ConnectionSqlserver#text}
   */
   readonly text?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#secret ConnectionSqlserver#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#secret ConnectionSqlserver#secret}
   */
   readonly secret?: ConnectionSqlserverUserSecret;
 }
@@ -1120,7 +1120,7 @@ export class ConnectionSqlserverUserOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver materialize_connection_sqlserver}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver materialize_connection_sqlserver}
 */
 export class ConnectionSqlserver extends cdktf.TerraformResource {
 
@@ -1136,7 +1136,7 @@ export class ConnectionSqlserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionSqlserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionSqlserver to import
-  * @param importFromId The id of the existing ConnectionSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionSqlserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionSqlserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1148,7 +1148,7 @@ export class ConnectionSqlserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/connection_sqlserver materialize_connection_sqlserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/connection_sqlserver materialize_connection_sqlserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1159,8 +1159,8 @@ export class ConnectionSqlserver extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_connection_sqlserver',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

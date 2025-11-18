@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureRecoveryServicesVaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#id AzureRecoveryServicesVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#id AzureRecoveryServicesVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface AzureRecoveryServicesVaultConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the infrastructure. Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#infra_name AzureRecoveryServicesVault#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#infra_name AzureRecoveryServicesVault#infra_name}
   */
   readonly infraName: string;
   /**
   * Specifies the name of the Recovery Services Vault. Recovery Service Vault name must be 2 - 50 characters long, start with a letter, contain only letters, numbers and hyphens. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#name AzureRecoveryServicesVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#name AzureRecoveryServicesVault#name}
   */
   readonly name: string;
   /**
   * The name of the resource group in which to create the Recovery Services Vault. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#resource_group_name AzureRecoveryServicesVault#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#resource_group_name AzureRecoveryServicesVault#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Whether or not to wait until Recovery Services Vault to be ready, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#wait_until_ready AzureRecoveryServicesVault#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#wait_until_ready AzureRecoveryServicesVault#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#timeouts AzureRecoveryServicesVault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#timeouts AzureRecoveryServicesVault#timeouts}
   */
   readonly timeouts?: AzureRecoveryServicesVaultTimeouts;
 }
 export interface AzureRecoveryServicesVaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#create AzureRecoveryServicesVault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#create AzureRecoveryServicesVault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#delete AzureRecoveryServicesVault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#delete AzureRecoveryServicesVault#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class AzureRecoveryServicesVaultTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault duplocloud_azure_recovery_services_vault}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault duplocloud_azure_recovery_services_vault}
 */
 export class AzureRecoveryServicesVault extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class AzureRecoveryServicesVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureRecoveryServicesVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureRecoveryServicesVault to import
-  * @param importFromId The id of the existing AzureRecoveryServicesVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureRecoveryServicesVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureRecoveryServicesVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class AzureRecoveryServicesVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_recovery_services_vault duplocloud_azure_recovery_services_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_recovery_services_vault duplocloud_azure_recovery_services_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class AzureRecoveryServicesVault extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_recovery_services_vault',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

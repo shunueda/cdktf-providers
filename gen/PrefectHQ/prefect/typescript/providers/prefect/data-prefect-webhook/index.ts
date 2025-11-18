@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPrefectWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook#account_id DataPrefectWebhook#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook#account_id DataPrefectWebhook#account_id}
   */
   readonly accountId?: string;
   /**
   * Webhook ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook#id DataPrefectWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook#id DataPrefectWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataPrefectWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook#name DataPrefectWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook#name DataPrefectWebhook#name}
   */
   readonly name?: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook#workspace_id DataPrefectWebhook#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook#workspace_id DataPrefectWebhook#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook prefect_webhook}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook prefect_webhook}
 */
 export class DataPrefectWebhook extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataPrefectWebhook extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectWebhook to import
-  * @param importFromId The id of the existing DataPrefectWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataPrefectWebhook extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/webhook prefect_webhook} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/webhook prefect_webhook} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataPrefectWebhook extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_webhook',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

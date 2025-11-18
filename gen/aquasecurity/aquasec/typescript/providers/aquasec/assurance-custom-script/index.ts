@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AssuranceCustomScriptConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the assurance script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#description AssuranceCustomScript#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#description AssuranceCustomScript#description}
   */
   readonly description?: string;
   /**
   * Script engine (e.g., yaml)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#engine AssuranceCustomScript#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#engine AssuranceCustomScript#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#id AssuranceCustomScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#id AssuranceCustomScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AssuranceCustomScriptConfig extends cdktf.TerraformMetaArgument
   /**
   * Kind of script (e.g., kubernetes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#kind AssuranceCustomScript#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#kind AssuranceCustomScript#kind}
   */
   readonly kind: string;
   /**
   * Name of the assurance script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#name AssuranceCustomScript#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#name AssuranceCustomScript#name}
   */
   readonly name: string;
   /**
   * Path of the script file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#path AssuranceCustomScript#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#path AssuranceCustomScript#path}
   */
   readonly path: string;
   /**
   * Content of the script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#snippet AssuranceCustomScript#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#snippet AssuranceCustomScript#snippet}
   */
   readonly snippet: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script aquasec_assurance_custom_script}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script aquasec_assurance_custom_script}
 */
 export class AssuranceCustomScript extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AssuranceCustomScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AssuranceCustomScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AssuranceCustomScript to import
-  * @param importFromId The id of the existing AssuranceCustomScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AssuranceCustomScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AssuranceCustomScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AssuranceCustomScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/assurance_custom_script aquasec_assurance_custom_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/assurance_custom_script aquasec_assurance_custom_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AssuranceCustomScript extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_assurance_custom_script',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface InferenceDeploymentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set to true to enable API key authentication for the inference instance. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#auth_enabled InferenceDeployment#auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#auth_enabled InferenceDeployment#auth_enabled}
   */
   readonly authEnabled?: boolean | cdktf.IResolvable;
   /**
   * Command to be executed when running a container from an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#command InferenceDeployment#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#command InferenceDeployment#command}
   */
   readonly command?: string;
   /**
   * Required if using a private image registry. Specifies the name of the credentials to authenticate with the registry where the container image is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#credentials_name InferenceDeployment#credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#credentials_name InferenceDeployment#credentials_name}
   */
   readonly credentialsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#description InferenceDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#description InferenceDeployment#description}
   */
   readonly description?: string;
   /**
   * Environment variables for the inference instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#envs InferenceDeployment#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#envs InferenceDeployment#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * Specifies the resource flavor for the container, determining its allocated CPU, memory, and potentially GPU resources. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#flavor_name InferenceDeployment#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#flavor_name InferenceDeployment#flavor_name}
   */
   readonly flavorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#id InferenceDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#id InferenceDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,61 +51,61 @@ export interface InferenceDeploymentConfig extends cdktf.TerraformMetaArguments 
   /**
   * The container image to be used for deployment. This should be a valid image reference, such as a public or private Docker image (registry.example.com/my-image:latest). Note: If the image is hosted in a private registry, you must specify credentials_name to provide authentication details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#image InferenceDeployment#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#image InferenceDeployment#image}
   */
   readonly image: string;
   /**
   * The port on which the container will accept incoming traffic. This should match the port your application is configured to listen on within the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#listening_port InferenceDeployment#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#listening_port InferenceDeployment#listening_port}
   */
   readonly listeningPort: number;
   /**
   * The name of the deployment. This should be unique within the scope of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#name InferenceDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#name InferenceDeployment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#project_id InferenceDeployment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#project_id InferenceDeployment#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#project_name InferenceDeployment#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#project_name InferenceDeployment#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#timeout InferenceDeployment#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#timeout InferenceDeployment#timeout}
   */
   readonly timeout?: number;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#containers InferenceDeployment#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#containers InferenceDeployment#containers}
   */
   readonly containers: InferenceDeploymentContainers[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#liveness_probe InferenceDeployment#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#liveness_probe InferenceDeployment#liveness_probe}
   */
   readonly livenessProbe?: InferenceDeploymentLivenessProbe;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#logging InferenceDeployment#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#logging InferenceDeployment#logging}
   */
   readonly logging?: InferenceDeploymentLogging;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#readiness_probe InferenceDeployment#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#readiness_probe InferenceDeployment#readiness_probe}
   */
   readonly readinessProbe?: InferenceDeploymentReadinessProbe;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#startup_probe InferenceDeployment#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#startup_probe InferenceDeployment#startup_probe}
   */
   readonly startupProbe?: InferenceDeploymentStartupProbe;
 }
@@ -113,115 +113,115 @@ export interface InferenceDeploymentContainers {
   /**
   * Cooldown period between scaling actions in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#cooldown_period InferenceDeployment#cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#cooldown_period InferenceDeployment#cooldown_period}
   */
   readonly cooldownPeriod: number;
   /**
   * Polling interval for scaling triggers in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#polling_interval InferenceDeployment#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#polling_interval InferenceDeployment#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
   * Region id for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#region_id InferenceDeployment#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#region_id InferenceDeployment#region_id}
   */
   readonly regionId: number;
   /**
   * Maximum scale for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#scale_max InferenceDeployment#scale_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#scale_max InferenceDeployment#scale_max}
   */
   readonly scaleMax: number;
   /**
   * Minimum scale for the container. It can be set to 0, in which case the container will be downscaled to 0 when there is no load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#scale_min InferenceDeployment#scale_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#scale_min InferenceDeployment#scale_min}
   */
   readonly scaleMin: number;
   /**
   * CPU trigger threshold configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_cpu_threshold InferenceDeployment#triggers_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_cpu_threshold InferenceDeployment#triggers_cpu_threshold}
   */
   readonly triggersCpuThreshold?: number;
   /**
   * GPU memory trigger threshold configuration. Calculated by DCGM_FI_DEV_MEM_COPY_UTIL metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_gpu_memory_threshold InferenceDeployment#triggers_gpu_memory_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_gpu_memory_threshold InferenceDeployment#triggers_gpu_memory_threshold}
   */
   readonly triggersGpuMemoryThreshold?: number;
   /**
   * GPU utilization trigger threshold configuration. Calculated by DCGM_FI_DEV_GPU_UTIL metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_gpu_utilization_threshold InferenceDeployment#triggers_gpu_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_gpu_utilization_threshold InferenceDeployment#triggers_gpu_utilization_threshold}
   */
   readonly triggersGpuUtilizationThreshold?: number;
   /**
   * Request count per 'window' seconds for the http trigger. Required if you use http trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_http_rate InferenceDeployment#triggers_http_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_http_rate InferenceDeployment#triggers_http_rate}
   */
   readonly triggersHttpRate?: number;
   /**
   * Time window for rate calculation in seconds. Required if you use http trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_http_window InferenceDeployment#triggers_http_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_http_window InferenceDeployment#triggers_http_window}
   */
   readonly triggersHttpWindow?: number;
   /**
   * Memory trigger threshold configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_memory_threshold InferenceDeployment#triggers_memory_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_memory_threshold InferenceDeployment#triggers_memory_threshold}
   */
   readonly triggersMemoryThreshold?: number;
   /**
   * Number of messages for activation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_activation_queue_length InferenceDeployment#triggers_sqs_activation_queue_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_activation_queue_length InferenceDeployment#triggers_sqs_activation_queue_length}
   */
   readonly triggersSqsActivationQueueLength?: number;
   /**
   * Custom AWS endpoint, left empty to use default aws endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_aws_endpoint InferenceDeployment#triggers_sqs_aws_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_aws_endpoint InferenceDeployment#triggers_sqs_aws_endpoint}
   */
   readonly triggersSqsAwsEndpoint?: string;
   /**
   * AWS region. Required if you use SQS trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_aws_region InferenceDeployment#triggers_sqs_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_aws_region InferenceDeployment#triggers_sqs_aws_region}
   */
   readonly triggersSqsAwsRegion?: string;
   /**
   * Number of messages for one replica
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_queue_length InferenceDeployment#triggers_sqs_queue_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_queue_length InferenceDeployment#triggers_sqs_queue_length}
   */
   readonly triggersSqsQueueLength?: number;
   /**
   * URL of the SQS queue. Required if you use SQS trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_queue_url InferenceDeployment#triggers_sqs_queue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_queue_url InferenceDeployment#triggers_sqs_queue_url}
   */
   readonly triggersSqsQueueUrl?: string;
   /**
   * Scale on delayed messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_scale_on_delayed InferenceDeployment#triggers_sqs_scale_on_delayed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_scale_on_delayed InferenceDeployment#triggers_sqs_scale_on_delayed}
   */
   readonly triggersSqsScaleOnDelayed?: boolean | cdktf.IResolvable;
   /**
   * Scale on in-flight messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_scale_on_flight InferenceDeployment#triggers_sqs_scale_on_flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_scale_on_flight InferenceDeployment#triggers_sqs_scale_on_flight}
   */
   readonly triggersSqsScaleOnFlight?: boolean | cdktf.IResolvable;
   /**
   * Name of the secret with AWS credentials. Required if you use SQS trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#triggers_sqs_secret_name InferenceDeployment#triggers_sqs_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#triggers_sqs_secret_name InferenceDeployment#triggers_sqs_secret_name}
   */
   readonly triggersSqsSecretName?: string;
 }
@@ -859,79 +859,79 @@ export interface InferenceDeploymentLivenessProbe {
   /**
   * Enable or disable probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Command to execute in the container to determine the health
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
   */
   readonly execCommand?: string;
   /**
   * Number of failed probes before the container is considered unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTP headers to use when sending a HTTP GET request, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
   */
   readonly httpGetHeaders?: { [key: string]: string };
   /**
   * Host name to connect to, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
   */
   readonly httpGetHost?: string;
   /**
   * Path to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
   */
   readonly httpGetPath?: string;
   /**
   * Number of the port to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
   */
   readonly httpGetPort?: number;
   /**
   * Scheme to use for connecting to the host, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
   */
   readonly httpGetSchema?: string;
   /**
   * Number of seconds after the container has started before liveness probes are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
   */
   readonly tcpSocketPort?: number;
   /**
   * Number of seconds after which the probe times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1360,19 +1360,19 @@ export class InferenceDeploymentLivenessProbeOutputReference extends cdktf.Compl
 }
 export interface InferenceDeploymentLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#destination_region_id InferenceDeployment#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#destination_region_id InferenceDeployment#destination_region_id}
   */
   readonly destinationRegionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#retention_policy_period InferenceDeployment#retention_policy_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#retention_policy_period InferenceDeployment#retention_policy_period}
   */
   readonly retentionPolicyPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#topic_name InferenceDeployment#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#topic_name InferenceDeployment#topic_name}
   */
   readonly topicName?: string;
 }
@@ -1545,79 +1545,79 @@ export interface InferenceDeploymentReadinessProbe {
   /**
   * Enable or disable probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Command to execute in the container to determine the health
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
   */
   readonly execCommand?: string;
   /**
   * Number of failed probes before the container is considered unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTP headers to use when sending a HTTP GET request, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
   */
   readonly httpGetHeaders?: { [key: string]: string };
   /**
   * Host name to connect to, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
   */
   readonly httpGetHost?: string;
   /**
   * Path to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
   */
   readonly httpGetPath?: string;
   /**
   * Number of the port to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
   */
   readonly httpGetPort?: number;
   /**
   * Scheme to use for connecting to the host, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
   */
   readonly httpGetSchema?: string;
   /**
   * Number of seconds after the container has started before liveness probes are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
   */
   readonly tcpSocketPort?: number;
   /**
   * Number of seconds after which the probe times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2048,79 +2048,79 @@ export interface InferenceDeploymentStartupProbe {
   /**
   * Enable or disable probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#enabled InferenceDeployment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Command to execute in the container to determine the health
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#exec_command InferenceDeployment#exec_command}
   */
   readonly execCommand?: string;
   /**
   * Number of failed probes before the container is considered unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#failure_threshold InferenceDeployment#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HTTP headers to use when sending a HTTP GET request, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_headers InferenceDeployment#http_get_headers}
   */
   readonly httpGetHeaders?: { [key: string]: string };
   /**
   * Host name to connect to, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_host InferenceDeployment#http_get_host}
   */
   readonly httpGetHost?: string;
   /**
   * Path to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_path InferenceDeployment#http_get_path}
   */
   readonly httpGetPath?: string;
   /**
   * Number of the port to access on the HTTP server, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_port InferenceDeployment#http_get_port}
   */
   readonly httpGetPort?: number;
   /**
   * Scheme to use for connecting to the host, valid only for HTTP probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#http_get_schema InferenceDeployment#http_get_schema}
   */
   readonly httpGetSchema?: string;
   /**
   * Number of seconds after the container has started before liveness probes are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#initial_delay_seconds InferenceDeployment#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#period_seconds InferenceDeployment#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#success_threshold InferenceDeployment#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Port to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#tcp_socket_port InferenceDeployment#tcp_socket_port}
   */
   readonly tcpSocketPort?: number;
   /**
   * Number of seconds after which the probe times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#timeout_seconds InferenceDeployment#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2549,7 +2549,7 @@ export class InferenceDeploymentStartupProbeOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment gcore_inference_deployment}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment gcore_inference_deployment}
 */
 export class InferenceDeployment extends cdktf.TerraformResource {
 
@@ -2565,7 +2565,7 @@ export class InferenceDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InferenceDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InferenceDeployment to import
-  * @param importFromId The id of the existing InferenceDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InferenceDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InferenceDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2577,7 +2577,7 @@ export class InferenceDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/inference_deployment gcore_inference_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/inference_deployment gcore_inference_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2588,8 +2588,8 @@ export class InferenceDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_inference_deployment',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

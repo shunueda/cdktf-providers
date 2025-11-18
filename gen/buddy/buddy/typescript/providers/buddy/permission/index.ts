@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The permission's description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#description Permission#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#description Permission#description}
   */
   readonly description?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#domain Permission#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#domain Permission#domain}
   */
   readonly domain: string;
   /**
   * The permission's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#name Permission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#name Permission#name}
   */
   readonly name: string;
   /**
   * The permission's access level to pipelines. Allowed: `DENIED`, `READ_ONLY`, `RUN_ONLY`, `READ_WRITE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#pipeline_access_level Permission#pipeline_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#pipeline_access_level Permission#pipeline_access_level}
   */
   readonly pipelineAccessLevel: string;
   /**
   * The permission's access level to team. Allowed: `READ_ONLY`, `MANAGE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#project_team_access_level Permission#project_team_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#project_team_access_level Permission#project_team_access_level}
   */
   readonly projectTeamAccessLevel?: string;
   /**
   * The permission's access level to repository. Allowed: `READ_ONLY`, `READ_WRITE`, `MANAGE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#repository_access_level Permission#repository_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#repository_access_level Permission#repository_access_level}
   */
   readonly repositoryAccessLevel: string;
   /**
   * The permission's access level to sandboxes. Allowed: `DENIED`, `READ_ONLY`, `READ_WRITE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#sandbox_access_level Permission#sandbox_access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#sandbox_access_level Permission#sandbox_access_level}
   */
   readonly sandboxAccessLevel: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission buddy_permission}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission buddy_permission}
 */
 export class Permission extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Permission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Permission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Permission to import
-  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Permission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Permission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/permission buddy_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/permission buddy_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Permission extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_permission',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

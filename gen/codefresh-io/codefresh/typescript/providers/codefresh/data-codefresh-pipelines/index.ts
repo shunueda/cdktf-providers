@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCodefreshPipelinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines#id DataCodefreshPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines#id DataCodefreshPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataCodefreshPipelinesConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name regular expression to filter pipelines by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines#name_regex DataCodefreshPipelines#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines#name_regex DataCodefreshPipelines#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -123,7 +123,7 @@ export class DataCodefreshPipelinesPipelinesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines codefresh_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines codefresh_pipelines}
 */
 export class DataCodefreshPipelines extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataCodefreshPipelines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCodefreshPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCodefreshPipelines to import
-  * @param importFromId The id of the existing DataCodefreshPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCodefreshPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCodefreshPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataCodefreshPipelines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/pipelines codefresh_pipelines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/pipelines codefresh_pipelines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataCodefreshPipelines extends cdktf.TerraformDataSource {
       terraformResourceType: 'codefresh_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

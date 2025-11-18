@@ -12,6 +12,7 @@ export * as eventBreakerRuleset from './event-breaker-ruleset';
 export * as globalVar from './global-var';
 export * as grok from './grok';
 export * as group from './group';
+export * as groupSystemSettings from './group-system-settings';
 export * as hmacFunction from './hmac-function';
 export * as lakehouseDatasetConnection from './lakehouse-dataset-connection';
 export * as lookupFile from './lookup-file';
@@ -58,6 +59,7 @@ export * as dataCriblioEventBreakerRuleset from './data-criblio-event-breaker-ru
 export * as dataCriblioGlobalVar from './data-criblio-global-var';
 export * as dataCriblioGrok from './data-criblio-grok';
 export * as dataCriblioGroup from './data-criblio-group';
+export * as dataCriblioGroupSystemSettings from './data-criblio-group-system-settings';
 export * as dataCriblioHmacFunction from './data-criblio-hmac-function';
 export * as dataCriblioInstanceSettings from './data-criblio-instance-settings';
 export * as dataCriblioLookupFile from './data-criblio-lookup-file';

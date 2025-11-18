@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface K8IngressConfig extends cdktf.TerraformMetaArguments {
   /**
   * An unstructured key value map stored with the ingress that may be used to store arbitrary metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#annotations K8Ingress#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#annotations K8Ingress#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#id K8Ingress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#id K8Ingress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface K8IngressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ingress class name references an IngressClass resource that contains additional configuration including the name of the controller that should implement the class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#ingress_class_name K8Ingress#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#ingress_class_name K8Ingress#ingress_class_name}
   */
   readonly ingressClassName: string;
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the service. May match selectors of replication controllers and services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#labels K8Ingress#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#labels K8Ingress#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#name K8Ingress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#name K8Ingress#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the Ingress will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#tenant_id K8Ingress#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#tenant_id K8Ingress#tenant_id}
   */
   readonly tenantId: string;
   /**
   * lbconfig block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#lbconfig K8Ingress#lbconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#lbconfig K8Ingress#lbconfig}
   */
   readonly lbconfig?: K8IngressLbconfig;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#rule K8Ingress#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#rule K8Ingress#rule}
   */
   readonly rule?: K8IngressRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#timeouts K8Ingress#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#timeouts K8Ingress#timeouts}
   */
   readonly timeouts?: K8IngressTimeouts;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#tls K8Ingress#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#tls K8Ingress#tls}
   */
   readonly tls?: K8IngressTls[] | cdktf.IResolvable;
 }
@@ -73,43 +73,43 @@ export interface K8IngressLbconfig {
   /**
   * The ARN of an ACM certificate to associate with this load balancer.  Only applicable for HTTPS. This field has been deprecated use certificate_arns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#certificate_arn K8Ingress#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#certificate_arn K8Ingress#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
   * The list of ARN of an ACM certificate to associate with this load balancer.  Only applicable for HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#certificate_arns K8Ingress#certificate_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#certificate_arns K8Ingress#certificate_arns}
   */
   readonly certificateArns?: string[];
   /**
   * The DNS prefix to expose services using Route53 domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#dns_prefix K8Ingress#dns_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#dns_prefix K8Ingress#dns_prefix}
   */
   readonly dnsPrefix: string;
   /**
   * HTTP Listener Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#http_port K8Ingress#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#http_port K8Ingress#http_port}
   */
   readonly httpPort?: number;
   /**
   * HTTPS Listener Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#https_port K8Ingress#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#https_port K8Ingress#https_port}
   */
   readonly httpsPort?: number;
   /**
   * Whether or not to create an internal load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#is_internal K8Ingress#is_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#is_internal K8Ingress#is_internal}
   */
   readonly isInternal: boolean | cdktf.IResolvable;
   /**
   * Port override for the load balancer. Currently supported for Azure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#port_override K8Ingress#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#port_override K8Ingress#port_override}
   */
   readonly portOverride?: string;
 }
@@ -363,37 +363,37 @@ export interface K8IngressRule {
   /**
   * If a host is provided (for e.g. example, foo.bar.com), the rules apply to that host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#host K8Ingress#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#host K8Ingress#host}
   */
   readonly host?: string;
   /**
   * Specify the path (for e.g. /api /v1/api/) to do a path base routing. If host is specified then both path and host should be match for the incoming request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#path K8Ingress#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#path K8Ingress#path}
   */
   readonly path: string;
   /**
   * Type of the path to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#path_type K8Ingress#path_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#path_type K8Ingress#path_type}
   */
   readonly pathType: string;
   /**
   * Port from the kubernetes service that ingress will use as backend port to serve the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#port K8Ingress#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#port K8Ingress#port}
   */
   readonly port?: number;
   /**
   * Port name from the kubernetes service that ingress will use as backend port to serve the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#port_name K8Ingress#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#port_name K8Ingress#port_name}
   */
   readonly portName?: string;
   /**
   * Name of the kubernetes service which Ingress will use as backend to serve the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#service_name K8Ingress#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#service_name K8Ingress#service_name}
   */
   readonly serviceName: string;
 }
@@ -645,15 +645,15 @@ export class K8IngressRuleList extends cdktf.ComplexList {
 }
 export interface K8IngressTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#create K8Ingress#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#create K8Ingress#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#delete K8Ingress#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#delete K8Ingress#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#update K8Ingress#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#update K8Ingress#update}
   */
   readonly update?: string;
 }
@@ -807,13 +807,13 @@ export interface K8IngressTls {
   /**
   * The list of hosts included in the TLS certificate. Each value in this list must match the name(s) specified in the TLS secret. If not specified, it defaults to the wildcard host setting for the load balancer controller managing this Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#hosts K8Ingress#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#hosts K8Ingress#hosts}
   */
   readonly hosts: string[];
   /**
   * The name of the secret used to terminate TLS traffic on port 443. This field is optional, enabling TLS routing based solely on the SNI hostname. If the SNI host in a listener conflicts with the 'Host' header in an IngressRule, the SNI host is used for termination, while the 'Host' header value is used for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#secret_name K8Ingress#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#secret_name K8Ingress#secret_name}
   */
   readonly secretName: string;
 }
@@ -952,7 +952,7 @@ export class K8IngressTlsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress duplocloud_k8_ingress}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress duplocloud_k8_ingress}
 */
 export class K8Ingress extends cdktf.TerraformResource {
 
@@ -968,7 +968,7 @@ export class K8Ingress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8Ingress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8Ingress to import
-  * @param importFromId The id of the existing K8Ingress that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8Ingress that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8Ingress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -980,7 +980,7 @@ export class K8Ingress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/k8_ingress duplocloud_k8_ingress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/k8_ingress duplocloud_k8_ingress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -991,8 +991,8 @@ export class K8Ingress extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_ingress',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

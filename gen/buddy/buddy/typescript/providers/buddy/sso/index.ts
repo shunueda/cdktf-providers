@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identity provider certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#certificate Sso#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#certificate Sso#certificate}
   */
   readonly certificate?: string;
   /**
   * The OIDC application's Client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#client_id Sso#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#client_id Sso#client_id}
   */
   readonly clientId?: string;
   /**
   * The OIDC application's Client Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#client_secret Sso#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#client_secret Sso#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The SAML digest algorithm. Allowed: `sha1`, `sha256`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#digest Sso#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#digest Sso#digest}
   */
   readonly digest?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#domain Sso#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#domain Sso#domain}
   */
   readonly domain: string;
   /**
   * The identity provider issuer url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#issuer Sso#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#issuer Sso#issuer}
   */
   readonly issuer: string;
   /**
   * Enable mandatory SAML SSO authentication for all workspace members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#require_for_all Sso#require_for_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#require_for_all Sso#require_for_all}
   */
   readonly requireForAll?: boolean | cdktf.IResolvable;
   /**
   * The SAML signature algorithm. Allowed: `sha1`, `sha256`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#signature Sso#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#signature Sso#signature}
   */
   readonly signature?: string;
   /**
   * The identity provider single sign-on url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#sso_url Sso#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#sso_url Sso#sso_url}
   */
   readonly ssoUrl?: string;
   /**
   * The SSO type. Allowed: `SAML`, `OIDC`. Default: `SAML`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#type Sso#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#type Sso#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso buddy_sso}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso buddy_sso}
 */
 export class Sso extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class Sso extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sso resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sso to import
-  * @param importFromId The id of the existing Sso that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sso that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sso to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Sso extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sso buddy_sso} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sso buddy_sso} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Sso extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_sso',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

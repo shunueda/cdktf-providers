@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface WorkPoolAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#account_id WorkPoolAccess#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#account_id WorkPoolAccess#account_id}
   */
   readonly accountId?: string;
   /**
   * List of actor IDs with manage access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#manage_actor_ids WorkPoolAccess#manage_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#manage_actor_ids WorkPoolAccess#manage_actor_ids}
   */
   readonly manageActorIds?: string[];
   /**
   * List of team IDs with manage access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#manage_team_ids WorkPoolAccess#manage_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#manage_team_ids WorkPoolAccess#manage_team_ids}
   */
   readonly manageTeamIds?: string[];
   /**
   * List of actor IDs with run access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#run_actor_ids WorkPoolAccess#run_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#run_actor_ids WorkPoolAccess#run_actor_ids}
   */
   readonly runActorIds?: string[];
   /**
   * List of team IDs with run access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#run_team_ids WorkPoolAccess#run_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#run_team_ids WorkPoolAccess#run_team_ids}
   */
   readonly runTeamIds?: string[];
   /**
   * List of actor IDs with view access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#view_actor_ids WorkPoolAccess#view_actor_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#view_actor_ids WorkPoolAccess#view_actor_ids}
   */
   readonly viewActorIds?: string[];
   /**
   * List of team IDs with view access to the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#view_team_ids WorkPoolAccess#view_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#view_team_ids WorkPoolAccess#view_team_ids}
   */
   readonly viewTeamIds?: string[];
   /**
   * The name of the Work Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#work_pool_name WorkPoolAccess#work_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#work_pool_name WorkPoolAccess#work_pool_name}
   */
   readonly workPoolName: string;
   /**
   * Workspace ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#workspace_id WorkPoolAccess#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#workspace_id WorkPoolAccess#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access prefect_work_pool_access}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access prefect_work_pool_access}
 */
 export class WorkPoolAccess extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class WorkPoolAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkPoolAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkPoolAccess to import
-  * @param importFromId The id of the existing WorkPoolAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkPoolAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkPoolAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class WorkPoolAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_pool_access prefect_work_pool_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_pool_access prefect_work_pool_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class WorkPoolAccess extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_work_pool_access',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

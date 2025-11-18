@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface CdnLogsUploaderPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Date format for logs. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#date_format CdnLogsUploaderPolicy#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#date_format CdnLogsUploaderPolicy#date_format}
   */
   readonly dateFormat?: string;
   /**
   * Description of the policy. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#description CdnLogsUploaderPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#description CdnLogsUploaderPolicy#description}
   */
   readonly description?: string;
   /**
   * Field delimiter for logs. Default value is \".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#field_delimiter CdnLogsUploaderPolicy#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#field_delimiter CdnLogsUploaderPolicy#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
   * Field separator for logs. Default value is a space character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#field_separator CdnLogsUploaderPolicy#field_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#field_separator CdnLogsUploaderPolicy#field_separator}
   */
   readonly fieldSeparator?: string;
   /**
   * List of fields to include in logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#fields CdnLogsUploaderPolicy#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#fields CdnLogsUploaderPolicy#fields}
   */
   readonly fields: string[];
   /**
   * Template for log file name. Default value is "{{YYYY}}/{{MM}}/{{DD}}/{{HH}}/{{mm}}/{{ss}}/{{HOST}}_{{CNAME}}_access.log.gz".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#file_name_template CdnLogsUploaderPolicy#file_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#file_name_template CdnLogsUploaderPolicy#file_name_template}
   */
   readonly fileNameTemplate?: string;
   /**
   * Format type for logs. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#format_type CdnLogsUploaderPolicy#format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#format_type CdnLogsUploaderPolicy#format_type}
   */
   readonly formatType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#id CdnLogsUploaderPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#id CdnLogsUploaderPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,55 +59,55 @@ export interface CdnLogsUploaderPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Include empty logs in the upload. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#include_empty_logs CdnLogsUploaderPolicy#include_empty_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#include_empty_logs CdnLogsUploaderPolicy#include_empty_logs}
   */
   readonly includeEmptyLogs?: boolean | cdktf.IResolvable;
   /**
   * Include logs from origin shielding in the upload. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#include_shield_logs CdnLogsUploaderPolicy#include_shield_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#include_shield_logs CdnLogsUploaderPolicy#include_shield_logs}
   */
   readonly includeShieldLogs?: boolean | cdktf.IResolvable;
   /**
   * Name of the policy. Default value is "Policy".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#name CdnLogsUploaderPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#name CdnLogsUploaderPolicy#name}
   */
   readonly name?: string;
   /**
   * Interval in minutes to retry failed uploads. Default value is 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#retry_interval_minutes CdnLogsUploaderPolicy#retry_interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#retry_interval_minutes CdnLogsUploaderPolicy#retry_interval_minutes}
   */
   readonly retryIntervalMinutes?: number;
   /**
   * Interval in minutes to rotate logs. Default value is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#rotate_interval_minutes CdnLogsUploaderPolicy#rotate_interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#rotate_interval_minutes CdnLogsUploaderPolicy#rotate_interval_minutes}
   */
   readonly rotateIntervalMinutes?: number;
   /**
   * Threshold in lines to rotate logs. Default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#rotate_threshold_lines CdnLogsUploaderPolicy#rotate_threshold_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#rotate_threshold_lines CdnLogsUploaderPolicy#rotate_threshold_lines}
   */
   readonly rotateThresholdLines?: number;
   /**
   * Threshold in MB to rotate logs. Default value is nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#rotate_threshold_mb CdnLogsUploaderPolicy#rotate_threshold_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#rotate_threshold_mb CdnLogsUploaderPolicy#rotate_threshold_mb}
   */
   readonly rotateThresholdMb?: number;
   /**
   * Tags allow for dynamic decoration of logs by adding predefined fields to the log format. These tags serve as customizable key-value pairs that can be included in log entries to enhance context and readability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#tags CdnLogsUploaderPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#tags CdnLogsUploaderPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy gcore_cdn_logs_uploader_policy}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy gcore_cdn_logs_uploader_policy}
 */
 export class CdnLogsUploaderPolicy extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class CdnLogsUploaderPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnLogsUploaderPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnLogsUploaderPolicy to import
-  * @param importFromId The id of the existing CdnLogsUploaderPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnLogsUploaderPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnLogsUploaderPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class CdnLogsUploaderPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_policy gcore_cdn_logs_uploader_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/cdn_logs_uploader_policy gcore_cdn_logs_uploader_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class CdnLogsUploaderPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_logs_uploader_policy',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

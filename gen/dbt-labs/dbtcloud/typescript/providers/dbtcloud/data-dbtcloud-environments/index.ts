@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/environments
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/environments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataDbtcloudEnvironmentsConfig extends cdktf.TerraformMetaArgum
   /**
   * The project ID to filter the environments for [Optional]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/environments#project_id DataDbtcloudEnvironments#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/environments#project_id DataDbtcloudEnvironments#project_id}
   */
   readonly projectId?: number;
 }
@@ -146,7 +146,7 @@ export class DataDbtcloudEnvironmentsEnvironmentsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/environments dbtcloud_environments}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/environments dbtcloud_environments}
 */
 export class DataDbtcloudEnvironments extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataDbtcloudEnvironments extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudEnvironments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudEnvironments to import
-  * @param importFromId The id of the existing DataDbtcloudEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/environments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudEnvironments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataDbtcloudEnvironments extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/environments dbtcloud_environments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/environments dbtcloud_environments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataDbtcloudEnvironments extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_environments',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

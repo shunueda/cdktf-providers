@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AiClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of metadata items. Key-value pairs for GPU cluster metadata. Example: {'environment': 'production', 'owner': 'user'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#cluster_metadata AiCluster#cluster_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#cluster_metadata AiCluster#cluster_metadata}
   */
   readonly clusterMetadata?: { [key: string]: string };
   /**
   * GPU Cluster Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#cluster_name AiCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#cluster_name AiCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * GPU Cluster status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#cluster_status AiCluster#cluster_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#cluster_status AiCluster#cluster_status}
   */
   readonly clusterStatus?: string;
   /**
   * Flavor ID (name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#flavor AiCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#flavor AiCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#id AiCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#id AiCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,79 +41,79 @@ export interface AiClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#image_id AiCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#image_id AiCluster#image_id}
   */
   readonly imageId: string;
   /**
   * Number of servers in the GPU cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#instances_count AiCluster#instances_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#instances_count AiCluster#instances_count}
   */
   readonly instancesCount?: number;
   /**
   * The name of the SSH keypair to use for the GPU servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#keypair_name AiCluster#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#keypair_name AiCluster#keypair_name}
   */
   readonly keypairName?: string;
   /**
   * A password for servers in GPU cluster. This parameter is used to set a password for the Admin user on a Windows instance, a default user or a new user on a Linux instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#password AiCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#password AiCluster#password}
   */
   readonly password?: string;
   /**
   * Project ID, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#project_id AiCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#project_id AiCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name, only one of project_id or project_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#project_name AiCluster#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#project_name AiCluster#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#region_id AiCluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#region_id AiCluster#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name, only one of region_id or region_name should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#region_name AiCluster#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#region_name AiCluster#region_name}
   */
   readonly regionName?: string;
   /**
   * User data string in base64 format. This is passed to the instance at launch. For Linux instances, 'user_data' is ignored when 'password' field is provided. For Windows instances, Admin user password is set by 'password' field and cannot be updated via 'user_data'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#user_data AiCluster#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#user_data AiCluster#user_data}
   */
   readonly userData?: string;
   /**
   * A name of a new user in the Linux instance. It may be passed with a 'password' parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#username AiCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#username AiCluster#username}
   */
   readonly username?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#interface AiCluster#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#interface AiCluster#interface}
   */
   readonly interface: AiClusterInterface[] | cdktf.IResolvable;
   /**
   * security_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#security_group AiCluster#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#security_group AiCluster#security_group}
   */
   readonly securityGroup?: AiClusterSecurityGroup[] | cdktf.IResolvable;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#volume AiCluster#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#volume AiCluster#volume}
   */
   readonly volume?: AiClusterVolume[] | cdktf.IResolvable;
 }
@@ -587,25 +587,25 @@ export interface AiClusterInterface {
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#network_id AiCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#network_id AiCluster#network_id}
   */
   readonly networkId?: string;
   /**
   * Network ID the subnet belongs to. Port will be plugged in this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#port_id AiCluster#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#port_id AiCluster#port_id}
   */
   readonly portId?: string;
   /**
   * Port is assigned to IP address from the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#subnet_id AiCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#subnet_id AiCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Network type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#type AiCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#type AiCluster#type}
   */
   readonly type?: string;
 }
@@ -810,7 +810,7 @@ export interface AiClusterSecurityGroup {
   /**
   * Security group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#id AiCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#id AiCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1042,43 +1042,43 @@ export interface AiClusterVolume {
   /**
   * Volume ID. Mandatory if volume is pre-existing volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#image_id AiCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#image_id AiCluster#image_id}
   */
   readonly imageId: string;
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#name AiCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#name AiCluster#name}
   */
   readonly name?: string;
   /**
   * Volume size, GiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#size AiCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#size AiCluster#size}
   */
   readonly size?: number;
   /**
   * Currently available only value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#source AiCluster#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#source AiCluster#source}
   */
   readonly source?: string;
   /**
   * Volume ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#volume_id AiCluster#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#volume_id AiCluster#volume_id}
   */
   readonly volumeId?: string;
   /**
   * Volume type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#volume_type AiCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#volume_type AiCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
   * attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#attachments AiCluster#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#attachments AiCluster#attachments}
   */
   readonly attachments?: AiClusterVolumeAttachments[] | cdktf.IResolvable;
 }
@@ -1391,7 +1391,7 @@ export class AiClusterVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster gcore_ai_cluster}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster gcore_ai_cluster}
 */
 export class AiCluster extends cdktf.TerraformResource {
 
@@ -1407,7 +1407,7 @@ export class AiCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiCluster to import
-  * @param importFromId The id of the existing AiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1419,7 +1419,7 @@ export class AiCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/ai_cluster gcore_ai_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/ai_cluster gcore_ai_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1430,8 +1430,8 @@ export class AiCluster extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_ai_cluster',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

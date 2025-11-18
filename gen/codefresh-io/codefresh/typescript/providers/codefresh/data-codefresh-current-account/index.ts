@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface DataCodefreshCurrentAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#id DataCodefreshCurrentAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#id DataCodefreshCurrentAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#name DataCodefreshCurrentAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#name DataCodefreshCurrentAccount#name}
   */
   readonly name?: string;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#users DataCodefreshCurrentAccount#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#users DataCodefreshCurrentAccount#users}
   */
   readonly users?: DataCodefreshCurrentAccountUsers[] | cdktf.IResolvable;
 }
 export interface DataCodefreshCurrentAccountUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#email DataCodefreshCurrentAccount#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#email DataCodefreshCurrentAccount#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#id DataCodefreshCurrentAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#id DataCodefreshCurrentAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#name DataCodefreshCurrentAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#name DataCodefreshCurrentAccount#name}
   */
   readonly name: string;
 }
@@ -203,7 +203,7 @@ export class DataCodefreshCurrentAccountUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account codefresh_current_account}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account codefresh_current_account}
 */
 export class DataCodefreshCurrentAccount extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataCodefreshCurrentAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCodefreshCurrentAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCodefreshCurrentAccount to import
-  * @param importFromId The id of the existing DataCodefreshCurrentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCodefreshCurrentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCodefreshCurrentAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataCodefreshCurrentAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/data-sources/current_account codefresh_current_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/data-sources/current_account codefresh_current_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataCodefreshCurrentAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'codefresh_current_account',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

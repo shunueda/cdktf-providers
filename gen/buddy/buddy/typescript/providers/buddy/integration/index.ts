@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The integration's access key. Provide for: `DO_SPACES`, `AMAZON`, `PUSHOVER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#access_key Integration#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#access_key Integration#access_key}
   */
   readonly accessKey?: string;
   /**
   * Defines whether or not integration can be used in all pipelines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#all_pipelines_allowed Integration#all_pipelines_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#all_pipelines_allowed Integration#all_pipelines_allowed}
   */
   readonly allPipelinesAllowed?: boolean | cdktf.IResolvable;
   /**
   * List of pipeline IDs that is allowed to use the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#allowed_pipelines Integration#allowed_pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#allowed_pipelines Integration#allowed_pipelines}
   */
   readonly allowedPipelines?: number[];
   /**
   * The integration's API key. Provide for: `CLOUDFLARE`, `GOOGLE_SERVICE_ACCOUNT`, `STACK_HAWK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#api_key Integration#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#api_key Integration#api_key}
   */
   readonly apiKey?: string;
   /**
   * The integration's application's ID. Provide for: `AZURE_CLOUD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#app_id Integration#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#app_id Integration#app_id}
   */
   readonly appId?: string;
   /**
   * The integration's audience. Provide for OIDC with: `AMAZON`, `AZURE_CLOUD`, `GOOGLE_SERVICE_ACCOUNT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#audience Integration#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#audience Integration#audience}
   */
   readonly audience?: string;
   /**
   * The integration's auth type. Provide for: `AMAZON`, `AZURE_CLOUD`, `GOOGLE_SERVICE_ACCOUNT`. Allowed: `DEFAULT, TRUSTED, OIDC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#auth_type Integration#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#auth_type Integration#auth_type}
   */
   readonly authType?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#domain Integration#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#domain Integration#domain}
   */
   readonly domain: string;
   /**
   * The integration's email. Provide for: `CLOUDFLARE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#email Integration#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#email Integration#email}
   */
   readonly email?: string;
   /**
   * The integration's google config. Provide for `GOOGLE_SERVICE_ACCOUNT` OIDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#google_config Integration#google_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#google_config Integration#google_config}
   */
   readonly googleConfig?: string;
   /**
   * The integration's google project. Provide for `GOOGLE_SERVICE_ACCOUNT` OIDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#google_project Integration#google_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#google_project Integration#google_project}
   */
   readonly googleProject?: string;
   /**
   * The integration's identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#identifier Integration#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#identifier Integration#identifier}
   */
   readonly identifier?: string;
   /**
   * The integration's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#name Integration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#name Integration#name}
   */
   readonly name: string;
   /**
   * The integration's partner token. Provide for: `SHOPIFY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#partner_token Integration#partner_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#partner_token Integration#partner_token}
   */
   readonly partnerToken?: string;
   /**
   * The integration's password. Provide for: `AZURE_CLOUD`, `UPCLOUD`, `DOCKER_HUB`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#password Integration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#password Integration#password}
   */
   readonly password?: string;
   /**
   * The project's name. Provide along with scopes: `PROJECT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#project_name Integration#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#project_name Integration#project_name}
   */
   readonly projectName?: string;
   /**
@@ -110,65 +110,65 @@ export interface IntegrationConfig extends cdktf.TerraformMetaArguments {
   * 
   * `PROJECT` - only project members can use the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#scope Integration#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#scope Integration#scope}
   */
   readonly scope: string;
   /**
   * The integration's secret key. Provide for: `DO_SPACES`, `AMAZON`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#secret_key Integration#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#secret_key Integration#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The integration's shop. Provide for: `SHOPIFY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#shop Integration#shop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#shop Integration#shop}
   */
   readonly shop?: string;
   /**
   * The integration's tenant's ID. Provide for: `AZURE_CLOUD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#tenant_id Integration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#tenant_id Integration#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The integration's token. Provide for: `DIGITAL_OCEAN`, `SHOPIFY`, `RACKSPACE`, `CLOUDFLARE`, `NEW_RELIC`, `SENTRY`, `ROLLBAR`, `DATADOG`, `HONEYBADGER`, `VULTR`, `SENTRY_ENTERPRISE`, `LOGGLY`, `FIREBASE`, `GHOST_INSPECTOR`, `PUSHOVER`, `GIT_LAB`, `GIT_HUB`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#token Integration#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#token Integration#token}
   */
   readonly token?: string;
   /**
   * The integration's type. Allowed: `DIGITAL_OCEAN`, `AMAZON`, `SHOPIFY`, `PUSHOVER`, `RACKSPACE`, `CLOUDFLARE`, `NEW_RELIC`, `SENTRY`, `ROLLBAR`, `DATADOG`, `DO_SPACES`, `HONEYBADGER`, `VULTR`, `SENTRY_ENTERPRISE`, `LOGGLY`, `FIREBASE`, `UPCLOUD`, `GHOST_INSPECTOR`, `AZURE_CLOUD`, `DOCKER_HUB`, `GOOGLE_SERVICE_ACCOUNT`, `GIT_HUB`, `GIT_LAB`, `STACK_HAWK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#type Integration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#type Integration#type}
   */
   readonly type: string;
   /**
   * The integration's username. Provide for: `UPCLOUD`, `RACKSPACE`, `DOCKER_HUB`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#username Integration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#username Integration#username}
   */
   readonly username?: string;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#permissions Integration#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#permissions Integration#permissions}
   */
   readonly permissions?: IntegrationPermissions[] | cdktf.IResolvable;
   /**
   * role_assumption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#role_assumption Integration#role_assumption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#role_assumption Integration#role_assumption}
   */
   readonly roleAssumption?: IntegrationRoleAssumption[] | cdktf.IResolvable;
 }
 export interface IntegrationPermissionsGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#access_level Integration#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#access_level Integration#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#id Integration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#id Integration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -310,11 +310,11 @@ export class IntegrationPermissionsGroupList extends cdktf.ComplexList {
 }
 export interface IntegrationPermissionsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#access_level Integration#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#access_level Integration#access_level}
   */
   readonly accessLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#id Integration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#id Integration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -456,23 +456,23 @@ export class IntegrationPermissionsUserList extends cdktf.ComplexList {
 }
 export interface IntegrationPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#admins Integration#admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#admins Integration#admins}
   */
   readonly admins?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#others Integration#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#others Integration#others}
   */
   readonly others?: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#group Integration#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#group Integration#group}
   */
   readonly group?: IntegrationPermissionsGroup[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#user Integration#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#user Integration#user}
   */
   readonly user?: IntegrationPermissionsUser[] | cdktf.IResolvable;
 }
@@ -677,19 +677,19 @@ export interface IntegrationRoleAssumption {
   /**
   * The integration's AWS role ARN to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#arn Integration#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#arn Integration#arn}
   */
   readonly arn: string;
   /**
   * The integration's AWS session duration in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#duration Integration#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#duration Integration#duration}
   */
   readonly duration?: number;
   /**
   * The integration's AWS external ID to send when assuming AWS role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#external_id Integration#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#external_id Integration#external_id}
   */
   readonly externalId?: string;
 }
@@ -860,7 +860,7 @@ export class IntegrationRoleAssumptionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration buddy_integration}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration buddy_integration}
 */
 export class Integration extends cdktf.TerraformResource {
 
@@ -876,7 +876,7 @@ export class Integration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Integration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Integration to import
-  * @param importFromId The id of the existing Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Integration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -888,7 +888,7 @@ export class Integration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/integration buddy_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/integration buddy_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -899,8 +899,8 @@ export class Integration extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_integration',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

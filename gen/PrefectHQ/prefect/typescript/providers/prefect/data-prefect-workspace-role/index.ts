@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPrefectWorkspaceRoleConfig extends cdktf.TerraformMetaArgum
   /**
   * Account ID (UUID) where Workspace Role resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role#account_id DataPrefectWorkspaceRole#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role#account_id DataPrefectWorkspaceRole#account_id}
   */
   readonly accountId?: string;
   /**
   * Name of the Workspace Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role#name DataPrefectWorkspaceRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role#name DataPrefectWorkspaceRole#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role prefect_workspace_role}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role prefect_workspace_role}
 */
 export class DataPrefectWorkspaceRole extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataPrefectWorkspaceRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectWorkspaceRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectWorkspaceRole to import
-  * @param importFromId The id of the existing DataPrefectWorkspaceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectWorkspaceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectWorkspaceRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataPrefectWorkspaceRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/workspace_role prefect_workspace_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/data-sources/workspace_role prefect_workspace_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataPrefectWorkspaceRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_workspace_role',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

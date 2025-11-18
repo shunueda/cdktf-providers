@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsRdsGlobalSecondaryConfig extends cdktf.TerraformMetaArgument
   /**
   * The identifier of the primary Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#cluster_identifier AwsRdsGlobalSecondary#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#cluster_identifier AwsRdsGlobalSecondary#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#id AwsRdsGlobalSecondary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#id AwsRdsGlobalSecondary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface AwsRdsGlobalSecondaryConfig extends cdktf.TerraformMetaArgument
   /**
   * The region of the secondary Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#region AwsRdsGlobalSecondary#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#region AwsRdsGlobalSecondary#region}
   */
   readonly region: string;
   /**
   * The GUID of the tenant that the secondary RDS Global Database will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#secondary_tenant_id AwsRdsGlobalSecondary#secondary_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#secondary_tenant_id AwsRdsGlobalSecondary#secondary_tenant_id}
   */
   readonly secondaryTenantId: string;
   /**
   * The GUID of the tenant that the RDS tag will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#tenant_id AwsRdsGlobalSecondary#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#tenant_id AwsRdsGlobalSecondary#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#timeouts AwsRdsGlobalSecondary#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#timeouts AwsRdsGlobalSecondary#timeouts}
   */
   readonly timeouts?: AwsRdsGlobalSecondaryTimeouts;
 }
 export interface AwsRdsGlobalSecondaryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#create AwsRdsGlobalSecondary#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#create AwsRdsGlobalSecondary#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#delete AwsRdsGlobalSecondary#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#delete AwsRdsGlobalSecondary#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class AwsRdsGlobalSecondaryTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary duplocloud_aws_rds_global_secondary}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary duplocloud_aws_rds_global_secondary}
 */
 export class AwsRdsGlobalSecondary extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class AwsRdsGlobalSecondary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsRdsGlobalSecondary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsRdsGlobalSecondary to import
-  * @param importFromId The id of the existing AwsRdsGlobalSecondary that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsRdsGlobalSecondary that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsRdsGlobalSecondary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class AwsRdsGlobalSecondary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_rds_global_secondary duplocloud_aws_rds_global_secondary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_rds_global_secondary duplocloud_aws_rds_global_secondary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class AwsRdsGlobalSecondary extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_rds_global_secondary',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

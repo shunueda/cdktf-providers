@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user#email User#email}
   */
   readonly email?: string;
   /**
   * First name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user#first_name User#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user#first_name User#first_name}
   */
   readonly firstName?: string;
   /**
   * A unique handle for the user, containing only lowercase letters, numbers, and dashes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user#handle User#handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user#handle User#handle}
   */
   readonly handle?: string;
   /**
   * Last name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user#last_name User#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user#last_name User#last_name}
   */
   readonly lastName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user prefect_user}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user prefect_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/user prefect_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/user prefect_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_user',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

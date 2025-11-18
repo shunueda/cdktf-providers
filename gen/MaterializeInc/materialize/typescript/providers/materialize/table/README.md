@@ -1,3 +1,3 @@
 # `materialize_table`
 
-Refer to the Terraform Registry for docs: [`materialize_table`](https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/table).
+Refer to the Terraform Registry for docs: [`materialize_table`](https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/table).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsTimestreamwriteTableConfig extends cdktf.TerraformMetaArgume
   /**
   * The full name of the Timestream database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#database_name AwsTimestreamwriteTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#database_name AwsTimestreamwriteTable#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#id AwsTimestreamwriteTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#id AwsTimestreamwriteTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface AwsTimestreamwriteTableConfig extends cdktf.TerraformMetaArgume
   /**
   * The short name of the Timestream Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#name AwsTimestreamwriteTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#name AwsTimestreamwriteTable#name}
   */
   readonly name: string;
   /**
   * The GUID of the tenant that the Timestream Table will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#tenant_id AwsTimestreamwriteTable#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#tenant_id AwsTimestreamwriteTable#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#wait_for_deployment AwsTimestreamwriteTable#wait_for_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#wait_for_deployment AwsTimestreamwriteTable#wait_for_deployment}
   */
   readonly waitForDeployment?: boolean | cdktf.IResolvable;
   /**
   * magnetic_store_write_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#magnetic_store_write_properties AwsTimestreamwriteTable#magnetic_store_write_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#magnetic_store_write_properties AwsTimestreamwriteTable#magnetic_store_write_properties}
   */
   readonly magneticStoreWriteProperties?: AwsTimestreamwriteTableMagneticStoreWriteProperties;
   /**
   * retention_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#retention_properties AwsTimestreamwriteTable#retention_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#retention_properties AwsTimestreamwriteTable#retention_properties}
   */
   readonly retentionProperties?: AwsTimestreamwriteTableRetentionProperties;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#tags AwsTimestreamwriteTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#tags AwsTimestreamwriteTable#tags}
   */
   readonly tags?: AwsTimestreamwriteTableTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#timeouts AwsTimestreamwriteTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#timeouts AwsTimestreamwriteTable#timeouts}
   */
   readonly timeouts?: AwsTimestreamwriteTableTimeouts;
 }
@@ -147,25 +147,25 @@ export interface AwsTimestreamwriteTableMagneticStoreWritePropertiesMagneticStor
   /**
   * Bucket name of the customer S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#bucket_name AwsTimestreamwriteTable#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#bucket_name AwsTimestreamwriteTable#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Encryption option for the customer s3 location. Options are S3 server side encryption with an S3-managed key or KMS managed key. Valid values are `SSE_KMS` and `SSE_S3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#encryption_option AwsTimestreamwriteTable#encryption_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#encryption_option AwsTimestreamwriteTable#encryption_option}
   */
   readonly encryptionOption?: string;
   /**
   * KMS key arn for the customer s3 location when encrypting with a KMS managed key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#kms_key_id AwsTimestreamwriteTable#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#kms_key_id AwsTimestreamwriteTable#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Object key prefix for the customer S3 location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#object_key_prefix AwsTimestreamwriteTable#object_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#object_key_prefix AwsTimestreamwriteTable#object_key_prefix}
   */
   readonly objectKeyPrefix?: string;
 }
@@ -338,7 +338,7 @@ export interface AwsTimestreamwriteTableMagneticStoreWritePropertiesMagneticStor
   /**
   * s3_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#s3_configuration AwsTimestreamwriteTable#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#s3_configuration AwsTimestreamwriteTable#s3_configuration}
   */
   readonly s3Configuration?: AwsTimestreamwriteTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocationS3Configuration;
 }
@@ -424,13 +424,13 @@ export interface AwsTimestreamwriteTableMagneticStoreWriteProperties {
   /**
   * A flag to enable magnetic store writes. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#enable_magnetic_store_writes AwsTimestreamwriteTable#enable_magnetic_store_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#enable_magnetic_store_writes AwsTimestreamwriteTable#enable_magnetic_store_writes}
   */
   readonly enableMagneticStoreWrites?: boolean | cdktf.IResolvable;
   /**
   * magnetic_store_rejected_data_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#magnetic_store_rejected_data_location AwsTimestreamwriteTable#magnetic_store_rejected_data_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#magnetic_store_rejected_data_location AwsTimestreamwriteTable#magnetic_store_rejected_data_location}
   */
   readonly magneticStoreRejectedDataLocation?: AwsTimestreamwriteTableMagneticStoreWritePropertiesMagneticStoreRejectedDataLocation;
 }
@@ -545,13 +545,13 @@ export interface AwsTimestreamwriteTableRetentionProperties {
   /**
   * The duration for which data must be stored in the magnetic store. Minimum value of 1. Maximum value of 73000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#magnetic_store_retention_period_in_days AwsTimestreamwriteTable#magnetic_store_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#magnetic_store_retention_period_in_days AwsTimestreamwriteTable#magnetic_store_retention_period_in_days}
   */
   readonly magneticStoreRetentionPeriodInDays: number;
   /**
   * The duration for which data must be stored in the memory store. Minimum value of 1. Maximum value of 8766.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#memory_store_retention_period_in_hours AwsTimestreamwriteTable#memory_store_retention_period_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#memory_store_retention_period_in_hours AwsTimestreamwriteTable#memory_store_retention_period_in_hours}
   */
   readonly memoryStoreRetentionPeriodInHours: number;
 }
@@ -658,11 +658,11 @@ export class AwsTimestreamwriteTableRetentionPropertiesOutputReference extends c
 }
 export interface AwsTimestreamwriteTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#key AwsTimestreamwriteTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#key AwsTimestreamwriteTable#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#value AwsTimestreamwriteTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#value AwsTimestreamwriteTable#value}
   */
   readonly value: string;
 }
@@ -801,11 +801,11 @@ export class AwsTimestreamwriteTableTagsList extends cdktf.ComplexList {
 }
 export interface AwsTimestreamwriteTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#create AwsTimestreamwriteTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#create AwsTimestreamwriteTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#delete AwsTimestreamwriteTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#delete AwsTimestreamwriteTable#delete}
   */
   readonly delete?: string;
 }
@@ -928,7 +928,7 @@ export class AwsTimestreamwriteTableTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table duplocloud_aws_timestreamwrite_table}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table duplocloud_aws_timestreamwrite_table}
 */
 export class AwsTimestreamwriteTable extends cdktf.TerraformResource {
 
@@ -944,7 +944,7 @@ export class AwsTimestreamwriteTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsTimestreamwriteTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsTimestreamwriteTable to import
-  * @param importFromId The id of the existing AwsTimestreamwriteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsTimestreamwriteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsTimestreamwriteTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -956,7 +956,7 @@ export class AwsTimestreamwriteTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_timestreamwrite_table duplocloud_aws_timestreamwrite_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_timestreamwrite_table duplocloud_aws_timestreamwrite_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -967,8 +967,8 @@ export class AwsTimestreamwriteTable extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_timestreamwrite_table',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

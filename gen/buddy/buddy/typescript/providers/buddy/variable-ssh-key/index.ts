@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface VariableSshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The variable's action ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#action_id VariableSshKey#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#action_id VariableSshKey#action_id}
   */
   readonly actionId?: number;
   /**
   * The variable's description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#description VariableSshKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#description VariableSshKey#description}
   */
   readonly description?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#domain VariableSshKey#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#domain VariableSshKey#domain}
   */
   readonly domain: string;
   /**
   * The variable's file permission in an action's container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#file_chmod VariableSshKey#file_chmod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#file_chmod VariableSshKey#file_chmod}
   */
   readonly fileChmod: string;
   /**
   * The variable's path in the action's container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#file_path VariableSshKey#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#file_path VariableSshKey#file_path}
   */
   readonly filePath: string;
   /**
   * Should the variable's be copied to an action's container in **file_path** (`CONTAINER`, `NONE`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#file_place VariableSshKey#file_place}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#file_place VariableSshKey#file_place}
   */
   readonly filePlace: string;
   /**
   * The variable's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#key VariableSshKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#key VariableSshKey#key}
   */
   readonly key: string;
   /**
   * The variable's pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#pipeline_id VariableSshKey#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#pipeline_id VariableSshKey#pipeline_id}
   */
   readonly pipelineId?: number;
   /**
   * The variable's project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#project_name VariableSshKey#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#project_name VariableSshKey#project_name}
   */
   readonly projectName?: string;
   /**
   * The variable's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#value VariableSshKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#value VariableSshKey#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key buddy_variable_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key buddy_variable_ssh_key}
 */
 export class VariableSshKey extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class VariableSshKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VariableSshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VariableSshKey to import
-  * @param importFromId The id of the existing VariableSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VariableSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VariableSshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class VariableSshKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/variable_ssh_key buddy_variable_ssh_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/variable_ssh_key buddy_variable_ssh_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class VariableSshKey extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_variable_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

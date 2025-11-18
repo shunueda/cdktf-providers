@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/privatelink_endpoints
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/privatelink_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -105,7 +105,7 @@ export class DataDbtcloudPrivatelinkEndpointsEndpointsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/privatelink_endpoints dbtcloud_privatelink_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/privatelink_endpoints dbtcloud_privatelink_endpoints}
 */
 export class DataDbtcloudPrivatelinkEndpoints extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataDbtcloudPrivatelinkEndpoints extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataDbtcloudPrivatelinkEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudPrivatelinkEndpoints to import
-  * @param importFromId The id of the existing DataDbtcloudPrivatelinkEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/privatelink_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudPrivatelinkEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/privatelink_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudPrivatelinkEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataDbtcloudPrivatelinkEndpoints extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/data-sources/privatelink_endpoints dbtcloud_privatelink_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/data-sources/privatelink_endpoints dbtcloud_privatelink_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataDbtcloudPrivatelinkEndpoints extends cdktf.TerraformDataSource 
       terraformResourceType: 'dbtcloud_privatelink_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

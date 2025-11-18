@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataBuddyPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline#domain DataBuddyPipeline#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline#domain DataBuddyPipeline#domain}
   */
   readonly domain: string;
   /**
   * The pipeline's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline#name DataBuddyPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline#name DataBuddyPipeline#name}
   */
   readonly name?: string;
   /**
   * The pipeline's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline#pipeline_id DataBuddyPipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline#pipeline_id DataBuddyPipeline#pipeline_id}
   */
   readonly pipelineId?: number;
   /**
   * The project's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline#project_name DataBuddyPipeline#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline#project_name DataBuddyPipeline#project_name}
   */
   readonly projectName: string;
 }
@@ -303,7 +303,7 @@ export class DataBuddyPipelineRemoteParameterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline buddy_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline buddy_pipeline}
 */
 export class DataBuddyPipeline extends cdktf.TerraformDataSource {
 
@@ -319,7 +319,7 @@ export class DataBuddyPipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyPipeline to import
-  * @param importFromId The id of the existing DataBuddyPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class DataBuddyPipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/pipeline buddy_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/pipeline buddy_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class DataBuddyPipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -456,6 +456,11 @@ export class DataBuddyPipeline extends cdktf.TerraformDataSource {
   // last_execution_status - computed: true, optional: false, required: false
   public get lastExecutionStatus() {
     return this.getStringAttribute('last_execution_status');
+  }
+
+  // loop - computed: true, optional: false, required: false
+  public get loop() {
+    return cdktf.Fn.tolist(this.getListAttribute('loop'));
   }
 
   // name - computed: true, optional: true, required: false

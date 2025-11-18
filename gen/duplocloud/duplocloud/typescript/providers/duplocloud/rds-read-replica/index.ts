@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RdsReadReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AZ for the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#availability_zone RdsReadReplica#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#availability_zone RdsReadReplica#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The full name of the RDS Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#cluster_identifier RdsReadReplica#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#cluster_identifier RdsReadReplica#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
   * Engine type required to validate applicable parameter group setting for different instance. Should be referred from writer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#engine_type RdsReadReplica#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#engine_type RdsReadReplica#engine_type}
   */
   readonly engineType?: number;
   /**
   * Interval to capture metrics in real time for the operating system (OS) that your Amazon RDS DB instance runs on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#enhanced_monitoring RdsReadReplica#enhanced_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#enhanced_monitoring RdsReadReplica#enhanced_monitoring}
   */
   readonly enhancedMonitoring?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#id RdsReadReplica#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#id RdsReadReplica#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,50 +41,50 @@ export interface RdsReadReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies if the RDS instance is multi-AZ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#multi_az RdsReadReplica#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#multi_az RdsReadReplica#multi_az}
   */
   readonly multiAz?: boolean | cdktf.IResolvable;
   /**
   * The short name of the RDS read replica.  Duplo will add a prefix to the name.  You can retrieve the full name from the `identifier` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#name RdsReadReplica#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#name RdsReadReplica#name}
   */
   readonly name: string;
   /**
   * A RDS parameter group name to apply to the RDS instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#parameter_group_name RdsReadReplica#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#parameter_group_name RdsReadReplica#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * The type of the RDS read replica.
   * See AWS documentation for the [available instance types](https://aws.amazon.com/rds/instance-types/).Size should be set as db.serverless if read replica instamce is created as serverless
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#size RdsReadReplica#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#size RdsReadReplica#size}
   */
   readonly size: string;
   /**
   * The GUID of the tenant that the RDS read replica will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#tenant_id RdsReadReplica#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#tenant_id RdsReadReplica#tenant_id}
   */
   readonly tenantId: string;
   /**
   * performance_insights block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#performance_insights RdsReadReplica#performance_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#performance_insights RdsReadReplica#performance_insights}
   */
   readonly performanceInsights?: RdsReadReplicaPerformanceInsights;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#timeouts RdsReadReplica#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#timeouts RdsReadReplica#timeouts}
   */
   readonly timeouts?: RdsReadReplicaTimeouts;
   /**
   * v2_scaling_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#v2_scaling_configuration RdsReadReplica#v2_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#v2_scaling_configuration RdsReadReplica#v2_scaling_configuration}
   */
   readonly v2ScalingConfiguration?: RdsReadReplicaV2ScalingConfiguration;
 }
@@ -92,19 +92,19 @@ export interface RdsReadReplicaPerformanceInsights {
   /**
   * Turn on or off Performance Insights Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#enabled RdsReadReplica#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#enabled RdsReadReplica#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify ARN for the KMS key to encrypt Performance Insights data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#kms_key_id RdsReadReplica#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#kms_key_id RdsReadReplica#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specify retention period in Days. Valid values are 7, 731 (2 years) or a multiple of 31. For Document DB retention period is 7 Defaults to `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#retention_period RdsReadReplica#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#retention_period RdsReadReplica#retention_period}
   */
   readonly retentionPeriod?: number;
 }
@@ -246,15 +246,15 @@ export class RdsReadReplicaPerformanceInsightsOutputReference extends cdktf.Comp
 }
 export interface RdsReadReplicaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#create RdsReadReplica#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#create RdsReadReplica#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#delete RdsReadReplica#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#delete RdsReadReplica#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#update RdsReadReplica#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#update RdsReadReplica#update}
   */
   readonly update?: string;
 }
@@ -408,13 +408,13 @@ export interface RdsReadReplicaV2ScalingConfiguration {
   /**
   * Specifies max scalling capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#max_capacity RdsReadReplica#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#max_capacity RdsReadReplica#max_capacity}
   */
   readonly maxCapacity: number;
   /**
   * Specifies min scalling capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#min_capacity RdsReadReplica#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#min_capacity RdsReadReplica#min_capacity}
   */
   readonly minCapacity: number;
 }
@@ -521,7 +521,7 @@ export class RdsReadReplicaV2ScalingConfigurationOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica duplocloud_rds_read_replica}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica duplocloud_rds_read_replica}
 */
 export class RdsReadReplica extends cdktf.TerraformResource {
 
@@ -537,7 +537,7 @@ export class RdsReadReplica extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsReadReplica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsReadReplica to import
-  * @param importFromId The id of the existing RdsReadReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsReadReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsReadReplica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class RdsReadReplica extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/rds_read_replica duplocloud_rds_read_replica} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/rds_read_replica duplocloud_rds_read_replica} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class RdsReadReplica extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_rds_read_replica',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

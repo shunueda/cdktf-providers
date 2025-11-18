@@ -44,6 +44,7 @@ export * as loadbalancer from './loadbalancer';
 export * as loadbalancerv2 from './loadbalancerv2';
 export * as network from './network';
 export * as portAllowedAddressPairs from './port-allowed-address-pairs';
+export * as portSecurity from './port-security';
 export * as postgresCluster from './postgres-cluster';
 export * as registryCredential from './registry-credential';
 export * as reservedfixedip from './reservedfixedip';

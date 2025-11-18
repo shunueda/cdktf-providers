@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DbaasKafkaDatastoreV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#config DbaasKafkaDatastoreV1#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#config DbaasKafkaDatastoreV1#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#flavor_id DbaasKafkaDatastoreV1#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#flavor_id DbaasKafkaDatastoreV1#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#id DbaasKafkaDatastoreV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#id DbaasKafkaDatastoreV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,53 +25,53 @@ export interface DbaasKafkaDatastoreV1Config extends cdktf.TerraformMetaArgument
   /**
   * Name of Logs group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#logs DbaasKafkaDatastoreV1#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#logs DbaasKafkaDatastoreV1#logs}
   */
   readonly logs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#name DbaasKafkaDatastoreV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#name DbaasKafkaDatastoreV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#node_count DbaasKafkaDatastoreV1#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#node_count DbaasKafkaDatastoreV1#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#project_id DbaasKafkaDatastoreV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#project_id DbaasKafkaDatastoreV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#region DbaasKafkaDatastoreV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#region DbaasKafkaDatastoreV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#security_groups DbaasKafkaDatastoreV1#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#security_groups DbaasKafkaDatastoreV1#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#subnet_id DbaasKafkaDatastoreV1#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#subnet_id DbaasKafkaDatastoreV1#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#type_id DbaasKafkaDatastoreV1#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#type_id DbaasKafkaDatastoreV1#type_id}
   */
   readonly typeId: string;
   /**
   * firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#firewall DbaasKafkaDatastoreV1#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#firewall DbaasKafkaDatastoreV1#firewall}
   */
   readonly firewall?: DbaasKafkaDatastoreV1Firewall[] | cdktf.IResolvable;
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#flavor DbaasKafkaDatastoreV1#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#flavor DbaasKafkaDatastoreV1#flavor}
   */
   readonly flavor?: DbaasKafkaDatastoreV1Flavor[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#timeouts DbaasKafkaDatastoreV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#timeouts DbaasKafkaDatastoreV1#timeouts}
   */
   readonly timeouts?: DbaasKafkaDatastoreV1Timeouts;
 }
@@ -157,7 +157,7 @@ export class DbaasKafkaDatastoreV1InstancesList extends cdktf.ComplexList {
 }
 export interface DbaasKafkaDatastoreV1Firewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#ips DbaasKafkaDatastoreV1#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#ips DbaasKafkaDatastoreV1#ips}
   */
   readonly ips: string[];
 }
@@ -270,19 +270,19 @@ export class DbaasKafkaDatastoreV1FirewallList extends cdktf.ComplexList {
 }
 export interface DbaasKafkaDatastoreV1Flavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#disk DbaasKafkaDatastoreV1#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#disk DbaasKafkaDatastoreV1#disk}
   */
   readonly disk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#disk_type DbaasKafkaDatastoreV1#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#disk_type DbaasKafkaDatastoreV1#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#ram DbaasKafkaDatastoreV1#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#ram DbaasKafkaDatastoreV1#ram}
   */
   readonly ram: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#vcpus DbaasKafkaDatastoreV1#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#vcpus DbaasKafkaDatastoreV1#vcpus}
   */
   readonly vcpus: number;
 }
@@ -476,15 +476,15 @@ export class DbaasKafkaDatastoreV1FlavorList extends cdktf.ComplexList {
 }
 export interface DbaasKafkaDatastoreV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#create DbaasKafkaDatastoreV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#create DbaasKafkaDatastoreV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#delete DbaasKafkaDatastoreV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#delete DbaasKafkaDatastoreV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#update DbaasKafkaDatastoreV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#update DbaasKafkaDatastoreV1#update}
   */
   readonly update?: string;
 }
@@ -636,7 +636,7 @@ export class DbaasKafkaDatastoreV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1 selectel_dbaas_kafka_datastore_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1 selectel_dbaas_kafka_datastore_v1}
 */
 export class DbaasKafkaDatastoreV1 extends cdktf.TerraformResource {
 
@@ -652,7 +652,7 @@ export class DbaasKafkaDatastoreV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasKafkaDatastoreV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasKafkaDatastoreV1 to import
-  * @param importFromId The id of the existing DbaasKafkaDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasKafkaDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasKafkaDatastoreV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -664,7 +664,7 @@ export class DbaasKafkaDatastoreV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_kafka_datastore_v1 selectel_dbaas_kafka_datastore_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_kafka_datastore_v1 selectel_dbaas_kafka_datastore_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -675,8 +675,8 @@ export class DbaasKafkaDatastoreV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dbaas_kafka_datastore_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0',
-        providerVersionConstraint: '7.1.0'
+        providerVersion: '7.2.0',
+        providerVersionConstraint: '7.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface InfrastructureOnpremConfig extends cdktf.TerraformMetaArguments
   /**
   * The cloud account ID. Used with GCP cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#account_id InfrastructureOnprem#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#account_id InfrastructureOnprem#account_id}
   */
   readonly accountId?: string;
   /**
   * Token to access cluster API's
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#api_token InfrastructureOnprem#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#api_token InfrastructureOnprem#api_token}
   */
   readonly apiToken: string;
   /**
   * The number of availability zones.  Must be one of: `2`, `3`, or `4`. This is applicable only for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#azcount InfrastructureOnprem#azcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#azcount InfrastructureOnprem#azcount}
   */
   readonly azcount?: number;
   /**
   * Required to validate API server certificates and kubelet client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#cluster_certificate_authority_data InfrastructureOnprem#cluster_certificate_authority_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#cluster_certificate_authority_data InfrastructureOnprem#cluster_certificate_authority_data}
   */
   readonly clusterCertificateAuthorityData: string;
   /**
   * Endpoint URL of K8 cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#cluster_endpoint InfrastructureOnprem#cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#cluster_endpoint InfrastructureOnprem#cluster_endpoint}
   */
   readonly clusterEndpoint: string;
   /**
   * Name of the on premise k8 cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#cluster_name InfrastructureOnprem#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#cluster_name InfrastructureOnprem#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Datacenter name of the onpremise cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#data_center InfrastructureOnprem#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#data_center InfrastructureOnprem#data_center}
   */
   readonly dataCenter: string;
   /**
   * Whether or not to provision a kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#enable_k8_cluster InfrastructureOnprem#enable_k8_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#enable_k8_cluster InfrastructureOnprem#enable_k8_cluster}
   */
   readonly enableK8Cluster: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#id InfrastructureOnprem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#id InfrastructureOnprem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,47 +65,47 @@ export interface InfrastructureOnpremConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the infrastructure.  Infrastructure names are globally unique and less than 13 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#infra_name InfrastructureOnprem#infra_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#infra_name InfrastructureOnprem#infra_name}
   */
   readonly infraName: string;
   /**
   * The cloud provider region.  The Duplo portal must have already been configured to support this region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#region InfrastructureOnprem#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#region InfrastructureOnprem#region}
   */
   readonly region: string;
   /**
   * Type of on premise vendor <br>0 - Rancher<br>1 - Generic<br>2 - EKS<br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#vendor InfrastructureOnprem#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#vendor InfrastructureOnprem#vendor}
   */
   readonly vendor: number;
   /**
   * custom_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#custom_data InfrastructureOnprem#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#custom_data InfrastructureOnprem#custom_data}
   */
   readonly customData?: InfrastructureOnpremCustomData[] | cdktf.IResolvable;
   /**
   * eks_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#eks_config InfrastructureOnprem#eks_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#eks_config InfrastructureOnprem#eks_config}
   */
   readonly eksConfig?: InfrastructureOnpremEksConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#timeouts InfrastructureOnprem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#timeouts InfrastructureOnprem#timeouts}
   */
   readonly timeouts?: InfrastructureOnpremTimeouts;
 }
 export interface InfrastructureOnpremCustomData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#key InfrastructureOnprem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#key InfrastructureOnprem#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#value InfrastructureOnprem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#value InfrastructureOnprem#value}
   */
   readonly value: string;
 }
@@ -246,25 +246,25 @@ export interface InfrastructureOnpremEksConfig {
   /**
   * The security group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#ingress_security_group_ids InfrastructureOnprem#ingress_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#ingress_security_group_ids InfrastructureOnprem#ingress_security_group_ids}
   */
   readonly ingressSecurityGroupIds: string[];
   /**
   * The private subnets for the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#private_subnets InfrastructureOnprem#private_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#private_subnets InfrastructureOnprem#private_subnets}
   */
   readonly privateSubnets: string[];
   /**
   * The public subnets for the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#public_subnets InfrastructureOnprem#public_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#public_subnets InfrastructureOnprem#public_subnets}
   */
   readonly publicSubnets: string[];
   /**
   * The the ID of a Virtual Private Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#vpc_id InfrastructureOnprem#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#vpc_id InfrastructureOnprem#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -423,15 +423,15 @@ export class InfrastructureOnpremEksConfigOutputReference extends cdktf.ComplexO
 }
 export interface InfrastructureOnpremTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#create InfrastructureOnprem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#create InfrastructureOnprem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#delete InfrastructureOnprem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#delete InfrastructureOnprem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#update InfrastructureOnprem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#update InfrastructureOnprem#update}
   */
   readonly update?: string;
 }
@@ -583,7 +583,7 @@ export class InfrastructureOnpremTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem duplocloud_infrastructure_onprem}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem duplocloud_infrastructure_onprem}
 */
 export class InfrastructureOnprem extends cdktf.TerraformResource {
 
@@ -599,7 +599,7 @@ export class InfrastructureOnprem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfrastructureOnprem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfrastructureOnprem to import
-  * @param importFromId The id of the existing InfrastructureOnprem that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfrastructureOnprem that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfrastructureOnprem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -611,7 +611,7 @@ export class InfrastructureOnprem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/infrastructure_onprem duplocloud_infrastructure_onprem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/infrastructure_onprem duplocloud_infrastructure_onprem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -622,8 +622,8 @@ export class InfrastructureOnprem extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_infrastructure_onprem',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

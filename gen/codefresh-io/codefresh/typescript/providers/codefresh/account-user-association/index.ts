@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface AccountUserAssociationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether to make this user an account admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association#admin AccountUserAssociation#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association#admin AccountUserAssociation#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
@@ -20,11 +20,11 @@ export interface AccountUserAssociationConfig extends cdktf.TerraformMetaArgumen
   * 				This field can only be changed when 'status' is 'pending'.
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association#email AccountUserAssociation#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association#email AccountUserAssociation#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association#id AccountUserAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association#id AccountUserAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface AccountUserAssociationConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association codefresh_account_user_association}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association codefresh_account_user_association}
 */
 export class AccountUserAssociation extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class AccountUserAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountUserAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountUserAssociation to import
-  * @param importFromId The id of the existing AccountUserAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountUserAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountUserAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class AccountUserAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_user_association codefresh_account_user_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_user_association codefresh_account_user_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class AccountUserAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_account_user_association',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

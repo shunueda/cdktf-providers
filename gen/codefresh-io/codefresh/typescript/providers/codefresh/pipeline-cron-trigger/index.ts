@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface PipelineCronTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger#expression PipelineCronTrigger#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger#expression PipelineCronTrigger#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger#id PipelineCronTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger#id PipelineCronTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger#message PipelineCronTrigger#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger#message PipelineCronTrigger#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger#pipeline_id PipelineCronTrigger#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger#pipeline_id PipelineCronTrigger#pipeline_id}
   */
   readonly pipelineId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger codefresh_pipeline_cron_trigger}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger codefresh_pipeline_cron_trigger}
 */
 export class PipelineCronTrigger extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class PipelineCronTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PipelineCronTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PipelineCronTrigger to import
-  * @param importFromId The id of the existing PipelineCronTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PipelineCronTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PipelineCronTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class PipelineCronTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/pipeline_cron_trigger codefresh_pipeline_cron_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/pipeline_cron_trigger codefresh_pipeline_cron_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class PipelineCronTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_pipeline_cron_trigger',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

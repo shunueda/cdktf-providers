@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AquaApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API key description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#description AquaApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#description AquaApiKey#description}
   */
   readonly description: string;
   /**
   * Whether the apikey is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#enabled AquaApiKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#enabled AquaApiKey#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The date of the API key's expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#expiration AquaApiKey#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#expiration AquaApiKey#expiration}
   */
   readonly expiration?: number;
   /**
   * The group ID that is associated with the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#group_id AquaApiKey#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#group_id AquaApiKey#group_id}
   */
   readonly groupId?: number;
   /**
   * List of IP addresses the API key can be used from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#ip_addresses AquaApiKey#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#ip_addresses AquaApiKey#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * List of permission IDs for the API key, if empty the APIkey has global admin permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#permission_ids AquaApiKey#permission_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#permission_ids AquaApiKey#permission_ids}
   */
   readonly permissionIds?: number[];
   /**
   * The roles that will be assigned to the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#roles AquaApiKey#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#roles AquaApiKey#roles}
   */
   readonly roles?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key aquasec_aqua_api_key}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key aquasec_aqua_api_key}
 */
 export class AquaApiKey extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class AquaApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AquaApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AquaApiKey to import
-  * @param importFromId The id of the existing AquaApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AquaApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AquaApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class AquaApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/aqua_api_key aquasec_aqua_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/aqua_api_key aquasec_aqua_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class AquaApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_aqua_api_key',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

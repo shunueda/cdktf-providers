@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SandboxStatusConfig extends cdktf.TerraformMetaArguments {
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#domain SandboxStatus#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#domain SandboxStatus#domain}
   */
   readonly domain: string;
   /**
   * The sandbox's ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#sandbox_id SandboxStatus#sandbox_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#sandbox_id SandboxStatus#sandbox_id}
   */
   readonly sandboxId: string;
   /**
   * The sandbox's status to achive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#status SandboxStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#status SandboxStatus#status}
   */
   readonly status: string;
   /**
   * Wait until sandbox is in required status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#wait_for_status SandboxStatus#wait_for_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#wait_for_status SandboxStatus#wait_for_status}
   */
   readonly waitForStatus?: boolean | cdktf.IResolvable;
   /**
   * Seconds to wait until sandbox is in required status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#wait_for_status_timeout SandboxStatus#wait_for_status_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#wait_for_status_timeout SandboxStatus#wait_for_status_timeout}
   */
   readonly waitForStatusTimeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status buddy_sandbox_status}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status buddy_sandbox_status}
 */
 export class SandboxStatus extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SandboxStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SandboxStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SandboxStatus to import
-  * @param importFromId The id of the existing SandboxStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SandboxStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SandboxStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SandboxStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/sandbox_status buddy_sandbox_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/sandbox_status buddy_sandbox_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SandboxStatus extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_sandbox_status',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

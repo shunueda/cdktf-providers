@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1
+// https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DbaasMysqlDatastoreV1Config extends cdktf.TerraformMetaArgument
   /**
   * Number of days to retain backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#backup_retention_days DbaasMysqlDatastoreV1#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#backup_retention_days DbaasMysqlDatastoreV1#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#config DbaasMysqlDatastoreV1#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#config DbaasMysqlDatastoreV1#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#flavor_id DbaasMysqlDatastoreV1#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#flavor_id DbaasMysqlDatastoreV1#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#id DbaasMysqlDatastoreV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#id DbaasMysqlDatastoreV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,65 +31,65 @@ export interface DbaasMysqlDatastoreV1Config extends cdktf.TerraformMetaArgument
   /**
   * Name of Logs group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#logs DbaasMysqlDatastoreV1#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#logs DbaasMysqlDatastoreV1#logs}
   */
   readonly logs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#name DbaasMysqlDatastoreV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#name DbaasMysqlDatastoreV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#node_count DbaasMysqlDatastoreV1#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#node_count DbaasMysqlDatastoreV1#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#project_id DbaasMysqlDatastoreV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#project_id DbaasMysqlDatastoreV1#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#region DbaasMysqlDatastoreV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#region DbaasMysqlDatastoreV1#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#security_groups DbaasMysqlDatastoreV1#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#security_groups DbaasMysqlDatastoreV1#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#subnet_id DbaasMysqlDatastoreV1#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#subnet_id DbaasMysqlDatastoreV1#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#type_id DbaasMysqlDatastoreV1#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#type_id DbaasMysqlDatastoreV1#type_id}
   */
   readonly typeId: string;
   /**
   * firewall block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#firewall DbaasMysqlDatastoreV1#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#firewall DbaasMysqlDatastoreV1#firewall}
   */
   readonly firewall?: DbaasMysqlDatastoreV1Firewall[] | cdktf.IResolvable;
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#flavor DbaasMysqlDatastoreV1#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#flavor DbaasMysqlDatastoreV1#flavor}
   */
   readonly flavor?: DbaasMysqlDatastoreV1Flavor[] | cdktf.IResolvable;
   /**
   * floating_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#floating_ips DbaasMysqlDatastoreV1#floating_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#floating_ips DbaasMysqlDatastoreV1#floating_ips}
   */
   readonly floatingIps?: DbaasMysqlDatastoreV1FloatingIps[] | cdktf.IResolvable;
   /**
   * restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#restore DbaasMysqlDatastoreV1#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#restore DbaasMysqlDatastoreV1#restore}
   */
   readonly restore?: DbaasMysqlDatastoreV1Restore[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#timeouts DbaasMysqlDatastoreV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#timeouts DbaasMysqlDatastoreV1#timeouts}
   */
   readonly timeouts?: DbaasMysqlDatastoreV1Timeouts;
 }
@@ -175,7 +175,7 @@ export class DbaasMysqlDatastoreV1InstancesList extends cdktf.ComplexList {
 }
 export interface DbaasMysqlDatastoreV1Firewall {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#ips DbaasMysqlDatastoreV1#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#ips DbaasMysqlDatastoreV1#ips}
   */
   readonly ips: string[];
 }
@@ -288,19 +288,19 @@ export class DbaasMysqlDatastoreV1FirewallList extends cdktf.ComplexList {
 }
 export interface DbaasMysqlDatastoreV1Flavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#disk DbaasMysqlDatastoreV1#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#disk DbaasMysqlDatastoreV1#disk}
   */
   readonly disk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#disk_type DbaasMysqlDatastoreV1#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#disk_type DbaasMysqlDatastoreV1#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#ram DbaasMysqlDatastoreV1#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#ram DbaasMysqlDatastoreV1#ram}
   */
   readonly ram: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#vcpus DbaasMysqlDatastoreV1#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#vcpus DbaasMysqlDatastoreV1#vcpus}
   */
   readonly vcpus: number;
 }
@@ -494,11 +494,11 @@ export class DbaasMysqlDatastoreV1FlavorList extends cdktf.ComplexList {
 }
 export interface DbaasMysqlDatastoreV1FloatingIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#master DbaasMysqlDatastoreV1#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#master DbaasMysqlDatastoreV1#master}
   */
   readonly master: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#replica DbaasMysqlDatastoreV1#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#replica DbaasMysqlDatastoreV1#replica}
   */
   readonly replica: number;
 }
@@ -637,11 +637,11 @@ export class DbaasMysqlDatastoreV1FloatingIpsList extends cdktf.ComplexList {
 }
 export interface DbaasMysqlDatastoreV1Restore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#datastore_id DbaasMysqlDatastoreV1#datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#datastore_id DbaasMysqlDatastoreV1#datastore_id}
   */
   readonly datastoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#target_time DbaasMysqlDatastoreV1#target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#target_time DbaasMysqlDatastoreV1#target_time}
   */
   readonly targetTime?: string;
 }
@@ -786,15 +786,15 @@ export class DbaasMysqlDatastoreV1RestoreList extends cdktf.ComplexList {
 }
 export interface DbaasMysqlDatastoreV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#create DbaasMysqlDatastoreV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#create DbaasMysqlDatastoreV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#delete DbaasMysqlDatastoreV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#delete DbaasMysqlDatastoreV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#update DbaasMysqlDatastoreV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#update DbaasMysqlDatastoreV1#update}
   */
   readonly update?: string;
 }
@@ -946,7 +946,7 @@ export class DbaasMysqlDatastoreV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1 selectel_dbaas_mysql_datastore_v1}
+* Represents a {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1 selectel_dbaas_mysql_datastore_v1}
 */
 export class DbaasMysqlDatastoreV1 extends cdktf.TerraformResource {
 
@@ -962,7 +962,7 @@ export class DbaasMysqlDatastoreV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasMysqlDatastoreV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasMysqlDatastoreV1 to import
-  * @param importFromId The id of the existing DbaasMysqlDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasMysqlDatastoreV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasMysqlDatastoreV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -974,7 +974,7 @@ export class DbaasMysqlDatastoreV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.1.0/docs/resources/dbaas_mysql_datastore_v1 selectel_dbaas_mysql_datastore_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/selectel/selectel/7.2.0/docs/resources/dbaas_mysql_datastore_v1 selectel_dbaas_mysql_datastore_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -985,8 +985,8 @@ export class DbaasMysqlDatastoreV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dbaas_mysql_datastore_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0',
-        providerVersionConstraint: '7.1.0'
+        providerVersion: '7.2.0',
+        providerVersionConstraint: '7.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

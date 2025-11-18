@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The project's access. Possible values: `PRIVATE`, `PUBLIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#access Project#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#access Project#access}
   */
   readonly access?: string;
   /**
   * Defines whether or not pull requests are enabled (GitHub)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#allow_pull_requests Project#allow_pull_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#allow_pull_requests Project#allow_pull_requests}
   */
   readonly allowPullRequests?: boolean | cdktf.IResolvable;
   /**
   * The project's custom repository password. Needed when cloning from a custom repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#custom_repo_pass Project#custom_repo_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#custom_repo_pass Project#custom_repo_pass}
   */
   readonly customRepoPass?: string;
   /**
   * The project's custom repository SSH key ID. Needed when cloning from a custom repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#custom_repo_ssh_key_id Project#custom_repo_ssh_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#custom_repo_ssh_key_id Project#custom_repo_ssh_key_id}
   */
   readonly customRepoSshKeyId?: number;
   /**
   * The project's custom repository URL. Needed when cloning from a custom repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#custom_repo_url Project#custom_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#custom_repo_url Project#custom_repo_url}
   */
   readonly customRepoUrl?: string;
   /**
   * The project's custom repository user. Needed when cloning from a custom repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#custom_repo_user Project#custom_repo_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#custom_repo_user Project#custom_repo_user}
   */
   readonly customRepoUser?: string;
   /**
   * The project's display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#display_name Project#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#display_name Project#display_name}
   */
   readonly displayName: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#domain Project#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#domain Project#domain}
   */
   readonly domain: string;
   /**
   * The project's external project ID. Needed when cloning from GitHub, GitLab or BitBucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#external_project_id Project#external_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#external_project_id Project#external_project_id}
   */
   readonly externalProjectId?: string;
   /**
   * Defines whether or not fetch submodules in repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#fetch_submodules Project#fetch_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#fetch_submodules Project#fetch_submodules}
   */
   readonly fetchSubmodules?: boolean | cdktf.IResolvable;
   /**
   * The project's environmental key name for fetching submodules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#fetch_submodules_env_key Project#fetch_submodules_env_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#fetch_submodules_env_key Project#fetch_submodules_env_key}
   */
   readonly fetchSubmodulesEnvKey?: string;
   /**
   * The project's GitLab project ID. Needed when cloning from a GitLab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#git_lab_project_id Project#git_lab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#git_lab_project_id Project#git_lab_project_id}
   */
   readonly gitLabProjectId?: string;
   /**
   * The project's integration ID. Needed when cloning from a GitHub, GitLab or BitBucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#integration_id Project#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#integration_id Project#integration_id}
   */
   readonly integrationId?: string;
   /**
   * Defines whether or not update default branch from external repository (GitHub, GitLab, BitBucket)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#update_default_branch_from_external Project#update_default_branch_from_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#update_default_branch_from_external Project#update_default_branch_from_external}
   */
   readonly updateDefaultBranchFromExternal?: boolean | cdktf.IResolvable;
   /**
   * Defines whether or not create GIT repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#without_repository Project#without_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#without_repository Project#without_repository}
   */
   readonly withoutRepository?: boolean | cdktf.IResolvable;
 }
@@ -210,7 +210,7 @@ export class ProjectCreatedByList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project buddy_project}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project buddy_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/resources/project buddy_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/resources/project buddy_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_project',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

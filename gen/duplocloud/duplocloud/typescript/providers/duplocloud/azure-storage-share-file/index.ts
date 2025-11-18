@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureStorageShareFileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#id AzureStorageShareFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#id AzureStorageShareFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface AzureStorageShareFileConfig extends cdktf.TerraformMetaArgument
   /**
   * The name (or path) of the File that should be created within this File Share. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#name AzureStorageShareFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#name AzureStorageShareFile#name}
   */
   readonly name: string;
   /**
   * Specifies the storage account in which to create the share. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#storage_account_name AzureStorageShareFile#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#storage_account_name AzureStorageShareFile#storage_account_name}
   */
   readonly storageAccountName: string;
   /**
   * The GUID of the tenant that the azure storage account share file will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#tenant_id AzureStorageShareFile#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#tenant_id AzureStorageShareFile#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#timeouts AzureStorageShareFile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#timeouts AzureStorageShareFile#timeouts}
   */
   readonly timeouts?: AzureStorageShareFileTimeouts;
 }
 export interface AzureStorageShareFileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#create AzureStorageShareFile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#create AzureStorageShareFile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#delete AzureStorageShareFile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#delete AzureStorageShareFile#delete}
   */
   readonly delete?: string;
 }
@@ -168,7 +168,7 @@ export class AzureStorageShareFileTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file duplocloud_azure_storage_share_file}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file duplocloud_azure_storage_share_file}
 */
 export class AzureStorageShareFile extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class AzureStorageShareFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureStorageShareFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureStorageShareFile to import
-  * @param importFromId The id of the existing AzureStorageShareFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureStorageShareFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureStorageShareFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class AzureStorageShareFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/azure_storage_share_file duplocloud_azure_storage_share_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/azure_storage_share_file duplocloud_azure_storage_share_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class AzureStorageShareFile extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_storage_share_file',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

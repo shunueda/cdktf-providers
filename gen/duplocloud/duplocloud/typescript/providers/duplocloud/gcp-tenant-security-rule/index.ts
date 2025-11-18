@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpTenantSecurityRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * The description related to the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#description GcpTenantSecurityRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#description GcpTenantSecurityRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#id GcpTenantSecurityRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#id GcpTenantSecurityRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface GcpTenantSecurityRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Specify rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#name GcpTenantSecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#name GcpTenantSecurityRule#name}
   */
   readonly name: string;
   /**
   * Specify type of access rule (ALLOW , DENY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#rule_type GcpTenantSecurityRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#rule_type GcpTenantSecurityRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * The lists of IPv4 or IPv6 addresses in CIDR format that specify the source of traffic for a firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#source_ranges GcpTenantSecurityRule#source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#source_ranges GcpTenantSecurityRule#source_ranges}
   */
   readonly sourceRanges: string[];
   /**
   * The GUID of the tenant to which security rule need to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#target_tenant_id GcpTenantSecurityRule#target_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#target_tenant_id GcpTenantSecurityRule#target_tenant_id}
   */
   readonly targetTenantId: string;
   /**
   * The GUID of the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#tenant_id GcpTenantSecurityRule#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#tenant_id GcpTenantSecurityRule#tenant_id}
   */
   readonly tenantId: string;
   /**
   * ports_and_protocols block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#ports_and_protocols GcpTenantSecurityRule#ports_and_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#ports_and_protocols GcpTenantSecurityRule#ports_and_protocols}
   */
   readonly portsAndProtocols: GcpTenantSecurityRulePortsAndProtocols[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#timeouts GcpTenantSecurityRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#timeouts GcpTenantSecurityRule#timeouts}
   */
   readonly timeouts?: GcpTenantSecurityRuleTimeouts;
 }
@@ -67,13 +67,13 @@ export interface GcpTenantSecurityRulePortsAndProtocols {
   /**
   * The list of ports to which this rule applies. This field is only applicable for UDP, TCP and SCTP protocol. To apply all ports dont specify the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#ports GcpTenantSecurityRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#ports GcpTenantSecurityRule#ports}
   */
   readonly ports?: string[];
   /**
   * The IP protocol to which this rule applies. The protocol type is required when creating a firewall rule. This value can either be one of the following well known protocol strings (tcp, udp, icmp, esp, ah, sctp, ipip, all), or the IP protocol number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#service_protocol GcpTenantSecurityRule#service_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#service_protocol GcpTenantSecurityRule#service_protocol}
   */
   readonly serviceProtocol: string;
 }
@@ -215,15 +215,15 @@ export class GcpTenantSecurityRulePortsAndProtocolsList extends cdktf.ComplexLis
 }
 export interface GcpTenantSecurityRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#create GcpTenantSecurityRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#create GcpTenantSecurityRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#delete GcpTenantSecurityRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#delete GcpTenantSecurityRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#update GcpTenantSecurityRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#update GcpTenantSecurityRule#update}
   */
   readonly update?: string;
 }
@@ -375,7 +375,7 @@ export class GcpTenantSecurityRuleTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule duplocloud_gcp_tenant_security_rule}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule duplocloud_gcp_tenant_security_rule}
 */
 export class GcpTenantSecurityRule extends cdktf.TerraformResource {
 
@@ -391,7 +391,7 @@ export class GcpTenantSecurityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpTenantSecurityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpTenantSecurityRule to import
-  * @param importFromId The id of the existing GcpTenantSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpTenantSecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpTenantSecurityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class GcpTenantSecurityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/gcp_tenant_security_rule duplocloud_gcp_tenant_security_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/gcp_tenant_security_rule duplocloud_gcp_tenant_security_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class GcpTenantSecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_tenant_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,23 +12,23 @@ export interface EcacheAssociateGlobalSecondaryClusterConfig extends cdktf.Terra
   * 
   * See AWS documentation for the [required format](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/auth.html) of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#auth_token EcacheAssociateGlobalSecondaryCluster#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#auth_token EcacheAssociateGlobalSecondaryCluster#auth_token}
   */
   readonly authToken?: string;
   /**
   * The description for secondary cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#description EcacheAssociateGlobalSecondaryCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#description EcacheAssociateGlobalSecondaryCluster#description}
   */
   readonly description?: string;
   /**
   * Specify the global datastore name with which the secondary regional cluster should be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#global_datastore_id EcacheAssociateGlobalSecondaryCluster#global_datastore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#global_datastore_id EcacheAssociateGlobalSecondaryCluster#global_datastore_id}
   */
   readonly globalDatastoreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#id EcacheAssociateGlobalSecondaryCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#id EcacheAssociateGlobalSecondaryCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,41 +37,41 @@ export interface EcacheAssociateGlobalSecondaryClusterConfig extends cdktf.Terra
   /**
   * The name of the elasticache instance that need to be created as secondary regional cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#secondary_cluster_name EcacheAssociateGlobalSecondaryCluster#secondary_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#secondary_cluster_name EcacheAssociateGlobalSecondaryCluster#secondary_cluster_name}
   */
   readonly secondaryClusterName: string;
   /**
   * Specify kms key for secondary cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#secondary_kms_key EcacheAssociateGlobalSecondaryCluster#secondary_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#secondary_kms_key EcacheAssociateGlobalSecondaryCluster#secondary_kms_key}
   */
   readonly secondaryKmsKey?: string;
   /**
   * The tenant_id where secondary cluster need to be created. **NOTE** The tenant_id must belong to a region different from that of the primary cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#secondary_tenant_id EcacheAssociateGlobalSecondaryCluster#secondary_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#secondary_tenant_id EcacheAssociateGlobalSecondaryCluster#secondary_tenant_id}
   */
   readonly secondaryTenantId: string;
   /**
   * The GUID of the tenant that the elasticache instance datastore has been created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#tenant_id EcacheAssociateGlobalSecondaryCluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#tenant_id EcacheAssociateGlobalSecondaryCluster#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#timeouts EcacheAssociateGlobalSecondaryCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#timeouts EcacheAssociateGlobalSecondaryCluster#timeouts}
   */
   readonly timeouts?: EcacheAssociateGlobalSecondaryClusterTimeouts;
 }
 export interface EcacheAssociateGlobalSecondaryClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#create EcacheAssociateGlobalSecondaryCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#create EcacheAssociateGlobalSecondaryCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#delete EcacheAssociateGlobalSecondaryCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#delete EcacheAssociateGlobalSecondaryCluster#delete}
   */
   readonly delete?: string;
 }
@@ -194,7 +194,7 @@ export class EcacheAssociateGlobalSecondaryClusterTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster duplocloud_ecache_associate_global_secondary_cluster}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster duplocloud_ecache_associate_global_secondary_cluster}
 */
 export class EcacheAssociateGlobalSecondaryCluster extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class EcacheAssociateGlobalSecondaryCluster extends cdktf.TerraformResour
   * Generates CDKTF code for importing a EcacheAssociateGlobalSecondaryCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcacheAssociateGlobalSecondaryCluster to import
-  * @param importFromId The id of the existing EcacheAssociateGlobalSecondaryCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcacheAssociateGlobalSecondaryCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcacheAssociateGlobalSecondaryCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class EcacheAssociateGlobalSecondaryCluster extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/ecache_associate_global_secondary_cluster duplocloud_ecache_associate_global_secondary_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/ecache_associate_global_secondary_cluster duplocloud_ecache_associate_global_secondary_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class EcacheAssociateGlobalSecondaryCluster extends cdktf.TerraformResour
       terraformResourceType: 'duplocloud_ecache_associate_global_secondary_cluster',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

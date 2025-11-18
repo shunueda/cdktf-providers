@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/workspaces
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/workspaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioWorkspacesConfig extends cdktf.TerraformMetaArgument
   /**
   * The <code>id</code> of the Organization that contains the Workspaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/workspaces#organization_id DataCriblioWorkspaces#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/workspaces#organization_id DataCriblioWorkspaces#organization_id}
   */
   readonly organizationId: string;
 }
@@ -75,11 +75,6 @@ export class DataCriblioWorkspacesItemsOutputReference extends cdktf.ComplexObje
     return this.getStringAttribute('description');
   }
 
-  // last_updated - computed: true, optional: false, required: false
-  public get lastUpdated() {
-    return this.getStringAttribute('last_updated');
-  }
-
   // leader_fqdn - computed: true, optional: false, required: false
   public get leaderFqdn() {
     return this.getStringAttribute('leader_fqdn');
@@ -126,7 +121,7 @@ export class DataCriblioWorkspacesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/workspaces criblio_workspaces}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/workspaces criblio_workspaces}
 */
 export class DataCriblioWorkspaces extends cdktf.TerraformDataSource {
 
@@ -142,7 +137,7 @@ export class DataCriblioWorkspaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioWorkspaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioWorkspaces to import
-  * @param importFromId The id of the existing DataCriblioWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/workspaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/workspaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioWorkspaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +149,7 @@ export class DataCriblioWorkspaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/workspaces criblio_workspaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/workspaces criblio_workspaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +160,8 @@ export class DataCriblioWorkspaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_workspaces',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

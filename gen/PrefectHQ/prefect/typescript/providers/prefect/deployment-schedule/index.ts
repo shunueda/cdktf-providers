@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DeploymentScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#account_id DeploymentSchedule#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#account_id DeploymentSchedule#account_id}
   */
   readonly accountId?: string;
   /**
   * Whether or not the schedule is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#active DeploymentSchedule#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#active DeploymentSchedule#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The anchor date of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#anchor_date DeploymentSchedule#anchor_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#anchor_date DeploymentSchedule#anchor_date}
   */
   readonly anchorDate?: string;
   /**
   * (Cloud only) Whether or not a worker should catch up on Late runs for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#catchup DeploymentSchedule#catchup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#catchup DeploymentSchedule#catchup}
   */
   readonly catchup?: boolean | cdktf.IResolvable;
   /**
   * The cron expression of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#cron DeploymentSchedule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#cron DeploymentSchedule#cron}
   */
   readonly cron?: string;
   /**
   * Control croniter behavior for handling day and day_of_week entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#day_or DeploymentSchedule#day_or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#day_or DeploymentSchedule#day_or}
   */
   readonly dayOr?: boolean | cdktf.IResolvable;
   /**
   * Deployment ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#deployment_id DeploymentSchedule#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#deployment_id DeploymentSchedule#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * Deployment Schedule ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#id DeploymentSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#id DeploymentSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,55 +61,55 @@ export interface DeploymentScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#interval DeploymentSchedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#interval DeploymentSchedule#interval}
   */
   readonly interval?: number;
   /**
   * (Cloud only) The maximum number of active runs for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#max_active_runs DeploymentSchedule#max_active_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#max_active_runs DeploymentSchedule#max_active_runs}
   */
   readonly maxActiveRuns?: number;
   /**
   * The maximum number of scheduled runs for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#max_scheduled_runs DeploymentSchedule#max_scheduled_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#max_scheduled_runs DeploymentSchedule#max_scheduled_runs}
   */
   readonly maxScheduledRuns?: number;
   /**
   * Parameters for flow runs scheduled by the deployment schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#parameters DeploymentSchedule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#parameters DeploymentSchedule#parameters}
   */
   readonly parameters?: string;
   /**
   * The rrule expression of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#rrule DeploymentSchedule#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#rrule DeploymentSchedule#rrule}
   */
   readonly rrule?: string;
   /**
   * An optional unique identifier for the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#slug DeploymentSchedule#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#slug DeploymentSchedule#slug}
   */
   readonly slug?: string;
   /**
   * The timezone of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#timezone DeploymentSchedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#timezone DeploymentSchedule#timezone}
   */
   readonly timezone?: string;
   /**
   * Workspace ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#workspace_id DeploymentSchedule#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#workspace_id DeploymentSchedule#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule prefect_deployment_schedule}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule prefect_deployment_schedule}
 */
 export class DeploymentSchedule extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class DeploymentSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentSchedule to import
-  * @param importFromId The id of the existing DeploymentSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DeploymentSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/deployment_schedule prefect_deployment_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/deployment_schedule prefect_deployment_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DeploymentSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_deployment_schedule',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

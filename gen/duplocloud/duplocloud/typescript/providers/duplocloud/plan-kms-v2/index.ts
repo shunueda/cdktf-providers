@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlanKmsV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not this resource should delete any certificates not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#delete_unspecified_kms_keys PlanKmsV2#delete_unspecified_kms_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#delete_unspecified_kms_keys PlanKmsV2#delete_unspecified_kms_keys}
   */
   readonly deleteUnspecifiedKmsKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#id PlanKmsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#id PlanKmsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PlanKmsV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the plan to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#plan_id PlanKmsV2#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#plan_id PlanKmsV2#plan_id}
   */
   readonly planId: string;
   /**
   * kms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#kms PlanKmsV2#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#kms PlanKmsV2#kms}
   */
   readonly kms?: PlanKmsV2Kms[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#timeouts PlanKmsV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#timeouts PlanKmsV2#timeouts}
   */
   readonly timeouts?: PlanKmsV2Timeouts;
 }
@@ -126,18 +126,18 @@ export class PlanKmsV2KmsKeysList extends cdktf.ComplexList {
 }
 export interface PlanKmsV2Kms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#arn PlanKmsV2#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#arn PlanKmsV2#arn}
   */
   readonly arn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#id PlanKmsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#id PlanKmsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#name PlanKmsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#name PlanKmsV2#name}
   */
   readonly name: string;
 }
@@ -302,15 +302,15 @@ export class PlanKmsV2KmsList extends cdktf.ComplexList {
 }
 export interface PlanKmsV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#create PlanKmsV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#create PlanKmsV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#delete PlanKmsV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#delete PlanKmsV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#update PlanKmsV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#update PlanKmsV2#update}
   */
   readonly update?: string;
 }
@@ -462,7 +462,7 @@ export class PlanKmsV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2 duplocloud_plan_kms_v2}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2 duplocloud_plan_kms_v2}
 */
 export class PlanKmsV2 extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class PlanKmsV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlanKmsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlanKmsV2 to import
-  * @param importFromId The id of the existing PlanKmsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlanKmsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlanKmsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class PlanKmsV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_kms_v2 duplocloud_plan_kms_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_kms_v2 duplocloud_plan_kms_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class PlanKmsV2 extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_plan_kms_v2',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

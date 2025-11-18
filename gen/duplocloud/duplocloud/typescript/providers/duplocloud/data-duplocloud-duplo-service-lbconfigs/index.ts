@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDuplocloudDuploServiceLbconfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs#id DataDuplocloudDuploServiceLbconfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs#id DataDuplocloudDuploServiceLbconfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataDuplocloudDuploServiceLbconfigsConfig extends cdktf.Terrafo
   /**
   * The name of the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs#name DataDuplocloudDuploServiceLbconfigs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs#name DataDuplocloudDuploServiceLbconfigs#name}
   */
   readonly name?: string;
   /**
   * The GUID of the tenant that hosts the duplo service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs#tenant_id DataDuplocloudDuploServiceLbconfigs#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs#tenant_id DataDuplocloudDuploServiceLbconfigs#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -507,7 +507,7 @@ export class DataDuplocloudDuploServiceLbconfigsServicesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs}
 */
 export class DataDuplocloudDuploServiceLbconfigs extends cdktf.TerraformDataSource {
 
@@ -523,7 +523,7 @@ export class DataDuplocloudDuploServiceLbconfigs extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataDuplocloudDuploServiceLbconfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDuplocloudDuploServiceLbconfigs to import
-  * @param importFromId The id of the existing DataDuplocloudDuploServiceLbconfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDuplocloudDuploServiceLbconfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDuplocloudDuploServiceLbconfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -535,7 +535,7 @@ export class DataDuplocloudDuploServiceLbconfigs extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/data-sources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/data-sources/duplo_service_lbconfigs duplocloud_duplo_service_lbconfigs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,8 +546,8 @@ export class DataDuplocloudDuploServiceLbconfigs extends cdktf.TerraformDataSour
       terraformResourceType: 'duplocloud_duplo_service_lbconfigs',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

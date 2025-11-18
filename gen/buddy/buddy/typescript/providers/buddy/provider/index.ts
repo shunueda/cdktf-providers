@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BuddyProviderConfig {
   /**
   * The Buddy API base url. You may need to set this to your Buddy On-Premises API endpoint. Can be specified with the `BUDDY_BASE_URL` environment variable. Default: `https://api.buddy.works`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#base_url BuddyProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#base_url BuddyProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Disable SSL verification of API calls. You may need to set this to `true` if you are using Buddy On-Premises without signed certificate. Can be specified with the `BUDDY_INSECURE` environmental variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#insecure BuddyProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#insecure BuddyProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The Buddy API client timeout in seconds. Can be specified with the `BUDDY_TIMEOUT` environmental variable. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#timeout BuddyProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#timeout BuddyProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * The OAuth2 token or Personal Access Token. Can be specified with the `BUDDY_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#token BuddyProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#token BuddyProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#alias BuddyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#alias BuddyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs buddy}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs buddy}
 */
 export class BuddyProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class BuddyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a BuddyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuddyProvider to import
-  * @param importFromId The id of the existing BuddyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuddyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuddyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class BuddyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs buddy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs buddy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class BuddyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'buddy',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       terraformProviderSource: 'buddy/buddy'
     });

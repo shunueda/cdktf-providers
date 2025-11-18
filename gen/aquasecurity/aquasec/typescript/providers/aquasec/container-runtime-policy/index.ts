@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy
+// https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,494 +10,494 @@ export interface ContainerRuntimePolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Indicates the application scope of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#application_scopes ContainerRuntimePolicy#application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#application_scopes ContainerRuntimePolicy#application_scopes}
   */
   readonly applicationScopes?: string[];
   /**
   * If true, all network activity will be audited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_all_network_activity ContainerRuntimePolicy#audit_all_network_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_all_network_activity ContainerRuntimePolicy#audit_all_network_activity}
   */
   readonly auditAllNetworkActivity?: boolean | cdktf.IResolvable;
   /**
   * If true, all process activity will be audited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_all_processes_activity ContainerRuntimePolicy#audit_all_processes_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_all_processes_activity ContainerRuntimePolicy#audit_all_processes_activity}
   */
   readonly auditAllProcessesActivity?: boolean | cdktf.IResolvable;
   /**
   * Detects brute force login attempts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_brute_force_login ContainerRuntimePolicy#audit_brute_force_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_brute_force_login ContainerRuntimePolicy#audit_brute_force_login}
   */
   readonly auditBruteForceLogin?: boolean | cdktf.IResolvable;
   /**
   * If true, full command arguments will be audited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_full_command_arguments ContainerRuntimePolicy#audit_full_command_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_full_command_arguments ContainerRuntimePolicy#audit_full_command_arguments}
   */
   readonly auditFullCommandArguments?: boolean | cdktf.IResolvable;
   /**
   * Username of the account that created the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#author ContainerRuntimePolicy#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#author ContainerRuntimePolicy#author}
   */
   readonly author?: string;
   /**
   * If true, prevent containers from running with access to host network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_access_host_network ContainerRuntimePolicy#block_access_host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_access_host_network ContainerRuntimePolicy#block_access_host_network}
   */
   readonly blockAccessHostNetwork?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with adding capabilities with `--cap-add` privilege.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_adding_capabilities ContainerRuntimePolicy#block_adding_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_adding_capabilities ContainerRuntimePolicy#block_adding_capabilities}
   */
   readonly blockAddingCapabilities?: boolean | cdktf.IResolvable;
   /**
   * If true, exec into a container is prevented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_container_exec ContainerRuntimePolicy#block_container_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_container_exec ContainerRuntimePolicy#block_container_exec}
   */
   readonly blockContainerExec?: boolean | cdktf.IResolvable;
   /**
   * Detect and prevent communication to DNS/IP addresses known to be used for Cryptocurrency Mining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_cryptocurrency_mining ContainerRuntimePolicy#block_cryptocurrency_mining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_cryptocurrency_mining ContainerRuntimePolicy#block_cryptocurrency_mining}
   */
   readonly blockCryptocurrencyMining?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_disallowed_images ContainerRuntimePolicy#block_disallowed_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_disallowed_images ContainerRuntimePolicy#block_disallowed_images}
   */
   readonly blockDisallowedImages?: boolean | cdktf.IResolvable;
   /**
   * Detect and prevent running in-memory execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_fileless_exec ContainerRuntimePolicy#block_fileless_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_fileless_exec ContainerRuntimePolicy#block_fileless_exec}
   */
   readonly blockFilelessExec?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with the capability to bind in port lower than 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_low_port_binding ContainerRuntimePolicy#block_low_port_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_low_port_binding ContainerRuntimePolicy#block_low_port_binding}
   */
   readonly blockLowPortBinding?: boolean | cdktf.IResolvable;
   /**
   * If true, running containers in non-compliant pods is prevented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_non_compliant_workloads ContainerRuntimePolicy#block_non_compliant_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_non_compliant_workloads ContainerRuntimePolicy#block_non_compliant_workloads}
   */
   readonly blockNonCompliantWorkloads?: boolean | cdktf.IResolvable;
   /**
   * If true, running non-kubernetes containers is prevented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_non_k8s_containers ContainerRuntimePolicy#block_non_k8s_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_non_k8s_containers ContainerRuntimePolicy#block_non_k8s_containers}
   */
   readonly blockNonK8SContainers?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with privileged container capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_privileged_containers ContainerRuntimePolicy#block_privileged_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_privileged_containers ContainerRuntimePolicy#block_privileged_containers}
   */
   readonly blockPrivilegedContainers?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with root user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_root_user ContainerRuntimePolicy#block_root_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_root_user ContainerRuntimePolicy#block_root_user}
   */
   readonly blockRootUser?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with the privilege to use the IPC namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_use_ipc_namespace ContainerRuntimePolicy#block_use_ipc_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_use_ipc_namespace ContainerRuntimePolicy#block_use_ipc_namespace}
   */
   readonly blockUseIpcNamespace?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with the privilege to use the PID namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_use_pid_namespace ContainerRuntimePolicy#block_use_pid_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_use_pid_namespace ContainerRuntimePolicy#block_use_pid_namespace}
   */
   readonly blockUsePidNamespace?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with the privilege to use the user namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_use_user_namespace ContainerRuntimePolicy#block_use_user_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_use_user_namespace ContainerRuntimePolicy#block_use_user_namespace}
   */
   readonly blockUseUserNamespace?: boolean | cdktf.IResolvable;
   /**
   * If true, prevent containers from running with the privilege to use the UTS namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_use_uts_namespace ContainerRuntimePolicy#block_use_uts_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_use_uts_namespace ContainerRuntimePolicy#block_use_uts_namespace}
   */
   readonly blockUseUtsNamespace?: boolean | cdktf.IResolvable;
   /**
   * If true, prevents containers from using specific Unix capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_capabilities ContainerRuntimePolicy#blocked_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_capabilities ContainerRuntimePolicy#blocked_capabilities}
   */
   readonly blockedCapabilities?: string[];
   /**
   * List of files that are prevented from being read, modified and executed in the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_files ContainerRuntimePolicy#blocked_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_files ContainerRuntimePolicy#blocked_files}
   */
   readonly blockedFiles?: string[];
   /**
   * List of blocked inbound ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_inbound_ports ContainerRuntimePolicy#blocked_inbound_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_inbound_ports ContainerRuntimePolicy#blocked_inbound_ports}
   */
   readonly blockedInboundPorts?: string[];
   /**
   * List of blocked outbound ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_outbound_ports ContainerRuntimePolicy#blocked_outbound_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_outbound_ports ContainerRuntimePolicy#blocked_outbound_ports}
   */
   readonly blockedOutboundPorts?: string[];
   /**
   * Prevent containers from reading, writing, or executing all files in the list of packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_packages ContainerRuntimePolicy#blocked_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_packages ContainerRuntimePolicy#blocked_packages}
   */
   readonly blockedPackages?: string[];
   /**
   * List of volumes that are prevented from being mounted in the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blocked_volumes ContainerRuntimePolicy#blocked_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blocked_volumes ContainerRuntimePolicy#blocked_volumes}
   */
   readonly blockedVolumes?: string[];
   /**
   * List of processes that will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#container_exec_allowed_processes ContainerRuntimePolicy#container_exec_allowed_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#container_exec_allowed_processes ContainerRuntimePolicy#container_exec_allowed_processes}
   */
   readonly containerExecAllowedProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#created ContainerRuntimePolicy#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#created ContainerRuntimePolicy#created}
   */
   readonly created?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#cve ContainerRuntimePolicy#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#cve ContainerRuntimePolicy#cve}
   */
   readonly cve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#default_security_profile ContainerRuntimePolicy#default_security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#default_security_profile ContainerRuntimePolicy#default_security_profile}
   */
   readonly defaultSecurityProfile?: string;
   /**
   * The description of the container runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#description ContainerRuntimePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#description ContainerRuntimePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#digest ContainerRuntimePolicy#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#digest ContainerRuntimePolicy#digest}
   */
   readonly digest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enable_crypto_mining_dns ContainerRuntimePolicy#enable_crypto_mining_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enable_crypto_mining_dns ContainerRuntimePolicy#enable_crypto_mining_dns}
   */
   readonly enableCryptoMiningDns?: boolean | cdktf.IResolvable;
   /**
   * If true, fork bombs are prevented in the containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enable_fork_guard ContainerRuntimePolicy#enable_fork_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enable_fork_guard ContainerRuntimePolicy#enable_fork_guard}
   */
   readonly enableForkGuard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enable_ip_reputation ContainerRuntimePolicy#enable_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enable_ip_reputation ContainerRuntimePolicy#enable_ip_reputation}
   */
   readonly enableIpReputation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enable_port_scan_protection ContainerRuntimePolicy#enable_port_scan_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enable_port_scan_protection ContainerRuntimePolicy#enable_port_scan_protection}
   */
   readonly enablePortScanProtection?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the runtime policy is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates that policy should effect container execution (not just for audit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enforce ContainerRuntimePolicy#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enforce ContainerRuntimePolicy#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Indicates the number of days after which the runtime policy will be changed to enforce mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enforce_after_days ContainerRuntimePolicy#enforce_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enforce_after_days ContainerRuntimePolicy#enforce_after_days}
   */
   readonly enforceAfterDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enforce_scheduler_added_on ContainerRuntimePolicy#enforce_scheduler_added_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enforce_scheduler_added_on ContainerRuntimePolicy#enforce_scheduler_added_on}
   */
   readonly enforceSchedulerAddedOn?: number;
   /**
   * List of excluded application scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exclude_application_scopes ContainerRuntimePolicy#exclude_application_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exclude_application_scopes ContainerRuntimePolicy#exclude_application_scopes}
   */
   readonly excludeApplicationScopes?: string[];
   /**
   * Process limit for the fork guard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#fork_guard_process_limit ContainerRuntimePolicy#fork_guard_process_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#fork_guard_process_limit ContainerRuntimePolicy#fork_guard_process_limit}
   */
   readonly forkGuardProcessLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#id ContainerRuntimePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#id ContainerRuntimePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#image_name ContainerRuntimePolicy#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#image_name ContainerRuntimePolicy#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#is_audit_checked ContainerRuntimePolicy#is_audit_checked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#is_audit_checked ContainerRuntimePolicy#is_audit_checked}
   */
   readonly isAuditChecked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#is_auto_generated ContainerRuntimePolicy#is_auto_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#is_auto_generated ContainerRuntimePolicy#is_auto_generated}
   */
   readonly isAutoGenerated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#is_ootb_policy ContainerRuntimePolicy#is_ootb_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#is_ootb_policy ContainerRuntimePolicy#is_ootb_policy}
   */
   readonly isOotbPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#lastupdate ContainerRuntimePolicy#lastupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#lastupdate ContainerRuntimePolicy#lastupdate}
   */
   readonly lastupdate?: number;
   /**
   * If true, system time changes will be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitor_system_time_changes ContainerRuntimePolicy#monitor_system_time_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitor_system_time_changes ContainerRuntimePolicy#monitor_system_time_changes}
   */
   readonly monitorSystemTimeChanges?: boolean | cdktf.IResolvable;
   /**
   * Name of the container runtime policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#no_new_privileges ContainerRuntimePolicy#no_new_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#no_new_privileges ContainerRuntimePolicy#no_new_privileges}
   */
   readonly noNewPrivileges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#only_registered_images ContainerRuntimePolicy#only_registered_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#only_registered_images ContainerRuntimePolicy#only_registered_images}
   */
   readonly onlyRegisteredImages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#permission ContainerRuntimePolicy#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#permission ContainerRuntimePolicy#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#registry ContainerRuntimePolicy#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#registry ContainerRuntimePolicy#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#repo_name ContainerRuntimePolicy#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#repo_name ContainerRuntimePolicy#repo_name}
   */
   readonly repoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#resource_name ContainerRuntimePolicy#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#resource_name ContainerRuntimePolicy#resource_name}
   */
   readonly resourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#resource_type ContainerRuntimePolicy#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#resource_type ContainerRuntimePolicy#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#runtime_mode ContainerRuntimePolicy#runtime_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#runtime_mode ContainerRuntimePolicy#runtime_mode}
   */
   readonly runtimeMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#runtime_type ContainerRuntimePolicy#runtime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#runtime_type ContainerRuntimePolicy#runtime_type}
   */
   readonly runtimeType?: string;
   /**
   * Logical expression of how to compute the dependency of the scope variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#scope_expression ContainerRuntimePolicy#scope_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#scope_expression ContainerRuntimePolicy#scope_expression}
   */
   readonly scopeExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#type ContainerRuntimePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#type ContainerRuntimePolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#updated ContainerRuntimePolicy#updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#updated ContainerRuntimePolicy#updated}
   */
   readonly updated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#version ContainerRuntimePolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#version ContainerRuntimePolicy#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#vpatch_version ContainerRuntimePolicy#vpatch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#vpatch_version ContainerRuntimePolicy#vpatch_version}
   */
   readonly vpatchVersion?: string;
   /**
   * allowed_executables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#allowed_executables ContainerRuntimePolicy#allowed_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#allowed_executables ContainerRuntimePolicy#allowed_executables}
   */
   readonly allowedExecutables?: ContainerRuntimePolicyAllowedExecutables[] | cdktf.IResolvable;
   /**
   * allowed_registries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#allowed_registries ContainerRuntimePolicy#allowed_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#allowed_registries ContainerRuntimePolicy#allowed_registries}
   */
   readonly allowedRegistries?: ContainerRuntimePolicyAllowedRegistries[] | cdktf.IResolvable;
   /**
   * auditing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#auditing ContainerRuntimePolicy#auditing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#auditing ContainerRuntimePolicy#auditing}
   */
   readonly auditing?: ContainerRuntimePolicyAuditing;
   /**
   * blacklisted_os_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#blacklisted_os_users ContainerRuntimePolicy#blacklisted_os_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#blacklisted_os_users ContainerRuntimePolicy#blacklisted_os_users}
   */
   readonly blacklistedOsUsers?: ContainerRuntimePolicyBlacklistedOsUsers;
   /**
   * bypass_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#bypass_scope ContainerRuntimePolicy#bypass_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#bypass_scope ContainerRuntimePolicy#bypass_scope}
   */
   readonly bypassScope?: ContainerRuntimePolicyBypassScope[] | cdktf.IResolvable;
   /**
   * container_exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#container_exec ContainerRuntimePolicy#container_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#container_exec ContainerRuntimePolicy#container_exec}
   */
   readonly containerExec?: ContainerRuntimePolicyContainerExec;
   /**
   * drift_prevention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#drift_prevention ContainerRuntimePolicy#drift_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#drift_prevention ContainerRuntimePolicy#drift_prevention}
   */
   readonly driftPrevention?: ContainerRuntimePolicyDriftPrevention[] | cdktf.IResolvable;
   /**
   * executable_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#executable_blacklist ContainerRuntimePolicy#executable_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#executable_blacklist ContainerRuntimePolicy#executable_blacklist}
   */
   readonly executableBlacklist?: ContainerRuntimePolicyExecutableBlacklistStruct[] | cdktf.IResolvable;
   /**
   * failed_kubernetes_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#failed_kubernetes_checks ContainerRuntimePolicy#failed_kubernetes_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#failed_kubernetes_checks ContainerRuntimePolicy#failed_kubernetes_checks}
   */
   readonly failedKubernetesChecks?: ContainerRuntimePolicyFailedKubernetesChecks;
   /**
   * file_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#file_block ContainerRuntimePolicy#file_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#file_block ContainerRuntimePolicy#file_block}
   */
   readonly fileBlock?: ContainerRuntimePolicyFileBlock;
   /**
   * file_integrity_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#file_integrity_monitoring ContainerRuntimePolicy#file_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#file_integrity_monitoring ContainerRuntimePolicy#file_integrity_monitoring}
   */
   readonly fileIntegrityMonitoring?: ContainerRuntimePolicyFileIntegrityMonitoring[] | cdktf.IResolvable;
   /**
   * limit_container_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#limit_container_privileges ContainerRuntimePolicy#limit_container_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#limit_container_privileges ContainerRuntimePolicy#limit_container_privileges}
   */
   readonly limitContainerPrivileges?: ContainerRuntimePolicyLimitContainerPrivileges[] | cdktf.IResolvable;
   /**
   * linux_capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#linux_capabilities ContainerRuntimePolicy#linux_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#linux_capabilities ContainerRuntimePolicy#linux_capabilities}
   */
   readonly linuxCapabilities?: ContainerRuntimePolicyLinuxCapabilities;
   /**
   * malware_scan_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#malware_scan_options ContainerRuntimePolicy#malware_scan_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#malware_scan_options ContainerRuntimePolicy#malware_scan_options}
   */
   readonly malwareScanOptions?: ContainerRuntimePolicyMalwareScanOptions;
   /**
   * package_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#package_block ContainerRuntimePolicy#package_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#package_block ContainerRuntimePolicy#package_block}
   */
   readonly packageBlock?: ContainerRuntimePolicyPackageBlock;
   /**
   * port_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#port_block ContainerRuntimePolicy#port_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#port_block ContainerRuntimePolicy#port_block}
   */
   readonly portBlock?: ContainerRuntimePolicyPortBlock;
   /**
   * readonly_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_files ContainerRuntimePolicy#readonly_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_files ContainerRuntimePolicy#readonly_files}
   */
   readonly readonlyFiles?: ContainerRuntimePolicyReadonlyFiles;
   /**
   * readonly_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_registry ContainerRuntimePolicy#readonly_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_registry ContainerRuntimePolicy#readonly_registry}
   */
   readonly readonlyRegistry?: ContainerRuntimePolicyReadonlyRegistry;
   /**
   * registry_access_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#registry_access_monitoring ContainerRuntimePolicy#registry_access_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#registry_access_monitoring ContainerRuntimePolicy#registry_access_monitoring}
   */
   readonly registryAccessMonitoring?: ContainerRuntimePolicyRegistryAccessMonitoring;
   /**
   * restricted_volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#restricted_volumes ContainerRuntimePolicy#restricted_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#restricted_volumes ContainerRuntimePolicy#restricted_volumes}
   */
   readonly restrictedVolumes?: ContainerRuntimePolicyRestrictedVolumes[] | cdktf.IResolvable;
   /**
   * reverse_shell block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#reverse_shell ContainerRuntimePolicy#reverse_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#reverse_shell ContainerRuntimePolicy#reverse_shell}
   */
   readonly reverseShell?: ContainerRuntimePolicyReverseShell;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#scope ContainerRuntimePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#scope ContainerRuntimePolicy#scope}
   */
   readonly scope?: ContainerRuntimePolicyScope[] | cdktf.IResolvable;
   /**
   * scope_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#scope_variables ContainerRuntimePolicy#scope_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#scope_variables ContainerRuntimePolicy#scope_variables}
   */
   readonly scopeVariables?: ContainerRuntimePolicyScopeVariablesA[] | cdktf.IResolvable;
   /**
   * system_integrity_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#system_integrity_protection ContainerRuntimePolicy#system_integrity_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#system_integrity_protection ContainerRuntimePolicy#system_integrity_protection}
   */
   readonly systemIntegrityProtection?: ContainerRuntimePolicySystemIntegrityProtection;
   /**
   * tripwire block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#tripwire ContainerRuntimePolicy#tripwire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#tripwire ContainerRuntimePolicy#tripwire}
   */
   readonly tripwire?: ContainerRuntimePolicyTripwire;
   /**
   * whitelisted_os_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#whitelisted_os_users ContainerRuntimePolicy#whitelisted_os_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#whitelisted_os_users ContainerRuntimePolicy#whitelisted_os_users}
   */
   readonly whitelistedOsUsers?: ContainerRuntimePolicyWhitelistedOsUsers;
 }
@@ -505,25 +505,25 @@ export interface ContainerRuntimePolicyAllowedExecutables {
   /**
   * List of allowed executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#allow_executables ContainerRuntimePolicy#allow_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#allow_executables ContainerRuntimePolicy#allow_executables}
   */
   readonly allowExecutables?: string[];
   /**
   * List of allowed root executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#allow_root_executables ContainerRuntimePolicy#allow_root_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#allow_root_executables ContainerRuntimePolicy#allow_root_executables}
   */
   readonly allowRootExecutables?: string[];
   /**
   * Whether allowed executables configuration is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to treat executables separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#separate_executables ContainerRuntimePolicy#separate_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#separate_executables ContainerRuntimePolicy#separate_executables}
   */
   readonly separateExecutables?: boolean | cdktf.IResolvable;
 }
@@ -728,13 +728,13 @@ export interface ContainerRuntimePolicyAllowedRegistries {
   /**
   * List of allowed registries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#allowed_registries ContainerRuntimePolicy#allowed_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#allowed_registries ContainerRuntimePolicy#allowed_registries}
   */
   readonly allowedRegistries?: string[];
   /**
   * Whether allowed registries are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -879,35 +879,35 @@ export class ContainerRuntimePolicyAllowedRegistriesList extends cdktf.ComplexLi
 }
 export interface ContainerRuntimePolicyAuditing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_all_network ContainerRuntimePolicy#audit_all_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_all_network ContainerRuntimePolicy#audit_all_network}
   */
   readonly auditAllNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_all_processes ContainerRuntimePolicy#audit_all_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_all_processes ContainerRuntimePolicy#audit_all_processes}
   */
   readonly auditAllProcesses?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_failed_login ContainerRuntimePolicy#audit_failed_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_failed_login ContainerRuntimePolicy#audit_failed_login}
   */
   readonly auditFailedLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_os_user_activity ContainerRuntimePolicy#audit_os_user_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_os_user_activity ContainerRuntimePolicy#audit_os_user_activity}
   */
   readonly auditOsUserActivity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_process_cmdline ContainerRuntimePolicy#audit_process_cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_process_cmdline ContainerRuntimePolicy#audit_process_cmdline}
   */
   readonly auditProcessCmdline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_success_login ContainerRuntimePolicy#audit_success_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_success_login ContainerRuntimePolicy#audit_success_login}
   */
   readonly auditSuccessLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_user_account_management ContainerRuntimePolicy#audit_user_account_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_user_account_management ContainerRuntimePolicy#audit_user_account_management}
   */
   readonly auditUserAccountManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1194,15 +1194,15 @@ export class ContainerRuntimePolicyAuditingOutputReference extends cdktf.Complex
 }
 export interface ContainerRuntimePolicyBlacklistedOsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#group_black_list ContainerRuntimePolicy#group_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#group_black_list ContainerRuntimePolicy#group_black_list}
   */
   readonly groupBlackList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#user_black_list ContainerRuntimePolicy#user_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#user_black_list ContainerRuntimePolicy#user_black_list}
   */
   readonly userBlackList?: string[];
 }
@@ -1346,13 +1346,13 @@ export interface ContainerRuntimePolicyBypassScopeScopeVariables {
   /**
   * Variable attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
   */
   readonly attribute?: string;
   /**
   * Variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
   */
   readonly value?: string;
 }
@@ -1499,13 +1499,13 @@ export interface ContainerRuntimePolicyBypassScopeScope {
   /**
   * Scope expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#expression ContainerRuntimePolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#expression ContainerRuntimePolicy#expression}
   */
   readonly expression?: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#variables ContainerRuntimePolicy#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#variables ContainerRuntimePolicy#variables}
   */
   readonly variables?: ContainerRuntimePolicyBypassScopeScopeVariables[] | cdktf.IResolvable;
 }
@@ -1652,13 +1652,13 @@ export interface ContainerRuntimePolicyBypassScope {
   /**
   * Whether bypassing the scope is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#scope ContainerRuntimePolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#scope ContainerRuntimePolicy#scope}
   */
   readonly scope?: ContainerRuntimePolicyBypassScopeScope[] | cdktf.IResolvable;
 }
@@ -1803,19 +1803,19 @@ export class ContainerRuntimePolicyBypassScopeList extends cdktf.ComplexList {
 }
 export interface ContainerRuntimePolicyContainerExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_container_exec ContainerRuntimePolicy#block_container_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_container_exec ContainerRuntimePolicy#block_container_exec}
   */
   readonly blockContainerExec?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#container_exec_proc_white_list ContainerRuntimePolicy#container_exec_proc_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#container_exec_proc_white_list ContainerRuntimePolicy#container_exec_proc_white_list}
   */
   readonly containerExecProcWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#reverse_shell_ip_white_list ContainerRuntimePolicy#reverse_shell_ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#reverse_shell_ip_white_list ContainerRuntimePolicy#reverse_shell_ip_white_list}
   */
   readonly reverseShellIpWhiteList?: string[];
 }
@@ -1988,25 +1988,25 @@ export interface ContainerRuntimePolicyDriftPrevention {
   /**
   * Whether drift prevention is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to lockdown execution drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exec_lockdown ContainerRuntimePolicy#exec_lockdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exec_lockdown ContainerRuntimePolicy#exec_lockdown}
   */
   readonly execLockdown?: boolean | cdktf.IResolvable;
   /**
   * List of items in the execution lockdown white list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exec_lockdown_white_list ContainerRuntimePolicy#exec_lockdown_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exec_lockdown_white_list ContainerRuntimePolicy#exec_lockdown_white_list}
   */
   readonly execLockdownWhiteList?: string[];
   /**
   * Whether to lockdown image drift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#image_lockdown ContainerRuntimePolicy#image_lockdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#image_lockdown ContainerRuntimePolicy#image_lockdown}
   */
   readonly imageLockdown?: boolean | cdktf.IResolvable;
 }
@@ -2211,13 +2211,13 @@ export interface ContainerRuntimePolicyExecutableBlacklistStruct {
   /**
   * Whether the executable blacklist is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of blacklisted executables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#executables ContainerRuntimePolicy#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#executables ContainerRuntimePolicy#executables}
   */
   readonly executables?: string[];
 }
@@ -2362,11 +2362,11 @@ export class ContainerRuntimePolicyExecutableBlacklistStructList extends cdktf.C
 }
 export interface ContainerRuntimePolicyFailedKubernetesChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#failed_checks ContainerRuntimePolicy#failed_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#failed_checks ContainerRuntimePolicy#failed_checks}
   */
   readonly failedChecks?: string[];
 }
@@ -2479,31 +2479,31 @@ export class ContainerRuntimePolicyFailedKubernetesChecksOutputReference extends
 }
 export interface ContainerRuntimePolicyFileBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_files_processes ContainerRuntimePolicy#block_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_files_processes ContainerRuntimePolicy#block_files_processes}
   */
   readonly blockFilesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_files_users ContainerRuntimePolicy#block_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_files_users ContainerRuntimePolicy#block_files_users}
   */
   readonly blockFilesUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_files ContainerRuntimePolicy#exceptional_block_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_files ContainerRuntimePolicy#exceptional_block_files}
   */
   readonly exceptionalBlockFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_files_processes ContainerRuntimePolicy#exceptional_block_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_files_processes ContainerRuntimePolicy#exceptional_block_files_processes}
   */
   readonly exceptionalBlockFilesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_files_users ContainerRuntimePolicy#exceptional_block_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_files_users ContainerRuntimePolicy#exceptional_block_files_users}
   */
   readonly exceptionalBlockFilesUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#filename_block_list ContainerRuntimePolicy#filename_block_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#filename_block_list ContainerRuntimePolicy#filename_block_list}
   */
   readonly filenameBlockList?: string[];
 }
@@ -2763,73 +2763,73 @@ export interface ContainerRuntimePolicyFileIntegrityMonitoring {
   /**
   * If true, file integrity monitoring is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of paths to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_files ContainerRuntimePolicy#exceptional_monitored_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_files ContainerRuntimePolicy#exceptional_monitored_files}
   */
   readonly exceptionalMonitoredFiles?: string[];
   /**
   * List of processes to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_files_processes ContainerRuntimePolicy#exceptional_monitored_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_files_processes ContainerRuntimePolicy#exceptional_monitored_files_processes}
   */
   readonly exceptionalMonitoredFilesProcesses?: string[];
   /**
   * List of users to be excluded from monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_files_users ContainerRuntimePolicy#exceptional_monitored_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_files_users ContainerRuntimePolicy#exceptional_monitored_files_users}
   */
   readonly exceptionalMonitoredFilesUsers?: string[];
   /**
   * List of paths to be monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files ContainerRuntimePolicy#monitored_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files ContainerRuntimePolicy#monitored_files}
   */
   readonly monitoredFiles?: string[];
   /**
   * Whether to monitor file attribute operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_attributes ContainerRuntimePolicy#monitored_files_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_attributes ContainerRuntimePolicy#monitored_files_attributes}
   */
   readonly monitoredFilesAttributes?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file create operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_create ContainerRuntimePolicy#monitored_files_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_create ContainerRuntimePolicy#monitored_files_create}
   */
   readonly monitoredFilesCreate?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file delete operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_delete ContainerRuntimePolicy#monitored_files_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_delete ContainerRuntimePolicy#monitored_files_delete}
   */
   readonly monitoredFilesDelete?: boolean | cdktf.IResolvable;
   /**
   * Whether to monitor file modify operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_modify ContainerRuntimePolicy#monitored_files_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_modify ContainerRuntimePolicy#monitored_files_modify}
   */
   readonly monitoredFilesModify?: boolean | cdktf.IResolvable;
   /**
   * List of processes associated with monitored files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_processes ContainerRuntimePolicy#monitored_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_processes ContainerRuntimePolicy#monitored_files_processes}
   */
   readonly monitoredFilesProcesses?: string[];
   /**
   * Whether to monitor file read operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_read ContainerRuntimePolicy#monitored_files_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_read ContainerRuntimePolicy#monitored_files_read}
   */
   readonly monitoredFilesRead?: boolean | cdktf.IResolvable;
   /**
   * List of users associated with monitored files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_files_users ContainerRuntimePolicy#monitored_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_files_users ContainerRuntimePolicy#monitored_files_users}
   */
   readonly monitoredFilesUsers?: string[];
 }
@@ -3266,67 +3266,67 @@ export interface ContainerRuntimePolicyLimitContainerPrivileges {
   /**
   * Whether to block adding capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_add_capabilities ContainerRuntimePolicy#block_add_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_add_capabilities ContainerRuntimePolicy#block_add_capabilities}
   */
   readonly blockAddCapabilities?: boolean | cdktf.IResolvable;
   /**
   * Whether container privilege limitations are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit IPC-related capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#ipcmode ContainerRuntimePolicy#ipcmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#ipcmode ContainerRuntimePolicy#ipcmode}
   */
   readonly ipcmode?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit network-related capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#netmode ContainerRuntimePolicy#netmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#netmode ContainerRuntimePolicy#netmode}
   */
   readonly netmode?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit process-related capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#pidmode ContainerRuntimePolicy#pidmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#pidmode ContainerRuntimePolicy#pidmode}
   */
   readonly pidmode?: boolean | cdktf.IResolvable;
   /**
   * Whether to prevent low port binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#prevent_low_port_binding ContainerRuntimePolicy#prevent_low_port_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#prevent_low_port_binding ContainerRuntimePolicy#prevent_low_port_binding}
   */
   readonly preventLowPortBinding?: boolean | cdktf.IResolvable;
   /**
   * Whether to prevent the use of the root user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#prevent_root_user ContainerRuntimePolicy#prevent_root_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#prevent_root_user ContainerRuntimePolicy#prevent_root_user}
   */
   readonly preventRootUser?: boolean | cdktf.IResolvable;
   /**
   * Whether the container is run in privileged mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#privileged ContainerRuntimePolicy#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#privileged ContainerRuntimePolicy#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * Whether to use the host user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#use_host_user ContainerRuntimePolicy#use_host_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#use_host_user ContainerRuntimePolicy#use_host_user}
   */
   readonly useHostUser?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit user-related capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#usermode ContainerRuntimePolicy#usermode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#usermode ContainerRuntimePolicy#usermode}
   */
   readonly usermode?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit UTS-related capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#utsmode ContainerRuntimePolicy#utsmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#utsmode ContainerRuntimePolicy#utsmode}
   */
   readonly utsmode?: boolean | cdktf.IResolvable;
 }
@@ -3732,11 +3732,11 @@ export class ContainerRuntimePolicyLimitContainerPrivilegesList extends cdktf.Co
 }
 export interface ContainerRuntimePolicyLinuxCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#remove_linux_capabilities ContainerRuntimePolicy#remove_linux_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#remove_linux_capabilities ContainerRuntimePolicy#remove_linux_capabilities}
   */
   readonly removeLinuxCapabilities?: string[];
 }
@@ -3851,37 +3851,37 @@ export interface ContainerRuntimePolicyMalwareScanOptions {
   /**
   * Set Action, Defaults to 'Alert' when empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#action ContainerRuntimePolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#action ContainerRuntimePolicy#action}
   */
   readonly action?: string;
   /**
   * Defines if enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of registry paths to be excluded from being protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exclude_directories ContainerRuntimePolicy#exclude_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exclude_directories ContainerRuntimePolicy#exclude_directories}
   */
   readonly excludeDirectories?: string[];
   /**
   * List of registry processes to be excluded from being protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exclude_processes ContainerRuntimePolicy#exclude_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exclude_processes ContainerRuntimePolicy#exclude_processes}
   */
   readonly excludeProcesses?: string[];
   /**
   * Whether to enable file forensic collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#file_forensic_collection ContainerRuntimePolicy#file_forensic_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#file_forensic_collection ContainerRuntimePolicy#file_forensic_collection}
   */
   readonly fileForensicCollection?: boolean | cdktf.IResolvable;
   /**
   * List of registry paths to be excluded from being protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#include_directories ContainerRuntimePolicy#include_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#include_directories ContainerRuntimePolicy#include_directories}
   */
   readonly includeDirectories?: string[];
 }
@@ -4110,31 +4110,31 @@ export class ContainerRuntimePolicyMalwareScanOptionsOutputReference extends cdk
 }
 export interface ContainerRuntimePolicyPackageBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_packages_processes ContainerRuntimePolicy#block_packages_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_packages_processes ContainerRuntimePolicy#block_packages_processes}
   */
   readonly blockPackagesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_packages_users ContainerRuntimePolicy#block_packages_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_packages_users ContainerRuntimePolicy#block_packages_users}
   */
   readonly blockPackagesUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_packages_files ContainerRuntimePolicy#exceptional_block_packages_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_packages_files ContainerRuntimePolicy#exceptional_block_packages_files}
   */
   readonly exceptionalBlockPackagesFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_packages_processes ContainerRuntimePolicy#exceptional_block_packages_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_packages_processes ContainerRuntimePolicy#exceptional_block_packages_processes}
   */
   readonly exceptionalBlockPackagesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_block_packages_users ContainerRuntimePolicy#exceptional_block_packages_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_block_packages_users ContainerRuntimePolicy#exceptional_block_packages_users}
   */
   readonly exceptionalBlockPackagesUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#packages_black_list ContainerRuntimePolicy#packages_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#packages_black_list ContainerRuntimePolicy#packages_black_list}
   */
   readonly packagesBlackList?: string[];
 }
@@ -4392,15 +4392,15 @@ export class ContainerRuntimePolicyPackageBlockOutputReference extends cdktf.Com
 }
 export interface ContainerRuntimePolicyPortBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_inbound_ports ContainerRuntimePolicy#block_inbound_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_inbound_ports ContainerRuntimePolicy#block_inbound_ports}
   */
   readonly blockInboundPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_outbound_ports ContainerRuntimePolicy#block_outbound_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_outbound_ports ContainerRuntimePolicy#block_outbound_ports}
   */
   readonly blockOutboundPorts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4542,31 +4542,31 @@ export class ContainerRuntimePolicyPortBlockOutputReference extends cdktf.Comple
 }
 export interface ContainerRuntimePolicyReadonlyFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_files ContainerRuntimePolicy#exceptional_readonly_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_files ContainerRuntimePolicy#exceptional_readonly_files}
   */
   readonly exceptionalReadonlyFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_files_processes ContainerRuntimePolicy#exceptional_readonly_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_files_processes ContainerRuntimePolicy#exceptional_readonly_files_processes}
   */
   readonly exceptionalReadonlyFilesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_files_users ContainerRuntimePolicy#exceptional_readonly_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_files_users ContainerRuntimePolicy#exceptional_readonly_files_users}
   */
   readonly exceptionalReadonlyFilesUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_files ContainerRuntimePolicy#readonly_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_files ContainerRuntimePolicy#readonly_files}
   */
   readonly readonlyFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_files_processes ContainerRuntimePolicy#readonly_files_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_files_processes ContainerRuntimePolicy#readonly_files_processes}
   */
   readonly readonlyFilesProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_files_users ContainerRuntimePolicy#readonly_files_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_files_users ContainerRuntimePolicy#readonly_files_users}
   */
   readonly readonlyFilesUsers?: string[];
 }
@@ -4824,31 +4824,31 @@ export class ContainerRuntimePolicyReadonlyFilesOutputReference extends cdktf.Co
 }
 export interface ContainerRuntimePolicyReadonlyRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_paths ContainerRuntimePolicy#exceptional_readonly_registry_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_paths ContainerRuntimePolicy#exceptional_readonly_registry_paths}
   */
   readonly exceptionalReadonlyRegistryPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_processes ContainerRuntimePolicy#exceptional_readonly_registry_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_processes ContainerRuntimePolicy#exceptional_readonly_registry_processes}
   */
   readonly exceptionalReadonlyRegistryProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_users ContainerRuntimePolicy#exceptional_readonly_registry_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_readonly_registry_users ContainerRuntimePolicy#exceptional_readonly_registry_users}
   */
   readonly exceptionalReadonlyRegistryUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_registry_paths ContainerRuntimePolicy#readonly_registry_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_registry_paths ContainerRuntimePolicy#readonly_registry_paths}
   */
   readonly readonlyRegistryPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_registry_processes ContainerRuntimePolicy#readonly_registry_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_registry_processes ContainerRuntimePolicy#readonly_registry_processes}
   */
   readonly readonlyRegistryProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#readonly_registry_users ContainerRuntimePolicy#readonly_registry_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#readonly_registry_users ContainerRuntimePolicy#readonly_registry_users}
   */
   readonly readonlyRegistryUsers?: string[];
 }
@@ -5106,51 +5106,51 @@ export class ContainerRuntimePolicyReadonlyRegistryOutputReference extends cdktf
 }
 export interface ContainerRuntimePolicyRegistryAccessMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_paths ContainerRuntimePolicy#exceptional_monitored_registry_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_paths ContainerRuntimePolicy#exceptional_monitored_registry_paths}
   */
   readonly exceptionalMonitoredRegistryPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_processes ContainerRuntimePolicy#exceptional_monitored_registry_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_processes ContainerRuntimePolicy#exceptional_monitored_registry_processes}
   */
   readonly exceptionalMonitoredRegistryProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_users ContainerRuntimePolicy#exceptional_monitored_registry_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#exceptional_monitored_registry_users ContainerRuntimePolicy#exceptional_monitored_registry_users}
   */
   readonly exceptionalMonitoredRegistryUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_attributes ContainerRuntimePolicy#monitored_registry_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_attributes ContainerRuntimePolicy#monitored_registry_attributes}
   */
   readonly monitoredRegistryAttributes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_create ContainerRuntimePolicy#monitored_registry_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_create ContainerRuntimePolicy#monitored_registry_create}
   */
   readonly monitoredRegistryCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_delete ContainerRuntimePolicy#monitored_registry_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_delete ContainerRuntimePolicy#monitored_registry_delete}
   */
   readonly monitoredRegistryDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_modify ContainerRuntimePolicy#monitored_registry_modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_modify ContainerRuntimePolicy#monitored_registry_modify}
   */
   readonly monitoredRegistryModify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_paths ContainerRuntimePolicy#monitored_registry_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_paths ContainerRuntimePolicy#monitored_registry_paths}
   */
   readonly monitoredRegistryPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_processes ContainerRuntimePolicy#monitored_registry_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_processes ContainerRuntimePolicy#monitored_registry_processes}
   */
   readonly monitoredRegistryProcesses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_read ContainerRuntimePolicy#monitored_registry_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_read ContainerRuntimePolicy#monitored_registry_read}
   */
   readonly monitoredRegistryRead?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitored_registry_users ContainerRuntimePolicy#monitored_registry_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitored_registry_users ContainerRuntimePolicy#monitored_registry_users}
   */
   readonly monitoredRegistryUsers?: string[];
 }
@@ -5555,13 +5555,13 @@ export interface ContainerRuntimePolicyRestrictedVolumes {
   /**
   * Whether restricted volumes are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of restricted volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#volumes ContainerRuntimePolicy#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#volumes ContainerRuntimePolicy#volumes}
   */
   readonly volumes?: string[];
 }
@@ -5706,19 +5706,19 @@ export class ContainerRuntimePolicyRestrictedVolumesList extends cdktf.ComplexLi
 }
 export interface ContainerRuntimePolicyReverseShell {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#block_reverse_shell ContainerRuntimePolicy#block_reverse_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#block_reverse_shell ContainerRuntimePolicy#block_reverse_shell}
   */
   readonly blockReverseShell?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#reverse_shell_ip_white_list ContainerRuntimePolicy#reverse_shell_ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#reverse_shell_ip_white_list ContainerRuntimePolicy#reverse_shell_ip_white_list}
   */
   readonly reverseShellIpWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#reverse_shell_proc_white_list ContainerRuntimePolicy#reverse_shell_proc_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#reverse_shell_proc_white_list ContainerRuntimePolicy#reverse_shell_proc_white_list}
   */
   readonly reverseShellProcWhiteList?: string[];
 }
@@ -5891,17 +5891,17 @@ export interface ContainerRuntimePolicyScopeVariables {
   /**
   * Variable attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
   */
   readonly name?: string;
   /**
   * Variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
   */
   readonly value: string;
 }
@@ -6071,13 +6071,13 @@ export interface ContainerRuntimePolicyScope {
   /**
   * Scope expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#expression ContainerRuntimePolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#expression ContainerRuntimePolicy#expression}
   */
   readonly expression: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#variables ContainerRuntimePolicy#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#variables ContainerRuntimePolicy#variables}
   */
   readonly variables: ContainerRuntimePolicyScopeVariables[] | cdktf.IResolvable;
 }
@@ -6218,19 +6218,19 @@ export interface ContainerRuntimePolicyScopeVariablesA {
   /**
   * Class of supported scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#attribute ContainerRuntimePolicy#attribute}
   */
   readonly attribute: string;
   /**
   * Name assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#name ContainerRuntimePolicy#name}
   */
   readonly name?: string;
   /**
   * Value assigned to the attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#value ContainerRuntimePolicy#value}
   */
   readonly value: string;
 }
@@ -6398,19 +6398,19 @@ export class ContainerRuntimePolicyScopeVariablesAList extends cdktf.ComplexList
 }
 export interface ContainerRuntimePolicySystemIntegrityProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#audit_systemtime_change ContainerRuntimePolicy#audit_systemtime_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#audit_systemtime_change ContainerRuntimePolicy#audit_systemtime_change}
   */
   readonly auditSystemtimeChange?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#monitor_audit_log_integrity ContainerRuntimePolicy#monitor_audit_log_integrity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#monitor_audit_log_integrity ContainerRuntimePolicy#monitor_audit_log_integrity}
   */
   readonly monitorAuditLogIntegrity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#windows_services_monitoring ContainerRuntimePolicy#windows_services_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#windows_services_monitoring ContainerRuntimePolicy#windows_services_monitoring}
   */
   readonly windowsServicesMonitoring?: boolean | cdktf.IResolvable;
 }
@@ -6581,23 +6581,23 @@ export class ContainerRuntimePolicySystemIntegrityProtectionOutputReference exte
 }
 export interface ContainerRuntimePolicyTripwire {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#apply_on ContainerRuntimePolicy#apply_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#apply_on ContainerRuntimePolicy#apply_on}
   */
   readonly applyOn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#serverless_app ContainerRuntimePolicy#serverless_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#serverless_app ContainerRuntimePolicy#serverless_app}
   */
   readonly serverlessApp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#user_id ContainerRuntimePolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#user_id ContainerRuntimePolicy#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#user_password ContainerRuntimePolicy#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#user_password ContainerRuntimePolicy#user_password}
   */
   readonly userPassword?: string;
 }
@@ -6797,15 +6797,15 @@ export class ContainerRuntimePolicyTripwireOutputReference extends cdktf.Complex
 }
 export interface ContainerRuntimePolicyWhitelistedOsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#enabled ContainerRuntimePolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#group_white_list ContainerRuntimePolicy#group_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#group_white_list ContainerRuntimePolicy#group_white_list}
   */
   readonly groupWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#user_white_list ContainerRuntimePolicy#user_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#user_white_list ContainerRuntimePolicy#user_white_list}
   */
   readonly userWhiteList?: string[];
 }
@@ -6947,7 +6947,7 @@ export class ContainerRuntimePolicyWhitelistedOsUsersOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy aquasec_container_runtime_policy}
+* Represents a {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy aquasec_container_runtime_policy}
 */
 export class ContainerRuntimePolicy extends cdktf.TerraformResource {
 
@@ -6963,7 +6963,7 @@ export class ContainerRuntimePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerRuntimePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerRuntimePolicy to import
-  * @param importFromId The id of the existing ContainerRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerRuntimePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerRuntimePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6975,7 +6975,7 @@ export class ContainerRuntimePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.11.0/docs/resources/container_runtime_policy aquasec_container_runtime_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aquasecurity/aquasec/0.12.0/docs/resources/container_runtime_policy aquasec_container_runtime_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6986,8 +6986,8 @@ export class ContainerRuntimePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_container_runtime_policy',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0',
-        providerVersionConstraint: '0.11.0'
+        providerVersion: '0.12.0',
+        providerVersionConstraint: '0.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsLbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#id AwsLbTargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#id AwsLbTargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface AwsLbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of IP addresses used by the target group, only supported when target type is set to `ip`. Possible values are `ipv4` or `ipv6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#ip_address_type AwsLbTargetGroup#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#ip_address_type AwsLbTargetGroup#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Name of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#name AwsLbTargetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#name AwsLbTargetGroup#name}
   */
   readonly name: string;
   /**
   * Port to use to connect with the target. Valid values are either ports 1-65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#port AwsLbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#port AwsLbTargetGroup#port}
   */
   readonly port?: number;
   /**
   * Protocol to use to connect with the target. Not applicable when `target_type` is `lambda`. Defaults to `HTTP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#protocol AwsLbTargetGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#protocol AwsLbTargetGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * Only applicable when protocol is `HTTP` or `HTTPS`. The protocol version. Specify GRPC to send requests to targets using gRPC. Specify HTTP2 to send requests to targets using HTTP/2. The default is HTTP1, which sends requests to targets using HTTP/1.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#protocol_version AwsLbTargetGroup#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#protocol_version AwsLbTargetGroup#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * Type of target that you must specify when registering targets with this target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#target_type AwsLbTargetGroup#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#target_type AwsLbTargetGroup#target_type}
   */
   readonly targetType: string;
   /**
   * The GUID of the tenant that the target group will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#tenant_id AwsLbTargetGroup#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#tenant_id AwsLbTargetGroup#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Identifier of the VPC in which to create the target group. Required when `target_type` is `instance`, `ip` or `alb`. Does not apply when `target_type` is `lambda`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#vpc_id AwsLbTargetGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#vpc_id AwsLbTargetGroup#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#health_check AwsLbTargetGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#health_check AwsLbTargetGroup#health_check}
   */
   readonly healthCheck?: AwsLbTargetGroupHealthCheck;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#timeouts AwsLbTargetGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#timeouts AwsLbTargetGroup#timeouts}
   */
   readonly timeouts?: AwsLbTargetGroupTimeouts;
 }
@@ -79,55 +79,55 @@ export interface AwsLbTargetGroupHealthCheck {
   /**
   * Whether health checks are enabled. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#enabled AwsLbTargetGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#enabled AwsLbTargetGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Number of consecutive health checks successes required before considering an unhealthy target healthy. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#healthy_threshold AwsLbTargetGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#healthy_threshold AwsLbTargetGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * Approximate amount of time, in seconds, between health checks of an individual target. Minimum value 5 seconds, Maximum value 300 seconds. For lambda target groups, it needs to be greater as the `timeout` of the underlying `lambda`. Defaults to `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#interval AwsLbTargetGroup#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#interval AwsLbTargetGroup#interval}
   */
   readonly interval?: number;
   /**
   * Response codes to use when checking for a healthy responses from a target. You can specify multiple values (for example, "200,202" for HTTP(s) or "0,12" for GRPC) or a range of values (for example, "200-299" or "0-99"). Required for HTTP/HTTPS/GRPC ALB. Only applies to Application Load Balancers (i.e., HTTP/HTTPS/GRPC) not Network Load Balancers (i.e., TCP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#matcher AwsLbTargetGroup#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#matcher AwsLbTargetGroup#matcher}
   */
   readonly matcher?: string;
   /**
   * Destination for the health check request. Required for HTTP/HTTPS ALB and HTTP NLB. Only applies to HTTP/HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#path AwsLbTargetGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#path AwsLbTargetGroup#path}
   */
   readonly path?: string;
   /**
   * Port to use to connect with the target. Valid values are either ports 1-65535, or traffic-port. Defaults to `traffic-port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#port AwsLbTargetGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#port AwsLbTargetGroup#port}
   */
   readonly port?: string;
   /**
   * Protocol to use to connect with the target. Defaults to HTTP. Not applicable when target_type is lambda Defaults to `HTTP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#protocol AwsLbTargetGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#protocol AwsLbTargetGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * Amount of time, in seconds, during which no response means a failed health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#timeout AwsLbTargetGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#timeout AwsLbTargetGroup#timeout}
   */
   readonly timeout?: number;
   /**
   * Number of consecutive health check failures required before considering the target unhealthy. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#unhealthy_threshold AwsLbTargetGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#unhealthy_threshold AwsLbTargetGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -443,15 +443,15 @@ export class AwsLbTargetGroupHealthCheckOutputReference extends cdktf.ComplexObj
 }
 export interface AwsLbTargetGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#create AwsLbTargetGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#create AwsLbTargetGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#delete AwsLbTargetGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#delete AwsLbTargetGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#update AwsLbTargetGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#update AwsLbTargetGroup#update}
   */
   readonly update?: string;
 }
@@ -603,7 +603,7 @@ export class AwsLbTargetGroupTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group duplocloud_aws_lb_target_group}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group duplocloud_aws_lb_target_group}
 */
 export class AwsLbTargetGroup extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class AwsLbTargetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsLbTargetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsLbTargetGroup to import
-  * @param importFromId The id of the existing AwsLbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsLbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsLbTargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class AwsLbTargetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_lb_target_group duplocloud_aws_lb_target_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_lb_target_group duplocloud_aws_lb_target_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +642,8 @@ export class AwsLbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,91 +8,91 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_aws_dataset SearchDataset#api_aws_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_aws_dataset SearchDataset#api_aws_dataset}
   */
   readonly apiAwsDataset?: SearchDatasetApiAwsDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_azure_data_explorer_dataset SearchDataset#api_azure_data_explorer_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_azure_data_explorer_dataset SearchDataset#api_azure_data_explorer_dataset}
   */
   readonly apiAzureDataExplorerDataset?: SearchDatasetApiAzureDataExplorerDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_azure_dataset SearchDataset#api_azure_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_azure_dataset SearchDataset#api_azure_dataset}
   */
   readonly apiAzureDataset?: SearchDatasetApiAzureDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_elastic_search_dataset SearchDataset#api_elastic_search_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_elastic_search_dataset SearchDataset#api_elastic_search_dataset}
   */
   readonly apiElasticSearchDataset?: SearchDatasetApiElasticSearchDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_gcp_dataset SearchDataset#api_gcp_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_gcp_dataset SearchDataset#api_gcp_dataset}
   */
   readonly apiGcpDataset?: SearchDatasetApiGcpDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_google_workspace_dataset SearchDataset#api_google_workspace_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_google_workspace_dataset SearchDataset#api_google_workspace_dataset}
   */
   readonly apiGoogleWorkspaceDataset?: SearchDatasetApiGoogleWorkspaceDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_ms_graph_dataset SearchDataset#api_ms_graph_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_ms_graph_dataset SearchDataset#api_ms_graph_dataset}
   */
   readonly apiMsGraphDataset?: SearchDatasetApiMsGraphDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_okta_dataset SearchDataset#api_okta_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_okta_dataset SearchDataset#api_okta_dataset}
   */
   readonly apiOktaDataset?: SearchDatasetApiOktaDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_open_search_dataset SearchDataset#api_open_search_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_open_search_dataset SearchDataset#api_open_search_dataset}
   */
   readonly apiOpenSearchDataset?: SearchDatasetApiOpenSearchDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_tailscale_dataset SearchDataset#api_tailscale_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_tailscale_dataset SearchDataset#api_tailscale_dataset}
   */
   readonly apiTailscaleDataset?: SearchDatasetApiTailscaleDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#api_zoom_dataset SearchDataset#api_zoom_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#api_zoom_dataset SearchDataset#api_zoom_dataset}
   */
   readonly apiZoomDataset?: SearchDatasetApiZoomDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#apihttp_dataset SearchDataset#apihttp_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#apihttp_dataset SearchDataset#apihttp_dataset}
   */
   readonly apihttpDataset?: SearchDatasetApihttpDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#aws_security_lake_dataset SearchDataset#aws_security_lake_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#aws_security_lake_dataset SearchDataset#aws_security_lake_dataset}
   */
   readonly awsSecurityLakeDataset?: SearchDatasetAwsSecurityLakeDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#azure_blob_dataset SearchDataset#azure_blob_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#azure_blob_dataset SearchDataset#azure_blob_dataset}
   */
   readonly azureBlobDataset?: SearchDatasetAzureBlobDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#click_house_dataset SearchDataset#click_house_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#click_house_dataset SearchDataset#click_house_dataset}
   */
   readonly clickHouseDataset?: SearchDatasetClickHouseDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#cribl_leader_dataset SearchDataset#cribl_leader_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#cribl_leader_dataset SearchDataset#cribl_leader_dataset}
   */
   readonly criblLeaderDataset?: SearchDatasetCriblLeaderDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#edge_dataset SearchDataset#edge_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#edge_dataset SearchDataset#edge_dataset}
   */
   readonly edgeDataset?: SearchDatasetEdgeDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#gcs_dataset SearchDataset#gcs_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#gcs_dataset SearchDataset#gcs_dataset}
   */
   readonly gcsDataset?: SearchDatasetGcsDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#meta_dataset SearchDataset#meta_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#meta_dataset SearchDataset#meta_dataset}
   */
   readonly metaDataset?: SearchDatasetMetaDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#prometheus_dataset SearchDataset#prometheus_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#prometheus_dataset SearchDataset#prometheus_dataset}
   */
   readonly prometheusDataset?: SearchDatasetPrometheusDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#s3_dataset SearchDataset#s3_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#s3_dataset SearchDataset#s3_dataset}
   */
   readonly s3Dataset?: SearchDatasetS3Dataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#snowflake_dataset SearchDataset#snowflake_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#snowflake_dataset SearchDataset#snowflake_dataset}
   */
   readonly snowflakeDataset?: SearchDatasetSnowflakeDataset;
 }
@@ -100,25 +100,25 @@ export interface SearchDatasetApiAwsDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -301,44 +301,44 @@ export interface SearchDatasetApiAwsDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAwsDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the AWS regions to query for this endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#regions SearchDataset#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#regions SearchDataset#regions}
   */
   readonly regions?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -608,25 +608,25 @@ export interface SearchDatasetApiAzureDataExplorerDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -809,25 +809,25 @@ export interface SearchDatasetApiAzureDataExplorerDataset {
   /**
   * Azure Data Explorer cluster name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#cluster SearchDataset#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#cluster SearchDataset#cluster}
   */
   readonly cluster?: string;
   /**
   * Azure Data Explorer database name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -836,41 +836,41 @@ export interface SearchDatasetApiAzureDataExplorerDataset {
   /**
   * Location (region) of the Azure Data Explorer cluster. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#location SearchDataset#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#location SearchDataset#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAzureDataExplorerDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the table to query. May be a simple name (Example: logs) or a Kusto query. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the field holding the timestamp of the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Type of the data stored in the timestamp field. Default: "kusto_datetime"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field_contents SearchDataset#timestamp_field_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field_contents SearchDataset#timestamp_field_contents}
   */
   readonly timestampFieldContents?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -1256,25 +1256,25 @@ export interface SearchDatasetApiAzureDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -1457,44 +1457,44 @@ export interface SearchDatasetApiAzureDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiAzureDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the subscription ids within the tenant to query with this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#subscription_ids SearchDataset#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#subscription_ids SearchDataset#subscription_ids}
   */
   readonly subscriptionIds?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -1764,25 +1764,25 @@ export interface SearchDatasetApiElasticSearchDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -1965,13 +1965,13 @@ export interface SearchDatasetApiElasticSearchDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1980,29 +1980,29 @@ export interface SearchDatasetApiElasticSearchDataset {
   /**
   * Name of the Elasticsearch index to search. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#index SearchDataset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#index SearchDataset#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiElasticSearchDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the field holding the timestamp of the event. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -2272,13 +2272,13 @@ export interface SearchDatasetApiGcpDatasetEndpointConfigs {
   /**
   * GCP endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#endpoint_name SearchDataset#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#endpoint_name SearchDataset#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * GCP region (required for some endpoints)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -2425,25 +2425,25 @@ export interface SearchDatasetApiGcpDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -2626,38 +2626,38 @@ export interface SearchDatasetApiGcpDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoint configurations that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#endpoint_configs SearchDataset#endpoint_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#endpoint_configs SearchDataset#endpoint_configs}
   */
   readonly endpointConfigs?: SearchDatasetApiGcpDatasetEndpointConfigs[] | cdktf.IResolvable;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiGcpDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -2898,25 +2898,25 @@ export interface SearchDatasetApiGoogleWorkspaceDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -3099,38 +3099,38 @@ export interface SearchDatasetApiGoogleWorkspaceDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiGoogleWorkspaceDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -3371,25 +3371,25 @@ export interface SearchDatasetApiMsGraphDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -3572,38 +3572,38 @@ export interface SearchDatasetApiMsGraphDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiMsGraphDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -3844,25 +3844,25 @@ export interface SearchDatasetApiOktaDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -4045,38 +4045,38 @@ export interface SearchDatasetApiOktaDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiOktaDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -4317,25 +4317,25 @@ export interface SearchDatasetApiOpenSearchDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -4518,13 +4518,13 @@ export interface SearchDatasetApiOpenSearchDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4533,29 +4533,29 @@ export interface SearchDatasetApiOpenSearchDataset {
   /**
   * Name of the OpenSearch index to search. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#index SearchDataset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#index SearchDataset#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiOpenSearchDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Name of the field holding the timestamp of the event. Default: "@timestamp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -4825,25 +4825,25 @@ export interface SearchDatasetApiTailscaleDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5026,38 +5026,38 @@ export interface SearchDatasetApiTailscaleDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiTailscaleDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -5298,25 +5298,25 @@ export interface SearchDatasetApiZoomDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5499,38 +5499,38 @@ export interface SearchDatasetApiZoomDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApiZoomDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -5771,25 +5771,25 @@ export interface SearchDatasetApihttpDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -5972,38 +5972,38 @@ export interface SearchDatasetApihttpDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A list of the endpoints that are enabled in this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enabled_endpoints SearchDataset#enabled_endpoints}
   */
   readonly enabledEndpoints?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetApihttpDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -6244,25 +6244,25 @@ export interface SearchDatasetAwsSecurityLakeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -6445,13 +6445,13 @@ export interface SearchDatasetAwsSecurityLakeDatasetSelectedBuckets {
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#name SearchDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#name SearchDataset#name}
   */
   readonly name?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -6598,50 +6598,50 @@ export interface SearchDatasetAwsSecurityLakeDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetAwsSecurityLakeDatasetMetadata;
   /**
   * The templated path under which to look for data, in each folder. Default: "${vendor}/${sourceLocation}/${pathVersion}/region=${region}/accountId=${accountId}/eventDay=${_time:%Y%m%d}/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * A list of the buckets that should be searched by this dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#selected_buckets SearchDataset#selected_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#selected_buckets SearchDataset#selected_buckets}
   */
   readonly selectedBuckets?: SearchDatasetAwsSecurityLakeDatasetSelectedBuckets[] | cdktf.IResolvable;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -6940,19 +6940,19 @@ export interface SearchDatasetAzureBlobDatasetExtraPaths {
   /**
   * Name of the additional container. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#container_name SearchDataset#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#container_name SearchDataset#container_name}
   */
   readonly containerName?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Path inside the additional container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
 }
@@ -7128,25 +7128,25 @@ export interface SearchDatasetAzureBlobDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -7329,68 +7329,68 @@ export interface SearchDatasetAzureBlobDataset {
   /**
   * Azure Blob Storage container name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#container_name SearchDataset#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#container_name SearchDataset#container_name}
   */
   readonly containerName?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional container paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetAzureBlobDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetAzureBlobDatasetMetadata;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -7776,25 +7776,25 @@ export interface SearchDatasetClickHouseDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -7975,50 +7975,50 @@ export class SearchDatasetClickHouseDatasetMetadataOutputReference extends cdktf
 }
 export interface SearchDatasetClickHouseDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetClickHouseDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * May be a simple name (Example: logs) or a SQL query (Example: select * from logs). Results will be limited to 100K for tables without sorting keys and queries. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the column holding the timestamp of the event to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -8317,13 +8317,13 @@ export interface SearchDatasetCriblLeaderDatasetExtraPaths {
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * The directory from which to collect data. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
 }
@@ -8470,25 +8470,25 @@ export interface SearchDatasetCriblLeaderDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -8671,50 +8671,50 @@ export interface SearchDatasetCriblLeaderDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetCriblLeaderDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetCriblLeaderDatasetMetadata;
   /**
   * The directory from which to collect data. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -9013,25 +9013,25 @@ export interface SearchDatasetEdgeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -9214,50 +9214,50 @@ export interface SearchDatasetEdgeDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Fleets to query. '*' for all. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#fleets SearchDataset#fleets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#fleets SearchDataset#fleets}
   */
   readonly fleets?: string[];
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetEdgeDatasetMetadata;
   /**
   * The directory where data will be collected. Environment variables and templating are supported. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -9556,19 +9556,19 @@ export interface SearchDatasetGcsDatasetExtraPaths {
   /**
   * Google Cloud Storage bucket path. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Where the extra bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -9744,25 +9744,25 @@ export interface SearchDatasetGcsDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -9945,68 +9945,68 @@ export interface SearchDatasetGcsDataset {
   /**
   * Google Cloud Storage bucket path. Templating is supported. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional bucket paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetGcsDatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetGcsDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -10388,4225 +10388,29 @@ export class SearchDatasetGcsDatasetOutputReference extends cdktf.ComplexObject 
     return this._type;
   }
 }
-export interface SearchDatasetItemsApiAwsDatasetMetadata {
-}
-
-export function searchDatasetItemsApiAwsDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiAwsDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAwsDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiAwsDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAwsDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAwsDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAwsDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiAwsDataset {
-}
-
-export function searchDatasetItemsApiAwsDatasetToTerraform(struct?: SearchDatasetItemsApiAwsDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAwsDatasetToHclTerraform(struct?: SearchDatasetItemsApiAwsDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAwsDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAwsDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAwsDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiAwsDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // regions - computed: true, optional: false, required: false
-  public get regions() {
-    return this.getListAttribute('regions');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiAzureDataExplorerDatasetMetadata {
-}
-
-export function searchDatasetItemsApiAzureDataExplorerDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiAzureDataExplorerDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAzureDataExplorerDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiAzureDataExplorerDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAzureDataExplorerDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAzureDataExplorerDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAzureDataExplorerDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiAzureDataExplorerDataset {
-}
-
-export function searchDatasetItemsApiAzureDataExplorerDatasetToTerraform(struct?: SearchDatasetItemsApiAzureDataExplorerDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAzureDataExplorerDatasetToHclTerraform(struct?: SearchDatasetItemsApiAzureDataExplorerDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAzureDataExplorerDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAzureDataExplorerDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAzureDataExplorerDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // cluster - computed: true, optional: false, required: false
-  public get cluster() {
-    return this.getStringAttribute('cluster');
-  }
-
-  // database - computed: true, optional: false, required: false
-  public get database() {
-    return this.getStringAttribute('database');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // location - computed: true, optional: false, required: false
-  public get location() {
-    return this.getStringAttribute('location');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiAzureDataExplorerDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // table - computed: true, optional: false, required: false
-  public get table() {
-    return this.getStringAttribute('table');
-  }
-
-  // timestamp_field - computed: true, optional: false, required: false
-  public get timestampField() {
-    return this.getStringAttribute('timestamp_field');
-  }
-
-  // timestamp_field_contents - computed: true, optional: false, required: false
-  public get timestampFieldContents() {
-    return this.getStringAttribute('timestamp_field_contents');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiAzureDatasetMetadata {
-}
-
-export function searchDatasetItemsApiAzureDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiAzureDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAzureDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiAzureDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAzureDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAzureDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAzureDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiAzureDataset {
-}
-
-export function searchDatasetItemsApiAzureDatasetToTerraform(struct?: SearchDatasetItemsApiAzureDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiAzureDatasetToHclTerraform(struct?: SearchDatasetItemsApiAzureDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiAzureDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiAzureDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiAzureDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiAzureDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // subscription_ids - computed: true, optional: false, required: false
-  public get subscriptionIds() {
-    return this.getListAttribute('subscription_ids');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiElasticSearchDatasetMetadata {
-}
-
-export function searchDatasetItemsApiElasticSearchDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiElasticSearchDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiElasticSearchDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiElasticSearchDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiElasticSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiElasticSearchDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiElasticSearchDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiElasticSearchDataset {
-}
-
-export function searchDatasetItemsApiElasticSearchDatasetToTerraform(struct?: SearchDatasetItemsApiElasticSearchDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiElasticSearchDatasetToHclTerraform(struct?: SearchDatasetItemsApiElasticSearchDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiElasticSearchDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiElasticSearchDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiElasticSearchDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // index - computed: true, optional: false, required: false
-  public get index() {
-    return this.getStringAttribute('index');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiElasticSearchDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // timestamp_field - computed: true, optional: false, required: false
-  public get timestampField() {
-    return this.getStringAttribute('timestamp_field');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiGcpDatasetEndpointConfigs {
-}
-
-export function searchDatasetItemsApiGcpDatasetEndpointConfigsToTerraform(struct?: SearchDatasetItemsApiGcpDatasetEndpointConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiGcpDatasetEndpointConfigsToHclTerraform(struct?: SearchDatasetItemsApiGcpDatasetEndpointConfigs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiGcpDatasetEndpointConfigs | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiGcpDatasetEndpointConfigs | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // endpoint_name - computed: true, optional: false, required: false
-  public get endpointName() {
-    return this.getStringAttribute('endpoint_name');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-}
-
-export class SearchDatasetItemsApiGcpDatasetEndpointConfigsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference {
-    return new SearchDatasetItemsApiGcpDatasetEndpointConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsApiGcpDatasetMetadata {
-}
-
-export function searchDatasetItemsApiGcpDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiGcpDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiGcpDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiGcpDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiGcpDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiGcpDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiGcpDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiGcpDataset {
-}
-
-export function searchDatasetItemsApiGcpDatasetToTerraform(struct?: SearchDatasetItemsApiGcpDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiGcpDatasetToHclTerraform(struct?: SearchDatasetItemsApiGcpDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiGcpDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiGcpDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiGcpDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // endpoint_configs - computed: true, optional: false, required: false
-  private _endpointConfigs = new SearchDatasetItemsApiGcpDatasetEndpointConfigsList(this, "endpoint_configs", false);
-  public get endpointConfigs() {
-    return this._endpointConfigs;
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiGcpDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiGoogleWorkspaceDatasetMetadata {
-}
-
-export function searchDatasetItemsApiGoogleWorkspaceDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiGoogleWorkspaceDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiGoogleWorkspaceDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiGoogleWorkspaceDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiGoogleWorkspaceDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiGoogleWorkspaceDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiGoogleWorkspaceDataset {
-}
-
-export function searchDatasetItemsApiGoogleWorkspaceDatasetToTerraform(struct?: SearchDatasetItemsApiGoogleWorkspaceDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiGoogleWorkspaceDatasetToHclTerraform(struct?: SearchDatasetItemsApiGoogleWorkspaceDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiGoogleWorkspaceDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiGoogleWorkspaceDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiGoogleWorkspaceDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiGoogleWorkspaceDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiMsGraphDatasetMetadata {
-}
-
-export function searchDatasetItemsApiMsGraphDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiMsGraphDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiMsGraphDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiMsGraphDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiMsGraphDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiMsGraphDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiMsGraphDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiMsGraphDataset {
-}
-
-export function searchDatasetItemsApiMsGraphDatasetToTerraform(struct?: SearchDatasetItemsApiMsGraphDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiMsGraphDatasetToHclTerraform(struct?: SearchDatasetItemsApiMsGraphDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiMsGraphDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiMsGraphDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiMsGraphDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiMsGraphDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiOktaDatasetMetadata {
-}
-
-export function searchDatasetItemsApiOktaDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiOktaDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiOktaDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiOktaDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiOktaDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiOktaDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiOktaDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiOktaDataset {
-}
-
-export function searchDatasetItemsApiOktaDatasetToTerraform(struct?: SearchDatasetItemsApiOktaDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiOktaDatasetToHclTerraform(struct?: SearchDatasetItemsApiOktaDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiOktaDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiOktaDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiOktaDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiOktaDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiOpenSearchDatasetMetadata {
-}
-
-export function searchDatasetItemsApiOpenSearchDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiOpenSearchDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiOpenSearchDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiOpenSearchDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiOpenSearchDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiOpenSearchDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiOpenSearchDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiOpenSearchDataset {
-}
-
-export function searchDatasetItemsApiOpenSearchDatasetToTerraform(struct?: SearchDatasetItemsApiOpenSearchDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiOpenSearchDatasetToHclTerraform(struct?: SearchDatasetItemsApiOpenSearchDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiOpenSearchDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiOpenSearchDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiOpenSearchDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // index - computed: true, optional: false, required: false
-  public get index() {
-    return this.getStringAttribute('index');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiOpenSearchDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // timestamp_field - computed: true, optional: false, required: false
-  public get timestampField() {
-    return this.getStringAttribute('timestamp_field');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiTailscaleDatasetMetadata {
-}
-
-export function searchDatasetItemsApiTailscaleDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiTailscaleDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiTailscaleDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiTailscaleDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiTailscaleDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiTailscaleDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiTailscaleDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiTailscaleDataset {
-}
-
-export function searchDatasetItemsApiTailscaleDatasetToTerraform(struct?: SearchDatasetItemsApiTailscaleDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiTailscaleDatasetToHclTerraform(struct?: SearchDatasetItemsApiTailscaleDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiTailscaleDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiTailscaleDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiTailscaleDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiTailscaleDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApiZoomDatasetMetadata {
-}
-
-export function searchDatasetItemsApiZoomDatasetMetadataToTerraform(struct?: SearchDatasetItemsApiZoomDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiZoomDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApiZoomDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiZoomDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiZoomDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiZoomDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApiZoomDataset {
-}
-
-export function searchDatasetItemsApiZoomDatasetToTerraform(struct?: SearchDatasetItemsApiZoomDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApiZoomDatasetToHclTerraform(struct?: SearchDatasetItemsApiZoomDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApiZoomDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApiZoomDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApiZoomDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApiZoomDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsApihttpDatasetMetadata {
-}
-
-export function searchDatasetItemsApihttpDatasetMetadataToTerraform(struct?: SearchDatasetItemsApihttpDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApihttpDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsApihttpDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApihttpDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApihttpDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApihttpDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsApihttpDataset {
-}
-
-export function searchDatasetItemsApihttpDatasetToTerraform(struct?: SearchDatasetItemsApihttpDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsApihttpDatasetToHclTerraform(struct?: SearchDatasetItemsApihttpDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsApihttpDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsApihttpDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsApihttpDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // enabled_endpoints - computed: true, optional: false, required: false
-  public get enabledEndpoints() {
-    return this.getListAttribute('enabled_endpoints');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsApihttpDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsAwsSecurityLakeDatasetMetadata {
-}
-
-export function searchDatasetItemsAwsSecurityLakeDatasetMetadataToTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAwsSecurityLakeDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsAwsSecurityLakeDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAwsSecurityLakeDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets {
-}
-
-export function searchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsToTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsToHclTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAwsSecurityLakeDatasetSelectedBuckets | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-}
-
-export class SearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference {
-    return new SearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsAwsSecurityLakeDataset {
-}
-
-export function searchDatasetItemsAwsSecurityLakeDatasetToTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAwsSecurityLakeDatasetToHclTerraform(struct?: SearchDatasetItemsAwsSecurityLakeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAwsSecurityLakeDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsAwsSecurityLakeDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAwsSecurityLakeDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsAwsSecurityLakeDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // selected_buckets - computed: true, optional: false, required: false
-  private _selectedBuckets = new SearchDatasetItemsAwsSecurityLakeDatasetSelectedBucketsList(this, "selected_buckets", false);
-  public get selectedBuckets() {
-    return this._selectedBuckets;
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsAzureBlobDatasetExtraPaths {
-}
-
-export function searchDatasetItemsAzureBlobDatasetExtraPathsToTerraform(struct?: SearchDatasetItemsAzureBlobDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAzureBlobDatasetExtraPathsToHclTerraform(struct?: SearchDatasetItemsAzureBlobDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsAzureBlobDatasetExtraPaths | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAzureBlobDatasetExtraPaths | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // container_name - computed: true, optional: false, required: false
-  public get containerName() {
-    return this.getStringAttribute('container_name');
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-}
-
-export class SearchDatasetItemsAzureBlobDatasetExtraPathsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference {
-    return new SearchDatasetItemsAzureBlobDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsAzureBlobDatasetMetadata {
-}
-
-export function searchDatasetItemsAzureBlobDatasetMetadataToTerraform(struct?: SearchDatasetItemsAzureBlobDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAzureBlobDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsAzureBlobDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAzureBlobDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsAzureBlobDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAzureBlobDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsAzureBlobDataset {
-}
-
-export function searchDatasetItemsAzureBlobDatasetToTerraform(struct?: SearchDatasetItemsAzureBlobDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsAzureBlobDatasetToHclTerraform(struct?: SearchDatasetItemsAzureBlobDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsAzureBlobDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsAzureBlobDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsAzureBlobDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // container_name - computed: true, optional: false, required: false
-  public get containerName() {
-    return this.getStringAttribute('container_name');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new SearchDatasetItemsAzureBlobDatasetExtraPathsList(this, "extra_paths", false);
-  public get extraPaths() {
-    return this._extraPaths;
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsAzureBlobDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // skip_event_time_filter - computed: true, optional: false, required: false
-  public get skipEventTimeFilter() {
-    return this.getBooleanAttribute('skip_event_time_filter');
-  }
-
-  // storage_classes - computed: true, optional: false, required: false
-  public get storageClasses() {
-    return this.getListAttribute('storage_classes');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsClickHouseDatasetMetadata {
-}
-
-export function searchDatasetItemsClickHouseDatasetMetadataToTerraform(struct?: SearchDatasetItemsClickHouseDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsClickHouseDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsClickHouseDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsClickHouseDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsClickHouseDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsClickHouseDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsClickHouseDataset {
-}
-
-export function searchDatasetItemsClickHouseDatasetToTerraform(struct?: SearchDatasetItemsClickHouseDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsClickHouseDatasetToHclTerraform(struct?: SearchDatasetItemsClickHouseDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsClickHouseDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsClickHouseDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsClickHouseDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // database - computed: true, optional: false, required: false
-  public get database() {
-    return this.getStringAttribute('database');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsClickHouseDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // table - computed: true, optional: false, required: false
-  public get table() {
-    return this.getStringAttribute('table');
-  }
-
-  // timestamp_field - computed: true, optional: false, required: false
-  public get timestampField() {
-    return this.getStringAttribute('timestamp_field');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsCriblLeaderDatasetExtraPaths {
-}
-
-export function searchDatasetItemsCriblLeaderDatasetExtraPathsToTerraform(struct?: SearchDatasetItemsCriblLeaderDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsCriblLeaderDatasetExtraPathsToHclTerraform(struct?: SearchDatasetItemsCriblLeaderDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsCriblLeaderDatasetExtraPaths | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsCriblLeaderDatasetExtraPaths | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-}
-
-export class SearchDatasetItemsCriblLeaderDatasetExtraPathsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference {
-    return new SearchDatasetItemsCriblLeaderDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsCriblLeaderDatasetMetadata {
-}
-
-export function searchDatasetItemsCriblLeaderDatasetMetadataToTerraform(struct?: SearchDatasetItemsCriblLeaderDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsCriblLeaderDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsCriblLeaderDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsCriblLeaderDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsCriblLeaderDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsCriblLeaderDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsCriblLeaderDataset {
-}
-
-export function searchDatasetItemsCriblLeaderDatasetToTerraform(struct?: SearchDatasetItemsCriblLeaderDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsCriblLeaderDatasetToHclTerraform(struct?: SearchDatasetItemsCriblLeaderDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsCriblLeaderDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsCriblLeaderDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsCriblLeaderDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new SearchDatasetItemsCriblLeaderDatasetExtraPathsList(this, "extra_paths", false);
-  public get extraPaths() {
-    return this._extraPaths;
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsCriblLeaderDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsEdgeDatasetMetadata {
-}
-
-export function searchDatasetItemsEdgeDatasetMetadataToTerraform(struct?: SearchDatasetItemsEdgeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsEdgeDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsEdgeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsEdgeDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsEdgeDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsEdgeDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsEdgeDataset {
-}
-
-export function searchDatasetItemsEdgeDatasetToTerraform(struct?: SearchDatasetItemsEdgeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsEdgeDatasetToHclTerraform(struct?: SearchDatasetItemsEdgeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsEdgeDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsEdgeDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsEdgeDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // fleets - computed: true, optional: false, required: false
-  public get fleets() {
-    return this.getListAttribute('fleets');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsEdgeDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsGcsDatasetExtraPaths {
-}
-
-export function searchDatasetItemsGcsDatasetExtraPathsToTerraform(struct?: SearchDatasetItemsGcsDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsGcsDatasetExtraPathsToHclTerraform(struct?: SearchDatasetItemsGcsDatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsGcsDatasetExtraPathsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsGcsDatasetExtraPaths | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsGcsDatasetExtraPaths | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // bucket - computed: true, optional: false, required: false
-  public get bucket() {
-    return this.getStringAttribute('bucket');
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-}
-
-export class SearchDatasetItemsGcsDatasetExtraPathsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsGcsDatasetExtraPathsOutputReference {
-    return new SearchDatasetItemsGcsDatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsGcsDatasetMetadata {
-}
-
-export function searchDatasetItemsGcsDatasetMetadataToTerraform(struct?: SearchDatasetItemsGcsDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsGcsDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsGcsDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsGcsDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsGcsDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsGcsDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsGcsDataset {
-}
-
-export function searchDatasetItemsGcsDatasetToTerraform(struct?: SearchDatasetItemsGcsDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsGcsDatasetToHclTerraform(struct?: SearchDatasetItemsGcsDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsGcsDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsGcsDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsGcsDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // bucket - computed: true, optional: false, required: false
-  public get bucket() {
-    return this.getStringAttribute('bucket');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new SearchDatasetItemsGcsDatasetExtraPathsList(this, "extra_paths", false);
-  public get extraPaths() {
-    return this._extraPaths;
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsGcsDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // skip_event_time_filter - computed: true, optional: false, required: false
-  public get skipEventTimeFilter() {
-    return this.getBooleanAttribute('skip_event_time_filter');
-  }
-
-  // storage_classes - computed: true, optional: false, required: false
-  public get storageClasses() {
-    return this.getListAttribute('storage_classes');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsMetaDatasetMetadata {
-}
-
-export function searchDatasetItemsMetaDatasetMetadataToTerraform(struct?: SearchDatasetItemsMetaDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsMetaDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsMetaDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsMetaDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsMetaDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsMetaDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsMetaDataset {
-}
-
-export function searchDatasetItemsMetaDatasetToTerraform(struct?: SearchDatasetItemsMetaDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsMetaDatasetToHclTerraform(struct?: SearchDatasetItemsMetaDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsMetaDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsMetaDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsMetaDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // datasets - computed: true, optional: false, required: false
-  public get datasets() {
-    return this.getListAttribute('datasets');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsMetaDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsPrometheusDatasetMetadata {
-}
-
-export function searchDatasetItemsPrometheusDatasetMetadataToTerraform(struct?: SearchDatasetItemsPrometheusDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsPrometheusDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsPrometheusDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsPrometheusDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsPrometheusDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsPrometheusDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsPrometheusDataset {
-}
-
-export function searchDatasetItemsPrometheusDatasetToTerraform(struct?: SearchDatasetItemsPrometheusDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsPrometheusDatasetToHclTerraform(struct?: SearchDatasetItemsPrometheusDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsPrometheusDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsPrometheusDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsPrometheusDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // desired_num_data_points - computed: true, optional: false, required: false
-  public get desiredNumDataPoints() {
-    return this.getNumberAttribute('desired_num_data_points');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsPrometheusDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // metric_name_pattern - computed: true, optional: false, required: false
-  public get metricNamePattern() {
-    return this.getStringAttribute('metric_name_pattern');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // step_mode - computed: true, optional: false, required: false
-  public get stepMode() {
-    return this.getStringAttribute('step_mode');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsS3DatasetExtraPaths {
-}
-
-export function searchDatasetItemsS3DatasetExtraPathsToTerraform(struct?: SearchDatasetItemsS3DatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsS3DatasetExtraPathsToHclTerraform(struct?: SearchDatasetItemsS3DatasetExtraPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsS3DatasetExtraPathsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItemsS3DatasetExtraPaths | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsS3DatasetExtraPaths | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // auto_detect_region - computed: true, optional: false, required: false
-  public get autoDetectRegion() {
-    return this.getBooleanAttribute('auto_detect_region');
-  }
-
-  // bucket - computed: true, optional: false, required: false
-  public get bucket() {
-    return this.getStringAttribute('bucket');
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-}
-
-export class SearchDatasetItemsS3DatasetExtraPathsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsS3DatasetExtraPathsOutputReference {
-    return new SearchDatasetItemsS3DatasetExtraPathsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SearchDatasetItemsS3DatasetMetadata {
-}
-
-export function searchDatasetItemsS3DatasetMetadataToTerraform(struct?: SearchDatasetItemsS3DatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsS3DatasetMetadataToHclTerraform(struct?: SearchDatasetItemsS3DatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsS3DatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsS3DatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsS3DatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsS3Dataset {
-}
-
-export function searchDatasetItemsS3DatasetToTerraform(struct?: SearchDatasetItemsS3Dataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsS3DatasetToHclTerraform(struct?: SearchDatasetItemsS3Dataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsS3DatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsS3Dataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsS3Dataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // auto_detect_region - computed: true, optional: false, required: false
-  public get autoDetectRegion() {
-    return this.getBooleanAttribute('auto_detect_region');
-  }
-
-  // bucket - computed: true, optional: false, required: false
-  public get bucket() {
-    return this.getStringAttribute('bucket');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // extra_paths - computed: true, optional: false, required: false
-  private _extraPaths = new SearchDatasetItemsS3DatasetExtraPathsList(this, "extra_paths", false);
-  public get extraPaths() {
-    return this._extraPaths;
-  }
-
-  // filter - computed: true, optional: false, required: false
-  public get filter() {
-    return this.getStringAttribute('filter');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsS3DatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // path - computed: true, optional: false, required: false
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // skip_event_time_filter - computed: true, optional: false, required: false
-  public get skipEventTimeFilter() {
-    return this.getBooleanAttribute('skip_event_time_filter');
-  }
-
-  // storage_classes - computed: true, optional: false, required: false
-  public get storageClasses() {
-    return this.getListAttribute('storage_classes');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-}
-export interface SearchDatasetItemsSnowflakeDatasetMetadata {
-}
-
-export function searchDatasetItemsSnowflakeDatasetMetadataToTerraform(struct?: SearchDatasetItemsSnowflakeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsSnowflakeDatasetMetadataToHclTerraform(struct?: SearchDatasetItemsSnowflakeDatasetMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsSnowflakeDatasetMetadataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsSnowflakeDatasetMetadata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsSnowflakeDatasetMetadata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getStringAttribute('created');
-  }
-
-  // enable_acceleration - computed: true, optional: false, required: false
-  public get enableAcceleration() {
-    return this.getBooleanAttribute('enable_acceleration');
-  }
-
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getStringAttribute('modified');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getListAttribute('tags');
-  }
-}
-export interface SearchDatasetItemsSnowflakeDataset {
-}
-
-export function searchDatasetItemsSnowflakeDatasetToTerraform(struct?: SearchDatasetItemsSnowflakeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsSnowflakeDatasetToHclTerraform(struct?: SearchDatasetItemsSnowflakeDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsSnowflakeDatasetOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): SearchDatasetItemsSnowflakeDataset | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItemsSnowflakeDataset | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // database - computed: true, optional: false, required: false
-  public get database() {
-    return this.getStringAttribute('database');
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // metadata - computed: true, optional: false, required: false
-  private _metadata = new SearchDatasetItemsSnowflakeDatasetMetadataOutputReference(this, "metadata");
-  public get metadata() {
-    return this._metadata;
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // role - computed: true, optional: false, required: false
-  public get role() {
-    return this.getStringAttribute('role');
-  }
-
-  // schema - computed: true, optional: false, required: false
-  public get schema() {
-    return this.getStringAttribute('schema');
-  }
-
-  // table - computed: true, optional: false, required: false
-  public get table() {
-    return this.getStringAttribute('table');
-  }
-
-  // timestamp_field - computed: true, optional: false, required: false
-  public get timestampField() {
-    return this.getStringAttribute('timestamp_field');
-  }
-
-  // type - computed: true, optional: false, required: false
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-
-  // warehouse - computed: true, optional: false, required: false
-  public get warehouse() {
-    return this.getStringAttribute('warehouse');
-  }
-}
-export interface SearchDatasetItems {
-}
-
-export function searchDatasetItemsToTerraform(struct?: SearchDatasetItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function searchDatasetItemsToHclTerraform(struct?: SearchDatasetItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class SearchDatasetItemsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SearchDatasetItems | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SearchDatasetItems | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // api_aws_dataset - computed: true, optional: false, required: false
-  private _apiAwsDataset = new SearchDatasetItemsApiAwsDatasetOutputReference(this, "api_aws_dataset");
-  public get apiAwsDataset() {
-    return this._apiAwsDataset;
-  }
-
-  // api_azure_data_explorer_dataset - computed: true, optional: false, required: false
-  private _apiAzureDataExplorerDataset = new SearchDatasetItemsApiAzureDataExplorerDatasetOutputReference(this, "api_azure_data_explorer_dataset");
-  public get apiAzureDataExplorerDataset() {
-    return this._apiAzureDataExplorerDataset;
-  }
-
-  // api_azure_dataset - computed: true, optional: false, required: false
-  private _apiAzureDataset = new SearchDatasetItemsApiAzureDatasetOutputReference(this, "api_azure_dataset");
-  public get apiAzureDataset() {
-    return this._apiAzureDataset;
-  }
-
-  // api_elastic_search_dataset - computed: true, optional: false, required: false
-  private _apiElasticSearchDataset = new SearchDatasetItemsApiElasticSearchDatasetOutputReference(this, "api_elastic_search_dataset");
-  public get apiElasticSearchDataset() {
-    return this._apiElasticSearchDataset;
-  }
-
-  // api_gcp_dataset - computed: true, optional: false, required: false
-  private _apiGcpDataset = new SearchDatasetItemsApiGcpDatasetOutputReference(this, "api_gcp_dataset");
-  public get apiGcpDataset() {
-    return this._apiGcpDataset;
-  }
-
-  // api_google_workspace_dataset - computed: true, optional: false, required: false
-  private _apiGoogleWorkspaceDataset = new SearchDatasetItemsApiGoogleWorkspaceDatasetOutputReference(this, "api_google_workspace_dataset");
-  public get apiGoogleWorkspaceDataset() {
-    return this._apiGoogleWorkspaceDataset;
-  }
-
-  // api_ms_graph_dataset - computed: true, optional: false, required: false
-  private _apiMsGraphDataset = new SearchDatasetItemsApiMsGraphDatasetOutputReference(this, "api_ms_graph_dataset");
-  public get apiMsGraphDataset() {
-    return this._apiMsGraphDataset;
-  }
-
-  // api_okta_dataset - computed: true, optional: false, required: false
-  private _apiOktaDataset = new SearchDatasetItemsApiOktaDatasetOutputReference(this, "api_okta_dataset");
-  public get apiOktaDataset() {
-    return this._apiOktaDataset;
-  }
-
-  // api_open_search_dataset - computed: true, optional: false, required: false
-  private _apiOpenSearchDataset = new SearchDatasetItemsApiOpenSearchDatasetOutputReference(this, "api_open_search_dataset");
-  public get apiOpenSearchDataset() {
-    return this._apiOpenSearchDataset;
-  }
-
-  // api_tailscale_dataset - computed: true, optional: false, required: false
-  private _apiTailscaleDataset = new SearchDatasetItemsApiTailscaleDatasetOutputReference(this, "api_tailscale_dataset");
-  public get apiTailscaleDataset() {
-    return this._apiTailscaleDataset;
-  }
-
-  // api_zoom_dataset - computed: true, optional: false, required: false
-  private _apiZoomDataset = new SearchDatasetItemsApiZoomDatasetOutputReference(this, "api_zoom_dataset");
-  public get apiZoomDataset() {
-    return this._apiZoomDataset;
-  }
-
-  // apihttp_dataset - computed: true, optional: false, required: false
-  private _apihttpDataset = new SearchDatasetItemsApihttpDatasetOutputReference(this, "apihttp_dataset");
-  public get apihttpDataset() {
-    return this._apihttpDataset;
-  }
-
-  // aws_security_lake_dataset - computed: true, optional: false, required: false
-  private _awsSecurityLakeDataset = new SearchDatasetItemsAwsSecurityLakeDatasetOutputReference(this, "aws_security_lake_dataset");
-  public get awsSecurityLakeDataset() {
-    return this._awsSecurityLakeDataset;
-  }
-
-  // azure_blob_dataset - computed: true, optional: false, required: false
-  private _azureBlobDataset = new SearchDatasetItemsAzureBlobDatasetOutputReference(this, "azure_blob_dataset");
-  public get azureBlobDataset() {
-    return this._azureBlobDataset;
-  }
-
-  // click_house_dataset - computed: true, optional: false, required: false
-  private _clickHouseDataset = new SearchDatasetItemsClickHouseDatasetOutputReference(this, "click_house_dataset");
-  public get clickHouseDataset() {
-    return this._clickHouseDataset;
-  }
-
-  // cribl_leader_dataset - computed: true, optional: false, required: false
-  private _criblLeaderDataset = new SearchDatasetItemsCriblLeaderDatasetOutputReference(this, "cribl_leader_dataset");
-  public get criblLeaderDataset() {
-    return this._criblLeaderDataset;
-  }
-
-  // edge_dataset - computed: true, optional: false, required: false
-  private _edgeDataset = new SearchDatasetItemsEdgeDatasetOutputReference(this, "edge_dataset");
-  public get edgeDataset() {
-    return this._edgeDataset;
-  }
-
-  // gcs_dataset - computed: true, optional: false, required: false
-  private _gcsDataset = new SearchDatasetItemsGcsDatasetOutputReference(this, "gcs_dataset");
-  public get gcsDataset() {
-    return this._gcsDataset;
-  }
-
-  // meta_dataset - computed: true, optional: false, required: false
-  private _metaDataset = new SearchDatasetItemsMetaDatasetOutputReference(this, "meta_dataset");
-  public get metaDataset() {
-    return this._metaDataset;
-  }
-
-  // prometheus_dataset - computed: true, optional: false, required: false
-  private _prometheusDataset = new SearchDatasetItemsPrometheusDatasetOutputReference(this, "prometheus_dataset");
-  public get prometheusDataset() {
-    return this._prometheusDataset;
-  }
-
-  // s3_dataset - computed: true, optional: false, required: false
-  private _s3Dataset = new SearchDatasetItemsS3DatasetOutputReference(this, "s3_dataset");
-  public get s3Dataset() {
-    return this._s3Dataset;
-  }
-
-  // snowflake_dataset - computed: true, optional: false, required: false
-  private _snowflakeDataset = new SearchDatasetItemsSnowflakeDatasetOutputReference(this, "snowflake_dataset");
-  public get snowflakeDataset() {
-    return this._snowflakeDataset;
-  }
-}
-
-export class SearchDatasetItemsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SearchDatasetItemsOutputReference {
-    return new SearchDatasetItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface SearchDatasetMetaDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -14789,38 +10593,38 @@ export interface SearchDatasetMetaDataset {
   /**
   * IDs of the datasets that are searched by default. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#datasets SearchDataset#datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#datasets SearchDataset#datasets}
   */
   readonly datasets?: string[];
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetMetaDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -15061,25 +10865,25 @@ export interface SearchDatasetPrometheusDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -15262,50 +11066,50 @@ export interface SearchDatasetPrometheusDataset {
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Number of data points you want in each result set. Defaults to 250. Can be overridden on the query with a 'step' predicate. Default: 250
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#desired_num_data_points SearchDataset#desired_num_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#desired_num_data_points SearchDataset#desired_num_data_points}
   */
   readonly desiredNumDataPoints?: number;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetPrometheusDatasetMetadata;
   /**
   * Optional regular expression used to filter metric names. When defined, only metrics whose name matches this pattern will be searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metric_name_pattern SearchDataset#metric_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metric_name_pattern SearchDataset#metric_name_pattern}
   */
   readonly metricNamePattern?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * How to calculate the "step," or time range increment per data point, for the Prometheus query request. Default: "exact"; must be one of ["exact", "nearest_unit"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#step_mode SearchDataset#step_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#step_mode SearchDataset#step_mode}
   */
   readonly stepMode?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -15604,31 +11408,31 @@ export interface SearchDatasetS3DatasetExtraPaths {
   /**
   * Whether to automatically detect the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
   */
   readonly autoDetectRegion?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
 }
@@ -15862,25 +11666,25 @@ export interface SearchDatasetS3DatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -16063,80 +11867,80 @@ export interface SearchDatasetS3Dataset {
   /**
   * Whether to automatically detect the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#auto_detect_region SearchDataset#auto_detect_region}
   */
   readonly autoDetectRegion?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#bucket SearchDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#bucket SearchDataset#bucket}
   */
   readonly bucket?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Additional bucket paths that are included in this dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#extra_paths SearchDataset#extra_paths}
   */
   readonly extraPaths?: SearchDatasetS3DatasetExtraPaths[] | cdktf.IResolvable;
   /**
   * A JavaScript filter expression to be evaluated against the provided path. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#filter SearchDataset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#filter SearchDataset#filter}
   */
   readonly filter?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetS3DatasetMetadata;
   /**
   * The templated path under which to look for data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#path SearchDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#path SearchDataset#path}
   */
   readonly path?: string;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * AWS region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#region SearchDataset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#region SearchDataset#region}
   */
   readonly region?: string;
   /**
   * Whether to skip event time filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#skip_event_time_filter SearchDataset#skip_event_time_filter}
   */
   readonly skipEventTimeFilter?: boolean | cdktf.IResolvable;
   /**
   * Storage classes to include in the search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#storage_classes SearchDataset#storage_classes}
   */
   readonly storageClasses?: string[];
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
 }
@@ -16580,25 +12384,25 @@ export interface SearchDatasetSnowflakeDatasetMetadata {
   /**
   * Creation timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#created SearchDataset#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#created SearchDataset#created}
   */
   readonly created?: string;
   /**
   * Whether acceleration is enabled for this dataset. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#enable_acceleration SearchDataset#enable_acceleration}
   */
   readonly enableAcceleration?: boolean | cdktf.IResolvable;
   /**
   * Last modification timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#modified SearchDataset#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#modified SearchDataset#modified}
   */
   readonly modified?: string;
   /**
   * Tags associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#tags SearchDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#tags SearchDataset#tags}
   */
   readonly tags?: string[];
 }
@@ -16779,68 +12583,68 @@ export class SearchDatasetSnowflakeDatasetMetadataOutputReference extends cdktf.
 }
 export interface SearchDatasetSnowflakeDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#database SearchDataset#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#database SearchDataset#database}
   */
   readonly database?: string;
   /**
   * Description of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#description SearchDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#description SearchDataset#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the dataset. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#id SearchDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#id SearchDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#metadata SearchDataset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#metadata SearchDataset#metadata}
   */
   readonly metadata?: SearchDatasetSnowflakeDatasetMetadata;
   /**
   * Dataset provider ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#provider_id SearchDataset#provider_id}
   */
   readonly providerId?: string;
   /**
   * Optional Snowflake role to use when executing the statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#role SearchDataset#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#role SearchDataset#role}
   */
   readonly role?: string;
   /**
   * The schema in the database that contains the table(s) to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#schema SearchDataset#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#schema SearchDataset#schema}
   */
   readonly schema?: string;
   /**
   * May be a simple name (Example: logs) or a SQL query (Example: select * from logs). Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#table SearchDataset#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#table SearchDataset#table}
   */
   readonly table?: string;
   /**
   * Optional name of the column holding the timestamp of the event to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#timestamp_field SearchDataset#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Dataset provider type, set automatically from the dataset provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#type SearchDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#type SearchDataset#type}
   */
   readonly type?: string;
   /**
   * If not set, uses DEFAULT_WAREHOUSE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#warehouse SearchDataset#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#warehouse SearchDataset#warehouse}
   */
   readonly warehouse?: string;
 }
@@ -17224,7 +13028,7 @@ export class SearchDatasetSnowflakeDatasetOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset criblio_search_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset criblio_search_dataset}
 */
 export class SearchDataset extends cdktf.TerraformResource {
 
@@ -17240,7 +13044,7 @@ export class SearchDataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDataset to import
-  * @param importFromId The id of the existing SearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17252,7 +13056,7 @@ export class SearchDataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/resources/search_dataset criblio_search_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/search_dataset criblio_search_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17263,8 +13067,8 @@ export class SearchDataset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -17302,7 +13106,7 @@ export class SearchDataset extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // api_aws_dataset - computed: true, optional: true, required: false
+  // api_aws_dataset - computed: false, optional: true, required: false
   private _apiAwsDataset = new SearchDatasetApiAwsDatasetOutputReference(this, "api_aws_dataset");
   public get apiAwsDataset() {
     return this._apiAwsDataset;
@@ -17318,7 +13122,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiAwsDataset.internalValue;
   }
 
-  // api_azure_data_explorer_dataset - computed: true, optional: true, required: false
+  // api_azure_data_explorer_dataset - computed: false, optional: true, required: false
   private _apiAzureDataExplorerDataset = new SearchDatasetApiAzureDataExplorerDatasetOutputReference(this, "api_azure_data_explorer_dataset");
   public get apiAzureDataExplorerDataset() {
     return this._apiAzureDataExplorerDataset;
@@ -17334,7 +13138,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiAzureDataExplorerDataset.internalValue;
   }
 
-  // api_azure_dataset - computed: true, optional: true, required: false
+  // api_azure_dataset - computed: false, optional: true, required: false
   private _apiAzureDataset = new SearchDatasetApiAzureDatasetOutputReference(this, "api_azure_dataset");
   public get apiAzureDataset() {
     return this._apiAzureDataset;
@@ -17350,7 +13154,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiAzureDataset.internalValue;
   }
 
-  // api_elastic_search_dataset - computed: true, optional: true, required: false
+  // api_elastic_search_dataset - computed: false, optional: true, required: false
   private _apiElasticSearchDataset = new SearchDatasetApiElasticSearchDatasetOutputReference(this, "api_elastic_search_dataset");
   public get apiElasticSearchDataset() {
     return this._apiElasticSearchDataset;
@@ -17366,7 +13170,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiElasticSearchDataset.internalValue;
   }
 
-  // api_gcp_dataset - computed: true, optional: true, required: false
+  // api_gcp_dataset - computed: false, optional: true, required: false
   private _apiGcpDataset = new SearchDatasetApiGcpDatasetOutputReference(this, "api_gcp_dataset");
   public get apiGcpDataset() {
     return this._apiGcpDataset;
@@ -17382,7 +13186,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiGcpDataset.internalValue;
   }
 
-  // api_google_workspace_dataset - computed: true, optional: true, required: false
+  // api_google_workspace_dataset - computed: false, optional: true, required: false
   private _apiGoogleWorkspaceDataset = new SearchDatasetApiGoogleWorkspaceDatasetOutputReference(this, "api_google_workspace_dataset");
   public get apiGoogleWorkspaceDataset() {
     return this._apiGoogleWorkspaceDataset;
@@ -17398,7 +13202,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiGoogleWorkspaceDataset.internalValue;
   }
 
-  // api_ms_graph_dataset - computed: true, optional: true, required: false
+  // api_ms_graph_dataset - computed: false, optional: true, required: false
   private _apiMsGraphDataset = new SearchDatasetApiMsGraphDatasetOutputReference(this, "api_ms_graph_dataset");
   public get apiMsGraphDataset() {
     return this._apiMsGraphDataset;
@@ -17414,7 +13218,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiMsGraphDataset.internalValue;
   }
 
-  // api_okta_dataset - computed: true, optional: true, required: false
+  // api_okta_dataset - computed: false, optional: true, required: false
   private _apiOktaDataset = new SearchDatasetApiOktaDatasetOutputReference(this, "api_okta_dataset");
   public get apiOktaDataset() {
     return this._apiOktaDataset;
@@ -17430,7 +13234,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiOktaDataset.internalValue;
   }
 
-  // api_open_search_dataset - computed: true, optional: true, required: false
+  // api_open_search_dataset - computed: false, optional: true, required: false
   private _apiOpenSearchDataset = new SearchDatasetApiOpenSearchDatasetOutputReference(this, "api_open_search_dataset");
   public get apiOpenSearchDataset() {
     return this._apiOpenSearchDataset;
@@ -17446,7 +13250,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiOpenSearchDataset.internalValue;
   }
 
-  // api_tailscale_dataset - computed: true, optional: true, required: false
+  // api_tailscale_dataset - computed: false, optional: true, required: false
   private _apiTailscaleDataset = new SearchDatasetApiTailscaleDatasetOutputReference(this, "api_tailscale_dataset");
   public get apiTailscaleDataset() {
     return this._apiTailscaleDataset;
@@ -17462,7 +13266,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiTailscaleDataset.internalValue;
   }
 
-  // api_zoom_dataset - computed: true, optional: true, required: false
+  // api_zoom_dataset - computed: false, optional: true, required: false
   private _apiZoomDataset = new SearchDatasetApiZoomDatasetOutputReference(this, "api_zoom_dataset");
   public get apiZoomDataset() {
     return this._apiZoomDataset;
@@ -17478,7 +13282,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apiZoomDataset.internalValue;
   }
 
-  // apihttp_dataset - computed: true, optional: true, required: false
+  // apihttp_dataset - computed: false, optional: true, required: false
   private _apihttpDataset = new SearchDatasetApihttpDatasetOutputReference(this, "apihttp_dataset");
   public get apihttpDataset() {
     return this._apihttpDataset;
@@ -17494,7 +13298,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._apihttpDataset.internalValue;
   }
 
-  // aws_security_lake_dataset - computed: true, optional: true, required: false
+  // aws_security_lake_dataset - computed: false, optional: true, required: false
   private _awsSecurityLakeDataset = new SearchDatasetAwsSecurityLakeDatasetOutputReference(this, "aws_security_lake_dataset");
   public get awsSecurityLakeDataset() {
     return this._awsSecurityLakeDataset;
@@ -17510,7 +13314,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._awsSecurityLakeDataset.internalValue;
   }
 
-  // azure_blob_dataset - computed: true, optional: true, required: false
+  // azure_blob_dataset - computed: false, optional: true, required: false
   private _azureBlobDataset = new SearchDatasetAzureBlobDatasetOutputReference(this, "azure_blob_dataset");
   public get azureBlobDataset() {
     return this._azureBlobDataset;
@@ -17526,7 +13330,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._azureBlobDataset.internalValue;
   }
 
-  // click_house_dataset - computed: true, optional: true, required: false
+  // click_house_dataset - computed: false, optional: true, required: false
   private _clickHouseDataset = new SearchDatasetClickHouseDatasetOutputReference(this, "click_house_dataset");
   public get clickHouseDataset() {
     return this._clickHouseDataset;
@@ -17542,7 +13346,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._clickHouseDataset.internalValue;
   }
 
-  // cribl_leader_dataset - computed: true, optional: true, required: false
+  // cribl_leader_dataset - computed: false, optional: true, required: false
   private _criblLeaderDataset = new SearchDatasetCriblLeaderDatasetOutputReference(this, "cribl_leader_dataset");
   public get criblLeaderDataset() {
     return this._criblLeaderDataset;
@@ -17563,7 +13367,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this.getStringAttribute('description');
   }
 
-  // edge_dataset - computed: true, optional: true, required: false
+  // edge_dataset - computed: false, optional: true, required: false
   private _edgeDataset = new SearchDatasetEdgeDatasetOutputReference(this, "edge_dataset");
   public get edgeDataset() {
     return this._edgeDataset;
@@ -17579,7 +13383,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._edgeDataset.internalValue;
   }
 
-  // gcs_dataset - computed: true, optional: true, required: false
+  // gcs_dataset - computed: false, optional: true, required: false
   private _gcsDataset = new SearchDatasetGcsDatasetOutputReference(this, "gcs_dataset");
   public get gcsDataset() {
     return this._gcsDataset;
@@ -17600,13 +13404,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // items - computed: true, optional: false, required: false
-  private _items = new SearchDatasetItemsList(this, "items", false);
-  public get items() {
-    return this._items;
-  }
-
-  // meta_dataset - computed: true, optional: true, required: false
+  // meta_dataset - computed: false, optional: true, required: false
   private _metaDataset = new SearchDatasetMetaDatasetOutputReference(this, "meta_dataset");
   public get metaDataset() {
     return this._metaDataset;
@@ -17622,7 +13420,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._metaDataset.internalValue;
   }
 
-  // prometheus_dataset - computed: true, optional: true, required: false
+  // prometheus_dataset - computed: false, optional: true, required: false
   private _prometheusDataset = new SearchDatasetPrometheusDatasetOutputReference(this, "prometheus_dataset");
   public get prometheusDataset() {
     return this._prometheusDataset;
@@ -17643,7 +13441,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this.getStringAttribute('provider_id');
   }
 
-  // s3_dataset - computed: true, optional: true, required: false
+  // s3_dataset - computed: false, optional: true, required: false
   private _s3Dataset = new SearchDatasetS3DatasetOutputReference(this, "s3_dataset");
   public get s3Dataset() {
     return this._s3Dataset;
@@ -17659,7 +13457,7 @@ export class SearchDataset extends cdktf.TerraformResource {
     return this._s3Dataset.internalValue;
   }
 
-  // snowflake_dataset - computed: true, optional: true, required: false
+  // snowflake_dataset - computed: false, optional: true, required: false
   private _snowflakeDataset = new SearchDatasetSnowflakeDatasetOutputReference(this, "snowflake_dataset");
   public get snowflakeDataset() {
     return this._snowflakeDataset;

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WorkQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#account_id WorkQueue#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#account_id WorkQueue#account_id}
   */
   readonly accountId?: string;
   /**
   * The concurrency limit applied to this work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#concurrency_limit WorkQueue#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#concurrency_limit WorkQueue#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Description of the work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#description WorkQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#description WorkQueue#description}
   */
   readonly description?: string;
   /**
   * Whether this work queue is paused
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#is_paused WorkQueue#is_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#is_paused WorkQueue#is_paused}
   */
   readonly isPaused?: boolean | cdktf.IResolvable;
   /**
   * Name of the work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#name WorkQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#name WorkQueue#name}
   */
   readonly name: string;
   /**
   * The priority of this work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#priority WorkQueue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#priority WorkQueue#priority}
   */
   readonly priority?: number;
   /**
   * The name of the work pool associated with this work queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#work_pool_name WorkQueue#work_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#work_pool_name WorkQueue#work_pool_name}
   */
   readonly workPoolName: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider. In Prefect Cloud, either the `work_pool` resource or the provider's `workspace_id` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#workspace_id WorkQueue#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#workspace_id WorkQueue#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue prefect_work_queue}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue prefect_work_queue}
 */
 export class WorkQueue extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class WorkQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkQueue to import
-  * @param importFromId The id of the existing WorkQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class WorkQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/resources/work_queue prefect_work_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.2/docs/resources/work_queue prefect_work_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class WorkQueue extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_work_queue',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.1',
-        providerVersionConstraint: '2.90.1'
+        providerVersion: '2.90.2',
+        providerVersionConstraint: '2.90.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

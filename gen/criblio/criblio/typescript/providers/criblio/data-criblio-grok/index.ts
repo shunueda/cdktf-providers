@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok
+// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,22 @@ export interface DataCriblioGrokConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok#group_id DataCriblioGrok#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok#group_id DataCriblioGrok#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok#id DataCriblioGrok#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok#id DataCriblioGrok#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
-export interface DataCriblioGrokItems {
-}
-
-export function dataCriblioGrokItemsToTerraform(struct?: DataCriblioGrokItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataCriblioGrokItemsToHclTerraform(struct?: DataCriblioGrokItems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataCriblioGrokItemsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataCriblioGrokItems | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataCriblioGrokItems | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // content - computed: true, optional: false, required: false
-  public get content() {
-    return this.getStringAttribute('content');
-  }
-
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
-  }
-
-  // tags - computed: true, optional: false, required: false
-  public get tags() {
-    return this.getStringAttribute('tags');
-  }
-}
-
-export class DataCriblioGrokItemsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataCriblioGrokItemsOutputReference {
-    return new DataCriblioGrokItemsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok criblio_grok}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok criblio_grok}
 */
 export class DataCriblioGrok extends cdktf.TerraformDataSource {
 
@@ -126,7 +41,7 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioGrok resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioGrok to import
-  * @param importFromId The id of the existing DataCriblioGrok that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioGrok that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioGrok to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +53,7 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.18.21/docs/data-sources/grok criblio_grok} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/grok criblio_grok} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +64,8 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_grok',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21',
-        providerVersionConstraint: '1.18.21'
+        providerVersion: '1.20.23',
+        providerVersionConstraint: '1.20.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -167,6 +82,11 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // content - computed: true, optional: false, required: false
+  public get content() {
+    return this.getStringAttribute('content');
+  }
 
   // group_id - computed: false, optional: false, required: true
   private _groupId?: string; 
@@ -194,10 +114,9 @@ export class DataCriblioGrok extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // items - computed: true, optional: false, required: false
-  private _items = new DataCriblioGrokItemsList(this, "items", false);
-  public get items() {
-    return this._items;
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return this.getStringAttribute('tags');
   }
 
   // =========

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GpuBaremetalImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image architecture type: aarch64, x86_64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#architecture GpuBaremetalImage#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#architecture GpuBaremetalImage#architecture}
   */
   readonly architecture?: string;
   /**
   * When True, image cannot be deleted unless all volumes, created from it, are deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#cow_format GpuBaremetalImage#cow_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#cow_format GpuBaremetalImage#cow_format}
   */
   readonly cowFormat?: boolean | cdktf.IResolvable;
   /**
   * Specifies the type of firmware with which to boot the guest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#hw_firmware_type GpuBaremetalImage#hw_firmware_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#hw_firmware_type GpuBaremetalImage#hw_firmware_type}
   */
   readonly hwFirmwareType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#id GpuBaremetalImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#id GpuBaremetalImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface GpuBaremetalImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Create one or more metadata items for a cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#metadata GpuBaremetalImage#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#metadata GpuBaremetalImage#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#name GpuBaremetalImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#name GpuBaremetalImage#name}
   */
   readonly name: string;
   /**
   * OS Distribution, i.e. Debian, CentOS, Ubuntu, CoreOS etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#os_distro GpuBaremetalImage#os_distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#os_distro GpuBaremetalImage#os_distro}
   */
   readonly osDistro?: string;
   /**
   * The operating system installed on the image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#os_type GpuBaremetalImage#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#os_type GpuBaremetalImage#os_type}
   */
   readonly osType?: string;
   /**
   * OS version, i.e. 19.04 (for Ubuntu) or 9.4 for Debian
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#os_version GpuBaremetalImage#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#os_version GpuBaremetalImage#os_version}
   */
   readonly osVersion?: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#project_id GpuBaremetalImage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#project_id GpuBaremetalImage#project_id}
   */
   readonly projectId?: number;
   /**
   * Project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#project_name GpuBaremetalImage#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#project_name GpuBaremetalImage#project_name}
   */
   readonly projectName?: string;
   /**
   * Region ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#region_id GpuBaremetalImage#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#region_id GpuBaremetalImage#region_id}
   */
   readonly regionId?: number;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#region_name GpuBaremetalImage#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#region_name GpuBaremetalImage#region_name}
   */
   readonly regionName?: string;
   /**
   * Permission to use a ssh key in instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#ssh_key GpuBaremetalImage#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#ssh_key GpuBaremetalImage#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * Image URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#url GpuBaremetalImage#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#url GpuBaremetalImage#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image gcore_gpu_baremetal_image}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image gcore_gpu_baremetal_image}
 */
 export class GpuBaremetalImage extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class GpuBaremetalImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpuBaremetalImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpuBaremetalImage to import
-  * @param importFromId The id of the existing GpuBaremetalImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpuBaremetalImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpuBaremetalImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class GpuBaremetalImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/gpu_baremetal_image gcore_gpu_baremetal_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/gpu_baremetal_image gcore_gpu_baremetal_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class GpuBaremetalImage extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_gpu_baremetal_image',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

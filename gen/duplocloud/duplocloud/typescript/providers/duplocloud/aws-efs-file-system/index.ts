@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsEfsFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether automatic backups are enabled on the file system that you are creating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#backup AwsEfsFileSystem#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#backup AwsEfsFileSystem#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * A unique name (a maximum of 64 characters are allowed) used as reference when creating the Elastic File System to ensure idempotent file system creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#creation_token AwsEfsFileSystem#creation_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#creation_token AwsEfsFileSystem#creation_token}
   */
   readonly creationToken?: string;
   /**
   * If true, the disk will be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#encrypted AwsEfsFileSystem#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#encrypted AwsEfsFileSystem#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#id AwsEfsFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#id AwsEfsFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface AwsEfsFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the EFS, this needs to be unique within a region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#name AwsEfsFileSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#name AwsEfsFileSystem#name}
   */
   readonly name: string;
   /**
   * The file system performance mode. Can be either `generalPurpose` or `maxIO`. Defaults to `generalPurpose`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#performance_mode AwsEfsFileSystem#performance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#performance_mode AwsEfsFileSystem#performance_mode}
   */
   readonly performanceMode?: string;
   /**
   * The throughput, measured in MiB/s, that you want to provision for the file system. Only applicable with `throughput_mode` set to `provisioned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#provisioned_throughput_in_mibps AwsEfsFileSystem#provisioned_throughput_in_mibps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#provisioned_throughput_in_mibps AwsEfsFileSystem#provisioned_throughput_in_mibps}
   */
   readonly provisionedThroughputInMibps?: number;
   /**
   * The GUID of the tenant that the efs file system will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#tenant_id AwsEfsFileSystem#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#tenant_id AwsEfsFileSystem#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Throughput mode for the file system. When using `provisioned`, also set `provisioned_throughput_in_mibps`. Defaults to `bursting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#throughput_mode AwsEfsFileSystem#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#throughput_mode AwsEfsFileSystem#throughput_mode}
   */
   readonly throughputMode?: string;
   /**
   * Whether or not to wait until EFS to be available, after creation. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#wait_until_ready AwsEfsFileSystem#wait_until_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#wait_until_ready AwsEfsFileSystem#wait_until_ready}
   */
   readonly waitUntilReady?: boolean | cdktf.IResolvable;
   /**
   * lifecycle_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#lifecycle_policy AwsEfsFileSystem#lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#lifecycle_policy AwsEfsFileSystem#lifecycle_policy}
   */
   readonly lifecyclePolicy?: AwsEfsFileSystemLifecyclePolicy[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#tag AwsEfsFileSystem#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#tag AwsEfsFileSystem#tag}
   */
   readonly tag?: AwsEfsFileSystemTag[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#timeouts AwsEfsFileSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#timeouts AwsEfsFileSystem#timeouts}
   */
   readonly timeouts?: AwsEfsFileSystemTimeouts;
 }
@@ -186,19 +186,19 @@ export interface AwsEfsFileSystemLifecyclePolicy {
   /**
   * Indicates how long it takes to transition files to the archive storage class. Requires transition_to_ia, Elastic Throughput and General Purpose performance mode. Valid values: `AFTER_1_DAY`, `AFTER_7_DAYS`, `AFTER_14_DAYS`, `AFTER_30_DAYS`, `AFTER_60_DAYS`, or `AFTER_90_DAYS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#transition_to_archive AwsEfsFileSystem#transition_to_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#transition_to_archive AwsEfsFileSystem#transition_to_archive}
   */
   readonly transitionToArchive?: string;
   /**
   * Indicates how long it takes to transition files to the IA storage class. Valid values: `AFTER_1_DAY`, `AFTER_7_DAYS`, `AFTER_14_DAYS`, `AFTER_30_DAYS`, `AFTER_60_DAYS`, or `AFTER_90_DAYS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#transition_to_ia AwsEfsFileSystem#transition_to_ia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#transition_to_ia AwsEfsFileSystem#transition_to_ia}
   */
   readonly transitionToIa?: string;
   /**
   * Describes the policy used to transition a file from infequent access storage to primary storage. Valid values: `AFTER_1_ACCESS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#transition_to_primary_storage_class AwsEfsFileSystem#transition_to_primary_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#transition_to_primary_storage_class AwsEfsFileSystem#transition_to_primary_storage_class}
   */
   readonly transitionToPrimaryStorageClass?: string;
 }
@@ -372,11 +372,11 @@ export class AwsEfsFileSystemLifecyclePolicyList extends cdktf.ComplexList {
 }
 export interface AwsEfsFileSystemTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#key AwsEfsFileSystem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#key AwsEfsFileSystem#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#value AwsEfsFileSystem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#value AwsEfsFileSystem#value}
   */
   readonly value: string;
 }
@@ -515,11 +515,11 @@ export class AwsEfsFileSystemTagList extends cdktf.ComplexList {
 }
 export interface AwsEfsFileSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#create AwsEfsFileSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#create AwsEfsFileSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#delete AwsEfsFileSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#delete AwsEfsFileSystem#delete}
   */
   readonly delete?: string;
 }
@@ -642,7 +642,7 @@ export class AwsEfsFileSystemTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system duplocloud_aws_efs_file_system}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system duplocloud_aws_efs_file_system}
 */
 export class AwsEfsFileSystem extends cdktf.TerraformResource {
 
@@ -658,7 +658,7 @@ export class AwsEfsFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsEfsFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsEfsFileSystem to import
-  * @param importFromId The id of the existing AwsEfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsEfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsEfsFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -670,7 +670,7 @@ export class AwsEfsFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/aws_efs_file_system duplocloud_aws_efs_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/aws_efs_file_system duplocloud_aws_efs_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -681,8 +681,8 @@ export class AwsEfsFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_efs_file_system',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface OauthConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Application ID URI for the OAuth integration. Only for Entra
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#application_id_uri OauthConfiguration#application_id_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#application_id_uri OauthConfiguration#application_id_uri}
   */
   readonly applicationIdUri?: string;
   /**
   * The Authorize URL for the OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#authorize_url OauthConfiguration#authorize_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#authorize_url OauthConfiguration#authorize_url}
   */
   readonly authorizeUrl: string;
   /**
   * The Client ID for the OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#client_id OauthConfiguration#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#client_id OauthConfiguration#client_id}
   */
   readonly clientId: string;
   /**
   * The Client secret for the OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#client_secret OauthConfiguration#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#client_secret OauthConfiguration#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The name of OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#name OauthConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#name OauthConfiguration#name}
   */
   readonly name: string;
   /**
   * The redirect URL for the OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#redirect_uri OauthConfiguration#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#redirect_uri OauthConfiguration#redirect_uri}
   */
   readonly redirectUri: string;
   /**
   * The Token URL for the OAuth integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#token_url OauthConfiguration#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#token_url OauthConfiguration#token_url}
   */
   readonly tokenUrl: string;
   /**
   * The type of OAuth integration (`entra` or `okta`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#type OauthConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#type OauthConfiguration#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration dbtcloud_oauth_configuration}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration dbtcloud_oauth_configuration}
 */
 export class OauthConfiguration extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class OauthConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OauthConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OauthConfiguration to import
-  * @param importFromId The id of the existing OauthConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OauthConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OauthConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class OauthConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.3.0/docs/resources/oauth_configuration dbtcloud_oauth_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.4.1/docs/resources/oauth_configuration dbtcloud_oauth_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class OauthConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_oauth_configuration',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

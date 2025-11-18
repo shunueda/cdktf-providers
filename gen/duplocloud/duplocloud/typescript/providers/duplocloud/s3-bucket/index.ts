@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface S3BucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not to remove the public access block from the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#allow_public_access S3Bucket#allow_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#allow_public_access S3Bucket#allow_public_access}
   */
   readonly allowPublicAccess?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable access logs.  When enabled, Duplo will send access logs to a centralized S3 bucket per plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#enable_access_logs S3Bucket#enable_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#enable_access_logs S3Bucket#enable_access_logs}
   */
   readonly enableAccessLogs?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable versioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#enable_versioning S3Bucket#enable_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#enable_versioning S3Bucket#enable_versioning}
   */
   readonly enableVersioning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#id S3Bucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#id S3Bucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,37 +38,37 @@ export interface S3BucketConfig extends cdktf.TerraformMetaArguments {
   *  - `"ssl"`: Require SSL / HTTPS when accessing the bucket.
   *  - `"ignore"`: If this value is present, Duplo will not manage your bucket policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#managed_policies S3Bucket#managed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#managed_policies S3Bucket#managed_policies}
   */
   readonly managedPolicies?: string[];
   /**
   * The short name of the S3 bucket.  Duplo will add a prefix to the name.  You can retrieve the full name from the `fullname` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#name S3Bucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#name S3Bucket#name}
   */
   readonly name: string;
   /**
   * The region of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#region S3Bucket#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#region S3Bucket#region}
   */
   readonly region?: string;
   /**
   * The GUID of the tenant that the S3 bucket will be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#tenant_id S3Bucket#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#tenant_id S3Bucket#tenant_id}
   */
   readonly tenantId: string;
   /**
   * default_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#default_encryption S3Bucket#default_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#default_encryption S3Bucket#default_encryption}
   */
   readonly defaultEncryption?: S3BucketDefaultEncryption;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
   */
   readonly timeouts?: S3BucketTimeouts;
 }
@@ -156,7 +156,7 @@ export interface S3BucketDefaultEncryption {
   /**
   * Default encryption method.  Must be one of: `None`, `Sse`, `AwsKms`, `TenantKms`. Defaults to `Sse`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#method S3Bucket#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#method S3Bucket#method}
   */
   readonly method?: string;
 }
@@ -240,11 +240,11 @@ export class S3BucketDefaultEncryptionOutputReference extends cdktf.ComplexObjec
 }
 export interface S3BucketTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#create S3Bucket#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#create S3Bucket#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#delete S3Bucket#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#delete S3Bucket#delete}
   */
   readonly delete?: string;
 }
@@ -367,7 +367,7 @@ export class S3BucketTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket duplocloud_s3_bucket}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket duplocloud_s3_bucket}
 */
 export class S3Bucket extends cdktf.TerraformResource {
 
@@ -383,7 +383,7 @@ export class S3Bucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3Bucket to import
-  * @param importFromId The id of the existing S3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -395,7 +395,7 @@ export class S3Bucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/s3_bucket duplocloud_s3_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/s3_bucket duplocloud_s3_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -406,8 +406,8 @@ export class S3Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

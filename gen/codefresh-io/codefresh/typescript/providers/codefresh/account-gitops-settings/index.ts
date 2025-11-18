@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings
+// https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AccountGitopsSettingsConfig extends cdktf.TerraformMetaArgument
   /**
   * Git provider name - currently supported values are: GITHUB ,GERRIT ,GITLAB ,BITBUCKET ,BITBUCKET_SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings#git_provider AccountGitopsSettings#git_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings#git_provider AccountGitopsSettings#git_provider}
   */
   readonly gitProvider: string;
   /**
   * Git provider API url. If not provided can automatically be set for known SaaS git providers. For example - for github it will be set to https://api.github.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings#git_provider_api_url AccountGitopsSettings#git_provider_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings#git_provider_api_url AccountGitopsSettings#git_provider_api_url}
   */
   readonly gitProviderApiUrl?: string;
   /**
   * Shared config repository url. Must be a valid git url which contains `.git`. May also include path and branch references
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings#shared_config_repository AccountGitopsSettings#shared_config_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings#shared_config_repository AccountGitopsSettings#shared_config_repository}
   */
   readonly sharedConfigRepository: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings codefresh_account_gitops_settings}
+* Represents a {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings codefresh_account_gitops_settings}
 */
 export class AccountGitopsSettings extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AccountGitopsSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountGitopsSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountGitopsSettings to import
-  * @param importFromId The id of the existing AccountGitopsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountGitopsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountGitopsSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AccountGitopsSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.1.0/docs/resources/account_gitops_settings codefresh_account_gitops_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/codefresh-io/codefresh/1.2.0/docs/resources/account_gitops_settings codefresh_account_gitops_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AccountGitopsSettings extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_account_gitops_settings',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0',
-        providerVersionConstraint: '1.1.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

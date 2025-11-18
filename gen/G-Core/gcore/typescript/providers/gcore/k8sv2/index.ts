@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2
+// https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface K8Sv2Config extends cdktf.TerraformMetaArguments {
   /**
   * Cluster autoscaler configuration params. Keys and values are expected to follow the cluster-autoscaler option format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#autoscaler_config K8Sv2#autoscaler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#autoscaler_config K8Sv2#autoscaler_config}
   */
   readonly autoscalerConfig?: { [key: string]: string };
   /**
   * Fixed network used to allocate network addresses for cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#fixed_network K8Sv2#fixed_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#fixed_network K8Sv2#fixed_network}
   */
   readonly fixedNetwork?: string;
   /**
   * Fixed subnet used to allocate network addresses for cluster nodes. Subnet should have a router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#fixed_subnet K8Sv2#fixed_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#fixed_subnet K8Sv2#fixed_subnet}
   */
   readonly fixedSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#id K8Sv2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#id K8Sv2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,107 +35,107 @@ export interface K8Sv2Config extends cdktf.TerraformMetaArguments {
   /**
   * Enable public IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#is_ipv6 K8Sv2#is_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#is_ipv6 K8Sv2#is_ipv6}
   */
   readonly isIpv6?: boolean | cdktf.IResolvable;
   /**
   * Name of the keypair used for SSH access to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#keypair K8Sv2#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#keypair K8Sv2#keypair}
   */
   readonly keypair: string;
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#name K8Sv2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#name K8Sv2#name}
   */
   readonly name: string;
   /**
   * Pods IPv4 IP pool in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#pods_ip_pool K8Sv2#pods_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#pods_ip_pool K8Sv2#pods_ip_pool}
   */
   readonly podsIpPool?: string;
   /**
   * Pods IPv6 IP pool in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#pods_ipv6_pool K8Sv2#pods_ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#pods_ipv6_pool K8Sv2#pods_ipv6_pool}
   */
   readonly podsIpv6Pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#project_id K8Sv2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#project_id K8Sv2#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#project_name K8Sv2#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#project_name K8Sv2#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#region_id K8Sv2#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#region_id K8Sv2#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#region_name K8Sv2#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#region_name K8Sv2#region_name}
   */
   readonly regionName?: string;
   /**
   * Services IPv4 IP pool in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#services_ip_pool K8Sv2#services_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#services_ip_pool K8Sv2#services_ip_pool}
   */
   readonly servicesIpPool?: string;
   /**
   * Services IPv6 IP pool in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#services_ipv6_pool K8Sv2#services_ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#services_ipv6_pool K8Sv2#services_ipv6_pool}
   */
   readonly servicesIpv6Pool?: string;
   /**
   * Kubernetes version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#version K8Sv2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#version K8Sv2#version}
   */
   readonly version: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#authentication K8Sv2#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#authentication K8Sv2#authentication}
   */
   readonly authentication?: K8Sv2Authentication;
   /**
   * cni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#cni K8Sv2#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#cni K8Sv2#cni}
   */
   readonly cni?: K8Sv2Cni;
   /**
   * csi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#csi K8Sv2#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#csi K8Sv2#csi}
   */
   readonly csi?: K8Sv2Csi;
   /**
   * ddos_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#ddos_profile K8Sv2#ddos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#ddos_profile K8Sv2#ddos_profile}
   */
   readonly ddosProfile?: K8Sv2DdosProfile;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#pool K8Sv2#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#pool K8Sv2#pool}
   */
   readonly pool: K8Sv2Pool[] | cdktf.IResolvable;
   /**
   * security_group_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#security_group_rules K8Sv2#security_group_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#security_group_rules K8Sv2#security_group_rules}
   */
   readonly securityGroupRules?: K8Sv2SecurityGroupRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#timeouts K8Sv2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#timeouts K8Sv2#timeouts}
   */
   readonly timeouts?: K8Sv2Timeouts;
 }
@@ -143,49 +143,49 @@ export interface K8Sv2AuthenticationOidc {
   /**
   * A client id that all tokens must be issued for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#client_id K8Sv2#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#client_id K8Sv2#client_id}
   */
   readonly clientId?: string;
   /**
   * JWT claim to use as the user's group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#groups_claim K8Sv2#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#groups_claim K8Sv2#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * Prefix prepended to group claims to prevent clashes with existing names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#groups_prefix K8Sv2#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#groups_prefix K8Sv2#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * URL of the provider that allows the API server to discover public signing keys. Only URLs that use the https:// scheme are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#issuer_url K8Sv2#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#issuer_url K8Sv2#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * A map describing required claims in the ID Token. Each claim is verified to be present in the ID Token with a matching value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#required_claims K8Sv2#required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#required_claims K8Sv2#required_claims}
   */
   readonly requiredClaims?: { [key: string]: string };
   /**
   * Accepted signing algorithms. Supported values are: RS256, RS384, RS512, ES256, ES384, ES512, PS256, PS384, PS512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#signing_algs K8Sv2#signing_algs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#signing_algs K8Sv2#signing_algs}
   */
   readonly signingAlgs?: string[];
   /**
   * JWT claim to use as the user name. When not specified, the `sub` claim will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#username_claim K8Sv2#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#username_claim K8Sv2#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * Prefix prepended to username claims to prevent clashes with existing names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#username_prefix K8Sv2#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#username_prefix K8Sv2#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -474,7 +474,7 @@ export interface K8Sv2Authentication {
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#oidc K8Sv2#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#oidc K8Sv2#oidc}
   */
   readonly oidc?: K8Sv2AuthenticationOidc;
 }
@@ -560,55 +560,55 @@ export interface K8Sv2CniCilium {
   /**
   * Enables transparent network encryption. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#encryption K8Sv2#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#encryption K8Sv2#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
   * Enables Hubble Relay. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#hubble_relay K8Sv2#hubble_relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#hubble_relay K8Sv2#hubble_relay}
   */
   readonly hubbleRelay?: boolean | cdktf.IResolvable;
   /**
   * Enables Hubble UI. Requires `hubble_relay=true`. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#hubble_ui K8Sv2#hubble_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#hubble_ui K8Sv2#hubble_ui}
   */
   readonly hubbleUi?: boolean | cdktf.IResolvable;
   /**
   * Enables load balancer acceleration via XDP. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#lb_acceleration K8Sv2#lb_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#lb_acceleration K8Sv2#lb_acceleration}
   */
   readonly lbAcceleration?: boolean | cdktf.IResolvable;
   /**
   * The operation mode of load balancing for remote backends. Supported values are snat, dsr, hybrid. The default value is snat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#lb_mode K8Sv2#lb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#lb_mode K8Sv2#lb_mode}
   */
   readonly lbMode?: string;
   /**
   * Specifies the size allocated from pods_ip_pool CIDR to node.ipam.podCIDRs. The default value is 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#mask_size K8Sv2#mask_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#mask_size K8Sv2#mask_size}
   */
   readonly maskSize?: number;
   /**
   * Specifies the size allocated from pods_ipv6_pool CIDR to node.ipam.podCIDRs. The default value is 120.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#mask_size_v6 K8Sv2#mask_size_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#mask_size_v6 K8Sv2#mask_size_v6}
   */
   readonly maskSizeV6?: number;
   /**
   * Enables native-routing mode or tunneling mode. The default value is tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#routing_mode K8Sv2#routing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#routing_mode K8Sv2#routing_mode}
   */
   readonly routingMode?: string;
   /**
   * Tunneling protocol to use in tunneling mode and for ad-hoc tunnels. The default value is geneve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#tunnel K8Sv2#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#tunnel K8Sv2#tunnel}
   */
   readonly tunnel?: string;
 }
@@ -926,13 +926,13 @@ export interface K8Sv2Cni {
   /**
   * CNI provider to use when creating the cluster. Supported values are: calico, cilium. The default value is calico.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#provider K8Sv2#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#provider K8Sv2#provider}
   */
   readonly provider?: string;
   /**
   * cilium block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#cilium K8Sv2#cilium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#cilium K8Sv2#cilium}
   */
   readonly cilium?: K8Sv2CniCilium;
 }
@@ -1047,7 +1047,7 @@ export interface K8Sv2CsiNfs {
   /**
   * Enable or disable VAST NFS integration. The default value is false. When set to true, a dedicated StorageClass will be created in the cluster for each VAST NFS file share defined in the cloud. All file shares created prior to cluster creation will be available immediately, while those created afterward may take a few minutes for to appear.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#vast_enabled K8Sv2#vast_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#vast_enabled K8Sv2#vast_enabled}
   */
   readonly vastEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1133,7 +1133,7 @@ export interface K8Sv2Csi {
   /**
   * nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#nfs K8Sv2#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#nfs K8Sv2#nfs}
   */
   readonly nfs?: K8Sv2CsiNfs;
 }
@@ -1219,19 +1219,19 @@ export interface K8Sv2DdosProfileFields {
   /**
   * Base field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#base_field K8Sv2#base_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#base_field K8Sv2#base_field}
   */
   readonly baseField: number;
   /**
   * Complex value. Only one of 'value' or 'field_value' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#field_value K8Sv2#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#field_value K8Sv2#field_value}
   */
   readonly fieldValue?: string;
   /**
   * Basic type value. Only one of 'value' or 'field_value' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#value K8Sv2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#value K8Sv2#value}
   */
   readonly value?: string;
 }
@@ -1404,25 +1404,25 @@ export interface K8Sv2DdosProfile {
   /**
   * Indicates if the DDoS profile is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#enabled K8Sv2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#enabled K8Sv2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Profile template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#profile_template K8Sv2#profile_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#profile_template K8Sv2#profile_template}
   */
   readonly profileTemplate?: number;
   /**
   * Profile template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#profile_template_name K8Sv2#profile_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#profile_template_name K8Sv2#profile_template_name}
   */
   readonly profileTemplateName?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#fields K8Sv2#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#fields K8Sv2#fields}
   */
   readonly fields?: K8Sv2DdosProfileFields[] | cdktf.IResolvable;
 }
@@ -1592,79 +1592,79 @@ export interface K8Sv2Pool {
   /**
   * Enable/disable auto healing of cluster pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#auto_healing_enabled K8Sv2#auto_healing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#auto_healing_enabled K8Sv2#auto_healing_enabled}
   */
   readonly autoHealingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Cluster pool boot volume size. Must be set only for VM pools. Changing the value of this attribute will trigger recreation of the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#boot_volume_size K8Sv2#boot_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#boot_volume_size K8Sv2#boot_volume_size}
   */
   readonly bootVolumeSize?: number;
   /**
   * Cluster pool boot volume type. Must be set only for VM pools. Available values are 'standard', 'ssd_hiiops', 'cold', 'ultra'. Changing the value of this attribute will trigger recreation of the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#boot_volume_type K8Sv2#boot_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#boot_volume_type K8Sv2#boot_volume_type}
   */
   readonly bootVolumeType?: string;
   /**
   * Crio configuration for pool nodes. Keys and values are expected to follow the crio option format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#crio_config K8Sv2#crio_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#crio_config K8Sv2#crio_config}
   */
   readonly crioConfig?: { [key: string]: string };
   /**
   * Cluster pool node flavor ID. Changing the value of this attribute will trigger recreation of the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#flavor_id K8Sv2#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#flavor_id K8Sv2#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Assign public IPv4 address to nodes in this pool. Changing the value of this attribute will trigger recreation of the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#is_public_ipv4 K8Sv2#is_public_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#is_public_ipv4 K8Sv2#is_public_ipv4}
   */
   readonly isPublicIpv4?: boolean | cdktf.IResolvable;
   /**
   * Kubelet configuration for pool nodes. Keys and values are expected to follow the kubelet configuration file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#kubelet_config K8Sv2#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#kubelet_config K8Sv2#kubelet_config}
   */
   readonly kubeletConfig?: { [key: string]: string };
   /**
   * Labels applied to the cluster pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#labels K8Sv2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#labels K8Sv2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Maximum number of nodes in the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#max_node_count K8Sv2#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#max_node_count K8Sv2#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * Minimum number of nodes in the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#min_node_count K8Sv2#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#min_node_count K8Sv2#min_node_count}
   */
   readonly minNodeCount: number;
   /**
   * Cluster pool name. Changing the value of this attribute will trigger recreation of the cluster pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#name K8Sv2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#name K8Sv2#name}
   */
   readonly name: string;
   /**
   * Server group policy: anti-affinity, soft-anti-affinity or affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#servergroup_policy K8Sv2#servergroup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#servergroup_policy K8Sv2#servergroup_policy}
   */
   readonly servergroupPolicy?: string;
   /**
   * Taints applied to the cluster pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#taints K8Sv2#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#taints K8Sv2#taints}
   */
   readonly taints?: { [key: string]: string };
 }
@@ -2144,41 +2144,41 @@ export class K8Sv2PoolList extends cdktf.ComplexList {
 }
 export interface K8Sv2SecurityGroupRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#description K8Sv2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#description K8Sv2#description}
   */
   readonly description?: string;
   /**
   * Available value is 'ingress', 'egress'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#direction K8Sv2#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#direction K8Sv2#direction}
   */
   readonly direction: string;
   /**
   * Available value is 'IPv4', 'IPv6'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#ethertype K8Sv2#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#ethertype K8Sv2#ethertype}
   */
   readonly ethertype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#port_range_max K8Sv2#port_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#port_range_max K8Sv2#port_range_max}
   */
   readonly portRangeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#port_range_min K8Sv2#port_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#port_range_min K8Sv2#port_range_min}
   */
   readonly portRangeMin?: number;
   /**
   * Available value is udp,tcp,any,ipv6-icmp,ipv6-route,ipv6-opts,ipv6-nonxt,ipv6-frag,ipv6-encap,icmp,ah,dccp,egp,esp,gre,igmp,ospf,pgm,rsvp,sctp,udplite,vrrp,51,50,112,0,4,ipip,ipencap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#protocol K8Sv2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#protocol K8Sv2#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#remote_group_id K8Sv2#remote_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#remote_group_id K8Sv2#remote_group_id}
   */
   readonly remoteGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#remote_ip_prefix K8Sv2#remote_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#remote_ip_prefix K8Sv2#remote_ip_prefix}
   */
   readonly remoteIpPrefix?: string;
 }
@@ -2503,11 +2503,11 @@ export class K8Sv2SecurityGroupRulesList extends cdktf.ComplexList {
 }
 export interface K8Sv2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#create K8Sv2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#create K8Sv2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#update K8Sv2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#update K8Sv2#update}
   */
   readonly update?: string;
 }
@@ -2630,7 +2630,7 @@ export class K8Sv2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2 gcore_k8sv2}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2 gcore_k8sv2}
 */
 export class K8Sv2 extends cdktf.TerraformResource {
 
@@ -2646,7 +2646,7 @@ export class K8Sv2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8Sv2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8Sv2 to import
-  * @param importFromId The id of the existing K8Sv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8Sv2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8Sv2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2658,7 +2658,7 @@ export class K8Sv2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/k8sv2 gcore_k8sv2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.0/docs/resources/k8sv2 gcore_k8sv2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2669,8 +2669,8 @@ export class K8Sv2 extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_k8sv2',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.4',
-        providerVersionConstraint: '0.31.4'
+        providerVersion: '0.32.0',
+        providerVersionConstraint: '0.32.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

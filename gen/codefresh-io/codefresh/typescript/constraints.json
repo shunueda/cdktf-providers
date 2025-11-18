@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "codefresh": "1.1.0"
+    "codefresh": "1.2.0"
   }
 }

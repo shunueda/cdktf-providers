@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates
+// https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlanCertificatesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not this resource should delete any certificates not specified by this resource. **WARNING:**  It is not recommended to change the default value of `false`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#delete_unspecified_certificates PlanCertificates#delete_unspecified_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#delete_unspecified_certificates PlanCertificates#delete_unspecified_certificates}
   */
   readonly deleteUnspecifiedCertificates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#id PlanCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#id PlanCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PlanCertificatesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the plan to configure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#plan_id PlanCertificates#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#plan_id PlanCertificates#plan_id}
   */
   readonly planId: string;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#certificate PlanCertificates#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#certificate PlanCertificates#certificate}
   */
   readonly certificate?: PlanCertificatesCertificate[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#timeouts PlanCertificates#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#timeouts PlanCertificates#timeouts}
   */
   readonly timeouts?: PlanCertificatesTimeouts;
 }
@@ -126,14 +126,14 @@ export class PlanCertificatesCertificatesList extends cdktf.ComplexList {
 }
 export interface PlanCertificatesCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#id PlanCertificates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#id PlanCertificates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#name PlanCertificates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#name PlanCertificates#name}
   */
   readonly name: string;
 }
@@ -277,15 +277,15 @@ export class PlanCertificatesCertificateList extends cdktf.ComplexList {
 }
 export interface PlanCertificatesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#create PlanCertificates#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#create PlanCertificates#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#delete PlanCertificates#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#delete PlanCertificates#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#update PlanCertificates#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#update PlanCertificates#update}
   */
   readonly update?: string;
 }
@@ -437,7 +437,7 @@ export class PlanCertificatesTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates duplocloud_plan_certificates}
+* Represents a {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates duplocloud_plan_certificates}
 */
 export class PlanCertificates extends cdktf.TerraformResource {
 
@@ -453,7 +453,7 @@ export class PlanCertificates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlanCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlanCertificates to import
-  * @param importFromId The id of the existing PlanCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlanCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlanCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -465,7 +465,7 @@ export class PlanCertificates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.28/docs/resources/plan_certificates duplocloud_plan_certificates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/duplocloud/duplocloud/0.11.29/docs/resources/plan_certificates duplocloud_plan_certificates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -476,8 +476,8 @@ export class PlanCertificates extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_plan_certificates',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28',
-        providerVersionConstraint: '0.11.28'
+        providerVersion: '0.11.29',
+        providerVersionConstraint: '0.11.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

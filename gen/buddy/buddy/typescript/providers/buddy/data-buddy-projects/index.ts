@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects
+// https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataBuddyProjectsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The project's display name regular expression to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#display_name_regex DataBuddyProjects#display_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#display_name_regex DataBuddyProjects#display_name_regex}
   */
   readonly displayNameRegex?: string;
   /**
   * The workspace's URL handle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#domain DataBuddyProjects#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#domain DataBuddyProjects#domain}
   */
   readonly domain: string;
   /**
   * For workspace administrators all workspace projects are returned, set true to lists projects the user actually belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#membership DataBuddyProjects#membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#membership DataBuddyProjects#membership}
   */
   readonly membership?: boolean | cdktf.IResolvable;
   /**
   * The project's name regular expression to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#name_regex DataBuddyProjects#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#name_regex DataBuddyProjects#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * Filter projects by status (`ACTIVE`, `CLOSED`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#status DataBuddyProjects#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#status DataBuddyProjects#status}
   */
   readonly status?: string;
 }
@@ -130,7 +130,7 @@ export class DataBuddyProjectsProjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects buddy_projects}
+* Represents a {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects buddy_projects}
 */
 export class DataBuddyProjects extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataBuddyProjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuddyProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuddyProjects to import
-  * @param importFromId The id of the existing DataBuddyProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuddyProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuddyProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataBuddyProjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.37.1/docs/data-sources/projects buddy_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buddy/buddy/1.38.0/docs/data-sources/projects buddy_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataBuddyProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_projects',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1',
-        providerVersionConstraint: '1.37.1'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

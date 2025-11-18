@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka
+// https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SourceKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cluster to maintain this source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#cluster_name SourceKafka#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#cluster_name SourceKafka#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment on an object in the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#comment SourceKafka#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#comment SourceKafka#comment}
   */
   readonly comment?: string;
   /**
   * The identifier for the source database in Materialize. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#id SourceKafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#id SourceKafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,139 +35,139 @@ export interface SourceKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include message headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_headers SourceKafka#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_headers SourceKafka#include_headers}
   */
   readonly includeHeaders?: boolean | cdktf.IResolvable;
   /**
   * Provide an alias for the headers column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_headers_alias SourceKafka#include_headers_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_headers_alias SourceKafka#include_headers_alias}
   */
   readonly includeHeadersAlias?: string;
   /**
   * Include a column containing the Kafka message key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_key SourceKafka#include_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_key SourceKafka#include_key}
   */
   readonly includeKey?: boolean | cdktf.IResolvable;
   /**
   * Provide an alias for the key column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_key_alias SourceKafka#include_key_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_key_alias SourceKafka#include_key_alias}
   */
   readonly includeKeyAlias?: string;
   /**
   * Include an offset column containing the Kafka message offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_offset SourceKafka#include_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_offset SourceKafka#include_offset}
   */
   readonly includeOffset?: boolean | cdktf.IResolvable;
   /**
   * Provide an alias for the offset column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_offset_alias SourceKafka#include_offset_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_offset_alias SourceKafka#include_offset_alias}
   */
   readonly includeOffsetAlias?: string;
   /**
   * Include a partition column containing the Kafka message partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_partition SourceKafka#include_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_partition SourceKafka#include_partition}
   */
   readonly includePartition?: boolean | cdktf.IResolvable;
   /**
   * Provide an alias for the partition column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_partition_alias SourceKafka#include_partition_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_partition_alias SourceKafka#include_partition_alias}
   */
   readonly includePartitionAlias?: string;
   /**
   * Include a timestamp column containing the Kafka message timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_timestamp SourceKafka#include_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_timestamp SourceKafka#include_timestamp}
   */
   readonly includeTimestamp?: boolean | cdktf.IResolvable;
   /**
   * Provide an alias for the timestamp column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#include_timestamp_alias SourceKafka#include_timestamp_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#include_timestamp_alias SourceKafka#include_timestamp_alias}
   */
   readonly includeTimestampAlias?: string;
   /**
   * The identifier for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The owernship role of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#ownership_role SourceKafka#ownership_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#ownership_role SourceKafka#ownership_role}
   */
   readonly ownershipRole?: string;
   /**
   * The region to use for the resource connection. If not set, the default region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#region SourceKafka#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#region SourceKafka#region}
   */
   readonly region?: string;
   /**
   * The identifier for the source schema in Materialize. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Read partitions from the specified offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#start_offset SourceKafka#start_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#start_offset SourceKafka#start_offset}
   */
   readonly startOffset?: number[];
   /**
   * Use the specified value to set `START OFFSET` based on the Kafka timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#start_timestamp SourceKafka#start_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#start_timestamp SourceKafka#start_timestamp}
   */
   readonly startTimestamp?: number;
   /**
   * The Kafka topic you want to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#topic SourceKafka#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#topic SourceKafka#topic}
   */
   readonly topic: string;
   /**
   * envelope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#envelope SourceKafka#envelope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#envelope SourceKafka#envelope}
   */
   readonly envelope?: SourceKafkaEnvelope;
   /**
   * expose_progress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#expose_progress SourceKafka#expose_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#expose_progress SourceKafka#expose_progress}
   */
   readonly exposeProgress?: SourceKafkaExposeProgress;
   /**
   * format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#format SourceKafka#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#format SourceKafka#format}
   */
   readonly format?: SourceKafkaFormat;
   /**
   * kafka_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#kafka_connection SourceKafka#kafka_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#kafka_connection SourceKafka#kafka_connection}
   */
   readonly kafkaConnection: SourceKafkaKafkaConnection;
   /**
   * key_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#key_format SourceKafka#key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#key_format SourceKafka#key_format}
   */
   readonly keyFormat?: SourceKafkaKeyFormat;
   /**
   * value_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#value_format SourceKafka#value_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#value_format SourceKafka#value_format}
   */
   readonly valueFormat?: SourceKafkaValueFormat;
 }
@@ -175,13 +175,13 @@ export interface SourceKafkaEnvelopeUpsertOptionsValueDecodingErrorsInline {
   /**
   * Specify an alias for the value decoding errors column, to use an alternative name for the error column. If not specified, the column name will be `error`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#alias SourceKafka#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#alias SourceKafka#alias}
   */
   readonly alias?: string;
   /**
   * Enable inline value decoding errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#enabled SourceKafka#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#enabled SourceKafka#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -296,7 +296,7 @@ export interface SourceKafkaEnvelopeUpsertOptionsValueDecodingErrors {
   /**
   * inline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#inline SourceKafka#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#inline SourceKafka#inline}
   */
   readonly inline?: SourceKafkaEnvelopeUpsertOptionsValueDecodingErrorsInline;
 }
@@ -382,7 +382,7 @@ export interface SourceKafkaEnvelopeUpsertOptions {
   /**
   * value_decoding_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#value_decoding_errors SourceKafka#value_decoding_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#value_decoding_errors SourceKafka#value_decoding_errors}
   */
   readonly valueDecodingErrors?: SourceKafkaEnvelopeUpsertOptionsValueDecodingErrors;
 }
@@ -468,25 +468,25 @@ export interface SourceKafkaEnvelope {
   /**
   * Use the Debezium envelope, which uses a diff envelope to handle CRUD operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#debezium SourceKafka#debezium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#debezium SourceKafka#debezium}
   */
   readonly debezium?: boolean | cdktf.IResolvable;
   /**
   * Use an append-only envelope. This means that records will only be appended and cannot be updated or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#none SourceKafka#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#none SourceKafka#none}
   */
   readonly none?: boolean | cdktf.IResolvable;
   /**
   * Use the upsert envelope, which uses message keys to handle CRUD operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#upsert SourceKafka#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#upsert SourceKafka#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * upsert_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#upsert_options SourceKafka#upsert_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#upsert_options SourceKafka#upsert_options}
   */
   readonly upsertOptions?: SourceKafkaEnvelopeUpsertOptions;
 }
@@ -659,19 +659,19 @@ export interface SourceKafkaExposeProgress {
   /**
   * The expose_progress database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The expose_progress name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The expose_progress schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -812,19 +812,19 @@ export interface SourceKafkaFormatAvroSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -965,19 +965,19 @@ export interface SourceKafkaFormatAvro {
   /**
   * How Materialize will define the Avro schema reader key strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
   */
   readonly keyStrategy?: string;
   /**
   * How Materialize will define the Avro schema reader value strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
   */
   readonly valueStrategy?: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaFormatAvroSchemaRegistryConnection;
 }
@@ -1118,19 +1118,19 @@ export interface SourceKafkaFormatCsv {
   /**
   * The columns to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#column SourceKafka#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#column SourceKafka#column}
   */
   readonly column?: number;
   /**
   * The delimiter to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
   */
   readonly delimitedBy?: string;
   /**
   * The number of columns and the name of each column using the header row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#header SourceKafka#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#header SourceKafka#header}
   */
   readonly header?: string[];
 }
@@ -1306,19 +1306,19 @@ export interface SourceKafkaFormatProtobufSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1459,13 +1459,13 @@ export interface SourceKafkaFormatProtobuf {
   /**
   * The name of the Protobuf message to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#message SourceKafka#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#message SourceKafka#message}
   */
   readonly message: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaFormatProtobufSchemaRegistryConnection;
 }
@@ -1574,37 +1574,37 @@ export interface SourceKafkaFormat {
   /**
   * BYTES format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#bytes SourceKafka#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#bytes SourceKafka#bytes}
   */
   readonly bytes?: boolean | cdktf.IResolvable;
   /**
   * JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#json SourceKafka#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#json SourceKafka#json}
   */
   readonly json?: boolean | cdktf.IResolvable;
   /**
   * Text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#text SourceKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#text SourceKafka#text}
   */
   readonly text?: boolean | cdktf.IResolvable;
   /**
   * avro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#avro SourceKafka#avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#avro SourceKafka#avro}
   */
   readonly avro?: SourceKafkaFormatAvro;
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#csv SourceKafka#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#csv SourceKafka#csv}
   */
   readonly csv?: SourceKafkaFormatCsv[] | cdktf.IResolvable;
   /**
   * protobuf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
   */
   readonly protobuf?: SourceKafkaFormatProtobuf;
 }
@@ -1835,19 +1835,19 @@ export interface SourceKafkaKafkaConnection {
   /**
   * The kafka_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The kafka_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The kafka_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -1988,19 +1988,19 @@ export interface SourceKafkaKeyFormatAvroSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -2141,19 +2141,19 @@ export interface SourceKafkaKeyFormatAvro {
   /**
   * How Materialize will define the Avro schema reader key strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
   */
   readonly keyStrategy?: string;
   /**
   * How Materialize will define the Avro schema reader value strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
   */
   readonly valueStrategy?: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaKeyFormatAvroSchemaRegistryConnection;
 }
@@ -2294,19 +2294,19 @@ export interface SourceKafkaKeyFormatCsv {
   /**
   * The columns to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#column SourceKafka#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#column SourceKafka#column}
   */
   readonly column?: number;
   /**
   * The delimiter to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
   */
   readonly delimitedBy?: string;
   /**
   * The number of columns and the name of each column using the header row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#header SourceKafka#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#header SourceKafka#header}
   */
   readonly header?: string[];
 }
@@ -2482,19 +2482,19 @@ export interface SourceKafkaKeyFormatProtobufSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -2635,13 +2635,13 @@ export interface SourceKafkaKeyFormatProtobuf {
   /**
   * The name of the Protobuf message to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#message SourceKafka#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#message SourceKafka#message}
   */
   readonly message: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaKeyFormatProtobufSchemaRegistryConnection;
 }
@@ -2750,37 +2750,37 @@ export interface SourceKafkaKeyFormat {
   /**
   * BYTES format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#bytes SourceKafka#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#bytes SourceKafka#bytes}
   */
   readonly bytes?: boolean | cdktf.IResolvable;
   /**
   * JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#json SourceKafka#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#json SourceKafka#json}
   */
   readonly json?: boolean | cdktf.IResolvable;
   /**
   * Text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#text SourceKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#text SourceKafka#text}
   */
   readonly text?: boolean | cdktf.IResolvable;
   /**
   * avro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#avro SourceKafka#avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#avro SourceKafka#avro}
   */
   readonly avro?: SourceKafkaKeyFormatAvro;
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#csv SourceKafka#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#csv SourceKafka#csv}
   */
   readonly csv?: SourceKafkaKeyFormatCsv[] | cdktf.IResolvable;
   /**
   * protobuf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
   */
   readonly protobuf?: SourceKafkaKeyFormatProtobuf;
 }
@@ -3011,19 +3011,19 @@ export interface SourceKafkaValueFormatAvroSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -3164,19 +3164,19 @@ export interface SourceKafkaValueFormatAvro {
   /**
   * How Materialize will define the Avro schema reader key strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#key_strategy SourceKafka#key_strategy}
   */
   readonly keyStrategy?: string;
   /**
   * How Materialize will define the Avro schema reader value strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#value_strategy SourceKafka#value_strategy}
   */
   readonly valueStrategy?: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaValueFormatAvroSchemaRegistryConnection;
 }
@@ -3317,19 +3317,19 @@ export interface SourceKafkaValueFormatCsv {
   /**
   * The columns to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#column SourceKafka#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#column SourceKafka#column}
   */
   readonly column?: number;
   /**
   * The delimiter to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#delimited_by SourceKafka#delimited_by}
   */
   readonly delimitedBy?: string;
   /**
   * The number of columns and the name of each column using the header row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#header SourceKafka#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#header SourceKafka#header}
   */
   readonly header?: string[];
 }
@@ -3505,19 +3505,19 @@ export interface SourceKafkaValueFormatProtobufSchemaRegistryConnection {
   /**
   * The schema_registry_connection database name. Defaults to `MZ_DATABASE` environment variable if set or `materialize` if environment variable is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#database_name SourceKafka#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#database_name SourceKafka#database_name}
   */
   readonly databaseName?: string;
   /**
   * The schema_registry_connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#name SourceKafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#name SourceKafka#name}
   */
   readonly name: string;
   /**
   * The schema_registry_connection schema name. Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_name SourceKafka#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -3658,13 +3658,13 @@ export interface SourceKafkaValueFormatProtobuf {
   /**
   * The name of the Protobuf message to use for the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#message SourceKafka#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#message SourceKafka#message}
   */
   readonly message: string;
   /**
   * schema_registry_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#schema_registry_connection SourceKafka#schema_registry_connection}
   */
   readonly schemaRegistryConnection: SourceKafkaValueFormatProtobufSchemaRegistryConnection;
 }
@@ -3773,37 +3773,37 @@ export interface SourceKafkaValueFormat {
   /**
   * BYTES format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#bytes SourceKafka#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#bytes SourceKafka#bytes}
   */
   readonly bytes?: boolean | cdktf.IResolvable;
   /**
   * JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#json SourceKafka#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#json SourceKafka#json}
   */
   readonly json?: boolean | cdktf.IResolvable;
   /**
   * Text format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#text SourceKafka#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#text SourceKafka#text}
   */
   readonly text?: boolean | cdktf.IResolvable;
   /**
   * avro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#avro SourceKafka#avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#avro SourceKafka#avro}
   */
   readonly avro?: SourceKafkaValueFormatAvro;
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#csv SourceKafka#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#csv SourceKafka#csv}
   */
   readonly csv?: SourceKafkaValueFormatCsv[] | cdktf.IResolvable;
   /**
   * protobuf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#protobuf SourceKafka#protobuf}
   */
   readonly protobuf?: SourceKafkaValueFormatProtobuf;
 }
@@ -4032,7 +4032,7 @@ export class SourceKafkaValueFormatOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka materialize_source_kafka}
+* Represents a {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka materialize_source_kafka}
 */
 export class SourceKafka extends cdktf.TerraformResource {
 
@@ -4048,7 +4048,7 @@ export class SourceKafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceKafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceKafka to import
-  * @param importFromId The id of the existing SourceKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceKafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4060,7 +4060,7 @@ export class SourceKafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.3/docs/resources/source_kafka materialize_source_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/materializeinc/materialize/0.9.4/docs/resources/source_kafka materialize_source_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4071,8 +4071,8 @@ export class SourceKafka extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_kafka',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.3',
-        providerVersionConstraint: '0.9.3'
+        providerVersion: '0.9.4',
+        providerVersionConstraint: '0.9.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
