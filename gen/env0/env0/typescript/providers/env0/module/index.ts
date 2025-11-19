@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * the client key used for integration with Bitbucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#bitbucket_client_key Module#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#bitbucket_client_key Module#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * description of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#description Module#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#description Module#description}
   */
   readonly description?: string;
   /**
   * the env0 application installation id on the relevant Github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#github_installation_id Module#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#github_installation_id Module#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,109 +35,109 @@ export interface ModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * true if this module integrates with azure dev ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#is_azure_devops Module#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#is_azure_devops Module#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * true if this module integrates with Bitbucket Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#is_bitbucket_server Module#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#is_bitbucket_server Module#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * true if this module integrates with GitHub Enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#is_github_enterprise Module#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#is_github_enterprise Module#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * true if this module integrates with GitLab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#is_gitlab Module#is_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#is_gitlab Module#is_gitlab}
   */
   readonly isGitlab?: boolean | cdktf.IResolvable;
   /**
   * true if this module integrates with GitLab Enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#is_gitlab_enterprise Module#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#is_gitlab_enterprise Module#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * name of the module (Match pattern: ^[0-9A-Za-z](?:[0-9A-Za-z-_]{0,62}[0-9A-Za-z])?$)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#module_name Module#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#module_name Module#module_name}
   */
   readonly moduleName: string;
   /**
   * the provider name in the module source (Match pattern: ^[0-9a-z]{0,64}$)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#module_provider Module#module_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#module_provider Module#module_provider}
   */
   readonly moduleProvider: string;
   /**
   * set to 'true' to enable module test (defaults to 'false')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#module_test_enabled Module#module_test_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#module_test_enabled Module#module_test_enabled}
   */
   readonly moduleTestEnabled?: boolean | cdktf.IResolvable;
   /**
   * the opentofu version to use, Can only be set if 'module_test_enabled' is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#opentofu_version Module#opentofu_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#opentofu_version Module#opentofu_version}
   */
   readonly opentofuVersion?: string;
   /**
   * the folder in the repository to create the module from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#path Module#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#path Module#path}
   */
   readonly path?: string;
   /**
   * the repository containing the module files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#repository Module#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#repository Module#repository}
   */
   readonly repository: string;
   /**
   * set to 'true' to run tests on pull request (defaults to 'false'). Can only be enabled if 'module_test_enabled' is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#run_tests_on_pull_request Module#run_tests_on_pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#run_tests_on_pull_request Module#run_tests_on_pull_request}
   */
   readonly runTestsOnPullRequest?: boolean | cdktf.IResolvable;
   /**
   * an array of references to 'data_ssh_key' to use when accessing git over ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#ssh_keys Module#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#ssh_keys Module#ssh_keys}
   */
   readonly sshKeys?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * a tag prefix for the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#tag_prefix Module#tag_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#tag_prefix Module#tag_prefix}
   */
   readonly tagPrefix?: string;
   /**
   * the git token id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#token_id Module#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#token_id Module#token_id}
   */
   readonly tokenId?: string;
   /**
   * the token name used for integration with GitLab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#token_name Module#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#token_name Module#token_name}
   */
   readonly tokenName?: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#vcs_connection_id Module#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#vcs_connection_id Module#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module env0_module}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module env0_module}
 */
 export class Module extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class Module extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Module resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Module to import
-  * @param importFromId The id of the existing Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Module to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class Module extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/module env0_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/module env0_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class Module extends cdktf.TerraformResource {
       terraformResourceType: 'env0_module',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

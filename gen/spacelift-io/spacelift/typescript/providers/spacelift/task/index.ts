@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Command that will be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#command Task#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#command Task#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#id Task#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#id Task#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to initialize the stack or not. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#init Task#init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#init Task#init}
   */
   readonly init?: boolean | cdktf.IResolvable;
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#keepers Task#keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#keepers Task#keepers}
   */
   readonly keepers?: { [key: string]: string };
   /**
   * ID of the stack for which to run the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#stack_id Task#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#stack_id Task#stack_id}
   */
   readonly stackId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#timeouts Task#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#timeouts Task#timeouts}
   */
   readonly timeouts?: TaskTimeouts;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#wait Task#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#wait Task#wait}
   */
   readonly wait?: TaskWait;
 }
 export interface TaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#create Task#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#create Task#create}
   */
   readonly create?: string;
 }
@@ -149,19 +149,19 @@ export interface TaskWait {
   /**
   * Continue on the specified states of a finished run. If not specified, the default is `[ 'finished' ]`. You can use following states: `applying`, `canceled`, `confirmed`, `destroying`, `discarded`, `failed`, `finished`, `initializing`, `pending_review`, `performing`, `planning`, `preparing_apply`, `preparing_replan`, `preparing`, `queued`, `ready`, `replan_requested`, `skipped`, `stopped`, `unconfirmed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#continue_on_state Task#continue_on_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#continue_on_state Task#continue_on_state}
   */
   readonly continueOnState?: string[];
   /**
   * Continue if task timed out, i.e. did not reach any defined end state in time. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#continue_on_timeout Task#continue_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#continue_on_timeout Task#continue_on_timeout}
   */
   readonly continueOnTimeout?: boolean | cdktf.IResolvable;
   /**
   * Whether waiting for the task is disabled or not. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#disabled Task#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#disabled Task#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -303,7 +303,7 @@ export class TaskWaitOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task spacelift_task}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task spacelift_task}
 */
 export class Task extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class Task extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Task resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Task to import
-  * @param importFromId The id of the existing Task that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Task that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Task to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class Task extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/task spacelift_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/task spacelift_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class Task extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_task',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.37.0',
-        providerVersionConstraint: '1.37.0'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

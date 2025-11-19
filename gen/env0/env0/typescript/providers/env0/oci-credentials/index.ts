@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OciCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * OCI API key fingerprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#fingerprint OciCredentials#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#fingerprint OciCredentials#fingerprint}
   */
   readonly fingerprint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#id OciCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#id OciCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface OciCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the oci credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#name OciCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#name OciCredentials#name}
   */
   readonly name: string;
   /**
   * OCI API private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#private_key OciCredentials#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#private_key OciCredentials#private_key}
   */
   readonly privateKey: string;
   /**
   * the env0 project id to associate the credentials with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#project_id OciCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#project_id OciCredentials#project_id}
   */
   readonly projectId?: string;
   /**
   * OCI region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#region OciCredentials#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#region OciCredentials#region}
   */
   readonly region: string;
   /**
   * OCI tenancy OCID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#tenancy_ocid OciCredentials#tenancy_ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#tenancy_ocid OciCredentials#tenancy_ocid}
   */
   readonly tenancyOcid: string;
   /**
   * OCI user OCID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#user_ocid OciCredentials#user_ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#user_ocid OciCredentials#user_ocid}
   */
   readonly userOcid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials env0_oci_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials env0_oci_credentials}
 */
 export class OciCredentials extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class OciCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OciCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OciCredentials to import
-  * @param importFromId The id of the existing OciCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OciCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OciCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class OciCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/oci_credentials env0_oci_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/oci_credentials env0_oci_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class OciCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_oci_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

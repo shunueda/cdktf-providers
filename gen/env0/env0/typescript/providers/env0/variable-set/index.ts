@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VariableSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * the description of the variable set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#description VariableSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#description VariableSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#id VariableSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#id VariableSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface VariableSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * the name of the variable set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#name VariableSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#name VariableSet#name}
   */
   readonly name: string;
   /**
   * the scope of the variable set: 'organization', or 'project' (defaults to 'organization')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#scope VariableSet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#scope VariableSet#scope}
   */
   readonly scope?: string;
   /**
   * the scope id (e.g. project id). Note: not required for organization scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#scope_id VariableSet#scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#scope_id VariableSet#scope_id}
   */
   readonly scopeId?: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#variable VariableSet#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#variable VariableSet#variable}
   */
   readonly variable?: VariableSetVariable[] | cdktf.IResolvable;
 }
@@ -49,37 +49,37 @@ export interface VariableSetVariable {
   /**
   * a list of variable values for 'dropdown' format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#dropdown_values VariableSet#dropdown_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#dropdown_values VariableSet#dropdown_values}
   */
   readonly dropdownValues?: string[];
   /**
   * the value format: 'text' (free text), 'dropdown' (dropdown list), 'hcl', 'json'. Note: 'hcl' and 'json' can only be used in terraform variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#format VariableSet#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#format VariableSet#format}
   */
   readonly format?: string;
   /**
   * is the value sensitive (defaults to 'false'). Note: 'dropdown' value format cannot be sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#is_sensitive VariableSet#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#is_sensitive VariableSet#is_sensitive}
   */
   readonly isSensitive?: boolean | cdktf.IResolvable;
   /**
   * variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#name VariableSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#name VariableSet#name}
   */
   readonly name: string;
   /**
   * variable type: terraform or environment (defaults to 'environment')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#type VariableSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#type VariableSet#type}
   */
   readonly type?: string;
   /**
   * variable value for 'hcl', 'json', or 'text' format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#value VariableSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#value VariableSet#value}
   */
   readonly value?: string;
 }
@@ -337,7 +337,7 @@ export class VariableSetVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set env0_variable_set}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set env0_variable_set}
 */
 export class VariableSet extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class VariableSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VariableSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VariableSet to import
-  * @param importFromId The id of the existing VariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VariableSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class VariableSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/variable_set env0_variable_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/variable_set env0_variable_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class VariableSet extends cdktf.TerraformResource {
       terraformResourceType: 'env0_variable_set',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

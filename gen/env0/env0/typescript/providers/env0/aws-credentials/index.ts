@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * the aws access key id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#access_key_id AwsCredentials#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#access_key_id AwsCredentials#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * the aws role arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#arn AwsCredentials#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#arn AwsCredentials#arn}
   */
   readonly arn?: string;
   /**
   * the session duration in seconds for AWS_ASSUMED_ROLE_FOR_DEPLOYMENT. If set must be one of the following: 3600 (1h), 7200 (2h), 14400 (4h), 18000 (5h default), 28800 (8h), 43200 (12h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#duration AwsCredentials#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#duration AwsCredentials#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#id AwsCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#id AwsCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface AwsCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#name AwsCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#name AwsCredentials#name}
   */
   readonly name: string;
   /**
   * the env0 project id to associate the credentials with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#project_id AwsCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#project_id AwsCredentials#project_id}
   */
   readonly projectId?: string;
   /**
   * the aws access key secret. In case your organization is self-hosted, please use a secret reference in the shape of ${ssm:<secret-id>}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#secret_access_key AwsCredentials#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#secret_access_key AwsCredentials#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials env0_aws_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials env0_aws_credentials}
 */
 export class AwsCredentials extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AwsCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCredentials to import
-  * @param importFromId The id of the existing AwsCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AwsCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_credentials env0_aws_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_credentials env0_aws_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AwsCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_aws_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

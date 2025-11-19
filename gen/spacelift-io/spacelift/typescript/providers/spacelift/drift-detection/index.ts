@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DriftDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#id DriftDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#id DriftDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DriftDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Controls whether drift detection should be performed on a stack in any final state instead of just 'Finished'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#ignore_state DriftDetection#ignore_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#ignore_state DriftDetection#ignore_state}
   */
   readonly ignoreState?: boolean | cdktf.IResolvable;
   /**
   * Whether a tracked run should be triggered when drift is detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#reconcile DriftDetection#reconcile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#reconcile DriftDetection#reconcile}
   */
   readonly reconcile?: boolean | cdktf.IResolvable;
   /**
   * List of cron schedule expressions based on which drift detection should be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#schedule DriftDetection#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#schedule DriftDetection#schedule}
   */
   readonly schedule: string[];
   /**
   * ID of the stack for which to set up drift detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#stack_id DriftDetection#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#stack_id DriftDetection#stack_id}
   */
   readonly stackId: string;
   /**
   * Timezone in which the schedule is expressed. Defaults to `UTC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#timezone DriftDetection#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#timezone DriftDetection#timezone}
   */
   readonly timezone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection spacelift_drift_detection}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection spacelift_drift_detection}
 */
 export class DriftDetection extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DriftDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DriftDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DriftDetection to import
-  * @param importFromId The id of the existing DriftDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DriftDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DriftDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DriftDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/drift_detection spacelift_drift_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/drift_detection spacelift_drift_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DriftDetection extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_drift_detection',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.37.0',
-        providerVersionConstraint: '1.37.0'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

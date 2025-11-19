@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#description DataSdmPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#description DataSdmPolicy#description}
   */
   readonly description?: string;
   /**
   * Unique identifier of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#id DataSdmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#id DataSdmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataSdmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#name DataSdmPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#name DataSdmPolicy#name}
   */
   readonly name?: string;
   /**
   * The content of the Policy, in Cedar policy language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#policy DataSdmPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#policy DataSdmPolicy#policy}
   */
   readonly policy?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#timeouts DataSdmPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#timeouts DataSdmPolicy#timeouts}
   */
   readonly timeouts?: DataSdmPolicyTimeouts;
 }
@@ -133,7 +133,7 @@ export class DataSdmPolicyPoliciesList extends cdktf.ComplexList {
 }
 export interface DataSdmPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#default DataSdmPolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#default DataSdmPolicy#default}
   */
   readonly default?: string;
 }
@@ -227,7 +227,7 @@ export class DataSdmPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy sdm_policy}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy sdm_policy}
 */
 export class DataSdmPolicy extends cdktf.TerraformDataSource {
 
@@ -243,7 +243,7 @@ export class DataSdmPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmPolicy to import
-  * @param importFromId The id of the existing DataSdmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DataSdmPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/policy sdm_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/policy sdm_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DataSdmPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_policy',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

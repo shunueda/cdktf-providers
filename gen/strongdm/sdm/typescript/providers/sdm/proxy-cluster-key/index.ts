@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProxyClusterKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#id ProxyClusterKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#id ProxyClusterKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ProxyClusterKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the proxy cluster which this key authenticates to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#proxy_cluster_id ProxyClusterKey#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#proxy_cluster_id ProxyClusterKey#proxy_cluster_id}
   */
   readonly proxyClusterId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#timeouts ProxyClusterKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#timeouts ProxyClusterKey#timeouts}
   */
   readonly timeouts?: ProxyClusterKeyTimeouts;
 }
 export interface ProxyClusterKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#create ProxyClusterKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#create ProxyClusterKey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#default ProxyClusterKey#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#default ProxyClusterKey#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#delete ProxyClusterKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#delete ProxyClusterKey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#read ProxyClusterKey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#read ProxyClusterKey#read}
   */
   readonly read?: string;
 }
@@ -222,7 +222,7 @@ export class ProxyClusterKeyTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key sdm_proxy_cluster_key}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key sdm_proxy_cluster_key}
 */
 export class ProxyClusterKey extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class ProxyClusterKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProxyClusterKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProxyClusterKey to import
-  * @param importFromId The id of the existing ProxyClusterKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProxyClusterKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProxyClusterKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class ProxyClusterKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/proxy_cluster_key sdm_proxy_cluster_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/proxy_cluster_key sdm_proxy_cluster_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class ProxyClusterKey extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_proxy_cluster_key',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

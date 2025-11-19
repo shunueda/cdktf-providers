@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EnvironmentOutputConfigurationVariableConfig extends cdktf.Terr
   /**
   * a description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#description EnvironmentOutputConfigurationVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#description EnvironmentOutputConfigurationVariable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#id EnvironmentOutputConfigurationVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#id EnvironmentOutputConfigurationVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface EnvironmentOutputConfigurationVariableConfig extends cdktf.Terr
   /**
   * set to 'true' if the value of this variable cannot be edited in lower scopes (applicable only to 'PROJECT' scope)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#is_read_only EnvironmentOutputConfigurationVariable#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#is_read_only EnvironmentOutputConfigurationVariable#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * set to 'true' if the value of this variable is required in lower scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#is_required EnvironmentOutputConfigurationVariable#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#is_required EnvironmentOutputConfigurationVariable#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * the name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#name EnvironmentOutputConfigurationVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#name EnvironmentOutputConfigurationVariable#name}
   */
   readonly name: string;
   /**
   * the environment id of the output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#output_environment_id EnvironmentOutputConfigurationVariable#output_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#output_environment_id EnvironmentOutputConfigurationVariable#output_environment_id}
   */
   readonly outputEnvironmentId: string;
   /**
   * the name of the output value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#output_name EnvironmentOutputConfigurationVariable#output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#output_name EnvironmentOutputConfigurationVariable#output_name}
   */
   readonly outputName: string;
   /**
   * the type of resource to assign to. Valid values: 'PROJECT', 'ENVIRONMENT', 'WORKFLOW', and 'DEPLOYMENT'. Default value: 'ENVIRONMENT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#scope EnvironmentOutputConfigurationVariable#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#scope EnvironmentOutputConfigurationVariable#scope}
   */
   readonly scope?: string;
   /**
   * the id of the of the resource to assign to (E.g. the environment id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#scope_id EnvironmentOutputConfigurationVariable#scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#scope_id EnvironmentOutputConfigurationVariable#scope_id}
   */
   readonly scopeId: string;
   /**
   * defaults to 'environment'. Set to 'terraform' to create a terraform output variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#type EnvironmentOutputConfigurationVariable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#type EnvironmentOutputConfigurationVariable#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable env0_environment_output_configuration_variable}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable env0_environment_output_configuration_variable}
 */
 export class EnvironmentOutputConfigurationVariable extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class EnvironmentOutputConfigurationVariable extends cdktf.TerraformResou
   * Generates CDKTF code for importing a EnvironmentOutputConfigurationVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentOutputConfigurationVariable to import
-  * @param importFromId The id of the existing EnvironmentOutputConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentOutputConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentOutputConfigurationVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class EnvironmentOutputConfigurationVariable extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment_output_configuration_variable env0_environment_output_configuration_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment_output_configuration_variable env0_environment_output_configuration_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class EnvironmentOutputConfigurationVariable extends cdktf.TerraformResou
       terraformResourceType: 'env0_environment_output_configuration_variable',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VcsConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#id VcsConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#id VcsConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface VcsConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * name of the VCS connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#name VcsConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#name VcsConnection#name}
   */
   readonly name: string;
   /**
   * the VCS type (BitBucketServer, GitLabEnterprise, or GitHubEnterprise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#type VcsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#type VcsConnection#type}
   */
   readonly type: string;
   /**
   * URL of the VCS server. This can either be a 'VCS URL' (e.g.: https://github.com) or 'Repository URL' (E.g.: https://github.com/env0/myrepo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#url VcsConnection#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#url VcsConnection#url}
   */
   readonly url: string;
   /**
   * VCS agent key. Use a custom agent key or 'ENV0_DEFAULT' to use the default env0 agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#vcs_agent_key VcsConnection#vcs_agent_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#vcs_agent_key VcsConnection#vcs_agent_key}
   */
   readonly vcsAgentKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection env0_vcs_connection}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection env0_vcs_connection}
 */
 export class VcsConnection extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VcsConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsConnection to import
-  * @param importFromId The id of the existing VcsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VcsConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/vcs_connection env0_vcs_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/vcs_connection env0_vcs_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VcsConnection extends cdktf.TerraformResource {
       terraformResourceType: 'env0_vcs_connection',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

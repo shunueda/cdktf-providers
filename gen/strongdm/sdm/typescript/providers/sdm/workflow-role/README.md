@@ -1,3 +1,3 @@
 # `sdm_workflow_role`
 
-Refer to the Terraform Registry for docs: [`sdm_workflow_role`](https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/workflow_role).
+Refer to the Terraform Registry for docs: [`sdm_workflow_role`](https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/workflow_role).

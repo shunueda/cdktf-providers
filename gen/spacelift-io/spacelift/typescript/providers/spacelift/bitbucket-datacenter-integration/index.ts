@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface BitbucketDatacenterIntegrationConfig extends cdktf.TerraformMet
   /**
   * User access token from Bitbucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#access_token BitbucketDatacenterIntegration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#access_token BitbucketDatacenterIntegration#access_token}
   */
   readonly accessToken: string;
   /**
   * The API host where requests will be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#api_host BitbucketDatacenterIntegration#api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#api_host BitbucketDatacenterIntegration#api_host}
   */
   readonly apiHost: string;
   /**
   * Bitbucket Datacenter integration description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#description BitbucketDatacenterIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#description BitbucketDatacenterIntegration#description}
   */
   readonly description?: string;
   /**
   * Bitbucket Datacenter integration is default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#is_default BitbucketDatacenterIntegration#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#is_default BitbucketDatacenterIntegration#is_default}
   */
   readonly isDefault: boolean | cdktf.IResolvable;
   /**
   * Bitbucket Datacenter integration labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#labels BitbucketDatacenterIntegration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#labels BitbucketDatacenterIntegration#labels}
   */
   readonly labels?: string[];
   /**
   * Bitbucket Datacenter integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#name BitbucketDatacenterIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#name BitbucketDatacenterIntegration#name}
   */
   readonly name: string;
   /**
   * Bitbucket Datacenter integration space id. Defaults to `root`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#space_id BitbucketDatacenterIntegration#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#space_id BitbucketDatacenterIntegration#space_id}
   */
   readonly spaceId?: string;
   /**
   * Indicates whether the integration should use git checkout. If false source code will be downloaded using the VCS API. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#use_git_checkout BitbucketDatacenterIntegration#use_git_checkout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#use_git_checkout BitbucketDatacenterIntegration#use_git_checkout}
   */
   readonly useGitCheckout?: boolean | cdktf.IResolvable;
   /**
   * User Facing Host which will be used for all user-facing URLs displayed in the Spacelift UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#user_facing_host BitbucketDatacenterIntegration#user_facing_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#user_facing_host BitbucketDatacenterIntegration#user_facing_host}
   */
   readonly userFacingHost: string;
   /**
   * Username which will be used to authenticate requests for cloning repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#username BitbucketDatacenterIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#username BitbucketDatacenterIntegration#username}
   */
   readonly username: string;
   /**
   * VCS checks configured for Bitbucket Datacenter repositories. Possible values: INDIVIDUAL, AGGREGATED, ALL. Defaults to INDIVIDUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#vcs_checks BitbucketDatacenterIntegration#vcs_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#vcs_checks BitbucketDatacenterIntegration#vcs_checks}
   */
   readonly vcsChecks?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration spacelift_bitbucket_datacenter_integration}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration spacelift_bitbucket_datacenter_integration}
 */
 export class BitbucketDatacenterIntegration extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class BitbucketDatacenterIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BitbucketDatacenterIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BitbucketDatacenterIntegration to import
-  * @param importFromId The id of the existing BitbucketDatacenterIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BitbucketDatacenterIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BitbucketDatacenterIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class BitbucketDatacenterIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/bitbucket_datacenter_integration spacelift_bitbucket_datacenter_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/bitbucket_datacenter_integration spacelift_bitbucket_datacenter_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class BitbucketDatacenterIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_bitbucket_datacenter_integration',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.37.0',
-        providerVersionConstraint: '1.37.0'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

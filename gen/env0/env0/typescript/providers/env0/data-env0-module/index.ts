@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEnv0ModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * the client key used for integration with Bitbucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#bitbucket_client_key DataEnv0Module#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#bitbucket_client_key DataEnv0Module#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * the env0 application installation id on the relevant github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#github_installation_id DataEnv0Module#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#github_installation_id DataEnv0Module#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * id of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#id DataEnv0Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#id DataEnv0Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,31 +31,31 @@ export interface DataEnv0ModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * true if this module integrates with azure dev ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#is_azure_devops DataEnv0Module#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#is_azure_devops DataEnv0Module#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * the name of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#module_name DataEnv0Module#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#module_name DataEnv0Module#module_name}
   */
   readonly moduleName?: string;
   /**
   * the token id used for integration with GitLab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#token_id DataEnv0Module#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#token_id DataEnv0Module#token_id}
   */
   readonly tokenId?: string;
   /**
   * the token name used for integration with GitLab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#token_name DataEnv0Module#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#token_name DataEnv0Module#token_name}
   */
   readonly tokenName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module env0_module}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module env0_module}
 */
 export class DataEnv0Module extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataEnv0Module extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0Module resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0Module to import
-  * @param importFromId The id of the existing DataEnv0Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0Module to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataEnv0Module extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/module env0_module} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/module env0_module} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataEnv0Module extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_module',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

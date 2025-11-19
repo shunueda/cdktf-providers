@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdentityAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * The account for this identity alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#account_id IdentityAlias#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#account_id IdentityAlias#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#id IdentityAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#id IdentityAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface IdentityAliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identity set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#identity_set_id IdentityAlias#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#identity_set_id IdentityAlias#identity_set_id}
   */
   readonly identitySetId: string;
   /**
   * The username to be used as the identity alias for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#username IdentityAlias#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#username IdentityAlias#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#timeouts IdentityAlias#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#timeouts IdentityAlias#timeouts}
   */
   readonly timeouts?: IdentityAliasTimeouts;
 }
 export interface IdentityAliasTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#create IdentityAlias#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#create IdentityAlias#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#default IdentityAlias#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#default IdentityAlias#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#delete IdentityAlias#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#delete IdentityAlias#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#read IdentityAlias#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#read IdentityAlias#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#update IdentityAlias#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#update IdentityAlias#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class IdentityAliasTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias sdm_identity_alias}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias sdm_identity_alias}
 */
 export class IdentityAlias extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class IdentityAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityAlias to import
-  * @param importFromId The id of the existing IdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class IdentityAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/identity_alias sdm_identity_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/identity_alias sdm_identity_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class IdentityAlias extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_identity_alias',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

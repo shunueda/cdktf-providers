@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagedSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#id ManagedSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#id ManagedSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface ManagedSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the Managed Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#name ManagedSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#name ManagedSecret#name}
   */
   readonly name: string;
   /**
   * An ID of a Secret Engine linked with the Managed Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#secret_engine_id ManagedSecret#secret_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#secret_engine_id ManagedSecret#secret_engine_id}
   */
   readonly secretEngineId: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#tags ManagedSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#tags ManagedSecret#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Sensitive value of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#value ManagedSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#value ManagedSecret#value}
   */
   readonly value?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#timeouts ManagedSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#timeouts ManagedSecret#timeouts}
   */
   readonly timeouts?: ManagedSecretTimeouts;
 }
 export interface ManagedSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#create ManagedSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#create ManagedSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#default ManagedSecret#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#default ManagedSecret#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#delete ManagedSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#delete ManagedSecret#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#read ManagedSecret#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#read ManagedSecret#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#update ManagedSecret#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#update ManagedSecret#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class ManagedSecretTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret sdm_managed_secret}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret sdm_managed_secret}
 */
 export class ManagedSecret extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ManagedSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedSecret to import
-  * @param importFromId The id of the existing ManagedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ManagedSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/managed_secret sdm_managed_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/resources/managed_secret sdm_managed_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ManagedSecret extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_managed_secret',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

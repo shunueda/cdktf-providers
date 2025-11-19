@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSdmApprovalWorkflowConfig extends cdktf.TerraformMetaArgume
   /**
   * Approval mode of the ApprovalWorkflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#approval_mode DataSdmApprovalWorkflow#approval_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#approval_mode DataSdmApprovalWorkflow#approval_mode}
   */
   readonly approvalMode?: string;
   /**
   * Optional description of the ApprovalWorkflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#description DataSdmApprovalWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#description DataSdmApprovalWorkflow#description}
   */
   readonly description?: string;
   /**
   * Unique identifier of the ApprovalWorkflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#id DataSdmApprovalWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#id DataSdmApprovalWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,19 +31,19 @@ export interface DataSdmApprovalWorkflowConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique human-readable name of the ApprovalWorkflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#name DataSdmApprovalWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#name DataSdmApprovalWorkflow#name}
   */
   readonly name?: string;
   /**
   * approval_step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#approval_step DataSdmApprovalWorkflow#approval_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#approval_step DataSdmApprovalWorkflow#approval_step}
   */
   readonly approvalStep?: DataSdmApprovalWorkflowApprovalStep[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#timeouts DataSdmApprovalWorkflow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#timeouts DataSdmApprovalWorkflow#timeouts}
   */
   readonly timeouts?: DataSdmApprovalWorkflowTimeouts;
 }
@@ -323,25 +323,25 @@ export interface DataSdmApprovalWorkflowApprovalStepApprovers {
   /**
   * The account id of the approver (only one of account_id, role_id, group id, or reference may be present for one approver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#account_id DataSdmApprovalWorkflow#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#account_id DataSdmApprovalWorkflow#account_id}
   */
   readonly accountId?: string;
   /**
   * The group id of the approver (only one of account_id, role_id, group id, or reference may be present for one approver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#group_id DataSdmApprovalWorkflow#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#group_id DataSdmApprovalWorkflow#group_id}
   */
   readonly groupId?: string;
   /**
   * A reference to an approver: 'manager-of-requester' or 'manager-of-manager-of-requester' (only one of account_id, role_id, group id, or reference may be present for one approver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#reference DataSdmApprovalWorkflow#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#reference DataSdmApprovalWorkflow#reference}
   */
   readonly reference?: string;
   /**
   * The role id of the approver (only one of account_id, role_id, group id, or reference may be present for one approver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#role_id DataSdmApprovalWorkflow#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#role_id DataSdmApprovalWorkflow#role_id}
   */
   readonly roleId?: string;
 }
@@ -546,19 +546,19 @@ export interface DataSdmApprovalWorkflowApprovalStep {
   /**
   * Whether any or all approvers are required to approve for this approval step (optional, defaults to any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#quantifier DataSdmApprovalWorkflow#quantifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#quantifier DataSdmApprovalWorkflow#quantifier}
   */
   readonly quantifier?: string;
   /**
   * Duration after which this approval step will be skipped if no approval is given (optional, if not provided this step must be manually approved)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#skip_after DataSdmApprovalWorkflow#skip_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#skip_after DataSdmApprovalWorkflow#skip_after}
   */
   readonly skipAfter?: string;
   /**
   * approvers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#approvers DataSdmApprovalWorkflow#approvers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#approvers DataSdmApprovalWorkflow#approvers}
   */
   readonly approvers: DataSdmApprovalWorkflowApprovalStepApprovers[] | cdktf.IResolvable;
 }
@@ -729,7 +729,7 @@ export class DataSdmApprovalWorkflowApprovalStepList extends cdktf.ComplexList {
 }
 export interface DataSdmApprovalWorkflowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#default DataSdmApprovalWorkflow#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#default DataSdmApprovalWorkflow#default}
   */
   readonly default?: string;
 }
@@ -823,7 +823,7 @@ export class DataSdmApprovalWorkflowTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow sdm_approval_workflow}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow sdm_approval_workflow}
 */
 export class DataSdmApprovalWorkflow extends cdktf.TerraformDataSource {
 
@@ -839,7 +839,7 @@ export class DataSdmApprovalWorkflow extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmApprovalWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmApprovalWorkflow to import
-  * @param importFromId The id of the existing DataSdmApprovalWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmApprovalWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmApprovalWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -851,7 +851,7 @@ export class DataSdmApprovalWorkflow extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/approval_workflow sdm_approval_workflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/approval_workflow sdm_approval_workflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,8 +862,8 @@ export class DataSdmApprovalWorkflow extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_approval_workflow',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SchemaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema#description Schema#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema#description Schema#description}
   */
   readonly description?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema#group_id Schema#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema#group_id Schema#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema#id Schema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema#id Schema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface SchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * JSON schema matching standards of draft version 2019-09
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema#schema Schema#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema#schema Schema#schema}
   */
   readonly schema: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema criblio_schema}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema criblio_schema}
 */
 export class Schema extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Schema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schema to import
-  * @param importFromId The id of the existing Schema that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schema that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Schema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/schema criblio_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/schema criblio_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Schema extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_schema',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

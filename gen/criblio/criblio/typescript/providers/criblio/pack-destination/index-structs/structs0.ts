@@ -3,7 +3,7 @@ export interface PackDestinationOutputAzureBlobCertificate {
   /**
   * The certificate you registered as credentials for your app in the Azure portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName: string;
 }
@@ -96,11 +96,11 @@ export interface PackDestinationOutputAzureBlobKeyValueMetadata {
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -244,159 +244,159 @@ export interface PackDestinationOutputAzureBlob {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * Default: "manual"; must be one of ["manual", "secret", "clientSecret", "clientCert"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Automatically calculate the schema based on the events of each Parquet file generated. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
   */
   readonly automaticSchema?: boolean | cdktf.IResolvable;
   /**
   * The Azure cloud to use. Defaults to Azure Public Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#azure_cloud PackDestination#azure_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#azure_cloud PackDestination#azure_cloud}
   */
   readonly azureCloud?: string;
   /**
   * JavaScript expression to define the output filename prefix (can be constant). Default: "`CriblOut`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
   */
   readonly baseFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate PackDestination#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate PackDestination#certificate}
   */
   readonly certificate?: PackDestinationOutputAzureBlobCertificate;
   /**
   * The service principal's client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#client_id PackDestination#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#client_id PackDestination#client_id}
   */
   readonly clientId?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#client_text_secret PackDestination#client_text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#client_text_secret PackDestination#client_text_secret}
   */
   readonly clientTextSecret?: string;
   /**
   * Data compression format to apply to HTTP content before it is delivered. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Compression level to apply before moving files to final destination. Default: "best_speed"; must be one of ["best_speed", "normal", "best_compression"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression_level PackDestination#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression_level PackDestination#compression_level}
   */
   readonly compressionLevel?: string;
   /**
   * Enter your Azure Storage account connection string. If left blank, Stream will fall back to env.AZURE_STORAGE_CONNECTION_STRING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_string PackDestination#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_string PackDestination#connection_string}
   */
   readonly connectionString?: string;
   /**
   * The Azure Blob Storage container name. Name can include only lowercase letters, numbers, and hyphens. For dynamic container names, enter a JavaScript expression within quotes or backtickss, to be evaluated at initialization. The expression can evaluate to a constant value and can reference Global Variables, such as `myContainer-${C.env["CRIBL_WORKER_ID"]}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#container_name PackDestination#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#container_name PackDestination#container_name}
   */
   readonly containerName: string;
   /**
   * Create the configured container in Azure Blob Storage if it does not already exist. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#create_container PackDestination#create_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#create_container PackDestination#create_container}
   */
   readonly createContainer?: boolean | cdktf.IResolvable;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Storage location for files that fail to reach their final destination after maximum retries are exceeded. Default: "$CRIBL_HOME/state/outputs/dead-letter"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
   */
   readonly deadletterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Root directory prepended to path before uploading. Value can be a JavaScript expression enclosed in quotes or backticks, to be evaluated at initialization. The expression can evaluate to a constant value and can reference Global Variables, such as `myBlobPrefix-${C.env["CRIBL_WORKER_ID"]}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dest_path PackDestination#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dest_path PackDestination#dest_path}
   */
   readonly destPath?: string;
   /**
   * How frequently, in seconds, to clean up empty directories. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
   */
   readonly emptyDirCleanupSec?: number;
   /**
   * Parquet tools can use the checksum of a Parquet page to verify data integrity. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
   */
   readonly enablePageChecksum?: boolean | cdktf.IResolvable;
   /**
   * Statistics profile an entire file in terms of minimum/maximum values within data, numbers of nulls, etc. You can use Parquet tools to view statistics. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
   */
   readonly enableStatistics?: boolean | cdktf.IResolvable;
   /**
   * One page index contains statistics for one data page. Parquet readers use statistics to enable page skipping. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
   */
   readonly enableWritePageIndex?: boolean | cdktf.IResolvable;
   /**
   * Endpoint suffix for the service URL. Takes precedence over the Azure Cloud setting. Defaults to core.windows.net.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint_suffix PackDestination#endpoint_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint_suffix PackDestination#endpoint_suffix}
   */
   readonly endpointSuffix?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * JavaScript expression to define the output filename suffix (can be constant).  The `__format` variable refers to the value of the `Data format` field (`json` or `raw`).  The `__compression` field refers to the kind of compression being used (`none` or `gzip`). Default: "`.${C.env[\"CRIBL_WORKER_ID\"]}.${__format}${__compression === \"gzip\" ? \".gz\" : \"\"}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
   */
   readonly fileNameSuffix?: string;
   /**
   * Format of the output data. Default: "json"; must be one of ["json", "raw", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * If set, this line will be written to the beginning of each output file. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#header_line PackDestination#header_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#header_line PackDestination#header_line}
   */
   readonly headerLine?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -405,157 +405,157 @@ export interface PackDestinationOutputAzureBlob {
   /**
   * The metadata of files the Destination writes will include the properties you add here as key-value pairs. Useful for tagging. Examples: "key":"OCSF Event Class", "value":"9001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
   */
   readonly keyValueMetadata?: PackDestinationOutputAzureBlobKeyValueMetadata[] | cdktf.IResolvable;
   /**
   * Maximum number of parts to upload in parallel per file. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
   */
   readonly maxConcurrentFileParts?: number;
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * The maximum number of times a file will attempt to move to its final destination before being dead-lettered. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
   */
   readonly maxRetryNum?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Serialization format of data pages. Note that some reader implementations use Data page V2's attributes to work more efficiently, while others ignore it. Default: "DATA_PAGE_V2"; must be one of ["DATA_PAGE_V1", "DATA_PAGE_V2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
   */
   readonly parquetDataPageVersion?: string;
   /**
   * Target memory size for page segments, such as 1MB or 128MB. Generally, lower values improve reading speed, while higher values improve compression. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
   */
   readonly parquetPageSize?: string;
   /**
   * The number of rows that every group will contain. The final group can contain a smaller number of rows. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
   */
   readonly parquetRowGroupLength?: number;
   /**
   * Determines which data types are supported and how they are represented. Default: "PARQUET_2_6"; must be one of ["PARQUET_1_0", "PARQUET_2_4", "PARQUET_2_6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
   */
   readonly parquetVersion?: string;
   /**
   * JavaScript expression defining how files are partitioned and organized. Default is date-based. If blank, Stream will fall back to the event's __partition field value – if present – otherwise to each location's root directory. Default: "C.Time.strftime(_time ? _time : Date.now()/1000, '%Y/%m/%d')"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
   */
   readonly partitionExpr?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Log up to 3 rows that @{product} skips due to data mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
   */
   readonly shouldLogInvalidRows?: boolean | cdktf.IResolvable;
   /**
   * Filesystem location in which to buffer files before compressing and moving to final destination. Use performant and stable storage. Default: "$CRIBL_HOME/state/outputs/staging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * The name of your Azure storage account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#storage_account_name PackDestination#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#storage_account_name PackDestination#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
   * Default: "Inferred"; must be one of ["Inferred", "Hot", "Cool", "Cold", "Archive"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#storage_class PackDestination#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#storage_class PackDestination#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * The service principal's tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tenant_id PackDestination#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tenant_id PackDestination#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
   * must be "azure_blob"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Buffer size used to write to a file. Default: 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
   */
   readonly writeHighWaterMark?: number;
 }
@@ -2154,11 +2154,11 @@ export class PackDestinationOutputAzureBlobOutputReference extends cdktf.Complex
 }
 export interface PackDestinationOutputAzureDataExplorerAdditionalProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -2299,7 +2299,7 @@ export interface PackDestinationOutputAzureDataExplorerCertificate {
   /**
   * The certificate you registered as credentials for your app in the Azure portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
 }
@@ -2395,11 +2395,11 @@ export interface PackDestinationOutputAzureDataExplorerExtentTags {
   /**
   * must be one of ["dropBy", "ingestBy"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#prefix PackDestination#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#prefix PackDestination#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -2541,7 +2541,7 @@ export class PackDestinationOutputAzureDataExplorerExtentTagsList extends cdktf.
 }
 export interface PackDestinationOutputAzureDataExplorerIngestIfNotExists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -2715,25 +2715,25 @@ export interface PackDestinationOutputAzureDataExplorerResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -2935,25 +2935,25 @@ export interface PackDestinationOutputAzureDataExplorerTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -3136,105 +3136,105 @@ export interface PackDestinationOutputAzureDataExplorer {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * Optionally, enter additional configuration properties to send to the ingestion service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#additional_properties PackDestination#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#additional_properties PackDestination#additional_properties}
   */
   readonly additionalProperties?: PackDestinationOutputAzureDataExplorerAdditionalProperties[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate PackDestination#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate PackDestination#certificate}
   */
   readonly certificate?: PackDestinationOutputAzureDataExplorerCertificate;
   /**
   * client_id to pass in the OAuth request parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#client_id PackDestination#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#client_id PackDestination#client_id}
   */
   readonly clientId: string;
   /**
   * The client secret that you generated for your app in the Azure portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#client_secret PackDestination#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#client_secret PackDestination#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The base URI for your cluster. Typically, `https://<cluster>.<region>.kusto.windows.net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cluster_url PackDestination#cluster_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cluster_url PackDestination#cluster_url}
   */
   readonly clusterUrl: string;
   /**
   * Data compression format to apply to HTTP content before it is delivered. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Name of the database containing the table where data will be ingested
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#database PackDestination#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#database PackDestination#database}
   */
   readonly database: string;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Strings or tags associated with the extent (ingested data shard)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extent_tags PackDestination#extent_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extent_tags PackDestination#extent_tags}
   */
   readonly extentTags?: PackDestinationOutputAzureDataExplorerExtentTags[] | cdktf.IResolvable;
   /**
   * JavaScript expression to define the output filename suffix (can be constant).  The `__format` variable refers to the value of the `Data format` field (`json` or `raw`).  The `__compression` field refers to the kind of compression being used (`none` or `gzip`). Default: "`.${C.env[\"CRIBL_WORKER_ID\"]}.${__format}${__compression === \"gzip\" ? \".gz\" : \"\"}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
   */
   readonly fileNameSuffix?: string;
   /**
   * Bypass the data management service's aggregation mechanism. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_immediately PackDestination#flush_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_immediately PackDestination#flush_immediately}
   */
   readonly flushImmediately?: boolean | cdktf.IResolvable;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Format of the output data. Default: "json"; must be one of ["json", "raw", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3243,149 +3243,149 @@ export interface PackDestinationOutputAzureDataExplorer {
   /**
   * Prevents duplicate ingestion by verifying whether an extent with the specified ingest-by tag already exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ingest_if_not_exists PackDestination#ingest_if_not_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ingest_if_not_exists PackDestination#ingest_if_not_exists}
   */
   readonly ingestIfNotExists?: PackDestinationOutputAzureDataExplorerIngestIfNotExists[] | cdktf.IResolvable;
   /**
   * Default: "batching"; must be one of ["batching", "streaming"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ingest_mode PackDestination#ingest_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ingest_mode PackDestination#ingest_mode}
   */
   readonly ingestMode?: string;
   /**
   * The ingestion service URI for your cluster. Typically, `https://ingest-<cluster>.<region>.kusto.windows.net`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ingest_url PackDestination#ingest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ingest_url PackDestination#ingest_url}
   */
   readonly ingestUrl?: string;
   /**
   * Send a JSON mapping object instead of specifying an existing named data mapping. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#is_mapping_obj PackDestination#is_mapping_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#is_mapping_obj PackDestination#is_mapping_obj}
   */
   readonly isMappingObj?: boolean | cdktf.IResolvable;
   /**
   * Disable to close the connection immediately after sending the outgoing request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * Enter the name of a data mapping associated with your target table. Or, if incoming event and target table fields match exactly, you can leave the field empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#mapping_ref PackDestination#mapping_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#mapping_ref PackDestination#mapping_ref}
   */
   readonly mappingRef?: string;
   /**
   * Maximum number of parts to upload in parallel per file. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
   */
   readonly maxConcurrentFileParts?: number;
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Endpoint used to acquire authentication tokens from Azure. Default: "https://login.microsoftonline.com"; must be one of ["https://login.microsoftonline.com", "https://login.microsoftonline.us", "https://login.partner.microsoftonline.cn"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#oauth_endpoint PackDestination#oauth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#oauth_endpoint PackDestination#oauth_endpoint}
   */
   readonly oauthEndpoint?: string;
   /**
   * The type of OAuth 2.0 client credentials grant flow to use. Default: "clientSecret"; must be one of ["clientSecret", "clientTextSecret", "certificate"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#oauth_type PackDestination#oauth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#oauth_type PackDestination#oauth_type}
   */
   readonly oauthType?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputAzureDataExplorerPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -3396,113 +3396,113 @@ export interface PackDestinationOutputAzureDataExplorer {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Level of ingestion status reporting. Defaults to FailuresOnly. Default: "failuresOnly"; must be one of ["failuresOnly", "doNotReport", "failuresAndSuccesses"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#report_level PackDestination#report_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#report_level PackDestination#report_level}
   */
   readonly reportLevel?: string;
   /**
   * Target of the ingestion status reporting. Defaults to Queue. Default: "queue"; must be one of ["queue", "table", "queueAndTable"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#report_method PackDestination#report_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#report_method PackDestination#report_method}
   */
   readonly reportMethod?: string;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputAzureDataExplorerResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * Prevent blob deletion after ingestion is complete. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#retain_blob_on_success PackDestination#retain_blob_on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#retain_blob_on_success PackDestination#retain_blob_on_success}
   */
   readonly retainBlobOnSuccess?: boolean | cdktf.IResolvable;
   /**
   * Scope to pass in the OAuth request parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#scope PackDestination#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#scope PackDestination#scope}
   */
   readonly scope: string;
   /**
   * Filesystem location in which to buffer files before compressing and moving to final destination. Use performant and stable storage. Default: "$CRIBL_HOME/state/outputs/staging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Name of the table to ingest data into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#table PackDestination#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#table PackDestination#table}
   */
   readonly table: string;
   /**
   * Directory ID (tenant identifier) in Azure Active Directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tenant_id PackDestination#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tenant_id PackDestination#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputAzureDataExplorerTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "azure_data_explorer"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
   * When saving or starting the Destination, validate the database name and credentials; also validate table name, except when creating a new table. Disable if your Azure app does not have both the Database Viewer and the Table Viewer role. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#validate_database_settings PackDestination#validate_database_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#validate_database_settings PackDestination#validate_database_settings}
   */
   readonly validateDatabaseSettings?: boolean | cdktf.IResolvable;
 }
@@ -5408,13 +5408,13 @@ export interface PackDestinationOutputAzureEventhubSasl {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Default: "plain"; must be one of ["plain", "oauthbearer"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#mechanism PackDestination#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#mechanism PackDestination#mechanism}
   */
   readonly mechanism?: string;
 }
@@ -5539,13 +5539,13 @@ export interface PackDestinationOutputAzureEventhubTls {
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Reject certificates that are not authorized by a CA in the CA certificate path, or by another trusted CA (such as the system's). Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
 }
@@ -5670,65 +5670,65 @@ export interface PackDestinationOutputAzureEventhub {
   /**
   * Control the number of required acknowledgments. Default: 1; must be one of ["1", "0", "-1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ack PackDestination#ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ack PackDestination#ack}
   */
   readonly ack?: number;
   /**
   * Maximum time to wait for Kafka to respond to an authentication request. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#authentication_timeout PackDestination#authentication_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#authentication_timeout PackDestination#authentication_timeout}
   */
   readonly authenticationTimeout?: number;
   /**
   * Set the backoff multiplier (2-20) to control the retry frequency for failed messages. For faster retries, use a lower multiplier. For slower retries with more delay between attempts, use a higher multiplier. The multiplier is used in an exponential backoff formula; see the Kafka [documentation](https://kafka.js.org/docs/retry-detailed) for details. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * List of Event Hubs Kafka brokers to connect to, eg. yourdomain.servicebus.windows.net:9093. The hostname can be found in the host portion of the primary or secondary connection string in Shared Access Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#brokers PackDestination#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#brokers PackDestination#brokers}
   */
   readonly brokers: string[];
   /**
   * Maximum time to wait for a connection to complete successfully. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Maximum number of events in a batch before forcing a flush. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_event_count PackDestination#flush_event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_event_count PackDestination#flush_event_count}
   */
   readonly flushEventCount?: number;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Max record size. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Format to use to serialize events before writing to the Event Hubs Kafka brokers. Default: "json"; must be one of ["json", "raw"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5737,123 +5737,123 @@ export interface PackDestinationOutputAzureEventhub {
   /**
   * Initial value used to calculate the retry, in milliseconds. Maximum is 600,000 ms (10 minutes). Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum wait time for a retry, in milliseconds. Default (and minimum) is 30,000 ms (30 seconds); maximum is 180,000 ms (180 seconds). Default: 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_back_off PackDestination#max_back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_back_off PackDestination#max_back_off}
   */
   readonly maxBackOff?: number;
   /**
   * Maximum size of each record batch before compression. Setting should be < message.max.bytes settings in Event Hubs brokers. Default: 768
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
   */
   readonly maxRecordSizeKb?: number;
   /**
   * If messages are failing, you can set the maximum number of retries as high as 100 to prevent loss of data. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retries PackDestination#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retries PackDestination#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputAzureEventhubPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Specifies a time window during which @{product} can reauthenticate if needed. Creates the window measuring backward from the moment when credentials are set to expire. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reauthentication_threshold PackDestination#reauthentication_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reauthentication_threshold PackDestination#reauthentication_threshold}
   */
   readonly reauthenticationThreshold?: number;
   /**
   * Maximum time to wait for Kafka to respond to a request. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Authentication parameters to use when connecting to brokers. Using TLS is highly recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#sasl PackDestination#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#sasl PackDestination#sasl}
   */
   readonly sasl?: PackDestinationOutputAzureEventhubSasl;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputAzureEventhubTls;
   /**
   * The name of the Event Hub (Kafka Topic) to publish events. Can be overwritten using field __topicOut.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#topic PackDestination#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#topic PackDestination#topic}
   */
   readonly topic: string;
   /**
   * must be "azure_eventhub"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
 }
@@ -6840,11 +6840,11 @@ export class PackDestinationOutputAzureEventhubOutputReference extends cdktf.Com
 }
 export interface PackDestinationOutputAzureLogsExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -7047,25 +7047,25 @@ export interface PackDestinationOutputAzureLogsResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -7267,25 +7267,25 @@ export interface PackDestinationOutputAzureLogsTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -7468,57 +7468,57 @@ export interface PackDestinationOutputAzureLogs {
   /**
   * The DNS name of the Log API endpoint that sends log data to a Log Analytics workspace in Azure Monitor. Defaults to .ods.opinsights.azure.com. @{product} will add a prefix and suffix to construct a URI in this format: <https://<Workspace_ID><your_DNS_name>/api/logs?api-version=<API version>. Default: ".ods.opinsights.azure.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_url PackDestination#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_url PackDestination#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Enter workspace ID and workspace key directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputAzureLogsExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7527,77 +7527,77 @@ export interface PackDestinationOutputAzureLogs {
   /**
   * Select or create a stored secret that references your access key and secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#keypair_secret PackDestination#keypair_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#keypair_secret PackDestination#keypair_secret}
   */
   readonly keypairSecret?: string;
   /**
   * The Log Type of events sent to this LogAnalytics workspace. Defaults to `Cribl`. Use only letters, numbers, and `_` characters, and can't exceed 100 characters. Can be overwritten by event field __logType. Default: "Cribl"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_type PackDestination#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_type PackDestination#log_type}
   */
   readonly logType?: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputAzureLogsPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -7606,77 +7606,77 @@ export interface PackDestinationOutputAzureLogs {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Optional Resource ID of the Azure resource to associate the data with. Can be overridden by the __resourceId event field. This ID populates the _ResourceId property, allowing the data to be included in resource-centric queries. If the ID is neither specified nor overridden, resource-centric queries will omit the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#resource_id PackDestination#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#resource_id PackDestination#resource_id}
   */
   readonly resourceId?: string;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputAzureLogsResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputAzureLogsTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "azure_logs"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
   * Azure Log Analytics Workspace ID. See Azure Dashboard Workspace > Advanced settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#workspace_id PackDestination#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#workspace_id PackDestination#workspace_id}
   */
   readonly workspaceId?: string;
   /**
   * Azure Log Analytics Workspace Primary or Secondary Shared Key. See Azure Dashboard Workspace > Advanced settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#workspace_key PackDestination#workspace_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#workspace_key PackDestination#workspace_key}
   */
   readonly workspaceKey?: string;
 }
@@ -8784,19 +8784,19 @@ export interface PackDestinationOutputClickHouseColumnMappings {
   /**
   * Name of the column in ClickHouse that will store field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#column_name PackDestination#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#column_name PackDestination#column_name}
   */
   readonly columnName: string;
   /**
   * Type of the column in the ClickHouse database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#column_type PackDestination#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#column_type PackDestination#column_type}
   */
   readonly columnType?: string;
   /**
   * JavaScript expression to compute value to be inserted into ClickHouse table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#column_value_expression PackDestination#column_value_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#column_value_expression PackDestination#column_value_expression}
   */
   readonly columnValueExpression: string;
 }
@@ -8964,11 +8964,11 @@ export class PackDestinationOutputClickHouseColumnMappingsList extends cdktf.Com
 }
 export interface PackDestinationOutputClickHouseExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -9112,13 +9112,13 @@ export interface PackDestinationOutputClickHouseOauthHeaders {
   /**
   * OAuth header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name: string;
   /**
   * OAuth header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -9259,13 +9259,13 @@ export interface PackDestinationOutputClickHouseOauthParams {
   /**
   * OAuth parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name: string;
   /**
   * OAuth parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -9465,25 +9465,25 @@ export interface PackDestinationOutputClickHouseResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -9685,25 +9685,25 @@ export interface PackDestinationOutputClickHouseTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -9886,55 +9886,55 @@ export interface PackDestinationOutputClickHouseTls {
   /**
   * Path on client in which to find CA certificates to verify the server's cert. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ca_path PackDestination#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ca_path PackDestination#ca_path}
   */
   readonly caPath?: string;
   /**
   * Path on client in which to find certificates to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cert_path PackDestination#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cert_path PackDestination#cert_path}
   */
   readonly certPath?: string;
   /**
   * The name of the predefined certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_version PackDestination#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_version PackDestination#max_version}
   */
   readonly maxVersion?: string;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#min_version PackDestination#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#min_version PackDestination#min_version}
   */
   readonly minVersion?: string;
   /**
   * Passphrase to use to decrypt private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#passphrase PackDestination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#passphrase PackDestination#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Path on client in which to find the private key to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
   */
   readonly privKeyPath?: string;
   /**
   * Server name for the SNI (Server Name Indication) TLS extension. It must be a host name, and not an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
 }
@@ -10262,103 +10262,103 @@ export interface PackDestinationOutputClickHouse {
   /**
   * Collect data into batches for later processing. Disable to write to a ClickHouse table immediately. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#async_inserts PackDestination#async_inserts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#async_inserts PackDestination#async_inserts}
   */
   readonly asyncInserts?: boolean | cdktf.IResolvable;
   /**
   * JavaScript expression to compute the Authorization header value to pass in requests. The value `${token}` is used to reference the token obtained from authentication, e.g.: `Bearer ${token}`. Default: "`Bearer ${token}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_header_expr PackDestination#auth_header_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_header_expr PackDestination#auth_header_expr}
   */
   readonly authHeaderExpr?: string;
   /**
   * Default: "none"; must be one of ["none", "basic", "credentialsSecret", "sslUserCertificate", "token", "textSecret", "oauth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#column_mappings PackDestination#column_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#column_mappings PackDestination#column_mappings}
   */
   readonly columnMappings?: PackDestinationOutputClickHouseColumnMappings[] | cdktf.IResolvable;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#database PackDestination#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#database PackDestination#database}
   */
   readonly database: string;
   /**
   * Retrieves the table schema from ClickHouse and populates the Column Mapping table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#describe_table PackDestination#describe_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#describe_table PackDestination#describe_table}
   */
   readonly describeTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Log the most recent event that fails to match the table schema. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dump_format_errors_to_disk PackDestination#dump_format_errors_to_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dump_format_errors_to_disk PackDestination#dump_format_errors_to_disk}
   */
   readonly dumpFormatErrorsToDisk?: boolean | cdktf.IResolvable;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Fields to exclude from sending to ClickHouse. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_mapping_fields PackDestination#exclude_mapping_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_mapping_fields PackDestination#exclude_mapping_fields}
   */
   readonly excludeMappingFields?: string[];
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputClickHouseExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Data format to use when sending data to ClickHouse. Defaults to JSON Compact. Default: "json-compact-each-row-with-names"; must be one of ["json-compact-each-row-with-names", "json-each-row"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10367,93 +10367,93 @@ export interface PackDestinationOutputClickHouse {
   /**
   * URL for OAuth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#login_url PackDestination#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#login_url PackDestination#login_url}
   */
   readonly loginUrl?: string;
   /**
   * How event fields are mapped to ClickHouse columns. Default: "automatic"; must be one of ["automatic", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#mapping_type PackDestination#mapping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#mapping_type PackDestination#mapping_type}
   */
   readonly mappingType?: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Additional headers to send in the OAuth login request. @{product} will automatically add the content-type header 'application/x-www-form-urlencoded' when sending this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#oauth_headers PackDestination#oauth_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#oauth_headers PackDestination#oauth_headers}
   */
   readonly oauthHeaders?: PackDestinationOutputClickHouseOauthHeaders[] | cdktf.IResolvable;
   /**
   * Additional parameters to send in the OAuth login request. @{product} will combine the secret with these parameters, and will send the URL-encoded result in a POST request to the endpoint specified in the 'Login URL'. We'll automatically add the content-type header 'application/x-www-form-urlencoded' when sending this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#oauth_params PackDestination#oauth_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#oauth_params PackDestination#oauth_params}
   */
   readonly oauthParams?: PackDestinationOutputClickHouseOauthParams[] | cdktf.IResolvable;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#password PackDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#password PackDestination#password}
   */
   readonly password?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputClickHousePqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -10464,127 +10464,127 @@ export interface PackDestinationOutputClickHouse {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputClickHouseResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Secret parameter value to pass in request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#secret PackDestination#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#secret PackDestination#secret}
   */
   readonly secret?: string;
   /**
   * Secret parameter name to pass in request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#secret_param_name PackDestination#secret_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#secret_param_name PackDestination#secret_param_name}
   */
   readonly secretParamName?: string;
   /**
   * Username for certificate authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#sql_username PackDestination#sql_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#sql_username PackDestination#sql_username}
   */
   readonly sqlUsername?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Name of the ClickHouse table where data will be inserted. Name can contain letters (A-Z, a-z), numbers (0-9), and the character "_", and must start with either a letter or the character "_".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#table_name PackDestination#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#table_name PackDestination#table_name}
   */
   readonly tableName: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputClickHouseTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputClickHouseTls;
   /**
   * Bearer token to include in the authorization header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Name of the auth token attribute in the OAuth response. Can be top-level (e.g., 'token'); or nested, using a period (e.g., 'data.token').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token_attribute_name PackDestination#token_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token_attribute_name PackDestination#token_attribute_name}
   */
   readonly tokenAttributeName?: string;
   /**
   * How often the OAuth token should be refreshed. Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token_timeout_secs PackDestination#token_timeout_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token_timeout_secs PackDestination#token_timeout_secs}
   */
   readonly tokenTimeoutSecs?: number;
   /**
   * must be "click_house"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * URL of the ClickHouse instance. Example: http://localhost:8123/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#username PackDestination#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#username PackDestination#username}
   */
   readonly username?: string;
   /**
   * Cribl will wait for confirmation that data has been fully inserted into the ClickHouse database before proceeding. Disabling this option can increase throughput, but Cribl won’t be able to verify data has been completely inserted. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#wait_for_async_inserts PackDestination#wait_for_async_inserts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#wait_for_async_inserts PackDestination#wait_for_async_inserts}
   */
   readonly waitForAsyncInserts?: boolean | cdktf.IResolvable;
 }
@@ -12325,73 +12325,73 @@ export interface PackDestinationOutputCloudwatch {
   /**
   * Amazon Resource Name (ARN) of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#assume_role_arn PackDestination#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#assume_role_arn PackDestination#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID to use when assuming role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#assume_role_external_id PackDestination#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#assume_role_external_id PackDestination#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS authentication method. Choose Auto to use IAM roles. Default: "auto"; must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * Select or create a stored secret that references your access key and secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
   */
   readonly awsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Duration of the assumed role's session, in seconds. Minimum is 900 (15 minutes), default is 3600 (1 hour), and maximum is 43200 (12 hours). Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#duration_seconds PackDestination#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#duration_seconds PackDestination#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Use Assume Role credentials to access CloudWatchLogs. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_assume_role PackDestination#enable_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_assume_role PackDestination#enable_assume_role}
   */
   readonly enableAssumeRole?: boolean | cdktf.IResolvable;
   /**
   * CloudWatchLogs service endpoint. If empty, defaults to the AWS Region-specific endpoint. Otherwise, it must point to CloudWatchLogs-compatible endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Max record size. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12400,113 +12400,113 @@ export interface PackDestinationOutputCloudwatch {
   /**
   * CloudWatch log group to associate events with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_group_name PackDestination#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_group_name PackDestination#log_group_name}
   */
   readonly logGroupName: string;
   /**
   * Prefix for CloudWatch log stream name. This prefix will be used to generate a unique log stream name per cribl instance, for example: myStream_myHost_myOutputId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_stream_name PackDestination#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_stream_name PackDestination#log_stream_name}
   */
   readonly logStreamName: string;
   /**
   * Maximum number of queued batches before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_queue_size PackDestination#max_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_queue_size PackDestination#max_queue_size}
   */
   readonly maxQueueSize?: number;
   /**
   * Maximum size (KB) of each individual record before compression. For non compressible data 1MB is the max recommended size. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
   */
   readonly maxRecordSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputCloudwatchPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Region where the CloudWatchLogs is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region: string;
   /**
   * Reject certificates that cannot be verified against a valid CA, such as self-signed certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Reuse connections between requests, which can improve performance. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "cloudwatch"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
 }
@@ -13492,13 +13492,13 @@ export interface PackDestinationOutputConfluentCloudKafkaSchemaRegistryAuth {
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -13623,49 +13623,49 @@ export interface PackDestinationOutputConfluentCloudKafkaSchemaRegistryTls {
   /**
   * Path on client in which to find CA certificates to verify the server's cert. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ca_path PackDestination#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ca_path PackDestination#ca_path}
   */
   readonly caPath?: string;
   /**
   * Path on client in which to find certificates to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cert_path PackDestination#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cert_path PackDestination#cert_path}
   */
   readonly certPath?: string;
   /**
   * The name of the predefined certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_version PackDestination#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_version PackDestination#max_version}
   */
   readonly maxVersion?: string;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#min_version PackDestination#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#min_version PackDestination#min_version}
   */
   readonly minVersion?: string;
   /**
   * Passphrase to use to decrypt private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#passphrase PackDestination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#passphrase PackDestination#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Path on client in which to find the private key to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
   */
   readonly privKeyPath?: string;
   /**
@@ -13673,13 +13673,13 @@ export interface PackDestinationOutputConfluentCloudKafkaSchemaRegistryTls {
   *                     trusted CA (such as the system's). Defaults to Enabled. Overrides the toggle from Advanced Settings, when also present.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Server name for the SNI (Server Name Indication) TLS extension. It must be a host name, and not an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
 }
@@ -14036,53 +14036,53 @@ export interface PackDestinationOutputConfluentCloudKafkaSchemaRegistry {
   /**
   * Credentials to use when authenticating with the schema registry using basic HTTP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth PackDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth PackDestination#auth}
   */
   readonly auth?: PackDestinationOutputConfluentCloudKafkaSchemaRegistryAuth;
   /**
   * Maximum time to wait for a Schema Registry connection to complete successfully. Default: 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
   * Used when __keySchemaIdOut is not present, to transform key values, leave blank if key transformation is not required by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#default_key_schema_id PackDestination#default_key_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#default_key_schema_id PackDestination#default_key_schema_id}
   */
   readonly defaultKeySchemaId?: number;
   /**
   * Used when __valueSchemaIdOut is not present, to transform _raw, leave blank if value transformation is not required by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#default_value_schema_id PackDestination#default_value_schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#default_value_schema_id PackDestination#default_value_schema_id}
   */
   readonly defaultValueSchemaId?: number;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of times to try fetching schemas from the Schema Registry. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retries PackDestination#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retries PackDestination#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Maximum time to wait for the Schema Registry to respond to a request. Default: 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * URL for accessing the Confluent Schema Registry. Example: http://localhost:8081. To connect over TLS, use https instead of http. Default: "http://localhost:8081"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#schema_registry_url PackDestination#schema_registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#schema_registry_url PackDestination#schema_registry_url}
   */
   readonly schemaRegistryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputConfluentCloudKafkaSchemaRegistryTls;
 }
@@ -14469,13 +14469,13 @@ export interface PackDestinationOutputConfluentCloudSasl {
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Default: "plain"; must be one of ["plain", "scram-sha-256", "scram-sha-512", "kerberos"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#mechanism PackDestination#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#mechanism PackDestination#mechanism}
   */
   readonly mechanism?: string;
 }
@@ -14600,49 +14600,49 @@ export interface PackDestinationOutputConfluentCloudTls {
   /**
   * Path on client in which to find CA certificates to verify the server's cert. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ca_path PackDestination#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ca_path PackDestination#ca_path}
   */
   readonly caPath?: string;
   /**
   * Path on client in which to find certificates to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cert_path PackDestination#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cert_path PackDestination#cert_path}
   */
   readonly certPath?: string;
   /**
   * The name of the predefined certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_version PackDestination#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_version PackDestination#max_version}
   */
   readonly maxVersion?: string;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#min_version PackDestination#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#min_version PackDestination#min_version}
   */
   readonly minVersion?: string;
   /**
   * Passphrase to use to decrypt private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#passphrase PackDestination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#passphrase PackDestination#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Path on client in which to find the private key to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
   */
   readonly privKeyPath?: string;
   /**
@@ -14650,13 +14650,13 @@ export interface PackDestinationOutputConfluentCloudTls {
   *                     trusted CA (such as the system's). Defaults to Enabled. Overrides the toggle from Advanced Settings, when also present.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Server name for the SNI (Server Name Indication) TLS extension. It must be a host name, and not an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
 }
@@ -15013,71 +15013,71 @@ export interface PackDestinationOutputConfluentCloud {
   /**
   * Control the number of required acknowledgments. Default: 1; must be one of ["1", "0", "-1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ack PackDestination#ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ack PackDestination#ack}
   */
   readonly ack?: number;
   /**
   * Maximum time to wait for Kafka to respond to an authentication request. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#authentication_timeout PackDestination#authentication_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#authentication_timeout PackDestination#authentication_timeout}
   */
   readonly authenticationTimeout?: number;
   /**
   * Set the backoff multiplier (2-20) to control the retry frequency for failed messages. For faster retries, use a lower multiplier. For slower retries with more delay between attempts, use a higher multiplier. The multiplier is used in an exponential backoff formula; see the Kafka [documentation](https://kafka.js.org/docs/retry-detailed) for details. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * List of Confluent Cloud bootstrap servers to use, such as yourAccount.confluent.cloud:9092.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#brokers PackDestination#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#brokers PackDestination#brokers}
   */
   readonly brokers: string[];
   /**
   * Codec to use to compress the data before sending to Kafka. Default: "gzip"; must be one of ["none", "gzip", "snappy", "lz4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression PackDestination#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression PackDestination#compression}
   */
   readonly compression?: string;
   /**
   * Maximum time to wait for a connection to complete successfully. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * The maximum number of events you want the Destination to allow in a batch before forcing a flush. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_event_count PackDestination#flush_event_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_event_count PackDestination#flush_event_count}
   */
   readonly flushEventCount?: number;
   /**
   * The maximum amount of time you want the Destination to wait before forcing a flush. Shorter intervals tend to result in smaller batches being sent. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Format to use to serialize events before writing to Kafka. Default: "json"; must be one of ["json", "raw", "protobuf"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15086,133 +15086,133 @@ export interface PackDestinationOutputConfluentCloud {
   /**
   * Initial value used to calculate the retry, in milliseconds. Maximum is 600,000 ms (10 minutes). Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#kafka_schema_registry PackDestination#kafka_schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#kafka_schema_registry PackDestination#kafka_schema_registry}
   */
   readonly kafkaSchemaRegistry?: PackDestinationOutputConfluentCloudKafkaSchemaRegistry;
   /**
   * The maximum wait time for a retry, in milliseconds. Default (and minimum) is 30,000 ms (30 seconds); maximum is 180,000 ms (180 seconds). Default: 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_back_off PackDestination#max_back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_back_off PackDestination#max_back_off}
   */
   readonly maxBackOff?: number;
   /**
   * Maximum size of each record batch before compression. The value must not exceed the Kafka brokers' message.max.bytes setting. Default: 768
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
   */
   readonly maxRecordSizeKb?: number;
   /**
   * If messages are failing, you can set the maximum number of retries as high as 100 to prevent loss of data. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retries PackDestination#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retries PackDestination#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputConfluentCloudPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Select a set of Protobuf definitions for the events you want to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#protobuf_library_id PackDestination#protobuf_library_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#protobuf_library_id PackDestination#protobuf_library_id}
   */
   readonly protobufLibraryId?: string;
   /**
   * Specifies a time window during which @{product} can reauthenticate if needed. Creates the window measuring backward from the moment when credentials are set to expire. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reauthentication_threshold PackDestination#reauthentication_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reauthentication_threshold PackDestination#reauthentication_threshold}
   */
   readonly reauthenticationThreshold?: number;
   /**
   * Maximum time to wait for Kafka to respond to a request. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_timeout PackDestination#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Authentication parameters to use when connecting to brokers. Using TLS is highly recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#sasl PackDestination#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#sasl PackDestination#sasl}
   */
   readonly sasl?: PackDestinationOutputConfluentCloudSasl;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputConfluentCloudTls;
   /**
   * The topic to publish events to. Can be overridden using the __topicOut field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#topic PackDestination#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#topic PackDestination#topic}
   */
   readonly topic: string;
   /**
   * must be "confluent_cloud"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
 }
@@ -16286,11 +16286,11 @@ export class PackDestinationOutputConfluentCloudOutputReference extends cdktf.Co
 }
 export interface PackDestinationOutputCriblHttpExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -16493,25 +16493,25 @@ export interface PackDestinationOutputCriblHttpResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -16713,25 +16713,25 @@ export interface PackDestinationOutputCriblHttpTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -16914,49 +16914,49 @@ export interface PackDestinationOutputCriblHttpTls {
   /**
   * Path on client in which to find CA certificates to verify the server's cert. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ca_path PackDestination#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ca_path PackDestination#ca_path}
   */
   readonly caPath?: string;
   /**
   * Path on client in which to find certificates to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cert_path PackDestination#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cert_path PackDestination#cert_path}
   */
   readonly certPath?: string;
   /**
   * The name of the predefined certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_version PackDestination#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_version PackDestination#max_version}
   */
   readonly maxVersion?: string;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#min_version PackDestination#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#min_version PackDestination#min_version}
   */
   readonly minVersion?: string;
   /**
   * Passphrase to use to decrypt private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#passphrase PackDestination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#passphrase PackDestination#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Path on client in which to find the private key to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
   */
   readonly privKeyPath?: string;
   /**
@@ -16964,13 +16964,13 @@ export interface PackDestinationOutputCriblHttpTls {
   *                     trusted CA (such as the system's). Defaults to Enabled. Overrides the toggle from Advanced Settings, when also present.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Server name for the SNI (Server Name Indication) TLS extension. It must be a host name, and not an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
 }
@@ -17327,13 +17327,13 @@ export interface PackDestinationOutputCriblHttpUrls {
   /**
   * URL of a Cribl Worker to send events to, such as http://localhost:10200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url: string;
   /**
   * Assign a weight (>0) to each endpoint to indicate its traffic-handling capability. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#weight PackDestination#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#weight PackDestination#weight}
   */
   readonly weight?: number;
 }
@@ -17477,65 +17477,65 @@ export interface PackDestinationOutputCriblHttp {
   /**
   * Codec to use to compress the data before sending. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression PackDestination#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression PackDestination#compression}
   */
   readonly compression?: string;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * The interval in which to re-resolve any hostnames and pick up destinations from A records. Default: 600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
   */
   readonly dnsResolvePeriodSec?: number;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Fields to exclude from the event. By default, all internal fields except `__output` are sent. Example: `cribl_pipe`, `c*`. Wildcards supported. Default: ["__kube_*","__metadata","__winEvent"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
   */
   readonly excludeFields?: string[];
   /**
   * Exclude all IPs of the current host from the list of any resolved hostnames. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
   */
   readonly excludeSelf?: boolean | cdktf.IResolvable;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputCriblHttpExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17544,77 +17544,77 @@ export interface PackDestinationOutputCriblHttp {
   /**
   * How far back in time to keep traffic stats for load balancing purposes. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
   */
   readonly loadBalanceStatsPeriodSec?: number;
   /**
   * For optimal performance, enable load balancing even if you have one hostname, as it can expand to multiple IPs. If this setting is disabled, consider enabling round-robin DNS. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
   */
   readonly loadBalanced?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputCriblHttpPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -17623,79 +17623,79 @@ export interface PackDestinationOutputCriblHttp {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputCriblHttpResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputCriblHttpTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputCriblHttpTls;
   /**
   * The number of minutes before the internally generated authentication token expires. Valid values are between 1 and 60. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token_ttl_minutes PackDestination#token_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token_ttl_minutes PackDestination#token_ttl_minutes}
   */
   readonly tokenTtlMinutes?: number;
   /**
   * must be "cribl_http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * URL of a Cribl Worker to send events to, such as http://localhost:10200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#urls PackDestination#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#urls PackDestination#urls}
   */
   readonly urls?: PackDestinationOutputCriblHttpUrls[] | cdktf.IResolvable;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -18856,19 +18856,19 @@ export class PackDestinationOutputCriblHttpOutputReference extends cdktf.Complex
 }
 export interface PackDestinationOutputCriblLake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Lake dataset to send the data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dest_path PackDestination#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dest_path PackDestination#dest_path}
   */
   readonly destPath?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -18877,7 +18877,7 @@ export interface PackDestinationOutputCriblLake {
   /**
   * must be "cribl_lake"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
 }
@@ -19054,31 +19054,31 @@ export interface PackDestinationOutputCriblTcpHosts {
   /**
   * The hostname of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#host PackDestination#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#host PackDestination#host}
   */
   readonly host: string;
   /**
   * The port to connect to on the provided host. Default: 10300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#port PackDestination#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#port PackDestination#port}
   */
   readonly port?: number;
   /**
   * Servername to use if establishing a TLS connection. If not specified, defaults to connection host (if not an IP); otherwise, uses the global TLS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
   /**
   * Whether to inherit TLS configs from group setting or disable TLS. Default: "inherit"; must be one of ["inherit", "off"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: string;
   /**
   * Assign a weight (>0) to each endpoint to indicate its traffic-handling capability. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#weight PackDestination#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#weight PackDestination#weight}
   */
   readonly weight?: number;
 }
@@ -19368,49 +19368,49 @@ export interface PackDestinationOutputCriblTcpTls {
   /**
   * Path on client in which to find CA certificates to verify the server's cert. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ca_path PackDestination#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ca_path PackDestination#ca_path}
   */
   readonly caPath?: string;
   /**
   * Path on client in which to find certificates to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cert_path PackDestination#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cert_path PackDestination#cert_path}
   */
   readonly certPath?: string;
   /**
   * The name of the predefined certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#certificate_name PackDestination#certificate_name}
   */
   readonly certificateName?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_version PackDestination#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_version PackDestination#max_version}
   */
   readonly maxVersion?: string;
   /**
   * must be one of ["TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#min_version PackDestination#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#min_version PackDestination#min_version}
   */
   readonly minVersion?: string;
   /**
   * Passphrase to use to decrypt private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#passphrase PackDestination#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#passphrase PackDestination#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Path on client in which to find the private key to use. PEM format. Can reference $ENV_VARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#priv_key_path PackDestination#priv_key_path}
   */
   readonly privKeyPath?: string;
   /**
@@ -19418,13 +19418,13 @@ export interface PackDestinationOutputCriblTcpTls {
   *                     trusted CA (such as the system's). Defaults to Enabled. Overrides the toggle from Advanced Settings, when also present.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Server name for the SNI (Server Name Indication) TLS extension. It must be a host name, and not an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#servername PackDestination#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#servername PackDestination#servername}
   */
   readonly servername?: string;
 }
@@ -19781,59 +19781,59 @@ export interface PackDestinationOutputCriblTcp {
   /**
   * Codec to use to compress the data before sending. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression PackDestination#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression PackDestination#compression}
   */
   readonly compression?: string;
   /**
   * Amount of time (milliseconds) to wait for the connection to establish before retrying. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * The interval in which to re-resolve any hostnames and pick up destinations from A records. Default: 600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
   */
   readonly dnsResolvePeriodSec?: number;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Fields to exclude from the event. By default, all internal fields except `__output` are sent. Example: `cribl_pipe`, `c*`. Wildcards supported. Default: ["__kube_*","__metadata","__winEvent"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
   */
   readonly excludeFields?: string[];
   /**
   * Exclude all IPs of the current host from the list of any resolved hostnames. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
   */
   readonly excludeSelf?: boolean | cdktf.IResolvable;
   /**
   * The hostname of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#host PackDestination#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#host PackDestination#host}
   */
   readonly host?: string;
   /**
   * Set of hosts to load-balance data to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#hosts PackDestination#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#hosts PackDestination#hosts}
   */
   readonly hosts?: PackDestinationOutputCriblTcpHosts[] | cdktf.IResolvable;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19842,123 +19842,123 @@ export interface PackDestinationOutputCriblTcp {
   /**
   * How far back in time to keep traffic stats for load balancing purposes. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
   */
   readonly loadBalanceStatsPeriodSec?: number;
   /**
   * Use load-balanced destinations. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
   */
   readonly loadBalanced?: boolean | cdktf.IResolvable;
   /**
   * Use to troubleshoot issues with sending data. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_failed_requests PackDestination#log_failed_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_failed_requests PackDestination#log_failed_requests}
   */
   readonly logFailedRequests?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of concurrent connections (per Worker Process). A random set of IPs will be picked on every DNS resolution period. Use 0 for unlimited. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_concurrent_senders PackDestination#max_concurrent_senders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_concurrent_senders PackDestination#max_concurrent_senders}
   */
   readonly maxConcurrentSenders?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * The port to connect to on the provided host. Default: 10300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#port PackDestination#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#port PackDestination#port}
   */
   readonly port?: number;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputCriblTcpPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#throttle_rate_per_sec PackDestination#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#throttle_rate_per_sec PackDestination#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tls PackDestination#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tls PackDestination#tls}
   */
   readonly tls?: PackDestinationOutputCriblTcpTls;
   /**
   * The number of minutes before the internally generated authentication token expires, valid values between 1 and 60. Default: 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token_ttl_minutes PackDestination#token_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token_ttl_minutes PackDestination#token_ttl_minutes}
   */
   readonly tokenTtlMinutes?: number;
   /**
   * must be "cribl_tcp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Amount of time (milliseconds) to wait for a write to complete before assuming connection is dead. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_timeout PackDestination#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_timeout PackDestination#write_timeout}
   */
   readonly writeTimeout?: number;
 }
@@ -20916,11 +20916,11 @@ export class PackDestinationOutputCriblTcpOutputReference extends cdktf.ComplexO
 }
 export interface PackDestinationOutputCrowdstrikeNextGenSiemExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -21123,25 +21123,25 @@ export interface PackDestinationOutputCrowdstrikeNextGenSiemResponseRetrySetting
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -21343,25 +21343,25 @@ export interface PackDestinationOutputCrowdstrikeNextGenSiemTimeoutRetrySettings
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -21544,59 +21544,59 @@ export interface PackDestinationOutputCrowdstrikeNextGenSiem {
   /**
   * Select Manual to enter an auth token directly, or select Secret to use a text secret to authenticate. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputCrowdstrikeNextGenSiemExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * When set to JSON, the event is automatically formatted with required fields before sending. When set to Raw, only the event's `_raw` value is sent. Default: "raw"; must be one of ["JSON", "raw"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21605,65 +21605,65 @@ export interface PackDestinationOutputCrowdstrikeNextGenSiem {
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputCrowdstrikeNextGenSiemPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -21672,76 +21672,76 @@ export interface PackDestinationOutputCrowdstrikeNextGenSiem {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputCrowdstrikeNextGenSiemResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputCrowdstrikeNextGenSiemTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * must be "crowdstrike_next_gen_siem"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * URL provided from a CrowdStrike data connector. 
   * Example: https://ingest.<region>.crowdstrike.com/api/ingest/hec/<connection-id>/v1/services/collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -22789,11 +22789,11 @@ export class PackDestinationOutputCrowdstrikeNextGenSiemOutputReference extends 
 }
 export interface PackDestinationOutputDatadogExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -22996,25 +22996,25 @@ export interface PackDestinationOutputDatadogResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -23216,25 +23216,25 @@ export interface PackDestinationOutputDatadogTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -23417,87 +23417,87 @@ export interface PackDestinationOutputDatadog {
   /**
   * Allow API key to be set from the event's '__agent_api_key' field. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#allow_api_key_from_events PackDestination#allow_api_key_from_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#allow_api_key_from_events PackDestination#allow_api_key_from_events}
   */
   readonly allowApiKeyFromEvents?: boolean | cdktf.IResolvable;
   /**
   * Organization's API key in Datadog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_key PackDestination#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_key PackDestination#api_key}
   */
   readonly apiKey?: string;
   /**
   * Enter API key directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Batch events by API key and the ddtags field on the event. When disabled, batches events only by API key. If incoming events have high cardinality in the ddtags field, disabling this setting may improve Destination performance. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#batch_by_tags PackDestination#batch_by_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#batch_by_tags PackDestination#batch_by_tags}
   */
   readonly batchByTags?: boolean | cdktf.IResolvable;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * The content type to use when sending logs. Default: "json"; must be one of ["text", "json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#content_type PackDestination#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#content_type PackDestination#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#custom_url PackDestination#custom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#custom_url PackDestination#custom_url}
   */
   readonly customUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputDatadogExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Name of the host to send with logs. When you send logs as JSON objects, the event's 'host' field (if set) will override this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#host PackDestination#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#host PackDestination#host}
   */
   readonly host?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23506,71 +23506,71 @@ export interface PackDestinationOutputDatadog {
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Name of the event field that contains the message to send. If not specified, Stream sends a JSON representation of the whole event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message PackDestination#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message PackDestination#message}
   */
   readonly message?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputDatadogPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -23579,107 +23579,107 @@ export interface PackDestinationOutputDatadog {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputDatadogResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * If not enabled, Datadog will transform 'counter' metrics to 'gauge'. [Learn more about Datadog metrics types.](https://docs.datadoghq.com/metrics/types/?tab=count). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#send_counters_as_count PackDestination#send_counters_as_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#send_counters_as_count PackDestination#send_counters_as_count}
   */
   readonly sendCountersAsCount?: boolean | cdktf.IResolvable;
   /**
   * Name of the service to send with logs. When you send logs as JSON objects, the event's '__service' field (if set) will override this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#service PackDestination#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#service PackDestination#service}
   */
   readonly service?: string;
   /**
   * Default value for message severity. When you send logs as JSON objects, the event's '__severity' field (if set) will override this value. must be one of ["emergency", "alert", "critical", "error", "warning", "notice", "info", "debug"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#severity PackDestination#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#severity PackDestination#severity}
   */
   readonly severity?: string;
   /**
   * Datadog site to which events should be sent. Default: "us"; must be one of ["us", "us3", "us5", "eu", "fed1", "ap1", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#site PackDestination#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#site PackDestination#site}
   */
   readonly site?: string;
   /**
   * Name of the source to send with logs. When you send logs as JSON objects, the event's 'source' field (if set) will override this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#source PackDestination#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#source PackDestination#source}
   */
   readonly source?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * List of tags to send with logs, such as 'env:prod' and 'env_staging:east'. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#tags PackDestination#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#tags PackDestination#tags}
   */
   readonly tags?: string[];
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputDatadogTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Maximum total size of the batches waiting to be sent. If left blank, defaults to 5 times the max body size (if set). If 0, no limit is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
   */
   readonly totalMemoryLimitKb?: number;
   /**
   * must be "datadog"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -25043,11 +25043,11 @@ export class PackDestinationOutputDatadogOutputReference extends cdktf.ComplexOb
 }
 export interface PackDestinationOutputDatasetExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -25250,25 +25250,25 @@ export interface PackDestinationOutputDatasetResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -25470,25 +25470,25 @@ export interface PackDestinationOutputDatasetTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -25671,75 +25671,75 @@ export interface PackDestinationOutputDataset {
   /**
   * A 'Log Write Access' API key for the DataSet account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_key PackDestination#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_key PackDestination#api_key}
   */
   readonly apiKey?: string;
   /**
   * Enter API key directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#custom_url PackDestination#custom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#custom_url PackDestination#custom_url}
   */
   readonly customUrl?: string;
   /**
   * Default value for event severity. If the `sev` or `__severity` fields are set on an event, the first one matching will override this value. Default: "info"; must be one of ["finest", "finer", "fine", "info", "warning", "error", "fatal"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#default_severity PackDestination#default_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#default_severity PackDestination#default_severity}
   */
   readonly defaultSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Fields to exclude from the event if the Message field is either unspecified or refers to an object. Ignored if the Message field is a string. If empty, we send all non-internal fields. Default: ["sev","_time","ts","thread"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_fields PackDestination#exclude_fields}
   */
   readonly excludeFields?: string[];
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputDatasetExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25748,71 +25748,71 @@ export interface PackDestinationOutputDataset {
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Name of the event field that contains the message or attributes to send. If not specified, all of the event's non-internal fields will be sent as attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message_field PackDestination#message_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message_field PackDestination#message_field}
   */
   readonly messageField?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputDatasetPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -25821,89 +25821,89 @@ export interface PackDestinationOutputDataset {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputDatasetResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Name of the event field that contains the `serverHost` identifier. If not specified, defaults to `cribl_<outputId>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#server_host_field PackDestination#server_host_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#server_host_field PackDestination#server_host_field}
   */
   readonly serverHostField?: string;
   /**
   * DataSet site to which events should be sent. Default: "us"; must be one of ["us", "eu", "custom"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#site PackDestination#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#site PackDestination#site}
   */
   readonly site?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputDatasetTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Name of the event field that contains the timestamp. If not specified, defaults to `ts`, `_time`, or `Date.now()`, in that order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timestamp_field PackDestination#timestamp_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timestamp_field PackDestination#timestamp_field}
   */
   readonly timestampField?: string;
   /**
   * Maximum total size of the batches waiting to be sent. If left blank, defaults to 5 times the max body size (if set). If 0, no limit is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
   */
   readonly totalMemoryLimitKb?: number;
   /**
   * must be "dataset"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -27124,19 +27124,19 @@ export interface PackDestinationOutputDefault {
   /**
   * ID of the default output. This will be used whenever a nonexistent/deleted output is referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#default_id PackDestination#default_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#default_id PackDestination#default_id}
   */
   readonly defaultId: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27145,25 +27145,25 @@ export interface PackDestinationOutputDefault {
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
 }
@@ -27427,13 +27427,13 @@ export interface PackDestinationOutputDevnull {
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27442,25 +27442,25 @@ export interface PackDestinationOutputDevnull {
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "devnull"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
 }
@@ -27695,23 +27695,23 @@ export interface PackDestinationOutputDiskSpool {
   /**
   * Data compression format. Default is gzip. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27720,49 +27720,49 @@ export interface PackDestinationOutputDiskSpool {
   /**
   * Maximum disk space that can be consumed before older buckets are deleted. Examples: 420MB, 4GB. Default is 1GB. Default: "1GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_data_size PackDestination#max_data_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_data_size PackDestination#max_data_size}
   */
   readonly maxDataSize?: string;
   /**
   * Maximum amount of time to retain data before older buckets are deleted. Examples: 2h, 4d. Default is 24h. Default: "24h"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_data_time PackDestination#max_data_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_data_time PackDestination#max_data_time}
   */
   readonly maxDataTime?: string;
   /**
   * JavaScript expression defining how files are partitioned and organized within the time-buckets. If blank, the event's __partition property is used and otherwise, events go directly into the time-bucket directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
   */
   readonly partitionExpr?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Time period for grouping spooled events. Default is 10m. Default: "10m"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#time_window PackDestination#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#time_window PackDestination#time_window}
   */
   readonly timeWindow?: string;
   /**
   * must be "disk_spool"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
 }
@@ -28171,11 +28171,11 @@ export interface PackDestinationOutputDlS3KeyValueMetadata {
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -28319,167 +28319,167 @@ export interface PackDestinationOutputDlS3 {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * Amazon Resource Name (ARN) of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#assume_role_arn PackDestination#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#assume_role_arn PackDestination#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID to use when assuming role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#assume_role_external_id PackDestination#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#assume_role_external_id PackDestination#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * Automatically calculate the schema based on the events of each Parquet file generated. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
   */
   readonly automaticSchema?: boolean | cdktf.IResolvable;
   /**
   * This value can be a constant or a JavaScript expression (`${C.env.SOME_ACCESS_KEY}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS authentication method. Choose Auto to use IAM roles. Default: "auto"; must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * Select or create a stored secret that references your access key and secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
   */
   readonly awsSecret?: string;
   /**
   * Secret key. This value can be a constant or a JavaScript expression. Example: `${C.env.SOME_SECRET}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * JavaScript expression to define the output filename prefix (can be constant). Default: "`CriblOut`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
   */
   readonly baseFileName?: string;
   /**
   * Name of the destination S3 bucket. Must be a JavaScript expression (which can evaluate to a constant value), enclosed in quotes or backticks. Can be evaluated only at initialization time. Example referencing a Global Variable: `myBucket-${C.vars.myVar}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#bucket PackDestination#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#bucket PackDestination#bucket}
   */
   readonly bucket: string;
   /**
   * Data compression format to apply to HTTP content before it is delivered. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Compression level to apply before moving files to final destination. Default: "best_speed"; must be one of ["best_speed", "normal", "best_compression"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression_level PackDestination#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression_level PackDestination#compression_level}
   */
   readonly compressionLevel?: string;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Storage location for files that fail to reach their final destination after maximum retries are exceeded. Default: "$CRIBL_HOME/state/outputs/dead-letter"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
   */
   readonly deadletterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Prefix to append to files before uploading. Must be a JavaScript expression (which can evaluate to a constant value), enclosed in quotes or backticks. Can be evaluated only at init time. Example referencing a Global Variable: `myKeyPrefix-${C.vars.myVar}`. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dest_path PackDestination#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dest_path PackDestination#dest_path}
   */
   readonly destPath?: string;
   /**
   * Duration of the assumed role's session, in seconds. Minimum is 900 (15 minutes), default is 3600 (1 hour), and maximum is 43200 (12 hours). Default: 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#duration_seconds PackDestination#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#duration_seconds PackDestination#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * How frequently, in seconds, to clean up empty directories. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
   */
   readonly emptyDirCleanupSec?: number;
   /**
   * Use Assume Role credentials to access S3. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_assume_role PackDestination#enable_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_assume_role PackDestination#enable_assume_role}
   */
   readonly enableAssumeRole?: boolean | cdktf.IResolvable;
   /**
   * Parquet tools can use the checksum of a Parquet page to verify data integrity. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
   */
   readonly enablePageChecksum?: boolean | cdktf.IResolvable;
   /**
   * Statistics profile an entire file in terms of minimum/maximum values within data, numbers of nulls, etc. You can use Parquet tools to view statistics. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
   */
   readonly enableStatistics?: boolean | cdktf.IResolvable;
   /**
   * One page index contains statistics for one data page. Parquet readers use statistics to enable page skipping. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
   */
   readonly enableWritePageIndex?: boolean | cdktf.IResolvable;
   /**
   * S3 service endpoint. If empty, defaults to the AWS Region-specific endpoint. Otherwise, it must point to S3-compatible endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * JavaScript expression to define the output filename suffix (can be constant).  The `__format` variable refers to the value of the `Data format` field (`json` or `raw`).  The `__compression` field refers to the kind of compression being used (`none` or `gzip`). Default: "`.${C.env[\"CRIBL_WORKER_ID\"]}.${__format}${__compression === \"gzip\" ? \".gz\" : \"\"}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
   */
   readonly fileNameSuffix?: string;
   /**
   * Format of the output data. Default: "json"; must be one of ["json", "raw", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * If set, this line will be written to the beginning of each output file. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#header_line PackDestination#header_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#header_line PackDestination#header_line}
   */
   readonly headerLine?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28488,187 +28488,187 @@ export interface PackDestinationOutputDlS3 {
   /**
   * The metadata of files the Destination writes will include the properties you add here as key-value pairs. Useful for tagging. Examples: "key":"OCSF Event Class", "value":"9001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
   */
   readonly keyValueMetadata?: PackDestinationOutputDlS3KeyValueMetadata[] | cdktf.IResolvable;
   /**
   * ID or ARN of the KMS customer-managed key to use for encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#kms_key_id PackDestination#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#kms_key_id PackDestination#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Maximum number of files that can be waiting for upload before backpressure is applied. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_closing_files_to_backpressure PackDestination#max_closing_files_to_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_closing_files_to_backpressure PackDestination#max_closing_files_to_backpressure}
   */
   readonly maxClosingFilesToBackpressure?: number;
   /**
   * Maximum number of parts to upload in parallel per file. Minimum part size is 5MB. Default: 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_concurrent_file_parts PackDestination#max_concurrent_file_parts}
   */
   readonly maxConcurrentFileParts?: number;
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * The maximum number of times a file will attempt to move to its final destination before being dead-lettered. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
   */
   readonly maxRetryNum?: number;
   /**
   * Object ACL to assign to uploaded objects. Default: "private"; must be one of ["private", "public-read", "public-read-write", "authenticated-read", "aws-exec-read", "bucket-owner-read", "bucket-owner-full-control"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#object_acl PackDestination#object_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#object_acl PackDestination#object_acl}
   */
   readonly objectAcl?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Serialization format of data pages. Note that some reader implementations use Data page V2's attributes to work more efficiently, while others ignore it. Default: "DATA_PAGE_V2"; must be one of ["DATA_PAGE_V1", "DATA_PAGE_V2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
   */
   readonly parquetDataPageVersion?: string;
   /**
   * Target memory size for page segments, such as 1MB or 128MB. Generally, lower values improve reading speed, while higher values improve compression. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
   */
   readonly parquetPageSize?: string;
   /**
   * The number of rows that every group will contain. The final group can contain a smaller number of rows. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
   */
   readonly parquetRowGroupLength?: number;
   /**
   * Determines which data types are supported and how they are represented. Default: "PARQUET_2_6"; must be one of ["PARQUET_1_0", "PARQUET_2_4", "PARQUET_2_6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
   */
   readonly parquetVersion?: string;
   /**
   * List of fields to partition the path by, in addition to time, which is included automatically. The effective partition will be YYYY/MM/DD/HH/<list/of/fields>. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#partitioning_fields PackDestination#partitioning_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#partitioning_fields PackDestination#partitioning_fields}
   */
   readonly partitioningFields?: string[];
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Region where the S3 bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region?: string;
   /**
   * Reject certificates that cannot be verified against a valid CA, such as self-signed certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Reuse connections between requests, which can improve performance. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * must be one of ["AES256", "aws:kms"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#server_side_encryption PackDestination#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#server_side_encryption PackDestination#server_side_encryption}
   */
   readonly serverSideEncryption?: string;
   /**
   * Log up to 3 rows that @{product} skips due to data mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
   */
   readonly shouldLogInvalidRows?: boolean | cdktf.IResolvable;
   /**
   * Signature version to use for signing S3 requests. Default: "v4"; must be one of ["v2", "v4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#signature_version PackDestination#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#signature_version PackDestination#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * Filesystem location in which to buffer files, before compressing and moving to final destination. Use performant and stable storage. Default: "$CRIBL_HOME/state/outputs/staging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * Storage class to select for uploaded objects. must be one of ["STANDARD", "REDUCED_REDUNDANCY", "STANDARD_IA", "ONEZONE_IA", "INTELLIGENT_TIERING", "GLACIER", "GLACIER_IR", "DEEP_ARCHIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#storage_class PackDestination#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#storage_class PackDestination#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "dl_s3"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Disable if you can access files within the bucket but not the bucket itself. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#verify_permissions PackDestination#verify_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#verify_permissions PackDestination#verify_permissions}
   */
   readonly verifyPermissions?: boolean | cdktf.IResolvable;
   /**
   * Buffer size used to write to a file. Default: 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
   */
   readonly writeHighWaterMark?: number;
 }
@@ -30441,11 +30441,11 @@ export class PackDestinationOutputDlS3OutputReference extends cdktf.ComplexObjec
 }
 export interface PackDestinationOutputDynatraceHttpExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -30648,25 +30648,25 @@ export interface PackDestinationOutputDynatraceHttpResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -30868,25 +30868,25 @@ export interface PackDestinationOutputDynatraceHttpTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -31069,77 +31069,77 @@ export interface PackDestinationOutputDynatraceHttp {
   /**
   * ActiveGate domain with Log analytics collector module enabled. For example https://{activeGate-domain}:9999/e/{environment-id}/api/v2/logs/ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#active_gate_domain PackDestination#active_gate_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#active_gate_domain PackDestination#active_gate_domain}
   */
   readonly activeGateDomain?: string;
   /**
   * Default: "token"; must be one of ["token", "textSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Default: "cloud"; must be one of ["cloud", "activeGate", "manual"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * ID of the environment to send to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment_id PackDestination#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment_id PackDestination#environment_id}
   */
   readonly environmentId?: string;
   /**
   * Headers to add to all events. You can also add headers dynamically on a per-event basis in the __headers field, as explained in [Cribl Docs](https://docs.cribl.io/stream/destinations-webhook/#internal-fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputDynatraceHttpExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * How to format events before sending. Defaults to JSON. Plaintext is not currently supported. Default: "json_array"; must be one of ["json_array", "plaintext"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31148,77 +31148,77 @@ export interface PackDestinationOutputDynatraceHttp {
   /**
   * Disable to close the connection immediately after sending the outgoing request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * The method to use when sending events. Default: "POST"; must be one of ["POST", "PUT", "PATCH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#method PackDestination#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#method PackDestination#method}
   */
   readonly method?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputDynatraceHttpPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -31227,89 +31227,89 @@ export interface PackDestinationOutputDynatraceHttp {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputDynatraceHttpResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Default: "logs"; must be one of ["logs", "metrics"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#telemetry_type PackDestination#telemetry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#telemetry_type PackDestination#telemetry_type}
   */
   readonly telemetryType?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputDynatraceHttpTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Bearer token to include in the authorization header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Maximum total size of the batches waiting to be sent. If left blank, defaults to 5 times the max body size (if set). If 0, no limit is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
   */
   readonly totalMemoryLimitKb?: number;
   /**
   * must be "dynatrace_http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * URL to send events to. Can be overwritten by an event's __url field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url?: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -32563,11 +32563,11 @@ export class PackDestinationOutputDynatraceHttpOutputReference extends cdktf.Com
 }
 export interface PackDestinationOutputDynatraceOtlpExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -32711,11 +32711,11 @@ export interface PackDestinationOutputDynatraceOtlpMetadata {
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -32918,25 +32918,25 @@ export interface PackDestinationOutputDynatraceOtlpResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -33138,25 +33138,25 @@ export interface PackDestinationOutputDynatraceOtlpTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -33339,95 +33339,95 @@ export interface PackDestinationOutputDynatraceOtlp {
   /**
   * Default: "Authorization"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_token_name PackDestination#auth_token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_token_name PackDestination#auth_token_name}
   */
   readonly authTokenName?: string;
   /**
   * Type of compression to apply to messages sent to the OpenTelemetry endpoint. Default: "gzip"; must be one of ["none", "deflate", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Amount of time (milliseconds) to wait for the connection to establish before retrying. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * The endpoint where Dynatrace events will be sent. Enter any valid URL or an IP address (IPv4 or IPv6; enclose IPv6 addresses in square brackets). Default: "https://{your-environment-id}.live.dynatrace.com/api/v2/otlp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Select the type of Dynatrace endpoint configured. Default: "saas"; must be one of ["saas", "ag"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint_type PackDestination#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint_type PackDestination#endpoint_type}
   */
   readonly endpointType?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputDynatraceOtlpExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Type of compression to apply to messages sent to the OpenTelemetry endpoint. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_compress PackDestination#http_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_compress PackDestination#http_compress}
   */
   readonly httpCompress?: string;
   /**
   * If you want to send logs to the default `{endpoint}/v1/logs` endpoint, leave this field empty; otherwise, specify the desired endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_logs_endpoint_override PackDestination#http_logs_endpoint_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_logs_endpoint_override PackDestination#http_logs_endpoint_override}
   */
   readonly httpLogsEndpointOverride?: string;
   /**
   * If you want to send metrics to the default `{endpoint}/v1/metrics` endpoint, leave this field empty; otherwise, specify the desired endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_metrics_endpoint_override PackDestination#http_metrics_endpoint_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_metrics_endpoint_override PackDestination#http_metrics_endpoint_override}
   */
   readonly httpMetricsEndpointOverride?: string;
   /**
   * If you want to send traces to the default `{endpoint}/v1/traces` endpoint, leave this field empty; otherwise, specify the desired endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_traces_endpoint_override PackDestination#http_traces_endpoint_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_traces_endpoint_override PackDestination#http_traces_endpoint_override}
   */
   readonly httpTracesEndpointOverride?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33436,89 +33436,89 @@ export interface PackDestinationOutputDynatraceOtlp {
   /**
   * Disable to close the connection immediately after sending the outgoing request. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#keep_alive PackDestination#keep_alive}
   */
   readonly keepAlive?: boolean | cdktf.IResolvable;
   /**
   * How often the sender should ping the peer to keep the connection open. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#keep_alive_time PackDestination#keep_alive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#keep_alive_time PackDestination#keep_alive_time}
   */
   readonly keepAliveTime?: number;
   /**
   * Maximum size (in KB) of the request body. The maximum payload size is 4 MB. If this limit is exceeded, the entire OTLP message is dropped. Default: 2048
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * List of key-value pairs to send with each gRPC request. Value supports JavaScript expressions that are evaluated just once, when the destination gets started. To pass credentials as metadata, use 'C.Secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#metadata PackDestination#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#metadata PackDestination#metadata}
   */
   readonly metadata?: PackDestinationOutputDynatraceOtlpMetadata[] | cdktf.IResolvable;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * The version of OTLP Protobuf definitions to use when structuring data to send. Default: "1.3.1"; must be "1.3.1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#otlp_version PackDestination#otlp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#otlp_version PackDestination#otlp_version}
   */
   readonly otlpVersion?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputDynatraceOtlpPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Select a transport option for Dynatrace. Default: "http"; must be "http"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#protocol PackDestination#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#protocol PackDestination#protocol}
   */
   readonly protocol?: string;
   /**
@@ -33527,65 +33527,65 @@ export interface PackDestinationOutputDynatraceOtlp {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputDynatraceOtlpResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputDynatraceOtlpTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token_secret PackDestination#token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token_secret PackDestination#token_secret}
   */
   readonly tokenSecret: string;
   /**
   * must be "dynatrace_otlp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -34867,13 +34867,13 @@ export interface PackDestinationOutputElasticAuth {
   /**
   * Enter credentials directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret", "manualAPIKey", "textSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -34996,11 +34996,11 @@ export class PackDestinationOutputElasticAuthOutputReference extends cdktf.Compl
 }
 export interface PackDestinationOutputElasticExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -35142,11 +35142,11 @@ export class PackDestinationOutputElasticExtraHttpHeadersList extends cdktf.Comp
 }
 export interface PackDestinationOutputElasticExtraParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -35346,25 +35346,25 @@ export interface PackDestinationOutputElasticResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -35566,25 +35566,25 @@ export interface PackDestinationOutputElasticTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -35767,13 +35767,13 @@ export interface PackDestinationOutputElasticUrls {
   /**
   * The URL to an Elastic node to send events to. Example: http://elastic:9200/_bulk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url: string;
   /**
   * Assign a weight (>0) to each endpoint to indicate its traffic-handling capability. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#weight PackDestination#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#weight PackDestination#weight}
   */
   readonly weight?: number;
 }
@@ -35915,87 +35915,87 @@ export class PackDestinationOutputElasticUrlsList extends cdktf.ComplexList {
 }
 export interface PackDestinationOutputElastic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth PackDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth PackDestination#auth}
   */
   readonly auth?: PackDestinationOutputElasticAuth;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * The interval in which to re-resolve any hostnames and pick up destinations from A records. Default: 600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
   */
   readonly dnsResolvePeriodSec?: number;
   /**
   * Document type to use for events. Can be overwritten by an event's __type field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#doc_type PackDestination#doc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#doc_type PackDestination#doc_type}
   */
   readonly docType?: string;
   /**
   * Optional Elasticsearch destination pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#elastic_pipeline PackDestination#elastic_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#elastic_pipeline PackDestination#elastic_pipeline}
   */
   readonly elasticPipeline?: string;
   /**
   * Optional Elasticsearch version, used to format events. If not specified, will auto-discover version. Default: "auto"; must be one of ["auto", "6", "7"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#elastic_version PackDestination#elastic_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#elastic_version PackDestination#elastic_version}
   */
   readonly elasticVersion?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Exclude all IPs of the current host from the list of any resolved hostnames. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#exclude_self PackDestination#exclude_self}
   */
   readonly excludeSelf?: boolean | cdktf.IResolvable;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputElasticExtraHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_params PackDestination#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_params PackDestination#extra_params}
   */
   readonly extraParams?: PackDestinationOutputElasticExtraParams[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36004,89 +36004,89 @@ export interface PackDestinationOutputElastic {
   /**
   * Include the `document_id` field when sending events to an Elastic TSDS (time series data stream). Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#include_doc_id PackDestination#include_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#include_doc_id PackDestination#include_doc_id}
   */
   readonly includeDocId?: boolean | cdktf.IResolvable;
   /**
   * Index or data stream to send events to. Must be a JavaScript expression (which can evaluate to a constant value), enclosed in quotes or backticks. Can be overwritten by an event's __index field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#index PackDestination#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#index PackDestination#index}
   */
   readonly index: string;
   /**
   * How far back in time to keep traffic stats for load balancing purposes. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balance_stats_period_sec PackDestination#load_balance_stats_period_sec}
   */
   readonly loadBalanceStatsPeriodSec?: number;
   /**
   * Enable for optimal performance. Even if you have one hostname, it can expand to multiple IPs. If disabled, consider enabling round-robin DNS. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#load_balanced PackDestination#load_balanced}
   */
   readonly loadBalanced?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputElasticPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -36095,81 +36095,81 @@ export interface PackDestinationOutputElastic {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputElasticResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * Retry failed events when a bulk request to Elastic is successful, but the response body returns an error for one or more events in the batch. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#retry_partial_errors PackDestination#retry_partial_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#retry_partial_errors PackDestination#retry_partial_errors}
   */
   readonly retryPartialErrors?: boolean | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputElasticTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "elastic"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * The Cloud ID or URL to an Elastic cluster to send events to. Example: http://elastic:9200/_bulk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#urls PackDestination#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#urls PackDestination#urls}
   */
   readonly urls?: PackDestinationOutputElasticUrls[] | cdktf.IResolvable;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
   /**
   * Action to use when writing events. Must be set to `Create` when writing to a data stream. Default: "create"; must be one of ["index", "create"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_action PackDestination#write_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_action PackDestination#write_action}
   */
   readonly writeAction?: string;
 }
@@ -37506,13 +37506,13 @@ export interface PackDestinationOutputElasticCloudAuth {
   /**
   * Enter credentials directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret", "manualAPIKey", "textSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#disabled PackDestination#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#disabled PackDestination#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -37635,11 +37635,11 @@ export class PackDestinationOutputElasticCloudAuthOutputReference extends cdktf.
 }
 export interface PackDestinationOutputElasticCloudExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -37781,11 +37781,11 @@ export class PackDestinationOutputElasticCloudExtraHttpHeadersList extends cdktf
 }
 export interface PackDestinationOutputElasticCloudExtraParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -37985,25 +37985,25 @@ export interface PackDestinationOutputElasticCloudResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -38205,25 +38205,25 @@ export interface PackDestinationOutputElasticCloudTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -38404,65 +38404,65 @@ export class PackDestinationOutputElasticCloudTimeoutRetrySettingsOutputReferenc
 }
 export interface PackDestinationOutputElasticCloud {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth PackDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth PackDestination#auth}
   */
   readonly auth?: PackDestinationOutputElasticCloudAuth;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optional Elastic Cloud Destination pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#elastic_pipeline PackDestination#elastic_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#elastic_pipeline PackDestination#elastic_pipeline}
   */
   readonly elasticPipeline?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputElasticCloudExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Extra parameters to use in HTTP requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_params PackDestination#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_params PackDestination#extra_params}
   */
   readonly extraParams?: PackDestinationOutputElasticCloudExtraParams[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38471,77 +38471,77 @@ export interface PackDestinationOutputElasticCloud {
   /**
   * Include the `document_id` field when sending events to an Elastic TSDS (time series data stream). Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#include_doc_id PackDestination#include_doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#include_doc_id PackDestination#include_doc_id}
   */
   readonly includeDocId?: boolean | cdktf.IResolvable;
   /**
   * Data stream or index to send events to. Must be a JavaScript expression (which can evaluate to a constant value), enclosed in quotes or backticks. Can be overwritten by an event's __index field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#index PackDestination#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#index PackDestination#index}
   */
   readonly index: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputElasticCloudPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -38550,59 +38550,59 @@ export interface PackDestinationOutputElasticCloud {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputElasticCloudResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputElasticCloudTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "elastic_cloud"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Enter Cloud ID of the Elastic Cloud environment to send events to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url: string;
 }
@@ -39649,77 +39649,77 @@ export interface PackDestinationOutputExabeam {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * HMAC access key. Can be a constant or a JavaScript expression, such as `${C.env.GCS_ACCESS_KEY}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * HMAC secret. Can be a constant or a JavaScript expression, such as `${C.env.GCS_SECRET}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Name of the destination bucket. A constant or a JavaScript expression that can only be evaluated at init time. Example of referencing a JavaScript Global Variable: `myBucket-${C.vars.myVar}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#bucket PackDestination#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#bucket PackDestination#bucket}
   */
   readonly bucket: string;
   /**
   * ID of the Exabeam Collector where data should be sent. Example: 11112222-3333-4444-5555-666677778888
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#collector_instance_id PackDestination#collector_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#collector_instance_id PackDestination#collector_instance_id}
   */
   readonly collectorInstanceId: string;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Storage location for files that fail to reach their final destination after maximum retries are exceeded. Default: "$CRIBL_HOME/state/outputs/dead-letter"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
   */
   readonly deadletterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * How frequently, in seconds, to clean up empty directories. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
   */
   readonly emptyDirCleanupSec?: number;
   /**
   * Enter an encoded string containing Exabeam configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#encoded_configuration PackDestination#encoded_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#encoded_configuration PackDestination#encoded_configuration}
   */
   readonly encodedConfiguration?: string;
   /**
   * Google Cloud Storage service endpoint. Default: "https://storage.googleapis.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39728,131 +39728,131 @@ export interface PackDestinationOutputExabeam {
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * The maximum number of times a file will attempt to move to its final destination before being dead-lettered. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
   */
   readonly maxRetryNum?: number;
   /**
   * Object ACL to assign to uploaded objects. Default: "private"; must be one of ["private", "bucket-owner-read", "bucket-owner-full-control", "project-private", "authenticated-read", "public-read"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#object_acl PackDestination#object_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#object_acl PackDestination#object_acl}
   */
   readonly objectAcl?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region: string;
   /**
   * Reject certificates that cannot be verified against a valid CA, such as self-signed certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Reuse connections between requests, which can improve performance. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * Signature version to use for signing Google Cloud Storage requests. Default: "v4"; must be one of ["v2", "v4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#signature_version PackDestination#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#signature_version PackDestination#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * Exabeam site ID. If left blank, @{product} will use the value of the Exabeam site name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#site_id PackDestination#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#site_id PackDestination#site_id}
   */
   readonly siteId?: string;
   /**
   * Constant or JavaScript expression to create an Exabeam site name. Values that aren't successfully evaluated will be treated as string constants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#site_name PackDestination#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#site_name PackDestination#site_name}
   */
   readonly siteName?: string;
   /**
   * Filesystem location in which to buffer files, before compressing and moving to final destination. Use performant and stable storage. Default: "$CRIBL_HOME/state/outputs/staging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * Storage class to select for uploaded objects. must be one of ["STANDARD", "NEARLINE", "COLDLINE", "ARCHIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#storage_class PackDestination#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#storage_class PackDestination#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timezone_offset PackDestination#timezone_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timezone_offset PackDestination#timezone_offset}
   */
   readonly timezoneOffset?: string;
   /**
   * must be "exabeam"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
 }
@@ -40925,11 +40925,11 @@ export interface PackDestinationOutputFilesystemKeyValueMetadata {
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -41073,107 +41073,107 @@ export interface PackDestinationOutputFilesystem {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * Automatically calculate the schema based on the events of each Parquet file generated. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
   */
   readonly automaticSchema?: boolean | cdktf.IResolvable;
   /**
   * JavaScript expression to define the output filename prefix (can be constant). Default: "`CriblOut`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
   */
   readonly baseFileName?: string;
   /**
   * Data compression format to apply to HTTP content before it is delivered. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Compression level to apply before moving files to final destination. Default: "best_speed"; must be one of ["best_speed", "normal", "best_compression"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression_level PackDestination#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression_level PackDestination#compression_level}
   */
   readonly compressionLevel?: string;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Storage location for files that fail to reach their final destination after maximum retries are exceeded. Default: "$CRIBL_HOME/state/outputs/dead-letter"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
   */
   readonly deadletterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Final destination for the output files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dest_path PackDestination#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dest_path PackDestination#dest_path}
   */
   readonly destPath: string;
   /**
   * How frequently, in seconds, to clean up empty directories. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
   */
   readonly emptyDirCleanupSec?: number;
   /**
   * Parquet tools can use the checksum of a Parquet page to verify data integrity. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
   */
   readonly enablePageChecksum?: boolean | cdktf.IResolvable;
   /**
   * Statistics profile an entire file in terms of minimum/maximum values within data, numbers of nulls, etc. You can use Parquet tools to view statistics. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
   */
   readonly enableStatistics?: boolean | cdktf.IResolvable;
   /**
   * One page index contains statistics for one data page. Parquet readers use statistics to enable page skipping. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
   */
   readonly enableWritePageIndex?: boolean | cdktf.IResolvable;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * JavaScript expression to define the output filename suffix (can be constant).  The `__format` variable refers to the value of the `Data format` field (`json` or `raw`).  The `__compression` field refers to the kind of compression being used (`none` or `gzip`). Default: "`.${C.env[\"CRIBL_WORKER_ID\"]}.${__format}${__compression === \"gzip\" ? \".gz\" : \"\"}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
   */
   readonly fileNameSuffix?: string;
   /**
   * Format of the output data. Default: "json"; must be one of ["json", "raw", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * If set, this line will be written to the beginning of each output file. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#header_line PackDestination#header_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#header_line PackDestination#header_line}
   */
   readonly headerLine?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41182,127 +41182,127 @@ export interface PackDestinationOutputFilesystem {
   /**
   * The metadata of files the Destination writes will include the properties you add here as key-value pairs. Useful for tagging. Examples: "key":"OCSF Event Class", "value":"9001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
   */
   readonly keyValueMetadata?: PackDestinationOutputFilesystemKeyValueMetadata[] | cdktf.IResolvable;
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * The maximum number of times a file will attempt to move to its final destination before being dead-lettered. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
   */
   readonly maxRetryNum?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Serialization format of data pages. Note that some reader implementations use Data page V2's attributes to work more efficiently, while others ignore it. Default: "DATA_PAGE_V2"; must be one of ["DATA_PAGE_V1", "DATA_PAGE_V2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
   */
   readonly parquetDataPageVersion?: string;
   /**
   * Target memory size for page segments, such as 1MB or 128MB. Generally, lower values improve reading speed, while higher values improve compression. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
   */
   readonly parquetPageSize?: string;
   /**
   * The number of rows that every group will contain. The final group can contain a smaller number of rows. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
   */
   readonly parquetRowGroupLength?: number;
   /**
   * Determines which data types are supported and how they are represented. Default: "PARQUET_2_6"; must be one of ["PARQUET_1_0", "PARQUET_2_4", "PARQUET_2_6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
   */
   readonly parquetVersion?: string;
   /**
   * JavaScript expression defining how files are partitioned and organized. Default is date-based. If blank, Stream will fall back to the event's __partition field value – if present – otherwise to each location's root directory. Default: "C.Time.strftime(_time ? _time : Date.now()/1000, '%Y/%m/%d')"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
   */
   readonly partitionExpr?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Log up to 3 rows that @{product} skips due to data mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
   */
   readonly shouldLogInvalidRows?: boolean | cdktf.IResolvable;
   /**
   * Filesystem location in which to buffer files before compressing and moving to final destination. Use performant, stable storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "filesystem"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Buffer size used to write to a file. Default: 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
   */
   readonly writeHighWaterMark?: number;
 }
@@ -42492,11 +42492,11 @@ export class PackDestinationOutputFilesystemOutputReference extends cdktf.Comple
 }
 export interface PackDestinationOutputGoogleChronicleCustomLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -42635,11 +42635,11 @@ export class PackDestinationOutputGoogleChronicleCustomLabelsList extends cdktf.
 }
 export interface PackDestinationOutputGoogleChronicleExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -42781,11 +42781,11 @@ export class PackDestinationOutputGoogleChronicleExtraHttpHeadersList extends cd
 }
 export interface PackDestinationOutputGoogleChronicleExtraLogTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_type PackDestination#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_type PackDestination#log_type}
   */
   readonly logType: string;
 }
@@ -42988,25 +42988,25 @@ export interface PackDestinationOutputGoogleChronicleResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -43208,25 +43208,25 @@ export interface PackDestinationOutputGoogleChronicleTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -43409,89 +43409,89 @@ export interface PackDestinationOutputGoogleChronicle {
   /**
   * Organization's API key in Google SecOps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_key PackDestination#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_key PackDestination#api_key}
   */
   readonly apiKey?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_key_secret PackDestination#api_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_key_secret PackDestination#api_key_secret}
   */
   readonly apiKeySecret?: string;
   /**
   * Default: "v1"; must be one of ["v1", "v2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#api_version PackDestination#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#api_version PackDestination#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Default: "serviceAccount"; must be one of ["manual", "secret", "serviceAccount", "serviceAccountSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#authentication_method PackDestination#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#authentication_method PackDestination#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Custom labels to be added to every batch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#custom_labels PackDestination#custom_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#custom_labels PackDestination#custom_labels}
   */
   readonly customLabels?: PackDestinationOutputGoogleChronicleCustomLabels[] | cdktf.IResolvable;
   /**
   * Unique identifier (UUID) corresponding to a particular SecOps instance. Provided by your SecOps representative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#customer_id PackDestination#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#customer_id PackDestination#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputGoogleChronicleExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Custom log types. If the value "Custom" is selected in the setting "Default log type" above, the first custom log type in this table will be automatically selected as default log type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_log_types PackDestination#extra_log_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_log_types PackDestination#extra_log_types}
   */
   readonly extraLogTypes?: PackDestinationOutputGoogleChronicleExtraLogTypes[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43500,95 +43500,95 @@ export interface PackDestinationOutputGoogleChronicle {
   /**
   * Default: "unstructured"; must be one of ["unstructured", "udm"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_format_type PackDestination#log_format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_format_type PackDestination#log_format_type}
   */
   readonly logFormatType?: string;
   /**
   * Name of the event field that contains the log text to send. If not specified, Stream sends a JSON representation of the whole event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_text_field PackDestination#log_text_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_text_field PackDestination#log_text_field}
   */
   readonly logTextField?: string;
   /**
   * Default log type value to send to SecOps. Can be overwritten by event field __logType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_type PackDestination#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_type PackDestination#log_type}
   */
   readonly logType?: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * User-configured environment namespace to identify the data domain the logs originated from. Use namespace as a tag to identify the appropriate data domain for indexing and enrichment functionality. Can be overwritten by event field __namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#namespace PackDestination#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#namespace PackDestination#namespace}
   */
   readonly namespace?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGoogleChroniclePqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Regional endpoint to send events to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region?: string;
   /**
@@ -43597,77 +43597,77 @@ export interface PackDestinationOutputGoogleChronicle {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputGoogleChronicleResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Contents of service account credentials (JSON keys) file downloaded from Google Cloud. To upload a file, click the upload button at this field's upper right.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#service_account_credentials_secret PackDestination#service_account_credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#service_account_credentials_secret PackDestination#service_account_credentials_secret}
   */
   readonly serviceAccountCredentialsSecret?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputGoogleChronicleTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Maximum total size of the batches waiting to be sent. If left blank, defaults to 5 times the max body size (if set). If 0, no limit is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
   */
   readonly totalMemoryLimitKb?: number;
   /**
   * must be "google_chronicle"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -45007,13 +45007,13 @@ export interface PackDestinationOutputGoogleCloudLoggingLogLabels {
   /**
   * Label name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#label PackDestination#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#label PackDestination#label}
   */
   readonly label: string;
   /**
   * JavaScript expression to compute the label's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value_expression PackDestination#value_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value_expression PackDestination#value_expression}
   */
   readonly valueExpression: string;
 }
@@ -45213,13 +45213,13 @@ export interface PackDestinationOutputGoogleCloudLoggingResourceTypeLabels {
   /**
   * Label name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#label PackDestination#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#label PackDestination#label}
   */
   readonly label: string;
   /**
   * JavaScript expression to compute the label's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value_expression PackDestination#value_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value_expression PackDestination#value_expression}
   */
   readonly valueExpression: string;
 }
@@ -45360,83 +45360,83 @@ export interface PackDestinationOutputGoogleCloudLogging {
   /**
   * A JavaScript expression that evaluates to the HTTP request cache fill bytes as a string, in int64 format. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cache_fill_bytes_expression PackDestination#cache_fill_bytes_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cache_fill_bytes_expression PackDestination#cache_fill_bytes_expression}
   */
   readonly cacheFillBytesExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request cache hit as a boolean. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cache_hit_expression PackDestination#cache_hit_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cache_hit_expression PackDestination#cache_hit_expression}
   */
   readonly cacheHitExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request cache lookup as a boolean. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cache_lookup_expression PackDestination#cache_lookup_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cache_lookup_expression PackDestination#cache_lookup_expression}
   */
   readonly cacheLookupExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request cache validated with origin server as a boolean. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#cache_validated_expression PackDestination#cache_validated_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#cache_validated_expression PackDestination#cache_validated_expression}
   */
   readonly cacheValidatedExpression?: string;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Amount of time (milliseconds) to wait for the connection to establish before retrying. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * A JavaScript expression that evaluates to the log entry source location file as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentrysourcelocation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_expression PackDestination#file_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_expression PackDestination#file_expression}
   */
   readonly fileExpression?: string;
   /**
   * A JavaScript expression that evaluates to the log entry operation first flag as a boolean. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentryoperation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#first_expression PackDestination#first_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#first_expression PackDestination#first_expression}
   */
   readonly firstExpression?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Max record size. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * A JavaScript expression that evaluates to the log entry source location function as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentrysourcelocation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#function_expression PackDestination#function_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#function_expression PackDestination#function_expression}
   */
   readonly functionExpression?: string;
   /**
   * Choose Auto to use Google Application Default Credentials (ADC), Manual to enter Google service account credentials directly, or Secret to select or create a stored secret that references Google service account credentials. Default: "manual"; must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#google_auth_method PackDestination#google_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#google_auth_method PackDestination#google_auth_method}
   */
   readonly googleAuthMethod?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45445,299 +45445,299 @@ export interface PackDestinationOutputGoogleCloudLogging {
   /**
   * A JavaScript expression that evaluates to the log entry operation ID as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentryoperation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id_expression PackDestination#id_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id_expression PackDestination#id_expression}
   */
   readonly idExpression?: string;
   /**
   * A JavaScript expression that evaluates to the log entry log split index as a number. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logsplit) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#index_expression PackDestination#index_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#index_expression PackDestination#index_expression}
   */
   readonly indexExpression?: string;
   /**
   * JavaScript expression to compute the value of the insert ID field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#insert_id_expression PackDestination#insert_id_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#insert_id_expression PackDestination#insert_id_expression}
   */
   readonly insertIdExpression?: string;
   /**
   * A JavaScript expression that evaluates to the log entry operation last flag as a boolean. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentryoperation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#last_expression PackDestination#last_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#last_expression PackDestination#last_expression}
   */
   readonly lastExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request latency, formatted as <seconds>.<nanoseconds>s (for example, 1.23s). See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#latency_expression PackDestination#latency_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#latency_expression PackDestination#latency_expression}
   */
   readonly latencyExpression?: string;
   /**
   * A JavaScript expression that evaluates to the log entry source location line as a string, in int64 format. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentrysourcelocation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#line_expression PackDestination#line_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#line_expression PackDestination#line_expression}
   */
   readonly lineExpression?: string;
   /**
   * Labels to apply to the log entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_labels PackDestination#log_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_labels PackDestination#log_labels}
   */
   readonly logLabels?: PackDestinationOutputGoogleCloudLoggingLogLabels[] | cdktf.IResolvable;
   /**
   * JavaScript expression to compute the value of the folder ID with which log entries should be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_location_expression PackDestination#log_location_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_location_expression PackDestination#log_location_expression}
   */
   readonly logLocationExpression: string;
   /**
   * must be one of ["project", "organization", "billingAccount", "folder"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_location_type PackDestination#log_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_location_type PackDestination#log_location_type}
   */
   readonly logLocationType: string;
   /**
   * JavaScript expression to compute the value of the log name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#log_name_expression PackDestination#log_name_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#log_name_expression PackDestination#log_name_expression}
   */
   readonly logNameExpression: string;
   /**
   * Max number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * JavaScript expression to compute the value of the payload. Must evaluate to a JavaScript object value. If an invalid value is encountered it will result in the default value instead. Defaults to the entire event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#payload_expression PackDestination#payload_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#payload_expression PackDestination#payload_expression}
   */
   readonly payloadExpression?: string;
   /**
   * Format to use when sending payload. Defaults to Text. Default: "text"; must be one of ["text", "json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#payload_format PackDestination#payload_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#payload_format PackDestination#payload_format}
   */
   readonly payloadFormat?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGoogleCloudLoggingPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * A JavaScript expression that evaluates to the log entry operation producer as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logentryoperation) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#producer_expression PackDestination#producer_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#producer_expression PackDestination#producer_expression}
   */
   readonly producerExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request protocol as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#protocol_expression PackDestination#protocol_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#protocol_expression PackDestination#protocol_expression}
   */
   readonly protocolExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request referer as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#referer_expression PackDestination#referer_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#referer_expression PackDestination#referer_expression}
   */
   readonly refererExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request remote IP as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remote_ip_expression PackDestination#remote_ip_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remote_ip_expression PackDestination#remote_ip_expression}
   */
   readonly remoteIpExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request method as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_method_expression PackDestination#request_method_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_method_expression PackDestination#request_method_expression}
   */
   readonly requestMethodExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request size as a string, in int64 format. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_size_expression PackDestination#request_size_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_size_expression PackDestination#request_size_expression}
   */
   readonly requestSizeExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request URL as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#request_url_expression PackDestination#request_url_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#request_url_expression PackDestination#request_url_expression}
   */
   readonly requestUrlExpression?: string;
   /**
   * JavaScript expression to compute the value of the managed resource type field. Must evaluate to one of the valid values [here](https://cloud.google.com/logging/docs/api/v2/resource-list#resource-types). Defaults to "global".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#resource_type_expression PackDestination#resource_type_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#resource_type_expression PackDestination#resource_type_expression}
   */
   readonly resourceTypeExpression?: string;
   /**
   * Labels to apply to the managed resource. These must correspond to the valid labels for the specified resource type (see [here](https://cloud.google.com/logging/docs/api/v2/resource-list#resource-types)). Otherwise, they will be dropped by Google Cloud Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#resource_type_labels PackDestination#resource_type_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#resource_type_labels PackDestination#resource_type_labels}
   */
   readonly resourceTypeLabels?: PackDestinationOutputGoogleCloudLoggingResourceTypeLabels[] | cdktf.IResolvable;
   /**
   * A JavaScript expression that evaluates to the HTTP response size as a string, in int64 format. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_size_expression PackDestination#response_size_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_size_expression PackDestination#response_size_expression}
   */
   readonly responseSizeExpression?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#secret PackDestination#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#secret PackDestination#secret}
   */
   readonly secret?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request server IP as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#server_ip_expression PackDestination#server_ip_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#server_ip_expression PackDestination#server_ip_expression}
   */
   readonly serverIpExpression?: string;
   /**
   * Contents of service account credentials (JSON keys) file downloaded from Google Cloud. To upload a file, click the upload button at this field's upper right.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * JavaScript expression to compute the value of the severity field. Must evaluate to one of the severity values supported by Google Cloud Logging [here](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logseverity) (case insensitive). Defaults to "DEFAULT".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#severity_expression PackDestination#severity_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#severity_expression PackDestination#severity_expression}
   */
   readonly severityExpression?: string;
   /**
   * A JavaScript expression that evaluates to the ID of the cloud trace span associated with the current operation in which the log is being written as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#span_id_expression PackDestination#span_id_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#span_id_expression PackDestination#span_id_expression}
   */
   readonly spanIdExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request method as a number. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#status_expression PackDestination#status_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#status_expression PackDestination#status_expression}
   */
   readonly statusExpression?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Maximum number of requests to limit to per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#throttle_rate_req_per_sec PackDestination#throttle_rate_req_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#throttle_rate_req_per_sec PackDestination#throttle_rate_req_per_sec}
   */
   readonly throttleRateReqPerSec?: number;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * Maximum total size of the batches waiting to be sent. If left blank, defaults to 5 times the max body size (if set). If 0, no limit is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_memory_limit_kb PackDestination#total_memory_limit_kb}
   */
   readonly totalMemoryLimitKb?: number;
   /**
   * A JavaScript expression that evaluates to the log entry log split total splits as a number. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logsplit) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#total_splits_expression PackDestination#total_splits_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#total_splits_expression PackDestination#total_splits_expression}
   */
   readonly totalSplitsExpression?: string;
   /**
   * A JavaScript expression that evaluates to the REST resource name of the trace being written as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#trace_expression PackDestination#trace_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#trace_expression PackDestination#trace_expression}
   */
   readonly traceExpression?: string;
   /**
   * A JavaScript expression that evaluates to the the sampling decision of the span associated with the log entry. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#trace_sampled_expression PackDestination#trace_sampled_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#trace_sampled_expression PackDestination#trace_sampled_expression}
   */
   readonly traceSampledExpression?: string;
   /**
   * must be "google_cloud_logging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * A JavaScript expression that evaluates to the log entry log split UID as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#logsplit) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#uid_expression PackDestination#uid_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#uid_expression PackDestination#uid_expression}
   */
   readonly uidExpression?: string;
   /**
   * A JavaScript expression that evaluates to the HTTP request user agent as a string. See the [documentation](https://cloud.google.com/logging/docs/reference/v2/rest/v2/LogEntry#httprequest) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#user_agent_expression PackDestination#user_agent_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#user_agent_expression PackDestination#user_agent_expression}
   */
   readonly userAgentExpression?: string;
 }
@@ -47651,11 +47651,11 @@ export interface PackDestinationOutputGoogleCloudStorageKeyValueMetadata {
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key PackDestination#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key PackDestination#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -47799,143 +47799,143 @@ export interface PackDestinationOutputGoogleCloudStorage {
   /**
   * Add the Output ID value to staging location. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#add_id_to_stage_path PackDestination#add_id_to_stage_path}
   */
   readonly addIdToStagePath?: boolean | cdktf.IResolvable;
   /**
   * Automatically calculate the schema based on the events of each Parquet file generated. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#automatic_schema PackDestination#automatic_schema}
   */
   readonly automaticSchema?: boolean | cdktf.IResolvable;
   /**
   * HMAC access key. This value can be a constant or a JavaScript expression, such as `${C.env.GCS_ACCESS_KEY}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_api_key PackDestination#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * Default: "manual"; must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_authentication_method PackDestination#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * Select or create a stored secret that references your access key and secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret PackDestination#aws_secret}
   */
   readonly awsSecret?: string;
   /**
   * HMAC secret. This value can be a constant or a JavaScript expression, such as `${C.env.GCS_SECRET}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#aws_secret_key PackDestination#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * JavaScript expression to define the output filename prefix (can be constant). Default: "`CriblOut`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#base_file_name PackDestination#base_file_name}
   */
   readonly baseFileName?: string;
   /**
   * Name of the destination bucket. This value can be a constant or a JavaScript expression that can only be evaluated at init time. Example of referencing a Global Variable: `myBucket-${C.vars.myVar}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#bucket PackDestination#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#bucket PackDestination#bucket}
   */
   readonly bucket: string;
   /**
   * Data compression format to apply to HTTP content before it is delivered. Default: "gzip"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: string;
   /**
   * Compression level to apply before moving files to final destination. Default: "best_speed"; must be one of ["best_speed", "normal", "best_compression"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compression_level PackDestination#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compression_level PackDestination#compression_level}
   */
   readonly compressionLevel?: string;
   /**
   * If a file fails to move to its final destination after the maximum number of retries, move it to a designated directory to prevent further errors. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_enabled PackDestination#deadletter_enabled}
   */
   readonly deadletterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Storage location for files that fail to reach their final destination after maximum retries are exceeded. Default: "$CRIBL_HOME/state/outputs/dead-letter"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#deadletter_path PackDestination#deadletter_path}
   */
   readonly deadletterPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Prefix to append to files before uploading. Must be a JavaScript expression (which can evaluate to a constant value), enclosed in quotes or backticks. Can be evaluated only at init time. Example referencing a Global Variable: `myKeyPrefix-${C.vars.myVar}`. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dest_path PackDestination#dest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dest_path PackDestination#dest_path}
   */
   readonly destPath?: string;
   /**
   * How frequently, in seconds, to clean up empty directories. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#empty_dir_cleanup_sec PackDestination#empty_dir_cleanup_sec}
   */
   readonly emptyDirCleanupSec?: number;
   /**
   * Parquet tools can use the checksum of a Parquet page to verify data integrity. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_page_checksum PackDestination#enable_page_checksum}
   */
   readonly enablePageChecksum?: boolean | cdktf.IResolvable;
   /**
   * Statistics profile an entire file in terms of minimum/maximum values within data, numbers of nulls, etc. You can use Parquet tools to view statistics. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_statistics PackDestination#enable_statistics}
   */
   readonly enableStatistics?: boolean | cdktf.IResolvable;
   /**
   * One page index contains statistics for one data page. Parquet readers use statistics to enable page skipping. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#enable_write_page_index PackDestination#enable_write_page_index}
   */
   readonly enableWritePageIndex?: boolean | cdktf.IResolvable;
   /**
   * Google Cloud Storage service endpoint. Default: "https://storage.googleapis.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#endpoint PackDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#endpoint PackDestination#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * JavaScript expression to define the output filename suffix (can be constant).  The `__format` variable refers to the value of the `Data format` field (`json` or `raw`).  The `__compression` field refers to the kind of compression being used (`none` or `gzip`). Default: "`.${C.env[\"CRIBL_WORKER_ID\"]}.${__format}${__compression === \"gzip\" ? \".gz\" : \"\"}`"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#file_name_suffix PackDestination#file_name_suffix}
   */
   readonly fileNameSuffix?: string;
   /**
   * Format of the output data. Default: "json"; must be one of ["json", "raw", "parquet"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * If set, this line will be written to the beginning of each output file. Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#header_line PackDestination#header_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#header_line PackDestination#header_line}
   */
   readonly headerLine?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47944,169 +47944,169 @@ export interface PackDestinationOutputGoogleCloudStorage {
   /**
   * The metadata of files the Destination writes will include the properties you add here as key-value pairs. Useful for tagging. Examples: "key":"OCSF Event Class", "value":"9001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#key_value_metadata PackDestination#key_value_metadata}
   */
   readonly keyValueMetadata?: PackDestinationOutputGoogleCloudStorageKeyValueMetadata[] | cdktf.IResolvable;
   /**
   * Maximum amount of time to keep inactive files open. Files open for longer than this will be closed and moved to final output location. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_idle_time_sec PackDestination#max_file_idle_time_sec}
   */
   readonly maxFileIdleTimeSec?: number;
   /**
   * Maximum amount of time to write to a file. Files open for longer than this will be closed and moved to final output location. Default: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_open_time_sec PackDestination#max_file_open_time_sec}
   */
   readonly maxFileOpenTimeSec?: number;
   /**
   * Maximum uncompressed output file size. Files of this size will be closed and moved to final output location. Default: 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_file_size_mb PackDestination#max_file_size_mb}
   */
   readonly maxFileSizeMb?: number;
   /**
   * Maximum number of files to keep open concurrently. When exceeded, @{product} will close the oldest open files and move them to the final output location. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_open_files PackDestination#max_open_files}
   */
   readonly maxOpenFiles?: number;
   /**
   * The maximum number of times a file will attempt to move to its final destination before being dead-lettered. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_retry_num PackDestination#max_retry_num}
   */
   readonly maxRetryNum?: number;
   /**
   * Object ACL to assign to uploaded objects. Default: "private"; must be one of ["private", "bucket-owner-read", "bucket-owner-full-control", "project-private", "authenticated-read", "public-read"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#object_acl PackDestination#object_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#object_acl PackDestination#object_acl}
   */
   readonly objectAcl?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * How to handle events when disk space is below the global 'Min free disk space' limit. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_disk_full_backpressure PackDestination#on_disk_full_backpressure}
   */
   readonly onDiskFullBackpressure?: string;
   /**
   * Serialization format of data pages. Note that some reader implementations use Data page V2's attributes to work more efficiently, while others ignore it. Default: "DATA_PAGE_V2"; must be one of ["DATA_PAGE_V1", "DATA_PAGE_V2"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_data_page_version PackDestination#parquet_data_page_version}
   */
   readonly parquetDataPageVersion?: string;
   /**
   * Target memory size for page segments, such as 1MB or 128MB. Generally, lower values improve reading speed, while higher values improve compression. Default: "1MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_page_size PackDestination#parquet_page_size}
   */
   readonly parquetPageSize?: string;
   /**
   * The number of rows that every group will contain. The final group can contain a smaller number of rows. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_row_group_length PackDestination#parquet_row_group_length}
   */
   readonly parquetRowGroupLength?: number;
   /**
   * Determines which data types are supported and how they are represented. Default: "PARQUET_2_6"; must be one of ["PARQUET_1_0", "PARQUET_2_4", "PARQUET_2_6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#parquet_version PackDestination#parquet_version}
   */
   readonly parquetVersion?: string;
   /**
   * JavaScript expression defining how files are partitioned and organized. Default is date-based. If blank, Stream will fall back to the event's __partition field value – if present – otherwise to each location's root directory. Default: "C.Time.strftime(_time ? _time : Date.now()/1000, '%Y/%m/%d')"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#partition_expr PackDestination#partition_expr}
   */
   readonly partitionExpr?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Region where the bucket is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region: string;
   /**
   * Reject certificates that cannot be verified against a valid CA, such as self-signed certificates. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Remove empty staging directories after moving files. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#remove_empty_dirs PackDestination#remove_empty_dirs}
   */
   readonly removeEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Reuse connections between requests, which can improve performance. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reuse_connections PackDestination#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * Log up to 3 rows that @{product} skips due to data mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#should_log_invalid_rows PackDestination#should_log_invalid_rows}
   */
   readonly shouldLogInvalidRows?: boolean | cdktf.IResolvable;
   /**
   * Signature version to use for signing Google Cloud Storage requests. Default: "v4"; must be one of ["v2", "v4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#signature_version PackDestination#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#signature_version PackDestination#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * Filesystem location in which to buffer files, before compressing and moving to final destination. Use performant and stable storage. Default: "$CRIBL_HOME/state/outputs/staging"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#stage_path PackDestination#stage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#stage_path PackDestination#stage_path}
   */
   readonly stagePath?: string;
   /**
   * Storage class to select for uploaded objects. must be one of ["STANDARD", "NEARLINE", "COLDLINE", "ARCHIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#storage_class PackDestination#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#storage_class PackDestination#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * must be "google_cloud_storage"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Disable if you can access files within the bucket but not the bucket itself. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#verify_permissions PackDestination#verify_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#verify_permissions PackDestination#verify_permissions}
   */
   readonly verifyPermissions?: boolean | cdktf.IResolvable;
   /**
   * Buffer size used to write to a file. Default: 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_high_water_mark PackDestination#write_high_water_mark}
   */
   readonly writeHighWaterMark?: number;
 }
@@ -49734,47 +49734,47 @@ export interface PackDestinationOutputGooglePubsub {
   /**
   * The maximum number of items the Google API should batch before it sends them to the topic. Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#batch_size PackDestination#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#batch_size PackDestination#batch_size}
   */
   readonly batchSize?: number;
   /**
   * The maximum amount of time, in milliseconds, that the Google API should wait to send a batch (if the Batch size is not reached). Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#batch_timeout PackDestination#batch_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#batch_timeout PackDestination#batch_timeout}
   */
   readonly batchTimeout?: number;
   /**
   * If enabled, create topic if it does not exist. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#create_topic PackDestination#create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#create_topic PackDestination#create_topic}
   */
   readonly createTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Maximum time to wait before sending a batch (when batch size limit is not reached). Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Choose Auto to use Google Application Default Credentials (ADC), Manual to enter Google service account credentials directly, or Secret to select or create a stored secret that references Google service account credentials. Default: "manual"; must be one of ["auto", "manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#google_auth_method PackDestination#google_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#google_auth_method PackDestination#google_auth_method}
   */
   readonly googleAuthMethod?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49783,119 +49783,119 @@ export interface PackDestinationOutputGooglePubsub {
   /**
   * The maximum number of in-progress API requests before backpressure is applied. Default: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_in_progress PackDestination#max_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_in_progress PackDestination#max_in_progress}
   */
   readonly maxInProgress?: number;
   /**
   * Maximum number of queued batches before blocking. Default: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_queue_size PackDestination#max_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_queue_size PackDestination#max_queue_size}
   */
   readonly maxQueueSize?: number;
   /**
   * Maximum size (KB) of batches to send. Default: 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_record_size_kb PackDestination#max_record_size_kb}
   */
   readonly maxRecordSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * If enabled, send events in the order they were added to the queue. For this to work correctly, the process receiving events must have ordering enabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#ordered_delivery PackDestination#ordered_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#ordered_delivery PackDestination#ordered_delivery}
   */
   readonly orderedDelivery?: boolean | cdktf.IResolvable;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGooglePubsubPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Region to publish messages to. Select 'default' to allow Google to auto-select the nearest region. When using ordered delivery, the selected region must be allowed by message storage policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#region PackDestination#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#region PackDestination#region}
   */
   readonly region?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#secret PackDestination#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#secret PackDestination#secret}
   */
   readonly secret?: string;
   /**
   * Contents of service account credentials (JSON keys) file downloaded from Google Cloud. To upload a file, click the upload button at this field's upper right.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#service_account_credentials PackDestination#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * ID of the topic to send events to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#topic_name PackDestination#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#topic_name PackDestination#topic_name}
   */
   readonly topicName: string;
   /**
   * must be "google_pubsub"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
 }
@@ -50766,11 +50766,11 @@ export class PackDestinationOutputGooglePubsubOutputReference extends cdktf.Comp
 }
 export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1ExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -50914,11 +50914,11 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -51062,37 +51062,37 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: "basic"; must be one of ["none", "token", "textSecret", "basic", "credentialsSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Password (API key in Grafana Cloud domain) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#password PackDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#password PackDestination#password}
   */
   readonly password?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
   * Bearer token to include in the authorization header. In Grafana Cloud, this is generally built by concatenating the username and the API key, separated by a colon. Example: <your-username>:<your-api-key>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Username for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#username PackDestination#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#username PackDestination#username}
   */
   readonly username?: string;
 }
@@ -51392,37 +51392,37 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: "basic"; must be one of ["none", "token", "textSecret", "basic", "credentialsSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Password (API key in Grafana Cloud domain) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#password PackDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#password PackDestination#password}
   */
   readonly password?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
   * Bearer token to include in the authorization header. In Grafana Cloud, this is generally built by concatenating the username and the API key, separated by a colon. Example: <your-username>:<your-api-key>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Username for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#username PackDestination#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#username PackDestination#username}
   */
   readonly username?: string;
 }
@@ -51663,25 +51663,25 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -51883,25 +51883,25 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -52084,47 +52084,47 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Compress the payload body before sending. Applies only to JSON payloads; the Protobuf variant for both Prometheus and Loki are snappy-compressed by default. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Warning: Setting this value > 1 can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1ExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Maximum time between requests. Small values can reduce the payload size below the configured 'Max record size' and 'Max events per request'. Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52133,109 +52133,109 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * List of labels to send with logs. Labels define Loki streams, so use static labels to avoid proliferating label value combinations and streams. Can be merged and/or overridden by the events __labels field. Example: "__labels: {host: "cribl.io", level: "error"}"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#labels PackDestination#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#labels PackDestination#labels}
   */
   readonly labels?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1Labels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#loki_auth PackDestination#loki_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#loki_auth PackDestination#loki_auth}
   */
   readonly lokiAuth?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1LokiAuth;
   /**
   * The endpoint to send logs to, such as https://logs-prod-us-central1.grafana.net
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#loki_url PackDestination#loki_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#loki_url PackDestination#loki_url}
   */
   readonly lokiUrl: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Name of the event field that contains the message to send. If not specified, Stream sends a JSON representation of the whole event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message PackDestination#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message PackDestination#message}
   */
   readonly message?: string;
   /**
   * Format to use when sending logs to Loki (Protobuf or JSON). Default: "protobuf"; must be one of ["protobuf", "json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message_format PackDestination#message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message_format PackDestination#message_format}
   */
   readonly messageFormat?: string;
   /**
   * JavaScript expression that can be used to rename metrics. For example, name.replace(/\./g, '_') will replace all '.' characters in a metric's name with the supported '_' character. Use the 'name' global variable to access the metric's name. You can access event fields' values via __e.<fieldName>. Default: "name.replace(/[^a-zA-Z0-9_]/g, '_')"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#metric_rename_expr PackDestination#metric_rename_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#metric_rename_expr PackDestination#metric_rename_expr}
   */
   readonly metricRenameExpr?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1PqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#prometheus_auth PackDestination#prometheus_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#prometheus_auth PackDestination#prometheus_auth}
   */
   readonly prometheusAuth?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1PrometheusAuth;
   /**
   * The remote_write endpoint to send Prometheus metrics to, such as https://prometheus-blocks-prod-us-central1.grafana.net/api/prom/push
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#prometheus_url PackDestination#prometheus_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#prometheus_url PackDestination#prometheus_url}
   */
   readonly prometheusUrl?: string;
   /**
@@ -52244,59 +52244,59 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1ResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. These fields are added as dimensions and labels to generated metrics and logs, respectively. Default: ["cribl_host","cribl_wp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1TimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "grafana_cloud"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -53425,11 +53425,11 @@ export class PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1Out
 }
 export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2ExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -53573,11 +53573,11 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: ""
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -53721,37 +53721,37 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: "basic"; must be one of ["none", "token", "textSecret", "basic", "credentialsSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Password (API key in Grafana Cloud domain) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#password PackDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#password PackDestination#password}
   */
   readonly password?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
   * Bearer token to include in the authorization header. In Grafana Cloud, this is generally built by concatenating the username and the API key, separated by a colon. Example: <your-username>:<your-api-key>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Username for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#username PackDestination#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#username PackDestination#username}
   */
   readonly username?: string;
 }
@@ -54051,37 +54051,37 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Default: "basic"; must be one of ["none", "token", "textSecret", "basic", "credentialsSecret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Select or create a secret that references your credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#credentials_secret PackDestination#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * Password (API key in Grafana Cloud domain) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#password PackDestination#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#password PackDestination#password}
   */
   readonly password?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
   * Bearer token to include in the authorization header. In Grafana Cloud, this is generally built by concatenating the username and the API key, separated by a colon. Example: <your-username>:<your-api-key>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * Username for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#username PackDestination#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#username PackDestination#username}
   */
   readonly username?: string;
 }
@@ -54322,25 +54322,25 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -54542,25 +54542,25 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -54743,47 +54743,47 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * Compress the payload body before sending. Applies only to JSON payloads; the Protobuf variant for both Prometheus and Loki are snappy-compressed by default. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Warning: Setting this value > 1 can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2ExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Maximum time between requests. Small values can reduce the payload size below the configured 'Max record size' and 'Max events per request'. Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54792,109 +54792,109 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   /**
   * List of labels to send with logs. Labels define Loki streams, so use static labels to avoid proliferating label value combinations and streams. Can be merged and/or overridden by the events __labels field. Example: "__labels: {host: "cribl.io", level: "error"}"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#labels PackDestination#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#labels PackDestination#labels}
   */
   readonly labels?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2Labels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#loki_auth PackDestination#loki_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#loki_auth PackDestination#loki_auth}
   */
   readonly lokiAuth?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2LokiAuth;
   /**
   * The endpoint to send logs to, such as https://logs-prod-us-central1.grafana.net
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#loki_url PackDestination#loki_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#loki_url PackDestination#loki_url}
   */
   readonly lokiUrl?: string;
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Warning: Setting this too low can increase the number of ongoing requests (depending on the value of 'Request concurrency'); this can cause Loki and Prometheus to complain about entries being delivered out of order. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * Name of the event field that contains the message to send. If not specified, Stream sends a JSON representation of the whole event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message PackDestination#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message PackDestination#message}
   */
   readonly message?: string;
   /**
   * Format to use when sending logs to Loki (Protobuf or JSON). Default: "protobuf"; must be one of ["protobuf", "json"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#message_format PackDestination#message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#message_format PackDestination#message_format}
   */
   readonly messageFormat?: string;
   /**
   * JavaScript expression that can be used to rename metrics. For example, name.replace(/\./g, '_') will replace all '.' characters in a metric's name with the supported '_' character. Use the 'name' global variable to access the metric's name. You can access event fields' values via __e.<fieldName>. Default: "name.replace(/[^a-zA-Z0-9_]/g, '_')"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#metric_rename_expr PackDestination#metric_rename_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#metric_rename_expr PackDestination#metric_rename_expr}
   */
   readonly metricRenameExpr?: string;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2PqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#prometheus_auth PackDestination#prometheus_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#prometheus_auth PackDestination#prometheus_auth}
   */
   readonly prometheusAuth?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2PrometheusAuth;
   /**
   * The remote_write endpoint to send Prometheus metrics to, such as https://prometheus-blocks-prod-us-central1.grafana.net/api/prom/push
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#prometheus_url PackDestination#prometheus_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#prometheus_url PackDestination#prometheus_url}
   */
   readonly prometheusUrl: string;
   /**
@@ -54903,59 +54903,59 @@ export interface PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2ResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. These fields are added as dimensions and labels to generated metrics and logs, respectively. Default: ["cribl_host","cribl_wp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2TimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "grafana_cloud"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -56084,11 +56084,11 @@ export class PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2Out
 }
 export interface PackDestinationOutputGrafanaCloud {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#output_grafana_cloud_grafana_cloud1 PackDestination#output_grafana_cloud_grafana_cloud1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#output_grafana_cloud_grafana_cloud1 PackDestination#output_grafana_cloud_grafana_cloud1}
   */
   readonly outputGrafanaCloudGrafanaCloud1?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#output_grafana_cloud_grafana_cloud2 PackDestination#output_grafana_cloud_grafana_cloud2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#output_grafana_cloud_grafana_cloud2 PackDestination#output_grafana_cloud_grafana_cloud2}
   */
   readonly outputGrafanaCloudGrafanaCloud2?: PackDestinationOutputGrafanaCloudOutputGrafanaCloudGrafanaCloud2;
 }
@@ -56272,41 +56272,41 @@ export interface PackDestinationOutputGraphite {
   /**
   * Amount of time (milliseconds) to wait for the connection to establish before retrying. Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#connection_timeout PackDestination#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * How often to resolve the destination hostname to an IP address. Ignored if the destination is an IP address. A value of 0 means every batch sent will incur a DNS lookup. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dns_resolve_period_sec PackDestination#dns_resolve_period_sec}
   */
   readonly dnsResolvePeriodSec?: number;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * When protocol is TCP, specifies how often buffers should be flushed, resulting in records sent to the destination. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * The hostname of the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#host PackDestination#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#host PackDestination#host}
   */
   readonly host: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56315,101 +56315,101 @@ export interface PackDestinationOutputGraphite {
   /**
   * When protocol is UDP, specifies the maximum size of packets sent to the destination. Also known as the MTU for the network path to the destination system. Default: 512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#mtu PackDestination#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#mtu PackDestination#mtu}
   */
   readonly mtu?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Destination port. Default: 8125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#port PackDestination#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#port PackDestination#port}
   */
   readonly port?: number;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputGraphitePqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
   * Protocol to use when communicating with the destination. Default: "udp"; must be one of ["udp", "tcp"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#protocol PackDestination#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#protocol PackDestination#protocol}
   */
   readonly protocol?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Rate (in bytes per second) to throttle while writing to an output. Accepts values with multiple-byte units, such as KB, MB, and GB. (Example: 42 MB) Default value of 0 specifies no throttling. Default: "0"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#throttle_rate_per_sec PackDestination#throttle_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#throttle_rate_per_sec PackDestination#throttle_rate_per_sec}
   */
   readonly throttleRatePerSec?: string;
   /**
   * must be "graphite"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * Amount of time (milliseconds) to wait for a write to complete before assuming connection is dead. Default: 60000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#write_timeout PackDestination#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#write_timeout PackDestination#write_timeout}
   */
   readonly writeTimeout?: number;
 }
@@ -57167,11 +57167,11 @@ export class PackDestinationOutputGraphiteOutputReference extends cdktf.ComplexO
 }
 export interface PackDestinationOutputHoneycombExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -57374,25 +57374,25 @@ export interface PackDestinationOutputHoneycombResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -57594,25 +57594,25 @@ export interface PackDestinationOutputHoneycombTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -57795,59 +57795,59 @@ export interface PackDestinationOutputHoneycomb {
   /**
   * Enter API key directly, or select a stored secret. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Name of the dataset to send events to – e.g., observability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#dataset PackDestination#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#dataset PackDestination#dataset}
   */
   readonly dataset: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputHoneycombExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57856,65 +57856,65 @@ export interface PackDestinationOutputHoneycomb {
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputHoneycombPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -57923,71 +57923,71 @@ export interface PackDestinationOutputHoneycomb {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputHoneycombResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Team API key where the dataset belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#team PackDestination#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#team PackDestination#team}
   */
   readonly team?: string;
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputHoneycombTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * must be "honeycomb"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -59003,11 +59003,11 @@ export class PackDestinationOutputHoneycombOutputReference extends cdktf.Complex
 }
 export interface PackDestinationOutputHumioHecExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -59210,25 +59210,25 @@ export interface PackDestinationOutputHumioHecResponseRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * The HTTP response status code that will trigger retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#http_status PackDestination#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#http_status PackDestination#http_status}
   */
   readonly httpStatus: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
 }
@@ -59430,25 +59430,25 @@ export interface PackDestinationOutputHumioHecTimeoutRetrySettings {
   /**
   * Base for exponential backoff. A value of 2 (default) means Cribl Stream will retry after 2 seconds, then 4 seconds, then 8 seconds, etc. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#backoff_rate PackDestination#backoff_rate}
   */
   readonly backoffRate?: number;
   /**
   * How long, in milliseconds, Cribl Stream should wait before initiating backoff. Maximum interval is 600,000 ms (10 minutes). Default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#initial_backoff PackDestination#initial_backoff}
   */
   readonly initialBackoff?: number;
   /**
   * The maximum backoff interval, in milliseconds, Cribl Stream should apply. Default (and minimum) is 10,000 ms (10 seconds); maximum is 180,000 ms (180 seconds). Default: 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_backoff PackDestination#max_backoff}
   */
   readonly maxBackoff?: number;
   /**
   * Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry PackDestination#timeout_retry}
   */
   readonly timeoutRetry?: boolean | cdktf.IResolvable;
 }
@@ -59631,59 +59631,59 @@ export interface PackDestinationOutputHumioHec {
   /**
   * Select Manual to enter an auth token directly, or select Secret to use a text secret to authenticate. Default: "manual"; must be one of ["manual", "secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#auth_type PackDestination#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#auth_type PackDestination#auth_type}
   */
   readonly authType?: string;
   /**
   * Compress the payload body before sending. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#compress PackDestination#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#compress PackDestination#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of ongoing requests before blocking. Default: 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#concurrency PackDestination#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#concurrency PackDestination#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#description PackDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#description PackDestination#description}
   */
   readonly description?: string;
   /**
   * Optionally, enable this config only on a specified Git branch. If empty, will be enabled everywhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#environment PackDestination#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#environment PackDestination#environment}
   */
   readonly environment?: string;
   /**
   * Headers to add to all events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#extra_http_headers PackDestination#extra_http_headers}
   */
   readonly extraHttpHeaders?: PackDestinationOutputHumioHecExtraHttpHeaders[] | cdktf.IResolvable;
   /**
   * Data to log when a request fails. All headers are redacted by default, unless listed as safe headers below. Default: "none"; must be one of ["payload", "payloadAndHeaders", "none"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#failed_request_logging_mode PackDestination#failed_request_logging_mode}
   */
   readonly failedRequestLoggingMode?: string;
   /**
   * Maximum time between requests. Small values could cause the payload size to be smaller than the configured Body size limit. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#flush_period_sec PackDestination#flush_period_sec}
   */
   readonly flushPeriodSec?: number;
   /**
   * When set to JSON, the event is automatically formatted with required fields before sending. When set to Raw, only the event's `_raw` value is sent. Default: "JSON"; must be one of ["JSON", "raw"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#format PackDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#format PackDestination#format}
   */
   readonly format?: string;
   /**
   * Unique ID for this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59692,65 +59692,65 @@ export interface PackDestinationOutputHumioHec {
   /**
   * Maximum number of events to include in the request body. Default is 0 (unlimited). Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_events PackDestination#max_payload_events}
   */
   readonly maxPayloadEvents?: number;
   /**
   * Maximum size, in KB, of the request body. Default: 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#max_payload_size_kb PackDestination#max_payload_size_kb}
   */
   readonly maxPayloadSizeKb?: number;
   /**
   * How to handle events when all receivers are exerting backpressure. Default: "block"; must be one of ["block", "drop", "queue"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#on_backpressure PackDestination#on_backpressure}
   */
   readonly onBackpressure?: string;
   /**
   * Pipeline to process data before sending out to this output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pipeline PackDestination#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pipeline PackDestination#pipeline}
   */
   readonly pipeline?: string;
   /**
   * Codec to use to compress the persisted data. Default: "none"; must be one of ["none", "gzip"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_compress PackDestination#pq_compress}
   */
   readonly pqCompress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_controls PackDestination#pq_controls}
   */
   readonly pqControls?: PackDestinationOutputHumioHecPqControls;
   /**
   * The maximum size to store in each queue file before closing and optionally compressing (KB, MB, etc.). Default: "1 MB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_file_size PackDestination#pq_max_file_size}
   */
   readonly pqMaxFileSize?: string;
   /**
   * The maximum disk space that the queue can consume (as an average per Worker Process) before queueing stops. Enter a numeral with units of KB, MB, etc. Default: "5GB"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_max_size PackDestination#pq_max_size}
   */
   readonly pqMaxSize?: string;
   /**
   * In Error mode, PQ writes events to the filesystem if the Destination is unavailable. In Backpressure mode, PQ writes events to the filesystem when it detects backpressure from the Destination. In Always On mode, PQ always writes events to the filesystem. Default: "error"; must be one of ["error", "backpressure", "always"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_mode PackDestination#pq_mode}
   */
   readonly pqMode?: string;
   /**
   * How to handle events when the queue is exerting backpressure (full capacity or low disk). 'Block' is the same behavior as non-PQ blocking. 'Drop new data' throws away incoming data, while leaving the contents of the PQ unchanged. Default: "block"; must be one of ["block", "drop"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_on_backpressure PackDestination#pq_on_backpressure}
   */
   readonly pqOnBackpressure?: string;
   /**
   * The location for the persistent queue files. To this field's value, the system will append: /<worker-id>/<output-id>. Default: "$CRIBL_HOME/state/queues"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#pq_path PackDestination#pq_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#pq_path PackDestination#pq_path}
   */
   readonly pqPath?: string;
   /**
@@ -59759,77 +59759,77 @@ export interface PackDestinationOutputHumioHec {
   *         that value will take precedence.
   * Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#reject_unauthorized PackDestination#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Honor any Retry-After header that specifies a delay (in seconds) no longer than 180 seconds after the retry request. @{product} limits the delay to 180 seconds, even if the Retry-After header specifies a longer delay. When enabled, takes precedence over user-configured retry options. When disabled, all Retry-After headers are ignored. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_honor_retry_after_header PackDestination#response_honor_retry_after_header}
   */
   readonly responseHonorRetryAfterHeader?: boolean | cdktf.IResolvable;
   /**
   * Automatically retry after unsuccessful response status codes, such as 429 (Too Many Requests) or 503 (Service Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#response_retry_settings PackDestination#response_retry_settings}
   */
   readonly responseRetrySettings?: PackDestinationOutputHumioHecResponseRetrySettings[] | cdktf.IResolvable;
   /**
   * List of headers that are safe to log in plain text. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#safe_headers PackDestination#safe_headers}
   */
   readonly safeHeaders?: string[];
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#streamtags PackDestination#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#streamtags PackDestination#streamtags}
   */
   readonly streamtags?: string[];
   /**
   * Fields to automatically add to events, such as cribl_pipe. Supports wildcards. Default: ["cribl_pipe"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#system_fields PackDestination#system_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#system_fields PackDestination#system_fields}
   */
   readonly systemFields?: string[];
   /**
   * Select or create a stored text secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#text_secret PackDestination#text_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#text_secret PackDestination#text_secret}
   */
   readonly textSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_retry_settings PackDestination#timeout_retry_settings}
   */
   readonly timeoutRetrySettings?: PackDestinationOutputHumioHecTimeoutRetrySettings;
   /**
   * Amount of time, in seconds, to wait for a request to complete before canceling it. Default: 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#timeout_sec PackDestination#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * CrowdStrike Falcon LogScale authentication token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#token PackDestination#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#token PackDestination#token}
   */
   readonly token?: string;
   /**
   * must be "humio_hec"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#type PackDestination#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#type PackDestination#type}
   */
   readonly type?: string;
   /**
   * URL to a CrowdStrike Falcon LogScale endpoint to send events to. Examples: https://cloud.us.humio.com/api/v1/ingest/hec for JSON and https://cloud.us.humio.com/api/v1/ingest/hec/raw for raw. Default: "https://cloud.us.humio.com/api/v1/ingest/hec"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#url PackDestination#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#url PackDestination#url}
   */
   readonly url?: string;
   /**
   * Enable round-robin DNS lookup. When a DNS server returns multiple addresses, @{product} will cycle through them in the order returned. For optimal performance, consider enabling this setting for non-load balanced destinations. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#use_round_robin_dns PackDestination#use_round_robin_dns}
   */
   readonly useRoundRobinDns?: boolean | cdktf.IResolvable;
 }
@@ -60880,11 +60880,11 @@ export class PackDestinationOutputHumioHecOutputReference extends cdktf.ComplexO
 }
 export interface PackDestinationOutputInfluxdbExtraHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }
@@ -61028,13 +61028,13 @@ export interface PackDestinationOutputInfluxdbOauthHeaders {
   /**
   * OAuth header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#name PackDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#name PackDestination#name}
   */
   readonly name: string;
   /**
   * OAuth header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_destination#value PackDestination#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_destination#value PackDestination#value}
   */
   readonly value: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface PackPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#conf PackPipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#conf PackPipeline#conf}
   */
   readonly conf: PackPipelineConf;
   /**
   * group Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH for pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#id PackPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#id PackPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,362 +29,51 @@ export interface PackPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * pack ID to POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#pack PackPipeline#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#pack PackPipeline#pack}
   */
   readonly pack: string;
 }
-export interface PackPipelineConfFunctionsConfAdd {
-  /**
-  * Whether this field addition is disabled. Default: false
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
-  */
-  readonly disabled?: boolean | cdktf.IResolvable;
-  /**
-  * Name of the field to add
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#name PackPipeline#name}
-  */
-  readonly name: string;
-  /**
-  * Value to assign to the field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#value PackPipeline#value}
-  */
-  readonly value: string;
-}
-
-export function packPipelineConfFunctionsConfAddToTerraform(struct?: PackPipelineConfFunctionsConfAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function packPipelineConfFunctionsConfAddToHclTerraform(struct?: PackPipelineConfFunctionsConfAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class PackPipelineConfFunctionsConfAddOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): PackPipelineConfFunctionsConfAdd | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._disabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disabled = this._disabled;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: PackPipelineConfFunctionsConfAdd | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._disabled = undefined;
-      this._name = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._disabled = value.disabled;
-      this._name = value.name;
-      this._value = value.value;
-    }
-  }
-
-  // disabled - computed: true, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
-  public get disabled() {
-    return this.getBooleanAttribute('disabled');
-  }
-  public set disabled(value: boolean | cdktf.IResolvable) {
-    this._disabled = value;
-  }
-  public resetDisabled() {
-    this._disabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disabledInput() {
-    return this._disabled;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // value - computed: false, optional: false, required: true
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class PackPipelineConfFunctionsConfAddList extends cdktf.ComplexList {
-  public internalValue? : PackPipelineConfFunctionsConfAdd[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): PackPipelineConfFunctionsConfAddOutputReference {
-    return new PackPipelineConfFunctionsConfAddOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface PackPipelineConfFunctionsConf {
-  /**
-  * List of fields to add to the event
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#add PackPipeline#add}
-  */
-  readonly add?: PackPipelineConfFunctionsConfAdd[] | cdktf.IResolvable;
-  /**
-  * List of field names to remove from the event
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#remove PackPipeline#remove}
-  */
-  readonly remove?: string[];
-}
-
-export function packPipelineConfFunctionsConfToTerraform(struct?: PackPipelineConfFunctionsConf | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    add: cdktf.listMapper(packPipelineConfFunctionsConfAddToTerraform, false)(struct!.add),
-    remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.remove),
-  }
-}
-
-
-export function packPipelineConfFunctionsConfToHclTerraform(struct?: PackPipelineConfFunctionsConf | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    add: {
-      value: cdktf.listMapperHcl(packPipelineConfFunctionsConfAddToHclTerraform, false)(struct!.add),
-      isBlock: true,
-      type: "list",
-      storageClassType: "PackPipelineConfFunctionsConfAddList",
-    },
-    remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.remove),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class PackPipelineConfFunctionsConfOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): PackPipelineConfFunctionsConf | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._add?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.add = this._add?.internalValue;
-    }
-    if (this._remove !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.remove = this._remove;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: PackPipelineConfFunctionsConf | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._add.internalValue = undefined;
-      this._remove = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._add.internalValue = value.add;
-      this._remove = value.remove;
-    }
-  }
-
-  // add - computed: false, optional: true, required: false
-  private _add = new PackPipelineConfFunctionsConfAddList(this, "add", false);
-  public get add() {
-    return this._add;
-  }
-  public putAdd(value: PackPipelineConfFunctionsConfAdd[] | cdktf.IResolvable) {
-    this._add.internalValue = value;
-  }
-  public resetAdd() {
-    this._add.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addInput() {
-    return this._add.internalValue;
-  }
-
-  // remove - computed: false, optional: true, required: false
-  private _remove?: string[]; 
-  public get remove() {
-    return this.getListAttribute('remove');
-  }
-  public set remove(value: string[]) {
-    this._remove = value;
-  }
-  public resetRemove() {
-    this._remove = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get removeInput() {
-    return this._remove;
-  }
-}
 export interface PackPipelineConfFunctions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#conf PackPipeline#conf}
+  * Function-specific configuration as a JSON object. Different functions require different configuration fields.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#conf PackPipeline#conf}
   */
-  readonly conf: PackPipelineConfFunctionsConf;
+  readonly conf: string;
   /**
   * Simple description of this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * If true, data will not be pushed through this function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter that selects data to be fed through this Function. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#filter PackPipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#filter PackPipeline#filter}
   */
   readonly filter?: string;
   /**
   * If enabled, stops the results of this Function from being passed to the downstream Functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#final PackPipeline#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#final PackPipeline#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#group_id PackPipeline#group_id}
   */
   readonly groupId?: string;
   /**
   * Function ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#id PackPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#id PackPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -398,7 +87,7 @@ export function packPipelineConfFunctionsToTerraform(struct?: PackPipelineConfFu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    conf: packPipelineConfFunctionsConfToTerraform(struct!.conf),
+    conf: cdktf.stringToTerraform(struct!.conf),
     description: cdktf.stringToTerraform(struct!.description),
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     filter: cdktf.stringToTerraform(struct!.filter),
@@ -416,10 +105,10 @@ export function packPipelineConfFunctionsToHclTerraform(struct?: PackPipelineCon
   }
   const attrs = {
     conf: {
-      value: packPipelineConfFunctionsConfToHclTerraform(struct!.conf),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "PackPipelineConfFunctionsConf",
+      value: cdktf.stringToHclTerraform(struct!.conf),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     description: {
       value: cdktf.stringToHclTerraform(struct!.description),
@@ -483,9 +172,9 @@ export class PackPipelineConfFunctionsOutputReference extends cdktf.ComplexObjec
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._conf?.internalValue !== undefined) {
+    if (this._conf !== undefined) {
       hasAnyValues = true;
-      internalValueResult.conf = this._conf?.internalValue;
+      internalValueResult.conf = this._conf;
     }
     if (this._description !== undefined) {
       hasAnyValues = true;
@@ -518,7 +207,7 @@ export class PackPipelineConfFunctionsOutputReference extends cdktf.ComplexObjec
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._conf.internalValue = undefined;
+      this._conf = undefined;
       this._description = undefined;
       this._disabled = undefined;
       this._filter = undefined;
@@ -533,7 +222,7 @@ export class PackPipelineConfFunctionsOutputReference extends cdktf.ComplexObjec
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._conf.internalValue = value.conf;
+      this._conf = value.conf;
       this._description = value.description;
       this._disabled = value.disabled;
       this._filter = value.filter;
@@ -544,16 +233,16 @@ export class PackPipelineConfFunctionsOutputReference extends cdktf.ComplexObjec
   }
 
   // conf - computed: false, optional: false, required: true
-  private _conf = new PackPipelineConfFunctionsConfOutputReference(this, "conf");
+  private _conf?: string; 
   public get conf() {
-    return this._conf;
+    return this.getStringAttribute('conf');
   }
-  public putConf(value: PackPipelineConfFunctionsConf) {
-    this._conf.internalValue = value;
+  public set conf(value: string) {
+    this._conf = value;
   }
   // Temporarily expose input value. Use with caution.
   public get confInput() {
-    return this._conf.internalValue;
+    return this._conf;
   }
 
   // description - computed: false, optional: true, required: false
@@ -673,17 +362,17 @@ export interface PackPipelineConfGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#disabled PackPipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#name PackPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#name PackPipeline#name}
   */
   readonly name: string;
 }
@@ -854,33 +543,33 @@ export interface PackPipelineConf {
   /**
   * Time (in ms) to wait for an async function to complete processing of a data item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#async_func_timeout PackPipeline#async_func_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#async_func_timeout PackPipeline#async_func_timeout}
   */
   readonly asyncFuncTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#description PackPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#description PackPipeline#description}
   */
   readonly description?: string;
   /**
   * List of Functions to pass data through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#functions PackPipeline#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#functions PackPipeline#functions}
   */
   readonly functions?: PackPipelineConfFunctions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#groups PackPipeline#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#groups PackPipeline#groups}
   */
   readonly groups?: { [key: string]: PackPipelineConfGroups } | cdktf.IResolvable;
   /**
   * The output destination for events processed by this Pipeline. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#output PackPipeline#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#output PackPipeline#output}
   */
   readonly output?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#streamtags PackPipeline#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#streamtags PackPipeline#streamtags}
   */
   readonly streamtags?: string[];
 }
@@ -1500,7 +1189,7 @@ export class PackPipelineItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline criblio_pack_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline criblio_pack_pipeline}
 */
 export class PackPipeline extends cdktf.TerraformResource {
 
@@ -1516,7 +1205,7 @@ export class PackPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackPipeline to import
-  * @param importFromId The id of the existing PackPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1528,7 +1217,7 @@ export class PackPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pack_pipeline criblio_pack_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pack_pipeline criblio_pack_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1539,8 +1228,8 @@ export class PackPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface ApprovalPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the bitbucket client key used for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#bitbucket_client_key ApprovalPolicy#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#bitbucket_client_key ApprovalPolicy#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * the env0 application installation id on the relevant github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#github_installation_id ApprovalPolicy#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#github_installation_id ApprovalPolicy#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * the project id of the relevant repository (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#gitlab_project_id ApprovalPolicy#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#gitlab_project_id ApprovalPolicy#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * true if this approval policy integrates with azure dev ops repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#is_azure_devops ApprovalPolicy#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#is_azure_devops ApprovalPolicy#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * true if this approval policy uses bitbucket server repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#is_bitbucket_server ApprovalPolicy#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#is_bitbucket_server ApprovalPolicy#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * true if this approval policy uses github enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#is_github_enterprise ApprovalPolicy#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#is_github_enterprise ApprovalPolicy#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * true if this approval policy integrates with gitlab repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#is_gitlab ApprovalPolicy#is_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#is_gitlab ApprovalPolicy#is_gitlab}
   */
   readonly isGitlab?: boolean | cdktf.IResolvable;
   /**
   * true if this approval policy uses gitlab enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#is_gitlab_enterprise ApprovalPolicy#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#is_gitlab_enterprise ApprovalPolicy#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * name for the approval policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#name ApprovalPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#name ApprovalPolicy#name}
   */
   readonly name: string;
   /**
   * terraform / terragrunt file folder inside source code. Should be the full path including the .yaml/.yml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#path ApprovalPolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#path ApprovalPolicy#path}
   */
   readonly path?: string;
   /**
   * repository url for the approval policy source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#repository ApprovalPolicy#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#repository ApprovalPolicy#repository}
   */
   readonly repository: string;
   /**
   * source code revision (branch / tag) to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#revision ApprovalPolicy#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#revision ApprovalPolicy#revision}
   */
   readonly revision?: string;
   /**
   * an array of references to 'data_ssh_key' to use when accessing git over ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#ssh_keys ApprovalPolicy#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#ssh_keys ApprovalPolicy#ssh_keys}
   */
   readonly sshKeys?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * the git token id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#token_id ApprovalPolicy#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#token_id ApprovalPolicy#token_id}
   */
   readonly tokenId?: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#vcs_connection_id ApprovalPolicy#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#vcs_connection_id ApprovalPolicy#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy env0_approval_policy}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy env0_approval_policy}
 */
 export class ApprovalPolicy extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class ApprovalPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApprovalPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApprovalPolicy to import
-  * @param importFromId The id of the existing ApprovalPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApprovalPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApprovalPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class ApprovalPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/approval_policy env0_approval_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/approval_policy env0_approval_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class ApprovalPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'env0_approval_policy',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

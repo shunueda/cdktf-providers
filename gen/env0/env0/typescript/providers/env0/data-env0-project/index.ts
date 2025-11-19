@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEnv0ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * id of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#id DataEnv0Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#id DataEnv0Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,31 +19,31 @@ export interface DataEnv0ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * the name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#name DataEnv0Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#name DataEnv0Project#name}
   */
   readonly name?: string;
   /**
   * the id of the parent project. Can be used as a filter when there are multiple subprojects with the same name under different parent projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#parent_project_id DataEnv0Project#parent_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#parent_project_id DataEnv0Project#parent_project_id}
   */
   readonly parentProjectId?: string;
   /**
   * the name of the parent project. Can be used as a filter when there are multiple subprojects with the same name under different parent projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#parent_project_name DataEnv0Project#parent_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#parent_project_name DataEnv0Project#parent_project_name}
   */
   readonly parentProjectName?: string;
   /**
   * a path of ancestors projects divided by the prefix '|'. Can be used as a filter when there are multiple subprojects with the same name under different parent projects. For example: 'App|Dev|us-east-1' will search for a project with the hierarchy 'App -> Dev -> us-east-1' ('us-east-1' being the parent)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#parent_project_path DataEnv0Project#parent_project_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#parent_project_path DataEnv0Project#parent_project_path}
   */
   readonly parentProjectPath?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project env0_project}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project env0_project}
 */
 export class DataEnv0Project extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataEnv0Project extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0Project to import
-  * @param importFromId The id of the existing DataEnv0Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataEnv0Project extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project env0_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/project env0_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataEnv0Project extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_project',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AzureIntegrationAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#id AzureIntegrationAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#id AzureIntegrationAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface AzureIntegrationAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the integration to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#integration_id AzureIntegrationAttachment#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#integration_id AzureIntegrationAttachment#integration_id}
   */
   readonly integrationId: string;
   /**
   * ID of the module to attach the integration to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#module_id AzureIntegrationAttachment#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#module_id AzureIntegrationAttachment#module_id}
   */
   readonly moduleId?: string;
   /**
   * Indicates whether this attachment is used for read operations. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#read AzureIntegrationAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#read AzureIntegrationAttachment#read}
   */
   readonly read?: boolean | cdktf.IResolvable;
   /**
   * ID of the stack to attach the integration to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#stack_id AzureIntegrationAttachment#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#stack_id AzureIntegrationAttachment#stack_id}
   */
   readonly stackId?: string;
   /**
   * Contains the Azure subscription ID to use with this Stack.  Overrides the default subscription ID set at the integration level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#subscription_id AzureIntegrationAttachment#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#subscription_id AzureIntegrationAttachment#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * Indicates whether this attachment is used for write operations. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#write AzureIntegrationAttachment#write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#write AzureIntegrationAttachment#write}
   */
   readonly write?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment spacelift_azure_integration_attachment}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment spacelift_azure_integration_attachment}
 */
 export class AzureIntegrationAttachment extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AzureIntegrationAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureIntegrationAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureIntegrationAttachment to import
-  * @param importFromId The id of the existing AzureIntegrationAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureIntegrationAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureIntegrationAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AzureIntegrationAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/azure_integration_attachment spacelift_azure_integration_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/resources/azure_integration_attachment spacelift_azure_integration_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AzureIntegrationAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_azure_integration_attachment',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.37.0',
-        providerVersionConstraint: '1.37.0'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

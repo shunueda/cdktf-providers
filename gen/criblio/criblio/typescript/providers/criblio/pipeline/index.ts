@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,385 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#conf Pipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#conf Pipeline#conf}
   */
   readonly conf: PipelineConf;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#group_id Pipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#group_id Pipeline#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
-export interface PipelineConfFunctionsConfAdd {
-  /**
-  * Whether this field addition is disabled. Default: false
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#disabled Pipeline#disabled}
-  */
-  readonly disabled?: boolean | cdktf.IResolvable;
-  /**
-  * Name of the field to add. Not Null
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#name Pipeline#name}
-  */
-  readonly name?: string;
-  /**
-  * Value to assign to the field. Not Null
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#value Pipeline#value}
-  */
-  readonly value?: string;
-}
-
-export function pipelineConfFunctionsConfAddToTerraform(struct?: PipelineConfFunctionsConfAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
-  }
-}
-
-
-export function pipelineConfFunctionsConfAddToHclTerraform(struct?: PipelineConfFunctionsConfAdd | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class PipelineConfFunctionsConfAddOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): PipelineConfFunctionsConfAdd | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._disabled !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disabled = this._disabled;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._value !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: PipelineConfFunctionsConfAdd | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._disabled = undefined;
-      this._name = undefined;
-      this._value = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._disabled = value.disabled;
-      this._name = value.name;
-      this._value = value.value;
-    }
-  }
-
-  // disabled - computed: true, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
-  public get disabled() {
-    return this.getBooleanAttribute('disabled');
-  }
-  public set disabled(value: boolean | cdktf.IResolvable) {
-    this._disabled = value;
-  }
-  public resetDisabled() {
-    this._disabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disabledInput() {
-    return this._disabled;
-  }
-
-  // name - computed: true, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // value - computed: true, optional: true, required: false
-  private _value?: string; 
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-  public set value(value: string) {
-    this._value = value;
-  }
-  public resetValue() {
-    this._value = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value;
-  }
-}
-
-export class PipelineConfFunctionsConfAddList extends cdktf.ComplexList {
-  public internalValue? : PipelineConfFunctionsConfAdd[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): PipelineConfFunctionsConfAddOutputReference {
-    return new PipelineConfFunctionsConfAddOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface PipelineConfFunctionsConf {
-  /**
-  * List of fields to add to the event
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#add Pipeline#add}
-  */
-  readonly add?: PipelineConfFunctionsConfAdd[] | cdktf.IResolvable;
-  /**
-  * List of field names to remove from the event
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#remove Pipeline#remove}
-  */
-  readonly remove?: string[];
-}
-
-export function pipelineConfFunctionsConfToTerraform(struct?: PipelineConfFunctionsConf | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    add: cdktf.listMapper(pipelineConfFunctionsConfAddToTerraform, false)(struct!.add),
-    remove: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.remove),
-  }
-}
-
-
-export function pipelineConfFunctionsConfToHclTerraform(struct?: PipelineConfFunctionsConf | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    add: {
-      value: cdktf.listMapperHcl(pipelineConfFunctionsConfAddToHclTerraform, false)(struct!.add),
-      isBlock: true,
-      type: "list",
-      storageClassType: "PipelineConfFunctionsConfAddList",
-    },
-    remove: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.remove),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class PipelineConfFunctionsConfOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): PipelineConfFunctionsConf | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._add?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.add = this._add?.internalValue;
-    }
-    if (this._remove !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.remove = this._remove;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: PipelineConfFunctionsConf | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._add.internalValue = undefined;
-      this._remove = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._add.internalValue = value.add;
-      this._remove = value.remove;
-    }
-  }
-
-  // add - computed: true, optional: true, required: false
-  private _add = new PipelineConfFunctionsConfAddList(this, "add", false);
-  public get add() {
-    return this._add;
-  }
-  public putAdd(value: PipelineConfFunctionsConfAdd[] | cdktf.IResolvable) {
-    this._add.internalValue = value;
-  }
-  public resetAdd() {
-    this._add.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addInput() {
-    return this._add.internalValue;
-  }
-
-  // remove - computed: true, optional: true, required: false
-  private _remove?: string[]; 
-  public get remove() {
-    return this.getListAttribute('remove');
-  }
-  public set remove(value: string[]) {
-    this._remove = value;
-  }
-  public resetRemove() {
-    this._remove = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get removeInput() {
-    return this._remove;
-  }
-}
 export interface PipelineConfFunctions {
   /**
-  * Not Null
+  * Configuration object that varies based on the function type. Each function (eval, serde, code, drop, etc.) requires different configuration fields. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#conf Pipeline#conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#conf Pipeline#conf}
   */
-  readonly conf?: PipelineConfFunctionsConf;
+  readonly conf?: { [key: string]: string };
   /**
   * Simple description of this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * If true, data will not be pushed through this function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Filter that selects data to be fed through this Function. Default: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#filter Pipeline#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#filter Pipeline#filter}
   */
   readonly filter?: string;
   /**
   * If enabled, stops the results of this Function from being passed to the downstream Functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#final Pipeline#final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#final Pipeline#final}
   */
   readonly final?: boolean | cdktf.IResolvable;
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#group_id Pipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#group_id Pipeline#group_id}
   */
   readonly groupId?: string;
   /**
   * Function ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#id Pipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#id Pipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -400,7 +81,7 @@ export function pipelineConfFunctionsToTerraform(struct?: PipelineConfFunctions 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    conf: pipelineConfFunctionsConfToTerraform(struct!.conf),
+    conf: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.conf),
     description: cdktf.stringToTerraform(struct!.description),
     disabled: cdktf.booleanToTerraform(struct!.disabled),
     filter: cdktf.stringToTerraform(struct!.filter),
@@ -418,10 +99,10 @@ export function pipelineConfFunctionsToHclTerraform(struct?: PipelineConfFunctio
   }
   const attrs = {
     conf: {
-      value: pipelineConfFunctionsConfToHclTerraform(struct!.conf),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "PipelineConfFunctionsConf",
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.conf),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
     },
     description: {
       value: cdktf.stringToHclTerraform(struct!.description),
@@ -485,9 +166,9 @@ export class PipelineConfFunctionsOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._conf?.internalValue !== undefined) {
+    if (this._conf !== undefined) {
       hasAnyValues = true;
-      internalValueResult.conf = this._conf?.internalValue;
+      internalValueResult.conf = this._conf;
     }
     if (this._description !== undefined) {
       hasAnyValues = true;
@@ -520,7 +201,7 @@ export class PipelineConfFunctionsOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._conf.internalValue = undefined;
+      this._conf = undefined;
       this._description = undefined;
       this._disabled = undefined;
       this._filter = undefined;
@@ -535,7 +216,7 @@ export class PipelineConfFunctionsOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._conf.internalValue = value.conf;
+      this._conf = value.conf;
       this._description = value.description;
       this._disabled = value.disabled;
       this._filter = value.filter;
@@ -546,19 +227,19 @@ export class PipelineConfFunctionsOutputReference extends cdktf.ComplexObject {
   }
 
   // conf - computed: true, optional: true, required: false
-  private _conf = new PipelineConfFunctionsConfOutputReference(this, "conf");
+  private _conf?: { [key: string]: string }; 
   public get conf() {
-    return this._conf;
+    return this.getStringMapAttribute('conf');
   }
-  public putConf(value: PipelineConfFunctionsConf) {
-    this._conf.internalValue = value;
+  public set conf(value: { [key: string]: string }) {
+    this._conf = value;
   }
   public resetConf() {
-    this._conf.internalValue = undefined;
+    this._conf = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get confInput() {
-    return this._conf.internalValue;
+    return this._conf;
   }
 
   // description - computed: true, optional: true, required: false
@@ -681,19 +362,19 @@ export interface PipelineConfGroups {
   /**
   * Short description of this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * Whether this group is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#disabled Pipeline#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#disabled Pipeline#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name?: string;
 }
@@ -867,33 +548,33 @@ export interface PipelineConf {
   /**
   * Time (in ms) to wait for an async function to complete processing of a data item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#async_func_timeout Pipeline#async_func_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#async_func_timeout Pipeline#async_func_timeout}
   */
   readonly asyncFuncTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * List of Functions to pass data through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#functions Pipeline#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#functions Pipeline#functions}
   */
   readonly functions?: PipelineConfFunctions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#groups Pipeline#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#groups Pipeline#groups}
   */
   readonly groups?: { [key: string]: PipelineConfGroups } | cdktf.IResolvable;
   /**
   * The output destination for events processed by this Pipeline. Default: "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#output Pipeline#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#output Pipeline#output}
   */
   readonly output?: string;
   /**
   * Tags for filtering and grouping in @{product}. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#streamtags Pipeline#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#streamtags Pipeline#streamtags}
   */
   readonly streamtags?: string[];
 }
@@ -1132,7 +813,7 @@ export class PipelineConfOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline criblio_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline criblio_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -1148,7 +829,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1160,7 +841,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/pipeline criblio_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/pipeline criblio_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1171,8 +852,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

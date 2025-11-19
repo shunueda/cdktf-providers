@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftWorkerPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool#id DataSpaceliftWorkerPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool#id DataSpaceliftWorkerPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSpaceliftWorkerPoolConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of the worker pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool#worker_pool_id DataSpaceliftWorkerPool#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool#worker_pool_id DataSpaceliftWorkerPool#worker_pool_id}
   */
   readonly workerPoolId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool spacelift_worker_pool}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool spacelift_worker_pool}
 */
 export class DataSpaceliftWorkerPool extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataSpaceliftWorkerPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftWorkerPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftWorkerPool to import
-  * @param importFromId The id of the existing DataSpaceliftWorkerPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftWorkerPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftWorkerPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataSpaceliftWorkerPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/data-sources/worker_pool spacelift_worker_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.38.0/docs/data-sources/worker_pool spacelift_worker_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataSpaceliftWorkerPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_worker_pool',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.37.0',
-        providerVersionConstraint: '1.37.0'
+        providerVersion: '1.38.0',
+        providerVersionConstraint: '1.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

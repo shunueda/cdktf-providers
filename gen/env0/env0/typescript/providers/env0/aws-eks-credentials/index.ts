@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsEksCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * eks cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials#cluster_name AwsEksCredentials#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials#cluster_name AwsEksCredentials#cluster_name}
   */
   readonly clusterName: string;
   /**
   * the AWS region of the eks cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials#cluster_region AwsEksCredentials#cluster_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials#cluster_region AwsEksCredentials#cluster_region}
   */
   readonly clusterRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials#id AwsEksCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials#id AwsEksCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface AwsEksCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials#name AwsEksCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials#name AwsEksCredentials#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials env0_aws_eks_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials env0_aws_eks_credentials}
 */
 export class AwsEksCredentials extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class AwsEksCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsEksCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsEksCredentials to import
-  * @param importFromId The id of the existing AwsEksCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsEksCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsEksCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class AwsEksCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_eks_credentials env0_aws_eks_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_eks_credentials env0_aws_eks_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class AwsEksCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_aws_eks_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

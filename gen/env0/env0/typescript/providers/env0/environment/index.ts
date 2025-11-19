@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * should deployments require manual approvals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#approve_plan_automatically Environment#approve_plan_automatically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#approve_plan_automatically Environment#approve_plan_automatically}
   */
   readonly approvePlanAutomatically?: boolean | cdktf.IResolvable;
   /**
   * redeploy on file filter pattern.
   * When used 'auto_deploy_on_path_changes_only' must be configured to true and 'deploy_on_push' or 'run_plan_on_pull_requests' must be configured to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#auto_deploy_by_custom_glob Environment#auto_deploy_by_custom_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#auto_deploy_by_custom_glob Environment#auto_deploy_by_custom_glob}
   */
   readonly autoDeployByCustomGlob?: string;
   /**
   * redeploy only on path changes only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#auto_deploy_on_path_changes_only Environment#auto_deploy_on_path_changes_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#auto_deploy_on_path_changes_only Environment#auto_deploy_on_path_changes_only}
   */
   readonly autoDeployOnPathChangesOnly?: boolean | cdktf.IResolvable;
   /**
   * should run terraform deploy on push events.
   * If true must specify one of the following - 'github_installation_id' if using GitHub, 'gitlab_project_id' and 'token_id' if using GitLab, or 'bitbucket_client_key' if using BitBucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#deploy_on_push Environment#deploy_on_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#deploy_on_push Environment#deploy_on_push}
   */
   readonly deployOnPush?: boolean | cdktf.IResolvable;
   /**
   * cron expression for scheduled drift detection of the environment (cannot be used with resource_drift_detection resource)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#drift_detection_cron Environment#drift_detection_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#drift_detection_cron Environment#drift_detection_cron}
   */
   readonly driftDetectionCron?: string;
   /**
   * Destroy safeguard. Must be enabled before delete/destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#force_destroy Environment#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#force_destroy Environment#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * the environment's id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,135 +57,135 @@ export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * If 'true', it marks the environment as inactive. It can be re-activated by setting it to 'false' or removing this field. Note: it's not allowed to create an inactive environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_inactive Environment#is_inactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_inactive Environment#is_inactive}
   */
   readonly isInactive?: boolean | cdktf.IResolvable;
   /**
   * enables remote apply when set to true (defaults to false). Can only be enabled when is_remote_backend and approve_plan_automatically are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_remote_apply_enabled Environment#is_remote_apply_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_remote_apply_enabled Environment#is_remote_apply_enabled}
   */
   readonly isRemoteApplyEnabled?: boolean | cdktf.IResolvable;
   /**
   * should use remote backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_remote_backend Environment#is_remote_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_remote_backend Environment#is_remote_backend}
   */
   readonly isRemoteBackend?: boolean | cdktf.IResolvable;
   /**
   * kubernetes (or helm) namespace to be used. If modified deletes current environment and creates a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#k8s_namespace Environment#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#k8s_namespace Environment#k8s_namespace}
   */
   readonly k8SNamespace?: string;
   /**
   * the environment's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * the deployment log output. Returns a json string. It can be either a map of key-value, or an array of (in case of Terragrunt run-all) of moduleName and a map of key-value. Note: if the deployment is still in progress returns 'null'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#output Environment#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#output Environment#output}
   */
   readonly output?: string;
   /**
   * use this flag to prevent auto deploy on environment creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#prevent_auto_deploy Environment#prevent_auto_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#prevent_auto_deploy Environment#prevent_auto_deploy}
   */
   readonly preventAutoDeploy?: boolean | cdktf.IResolvable;
   /**
   * project id of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#project_id Environment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#project_id Environment#project_id}
   */
   readonly projectId: string;
   /**
   * by default when removing an environment, it gets destroyed. Setting this value to 'mark_as_archived' will force the environment to be archived instead of tying to destroy it ('Mark as inactive' in the UI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#removal_strategy Environment#removal_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#removal_strategy Environment#removal_strategy}
   */
   readonly removalStrategy?: string;
   /**
   * the revision the environment is to be run against. Please note that changing this attribute will require environment redeploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#revision Environment#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#revision Environment#revision}
   */
   readonly revision?: string;
   /**
   * should run terraform plan on pull requests creations.
   * If true must specify one of the following - 'github_installation_id' if using GitHub, 'gitlab_project_id' and 'token_id' if using GitLab, or 'bitbucket_client_key' if using BitBucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#run_plan_on_pull_requests Environment#run_plan_on_pull_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#run_plan_on_pull_requests Environment#run_plan_on_pull_requests}
   */
   readonly runPlanOnPullRequests?: boolean | cdktf.IResolvable;
   /**
   * the template id the environment is to be created from.
   * Important note: the template must first be assigned to the same project as the environment (project_id). Use 'env0_template_project_assignment' to assign the template to the project. In addition, be sure to leverage 'depends_on' if applicable. Please note that changing this attribute will require environment redeploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#template_id Environment#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#template_id Environment#template_id}
   */
   readonly templateId?: string;
   /**
   * The working directory path to be used by a Terragrunt template. If left empty '/' is used. Note: modifying this field destroys the current environment and creates a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#terragrunt_working_directory Environment#terragrunt_working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#terragrunt_working_directory Environment#terragrunt_working_directory}
   */
   readonly terragruntWorkingDirectory?: string;
   /**
   * the date the environment should be destroyed at (iso format). omitting this attribute will result in infinite ttl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#ttl Environment#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#ttl Environment#ttl}
   */
   readonly ttl?: string;
   /**
   * a list of IDs of variable sets to assign to this environment. Note: must not be used with 'env0_variable_set_assignment'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#variable_sets Environment#variable_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#variable_sets Environment#variable_sets}
   */
   readonly variableSets?: string[];
   /**
   * set an alias for this environment in favor of running VCS commands using PR comments against it. Additional details: https://docs.env0.com/docs/plan-and-apply-from-pr-comments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#vcs_commands_alias Environment#vcs_commands_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#vcs_commands_alias Environment#vcs_commands_alias}
   */
   readonly vcsCommandsAlias?: string;
   /**
   * set to 'true' to enable running VCS PR plan/apply commands using PR comments. This can be set to 'true' (enabled) without setting alias in 'vcs_commands_alias'. Additional details: https://docs.env0.com/docs/plan-and-apply-from-pr-comments#configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#vcs_pr_comments_enabled Environment#vcs_pr_comments_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#vcs_pr_comments_enabled Environment#vcs_pr_comments_enabled}
   */
   readonly vcsPrCommentsEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Important note: this option is experimental, please report any issues found). During destroy, waits for the environment status to be 'INACTIVE'. Times out after 30 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#wait_for_destroy Environment#wait_for_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#wait_for_destroy Environment#wait_for_destroy}
   */
   readonly waitForDestroy?: boolean | cdktf.IResolvable;
   /**
   * the terraform workspace name of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#workspace Environment#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#workspace Environment#workspace}
   */
   readonly workspace?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#configuration Environment#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#configuration Environment#configuration}
   */
   readonly configuration?: EnvironmentConfiguration[] | cdktf.IResolvable;
   /**
   * sub_environment_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#sub_environment_configuration Environment#sub_environment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#sub_environment_configuration Environment#sub_environment_configuration}
   */
   readonly subEnvironmentConfiguration?: EnvironmentSubEnvironmentConfiguration[] | cdktf.IResolvable;
   /**
   * without_template_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#without_template_settings Environment#without_template_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#without_template_settings Environment#without_template_settings}
   */
   readonly withoutTemplateSettings?: EnvironmentWithoutTemplateSettings;
 }
@@ -193,67 +193,67 @@ export interface EnvironmentConfiguration {
   /**
   * description for the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * is the variable read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_read_only Environment#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_read_only Environment#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * is the variable required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_required Environment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_required Environment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * should the variable value be hidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_sensitive Environment#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_sensitive Environment#is_sensitive}
   */
   readonly isSensitive?: boolean | cdktf.IResolvable;
   /**
   * variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * the value of this variable must match provided regular expression (enforced only in env0 UI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#regex Environment#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#regex Environment#regex}
   */
   readonly regex?: string;
   /**
   * a list of possible variable values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_enum Environment#schema_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_enum Environment#schema_enum}
   */
   readonly schemaEnum?: string[];
   /**
   * the variable format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_format Environment#schema_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_format Environment#schema_format}
   */
   readonly schemaFormat?: string;
   /**
   * the type the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_type Environment#schema_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_type Environment#schema_type}
   */
   readonly schemaType?: string;
   /**
   * variable type (allowed values are: terraform, environment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
   /**
   * variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#value Environment#value}
   */
   readonly value: string;
 }
@@ -655,67 +655,67 @@ export interface EnvironmentSubEnvironmentConfigurationConfiguration {
   /**
   * description for the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * is the variable read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_read_only Environment#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_read_only Environment#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * is the variable required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_required Environment#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_required Environment#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * should the variable value be hidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_sensitive Environment#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_sensitive Environment#is_sensitive}
   */
   readonly isSensitive?: boolean | cdktf.IResolvable;
   /**
   * variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * the value of this variable must match provided regular expression (enforced only in env0 UI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#regex Environment#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#regex Environment#regex}
   */
   readonly regex?: string;
   /**
   * a list of possible variable values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_enum Environment#schema_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_enum Environment#schema_enum}
   */
   readonly schemaEnum?: string[];
   /**
   * the variable format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_format Environment#schema_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_format Environment#schema_format}
   */
   readonly schemaFormat?: string;
   /**
   * the type the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#schema_type Environment#schema_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#schema_type Environment#schema_type}
   */
   readonly schemaType?: string;
   /**
   * variable type (allowed values are: terraform, environment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
   /**
   * variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#value Environment#value}
   */
   readonly value: string;
 }
@@ -1117,31 +1117,31 @@ export interface EnvironmentSubEnvironmentConfiguration {
   /**
   * sub environment alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#alias Environment#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#alias Environment#alias}
   */
   readonly alias: string;
   /**
   * when 'true' (default) plans are approved automatically, otherwise ('false') deployment require manual approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#approve_plan_automatically Environment#approve_plan_automatically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#approve_plan_automatically Environment#approve_plan_automatically}
   */
   readonly approvePlanAutomatically?: boolean | cdktf.IResolvable;
   /**
   * sub environment revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#revision Environment#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#revision Environment#revision}
   */
   readonly revision?: string;
   /**
   * sub environment workspace (overrides the configuration in the yml file)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#workspace Environment#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#workspace Environment#workspace}
   */
   readonly workspace?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#configuration Environment#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#configuration Environment#configuration}
   */
   readonly configuration?: EnvironmentSubEnvironmentConfigurationConfiguration[] | cdktf.IResolvable;
 }
@@ -1377,181 +1377,181 @@ export interface EnvironmentWithoutTemplateSettings {
   /**
   * the ansible version to use (required when the template type is 'ansible'). Supported versions are 3.0.0 and above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#ansible_version Environment#ansible_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#ansible_version Environment#ansible_version}
   */
   readonly ansibleVersion?: string;
   /**
   * the bitbucket client key used for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#bitbucket_client_key Environment#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#bitbucket_client_key Environment#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * description for the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * the cloudformation file name. Required if the template type is cloudformation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#file_name Environment#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#file_name Environment#file_name}
   */
   readonly fileName?: string;
   /**
   * the env0 application installation id on the relevant github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#github_installation_id Environment#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#github_installation_id Environment#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * the project id of the relevant repository (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#gitlab_project_id Environment#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#gitlab_project_id Environment#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * the helm chart name. Required if is_helm_repository is set to 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#helm_chart_name Environment#helm_chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#helm_chart_name Environment#helm_chart_name}
   */
   readonly helmChartName?: string;
   /**
   * true if this template integrates with azure dev ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_azure_devops Environment#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_azure_devops Environment#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses bitbucket server repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_bitbucket_server Environment#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_bitbucket_server Environment#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses github enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_github_enterprise Environment#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_github_enterprise Environment#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * set to 'true' if the repository is Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_gitlab Environment#is_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_gitlab Environment#is_gitlab}
   */
   readonly isGitlab?: boolean | cdktf.IResolvable;
   /**
   * true if this template uses gitlab enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_gitlab_enterprise Environment#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_gitlab_enterprise Environment#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * true if this template integrates with a helm repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_helm_repository Environment#is_helm_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_helm_repository Environment#is_helm_repository}
   */
   readonly isHelmRepository?: boolean | cdktf.IResolvable;
   /**
   * true if this template should execute run-all commands on multiple modules (check https://terragrunt.gruntwork.io/docs/features/execute-terraform-commands-on-multiple-modules-at-once/#the-run-all-command for additional details). Can only be true with 'terragrunt' template type and terragrunt version 0.28.1 and above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#is_terragrunt_run_all Environment#is_terragrunt_run_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#is_terragrunt_run_all Environment#is_terragrunt_run_all}
   */
   readonly isTerragruntRunAll?: boolean | cdktf.IResolvable;
   /**
   * the Opentofu version to use (example: 1.6.2). Setting to 'RESOLVE_FROM_CODE' extracts the version from the Opentofu code during runtime. Setting to `latest`, the version used will be the most recent one available for Opentofu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#opentofu_version Environment#opentofu_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#opentofu_version Environment#opentofu_version}
   */
   readonly opentofuVersion?: string;
   /**
   * terraform / terragrunt file folder inside source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#path Environment#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#path Environment#path}
   */
   readonly path?: string;
   /**
   * git repository url for the template source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#repository Environment#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#repository Environment#repository}
   */
   readonly repository: string;
   /**
   * number of times to retry when deploying an environment based on this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#retries_on_deploy Environment#retries_on_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#retries_on_deploy Environment#retries_on_deploy}
   */
   readonly retriesOnDeploy?: number;
   /**
   * number of times to retry when destroying an environment based on this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#retries_on_destroy Environment#retries_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#retries_on_destroy Environment#retries_on_destroy}
   */
   readonly retriesOnDestroy?: number;
   /**
   * if specified, will only retry (on deploy) if error matches specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#retry_on_deploy_only_when_matches_regex Environment#retry_on_deploy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#retry_on_deploy_only_when_matches_regex Environment#retry_on_deploy_only_when_matches_regex}
   */
   readonly retryOnDeployOnlyWhenMatchesRegex?: string;
   /**
   * if specified, will only retry (on destroy) if error matches specified regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#retry_on_destroy_only_when_matches_regex Environment#retry_on_destroy_only_when_matches_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#retry_on_destroy_only_when_matches_regex Environment#retry_on_destroy_only_when_matches_regex}
   */
   readonly retryOnDestroyOnlyWhenMatchesRegex?: string;
   /**
   * source code revision (branch / tag) to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#revision Environment#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#revision Environment#revision}
   */
   readonly revision?: string;
   /**
   * an array of references to 'data_ssh_key' to use when accessing git over ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#ssh_keys Environment#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#ssh_keys Environment#ssh_keys}
   */
   readonly sshKeys?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * the Terraform version to use (example: 0.15.1). Setting to `RESOLVE_FROM_TERRAFORM_CODE` defaults to the version of `terraform.required_version` during run-time (resolve from terraform code). Setting to `latest`, the version used will be the most recent one available for Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#terraform_version Environment#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#terraform_version Environment#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * the binary to use if the template type is 'terragrunt'. Valid values 'opentofu' and 'terraform'. Defaults to 'opentofu'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#terragrunt_tf_binary Environment#terragrunt_tf_binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#terragrunt_tf_binary Environment#terragrunt_tf_binary}
   */
   readonly terragruntTfBinary?: string;
   /**
   * the Terragrunt version to use (example: 0.36.5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#terragrunt_version Environment#terragrunt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#terragrunt_version Environment#terragrunt_version}
   */
   readonly terragruntVersion?: string;
   /**
   * the git token id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#token_id Environment#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#token_id Environment#token_id}
   */
   readonly tokenId?: string;
   /**
   * token name for Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#token_name Environment#token_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#token_name Environment#token_name}
   */
   readonly tokenName?: string;
   /**
   * template type (allowed values: terraform, terragrunt, pulumi, k8s, workflow, cloudformation, helm, opentofu, ansible)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#type Environment#type}
   */
   readonly type: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#vcs_connection_id Environment#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#vcs_connection_id Environment#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
 }
@@ -2475,7 +2475,7 @@ export class EnvironmentWithoutTemplateSettingsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment env0_environment}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment env0_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -2491,7 +2491,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2503,7 +2503,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/environment env0_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/environment env0_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2514,8 +2514,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'env0_environment',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

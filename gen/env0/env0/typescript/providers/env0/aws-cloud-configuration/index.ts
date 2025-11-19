@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AwsCloudConfigurationConfig extends cdktf.TerraformMetaArgument
   /**
   * the AWS account id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#account_id AwsCloudConfiguration#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#account_id AwsCloudConfiguration#account_id}
   */
   readonly accountId: string;
   /**
   * the CloudTrail bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#bucket_name AwsCloudConfiguration#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#bucket_name AwsCloudConfiguration#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#id AwsCloudConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#id AwsCloudConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AwsCloudConfigurationConfig extends cdktf.TerraformMetaArgument
   /**
   * name for the cloud configuration for insights
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#name AwsCloudConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#name AwsCloudConfiguration#name}
   */
   readonly name: string;
   /**
   * an optional bucket prefix (folder)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#prefix AwsCloudConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#prefix AwsCloudConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * a list of AWS regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#regions AwsCloudConfiguration#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#regions AwsCloudConfiguration#regions}
   */
   readonly regions: string[];
   /**
   * If 'true' than the prefix will be under 'AWSLogs' folder (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#should_prefix_under_logs_folder AwsCloudConfiguration#should_prefix_under_logs_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#should_prefix_under_logs_folder AwsCloudConfiguration#should_prefix_under_logs_folder}
   */
   readonly shouldPrefixUnderLogsFolder?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration env0_aws_cloud_configuration}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration env0_aws_cloud_configuration}
 */
 export class AwsCloudConfiguration extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AwsCloudConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudConfiguration to import
-  * @param importFromId The id of the existing AwsCloudConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AwsCloudConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/aws_cloud_configuration env0_aws_cloud_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/aws_cloud_configuration env0_aws_cloud_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AwsCloudConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'env0_aws_cloud_configuration',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

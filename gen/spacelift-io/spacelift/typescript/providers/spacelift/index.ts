@@ -70,6 +70,7 @@ export * as dataSpaceliftGitlabIntegration from './data-spacelift-gitlab-integra
 export * as dataSpaceliftGitlabWebhookEndpoint from './data-spacelift-gitlab-webhook-endpoint';
 export * as dataSpaceliftIps from './data-spacelift-ips';
 export * as dataSpaceliftModule from './data-spacelift-module';
+export * as dataSpaceliftModules from './data-spacelift-modules';
 export * as dataSpaceliftMountedFile from './data-spacelift-mounted-file';
 export * as dataSpaceliftNamedWebhook from './data-spacelift-named-webhook';
 export * as dataSpaceliftPolicies from './data-spacelift-policies';

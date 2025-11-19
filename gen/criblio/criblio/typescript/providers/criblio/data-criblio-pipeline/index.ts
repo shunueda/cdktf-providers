@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,163 +10,18 @@ export interface DataCriblioPipelineConfig extends cdktf.TerraformMetaArguments 
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline#group_id DataCriblioPipeline#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline#group_id DataCriblioPipeline#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline#id DataCriblioPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline#id DataCriblioPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
-}
-export interface DataCriblioPipelineConfFunctionsConfAdd {
-}
-
-export function dataCriblioPipelineConfFunctionsConfAddToTerraform(struct?: DataCriblioPipelineConfFunctionsConfAdd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataCriblioPipelineConfFunctionsConfAddToHclTerraform(struct?: DataCriblioPipelineConfFunctionsConfAdd): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataCriblioPipelineConfFunctionsConfAddOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataCriblioPipelineConfFunctionsConfAdd | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataCriblioPipelineConfFunctionsConfAdd | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // disabled - computed: true, optional: false, required: false
-  public get disabled() {
-    return this.getBooleanAttribute('disabled');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class DataCriblioPipelineConfFunctionsConfAddList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataCriblioPipelineConfFunctionsConfAddOutputReference {
-    return new DataCriblioPipelineConfFunctionsConfAddOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataCriblioPipelineConfFunctionsConf {
-}
-
-export function dataCriblioPipelineConfFunctionsConfToTerraform(struct?: DataCriblioPipelineConfFunctionsConf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataCriblioPipelineConfFunctionsConfToHclTerraform(struct?: DataCriblioPipelineConfFunctionsConf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataCriblioPipelineConfFunctionsConfOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
-  }
-
-  public get internalValue(): DataCriblioPipelineConfFunctionsConf | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataCriblioPipelineConfFunctionsConf | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // add - computed: true, optional: false, required: false
-  private _add = new DataCriblioPipelineConfFunctionsConfAddList(this, "add", false);
-  public get add() {
-    return this._add;
-  }
-
-  // remove - computed: true, optional: false, required: false
-  public get remove() {
-    return this.getListAttribute('remove');
-  }
 }
 export interface DataCriblioPipelineConfFunctions {
 }
@@ -220,7 +75,7 @@ export class DataCriblioPipelineConfFunctionsOutputReference extends cdktf.Compl
   }
 
   // conf - computed: true, optional: false, required: false
-  private _conf = new DataCriblioPipelineConfFunctionsConfOutputReference(this, "conf");
+  private _conf = new cdktf.StringMap(this, "conf");
   public get conf() {
     return this._conf;
   }
@@ -440,7 +295,7 @@ export class DataCriblioPipelineConfOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline criblio_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline criblio_pipeline}
 */
 export class DataCriblioPipeline extends cdktf.TerraformDataSource {
 
@@ -456,7 +311,7 @@ export class DataCriblioPipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioPipeline to import
-  * @param importFromId The id of the existing DataCriblioPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -468,7 +323,7 @@ export class DataCriblioPipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pipeline criblio_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pipeline criblio_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -479,8 +334,8 @@ export class DataCriblioPipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

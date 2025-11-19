@@ -1,3 +1,3 @@
 # `criblio_routes`
 
-Refer to the Terraform Registry for docs: [`criblio_routes`](https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/resources/routes).
+Refer to the Terraform Registry for docs: [`criblio_routes`](https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/resources/routes).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dashboard_category
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioSearchDashboardCategoryConfig extends cdktf.Terrafor
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dashboard_category#id DataCriblioSearchDashboardCategory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard_category#id DataCriblioSearchDashboardCategory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataCriblioSearchDashboardCategoryConfig extends cdktf.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dashboard_category criblio_search_dashboard_category}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard_category criblio_search_dashboard_category}
 */
 export class DataCriblioSearchDashboardCategory extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataCriblioSearchDashboardCategory extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataCriblioSearchDashboardCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDashboardCategory to import
-  * @param importFromId The id of the existing DataCriblioSearchDashboardCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dashboard_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDashboardCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDashboardCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataCriblioSearchDashboardCategory extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/search_dashboard_category criblio_search_dashboard_category} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/search_dashboard_category criblio_search_dashboard_category} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataCriblioSearchDashboardCategory extends cdktf.TerraformDataSourc
       terraformResourceType: 'criblio_search_dashboard_category',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

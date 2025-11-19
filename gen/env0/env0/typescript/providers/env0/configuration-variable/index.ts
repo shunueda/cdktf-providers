@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ConfigurationVariableConfig extends cdktf.TerraformMetaArgument
   /**
   * a description of the variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#description ConfigurationVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#description ConfigurationVariable#description}
   */
   readonly description?: string;
   /**
   * limit possible values to values from this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#enum ConfigurationVariable#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#enum ConfigurationVariable#enum}
   */
   readonly enum?: string[];
   /**
   * create the variable under this environment, not globally. Make sure to 'ignore changes' on environment.configuration to prevent drifts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#environment_id ConfigurationVariable#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#environment_id ConfigurationVariable#environment_id}
   */
   readonly environmentId?: string;
   /**
   * specifies the format of the configuration value ('HCL' or 'JSON'). If none is specified, 'JSON' and 'HCL' values will be considered to be a 'string' (text) type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#format ConfigurationVariable#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#format ConfigurationVariable#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#id ConfigurationVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#id ConfigurationVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface ConfigurationVariableConfig extends cdktf.TerraformMetaArgument
   /**
   * the value of this variable cannot be edited by lower scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#is_read_only ConfigurationVariable#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#is_read_only ConfigurationVariable#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * the value of this variable must be set by lower scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#is_required ConfigurationVariable#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#is_required ConfigurationVariable#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * is the variable sensitive, defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#is_sensitive ConfigurationVariable#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#is_sensitive ConfigurationVariable#is_sensitive}
   */
   readonly isSensitive?: boolean | cdktf.IResolvable;
   /**
   * name to give the configuration variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#name ConfigurationVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#name ConfigurationVariable#name}
   */
   readonly name: string;
   /**
   * create the variable under this project, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#project_id ConfigurationVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#project_id ConfigurationVariable#project_id}
   */
   readonly projectId?: string;
   /**
   * the value of this variable must match provided regular expression (enforced only in env0 UI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#regex ConfigurationVariable#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#regex ConfigurationVariable#regex}
   */
   readonly regex?: string;
   /**
   * soft delete the configuration variable, once removed from the configuration it won't be deleted from env0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#soft_delete ConfigurationVariable#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#soft_delete ConfigurationVariable#soft_delete}
   */
   readonly softDelete?: boolean | cdktf.IResolvable;
   /**
   * create the variable for sub templates of a workflow. Requires template_id to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#sub_environment_alias ConfigurationVariable#sub_environment_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#sub_environment_alias ConfigurationVariable#sub_environment_alias}
   */
   readonly subEnvironmentAlias?: string;
   /**
   * create the variable under this template, not globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#template_id ConfigurationVariable#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#template_id ConfigurationVariable#template_id}
   */
   readonly templateId?: string;
   /**
   * default 'environment'. set to 'terraform' to create a terraform variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#type ConfigurationVariable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#type ConfigurationVariable#type}
   */
   readonly type?: string;
   /**
   * value for the configuration variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#value ConfigurationVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#value ConfigurationVariable#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable env0_configuration_variable}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable env0_configuration_variable}
 */
 export class ConfigurationVariable extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class ConfigurationVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigurationVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigurationVariable to import
-  * @param importFromId The id of the existing ConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigurationVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigurationVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class ConfigurationVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/configuration_variable env0_configuration_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/configuration_variable env0_configuration_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class ConfigurationVariable extends cdktf.TerraformResource {
       terraformResourceType: 'env0_configuration_variable',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

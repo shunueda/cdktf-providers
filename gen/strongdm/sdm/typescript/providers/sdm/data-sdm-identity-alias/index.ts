@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias
+// https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmIdentityAliasConfig extends cdktf.TerraformMetaArguments
   /**
   * The account for this identity alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#account_id DataSdmIdentityAlias#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#account_id DataSdmIdentityAlias#account_id}
   */
   readonly accountId?: string;
   /**
   * Unique identifier of the IdentityAlias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#id DataSdmIdentityAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#id DataSdmIdentityAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataSdmIdentityAliasConfig extends cdktf.TerraformMetaArguments
   /**
   * The identity set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#identity_set_id DataSdmIdentityAlias#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#identity_set_id DataSdmIdentityAlias#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * The username to be used as the identity alias for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#username DataSdmIdentityAlias#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#username DataSdmIdentityAlias#username}
   */
   readonly username?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#timeouts DataSdmIdentityAlias#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#timeouts DataSdmIdentityAlias#timeouts}
   */
   readonly timeouts?: DataSdmIdentityAliasTimeouts;
 }
@@ -133,7 +133,7 @@ export class DataSdmIdentityAliasIdentityAliasesList extends cdktf.ComplexList {
 }
 export interface DataSdmIdentityAliasTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#default DataSdmIdentityAlias#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#default DataSdmIdentityAlias#default}
   */
   readonly default?: string;
 }
@@ -227,7 +227,7 @@ export class DataSdmIdentityAliasTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias sdm_identity_alias}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias sdm_identity_alias}
 */
 export class DataSdmIdentityAlias extends cdktf.TerraformDataSource {
 
@@ -243,7 +243,7 @@ export class DataSdmIdentityAlias extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmIdentityAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmIdentityAlias to import
-  * @param importFromId The id of the existing DataSdmIdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmIdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmIdentityAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DataSdmIdentityAlias extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/identity_alias sdm_identity_alias} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.33.0/docs/data-sources/identity_alias sdm_identity_alias} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DataSdmIdentityAlias extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_identity_alias',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.31.0',
-        providerVersionConstraint: '15.31.0'
+        providerVersion: '15.33.0',
+        providerVersionConstraint: '15.33.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

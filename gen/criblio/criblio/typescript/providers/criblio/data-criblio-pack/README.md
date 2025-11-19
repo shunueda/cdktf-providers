@@ -1,3 +1,3 @@
 # `data_criblio_pack`
 
-Refer to the Terraform Registry for docs: [`data_criblio_pack`](https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/pack).
+Refer to the Terraform Registry for docs: [`data_criblio_pack`](https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/pack).

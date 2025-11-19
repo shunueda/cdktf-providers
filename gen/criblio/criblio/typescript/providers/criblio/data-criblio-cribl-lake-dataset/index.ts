@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset
+// https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCriblioCriblLakeDatasetConfig extends cdktf.TerraformMetaAr
   /**
   * dataset id to get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset#id DataCriblioCriblLakeDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset#id DataCriblioCriblLakeDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataCriblioCriblLakeDatasetConfig extends cdktf.TerraformMetaAr
   /**
   * lake id that contains the Datasets. must be "default"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset#lake_id DataCriblioCriblLakeDataset#lake_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset#lake_id DataCriblioCriblLakeDataset#lake_id}
   */
   readonly lakeId: string;
 }
@@ -154,7 +154,7 @@ export class DataCriblioCriblLakeDatasetSearchConfigOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset criblio_cribl_lake_dataset}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset criblio_cribl_lake_dataset}
 */
 export class DataCriblioCriblLakeDataset extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataCriblioCriblLakeDataset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioCriblLakeDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioCriblLakeDataset to import
-  * @param importFromId The id of the existing DataCriblioCriblLakeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioCriblLakeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioCriblLakeDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataCriblioCriblLakeDataset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.23/docs/data-sources/cribl_lake_dataset criblio_cribl_lake_dataset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.27/docs/data-sources/cribl_lake_dataset criblio_cribl_lake_dataset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataCriblioCriblLakeDataset extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_cribl_lake_dataset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.23',
-        providerVersionConstraint: '1.20.23'
+        providerVersion: '1.20.27',
+        providerVersionConstraint: '1.20.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

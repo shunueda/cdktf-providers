@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment
+// https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserOrganizationAssignmentConfig extends cdktf.TerraformMetaArg
   /**
   * id of the custom role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment#custom_role_id UserOrganizationAssignment#custom_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment#custom_role_id UserOrganizationAssignment#custom_role_id}
   */
   readonly customRoleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment#id UserOrganizationAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment#id UserOrganizationAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface UserOrganizationAssignmentConfig extends cdktf.TerraformMetaArg
   /**
   * the assigned built-in roles (User or Admin)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment#role UserOrganizationAssignment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment#role UserOrganizationAssignment#role}
   */
   readonly role?: string;
   /**
   * id of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment#user_id UserOrganizationAssignment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment#user_id UserOrganizationAssignment#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment env0_user_organization_assignment}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment env0_user_organization_assignment}
 */
 export class UserOrganizationAssignment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class UserOrganizationAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserOrganizationAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserOrganizationAssignment to import
-  * @param importFromId The id of the existing UserOrganizationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserOrganizationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserOrganizationAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class UserOrganizationAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_organization_assignment env0_user_organization_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.7/docs/resources/user_organization_assignment env0_user_organization_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class UserOrganizationAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'env0_user_organization_assignment',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.6',
-        providerVersionConstraint: '1.29.6'
+        providerVersion: '1.29.7',
+        providerVersionConstraint: '1.29.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

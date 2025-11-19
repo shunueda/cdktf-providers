@@ -1,3 +1,3 @@
 # `data_env0_agents`
 
-Refer to the Terraform Registry for docs: [`data_env0_agents`](https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/agents).
+Refer to the Terraform Registry for docs: [`data_env0_agents`](https://registry.terraform.io/providers/env0/env0/1.29.7/docs/data-sources/agents).

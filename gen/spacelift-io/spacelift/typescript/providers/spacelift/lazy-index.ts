@@ -70,6 +70,7 @@ Object.defineProperty(exports, 'dataSpaceliftGitlabIntegration', { get: function
 Object.defineProperty(exports, 'dataSpaceliftGitlabWebhookEndpoint', { get: function () { return require('./data-spacelift-gitlab-webhook-endpoint'); } });
 Object.defineProperty(exports, 'dataSpaceliftIps', { get: function () { return require('./data-spacelift-ips'); } });
 Object.defineProperty(exports, 'dataSpaceliftModule', { get: function () { return require('./data-spacelift-module'); } });
+Object.defineProperty(exports, 'dataSpaceliftModules', { get: function () { return require('./data-spacelift-modules'); } });
 Object.defineProperty(exports, 'dataSpaceliftMountedFile', { get: function () { return require('./data-spacelift-mounted-file'); } });
 Object.defineProperty(exports, 'dataSpaceliftNamedWebhook', { get: function () { return require('./data-spacelift-named-webhook'); } });
 Object.defineProperty(exports, 'dataSpaceliftPolicies', { get: function () { return require('./data-spacelift-policies'); } });
