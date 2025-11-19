@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#___path___ InterfaceWirelessConnectList#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#___path___ InterfaceWirelessConnectList#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#___ts___ InterfaceWirelessConnectList#___ts___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#___ts___ InterfaceWirelessConnectList#___ts___}
   */
   readonly ts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#allow_signal_out_of_range InterfaceWirelessConnectList#allow_signal_out_of_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#allow_signal_out_of_range InterfaceWirelessConnectList#allow_signal_out_of_range}
   */
   readonly allowSignalOutOfRange?: string;
   /**
   * Rule matches if area value of AP (a proprietary extension) begins with specified value.area value is a proprietary extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#area_prefix InterfaceWirelessConnectList#area_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#area_prefix InterfaceWirelessConnectList#area_prefix}
   */
   readonly areaPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#comment InterfaceWirelessConnectList#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#comment InterfaceWirelessConnectList#comment}
   */
   readonly comment?: string;
   /**
   * Available options: yes - Connect to access point that matches this rule. no - Do not connect to any access point that matches this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#connect InterfaceWirelessConnectList#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#connect InterfaceWirelessConnectList#connect}
   */
   readonly connect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#disabled InterfaceWirelessConnectList#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#disabled InterfaceWirelessConnectList#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#id InterfaceWirelessConnectList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#id InterfaceWirelessConnectList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,23 +53,23 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#interface InterfaceWirelessConnectList#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#interface InterfaceWirelessConnectList#interface}
   */
   readonly interface: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#interworking InterfaceWirelessConnectList#interworking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#interworking InterfaceWirelessConnectList#interworking}
   */
   readonly interworking?: string;
   /**
   * Additional Steps Required for Access. Set to yes, if a user should take additional steps to access the internet, like the walled garden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_asra InterfaceWirelessConnectList#iw_asra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_asra InterfaceWirelessConnectList#iw_asra}
   */
   readonly iwAsra?: string;
   /**
   * This property is only effective when `asra` is set to `yes`. Value of `url` is optional and not needed if `dns-redirection` or `online-enrollment` is selected. To set the value of `url` to empty string use double quotes. For example: `authentication-types=online-enrollment:""`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_authentication_types InterfaceWirelessConnectList#iw_authentication_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_authentication_types InterfaceWirelessConnectList#iw_authentication_types}
   */
   readonly iwAuthenticationTypes?: string;
   /**
@@ -80,25 +80,25 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   * 
   * Example: `connection-capabilities=6:80:open,17:5060:closed`Setting such a value on an Access Point informs the Wireless client, which is connecting to the Access Point, that HTTP (6 - TCP, 80 - HTTP) is allowed and VoIP (17 - UDP; 5060 - VoIP) is not allowed. This property does not restrict or allow usage of these protocols and ports, it only gives information to station device which is connecting to Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_connection_capabilities InterfaceWirelessConnectList#iw_connection_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_connection_capabilities InterfaceWirelessConnectList#iw_connection_capabilities}
   */
   readonly iwConnectionCapabilities?: string;
   /**
   * Emergency services reachable (ESR). Set to yes in order to indicate that emergency services are reachable through the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_esr InterfaceWirelessConnectList#iw_esr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_esr InterfaceWirelessConnectList#iw_esr}
   */
   readonly iwEsr?: string;
   /**
   * Homogenous extended service set identifier (HESSID). Devices that provide access to same external networks are in one homogenous extended service set. This service set can be identified by HESSID that is the same on all access points in this set. 6-byte value of HESSID is represented as MAC address. It should be globally unique, therefore it is advised to use one of the MAC address of access point in the service set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_hessid InterfaceWirelessConnectList#iw_hessid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_hessid InterfaceWirelessConnectList#iw_hessid}
   */
   readonly iwHessid?: string;
   /**
   * Indicate Hotspot 2.0 capability of the Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_hotspot20 InterfaceWirelessConnectList#iw_hotspot20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_hotspot20 InterfaceWirelessConnectList#iw_hotspot20}
   */
   readonly iwHotspot20?: string;
   /**
@@ -107,13 +107,13 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   *   * no - multicast and broadcast frames to clients are disabled.
   * To disable multicast and broadcast frames set `multicast-helper=full`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_hotspot20_dgaf InterfaceWirelessConnectList#iw_hotspot20_dgaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_hotspot20_dgaf InterfaceWirelessConnectList#iw_hotspot20_dgaf}
   */
   readonly iwHotspot20Dgaf?: string;
   /**
   * Whether the internet is available through this connection or not. This information is included in the Interworking element.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_internet InterfaceWirelessConnectList#iw_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_internet InterfaceWirelessConnectList#iw_internet}
   */
   readonly iwInternet?: string;
   /**
@@ -127,7 +127,7 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   *   * port-restricted-double-nated - port-restricted IPv4 address and double NATed IPv4 address available;
   *   * unknown - availability of the address type is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_ipv4_availability InterfaceWirelessConnectList#iw_ipv4_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_ipv4_availability InterfaceWirelessConnectList#iw_ipv4_availability}
   */
   readonly iwIpv4Availability?: string;
   /**
@@ -136,7 +136,7 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   *   * available - address type available;
   *   * unknown - availability of the address type is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_ipv6_availability InterfaceWirelessConnectList#iw_ipv6_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_ipv6_availability InterfaceWirelessConnectList#iw_ipv6_availability}
   */
   readonly iwIpv6Availability?: string;
   /**
@@ -152,19 +152,19 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   * 
   * A client sends a probe request frame with network-type set to value it is interested in. It will receive replies only from access points with the same value (except the case of wildcard).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_network_type InterfaceWirelessConnectList#iw_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_network_type InterfaceWirelessConnectList#iw_network_type}
   */
   readonly iwNetworkType?: string;
   /**
   * Information about supported realms and the corresponding EAP method. `realms=example.com:eap-tls,foo.ba:not-specified`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_realms InterfaceWirelessConnectList#iw_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_realms InterfaceWirelessConnectList#iw_realms}
   */
   readonly iwRealms?: string;
   /**
   * Organization identifier (OI) usually are 24-bit is unique identifiers like organizationally unique identifier (OUI) or company identifier (CID). In some cases, OI is longer for example OUI-36.A subscription service provider (SSP) can be specified by its OI. roaming-ois property can contain zero or more SSPs OIs whose networks are accessible via this AP. Length of OI should be specified before OI itself. For example, to set E4-8D-8C and 6C-3B-6B: `roaming-ois=03E48D8C036C3B6B`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_roaming_ois InterfaceWirelessConnectList#iw_roaming_ois}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_roaming_ois InterfaceWirelessConnectList#iw_roaming_ois}
   */
   readonly iwRoamingOis?: string;
   /**
@@ -172,7 +172,7 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   *   * no - indicates that no unauthenticated emergency services are reachable through this Access Point;
   *   * yes - indicates that higher layer unauthenticated emergency services are reachable through this Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_uesa InterfaceWirelessConnectList#iw_uesa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_uesa InterfaceWirelessConnectList#iw_uesa}
   */
   readonly iwUesa?: string;
   /**
@@ -183,45 +183,45 @@ export interface InterfaceWirelessConnectListConfig extends cdktf.TerraformMetaA
   *   venue=educational-university-or-college
   *    ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#iw_venue InterfaceWirelessConnectList#iw_venue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#iw_venue InterfaceWirelessConnectList#iw_venue}
   */
   readonly iwVenue?: string;
   /**
   * Rule matches only AP with the specified MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#mac_address InterfaceWirelessConnectList#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#mac_address InterfaceWirelessConnectList#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Name of security profile that is used when connecting to matching access points, If value of this property is none, then security profile specified in the interface configuration will be used. In station mode, rule will match only access points that can support specified security profile. Value none will match access point that supports security profile that is specified in the interface configuration. In access point mode value of this property will not be used to match remote devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#security_profile InterfaceWirelessConnectList#security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#security_profile InterfaceWirelessConnectList#security_profile}
   */
   readonly securityProfile?: string;
   /**
   * Rule matches if signal strength of the access point is within the range. If station establishes connection to access point that is matched by this rule, it will disconnect from that access point when signal strength goes out of the specified range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#signal_range InterfaceWirelessConnectList#signal_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#signal_range InterfaceWirelessConnectList#signal_range}
   */
   readonly signalRange?: string;
   /**
   * Rule matches access points that have this SSID. Empty value matches any SSID. This property has effect only when station mode interface ssid is empty, or when access point mode interface has wds-ignore-ssid=yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#ssid InterfaceWirelessConnectList#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#ssid InterfaceWirelessConnectList#ssid}
   */
   readonly ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#three_gpp InterfaceWirelessConnectList#three_gpp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#three_gpp InterfaceWirelessConnectList#three_gpp}
   */
   readonly threeGpp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#wireless_protocol InterfaceWirelessConnectList#wireless_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#wireless_protocol InterfaceWirelessConnectList#wireless_protocol}
   */
   readonly wirelessProtocol?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list routeros_interface_wireless_connect_list}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list routeros_interface_wireless_connect_list}
 */
 export class InterfaceWirelessConnectList extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class InterfaceWirelessConnectList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceWirelessConnectList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceWirelessConnectList to import
-  * @param importFromId The id of the existing InterfaceWirelessConnectList that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceWirelessConnectList that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceWirelessConnectList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class InterfaceWirelessConnectList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_wireless_connect_list routeros_interface_wireless_connect_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_wireless_connect_list routeros_interface_wireless_connect_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class InterfaceWirelessConnectList extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_wireless_connect_list',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

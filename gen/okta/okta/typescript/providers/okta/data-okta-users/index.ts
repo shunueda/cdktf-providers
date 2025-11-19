@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataOktaUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Search operator used when joining multiple search clauses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#compound_search_operator DataOktaUsers#compound_search_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#compound_search_operator DataOktaUsers#compound_search_operator}
   */
   readonly compoundSearchOperator?: string;
   /**
   * Force delay of the users read by N seconds. Useful when eventual consistency of users information needs to be allowed for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#delay_read_seconds DataOktaUsers#delay_read_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#delay_read_seconds DataOktaUsers#delay_read_seconds}
   */
   readonly delayReadSeconds?: string;
   /**
   * Find users based on group membership using the id of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#group_id DataOktaUsers#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#group_id DataOktaUsers#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#id DataOktaUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#id DataOktaUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataOktaUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fetch group memberships for each user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#include_groups DataOktaUsers#include_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#include_groups DataOktaUsers#include_groups}
   */
   readonly includeGroups?: boolean | cdktf.IResolvable;
   /**
   * Fetch user roles for each user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#include_roles DataOktaUsers#include_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#include_roles DataOktaUsers#include_roles}
   */
   readonly includeRoles?: boolean | cdktf.IResolvable;
   /**
   * search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#search DataOktaUsers#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#search DataOktaUsers#search}
   */
   readonly search?: DataOktaUsersSearch[] | cdktf.IResolvable;
 }
@@ -308,23 +308,23 @@ export class DataOktaUsersUsersList extends cdktf.ComplexList {
 }
 export interface DataOktaUsersSearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#comparison DataOktaUsers#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#comparison DataOktaUsers#comparison}
   */
   readonly comparison?: string;
   /**
   * A raw search expression string. This requires the search feature be on. Please see Okta documentation on their filter API for users. https://developer.okta.com/docs/api/resources/users#list-users-with-search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#expression DataOktaUsers#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#expression DataOktaUsers#expression}
   */
   readonly expression?: string;
   /**
   * Property name to search for. This requires the search feature be on. Please see Okta documentation on their filter API for users. https://developer.okta.com/docs/api/resources/users#list-users-with-search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#name DataOktaUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#name DataOktaUsers#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#value DataOktaUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#value DataOktaUsers#value}
   */
   readonly value?: string;
 }
@@ -527,7 +527,7 @@ export class DataOktaUsersSearchList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users okta_users}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users okta_users}
 */
 export class DataOktaUsers extends cdktf.TerraformDataSource {
 
@@ -543,7 +543,7 @@ export class DataOktaUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaUsers to import
-  * @param importFromId The id of the existing DataOktaUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -555,7 +555,7 @@ export class DataOktaUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/users okta_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/users okta_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -566,8 +566,8 @@ export class DataOktaUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_users',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

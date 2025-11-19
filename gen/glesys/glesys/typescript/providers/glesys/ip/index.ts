@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IpConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#address Ip#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#address Ip#address}
   */
   readonly address?: string;
   /**
   * IP Datacenter association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#datacenter Ip#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#datacenter Ip#datacenter}
   */
   readonly datacenter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#id Ip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#id Ip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface IpConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP Associated platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#platform Ip#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#platform Ip#platform}
   */
   readonly platform?: string;
   /**
   * IP PTR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#ptr Ip#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#ptr Ip#ptr}
   */
   readonly ptr?: string;
   /**
   * IP version 4/6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#version Ip#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#version Ip#version}
   */
   readonly version?: number;
 }
@@ -132,7 +132,7 @@ export class IpCostList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip glesys_ip}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip glesys_ip}
 */
 export class Ip extends cdktf.TerraformResource {
 
@@ -148,7 +148,7 @@ export class Ip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ip to import
-  * @param importFromId The id of the existing Ip that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ip that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class Ip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/ip glesys_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/ip glesys_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class Ip extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_ip',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

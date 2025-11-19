@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior
+// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface BehaviorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Behavior type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#behavior Behavior#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#behavior Behavior#behavior}
   */
   readonly behavior: string;
   /**
   * Description for this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#description Behavior#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#description Behavior#description}
   */
   readonly description?: string;
   /**
   * If true, the parent folder's behavior will be disabled for this folder and its children.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#disable_parent_folder_behavior Behavior#disable_parent_folder_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#disable_parent_folder_behavior Behavior#disable_parent_folder_behavior}
   */
   readonly disableParentFolderBehavior?: boolean | cdktf.IResolvable;
   /**
   * Name for this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#name Behavior#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#name Behavior#name}
   */
   readonly name?: string;
   /**
   * Folder path.  Note that Behavior paths cannot be updated once initially set.  You will need to remove and re-create the behavior on the new path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#path Behavior#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#path Behavior#path}
   */
   readonly path: string;
   /**
   * Is behavior recursive?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#recursive Behavior#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#recursive Behavior#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
   * Settings for this behavior.  See the section above for an example value to provide here.  Formatting is different for each Behavior type.  May be sent as nested JSON or a single JSON-encoded string.  If using XML encoding for the API call, this data must be sent as a JSON-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#value Behavior#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#value Behavior#value}
   */
   readonly value?: { [key: string]: any };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior files_behavior}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior files_behavior}
 */
 export class Behavior extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Behavior extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Behavior resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Behavior to import
-  * @param importFromId The id of the existing Behavior that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Behavior that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Behavior to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Behavior extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/behavior files_behavior} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/behavior files_behavior} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Behavior extends cdktf.TerraformResource {
       terraformResourceType: 'files_behavior',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.383',
-        providerVersionConstraint: '0.1.383'
+        providerVersion: '0.1.388',
+        providerVersionConstraint: '0.1.388'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

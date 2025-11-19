@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MobileAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#id MobileAppAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#id MobileAppAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface MobileAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (DEVICE_APPLICATION_METHOD, MOBILE_APPLICATION). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#scope MobileAppAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#scope MobileAppAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * error_rate_increase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#error_rate_increase MobileAppAnomalies#error_rate_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#error_rate_increase MobileAppAnomalies#error_rate_increase}
   */
   readonly errorRateIncrease: MobileAppAnomaliesErrorRateIncrease;
   /**
   * slow_user_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#slow_user_actions MobileAppAnomalies#slow_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#slow_user_actions MobileAppAnomalies#slow_user_actions}
   */
   readonly slowUserActions: MobileAppAnomaliesSlowUserActions;
   /**
   * unexpected_high_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#unexpected_high_load MobileAppAnomalies#unexpected_high_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#unexpected_high_load MobileAppAnomalies#unexpected_high_load}
   */
   readonly unexpectedHighLoad: MobileAppAnomaliesUnexpectedHighLoad;
   /**
   * unexpected_low_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#unexpected_low_load MobileAppAnomalies#unexpected_low_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#unexpected_low_load MobileAppAnomalies#unexpected_low_load}
   */
   readonly unexpectedLowLoad: MobileAppAnomaliesUnexpectedLowLoad;
 }
@@ -49,13 +49,13 @@ export interface MobileAppAnomaliesErrorRateIncreaseErrorRateIncreaseAuto {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#threshold_absolute MobileAppAnomalies#threshold_absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#threshold_absolute MobileAppAnomalies#threshold_absolute}
   */
   readonly thresholdAbsolute: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#threshold_relative MobileAppAnomalies#threshold_relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#threshold_relative MobileAppAnomalies#threshold_relative}
   */
   readonly thresholdRelative: number;
 }
@@ -164,13 +164,13 @@ export interface MobileAppAnomaliesErrorRateIncreaseErrorRateIncreaseFixed {
   /**
   * Possible Values: `Low`, `Medium`, `High`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#sensitivity MobileAppAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#sensitivity MobileAppAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#threshold_absolute MobileAppAnomalies#threshold_absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#threshold_absolute MobileAppAnomalies#threshold_absolute}
   */
   readonly thresholdAbsolute: number;
 }
@@ -279,25 +279,25 @@ export interface MobileAppAnomaliesErrorRateIncrease {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#detection_mode MobileAppAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#detection_mode MobileAppAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * error_rate_increase_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#error_rate_increase_auto MobileAppAnomalies#error_rate_increase_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#error_rate_increase_auto MobileAppAnomalies#error_rate_increase_auto}
   */
   readonly errorRateIncreaseAuto?: MobileAppAnomaliesErrorRateIncreaseErrorRateIncreaseAuto;
   /**
   * error_rate_increase_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#error_rate_increase_fixed MobileAppAnomalies#error_rate_increase_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#error_rate_increase_fixed MobileAppAnomalies#error_rate_increase_fixed}
   */
   readonly errorRateIncreaseFixed?: MobileAppAnomaliesErrorRateIncreaseErrorRateIncreaseFixed;
 }
@@ -467,7 +467,7 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationAvo
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#min_action_rate MobileAppAnomalies#min_action_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#min_action_rate MobileAppAnomalies#min_action_rate}
   */
   readonly minActionRate: number;
 }
@@ -550,13 +550,13 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThr
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#slowdown_percentage MobileAppAnomalies#slowdown_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#slowdown_percentage MobileAppAnomalies#slowdown_percentage}
   */
   readonly slowdownPercentage: number;
 }
@@ -665,13 +665,13 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThr
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#slowdown_percentage MobileAppAnomalies#slowdown_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#slowdown_percentage MobileAppAnomalies#slowdown_percentage}
   */
   readonly slowdownPercentage: number;
 }
@@ -780,19 +780,19 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsAuto {
   /**
   * duration_avoid_overalerting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_avoid_overalerting MobileAppAnomalies#duration_avoid_overalerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_avoid_overalerting MobileAppAnomalies#duration_avoid_overalerting}
   */
   readonly durationAvoidOveralerting: MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationAvoidOveralerting;
   /**
   * duration_threshold_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold_all MobileAppAnomalies#duration_threshold_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold_all MobileAppAnomalies#duration_threshold_all}
   */
   readonly durationThresholdAll: MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThresholdAll;
   /**
   * duration_threshold_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold_slowest MobileAppAnomalies#duration_threshold_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold_slowest MobileAppAnomalies#duration_threshold_slowest}
   */
   readonly durationThresholdSlowest: MobileAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThresholdSlowest;
 }
@@ -927,7 +927,7 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationAv
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#min_action_rate MobileAppAnomalies#min_action_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#min_action_rate MobileAppAnomalies#min_action_rate}
   */
   readonly minActionRate: number;
 }
@@ -1010,7 +1010,7 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationTh
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
 }
@@ -1093,7 +1093,7 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationTh
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold MobileAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
 }
@@ -1176,25 +1176,25 @@ export interface MobileAppAnomaliesSlowUserActionsSlowUserActionsFixed {
   /**
   * Possible Values: `Low`, `Medium`, `High`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#sensitivity MobileAppAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#sensitivity MobileAppAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * duration_avoid_overalerting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_avoid_overalerting MobileAppAnomalies#duration_avoid_overalerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_avoid_overalerting MobileAppAnomalies#duration_avoid_overalerting}
   */
   readonly durationAvoidOveralerting: MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationAvoidOveralerting;
   /**
   * duration_threshold_all_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold_all_fixed MobileAppAnomalies#duration_threshold_all_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold_all_fixed MobileAppAnomalies#duration_threshold_all_fixed}
   */
   readonly durationThresholdAllFixed: MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationThresholdAllFixed;
   /**
   * duration_threshold_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#duration_threshold_slowest MobileAppAnomalies#duration_threshold_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#duration_threshold_slowest MobileAppAnomalies#duration_threshold_slowest}
   */
   readonly durationThresholdSlowest: MobileAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationThresholdSlowest;
 }
@@ -1355,25 +1355,25 @@ export interface MobileAppAnomaliesSlowUserActions {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#detection_mode MobileAppAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#detection_mode MobileAppAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * slow_user_actions_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#slow_user_actions_auto MobileAppAnomalies#slow_user_actions_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#slow_user_actions_auto MobileAppAnomalies#slow_user_actions_auto}
   */
   readonly slowUserActionsAuto?: MobileAppAnomaliesSlowUserActionsSlowUserActionsAuto;
   /**
   * slow_user_actions_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#slow_user_actions_fixed MobileAppAnomalies#slow_user_actions_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#slow_user_actions_fixed MobileAppAnomalies#slow_user_actions_fixed}
   */
   readonly slowUserActionsFixed?: MobileAppAnomaliesSlowUserActionsSlowUserActionsFixed;
 }
@@ -1543,13 +1543,13 @@ export interface MobileAppAnomaliesUnexpectedHighLoad {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Dynatrace learns your typical application traffic over an observation period of one week. Depending on this expected value Dynatrace detects abnormal traffic spikes within your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#threshold_percentage MobileAppAnomalies#threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#threshold_percentage MobileAppAnomalies#threshold_percentage}
   */
   readonly thresholdPercentage?: number;
 }
@@ -1661,13 +1661,13 @@ export interface MobileAppAnomaliesUnexpectedLowLoad {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#enabled MobileAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Dynatrace learns your typical application traffic over an observation period of one week. Depending on this expected value Dynatrace detects abnormal traffic drops within your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#threshold_percentage MobileAppAnomalies#threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#threshold_percentage MobileAppAnomalies#threshold_percentage}
   */
   readonly thresholdPercentage?: number;
 }
@@ -1777,7 +1777,7 @@ export class MobileAppAnomaliesUnexpectedLowLoadOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies dynatrace_mobile_app_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies dynatrace_mobile_app_anomalies}
 */
 export class MobileAppAnomalies extends cdktf.TerraformResource {
 
@@ -1793,7 +1793,7 @@ export class MobileAppAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MobileAppAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MobileAppAnomalies to import
-  * @param importFromId The id of the existing MobileAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MobileAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MobileAppAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1805,7 +1805,7 @@ export class MobileAppAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_anomalies dynatrace_mobile_app_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_anomalies dynatrace_mobile_app_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1816,8 +1816,8 @@ export class MobileAppAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mobile_app_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

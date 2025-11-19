@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LogSensitiveDataMaskingConfig extends cdktf.TerraformMetaArgume
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#enabled LogSensitiveDataMasking#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#enabled LogSensitiveDataMasking#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#id LogSensitiveDataMasking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#id LogSensitiveDataMasking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface LogSensitiveDataMaskingConfig extends cdktf.TerraformMetaArgume
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#insert_after LogSensitiveDataMasking#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#insert_after LogSensitiveDataMasking#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#name LogSensitiveDataMasking#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#name LogSensitiveDataMasking#name}
   */
   readonly name: string;
   /**
   * The scope of this setting (HOST, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#scope LogSensitiveDataMasking#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#scope LogSensitiveDataMasking#scope}
   */
   readonly scope?: string;
   /**
   * masking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#masking LogSensitiveDataMasking#masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#masking LogSensitiveDataMasking#masking}
   */
   readonly masking: LogSensitiveDataMaskingMasking;
   /**
   * matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#matchers LogSensitiveDataMasking#matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#matchers LogSensitiveDataMasking#matchers}
   */
   readonly matchers?: LogSensitiveDataMaskingMatchers;
 }
@@ -55,19 +55,19 @@ export interface LogSensitiveDataMaskingMasking {
   /**
   * Maximum one capture group is allowed. If none was given, the whole expression will be treated as a capture group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#expression LogSensitiveDataMasking#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#expression LogSensitiveDataMasking#expression}
   */
   readonly expression: string;
   /**
   * The string to replace the masked expression with. Irrelevant if `type` is `SHA1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#replacement LogSensitiveDataMasking#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#replacement LogSensitiveDataMasking#replacement}
   */
   readonly replacement?: string;
   /**
   * Possible Values: `SHA1`, `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#type LogSensitiveDataMasking#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#type LogSensitiveDataMasking#type}
   */
   readonly type: string;
 }
@@ -205,19 +205,19 @@ export interface LogSensitiveDataMaskingMatchersMatcher {
   /**
   * Possible Values: `Container_name`, `Dt_entity_container_group`, `Dt_entity_process_group`, `Host_tag`, `K8s_container_name`, `K8s_deployment_name`, `K8s_namespace_name`, `K8s_pod_annotation`, `K8s_pod_label`, `K8s_workload_kind`, `K8s_workload_name`, `Log_source`, `Log_source_origin`, `Process_technology`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#attribute LogSensitiveDataMasking#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#attribute LogSensitiveDataMasking#attribute}
   */
   readonly attribute: string;
   /**
   * Possible Values: `MATCHES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#operator LogSensitiveDataMasking#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#operator LogSensitiveDataMasking#operator}
   */
   readonly operator: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#values LogSensitiveDataMasking#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#values LogSensitiveDataMasking#values}
   */
   readonly values: string[];
 }
@@ -384,7 +384,7 @@ export interface LogSensitiveDataMaskingMatchers {
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#matcher LogSensitiveDataMasking#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#matcher LogSensitiveDataMasking#matcher}
   */
   readonly matcher: LogSensitiveDataMaskingMatchersMatcher[] | cdktf.IResolvable;
 }
@@ -465,7 +465,7 @@ export class LogSensitiveDataMaskingMatchersOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking dynatrace_log_sensitive_data_masking}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking dynatrace_log_sensitive_data_masking}
 */
 export class LogSensitiveDataMasking extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class LogSensitiveDataMasking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogSensitiveDataMasking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogSensitiveDataMasking to import
-  * @param importFromId The id of the existing LogSensitiveDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogSensitiveDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogSensitiveDataMasking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class LogSensitiveDataMasking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_sensitive_data_masking dynatrace_log_sensitive_data_masking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_sensitive_data_masking dynatrace_log_sensitive_data_masking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class LogSensitiveDataMasking extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_sensitive_data_masking',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

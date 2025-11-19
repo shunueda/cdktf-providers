@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FirewallBypassConfig extends cdktf.TerraformMetaArguments {
   /**
   * The domain to configure the bypass rule for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#domain FirewallBypass#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#domain FirewallBypass#domain}
   */
   readonly domain: string;
   /**
   * A note to describe the bypass rule. Maximum length is 500 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#note FirewallBypass#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#note FirewallBypass#note}
   */
   readonly note?: string;
   /**
   * The ID of the Project to assign the bypass rule to 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#project_id FirewallBypass#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#project_id FirewallBypass#project_id}
   */
   readonly projectId: string;
   /**
   * The source IP address to configure the bypass rule for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#source_ip FirewallBypass#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#source_ip FirewallBypass#source_ip}
   */
   readonly sourceIp: string;
   /**
   * The ID of the team the Project exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#team_id FirewallBypass#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#team_id FirewallBypass#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass vercel_firewall_bypass}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass vercel_firewall_bypass}
 */
 export class FirewallBypass extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class FirewallBypass extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallBypass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallBypass to import
-  * @param importFromId The id of the existing FirewallBypass that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallBypass that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallBypass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class FirewallBypass extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/firewall_bypass vercel_firewall_bypass} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/firewall_bypass vercel_firewall_bypass} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class FirewallBypass extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_firewall_bypass',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InfraopsAppFeatureFlagsConfig extends cdktf.TerraformMetaArgume
   /**
   * State of boolean feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#boolean_value InfraopsAppFeatureFlags#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#boolean_value InfraopsAppFeatureFlags#boolean_value}
   */
   readonly booleanValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#id InfraopsAppFeatureFlags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#id InfraopsAppFeatureFlags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface InfraopsAppFeatureFlagsConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#name InfraopsAppFeatureFlags#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#name InfraopsAppFeatureFlags#name}
   */
   readonly name: string;
   /**
   * State of numeric feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#number_value InfraopsAppFeatureFlags#number_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#number_value InfraopsAppFeatureFlags#number_value}
   */
   readonly numberValue?: number;
   /**
   * State of textual feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#string_value InfraopsAppFeatureFlags#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#string_value InfraopsAppFeatureFlags#string_value}
   */
   readonly stringValue?: string;
   /**
   * Possible Values: `Boolean`, `Number`, `String`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#type InfraopsAppFeatureFlags#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#type InfraopsAppFeatureFlags#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags dynatrace_infraops_app_feature_flags}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags dynatrace_infraops_app_feature_flags}
 */
 export class InfraopsAppFeatureFlags extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class InfraopsAppFeatureFlags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfraopsAppFeatureFlags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfraopsAppFeatureFlags to import
-  * @param importFromId The id of the existing InfraopsAppFeatureFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfraopsAppFeatureFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfraopsAppFeatureFlags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class InfraopsAppFeatureFlags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/infraops_app_feature_flags dynatrace_infraops_app_feature_flags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_feature_flags dynatrace_infraops_app_feature_flags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class InfraopsAppFeatureFlags extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_infraops_app_feature_flags',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

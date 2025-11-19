@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SessionReplayResourceCaptureConfig extends cdktf.TerraformMetaA
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture#application_id SessionReplayResourceCapture#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture#application_id SessionReplayResourceCapture#application_id}
   */
   readonly applicationId?: string;
   /**
   * (Field has overlap with `dynatrace_web_application`) When turned on, Dynatrace captures resources for up to 0.1% of user sessions recorded with Session Replay. For details, see [Resource capture](https://dt-url.net/sr-resource-capturing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture#enable_resource_capturing SessionReplayResourceCapture#enable_resource_capturing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture#enable_resource_capturing SessionReplayResourceCapture#enable_resource_capturing}
   */
   readonly enableResourceCapturing: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture#id SessionReplayResourceCapture#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture#id SessionReplayResourceCapture#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface SessionReplayResourceCaptureConfig extends cdktf.TerraformMetaA
   /**
   * (Field has overlap with `dynatrace_web_application`) Add exclusion rules to avoid the capture of resources from certain pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture#resource_capture_url_exclusion_pattern_list SessionReplayResourceCapture#resource_capture_url_exclusion_pattern_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture#resource_capture_url_exclusion_pattern_list SessionReplayResourceCapture#resource_capture_url_exclusion_pattern_list}
   */
   readonly resourceCaptureUrlExclusionPatternList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture dynatrace_session_replay_resource_capture}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture dynatrace_session_replay_resource_capture}
 */
 export class SessionReplayResourceCapture extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SessionReplayResourceCapture extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SessionReplayResourceCapture resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SessionReplayResourceCapture to import
-  * @param importFromId The id of the existing SessionReplayResourceCapture that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SessionReplayResourceCapture that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SessionReplayResourceCapture to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SessionReplayResourceCapture extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_resource_capture dynatrace_session_replay_resource_capture} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_resource_capture dynatrace_session_replay_resource_capture} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SessionReplayResourceCapture extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_session_replay_resource_capture',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

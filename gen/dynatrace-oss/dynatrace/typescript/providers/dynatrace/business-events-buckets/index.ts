@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BusinessEventsBucketsConfig extends cdktf.TerraformMetaArgument
   /**
   * Events will be stored in the selected bucket. Analyze bucket contents in the [log & event viewer.](/ui/logs-events?advancedQueryMode=true&query=fetch+bizevents)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#bucket_name BusinessEventsBuckets#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#bucket_name BusinessEventsBuckets#bucket_name}
   */
   readonly bucketName: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#enabled BusinessEventsBuckets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#enabled BusinessEventsBuckets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#id BusinessEventsBuckets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#id BusinessEventsBuckets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface BusinessEventsBucketsConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#insert_after BusinessEventsBuckets#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#insert_after BusinessEventsBuckets#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#matcher BusinessEventsBuckets#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#matcher BusinessEventsBuckets#matcher}
   */
   readonly matcher: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#rule_name BusinessEventsBuckets#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#rule_name BusinessEventsBuckets#rule_name}
   */
   readonly ruleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets dynatrace_business_events_buckets}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets dynatrace_business_events_buckets}
 */
 export class BusinessEventsBuckets extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class BusinessEventsBuckets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessEventsBuckets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessEventsBuckets to import
-  * @param importFromId The id of the existing BusinessEventsBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessEventsBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessEventsBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class BusinessEventsBuckets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_buckets dynatrace_business_events_buckets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_buckets dynatrace_business_events_buckets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class BusinessEventsBuckets extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_business_events_buckets',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

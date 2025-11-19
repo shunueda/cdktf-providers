@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AppGroupAssignmentsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the application to assign a group to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#app_id AppGroupAssignments#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#app_id AppGroupAssignments#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#id AppGroupAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#id AppGroupAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface AppGroupAssignmentsConfig extends cdktf.TerraformMetaArguments 
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#group AppGroupAssignments#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#group AppGroupAssignments#group}
   */
   readonly group?: AppGroupAssignmentsGroup[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#timeouts AppGroupAssignments#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#timeouts AppGroupAssignments#timeouts}
   */
   readonly timeouts?: AppGroupAssignmentsTimeouts;
 }
@@ -37,7 +37,7 @@ export interface AppGroupAssignmentsGroup {
   /**
   * A group to associate with the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#id AppGroupAssignments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#id AppGroupAssignments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface AppGroupAssignmentsGroup {
   /**
   * Priority of group assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#priority AppGroupAssignments#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#priority AppGroupAssignments#priority}
   */
   readonly priority?: number;
   /**
   * JSON document containing [application profile](https://developer.okta.com/docs/reference/api/apps/#profile-object)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#profile AppGroupAssignments#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#profile AppGroupAssignments#profile}
   */
   readonly profile?: string;
 }
@@ -223,15 +223,15 @@ export class AppGroupAssignmentsGroupList extends cdktf.ComplexList {
 }
 export interface AppGroupAssignmentsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#create AppGroupAssignments#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#create AppGroupAssignments#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#read AppGroupAssignments#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#read AppGroupAssignments#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#update AppGroupAssignments#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#update AppGroupAssignments#update}
   */
   readonly update?: string;
 }
@@ -383,7 +383,7 @@ export class AppGroupAssignmentsTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments okta_app_group_assignments}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments okta_app_group_assignments}
 */
 export class AppGroupAssignments extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class AppGroupAssignments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppGroupAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppGroupAssignments to import
-  * @param importFromId The id of the existing AppGroupAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppGroupAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppGroupAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class AppGroupAssignments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/app_group_assignments okta_app_group_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/app_group_assignments okta_app_group_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class AppGroupAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_group_assignments',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

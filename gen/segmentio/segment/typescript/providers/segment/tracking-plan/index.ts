@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface TrackingPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Tracking Plan's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#description TrackingPlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#description TrackingPlan#description}
   */
   readonly description?: string;
   /**
   * The Tracking Plan's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#name TrackingPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#name TrackingPlan#name}
   */
   readonly name: string;
   /**
@@ -27,13 +27,13 @@ export interface TrackingPlanConfig extends cdktf.TerraformMetaArguments {
   * 
   * This field is currently limited to 200 items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#rules TrackingPlan#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#rules TrackingPlan#rules}
   */
   readonly rules: TrackingPlanRules[] | cdktf.IResolvable;
   /**
   * The Tracking Plan's type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#type TrackingPlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#type TrackingPlan#type}
   */
   readonly type: string;
 }
@@ -41,13 +41,13 @@ export interface TrackingPlanRules {
   /**
   * JSON Schema of this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#json_schema TrackingPlan#json_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#json_schema TrackingPlan#json_schema}
   */
   readonly jsonSchema: string;
   /**
   * Key to this rule (free-form string like 'Button clicked').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#key TrackingPlan#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#key TrackingPlan#key}
   */
   readonly key?: string;
   /**
@@ -55,13 +55,13 @@ export interface TrackingPlanRules {
   * 
   * 							Enum: "COMMON" "GROUP" "IDENTIFY" "PAGE" "SCREEN" "TRACK"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#type TrackingPlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#type TrackingPlan#type}
   */
   readonly type: string;
   /**
   * Version of this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#version TrackingPlan#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#version TrackingPlan#version}
   */
   readonly version: number;
 }
@@ -255,7 +255,7 @@ export class TrackingPlanRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan segment_tracking_plan}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan segment_tracking_plan}
 */
 export class TrackingPlan extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class TrackingPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrackingPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrackingPlan to import
-  * @param importFromId The id of the existing TrackingPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrackingPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrackingPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class TrackingPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/tracking_plan segment_tracking_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/tracking_plan segment_tracking_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class TrackingPlan extends cdktf.TerraformResource {
       terraformResourceType: 'segment_tracking_plan',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

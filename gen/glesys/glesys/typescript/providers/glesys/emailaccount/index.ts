@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EmailaccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email Account antispam level. `0-5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#antispamlevel Emailaccount#antispamlevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#antispamlevel Emailaccount#antispamlevel}
   */
   readonly antispamlevel?: number;
   /**
   * Email Account enable Antivirus. `yes/no`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#antivirus Emailaccount#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#antivirus Emailaccount#antivirus}
   */
   readonly antivirus?: string;
   /**
   * Email Account Autoresponse. `yes/no`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#autorespond Emailaccount#autorespond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#autorespond Emailaccount#autorespond}
   */
   readonly autorespond?: string;
   /**
   * Email Account Autoresponse message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#autorespondmessage Emailaccount#autorespondmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#autorespondmessage Emailaccount#autorespondmessage}
   */
   readonly autorespondmessage?: string;
   /**
   * Email account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#emailaccount Emailaccount#emailaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#emailaccount Emailaccount#emailaccount}
   */
   readonly emailaccount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#id Emailaccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#id Emailaccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,19 @@ export interface EmailaccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email Account Quota (GiB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#quotaingib Emailaccount#quotaingib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#quotaingib Emailaccount#quotaingib}
   */
   readonly quotaingib?: number;
   /**
   * Email Account Reject spam setting. `yes/no`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#rejectspam Emailaccount#rejectspam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#rejectspam Emailaccount#rejectspam}
   */
   readonly rejectspam?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount glesys_emailaccount}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount glesys_emailaccount}
 */
 export class Emailaccount extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Emailaccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Emailaccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Emailaccount to import
-  * @param importFromId The id of the existing Emailaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Emailaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Emailaccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Emailaccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/emailaccount glesys_emailaccount} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/emailaccount glesys_emailaccount} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Emailaccount extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_emailaccount',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

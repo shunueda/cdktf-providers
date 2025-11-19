@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RoutingTableRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#destination RoutingTableRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#destination RoutingTableRoute#destination}
   */
   readonly destination: RoutingTableRouteDestination;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#labels RoutingTableRoute#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#labels RoutingTableRoute#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The network area ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#network_area_id RoutingTableRoute#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#network_area_id RoutingTableRoute#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * Next hop destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#next_hop RoutingTableRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#next_hop RoutingTableRoute#next_hop}
   */
   readonly nextHop: RoutingTableRouteNextHop;
   /**
   * STACKIT organization ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#organization_id RoutingTableRoute#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#organization_id RoutingTableRoute#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#region RoutingTableRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#region RoutingTableRoute#region}
   */
   readonly region?: string;
   /**
   * The routing tables ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#routing_table_id RoutingTableRoute#routing_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#routing_table_id RoutingTableRoute#routing_table_id}
   */
   readonly routingTableId: string;
 }
@@ -54,13 +54,13 @@ export interface RoutingTableRouteDestination {
   /**
   * CIDRV type. Possible values are: `cidrv4`, `cidrv6`. Only `cidrv4` is supported during experimental stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#type RoutingTableRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#type RoutingTableRoute#type}
   */
   readonly type: string;
   /**
   * An CIDR string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#value RoutingTableRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#value RoutingTableRoute#value}
   */
   readonly value: string;
 }
@@ -179,13 +179,13 @@ export interface RoutingTableRouteNextHop {
   /**
   * Type of the next hop. Possible values are: `blackhole`, `internet`, `ipv4`, `ipv6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#type RoutingTableRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#type RoutingTableRoute#type}
   */
   readonly type: string;
   /**
   * Either IPv4 or IPv6 (not set for blackhole and internet). Only IPv4 supported during experimental stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#value RoutingTableRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#value RoutingTableRoute#value}
   */
   readonly value?: string;
 }
@@ -305,7 +305,7 @@ export class RoutingTableRouteNextHopOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route stackit_routing_table_route}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route stackit_routing_table_route}
 */
 export class RoutingTableRoute extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class RoutingTableRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingTableRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingTableRoute to import
-  * @param importFromId The id of the existing RoutingTableRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingTableRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingTableRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class RoutingTableRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/routing_table_route stackit_routing_table_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/routing_table_route stackit_routing_table_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class RoutingTableRoute extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_routing_table_route',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

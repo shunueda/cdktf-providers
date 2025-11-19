@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HttpMonitorPerformanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#enabled HttpMonitorPerformance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#enabled HttpMonitorPerformance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#id HttpMonitorPerformance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#id HttpMonitorPerformance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface HttpMonitorPerformanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * The scope of this setting (HTTP_CHECK)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#scope HttpMonitorPerformance#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#scope HttpMonitorPerformance#scope}
   */
   readonly scope: string;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#thresholds HttpMonitorPerformance#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#thresholds HttpMonitorPerformance#thresholds}
   */
   readonly thresholds?: HttpMonitorPerformanceThresholds;
 }
@@ -37,13 +37,13 @@ export interface HttpMonitorPerformanceThresholdsThreshold {
   /**
   * Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#event HttpMonitorPerformance#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#event HttpMonitorPerformance#event}
   */
   readonly event: string;
   /**
   * Threshold (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#threshold HttpMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#threshold HttpMonitorPerformance#threshold}
   */
   readonly threshold: number;
 }
@@ -184,7 +184,7 @@ export interface HttpMonitorPerformanceThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#threshold HttpMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#threshold HttpMonitorPerformance#threshold}
   */
   readonly threshold: HttpMonitorPerformanceThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -265,7 +265,7 @@ export class HttpMonitorPerformanceThresholdsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance dynatrace_http_monitor_performance}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance dynatrace_http_monitor_performance}
 */
 export class HttpMonitorPerformance extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class HttpMonitorPerformance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpMonitorPerformance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpMonitorPerformance to import
-  * @param importFromId The id of the existing HttpMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpMonitorPerformance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class HttpMonitorPerformance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor_performance dynatrace_http_monitor_performance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_performance dynatrace_http_monitor_performance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class HttpMonitorPerformance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_http_monitor_performance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

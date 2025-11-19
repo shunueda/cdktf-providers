@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfaceVxlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#___path___ InterfaceVxlan#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#___path___ InterfaceVxlan#___path___}
   */
   readonly path?: string;
   /**
   * Whether to allow Fast Path processing. Fragmented and flooded packets over VXLAN are redirected via a slow path. Fast Path is disabled for VXLAN interface that uses IPv6 VTEP version or VRF. The setting is available since RouterOS version 7.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#allow_fast_path InterfaceVxlan#allow_fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#allow_fast_path InterfaceVxlan#allow_fast_path}
   */
   readonly allowFastPath?: boolean | cdktf.IResolvable;
   /**
@@ -27,13 +27,13 @@ export interface InterfaceVxlanConfig extends cdktf.TerraformMetaArguments {
   *   * proxy-arp - the router performs proxy ARP on the interface and sends replies to other interfaces
   *   * reply-only - the interface will only reply to requests originated from matching IP address/MAC address combinations which are entered as static entries in the ARP table. No dynamic entries will be automatically stored in the ARP table. Therefore for communications to be successful, a valid static entry must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#arp InterfaceVxlan#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#arp InterfaceVxlan#arp}
   */
   readonly arp?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#arp_timeout InterfaceVxlan#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#arp_timeout InterfaceVxlan#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
@@ -42,15 +42,15 @@ export interface InterfaceVxlanConfig extends cdktf.TerraformMetaArguments {
   *     - `yes` - the UDP checksum is calculated in transmitted outer packets.
   * If hardware offloading is used for packet transmission, this setting is ignored, and the behavior defaults to sending packets with a zero UDP checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#checksum InterfaceVxlan#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#checksum InterfaceVxlan#checksum}
   */
   readonly checksum?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#comment InterfaceVxlan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#comment InterfaceVxlan#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#disabled InterfaceVxlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#disabled InterfaceVxlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
@@ -59,21 +59,21 @@ export interface InterfaceVxlanConfig extends cdktf.TerraformMetaArguments {
   *   * enabled - the DF flag is always set on the outer IPv4 header, which means that packets will not be fragmented and will be dropped if they exceed the outgoing interface's MTU. This also avoids packet fragmentation when VXLAN uses IPv6 underlay.
   *   * inherit - The DF flag on the outer IPv4 header is based on the inner IPv4 DF flag. If the inner IPv4 header has the DF flag set, the outer IPv4 header will also have it set. If the packet exceeds the outgoing interface's MTU and DF is set, it will be dropped. If the inner packet is non-IP, the outer IPv4 header will not have the DF flag set and packets can be fragmented. If the inner packet is IPv6, the outer IPv4 header will always set the DF flag and packets cannot be fragmented. Note that when VXLAN uses IPv6 underlay, this setting does not have any effect and is treated the same as disabled. The setting is available since RouterOS version 7.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#dont_fragment InterfaceVxlan#dont_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#dont_fragment InterfaceVxlan#dont_fragment}
   */
   readonly dontFragment?: string;
   /**
   * When specified, a multicast group address can be used to forward broadcast, unknown-unicast, and multicast traffic between VTEPs. This property requires specifying the interface setting. The interface will use IGMP or MLD to join the specified multicast group, make sure to add the necessary PIM and IGMP/MDL configuration. When this property is set, the vteps-ip-version automatically gets updated to the used multicast IP version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#group InterfaceVxlan#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#group InterfaceVxlan#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#hw InterfaceVxlan#hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#hw InterfaceVxlan#hw}
   */
   readonly hw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#id InterfaceVxlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#id InterfaceVxlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,92 +82,92 @@ export interface InterfaceVxlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface name used for multicast forwarding. This property requires specifying the group setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#interface InterfaceVxlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#interface InterfaceVxlan#interface}
   */
   readonly interface?: string;
   /**
   * Setting controls whether inner source MAC addresses and remote VTEP IP/IPv6 addresses are learned dynamically from received packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#learning InterfaceVxlan#learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#learning InterfaceVxlan#learning}
   */
   readonly learning?: boolean | cdktf.IResolvable;
   /**
   * Specifies the local source address for the VXLAN interface. If not set, one IP address of the egress interface will be selected as a source address for VXLAN packets. When the property is set, the vteps-ip-version automatically gets updated to the used local IP version. The setting is available since RouterOS version 7.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#local_address InterfaceVxlan#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#local_address InterfaceVxlan#local_address}
   */
   readonly localAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#loop_protect InterfaceVxlan#loop_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#loop_protect InterfaceVxlan#loop_protect}
   */
   readonly loopProtect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#loop_protect_disable_time InterfaceVxlan#loop_protect_disable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#loop_protect_disable_time InterfaceVxlan#loop_protect_disable_time}
   */
   readonly loopProtectDisableTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#loop_protect_send_interval InterfaceVxlan#loop_protect_send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#loop_protect_send_interval InterfaceVxlan#loop_protect_send_interval}
   */
   readonly loopProtectSendInterval?: string;
   /**
   * Static MAC address of the interface. A randomly generated MAC address will be assigned when not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#mac_address InterfaceVxlan#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#mac_address InterfaceVxlan#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Limits the maximum number of MAC addresses that VXLAN can store in the forwarding database (FDB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#max_fdb_size InterfaceVxlan#max_fdb_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#max_fdb_size InterfaceVxlan#max_fdb_size}
   */
   readonly maxFdbSize?: number;
   /**
-  * Layer3 Maximum transmission unit ('auto', 0 .. 65535)
+  * Layer3 Maximum transmission unit ('auto', 0 .. 65535). Look for the exact minimum value in the MikroTik documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#mtu InterfaceVxlan#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#mtu InterfaceVxlan#mtu}
   */
   readonly mtu?: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#name InterfaceVxlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#name InterfaceVxlan#name}
   */
   readonly name: string;
   /**
   * Used UDP port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#port InterfaceVxlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#port InterfaceVxlan#port}
   */
   readonly port?: number;
   /**
   * Changes the Remote Checksum Offload (RCO) settings for VXLAN interface. RCO is a technique for eliding the inner checksum of an encapsulated datagram, allowing the outer checksum to be offloaded by network driver. It does, however, involve a change to the encapsulation protocols, which the receiver must also support. For this reason, it is disabled by default and setting is available to ensure compatibility with systems that rely on this feature.
   * If hardware offloading is used, this setting is ignored, and the behavior defaults to `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#rem_csum InterfaceVxlan#rem_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#rem_csum InterfaceVxlan#rem_csum}
   */
   readonly remCsum?: string;
   /**
   * VXLAN Network Identifier (VNI).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#vni InterfaceVxlan#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#vni InterfaceVxlan#vni}
   */
   readonly vni?: number;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#vrf InterfaceVxlan#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#vrf InterfaceVxlan#vrf}
   */
   readonly vrf?: string;
   /**
   * Used IP protocol version for statically configured VTEPs. The RouterOS VXLAN interface does not support dual-stack, any configured remote VTEPs with the opposite IP version will be ignored. When multicast group or local-address properties are set, the vteps-ip-version automatically gets updated to the used IP version. The setting is available since RouterOS version 7.6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#vteps_ip_version InterfaceVxlan#vteps_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#vteps_ip_version InterfaceVxlan#vteps_ip_version}
   */
   readonly vtepsIpVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan routeros_interface_vxlan}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan routeros_interface_vxlan}
 */
 export class InterfaceVxlan extends cdktf.TerraformResource {
 
@@ -183,7 +183,7 @@ export class InterfaceVxlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceVxlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceVxlan to import
-  * @param importFromId The id of the existing InterfaceVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceVxlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceVxlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class InterfaceVxlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_vxlan routeros_interface_vxlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_vxlan routeros_interface_vxlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class InterfaceVxlan extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_vxlan',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

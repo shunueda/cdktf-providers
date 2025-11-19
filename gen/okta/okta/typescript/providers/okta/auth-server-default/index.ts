@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AuthServerDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * The recipients that the tokens are intended for. This becomes the `aud` claim in an access token. Currently Okta only supports a single value here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#audiences AuthServerDefault#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#audiences AuthServerDefault#audiences}
   */
   readonly audiences?: string[];
   /**
   * The key rotation mode for the authorization server. Can be `AUTO` or `MANUAL`. Default: `MANUAL`.Credential rotation mode, in many cases you cannot set this to MANUAL, the API will ignore the value and you will get a perpetual diff. This should rarely be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#credentials_rotation_mode AuthServerDefault#credentials_rotation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#credentials_rotation_mode AuthServerDefault#credentials_rotation_mode}
   */
   readonly credentialsRotationMode?: string;
   /**
   * The description of the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#description AuthServerDefault#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#description AuthServerDefault#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#id AuthServerDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#id AuthServerDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface AuthServerDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * *Early Access Property*. Allows you to use a custom issuer URL. It can be set to `CUSTOM_URL`, `ORG_URL`, or `DYNAMIC`. Default: `ORG_URL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#issuer_mode AuthServerDefault#issuer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#issuer_mode AuthServerDefault#issuer_mode}
   */
   readonly issuerMode?: string;
   /**
   * The name of the authorization server. Not necessary but left for backwards capacity with legacy implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#name AuthServerDefault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#name AuthServerDefault#name}
   */
   readonly name?: string;
   /**
   * Default to `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#status AuthServerDefault#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#status AuthServerDefault#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default okta_auth_server_default}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default okta_auth_server_default}
 */
 export class AuthServerDefault extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AuthServerDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthServerDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthServerDefault to import
-  * @param importFromId The id of the existing AuthServerDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthServerDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthServerDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AuthServerDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_default okta_auth_server_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_default okta_auth_server_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AuthServerDefault extends cdktf.TerraformResource {
       terraformResourceType: 'okta_auth_server_default',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

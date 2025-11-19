@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto upgrade of Chromium is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#auto_update_chromium SyntheticLocation#auto_update_chromium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#auto_update_chromium SyntheticLocation#auto_update_chromium}
   */
   readonly autoUpdateChromium?: boolean | cdktf.IResolvable;
   /**
   * The alerting of location outage is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#availability_location_outage SyntheticLocation#availability_location_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#availability_location_outage SyntheticLocation#availability_location_outage}
   */
   readonly availabilityLocationOutage?: boolean | cdktf.IResolvable;
   /**
@@ -24,19 +24,19 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * 
   *  If enabled, the outage of *any* node in the location triggers an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#availability_node_outage SyntheticLocation#availability_node_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#availability_node_outage SyntheticLocation#availability_node_outage}
   */
   readonly availabilityNodeOutage?: boolean | cdktf.IResolvable;
   /**
   * The notifications of location and node outage is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#availability_notifications_enabled SyntheticLocation#availability_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#availability_notifications_enabled SyntheticLocation#availability_notifications_enabled}
   */
   readonly availabilityNotificationsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The city of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#city SyntheticLocation#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#city SyntheticLocation#city}
   */
   readonly city?: string;
   /**
@@ -44,7 +44,7 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To fetch the list of available country codes, use the [GET all countries](https://dt-url.net/37030go) request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#country_code SyntheticLocation#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#country_code SyntheticLocation#country_code}
   */
   readonly countryCode?: string;
   /**
@@ -53,17 +53,17 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * * `STANDARD`: The location is deployed on Windows or Linux.
   * * `KUBERNETES`: The location is deployed on Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#deployment_type SyntheticLocation#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#deployment_type SyntheticLocation#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * Containerized location property indicating whether FIPS mode is enabled on this location. Possible values: `DISABLED`, `ENABLED`, `ENABLED_WITH_CORPORATE_PROXY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#fips_mode SyntheticLocation#fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#fips_mode SyntheticLocation#fips_mode}
   */
   readonly fipsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#id SyntheticLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#id SyntheticLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The latitude of the location in `DDD.dddd` format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#latitude SyntheticLocation#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#latitude SyntheticLocation#latitude}
   */
   readonly latitude: number;
   /**
@@ -80,43 +80,43 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * 
   *  Only applicable when **availability_location_outage** or **availability_node_outage** is set to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#location_node_outage_delay_in_minutes SyntheticLocation#location_node_outage_delay_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#location_node_outage_delay_in_minutes SyntheticLocation#location_node_outage_delay_in_minutes}
   */
   readonly locationNodeOutageDelayInMinutes?: number;
   /**
   * The longitude of the location in `DDD.dddd` format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#longitude SyntheticLocation#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#longitude SyntheticLocation#longitude}
   */
   readonly longitude: number;
   /**
   * The maximum number of Active Gates required for that location. Not required when `deployment_type` is set to `STANDARD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#max_active_gate_count SyntheticLocation#max_active_gate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#max_active_gate_count SyntheticLocation#max_active_gate_count}
   */
   readonly maxActiveGateCount?: number;
   /**
   * The minimum number of Active Gates required for that location. Not required when `deployment_type` is set to `STANDARD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#min_active_gate_count SyntheticLocation#min_active_gate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#min_active_gate_count SyntheticLocation#min_active_gate_count}
   */
   readonly minActiveGateCount?: number;
   /**
   * Boolean value describes if icmp monitors will be executed on this location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#nam_execution_supported SyntheticLocation#nam_execution_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#nam_execution_supported SyntheticLocation#nam_execution_supported}
   */
   readonly namExecutionSupported?: boolean | cdktf.IResolvable;
   /**
   * The name of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#name SyntheticLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#name SyntheticLocation#name}
   */
   readonly name: string;
   /**
   * Possible values: `UNSUPPORTED`, `XS`, `S` and `M`. Not required when `deployment_type` is set to `STANDARD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#node_size SyntheticLocation#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#node_size SyntheticLocation#node_size}
   */
   readonly nodeSize?: string;
   /**
@@ -124,7 +124,7 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * 
   *  You can retrieve the list of available nodes with the [GET all nodes](https://dt-url.net/miy3rpl) call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#nodes SyntheticLocation#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#nodes SyntheticLocation#nodes}
   */
   readonly nodes?: string[];
   /**
@@ -132,19 +132,19 @@ export interface SyntheticLocationConfig extends cdktf.TerraformMetaArguments {
   * 
   *  To fetch the list of available region codes, use the [GET regions of the country](https://dt-url.net/az230x0) request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#region_code SyntheticLocation#region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#region_code SyntheticLocation#region_code}
   */
   readonly regionCode?: string;
   /**
   * Boolean value describes which kubernetes version will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#use_new_kubernetes_version SyntheticLocation#use_new_kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#use_new_kubernetes_version SyntheticLocation#use_new_kubernetes_version}
   */
   readonly useNewKubernetesVersion?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location dynatrace_synthetic_location}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location dynatrace_synthetic_location}
 */
 export class SyntheticLocation extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class SyntheticLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SyntheticLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyntheticLocation to import
-  * @param importFromId The id of the existing SyntheticLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyntheticLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyntheticLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class SyntheticLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/synthetic_location dynatrace_synthetic_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_location dynatrace_synthetic_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class SyntheticLocation extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_synthetic_location',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

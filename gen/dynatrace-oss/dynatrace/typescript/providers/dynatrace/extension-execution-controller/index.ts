@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ExtensionExecutionControllerConfig extends cdktf.TerraformMetaA
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#enabled ExtensionExecutionController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#enabled ExtensionExecutionController#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#id ExtensionExecutionController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#id ExtensionExecutionController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ExtensionExecutionControllerConfig extends cdktf.TerraformMetaA
   /**
   * Enable local HTTP Metric, Log and Event Ingest API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#ingest_active ExtensionExecutionController#ingest_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#ingest_active ExtensionExecutionController#ingest_active}
   */
   readonly ingestActive?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `DEFAULT`, `HIGH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#performance_profile ExtensionExecutionController#performance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#performance_profile ExtensionExecutionController#performance_profile}
   */
   readonly performanceProfile?: string;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#scope ExtensionExecutionController#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#scope ExtensionExecutionController#scope}
   */
   readonly scope?: string;
   /**
   * Enable Dynatrace StatsD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#statsd_active ExtensionExecutionController#statsd_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#statsd_active ExtensionExecutionController#statsd_active}
   */
   readonly statsdActive?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller dynatrace_extension_execution_controller}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller dynatrace_extension_execution_controller}
 */
 export class ExtensionExecutionController extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ExtensionExecutionController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExtensionExecutionController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExtensionExecutionController to import
-  * @param importFromId The id of the existing ExtensionExecutionController that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExtensionExecutionController that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExtensionExecutionController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ExtensionExecutionController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/extension_execution_controller dynatrace_extension_execution_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/extension_execution_controller dynatrace_extension_execution_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ExtensionExecutionController extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_extension_execution_controller',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

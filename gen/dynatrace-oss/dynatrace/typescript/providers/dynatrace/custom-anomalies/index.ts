@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CustomAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * How the metric data points are aggregated for the evaluation. The timeseries must support this aggregation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#aggregation_type CustomAnomalies#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#aggregation_type CustomAnomalies#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
   * The description of the metric event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#description CustomAnomalies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#description CustomAnomalies#description}
   */
   readonly description: string;
   /**
   * The reason of automatic disabling.  The `NONE` means config was not disabled automatically. Possible values are `METRIC_DEFINITION_INCONSISTENCY`, `NONE`, `TOO_MANY_DIMS` and `TOPX_FORCIBLY_DEACTIVATED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#disabled_reason CustomAnomalies#disabled_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#disabled_reason CustomAnomalies#disabled_reason}
   */
   readonly disabledReason?: string;
   /**
   * The metric event is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#enabled CustomAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#enabled CustomAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#id CustomAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#id CustomAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface CustomAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the metric evaluated by the metric event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#metric_id CustomAnomalies#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#metric_id CustomAnomalies#metric_id}
   */
   readonly metricId?: string;
   /**
   * The metric selector that should be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#metric_selector CustomAnomalies#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#metric_selector CustomAnomalies#metric_selector}
   */
   readonly metricSelector?: string;
   /**
   * The name of the metric event displayed in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#name CustomAnomalies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#name CustomAnomalies#name}
   */
   readonly name: string;
   /**
   * Defines which dimension key should be used for the **alertingScope**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#primary_dimension_key CustomAnomalies#primary_dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#primary_dimension_key CustomAnomalies#primary_dimension_key}
   */
   readonly primaryDimensionKey?: string;
   /**
   * The type of the event to trigger on the threshold violation.  The `CUSTOM_ALERT` type is not correlated with other alerts. The `INFO` type does not open a problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#severity CustomAnomalies#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#severity CustomAnomalies#severity}
   */
   readonly severity?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The reason of a warning set on the config. The `NONE` means config has no warnings. The other supported value is `TOO_MANY_DIMS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#warning_reason CustomAnomalies#warning_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#warning_reason CustomAnomalies#warning_reason}
   */
   readonly warningReason?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#dimensions CustomAnomalies#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#dimensions CustomAnomalies#dimensions}
   */
   readonly dimensions?: CustomAnomaliesDimensions[] | cdktf.IResolvable;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#scopes CustomAnomalies#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#scopes CustomAnomalies#scopes}
   */
   readonly scopes?: CustomAnomaliesScopes[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#strategy CustomAnomalies#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#strategy CustomAnomalies#strategy}
   */
   readonly strategy: CustomAnomaliesStrategy;
 }
@@ -103,31 +103,31 @@ export interface CustomAnomaliesDimensionsDimension {
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#index CustomAnomalies#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#index CustomAnomalies#index}
   */
   readonly index?: number;
   /**
   * The dimensions key on the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#key CustomAnomalies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#key CustomAnomalies#key}
   */
   readonly key?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#name CustomAnomalies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#name CustomAnomalies#name}
   */
   readonly name?: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#type CustomAnomalies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#type CustomAnomalies#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -358,13 +358,13 @@ export interface CustomAnomaliesDimensionsEntityFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -473,19 +473,19 @@ export interface CustomAnomaliesDimensionsEntity {
   /**
   * The dimensions key on the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#key CustomAnomalies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#key CustomAnomalies#key}
   */
   readonly key?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesDimensionsEntityFilter;
 }
@@ -658,13 +658,13 @@ export interface CustomAnomaliesDimensionsStringFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -773,31 +773,31 @@ export interface CustomAnomaliesDimensionsString {
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#index CustomAnomalies#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#index CustomAnomalies#index}
   */
   readonly index?: number;
   /**
   * The dimensions key on the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#key CustomAnomalies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#key CustomAnomalies#key}
   */
   readonly key?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#name CustomAnomalies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#name CustomAnomalies#name}
   */
   readonly name?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesDimensionsStringFilter;
 }
@@ -1028,19 +1028,19 @@ export interface CustomAnomaliesDimensions {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#dimension CustomAnomalies#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#dimension CustomAnomalies#dimension}
   */
   readonly dimension?: CustomAnomaliesDimensionsDimension[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#entity CustomAnomalies#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#entity CustomAnomalies#entity}
   */
   readonly entity?: CustomAnomaliesDimensionsEntity[] | cdktf.IResolvable;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#string CustomAnomalies#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#string CustomAnomalies#string}
   */
   readonly string?: CustomAnomaliesDimensionsString[] | cdktf.IResolvable;
 }
@@ -1216,13 +1216,13 @@ export interface CustomAnomaliesScopesCustomDeviceGroupNameFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -1331,13 +1331,13 @@ export interface CustomAnomaliesScopesCustomDeviceGroupName {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesCustomDeviceGroupNameFilter;
 }
@@ -1481,7 +1481,7 @@ export interface CustomAnomaliesScopesEntity {
   /**
   * The monitored entities id to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#id CustomAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#id CustomAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1490,7 +1490,7 @@ export interface CustomAnomaliesScopesEntity {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1634,13 +1634,13 @@ export interface CustomAnomaliesScopesHostGroupNameFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -1749,13 +1749,13 @@ export interface CustomAnomaliesScopesHostGroupName {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesHostGroupNameFilter;
 }
@@ -1899,13 +1899,13 @@ export interface CustomAnomaliesScopesHostNameFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -2014,13 +2014,13 @@ export interface CustomAnomaliesScopesHostName {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesHostNameFilter;
 }
@@ -2164,7 +2164,7 @@ export interface CustomAnomaliesScopesManagementZone {
   /**
   * The management zone id to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#id CustomAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#id CustomAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2173,7 +2173,7 @@ export interface CustomAnomaliesScopesManagementZone {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2320,13 +2320,13 @@ export interface CustomAnomaliesScopesNameFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -2435,13 +2435,13 @@ export interface CustomAnomaliesScopesName {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesNameFilter;
 }
@@ -2585,7 +2585,7 @@ export interface CustomAnomaliesScopesProcessGroupId {
   /**
   * The process groups id to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#id CustomAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#id CustomAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2594,7 +2594,7 @@ export interface CustomAnomaliesScopesProcessGroupId {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2738,13 +2738,13 @@ export interface CustomAnomaliesScopesProcessGroupNameFilter {
   /**
   * The operator to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#operator CustomAnomalies#operator}
   */
   readonly operator: string;
   /**
   * The value to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value: string;
 }
@@ -2853,13 +2853,13 @@ export interface CustomAnomaliesScopesProcessGroupName {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesProcessGroupNameFilter;
 }
@@ -3003,13 +3003,13 @@ export interface CustomAnomaliesScopesScope {
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#type CustomAnomalies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#type CustomAnomalies#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3153,19 +3153,19 @@ export interface CustomAnomaliesScopesTagFilter {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#context CustomAnomalies#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#context CustomAnomalies#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#key CustomAnomalies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#key CustomAnomalies#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#value CustomAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#value CustomAnomalies#value}
   */
   readonly value?: string;
 }
@@ -3303,13 +3303,13 @@ export interface CustomAnomaliesScopesTag {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#filter CustomAnomalies#filter}
   */
   readonly filter: CustomAnomaliesScopesTagFilter;
 }
@@ -3453,61 +3453,61 @@ export interface CustomAnomaliesScopes {
   /**
   * custom_device_group_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#custom_device_group_name CustomAnomalies#custom_device_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#custom_device_group_name CustomAnomalies#custom_device_group_name}
   */
   readonly customDeviceGroupName?: CustomAnomaliesScopesCustomDeviceGroupName[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#entity CustomAnomalies#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#entity CustomAnomalies#entity}
   */
   readonly entity?: CustomAnomaliesScopesEntity[] | cdktf.IResolvable;
   /**
   * host_group_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#host_group_name CustomAnomalies#host_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#host_group_name CustomAnomalies#host_group_name}
   */
   readonly hostGroupName?: CustomAnomaliesScopesHostGroupName[] | cdktf.IResolvable;
   /**
   * host_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#host_name CustomAnomalies#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#host_name CustomAnomalies#host_name}
   */
   readonly hostName?: CustomAnomaliesScopesHostName[] | cdktf.IResolvable;
   /**
   * management_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#management_zone CustomAnomalies#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#management_zone CustomAnomalies#management_zone}
   */
   readonly managementZone?: CustomAnomaliesScopesManagementZone[] | cdktf.IResolvable;
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#name CustomAnomalies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#name CustomAnomalies#name}
   */
   readonly name?: CustomAnomaliesScopesName[] | cdktf.IResolvable;
   /**
   * process_group_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#process_group_id CustomAnomalies#process_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#process_group_id CustomAnomalies#process_group_id}
   */
   readonly processGroupId?: CustomAnomaliesScopesProcessGroupId[] | cdktf.IResolvable;
   /**
   * process_group_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#process_group_name CustomAnomalies#process_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#process_group_name CustomAnomalies#process_group_name}
   */
   readonly processGroupName?: CustomAnomaliesScopesProcessGroupName[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#scope CustomAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#scope CustomAnomalies#scope}
   */
   readonly scope?: CustomAnomaliesScopesScope[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#tag CustomAnomalies#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#tag CustomAnomalies#tag}
   */
   readonly tag?: CustomAnomaliesScopesTag[] | cdktf.IResolvable;
 }
@@ -3886,43 +3886,43 @@ export interface CustomAnomaliesStrategyAuto {
   /**
   * The condition for the **threshold** value check: `ABOVE` or `BELOW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#alert_condition CustomAnomalies#alert_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#alert_condition CustomAnomalies#alert_condition}
   */
   readonly alertCondition: string;
   /**
   * If true, also one-minute samples without data are counted as violating samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#alerting_on_missing_data CustomAnomalies#alerting_on_missing_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#alerting_on_missing_data CustomAnomalies#alerting_on_missing_data}
   */
   readonly alertingOnMissingData?: boolean | cdktf.IResolvable;
   /**
   * The number of one-minute samples within the evaluation window that must go back to normal to close the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#dealerting_samples CustomAnomalies#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#dealerting_samples CustomAnomalies#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of one-minute samples that form the sliding evaluation window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#samples CustomAnomalies#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#samples CustomAnomalies#samples}
   */
   readonly samples: number;
   /**
   * Defines the factor of how many signal fluctuations are valid. Values above the baseline plus the signal fluctuation times the number of tolerated signal fluctuations are alerted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#signal_fluctuations CustomAnomalies#signal_fluctuations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#signal_fluctuations CustomAnomalies#signal_fluctuations}
   */
   readonly signalFluctuations: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The number of one-minute samples within the evaluation window that must violate the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#violating_samples CustomAnomalies#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#violating_samples CustomAnomalies#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -4167,13 +4167,13 @@ export interface CustomAnomaliesStrategyGeneric {
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#type CustomAnomalies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#type CustomAnomalies#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4317,49 +4317,49 @@ export interface CustomAnomaliesStrategyStatic {
   /**
   * The condition for the **threshold** value check: `ABOVE` or `BELOW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#alert_condition CustomAnomalies#alert_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#alert_condition CustomAnomalies#alert_condition}
   */
   readonly alertCondition: string;
   /**
   * If true, also one-minute samples without data are counted as violating samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#alerting_on_missing_data CustomAnomalies#alerting_on_missing_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#alerting_on_missing_data CustomAnomalies#alerting_on_missing_data}
   */
   readonly alertingOnMissingData?: boolean | cdktf.IResolvable;
   /**
   * The number of one-minute samples within the evaluation window that must go back to normal to close the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#dealerting_samples CustomAnomalies#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#dealerting_samples CustomAnomalies#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of one-minute samples that form the sliding evaluation window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#samples CustomAnomalies#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#samples CustomAnomalies#samples}
   */
   readonly samples: number;
   /**
   * The value of the static threshold based on the specified unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#threshold CustomAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#threshold CustomAnomalies#threshold}
   */
   readonly threshold: number;
   /**
   * The unit of the threshold, matching the metric definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unit CustomAnomalies#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unit CustomAnomalies#unit}
   */
   readonly unit: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#unknowns CustomAnomalies#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The number of one-minute samples within the evaluation window that must violate the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#violating_samples CustomAnomalies#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#violating_samples CustomAnomalies#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -4630,19 +4630,19 @@ export interface CustomAnomaliesStrategy {
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#auto CustomAnomalies#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#auto CustomAnomalies#auto}
   */
   readonly auto?: CustomAnomaliesStrategyAuto;
   /**
   * generic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#generic CustomAnomalies#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#generic CustomAnomalies#generic}
   */
   readonly generic?: CustomAnomaliesStrategyGeneric[] | cdktf.IResolvable;
   /**
   * static block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#static CustomAnomalies#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#static CustomAnomalies#static}
   */
   readonly static?: CustomAnomaliesStrategyStatic;
 }
@@ -4784,7 +4784,7 @@ export class CustomAnomaliesStrategyOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies dynatrace_custom_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies dynatrace_custom_anomalies}
 */
 export class CustomAnomalies extends cdktf.TerraformResource {
 
@@ -4800,7 +4800,7 @@ export class CustomAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomAnomalies to import
-  * @param importFromId The id of the existing CustomAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4812,7 +4812,7 @@ export class CustomAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_anomalies dynatrace_custom_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_anomalies dynatrace_custom_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4823,8 +4823,8 @@ export class CustomAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DestinationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#enabled Destination#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#enabled Destination#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#metadata Destination#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#metadata Destination#metadata}
   */
   readonly metadata: DestinationMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#name Destination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#name Destination#name}
   */
   readonly name?: string;
   /**
   * The settings associated with the Destination. Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#settings Destination#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#settings Destination#settings}
   */
   readonly settings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#source_id Destination#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#source_id Destination#source_id}
   */
   readonly sourceId: string;
 }
@@ -932,13 +932,13 @@ export interface DestinationMetadata {
   /**
   * Contact info for Integration Owners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#contacts Destination#contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#contacts Destination#contacts}
   */
   readonly contacts?: DestinationMetadataContacts[] | cdktf.IResolvable;
   /**
   * The id of the Destination metadata. Config API note: analogous to `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#id Destination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#id Destination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -947,19 +947,19 @@ export interface DestinationMetadata {
   /**
   * Partner Owned flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#partner_owned Destination#partner_owned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#partner_owned Destination#partner_owned}
   */
   readonly partnerOwned?: boolean | cdktf.IResolvable;
   /**
   * The list of regional endpoints for this Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#region_endpoints Destination#region_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#region_endpoints Destination#region_endpoints}
   */
   readonly regionEndpoints?: string[];
   /**
   * A list of supported regions for this Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#supported_regions Destination#supported_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#supported_regions Destination#supported_regions}
   */
   readonly supportedRegions?: string[];
 }
@@ -1249,7 +1249,7 @@ export class DestinationMetadataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination segment_destination}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination segment_destination}
 */
 export class Destination extends cdktf.TerraformResource {
 
@@ -1265,7 +1265,7 @@ export class Destination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Destination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Destination to import
-  * @param importFromId The id of the existing Destination that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Destination that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Destination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1277,7 +1277,7 @@ export class Destination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination segment_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination segment_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1288,8 +1288,8 @@ export class Destination extends cdktf.TerraformResource {
       terraformResourceType: 'segment_destination',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

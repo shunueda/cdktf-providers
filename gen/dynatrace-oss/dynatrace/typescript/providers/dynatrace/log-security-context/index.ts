@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LogSecurityContextConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#id LogSecurityContext#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#id LogSecurityContext#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface LogSecurityContextConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#insert_after LogSecurityContext#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#insert_after LogSecurityContext#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * security_context_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#security_context_rule LogSecurityContext#security_context_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#security_context_rule LogSecurityContext#security_context_rule}
   */
   readonly securityContextRule: LogSecurityContextSecurityContextRule;
 }
@@ -31,31 +31,31 @@ export interface LogSecurityContextSecurityContextRule {
   /**
   * Matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#query LogSecurityContext#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#query LogSecurityContext#query}
   */
   readonly query: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#rule_name LogSecurityContext#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#rule_name LogSecurityContext#rule_name}
   */
   readonly ruleName: string;
   /**
   * Literal value to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#value LogSecurityContext#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#value LogSecurityContext#value}
   */
   readonly value?: string;
   /**
   * Possible Values: `FIELD`, `LITERAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#value_source LogSecurityContext#value_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#value_source LogSecurityContext#value_source}
   */
   readonly valueSource: string;
   /**
   * Name of field used to copy value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#value_source_field LogSecurityContext#value_source_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#value_source_field LogSecurityContext#value_source_field}
   */
   readonly valueSourceField?: string;
 }
@@ -246,7 +246,7 @@ export class LogSecurityContextSecurityContextRuleOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context dynatrace_log_security_context}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context dynatrace_log_security_context}
 */
 export class LogSecurityContext extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class LogSecurityContext extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogSecurityContext resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogSecurityContext to import
-  * @param importFromId The id of the existing LogSecurityContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogSecurityContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogSecurityContext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class LogSecurityContext extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_security_context dynatrace_log_security_context} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_security_context dynatrace_log_security_context} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class LogSecurityContext extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_security_context',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

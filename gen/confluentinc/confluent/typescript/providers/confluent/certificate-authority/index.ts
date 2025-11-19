@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface CertificateAuthorityConfig extends cdktf.TerraformMetaArguments
   /**
   * A PEM encoded string containing the signing certificate chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#certificate_chain CertificateAuthority#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#certificate_chain CertificateAuthority#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * The name of the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#certificate_chain_filename CertificateAuthority#certificate_chain_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#certificate_chain_filename CertificateAuthority#certificate_chain_filename}
   */
   readonly certificateChainFilename: string;
   /**
   * A PEM encoded string containing the CRL for this certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#crl_chain CertificateAuthority#crl_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#crl_chain CertificateAuthority#crl_chain}
   */
   readonly crlChain?: string;
   /**
   * The url from which to fetch the CRL for the certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#crl_url CertificateAuthority#crl_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#crl_url CertificateAuthority#crl_url}
   */
   readonly crlUrl?: string;
   /**
   * A description of the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#description CertificateAuthority#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#description CertificateAuthority#description}
   */
   readonly description: string;
   /**
   * A name for the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#display_name CertificateAuthority#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#display_name CertificateAuthority#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#id CertificateAuthority#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#id CertificateAuthority#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ export interface CertificateAuthorityConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority confluent_certificate_authority}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority confluent_certificate_authority}
 */
 export class CertificateAuthority extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateAuthority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateAuthority to import
-  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/certificate_authority confluent_certificate_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/certificate_authority confluent_certificate_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class CertificateAuthority extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_certificate_authority',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

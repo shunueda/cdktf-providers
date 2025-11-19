@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MgmzPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#environment MgmzPermission#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#environment MgmzPermission#environment}
   */
   readonly environment: string;
   /**
   * The ID of the group the permissions are valid for. You may refer to the id of a resource `dynatrace_user_group` here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#group MgmzPermission#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#group MgmzPermission#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#id MgmzPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#id MgmzPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,20 +29,20 @@ export interface MgmzPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the management zone the permissions are valid for. When referring to resource `dynatrace_management_zone_v2` or data source `dynatrace_management_zone` you need to refer to the attribute `legacy_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#management_zone MgmzPermission#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#management_zone MgmzPermission#management_zone}
   */
   readonly managementZone: string;
   /**
   * The permissions to assign for that management zone. Allowed values are `DEMO_USER`, `LOG_VIEWER`, `MANAGE_SECURITY_PROBLEMS`, `MANAGE_SETTINGS`, `REPLAY_SESSION_DATA`, `REPLAY_SESSION_DATA_WITHOUT_MASKING`, `VIEWER`, `VIEW_SENSITIVE_REQUEST_DATA`.
   * Note: In order to produce non-empty plans specifying at least the permission `VIEWER` is recommended. Your Dynatrace Cluster will enforce that permission, regardless of whether it has been specified or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#permissions MgmzPermission#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#permissions MgmzPermission#permissions}
   */
   readonly permissions: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission dynatrace_mgmz_permission}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission dynatrace_mgmz_permission}
 */
 export class MgmzPermission extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class MgmzPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MgmzPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MgmzPermission to import
-  * @param importFromId The id of the existing MgmzPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MgmzPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MgmzPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class MgmzPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mgmz_permission dynatrace_mgmz_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mgmz_permission dynatrace_mgmz_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class MgmzPermission extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mgmz_permission',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

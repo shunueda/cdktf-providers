@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface IpIpsecProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#___path___ IpIpsecProfile#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#___path___ IpIpsecProfile#___path___}
   */
   readonly path?: string;
   /**
   * Diffie-Hellman group (cipher strength).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#dh_group IpIpsecProfile#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#dh_group IpIpsecProfile#dh_group}
   */
   readonly dhGroup?: string[];
   /**
   * Dead peer detection interval. If set to disable-dpd, dead peer detection will not be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#dpd_interval IpIpsecProfile#dpd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#dpd_interval IpIpsecProfile#dpd_interval}
   */
   readonly dpdInterval?: string;
   /**
   * Maximum count of failures until peer is considered to be dead. Applicable if DPD is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#dpd_maximum_failures IpIpsecProfile#dpd_maximum_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#dpd_maximum_failures IpIpsecProfile#dpd_maximum_failures}
   */
   readonly dpdMaximumFailures?: number;
   /**
   * List of encryption algorithms that will be used by the peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#enc_algorithm IpIpsecProfile#enc_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#enc_algorithm IpIpsecProfile#enc_algorithm}
   */
   readonly encAlgorithm?: string[];
   /**
   * Hashing algorithm. SHA (Secure Hash Algorithm) is stronger, but slower. MD5 uses 128-bit key, sha1-160bit key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#hash_algorithm IpIpsecProfile#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#hash_algorithm IpIpsecProfile#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#id IpIpsecProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#id IpIpsecProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,27 +53,27 @@ export interface IpIpsecProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Phase 1 lifebytes is used only as administrative value which is added to proposal. Used in cases if remote peer requires specific lifebytes value to establish phase 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#lifebytes IpIpsecProfile#lifebytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#lifebytes IpIpsecProfile#lifebytes}
   */
   readonly lifebytes?: number;
   /**
   * Phase 1 lifetime: specifies how long the SA will be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#lifetime IpIpsecProfile#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#lifetime IpIpsecProfile#lifetime}
   */
   readonly lifetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#name IpIpsecProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#name IpIpsecProfile#name}
   */
   readonly name: string;
   /**
   * Use Linux NAT-T mechanism to solve IPsec incompatibility with NAT routers between IPsec peers. This can only be used with ESP protocol (AH is not supported by design, as it signs the complete packet, including the IP header, which is changed by NAT, rendering AH signature invalid). The method encapsulates IPsec ESP traffic into UDP streams in order to overcome some minor issues that made ESP incompatible with NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#nat_traversal IpIpsecProfile#nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#nat_traversal IpIpsecProfile#nat_traversal}
   */
   readonly natTraversal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#prf_algorithm IpIpsecProfile#prf_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#prf_algorithm IpIpsecProfile#prf_algorithm}
   */
   readonly prfAlgorithm?: string;
   /**
@@ -83,13 +83,13 @@ export interface IpIpsecProfileConfig extends cdktf.TerraformMetaArguments {
   *   * obey - accept whatever is sent by an initiator
   *   * strict - if the proposed lifetime is longer than the default then reject the proposal otherwise accept a proposed lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#proposal_check IpIpsecProfile#proposal_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#proposal_check IpIpsecProfile#proposal_check}
   */
   readonly proposalCheck?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile routeros_ip_ipsec_profile}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile routeros_ip_ipsec_profile}
 */
 export class IpIpsecProfile extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class IpIpsecProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecProfile to import
-  * @param importFromId The id of the existing IpIpsecProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class IpIpsecProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_profile routeros_ip_ipsec_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_profile routeros_ip_ipsec_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class IpIpsecProfile extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_profile',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

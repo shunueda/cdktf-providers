@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpenpipelineLogsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface OpenpipelineLogsConfig extends cdktf.TerraformMetaArguments {
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#endpoints OpenpipelineLogs#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#endpoints OpenpipelineLogs#endpoints}
   */
   readonly endpoints?: OpenpipelineLogsEndpoints;
   /**
   * pipelines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#pipelines OpenpipelineLogs#pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#pipelines OpenpipelineLogs#pipelines}
   */
   readonly pipelines?: OpenpipelineLogsPipelines;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#routing OpenpipelineLogs#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#routing OpenpipelineLogs#routing}
   */
   readonly routing?: OpenpipelineLogsRouting;
 }
@@ -37,25 +37,25 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorDqlProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dql_script OpenpipelineLogs#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dql_script OpenpipelineLogs#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,13 +64,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorDqlProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -286,19 +286,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorDropProcess
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -307,13 +307,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorDropProcess
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -503,13 +503,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsAddPr
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#name OpenpipelineLogs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#name OpenpipelineLogs#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: string;
 }
@@ -650,19 +650,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsAddPr
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -671,19 +671,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsAddPr
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field: OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -899,25 +899,25 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRemov
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -926,13 +926,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRemov
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -1148,13 +1148,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRenam
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#from_name OpenpipelineLogs#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#from_name OpenpipelineLogs#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#to_name OpenpipelineLogs#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#to_name OpenpipelineLogs#to_name}
   */
   readonly toName: string;
 }
@@ -1295,19 +1295,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRenam
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1316,19 +1316,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRenam
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field: OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -1544,19 +1544,19 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorTechnologyP
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#custom_matcher OpenpipelineLogs#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#custom_matcher OpenpipelineLogs#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1565,13 +1565,13 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessorTechnologyP
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#technology_id OpenpipelineLogs#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#technology_id OpenpipelineLogs#technology_id}
   */
   readonly technologyId: string;
 }
@@ -1764,37 +1764,37 @@ export interface OpenpipelineLogsEndpointsEndpointProcessorsProcessor {
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dql_processor OpenpipelineLogs#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dql_processor OpenpipelineLogs#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#drop_processor OpenpipelineLogs#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#drop_processor OpenpipelineLogs#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_add_processor OpenpipelineLogs#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_add_processor OpenpipelineLogs#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_remove_processor OpenpipelineLogs#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_remove_processor OpenpipelineLogs#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_rename_processor OpenpipelineLogs#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_rename_processor OpenpipelineLogs#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#technology_processor OpenpipelineLogs#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#technology_processor OpenpipelineLogs#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessorTechnologyProcessor;
 }
@@ -2057,7 +2057,7 @@ export interface OpenpipelineLogsEndpointsEndpointProcessors {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsEndpointsEndpointProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -2143,13 +2143,13 @@ export interface OpenpipelineLogsEndpointsEndpointRouting {
   /**
   * Pipeline ID of the static routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#pipeline_id OpenpipelineLogs#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#pipeline_id OpenpipelineLogs#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Type of routing, static or dynamic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -2261,37 +2261,37 @@ export interface OpenpipelineLogsEndpointsEndpoint {
   /**
   * The default bucket assigned to records for the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#default_bucket OpenpipelineLogs#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#default_bucket OpenpipelineLogs#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * Display name of the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#display_name OpenpipelineLogs#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#display_name OpenpipelineLogs#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The segment of the ingest source, which is applied to the base path. Must be unique within a configuration."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#segment OpenpipelineLogs#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#segment OpenpipelineLogs#segment}
   */
   readonly segment: string;
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processors OpenpipelineLogs#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processors OpenpipelineLogs#processors}
   */
   readonly processors?: OpenpipelineLogsEndpointsEndpointProcessors;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#routing OpenpipelineLogs#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#routing OpenpipelineLogs#routing}
   */
   readonly routing: OpenpipelineLogsEndpointsEndpointRouting;
 }
@@ -2542,7 +2542,7 @@ export interface OpenpipelineLogsEndpoints {
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#endpoint OpenpipelineLogs#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#endpoint OpenpipelineLogs#endpoint}
   */
   readonly endpoint?: OpenpipelineLogsEndpointsEndpoint[] | cdktf.IResolvable;
 }
@@ -2628,25 +2628,25 @@ export interface OpenpipelineLogsPipelinesPipelineCostAllocationProcessorCostAll
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -2816,19 +2816,19 @@ export interface OpenpipelineLogsPipelinesPipelineCostAllocationProcessorCostAll
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2837,19 +2837,19 @@ export interface OpenpipelineLogsPipelinesPipelineCostAllocationProcessorCostAll
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: OpenpipelineLogsPipelinesPipelineCostAllocationProcessorCostAllocationProcessorValue;
 }
@@ -3065,7 +3065,7 @@ export interface OpenpipelineLogsPipelinesPipelineCostAllocationProcessor {
   /**
   * cost_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#cost_allocation_processor OpenpipelineLogs#cost_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#cost_allocation_processor OpenpipelineLogs#cost_allocation_processor}
   */
   readonly costAllocationProcessor?: OpenpipelineLogsPipelinesPipelineCostAllocationProcessorCostAllocationProcessor;
 }
@@ -3183,7 +3183,7 @@ export interface OpenpipelineLogsPipelinesPipelineCostAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineCostAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -3269,13 +3269,13 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorAzureLo
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
   */
   readonly semantic: string;
 }
@@ -3387,23 +3387,23 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorAzureLo
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#forwarder_config_id OpenpipelineLogs#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#forwarder_config_id OpenpipelineLogs#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3412,19 +3412,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorAzureLo
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessorFieldExtraction;
 }
@@ -3669,25 +3669,25 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeven
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -3857,25 +3857,25 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeven
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -4045,13 +4045,13 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeven
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
   */
   readonly semantic: string;
 }
@@ -4163,19 +4163,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeven
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4184,31 +4184,31 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeven
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#event_provider OpenpipelineLogs#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#event_provider OpenpipelineLogs#event_provider}
   */
   readonly eventProvider: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#event_type OpenpipelineLogs#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#event_type OpenpipelineLogs#event_type}
   */
   readonly eventType: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorFieldExtraction;
 }
@@ -4479,13 +4479,13 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorDavisEv
   /**
   * The key to set on the davis event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#key OpenpipelineLogs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#key OpenpipelineLogs#key}
   */
   readonly key: string;
   /**
   * The value assigned to the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: string;
 }
@@ -4626,19 +4626,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorDavisEv
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4647,19 +4647,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorDavisEv
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#properties OpenpipelineLogs#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#properties OpenpipelineLogs#properties}
   */
   readonly properties: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessorProperties[] | cdktf.IResolvable;
 }
@@ -4875,13 +4875,13 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorSecurit
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#semantic OpenpipelineLogs#semantic}
   */
   readonly semantic: string;
 }
@@ -4993,19 +4993,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorSecurit
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5014,19 +5014,19 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessorSecurit
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field_extraction OpenpipelineLogs#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessorFieldExtraction;
 }
@@ -5245,25 +5245,25 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtractionProcessor {
   /**
   * azure_log_forwarding_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#azure_log_forwarding_processor OpenpipelineLogs#azure_log_forwarding_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#azure_log_forwarding_processor OpenpipelineLogs#azure_log_forwarding_processor}
   */
   readonly azureLogForwardingProcessor?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessor;
   /**
   * bizevent_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#bizevent_extraction_processor OpenpipelineLogs#bizevent_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#bizevent_extraction_processor OpenpipelineLogs#bizevent_extraction_processor}
   */
   readonly bizeventExtractionProcessor?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessor;
   /**
   * davis_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#davis_event_extraction_processor OpenpipelineLogs#davis_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#davis_event_extraction_processor OpenpipelineLogs#davis_event_extraction_processor}
   */
   readonly davisEventExtractionProcessor?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessor;
   /**
   * security_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#security_event_extraction_processor OpenpipelineLogs#security_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#security_event_extraction_processor OpenpipelineLogs#security_event_extraction_processor}
   */
   readonly securityEventExtractionProcessor?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessor;
 }
@@ -5468,7 +5468,7 @@ export interface OpenpipelineLogsPipelinesPipelineDataExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineDataExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -5554,25 +5554,25 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorCount
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5581,19 +5581,19 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorCount
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -5838,13 +5838,13 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   /**
   * Indicates whether aggregation is considered for metric extraction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#aggregation OpenpipelineLogs#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#aggregation OpenpipelineLogs#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
@@ -5853,19 +5853,19 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5874,25 +5874,25 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sampling OpenpipelineLogs#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sampling OpenpipelineLogs#sampling}
   */
   readonly sampling?: string;
 }
@@ -6195,19 +6195,19 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   /**
   * Indicates whether aggregation is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#aggregation OpenpipelineLogs#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#aggregation OpenpipelineLogs#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The default value to use if the given field value could not be extracted. String value must be a number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#default_value OpenpipelineLogs#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#default_value OpenpipelineLogs#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
@@ -6216,25 +6216,25 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field from which to extract the value for the metric, or 'null' for a duration measurement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6243,31 +6243,31 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSampl
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Indicates whether the metric value should be the specified field or duration. Possible values: 'DURATION', 'FIELD'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#measurement OpenpipelineLogs#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#measurement OpenpipelineLogs#measurement}
   */
   readonly measurement: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sampling OpenpipelineLogs#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sampling OpenpipelineLogs#sampling}
   */
   readonly sampling?: string;
 }
@@ -6654,31 +6654,31 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorValue
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dimensions OpenpipelineLogs#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field to extract the value for the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6687,19 +6687,19 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorValue
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#metric_key OpenpipelineLogs#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -6970,25 +6970,25 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtractionProcessor {
   /**
   * counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#counter_metric_extraction_processor OpenpipelineLogs#counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#counter_metric_extraction_processor OpenpipelineLogs#counter_metric_extraction_processor}
   */
   readonly counterMetricExtractionProcessor?: OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorCounterMetricExtractionProcessor;
   /**
   * sampling_aware_counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sampling_aware_counter_metric_extraction_processor OpenpipelineLogs#sampling_aware_counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sampling_aware_counter_metric_extraction_processor OpenpipelineLogs#sampling_aware_counter_metric_extraction_processor}
   */
   readonly samplingAwareCounterMetricExtractionProcessor?: OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSamplingAwareCounterMetricExtractionProcessor;
   /**
   * sampling_aware_value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sampling_aware_value_metric_extraction_processor OpenpipelineLogs#sampling_aware_value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sampling_aware_value_metric_extraction_processor OpenpipelineLogs#sampling_aware_value_metric_extraction_processor}
   */
   readonly samplingAwareValueMetricExtractionProcessor?: OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorSamplingAwareValueMetricExtractionProcessor;
   /**
   * value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value_metric_extraction_processor OpenpipelineLogs#value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value_metric_extraction_processor OpenpipelineLogs#value_metric_extraction_processor}
   */
   readonly valueMetricExtractionProcessor?: OpenpipelineLogsPipelinesPipelineMetricExtractionProcessorValueMetricExtractionProcessor;
 }
@@ -7193,7 +7193,7 @@ export interface OpenpipelineLogsPipelinesPipelineMetricExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineMetricExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -7279,25 +7279,25 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorDqlProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dql_script OpenpipelineLogs#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dql_script OpenpipelineLogs#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7306,13 +7306,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorDqlProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7528,19 +7528,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorDropProcess
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7549,13 +7549,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorDropProcess
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7745,13 +7745,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsAddPr
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#name OpenpipelineLogs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#name OpenpipelineLogs#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: string;
 }
@@ -7892,19 +7892,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsAddPr
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7913,19 +7913,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsAddPr
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field: OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -8141,25 +8141,25 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRemov
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields OpenpipelineLogs#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8168,13 +8168,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRemov
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -8390,13 +8390,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRenam
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#from_name OpenpipelineLogs#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#from_name OpenpipelineLogs#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#to_name OpenpipelineLogs#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#to_name OpenpipelineLogs#to_name}
   */
   readonly toName: string;
 }
@@ -8537,19 +8537,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRenam
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8558,19 +8558,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRenam
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field: OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -8786,19 +8786,19 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorTechnologyP
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#custom_matcher OpenpipelineLogs#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#custom_matcher OpenpipelineLogs#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8807,13 +8807,13 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessorTechnologyP
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#technology_id OpenpipelineLogs#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#technology_id OpenpipelineLogs#technology_id}
   */
   readonly technologyId: string;
 }
@@ -9006,37 +9006,37 @@ export interface OpenpipelineLogsPipelinesPipelineProcessingProcessor {
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#dql_processor OpenpipelineLogs#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#dql_processor OpenpipelineLogs#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#drop_processor OpenpipelineLogs#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#drop_processor OpenpipelineLogs#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_add_processor OpenpipelineLogs#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_add_processor OpenpipelineLogs#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_remove_processor OpenpipelineLogs#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_remove_processor OpenpipelineLogs#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#fields_rename_processor OpenpipelineLogs#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#fields_rename_processor OpenpipelineLogs#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#technology_processor OpenpipelineLogs#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#technology_processor OpenpipelineLogs#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineLogsPipelinesPipelineProcessingProcessorTechnologyProcessor;
 }
@@ -9299,7 +9299,7 @@ export interface OpenpipelineLogsPipelinesPipelineProcessing {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineProcessingProcessor[] | cdktf.IResolvable;
 }
@@ -9385,25 +9385,25 @@ export interface OpenpipelineLogsPipelinesPipelineProductAllocationProcessorProd
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -9573,19 +9573,19 @@ export interface OpenpipelineLogsPipelinesPipelineProductAllocationProcessorProd
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9594,19 +9594,19 @@ export interface OpenpipelineLogsPipelinesPipelineProductAllocationProcessorProd
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: OpenpipelineLogsPipelinesPipelineProductAllocationProcessorProductAllocationProcessorValue;
 }
@@ -9822,7 +9822,7 @@ export interface OpenpipelineLogsPipelinesPipelineProductAllocationProcessor {
   /**
   * product_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#product_allocation_processor OpenpipelineLogs#product_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#product_allocation_processor OpenpipelineLogs#product_allocation_processor}
   */
   readonly productAllocationProcessor?: OpenpipelineLogsPipelinesPipelineProductAllocationProcessorProductAllocationProcessor;
 }
@@ -9940,7 +9940,7 @@ export interface OpenpipelineLogsPipelinesPipelineProductAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineProductAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -10026,25 +10026,25 @@ export interface OpenpipelineLogsPipelinesPipelineSecurityContextProcessorSecuri
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#constant OpenpipelineLogs#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#field OpenpipelineLogs#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#multi_value_constant OpenpipelineLogs#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#type OpenpipelineLogs#type}
   */
   readonly type: string;
 }
@@ -10214,19 +10214,19 @@ export interface OpenpipelineLogsPipelinesPipelineSecurityContextProcessorSecuri
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10235,19 +10235,19 @@ export interface OpenpipelineLogsPipelinesPipelineSecurityContextProcessorSecuri
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#value OpenpipelineLogs#value}
   */
   readonly value: OpenpipelineLogsPipelinesPipelineSecurityContextProcessorSecurityContextProcessorValue;
 }
@@ -10463,7 +10463,7 @@ export interface OpenpipelineLogsPipelinesPipelineSecurityContextProcessor {
   /**
   * security_context_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#security_context_processor OpenpipelineLogs#security_context_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#security_context_processor OpenpipelineLogs#security_context_processor}
   */
   readonly securityContextProcessor?: OpenpipelineLogsPipelinesPipelineSecurityContextProcessorSecurityContextProcessor;
 }
@@ -10581,7 +10581,7 @@ export interface OpenpipelineLogsPipelinesPipelineSecurityContext {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineSecurityContextProcessor[] | cdktf.IResolvable;
 }
@@ -10667,25 +10667,25 @@ export interface OpenpipelineLogsPipelinesPipelineStorageProcessorBucketAssignme
   /**
   * Bucket that is assigned when the record is matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#bucket_name OpenpipelineLogs#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#bucket_name OpenpipelineLogs#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10694,13 +10694,13 @@ export interface OpenpipelineLogsPipelinesPipelineStorageProcessorBucketAssignme
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -10916,19 +10916,19 @@ export interface OpenpipelineLogsPipelinesPipelineStorageProcessorNoStorageProce
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#description OpenpipelineLogs#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10937,13 +10937,13 @@ export interface OpenpipelineLogsPipelinesPipelineStorageProcessorNoStorageProce
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#sample_data OpenpipelineLogs#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -11133,13 +11133,13 @@ export interface OpenpipelineLogsPipelinesPipelineStorageProcessor {
   /**
   * bucket_assignment_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#bucket_assignment_processor OpenpipelineLogs#bucket_assignment_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#bucket_assignment_processor OpenpipelineLogs#bucket_assignment_processor}
   */
   readonly bucketAssignmentProcessor?: OpenpipelineLogsPipelinesPipelineStorageProcessorBucketAssignmentProcessor;
   /**
   * no_storage_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#no_storage_processor OpenpipelineLogs#no_storage_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#no_storage_processor OpenpipelineLogs#no_storage_processor}
   */
   readonly noStorageProcessor?: OpenpipelineLogsPipelinesPipelineStorageProcessorNoStorageProcessor;
 }
@@ -11286,13 +11286,13 @@ export interface OpenpipelineLogsPipelinesPipelineStorage {
   /**
   * Default bucket assigned to records which do not match any other storage processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#catch_all_bucket_name OpenpipelineLogs#catch_all_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#catch_all_bucket_name OpenpipelineLogs#catch_all_bucket_name}
   */
   readonly catchAllBucketName?: string;
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processor OpenpipelineLogs#processor}
   */
   readonly processor?: OpenpipelineLogsPipelinesPipelineStorageProcessor[] | cdktf.IResolvable;
 }
@@ -11407,19 +11407,19 @@ export interface OpenpipelineLogsPipelinesPipeline {
   /**
   * Display name of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#display_name OpenpipelineLogs#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#display_name OpenpipelineLogs#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#id OpenpipelineLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11428,43 +11428,43 @@ export interface OpenpipelineLogsPipelinesPipeline {
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#cost_allocation OpenpipelineLogs#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#cost_allocation OpenpipelineLogs#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineLogsPipelinesPipelineCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#data_extraction OpenpipelineLogs#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#data_extraction OpenpipelineLogs#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineLogsPipelinesPipelineDataExtraction;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#metric_extraction OpenpipelineLogs#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#metric_extraction OpenpipelineLogs#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineLogsPipelinesPipelineMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#processing OpenpipelineLogs#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#processing OpenpipelineLogs#processing}
   */
   readonly processing?: OpenpipelineLogsPipelinesPipelineProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#product_allocation OpenpipelineLogs#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#product_allocation OpenpipelineLogs#product_allocation}
   */
   readonly productAllocation?: OpenpipelineLogsPipelinesPipelineProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#security_context OpenpipelineLogs#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#security_context OpenpipelineLogs#security_context}
   */
   readonly securityContext?: OpenpipelineLogsPipelinesPipelineSecurityContext;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#storage OpenpipelineLogs#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#storage OpenpipelineLogs#storage}
   */
   readonly storage?: OpenpipelineLogsPipelinesPipelineStorage;
 }
@@ -11834,7 +11834,7 @@ export interface OpenpipelineLogsPipelines {
   /**
   * pipeline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#pipeline OpenpipelineLogs#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#pipeline OpenpipelineLogs#pipeline}
   */
   readonly pipeline?: OpenpipelineLogsPipelinesPipeline[] | cdktf.IResolvable;
 }
@@ -11920,25 +11920,25 @@ export interface OpenpipelineLogsRoutingEntry {
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#enabled OpenpipelineLogs#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#matcher OpenpipelineLogs#matcher}
   */
   readonly matcher: string;
   /**
   * Unique note describing the dynamic route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#note OpenpipelineLogs#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#note OpenpipelineLogs#note}
   */
   readonly note: string;
   /**
   * Identifier of the pipeline the record is routed into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#pipeline_id OpenpipelineLogs#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#pipeline_id OpenpipelineLogs#pipeline_id}
   */
   readonly pipelineId: string;
 }
@@ -12131,7 +12131,7 @@ export interface OpenpipelineLogsRouting {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#entry OpenpipelineLogs#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#entry OpenpipelineLogs#entry}
   */
   readonly entry?: OpenpipelineLogsRoutingEntry[] | cdktf.IResolvable;
 }
@@ -12215,7 +12215,7 @@ export class OpenpipelineLogsRoutingOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs dynatrace_openpipeline_logs}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs dynatrace_openpipeline_logs}
 */
 export class OpenpipelineLogs extends cdktf.TerraformResource {
 
@@ -12231,7 +12231,7 @@ export class OpenpipelineLogs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineLogs to import
-  * @param importFromId The id of the existing OpenpipelineLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12243,7 +12243,7 @@ export class OpenpipelineLogs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_logs dynatrace_openpipeline_logs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_logs dynatrace_openpipeline_logs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12254,8 +12254,8 @@ export class OpenpipelineLogs extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_logs',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AzureServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * the ID of the Azure credentials this supported service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#credentials_id AzureService#credentials_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#credentials_id AzureService#credentials_id}
   */
   readonly credentialsId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#id AzureService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#id AzureService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface AzureServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the supporting service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#name AzureService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#name AzureService#name}
   */
   readonly name?: string;
   /**
   * If `true` Terraform will negotiate with the Dynatrace API about the recommended/enforced metrics to be applied. Any `metric` specified will be therefore ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#use_recommended_metrics AzureService#use_recommended_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#use_recommended_metrics AzureService#use_recommended_metrics}
   */
   readonly useRecommendedMetrics?: boolean | cdktf.IResolvable;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#metric AzureService#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#metric AzureService#metric}
   */
   readonly metric?: AzureServiceMetric[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface AzureServiceMetric {
   /**
   * a list of metric's dimensions names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#dimensions AzureService#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#dimensions AzureService#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * the name of the metric of the supporting service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#name AzureService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#name AzureService#name}
   */
   readonly name: string;
 }
@@ -191,7 +191,7 @@ export class AzureServiceMetricList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service dynatrace_azure_service}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service dynatrace_azure_service}
 */
 export class AzureService extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class AzureService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureService to import
-  * @param importFromId The id of the existing AzureService that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureService that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class AzureService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_service dynatrace_azure_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_service dynatrace_azure_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class AzureService extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_azure_service',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServiceNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#enabled ServiceNaming#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#enabled ServiceNaming#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The name to be assigned to matching entities. You can use the following placeholders here:  * `{AwsAutoScalingGroup:Name}`  * `{AwsAvailabilityZone:Name}`  * `{AwsElasticLoadBalancer:Name}`  * `{AwsRelationalDatabaseService:DBName}`  * `{AwsRelationalDatabaseService:Endpoint}`  * `{AwsRelationalDatabaseService:Engine}`  * `{AwsRelationalDatabaseService:InstanceClass}`  * `{AwsRelationalDatabaseService:Name}`  * `{AwsRelationalDatabaseService:Port}`  * `{AzureRegion:Name}`  * `{AzureScaleSet:Name}`  * `{AzureVm:Name}`  * `{CloudFoundryOrganization:Name}`  * `{CustomDevice:DetectedName}`  * `{CustomDevice:DnsName}`  * `{CustomDevice:IpAddress}`  * `{CustomDevice:Port}`  * `{DockerContainerGroupInstance:ContainerName}`  * `{DockerContainerGroupInstance:FullImageName}`  * `{DockerContainerGroupInstance:ImageVersion}`  * `{DockerContainerGroupInstance:StrippedImageName}`  * `{ESXIHost:HardwareModel}`  * `{ESXIHost:HardwareVendor}`  * `{ESXIHost:Name}`  * `{ESXIHost:ProductName}`  * `{ESXIHost:ProductVersion}`  * `{Ec2Instance:AmiId}`  * `{Ec2Instance:BeanstalkEnvironmentName}`  * `{Ec2Instance:InstanceId}`  * `{Ec2Instance:InstanceType}`  * `{Ec2Instance:LocalHostName}`  * `{Ec2Instance:Name}`  * `{Ec2Instance:PublicHostName}`  * `{Ec2Instance:SecurityGroup}`  * `{GoogleComputeInstance:Id}`  * `{GoogleComputeInstance:IpAddresses}`  * `{GoogleComputeInstance:MachineType}`  * `{GoogleComputeInstance:Name}`  * `{GoogleComputeInstance:ProjectId}`  * `{GoogleComputeInstance:Project}`  * `{Host:AWSNameTag}`  * `{Host:AixLogicalCpuCount}`  * `{Host:AzureHostName}`  * `{Host:AzureSiteName}`  * `{Host:BoshDeploymentId}`  * `{Host:BoshInstanceId}`  * `{Host:BoshInstanceName}`  * `{Host:BoshName}`  * `{Host:BoshStemcellVersion}`  * `{Host:CpuCores}`  * `{Host:DetectedName}`  * `{Host:Environment:AppName}`  * `{Host:Environment:BoshReleaseVersion}`  * `{Host:Environment:Environment}`  * `{Host:Environment:Link}`  * `{Host:Environment:Organization}`  * `{Host:Environment:Owner}`  * `{Host:Environment:Support}`  * `{Host:IpAddress}`  * `{Host:LogicalCpuCores}`  * `{Host:OneAgentCustomHostName}`  * `{Host:OperatingSystemVersion}`  * `{Host:PaasMemoryLimit}`  * `{HostGroup:Name}`  * `{KubernetesCluster:Name}`  * `{KubernetesNode:DetectedName}`  * `{OpenstackAvailabilityZone:Name}`  * `{OpenstackZone:Name}`  * `{OpenstackComputeNode:Name}`  * `{OpenstackProject:Name}`  * `{OpenstackVm:InstanceType}`  * `{OpenstackVm:Name}`  * `{OpenstackVm:SecurityGroup}`  * `{ProcessGroup:AmazonECRImageAccountId}`  * `{ProcessGroup:AmazonECRImageRegion}`  * `{ProcessGroup:AmazonECSCluster}`  * `{ProcessGroup:AmazonECSContainerName}`  * `{ProcessGroup:AmazonECSFamily}`  * `{ProcessGroup:AmazonECSRevision}`  * `{ProcessGroup:AmazonLambdaFunctionName}`  * `{ProcessGroup:AmazonRegion}`  * `{ProcessGroup:ApacheConfigPath}`  * `{ProcessGroup:ApacheSparkMasterIpAddress}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AzureHostName}`  * `{ProcessGroup:AzureSiteName}`  * `{ProcessGroup:CassandraClusterName}`  * `{ProcessGroup:CatalinaBase}`  * `{ProcessGroup:CatalinaHome}`  * `{ProcessGroup:CloudFoundryAppId}`  * `{ProcessGroup:CloudFoundryAppName}`  * `{ProcessGroup:CloudFoundryInstanceIndex}`  * `{ProcessGroup:CloudFoundrySpaceId}`  * `{ProcessGroup:CloudFoundrySpaceName}`  * `{ProcessGroup:ColdFusionJvmConfigFile}`  * `{ProcessGroup:ColdFusionServiceName}`  * `{ProcessGroup:CommandLineArgs}`  * `{ProcessGroup:DetectedName}`  * `{ProcessGroup:DotNetCommandPath}`  * `{ProcessGroup:DotNetCommand}`  * `{ProcessGroup:DotNetClusterId}`  * `{ProcessGroup:DotNetNodeId}`  * `{ProcessGroup:ElasticsearchClusterName}`  * `{ProcessGroup:ElasticsearchNodeName}`  * `{ProcessGroup:EquinoxConfigPath}`  * `{ProcessGroup:ExeName}`  * `{ProcessGroup:ExePath}`  * `{ProcessGroup:GlassFishDomainName}`  * `{ProcessGroup:GlassFishInstanceName}`  * `{ProcessGroup:GoogleAppEngineInstance}`  * `{ProcessGroup:GoogleAppEngineService}`  * `{ProcessGroup:GoogleCloudProject}`  * `{ProcessGroup:HybrisBinDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisDataDirectory}`  * `{ProcessGroup:IBMCicsRegion}`  * `{ProcessGroup:IBMCtgName}`  * `{ProcessGroup:IBMImsConnectRegion}`  * `{ProcessGroup:IBMImsControlRegion}`  * `{ProcessGroup:IBMImsMessageProcessingRegion}`  * `{ProcessGroup:IBMImsSoapGwName}`  * `{ProcessGroup:IBMIntegrationNodeName}`  * `{ProcessGroup:IBMIntegrationServerName}`  * `{ProcessGroup:IISAppPool}`  * `{ProcessGroup:IISRoleName}`  * `{ProcessGroup:JbossHome}`  * `{ProcessGroup:JbossMode}`  * `{ProcessGroup:JbossServerName}`  * `{ProcessGroup:JavaJarFile}`  * `{ProcessGroup:JavaJarPath}`  * `{ProcessGroup:JavaMainCLass}`  * `{ProcessGroup:KubernetesBasePodName}`  * `{ProcessGroup:KubernetesContainerName}`  * `{ProcessGroup:KubernetesFullPodName}`  * `{ProcessGroup:KubernetesNamespace}`  * `{ProcessGroup:KubernetesPodUid}`  * `{ProcessGroup:MssqlInstanceName}`  * `{ProcessGroup:NodeJsAppBaseDirectory}`  * `{ProcessGroup:NodeJsAppName}`  * `{ProcessGroup:NodeJsScriptName}`  * `{ProcessGroup:OracleSid}`  * `{ProcessGroup:PHPScriptPath}`  * `{ProcessGroup:PHPWorkingDirectory}`  * `{ProcessGroup:Ports}`  * `{ProcessGroup:RubyAppRootPath}`  * `{ProcessGroup:RubyScriptPath}`  * `{ProcessGroup:SoftwareAGInstallRoot}`  * `{ProcessGroup:SoftwareAGProductPropertyName}`  * `{ProcessGroup:SpringBootAppName}`  * `{ProcessGroup:SpringBootProfileName}`  * `{ProcessGroup:SpringBootStartupClass}`  * `{ProcessGroup:TIBCOBusinessWorksAppNodeName}`  * `{ProcessGroup:TIBCOBusinessWorksAppSpaceName}`  * `{ProcessGroup:TIBCOBusinessWorksCeAppName}`  * `{ProcessGroup:TIBCOBusinessWorksCeVersion}`  * `{ProcessGroup:TIBCOBusinessWorksDomainName}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFilePath}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFile}`  * `{ProcessGroup:TIBCOBusinessWorksHome}`  * `{ProcessGroup:VarnishInstanceName}`  * `{ProcessGroup:WebLogicClusterName}`  * `{ProcessGroup:WebLogicDomainName}`  * `{ProcessGroup:WebLogicHome}`  * `{ProcessGroup:WebLogicName}`  * `{ProcessGroup:WebSphereCellName}`  * `{ProcessGroup:WebSphereClusterName}`  * `{ProcessGroup:WebSphereNodeName}`  * `{ProcessGroup:WebSphereServerName}`  * `{ProcessGroup:ActorSystem}`  * `{Service:STGServerName}`  * `{Service:DatabaseHostName}`  * `{Service:DatabaseName}`  * `{Service:DatabaseVendor}`  * `{Service:DetectedName}`  * `{Service:EndpointPath}`  * `{Service:EndpointPathGatewayUrl}`  * `{Service:IIBApplicationName}`  * `{Service:MessageListenerClassName}`  * `{Service:Port}`  * `{Service:PublicDomainName}`  * `{Service:RemoteEndpoint}`  * `{Service:RemoteName}`  * `{Service:WebApplicationId}`  * `{Service:WebContextRoot}`  * `{Service:WebServerName}`  * `{Service:WebServiceNamespace}`  * `{Service:WebServiceName}`  * `{VmwareDatacenter:Name}`  * `{VmwareVm:Name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#format ServiceNaming#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#format ServiceNaming#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#id ServiceNaming#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#id ServiceNaming#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ServiceNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#name ServiceNaming#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#name ServiceNaming#name}
   */
   readonly name: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#conditions ServiceNaming#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#conditions ServiceNaming#conditions}
   */
   readonly conditions?: ServiceNamingConditions[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface ServiceNamingConditionsConditionApplicationType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -269,31 +269,31 @@ export interface ServiceNamingConditionsConditionApplicationTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -524,25 +524,25 @@ export interface ServiceNamingConditionsConditionAzureComputeMode {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -744,25 +744,25 @@ export interface ServiceNamingConditionsConditionAzureComputeModeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -964,25 +964,25 @@ export interface ServiceNamingConditionsConditionAzureSku {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -1184,31 +1184,31 @@ export interface ServiceNamingConditionsConditionAzureSkuComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be AZURE_SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -1439,19 +1439,19 @@ export interface ServiceNamingConditionsConditionBaseComparisonBasic {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1624,19 +1624,19 @@ export interface ServiceNamingConditionsConditionBaseConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1809,25 +1809,25 @@ export interface ServiceNamingConditionsConditionBitness {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -2029,31 +2029,31 @@ export interface ServiceNamingConditionsConditionBitnessComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be BITNESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -2284,25 +2284,25 @@ export interface ServiceNamingConditionsConditionCloudType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -2504,31 +2504,31 @@ export interface ServiceNamingConditionsConditionCloudTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CLOUD_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -2759,19 +2759,19 @@ export interface ServiceNamingConditionsConditionComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2944,25 +2944,25 @@ export interface ServiceNamingConditionsConditionCustomApplicationType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -3164,31 +3164,31 @@ export interface ServiceNamingConditionsConditionCustomApplicationTypeComparison
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CUSTOM_APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -3419,19 +3419,19 @@ export interface ServiceNamingConditionsConditionCustomHostMetadataDynamicKey {
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#source ServiceNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#source ServiceNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3569,19 +3569,19 @@ export interface ServiceNamingConditionsConditionCustomHostMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: ServiceNamingConditionsConditionCustomHostMetadataDynamicKey;
 }
@@ -3751,19 +3751,19 @@ export interface ServiceNamingConditionsConditionCustomHostMetadataConditionKeyD
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#source ServiceNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#source ServiceNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3901,25 +3901,25 @@ export interface ServiceNamingConditionsConditionCustomHostMetadataConditionKey 
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be HOST_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: ServiceNamingConditionsConditionCustomHostMetadataConditionKeyDynamicKey;
 }
@@ -4118,19 +4118,19 @@ export interface ServiceNamingConditionsConditionCustomProcessMetadataDynamicKey
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#source ServiceNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#source ServiceNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4268,19 +4268,19 @@ export interface ServiceNamingConditionsConditionCustomProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: ServiceNamingConditionsConditionCustomProcessMetadataDynamicKey;
 }
@@ -4450,19 +4450,19 @@ export interface ServiceNamingConditionsConditionCustomProcessMetadataConditionK
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#source ServiceNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#source ServiceNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4600,25 +4600,25 @@ export interface ServiceNamingConditionsConditionCustomProcessMetadataConditionK
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be PROCESS_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: ServiceNamingConditionsConditionCustomProcessMetadataConditionKeyDynamicKey;
 }
@@ -4817,25 +4817,25 @@ export interface ServiceNamingConditionsConditionDatabaseTopology {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -5037,31 +5037,31 @@ export interface ServiceNamingConditionsConditionDatabaseTopologyComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DATABASE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -5292,25 +5292,25 @@ export interface ServiceNamingConditionsConditionDcrumDecoder {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -5512,31 +5512,31 @@ export interface ServiceNamingConditionsConditionDcrumDecoderComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DCRUM_DECODER_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -5767,25 +5767,25 @@ export interface ServiceNamingConditionsConditionEntity {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -5987,31 +5987,31 @@ export interface ServiceNamingConditionsConditionEntityIdComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be ENTITY_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -6242,19 +6242,19 @@ export interface ServiceNamingConditionsConditionHostTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -6398,25 +6398,25 @@ export interface ServiceNamingConditionsConditionHostTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionHostTechValue;
 }
@@ -6618,25 +6618,25 @@ export interface ServiceNamingConditionsConditionHypervisor {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -6838,31 +6838,31 @@ export interface ServiceNamingConditionsConditionHypervisorTypeComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be HYPERVISOR_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -7093,25 +7093,25 @@ export interface ServiceNamingConditionsConditionIndexedName {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -7313,31 +7313,31 @@ export interface ServiceNamingConditionsConditionIndexedNameComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -7568,25 +7568,25 @@ export interface ServiceNamingConditionsConditionIndexedString {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -7788,31 +7788,31 @@ export interface ServiceNamingConditionsConditionIndexedStringComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -8043,25 +8043,25 @@ export interface ServiceNamingConditionsConditionIndexedTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#context ServiceNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#context ServiceNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -8228,25 +8228,25 @@ export interface ServiceNamingConditionsConditionIndexedTag {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionIndexedTagValue;
 }
@@ -8448,25 +8448,25 @@ export interface ServiceNamingConditionsConditionIndexedTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#context ServiceNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#context ServiceNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -8633,31 +8633,31 @@ export interface ServiceNamingConditionsConditionIndexedTagComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionIndexedTagComparisonValue;
 }
@@ -8888,25 +8888,25 @@ export interface ServiceNamingConditionsConditionInteger {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: number;
 }
@@ -9108,31 +9108,31 @@ export interface ServiceNamingConditionsConditionIntegerComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INTEGER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: number;
 }
@@ -9363,31 +9363,31 @@ export interface ServiceNamingConditionsConditionIpaddress {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -9618,37 +9618,37 @@ export interface ServiceNamingConditionsConditionIpaddressComparison {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be IP_ADDRESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -9908,19 +9908,19 @@ export interface ServiceNamingConditionsConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -10093,25 +10093,25 @@ export interface ServiceNamingConditionsConditionMobilePlatform {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -10313,31 +10313,31 @@ export interface ServiceNamingConditionsConditionMobilePlatformComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be MOBILE_PLATFORM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -10568,25 +10568,25 @@ export interface ServiceNamingConditionsConditionOsArch {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -10788,25 +10788,25 @@ export interface ServiceNamingConditionsConditionOsType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -11008,31 +11008,31 @@ export interface ServiceNamingConditionsConditionOsarchitectureComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_ARCHITECTURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -11263,31 +11263,31 @@ export interface ServiceNamingConditionsConditionOstypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -11518,25 +11518,25 @@ export interface ServiceNamingConditionsConditionPaasType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -11738,31 +11738,31 @@ export interface ServiceNamingConditionsConditionPaasTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be PAAS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -11993,19 +11993,19 @@ export interface ServiceNamingConditionsConditionProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12175,25 +12175,25 @@ export interface ServiceNamingConditionsConditionProcessMetadataConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be PROCESS_PREDEFINED_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12392,25 +12392,25 @@ export interface ServiceNamingConditionsConditionServiceTopology {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -12612,31 +12612,31 @@ export interface ServiceNamingConditionsConditionServiceTopologyComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -12867,25 +12867,25 @@ export interface ServiceNamingConditionsConditionServiceType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -13087,31 +13087,31 @@ export interface ServiceNamingConditionsConditionServiceTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -13342,19 +13342,19 @@ export interface ServiceNamingConditionsConditionSimpleHostTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13498,31 +13498,31 @@ export interface ServiceNamingConditionsConditionSimpleHostTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_HOST_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionSimpleHostTechComparisonValue;
 }
@@ -13753,19 +13753,19 @@ export interface ServiceNamingConditionsConditionSimpleTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13909,31 +13909,31 @@ export interface ServiceNamingConditionsConditionSimpleTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionSimpleTechComparisonValue;
 }
@@ -14164,31 +14164,31 @@ export interface ServiceNamingConditionsConditionString {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -14419,37 +14419,37 @@ export interface ServiceNamingConditionsConditionStringComparison {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#case_sensitive ServiceNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -14709,7 +14709,7 @@ export interface ServiceNamingConditionsConditionStringConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -14808,19 +14808,19 @@ export interface ServiceNamingConditionsConditionStringConditionKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15019,7 +15019,7 @@ export interface ServiceNamingConditionsConditionStringKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#attribute ServiceNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#attribute ServiceNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -15118,13 +15118,13 @@ export interface ServiceNamingConditionsConditionStringKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dynamic_key ServiceNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15294,25 +15294,25 @@ export interface ServiceNamingConditionsConditionSyntheticEngine {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -15514,31 +15514,31 @@ export interface ServiceNamingConditionsConditionSyntheticEngineTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SYNTHETIC_ENGINE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -15769,25 +15769,25 @@ export interface ServiceNamingConditionsConditionTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#context ServiceNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#context ServiceNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -15954,25 +15954,25 @@ export interface ServiceNamingConditionsConditionTag {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionTagValue;
 }
@@ -16174,25 +16174,25 @@ export interface ServiceNamingConditionsConditionTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#context ServiceNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#context ServiceNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: string;
 }
@@ -16359,31 +16359,31 @@ export interface ServiceNamingConditionsConditionTagComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionTagComparisonValue;
 }
@@ -16614,19 +16614,19 @@ export interface ServiceNamingConditionsConditionTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#type ServiceNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#type ServiceNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#verbatim_type ServiceNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -16770,25 +16770,25 @@ export interface ServiceNamingConditionsConditionTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#negate ServiceNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#negate ServiceNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#operator ServiceNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#operator ServiceNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#value ServiceNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#value ServiceNaming#value}
   */
   readonly value?: ServiceNamingConditionsConditionTechValue;
 }
@@ -16990,391 +16990,391 @@ export interface ServiceNamingConditionsCondition {
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#unknowns ServiceNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#application_type ServiceNaming#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#application_type ServiceNaming#application_type}
   */
   readonly applicationType?: ServiceNamingConditionsConditionApplicationType[] | cdktf.IResolvable;
   /**
   * application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#application_type_comparison ServiceNaming#application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#application_type_comparison ServiceNaming#application_type_comparison}
   */
   readonly applicationTypeComparison?: ServiceNamingConditionsConditionApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * azure_compute_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#azure_compute_mode ServiceNaming#azure_compute_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#azure_compute_mode ServiceNaming#azure_compute_mode}
   */
   readonly azureComputeMode?: ServiceNamingConditionsConditionAzureComputeMode[] | cdktf.IResolvable;
   /**
   * azure_compute_mode_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#azure_compute_mode_comparison ServiceNaming#azure_compute_mode_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#azure_compute_mode_comparison ServiceNaming#azure_compute_mode_comparison}
   */
   readonly azureComputeModeComparison?: ServiceNamingConditionsConditionAzureComputeModeComparison[] | cdktf.IResolvable;
   /**
   * azure_sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#azure_sku ServiceNaming#azure_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#azure_sku ServiceNaming#azure_sku}
   */
   readonly azureSku?: ServiceNamingConditionsConditionAzureSku[] | cdktf.IResolvable;
   /**
   * azure_sku_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#azure_sku_comparision ServiceNaming#azure_sku_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#azure_sku_comparision ServiceNaming#azure_sku_comparision}
   */
   readonly azureSkuComparision?: ServiceNamingConditionsConditionAzureSkuComparision[] | cdktf.IResolvable;
   /**
   * base_comparison_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#base_comparison_basic ServiceNaming#base_comparison_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#base_comparison_basic ServiceNaming#base_comparison_basic}
   */
   readonly baseComparisonBasic?: ServiceNamingConditionsConditionBaseComparisonBasic[] | cdktf.IResolvable;
   /**
   * base_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#base_condition_key ServiceNaming#base_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#base_condition_key ServiceNaming#base_condition_key}
   */
   readonly baseConditionKey?: ServiceNamingConditionsConditionBaseConditionKey[] | cdktf.IResolvable;
   /**
   * bitness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#bitness ServiceNaming#bitness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#bitness ServiceNaming#bitness}
   */
   readonly bitness?: ServiceNamingConditionsConditionBitness[] | cdktf.IResolvable;
   /**
   * bitness_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#bitness_comparision ServiceNaming#bitness_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#bitness_comparision ServiceNaming#bitness_comparision}
   */
   readonly bitnessComparision?: ServiceNamingConditionsConditionBitnessComparision[] | cdktf.IResolvable;
   /**
   * cloud_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#cloud_type ServiceNaming#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#cloud_type ServiceNaming#cloud_type}
   */
   readonly cloudType?: ServiceNamingConditionsConditionCloudType[] | cdktf.IResolvable;
   /**
   * cloud_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#cloud_type_comparison ServiceNaming#cloud_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#cloud_type_comparison ServiceNaming#cloud_type_comparison}
   */
   readonly cloudTypeComparison?: ServiceNamingConditionsConditionCloudTypeComparison[] | cdktf.IResolvable;
   /**
   * comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#comparison ServiceNaming#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#comparison ServiceNaming#comparison}
   */
   readonly comparison?: ServiceNamingConditionsConditionComparison[] | cdktf.IResolvable;
   /**
   * custom_application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_application_type ServiceNaming#custom_application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_application_type ServiceNaming#custom_application_type}
   */
   readonly customApplicationType?: ServiceNamingConditionsConditionCustomApplicationType[] | cdktf.IResolvable;
   /**
   * custom_application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_application_type_comparison ServiceNaming#custom_application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_application_type_comparison ServiceNaming#custom_application_type_comparison}
   */
   readonly customApplicationTypeComparison?: ServiceNamingConditionsConditionCustomApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * custom_host_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_host_metadata ServiceNaming#custom_host_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_host_metadata ServiceNaming#custom_host_metadata}
   */
   readonly customHostMetadata?: ServiceNamingConditionsConditionCustomHostMetadata[] | cdktf.IResolvable;
   /**
   * custom_host_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_host_metadata_condition_key ServiceNaming#custom_host_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_host_metadata_condition_key ServiceNaming#custom_host_metadata_condition_key}
   */
   readonly customHostMetadataConditionKey?: ServiceNamingConditionsConditionCustomHostMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * custom_process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_process_metadata ServiceNaming#custom_process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_process_metadata ServiceNaming#custom_process_metadata}
   */
   readonly customProcessMetadata?: ServiceNamingConditionsConditionCustomProcessMetadata[] | cdktf.IResolvable;
   /**
   * custom_process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#custom_process_metadata_condition_key ServiceNaming#custom_process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#custom_process_metadata_condition_key ServiceNaming#custom_process_metadata_condition_key}
   */
   readonly customProcessMetadataConditionKey?: ServiceNamingConditionsConditionCustomProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * database_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#database_topology ServiceNaming#database_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#database_topology ServiceNaming#database_topology}
   */
   readonly databaseTopology?: ServiceNamingConditionsConditionDatabaseTopology[] | cdktf.IResolvable;
   /**
   * database_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#database_topology_comparison ServiceNaming#database_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#database_topology_comparison ServiceNaming#database_topology_comparison}
   */
   readonly databaseTopologyComparison?: ServiceNamingConditionsConditionDatabaseTopologyComparison[] | cdktf.IResolvable;
   /**
   * dcrum_decoder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dcrum_decoder ServiceNaming#dcrum_decoder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dcrum_decoder ServiceNaming#dcrum_decoder}
   */
   readonly dcrumDecoder?: ServiceNamingConditionsConditionDcrumDecoder[] | cdktf.IResolvable;
   /**
   * dcrum_decoder_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#dcrum_decoder_comparison ServiceNaming#dcrum_decoder_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#dcrum_decoder_comparison ServiceNaming#dcrum_decoder_comparison}
   */
   readonly dcrumDecoderComparison?: ServiceNamingConditionsConditionDcrumDecoderComparison[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#entity ServiceNaming#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#entity ServiceNaming#entity}
   */
   readonly entity?: ServiceNamingConditionsConditionEntity[] | cdktf.IResolvable;
   /**
   * entity_id_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#entity_id_comparison ServiceNaming#entity_id_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#entity_id_comparison ServiceNaming#entity_id_comparison}
   */
   readonly entityIdComparison?: ServiceNamingConditionsConditionEntityIdComparison[] | cdktf.IResolvable;
   /**
   * host_tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#host_tech ServiceNaming#host_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#host_tech ServiceNaming#host_tech}
   */
   readonly hostTech?: ServiceNamingConditionsConditionHostTech[] | cdktf.IResolvable;
   /**
   * hypervisor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#hypervisor ServiceNaming#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#hypervisor ServiceNaming#hypervisor}
   */
   readonly hypervisor?: ServiceNamingConditionsConditionHypervisor[] | cdktf.IResolvable;
   /**
   * hypervisor_type_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#hypervisor_type_comparision ServiceNaming#hypervisor_type_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#hypervisor_type_comparision ServiceNaming#hypervisor_type_comparision}
   */
   readonly hypervisorTypeComparision?: ServiceNamingConditionsConditionHypervisorTypeComparision[] | cdktf.IResolvable;
   /**
   * indexed_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_name ServiceNaming#indexed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_name ServiceNaming#indexed_name}
   */
   readonly indexedName?: ServiceNamingConditionsConditionIndexedName[] | cdktf.IResolvable;
   /**
   * indexed_name_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_name_comparison ServiceNaming#indexed_name_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_name_comparison ServiceNaming#indexed_name_comparison}
   */
   readonly indexedNameComparison?: ServiceNamingConditionsConditionIndexedNameComparison[] | cdktf.IResolvable;
   /**
   * indexed_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_string ServiceNaming#indexed_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_string ServiceNaming#indexed_string}
   */
   readonly indexedString?: ServiceNamingConditionsConditionIndexedString[] | cdktf.IResolvable;
   /**
   * indexed_string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_string_comparison ServiceNaming#indexed_string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_string_comparison ServiceNaming#indexed_string_comparison}
   */
   readonly indexedStringComparison?: ServiceNamingConditionsConditionIndexedStringComparison[] | cdktf.IResolvable;
   /**
   * indexed_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_tag ServiceNaming#indexed_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_tag ServiceNaming#indexed_tag}
   */
   readonly indexedTag?: ServiceNamingConditionsConditionIndexedTag[] | cdktf.IResolvable;
   /**
   * indexed_tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#indexed_tag_comparison ServiceNaming#indexed_tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#indexed_tag_comparison ServiceNaming#indexed_tag_comparison}
   */
   readonly indexedTagComparison?: ServiceNamingConditionsConditionIndexedTagComparison[] | cdktf.IResolvable;
   /**
   * integer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#integer ServiceNaming#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#integer ServiceNaming#integer}
   */
   readonly integer?: ServiceNamingConditionsConditionInteger[] | cdktf.IResolvable;
   /**
   * integer_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#integer_comparison ServiceNaming#integer_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#integer_comparison ServiceNaming#integer_comparison}
   */
   readonly integerComparison?: ServiceNamingConditionsConditionIntegerComparison[] | cdktf.IResolvable;
   /**
   * ipaddress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#ipaddress ServiceNaming#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#ipaddress ServiceNaming#ipaddress}
   */
   readonly ipaddress?: ServiceNamingConditionsConditionIpaddress[] | cdktf.IResolvable;
   /**
   * ipaddress_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#ipaddress_comparison ServiceNaming#ipaddress_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#ipaddress_comparison ServiceNaming#ipaddress_comparison}
   */
   readonly ipaddressComparison?: ServiceNamingConditionsConditionIpaddressComparison[] | cdktf.IResolvable;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#key ServiceNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#key ServiceNaming#key}
   */
   readonly key?: ServiceNamingConditionsConditionKey[] | cdktf.IResolvable;
   /**
   * mobile_platform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#mobile_platform ServiceNaming#mobile_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#mobile_platform ServiceNaming#mobile_platform}
   */
   readonly mobilePlatform?: ServiceNamingConditionsConditionMobilePlatform[] | cdktf.IResolvable;
   /**
   * mobile_platform_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#mobile_platform_comparison ServiceNaming#mobile_platform_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#mobile_platform_comparison ServiceNaming#mobile_platform_comparison}
   */
   readonly mobilePlatformComparison?: ServiceNamingConditionsConditionMobilePlatformComparison[] | cdktf.IResolvable;
   /**
   * os_arch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#os_arch ServiceNaming#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#os_arch ServiceNaming#os_arch}
   */
   readonly osArch?: ServiceNamingConditionsConditionOsArch[] | cdktf.IResolvable;
   /**
   * os_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#os_type ServiceNaming#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#os_type ServiceNaming#os_type}
   */
   readonly osType?: ServiceNamingConditionsConditionOsType[] | cdktf.IResolvable;
   /**
   * osarchitecture_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#osarchitecture_comparison ServiceNaming#osarchitecture_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#osarchitecture_comparison ServiceNaming#osarchitecture_comparison}
   */
   readonly osarchitectureComparison?: ServiceNamingConditionsConditionOsarchitectureComparison[] | cdktf.IResolvable;
   /**
   * ostype_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#ostype_comparison ServiceNaming#ostype_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#ostype_comparison ServiceNaming#ostype_comparison}
   */
   readonly ostypeComparison?: ServiceNamingConditionsConditionOstypeComparison[] | cdktf.IResolvable;
   /**
   * paas_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#paas_type ServiceNaming#paas_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#paas_type ServiceNaming#paas_type}
   */
   readonly paasType?: ServiceNamingConditionsConditionPaasType[] | cdktf.IResolvable;
   /**
   * paas_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#paas_type_comparison ServiceNaming#paas_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#paas_type_comparison ServiceNaming#paas_type_comparison}
   */
   readonly paasTypeComparison?: ServiceNamingConditionsConditionPaasTypeComparison[] | cdktf.IResolvable;
   /**
   * process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#process_metadata ServiceNaming#process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#process_metadata ServiceNaming#process_metadata}
   */
   readonly processMetadata?: ServiceNamingConditionsConditionProcessMetadata[] | cdktf.IResolvable;
   /**
   * process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#process_metadata_condition_key ServiceNaming#process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#process_metadata_condition_key ServiceNaming#process_metadata_condition_key}
   */
   readonly processMetadataConditionKey?: ServiceNamingConditionsConditionProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * service_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#service_topology ServiceNaming#service_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#service_topology ServiceNaming#service_topology}
   */
   readonly serviceTopology?: ServiceNamingConditionsConditionServiceTopology[] | cdktf.IResolvable;
   /**
   * service_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#service_topology_comparison ServiceNaming#service_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#service_topology_comparison ServiceNaming#service_topology_comparison}
   */
   readonly serviceTopologyComparison?: ServiceNamingConditionsConditionServiceTopologyComparison[] | cdktf.IResolvable;
   /**
   * service_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#service_type ServiceNaming#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#service_type ServiceNaming#service_type}
   */
   readonly serviceType?: ServiceNamingConditionsConditionServiceType[] | cdktf.IResolvable;
   /**
   * service_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#service_type_comparison ServiceNaming#service_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#service_type_comparison ServiceNaming#service_type_comparison}
   */
   readonly serviceTypeComparison?: ServiceNamingConditionsConditionServiceTypeComparison[] | cdktf.IResolvable;
   /**
   * simple_host_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#simple_host_tech_comparison ServiceNaming#simple_host_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#simple_host_tech_comparison ServiceNaming#simple_host_tech_comparison}
   */
   readonly simpleHostTechComparison?: ServiceNamingConditionsConditionSimpleHostTechComparison[] | cdktf.IResolvable;
   /**
   * simple_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#simple_tech_comparison ServiceNaming#simple_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#simple_tech_comparison ServiceNaming#simple_tech_comparison}
   */
   readonly simpleTechComparison?: ServiceNamingConditionsConditionSimpleTechComparison[] | cdktf.IResolvable;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#string ServiceNaming#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#string ServiceNaming#string}
   */
   readonly string?: ServiceNamingConditionsConditionString[] | cdktf.IResolvable;
   /**
   * string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#string_comparison ServiceNaming#string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#string_comparison ServiceNaming#string_comparison}
   */
   readonly stringComparison?: ServiceNamingConditionsConditionStringComparison[] | cdktf.IResolvable;
   /**
   * string_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#string_condition_key ServiceNaming#string_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#string_condition_key ServiceNaming#string_condition_key}
   */
   readonly stringConditionKey?: ServiceNamingConditionsConditionStringConditionKey[] | cdktf.IResolvable;
   /**
   * string_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#string_key ServiceNaming#string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#string_key ServiceNaming#string_key}
   */
   readonly stringKey?: ServiceNamingConditionsConditionStringKey[] | cdktf.IResolvable;
   /**
   * synthetic_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#synthetic_engine ServiceNaming#synthetic_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#synthetic_engine ServiceNaming#synthetic_engine}
   */
   readonly syntheticEngine?: ServiceNamingConditionsConditionSyntheticEngine[] | cdktf.IResolvable;
   /**
   * synthetic_engine_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#synthetic_engine_type_comparison ServiceNaming#synthetic_engine_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#synthetic_engine_type_comparison ServiceNaming#synthetic_engine_type_comparison}
   */
   readonly syntheticEngineTypeComparison?: ServiceNamingConditionsConditionSyntheticEngineTypeComparison[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#tag ServiceNaming#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#tag ServiceNaming#tag}
   */
   readonly tag?: ServiceNamingConditionsConditionTag[] | cdktf.IResolvable;
   /**
   * tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#tag_comparison ServiceNaming#tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#tag_comparison ServiceNaming#tag_comparison}
   */
   readonly tagComparison?: ServiceNamingConditionsConditionTagComparison[] | cdktf.IResolvable;
   /**
   * tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#tech ServiceNaming#tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#tech ServiceNaming#tech}
   */
   readonly tech?: ServiceNamingConditionsConditionTech[] | cdktf.IResolvable;
 }
@@ -19348,7 +19348,7 @@ export interface ServiceNamingConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#condition ServiceNaming#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#condition ServiceNaming#condition}
   */
   readonly condition?: ServiceNamingConditionsCondition[] | cdktf.IResolvable;
 }
@@ -19464,7 +19464,7 @@ export class ServiceNamingConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming dynatrace_service_naming}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming dynatrace_service_naming}
 */
 export class ServiceNaming extends cdktf.TerraformResource {
 
@@ -19480,7 +19480,7 @@ export class ServiceNaming extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceNaming resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceNaming to import
-  * @param importFromId The id of the existing ServiceNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceNaming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19492,7 +19492,7 @@ export class ServiceNaming extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_naming dynatrace_service_naming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_naming dynatrace_service_naming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19503,8 +19503,8 @@ export class ServiceNaming extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_naming',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

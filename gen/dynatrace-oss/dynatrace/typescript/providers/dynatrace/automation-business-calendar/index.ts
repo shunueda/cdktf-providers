@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AutomationBusinessCalendarConfig extends cdktf.TerraformMetaArg
   /**
   * An optional description for the Business Calendar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#description AutomationBusinessCalendar#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#description AutomationBusinessCalendar#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#id AutomationBusinessCalendar#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#id AutomationBusinessCalendar#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface AutomationBusinessCalendarConfig extends cdktf.TerraformMetaArg
   /**
   * The title / name of the Business Calendar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#title AutomationBusinessCalendar#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#title AutomationBusinessCalendar#title}
   */
   readonly title: string;
   /**
   * The date from when on this calendar is valid from. Example: `2023-07-04` for July 4th 2023
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#valid_from AutomationBusinessCalendar#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#valid_from AutomationBusinessCalendar#valid_from}
   */
   readonly validFrom?: string;
   /**
   * The date until when on this calendar is valid to. Example: `2023-07-04` for July 4th 2023
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#valid_to AutomationBusinessCalendar#valid_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#valid_to AutomationBusinessCalendar#valid_to}
   */
   readonly validTo?: string;
   /**
   * The days to be considered week days in this calendar. `1' = `Monday`, `2` = `Tuesday`, `3` = `Wednesday`, `4` = `Thursday`, `5` = `Friday`, `6` = `Saturday`, `7` = `Sunday`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#week_days AutomationBusinessCalendar#week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#week_days AutomationBusinessCalendar#week_days}
   */
   readonly weekDays?: number[];
   /**
   * Specifies the day of the week that's considered to be the first day in the week. `1` for Monday, `7` for Sunday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#week_start AutomationBusinessCalendar#week_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#week_start AutomationBusinessCalendar#week_start}
   */
   readonly weekStart?: number;
   /**
   * holidays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#holidays AutomationBusinessCalendar#holidays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#holidays AutomationBusinessCalendar#holidays}
   */
   readonly holidays?: AutomationBusinessCalendarHolidays;
 }
@@ -61,13 +61,13 @@ export interface AutomationBusinessCalendarHolidaysHoliday {
   /**
   * The date of this holiday: Example `2017-07-04` for July 4th 2017
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#date AutomationBusinessCalendar#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#date AutomationBusinessCalendar#date}
   */
   readonly date: string;
   /**
   * An official name for this holiday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#title AutomationBusinessCalendar#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#title AutomationBusinessCalendar#title}
   */
   readonly title: string;
 }
@@ -208,7 +208,7 @@ export interface AutomationBusinessCalendarHolidays {
   /**
   * holiday block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#holiday AutomationBusinessCalendar#holiday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#holiday AutomationBusinessCalendar#holiday}
   */
   readonly holiday: AutomationBusinessCalendarHolidaysHoliday[] | cdktf.IResolvable;
 }
@@ -289,7 +289,7 @@ export class AutomationBusinessCalendarHolidaysOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar dynatrace_automation_business_calendar}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar dynatrace_automation_business_calendar}
 */
 export class AutomationBusinessCalendar extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class AutomationBusinessCalendar extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomationBusinessCalendar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomationBusinessCalendar to import
-  * @param importFromId The id of the existing AutomationBusinessCalendar that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomationBusinessCalendar that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomationBusinessCalendar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class AutomationBusinessCalendar extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_business_calendar dynatrace_automation_business_calendar} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_business_calendar dynatrace_automation_business_calendar} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class AutomationBusinessCalendar extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_business_calendar',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

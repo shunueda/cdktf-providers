@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PgAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#id PgAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#id PgAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface PgAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the process group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#pg_id PgAnomalies#pg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#pg_id PgAnomalies#pg_id}
   */
   readonly pgId: string;
   /**
   * availability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#availability PgAnomalies#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#availability PgAnomalies#availability}
   */
   readonly availability?: PgAnomaliesAvailability;
 }
@@ -31,13 +31,13 @@ export interface PgAnomaliesAvailability {
   /**
   * How to monitor the availability of the process group:  * `PROCESS_IMPACT`: Alert if any process of the group becomes unavailable.  * `MINIMUM_THRESHOLD`: Alert if the number of active processes in the group falls below the specified threshold.  * `OFF`: Availability monitoring is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#method PgAnomalies#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#method PgAnomalies#method}
   */
   readonly method: string;
   /**
   * Alert if the number of active processes in the group is lower than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#minimum_threshold PgAnomalies#minimum_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#minimum_threshold PgAnomalies#minimum_threshold}
   */
   readonly minimumThreshold?: number;
 }
@@ -147,7 +147,7 @@ export class PgAnomaliesAvailabilityOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies dynatrace_pg_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies dynatrace_pg_anomalies}
 */
 export class PgAnomalies extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class PgAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PgAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PgAnomalies to import
-  * @param importFromId The id of the existing PgAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PgAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PgAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class PgAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/pg_anomalies dynatrace_pg_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pg_anomalies dynatrace_pg_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class PgAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_pg_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

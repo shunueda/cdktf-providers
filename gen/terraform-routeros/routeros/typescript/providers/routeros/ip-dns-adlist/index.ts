@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface IpDnsAdlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#___path___ IpDnsAdlist#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#___path___ IpDnsAdlist#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#___skip___ IpDnsAdlist#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#___skip___ IpDnsAdlist#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#disabled IpDnsAdlist#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#disabled IpDnsAdlist#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Used to specify a local file path from which to read adlist data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#file IpDnsAdlist#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#file IpDnsAdlist#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#id IpDnsAdlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#id IpDnsAdlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,19 +39,19 @@ export interface IpDnsAdlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether to validate the server's SSL certificate when connecting to an online resource. Will use the `/certificate` list to verify server validity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#ssl_verify IpDnsAdlist#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#ssl_verify IpDnsAdlist#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
   * Used to specify the URL of an adlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#url IpDnsAdlist#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#url IpDnsAdlist#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist routeros_ip_dns_adlist}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist routeros_ip_dns_adlist}
 */
 export class IpDnsAdlist extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class IpDnsAdlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDnsAdlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDnsAdlist to import
-  * @param importFromId The id of the existing IpDnsAdlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDnsAdlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDnsAdlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class IpDnsAdlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_adlist routeros_ip_dns_adlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_dns_adlist routeros_ip_dns_adlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class IpDnsAdlist extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dns_adlist',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

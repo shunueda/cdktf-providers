@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface AutomationSchedulingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#business_calendar AutomationSchedulingRule#business_calendar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#business_calendar AutomationSchedulingRule#business_calendar}
   */
   readonly businessCalendar?: string;
   /**
   * An optional description for the scheduling rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#description AutomationSchedulingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#description AutomationSchedulingRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#id AutomationSchedulingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#id AutomationSchedulingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,31 +27,31 @@ export interface AutomationSchedulingRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * The title / name of the scheduling rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#title AutomationSchedulingRule#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#title AutomationSchedulingRule#title}
   */
   readonly title: string;
   /**
   * fixed_offset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#fixed_offset AutomationSchedulingRule#fixed_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#fixed_offset AutomationSchedulingRule#fixed_offset}
   */
   readonly fixedOffset?: AutomationSchedulingRuleFixedOffset;
   /**
   * grouping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#grouping AutomationSchedulingRule#grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#grouping AutomationSchedulingRule#grouping}
   */
   readonly grouping?: AutomationSchedulingRuleGrouping;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#recurrence AutomationSchedulingRule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#recurrence AutomationSchedulingRule#recurrence}
   */
   readonly recurrence?: AutomationSchedulingRuleRecurrence;
   /**
   * relative_offset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#relative_offset AutomationSchedulingRule#relative_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#relative_offset AutomationSchedulingRule#relative_offset}
   */
   readonly relativeOffset?: AutomationSchedulingRuleRelativeOffset;
 }
@@ -59,13 +59,13 @@ export interface AutomationSchedulingRuleFixedOffset {
   /**
   * Every day of the scheduling rule referred to with `rule` will be offset by this amount of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#offset AutomationSchedulingRule#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#offset AutomationSchedulingRule#offset}
   */
   readonly offset: number;
   /**
   * Refers to a scheduling rule for which to produce valid days with an offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#rule AutomationSchedulingRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#rule AutomationSchedulingRule#rule}
   */
   readonly rule: string;
 }
@@ -174,19 +174,19 @@ export interface AutomationSchedulingRuleGrouping {
   /**
   * The IDs of scheduling rules determining the days the schedule should apply to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#combine AutomationSchedulingRule#combine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#combine AutomationSchedulingRule#combine}
   */
   readonly combine: string[];
   /**
   * The IDs of scheduling rules determining the days the schedule is allowed apply to. If specified, only days that are covered by `combine` and `intersect` are valid days for the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#intersect AutomationSchedulingRule#intersect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#intersect AutomationSchedulingRule#intersect}
   */
   readonly intersect?: string[];
   /**
   * The IDs of scheduling rules determing the days the schedule must not apply. If specified it reduces down the set of days covered by `combine` and `intersect`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#subtract AutomationSchedulingRule#subtract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#subtract AutomationSchedulingRule#subtract}
   */
   readonly subtract?: string[];
 }
@@ -327,61 +327,61 @@ export interface AutomationSchedulingRuleRecurrence {
   /**
   * The recurrence start. Example: `2017-07-04` represents July 4th 2017
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#datestart AutomationSchedulingRule#datestart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#datestart AutomationSchedulingRule#datestart}
   */
   readonly datestart: string;
   /**
   * Restricts the recurrence to specific days within a month. `1`, `2`, `3`, ... refers to the first, second, third day in the month. You can also specify negative values to refer to values relative to the last day. `-1` refers to the last day, `-2` refers to the second to the last day, ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#days_in_month AutomationSchedulingRule#days_in_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#days_in_month AutomationSchedulingRule#days_in_month}
   */
   readonly daysInMonth?: number[];
   /**
   * Restricts the recurrence to specific days within a year. `1`, `2`, `3`, ... refers to the first, second, third day of the year. You can also specify negative values to refer to values relative to the last day. `-1` refers to the last day, `-2` refers to the second to the last day, ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#days_in_year AutomationSchedulingRule#days_in_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#days_in_year AutomationSchedulingRule#days_in_year}
   */
   readonly daysInYear?: number[];
   /**
   * Restricts the recurrence to specific days relative to Easter Sunday. `0` will yield the Easter Sunday itself
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#easter AutomationSchedulingRule#easter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#easter AutomationSchedulingRule#easter}
   */
   readonly easter?: number[];
   /**
   * Possible values are `YEARLY`, `MONTHLY`, `WEEKLY`, `DAILY`, `HOURLY`, `MINUTELY` and `SECONDLY`. Example: `frequency` = `DAILY` and `interval` = `2` schedules for every other day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#frequency AutomationSchedulingRule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#frequency AutomationSchedulingRule#frequency}
   */
   readonly frequency: string;
   /**
   * The interval between each iteration. Default: 1. Example: `frequency` = `DAILY` and `interval` = `2` schedules for every other day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#interval AutomationSchedulingRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#interval AutomationSchedulingRule#interval}
   */
   readonly interval?: number;
   /**
   * Restricts the recurrence to specific months. `1` for `January`, `2` for `February`, ..., `12` for `December`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#months AutomationSchedulingRule#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#months AutomationSchedulingRule#months}
   */
   readonly months?: number[];
   /**
   * Restricts the recurrence to specific week days. Possible values are `MO`, `TU`, `WE`, `TH`, `FR`, `SA` and `SU`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#weekdays AutomationSchedulingRule#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#weekdays AutomationSchedulingRule#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * Restricts the recurrence to specific weeks within a year. `1`, `2`, `3`, ... refers to the first, second, third week of the year. You can also specify negative values to refer to values relative to the last week. `-1` refers to the last week, `-2` refers to the second to the last week, ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#weeks AutomationSchedulingRule#weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#weeks AutomationSchedulingRule#weeks}
   */
   readonly weeks?: number[];
   /**
   * Possible values are `WORKING` (Work days), `HOLIDAYS` (Holidays) and `OFF` (Weekends + Holidays)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#workdays AutomationSchedulingRule#workdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#workdays AutomationSchedulingRule#workdays}
   */
   readonly workdays: string;
 }
@@ -717,15 +717,15 @@ export class AutomationSchedulingRuleRecurrenceOutputReference extends cdktf.Com
 }
 export interface AutomationSchedulingRuleRelativeOffset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#direction AutomationSchedulingRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#direction AutomationSchedulingRule#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#source_rule AutomationSchedulingRule#source_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#source_rule AutomationSchedulingRule#source_rule}
   */
   readonly sourceRule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#target_rule AutomationSchedulingRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#target_rule AutomationSchedulingRule#target_rule}
   */
   readonly targetRule: string;
 }
@@ -858,7 +858,7 @@ export class AutomationSchedulingRuleRelativeOffsetOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule dynatrace_automation_scheduling_rule}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule dynatrace_automation_scheduling_rule}
 */
 export class AutomationSchedulingRule extends cdktf.TerraformResource {
 
@@ -874,7 +874,7 @@ export class AutomationSchedulingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomationSchedulingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomationSchedulingRule to import
-  * @param importFromId The id of the existing AutomationSchedulingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomationSchedulingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomationSchedulingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -886,7 +886,7 @@ export class AutomationSchedulingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/automation_scheduling_rule dynatrace_automation_scheduling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_scheduling_rule dynatrace_automation_scheduling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -897,8 +897,8 @@ export class AutomationSchedulingRule extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_scheduling_rule',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ReverseEtlModelConfig extends cdktf.TerraformMetaArguments {
   /**
   * A longer, more descriptive explanation of the Model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#description ReverseEtlModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#description ReverseEtlModel#description}
   */
   readonly description: string;
   /**
   * Indicates whether the Model should have syncs enabled. When disabled, no syncs will be triggered, regardless of the enabled status of the attached destinations/subscriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#enabled ReverseEtlModel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#enabled ReverseEtlModel#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * A short, human-readable description of the Model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#name ReverseEtlModel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#name ReverseEtlModel#name}
   */
   readonly name: string;
   /**
   * The SQL query that will be executed to extract data from the connected Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#query ReverseEtlModel#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#query ReverseEtlModel#query}
   */
   readonly query: string;
   /**
   * Indicates the column named in `query` that should be used to uniquely identify the extracted records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#query_identifier_column ReverseEtlModel#query_identifier_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#query_identifier_column ReverseEtlModel#query_identifier_column}
   */
   readonly queryIdentifierColumn: string;
   /**
   * Depending on the chosen strategy, configures the schedule for this model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#schedule_config ReverseEtlModel#schedule_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#schedule_config ReverseEtlModel#schedule_config}
   */
   readonly scheduleConfig?: string;
   /**
   * Determines the strategy used for triggering syncs, which will be used in conjunction with scheduleConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#schedule_strategy ReverseEtlModel#schedule_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#schedule_strategy ReverseEtlModel#schedule_strategy}
   */
   readonly scheduleStrategy?: string;
   /**
   * Indicates which Source to attach this model to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#source_id ReverseEtlModel#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#source_id ReverseEtlModel#source_id}
   */
   readonly sourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model segment_reverse_etl_model}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model segment_reverse_etl_model}
 */
 export class ReverseEtlModel extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class ReverseEtlModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReverseEtlModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReverseEtlModel to import
-  * @param importFromId The id of the existing ReverseEtlModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReverseEtlModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReverseEtlModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class ReverseEtlModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/reverse_etl_model segment_reverse_etl_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/reverse_etl_model segment_reverse_etl_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class ReverseEtlModel extends cdktf.TerraformResource {
       terraformResourceType: 'segment_reverse_etl_model',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

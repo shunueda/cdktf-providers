@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SettingsPermissionsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Defines the default access level granted to all users in this environment. Allowed values are `read`, `write`, or `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#all_users SettingsPermissions#all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#all_users SettingsPermissions#all_users}
   */
   readonly allUsers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#id SettingsPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#id SettingsPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SettingsPermissionsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the settings object for which access is to be granted. Here, you can use the `id` attribute of the respective settings object resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#settings_object_id SettingsPermissions#settings_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#settings_object_id SettingsPermissions#settings_object_id}
   */
   readonly settingsObjectId: string;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#groups SettingsPermissions#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#groups SettingsPermissions#groups}
   */
   readonly groups?: SettingsPermissionsGroups;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#users SettingsPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#users SettingsPermissions#users}
   */
   readonly users?: SettingsPermissionsUsers;
 }
@@ -43,13 +43,13 @@ export interface SettingsPermissionsGroupsGroup {
   /**
   * Valid values: `read`, `write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#access SettingsPermissions#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#access SettingsPermissions#access}
   */
   readonly access: string;
   /**
   * The UUID of the group, conveniently retrieved via the `id` attribute provided by the data source `dynatrace_iam_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#id SettingsPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#id SettingsPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +193,7 @@ export interface SettingsPermissionsGroups {
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#group SettingsPermissions#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#group SettingsPermissions#group}
   */
   readonly group: SettingsPermissionsGroupsGroup[] | cdktf.IResolvable;
 }
@@ -276,13 +276,13 @@ export interface SettingsPermissionsUsersUser {
   /**
   * Valid values: `read`, `write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#access SettingsPermissions#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#access SettingsPermissions#access}
   */
   readonly access: string;
   /**
   * The UUID of the user, conveniently retrieved via the `uid` attribute provided by the data source `dynatrace_iam_user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#uid SettingsPermissions#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#uid SettingsPermissions#uid}
   */
   readonly uid: string;
 }
@@ -423,7 +423,7 @@ export interface SettingsPermissionsUsers {
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#user SettingsPermissions#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#user SettingsPermissions#user}
   */
   readonly user: SettingsPermissionsUsersUser[] | cdktf.IResolvable;
 }
@@ -504,7 +504,7 @@ export class SettingsPermissionsUsersOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions dynatrace_settings_permissions}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions dynatrace_settings_permissions}
 */
 export class SettingsPermissions extends cdktf.TerraformResource {
 
@@ -520,7 +520,7 @@ export class SettingsPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SettingsPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SettingsPermissions to import
-  * @param importFromId The id of the existing SettingsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SettingsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SettingsPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -532,7 +532,7 @@ export class SettingsPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/settings_permissions dynatrace_settings_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/settings_permissions dynatrace_settings_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -543,8 +543,8 @@ export class SettingsPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_settings_permissions',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

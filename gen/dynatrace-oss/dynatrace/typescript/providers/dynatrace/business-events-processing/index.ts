@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BusinessEventsProcessingConfig extends cdktf.TerraformMetaArgum
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#enabled BusinessEventsProcessing#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#enabled BusinessEventsProcessing#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#id BusinessEventsProcessing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#id BusinessEventsProcessing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface BusinessEventsProcessingConfig extends cdktf.TerraformMetaArgum
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#insert_after BusinessEventsProcessing#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#insert_after BusinessEventsProcessing#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#matcher BusinessEventsProcessing#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#matcher BusinessEventsProcessing#matcher}
   */
   readonly matcher: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#rule_name BusinessEventsProcessing#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#rule_name BusinessEventsProcessing#rule_name}
   */
   readonly ruleName: string;
   /**
   * [See our documentation](https://dt-url.net/pz030w5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#script BusinessEventsProcessing#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#script BusinessEventsProcessing#script}
   */
   readonly script: string;
   /**
   * rule_testing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#rule_testing BusinessEventsProcessing#rule_testing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#rule_testing BusinessEventsProcessing#rule_testing}
   */
   readonly ruleTesting: BusinessEventsProcessingRuleTesting;
   /**
   * transformation_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#transformation_fields BusinessEventsProcessing#transformation_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#transformation_fields BusinessEventsProcessing#transformation_fields}
   */
   readonly transformationFields?: BusinessEventsProcessingTransformationFields;
 }
@@ -61,7 +61,7 @@ export interface BusinessEventsProcessingRuleTesting {
   /**
   * Sample event to use for the test run. Only JSON format is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#sample_event BusinessEventsProcessing#sample_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#sample_event BusinessEventsProcessing#sample_event}
   */
   readonly sampleEvent: string;
 }
@@ -144,31 +144,31 @@ export interface BusinessEventsProcessingTransformationFieldsTransformationField
   /**
   * Is Array
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#array BusinessEventsProcessing#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#array BusinessEventsProcessing#array}
   */
   readonly array: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#name BusinessEventsProcessing#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#name BusinessEventsProcessing#name}
   */
   readonly name: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#optional BusinessEventsProcessing#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#optional BusinessEventsProcessing#optional}
   */
   readonly optional: boolean | cdktf.IResolvable;
   /**
   * Read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#readonly BusinessEventsProcessing#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#readonly BusinessEventsProcessing#readonly}
   */
   readonly readonly: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `BOOLEAN`, `DOUBLE`, `DURATION`, `INT`, `IPADDR`, `LONG`, `STRING`, `TIMESTAMP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#type BusinessEventsProcessing#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#type BusinessEventsProcessing#type}
   */
   readonly type: string;
 }
@@ -387,7 +387,7 @@ export interface BusinessEventsProcessingTransformationFields {
   /**
   * transformation_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#transformation_field BusinessEventsProcessing#transformation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#transformation_field BusinessEventsProcessing#transformation_field}
   */
   readonly transformationField: BusinessEventsProcessingTransformationFieldsTransformationField[] | cdktf.IResolvable;
 }
@@ -468,7 +468,7 @@ export class BusinessEventsProcessingTransformationFieldsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing dynatrace_business_events_processing}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing dynatrace_business_events_processing}
 */
 export class BusinessEventsProcessing extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class BusinessEventsProcessing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessEventsProcessing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessEventsProcessing to import
-  * @param importFromId The id of the existing BusinessEventsProcessing that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessEventsProcessing that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessEventsProcessing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class BusinessEventsProcessing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_processing dynatrace_business_events_processing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_processing dynatrace_business_events_processing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class BusinessEventsProcessing extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_business_events_processing',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

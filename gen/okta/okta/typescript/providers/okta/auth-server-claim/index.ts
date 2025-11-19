@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AuthServerClaimConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether to include claims in token, by default it is set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#always_include_in_token AuthServerClaim#always_include_in_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#always_include_in_token AuthServerClaim#always_include_in_token}
   */
   readonly alwaysIncludeInToken?: boolean | cdktf.IResolvable;
   /**
   * ID of the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#auth_server_id AuthServerClaim#auth_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#auth_server_id AuthServerClaim#auth_server_id}
   */
   readonly authServerId: string;
   /**
   * Specifies whether the claim is for an access token `RESOURCE` or ID token `IDENTITY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#claim_type AuthServerClaim#claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#claim_type AuthServerClaim#claim_type}
   */
   readonly claimType: string;
   /**
   * Specifies the type of group filter if `value_type` is `GROUPS`. Can be set to one of the following `STARTS_WITH`, `EQUALS`, `CONTAINS`, `REGEX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#group_filter_type AuthServerClaim#group_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#group_filter_type AuthServerClaim#group_filter_type}
   */
   readonly groupFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#id AuthServerClaim#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#id AuthServerClaim#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface AuthServerClaimConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#name AuthServerClaim#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#name AuthServerClaim#name}
   */
   readonly name: string;
   /**
   * The list of scopes the auth server claim is tied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#scopes AuthServerClaim#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#scopes AuthServerClaim#scopes}
   */
   readonly scopes?: string[];
   /**
   * Default to `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#status AuthServerClaim#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#status AuthServerClaim#status}
   */
   readonly status?: string;
   /**
   * The value of the claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#value AuthServerClaim#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#value AuthServerClaim#value}
   */
   readonly value: string;
   /**
   * The type of value of the claim. It can be set to `EXPRESSION` or `GROUPS`. It defaults to `EXPRESSION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#value_type AuthServerClaim#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#value_type AuthServerClaim#value_type}
   */
   readonly valueType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim okta_auth_server_claim}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim okta_auth_server_claim}
 */
 export class AuthServerClaim extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class AuthServerClaim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthServerClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthServerClaim to import
-  * @param importFromId The id of the existing AuthServerClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthServerClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthServerClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class AuthServerClaim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/auth_server_claim okta_auth_server_claim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/auth_server_claim okta_auth_server_claim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class AuthServerClaim extends cdktf.TerraformResource {
       terraformResourceType: 'okta_auth_server_claim',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

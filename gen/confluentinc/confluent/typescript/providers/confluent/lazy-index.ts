@@ -43,6 +43,8 @@ Object.defineProperty(exports, 'privateLinkAccess', { get: function () { return 
 Object.defineProperty(exports, 'privateLinkAttachment', { get: function () { return require('./private-link-attachment'); } });
 Object.defineProperty(exports, 'privateLinkAttachmentConnection', { get: function () { return require('./private-link-attachment-connection'); } });
 Object.defineProperty(exports, 'providerIntegration', { get: function () { return require('./provider-integration'); } });
+Object.defineProperty(exports, 'providerIntegrationAuthorization', { get: function () { return require('./provider-integration-authorization'); } });
+Object.defineProperty(exports, 'providerIntegrationSetup', { get: function () { return require('./provider-integration-setup'); } });
 Object.defineProperty(exports, 'roleBinding', { get: function () { return require('./role-binding'); } });
 Object.defineProperty(exports, 'schema', { get: function () { return require('./schema'); } });
 Object.defineProperty(exports, 'schemaExporter', { get: function () { return require('./schema-exporter'); } });
@@ -84,6 +86,7 @@ Object.defineProperty(exports, 'dataConfluentIpFilter', { get: function () { ret
 Object.defineProperty(exports, 'dataConfluentIpGroup', { get: function () { return require('./data-confluent-ip-group'); } });
 Object.defineProperty(exports, 'dataConfluentKafkaClientQuota', { get: function () { return require('./data-confluent-kafka-client-quota'); } });
 Object.defineProperty(exports, 'dataConfluentKafkaCluster', { get: function () { return require('./data-confluent-kafka-cluster'); } });
+Object.defineProperty(exports, 'dataConfluentKafkaClusters', { get: function () { return require('./data-confluent-kafka-clusters'); } });
 Object.defineProperty(exports, 'dataConfluentKafkaTopic', { get: function () { return require('./data-confluent-kafka-topic'); } });
 Object.defineProperty(exports, 'dataConfluentKsqlCluster', { get: function () { return require('./data-confluent-ksql-cluster'); } });
 Object.defineProperty(exports, 'dataConfluentNetwork', { get: function () { return require('./data-confluent-network'); } });
@@ -95,6 +98,8 @@ Object.defineProperty(exports, 'dataConfluentPrivateLinkAccess', { get: function
 Object.defineProperty(exports, 'dataConfluentPrivateLinkAttachment', { get: function () { return require('./data-confluent-private-link-attachment'); } });
 Object.defineProperty(exports, 'dataConfluentPrivateLinkAttachmentConnection', { get: function () { return require('./data-confluent-private-link-attachment-connection'); } });
 Object.defineProperty(exports, 'dataConfluentProviderIntegration', { get: function () { return require('./data-confluent-provider-integration'); } });
+Object.defineProperty(exports, 'dataConfluentProviderIntegrationAuthorization', { get: function () { return require('./data-confluent-provider-integration-authorization'); } });
+Object.defineProperty(exports, 'dataConfluentProviderIntegrationSetup', { get: function () { return require('./data-confluent-provider-integration-setup'); } });
 Object.defineProperty(exports, 'dataConfluentRoleBinding', { get: function () { return require('./data-confluent-role-binding'); } });
 Object.defineProperty(exports, 'dataConfluentSchema', { get: function () { return require('./data-confluent-schema'); } });
 Object.defineProperty(exports, 'dataConfluentSchemaRegistryCluster', { get: function () { return require('./data-confluent-schema-registry-cluster'); } });

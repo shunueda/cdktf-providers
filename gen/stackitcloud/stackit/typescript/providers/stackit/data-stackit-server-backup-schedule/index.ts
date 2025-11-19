@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitServerBackupScheduleConfig extends cdktf.TerraformMe
   /**
   * Backup schedule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule#backup_schedule_id DataStackitServerBackupSchedule#backup_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule#backup_schedule_id DataStackitServerBackupSchedule#backup_schedule_id}
   */
   readonly backupScheduleId: number;
   /**
   * STACKIT Project ID to which the server is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule#project_id DataStackitServerBackupSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule#project_id DataStackitServerBackupSchedule#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule#region DataStackitServerBackupSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule#region DataStackitServerBackupSchedule#region}
   */
   readonly region?: string;
   /**
   * Server ID for the backup schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule#server_id DataStackitServerBackupSchedule#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule#server_id DataStackitServerBackupSchedule#server_id}
   */
   readonly serverId: string;
 }
@@ -98,7 +98,7 @@ export class DataStackitServerBackupScheduleBackupPropertiesOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule stackit_server_backup_schedule}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule stackit_server_backup_schedule}
 */
 export class DataStackitServerBackupSchedule extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataStackitServerBackupSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitServerBackupSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitServerBackupSchedule to import
-  * @param importFromId The id of the existing DataStackitServerBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitServerBackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitServerBackupSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataStackitServerBackupSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_backup_schedule stackit_server_backup_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_backup_schedule stackit_server_backup_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataStackitServerBackupSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_server_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

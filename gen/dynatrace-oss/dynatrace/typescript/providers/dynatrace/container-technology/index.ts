@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.159
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#bosh_process_manager ContainerTechnology#bosh_process_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#bosh_process_manager ContainerTechnology#bosh_process_manager}
   */
   readonly boshProcessManager: boolean | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.169
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#containerd ContainerTechnology#containerd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#containerd ContainerTechnology#containerd}
   */
   readonly containerd: boolean | cdktf.IResolvable;
   /**
@@ -40,7 +40,7 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.163
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#crio ContainerTechnology#crio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#crio ContainerTechnology#crio}
   */
   readonly crio: boolean | cdktf.IResolvable;
   /**
@@ -50,7 +50,7 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Operating system: Linux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#docker ContainerTechnology#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#docker ContainerTechnology#docker}
   */
   readonly docker: boolean | cdktf.IResolvable;
   /**
@@ -62,7 +62,7 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.149
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#docker_windows ContainerTechnology#docker_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#docker_windows ContainerTechnology#docker_windows}
   */
   readonly dockerWindows: boolean | cdktf.IResolvable;
   /**
@@ -74,11 +74,11 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.133
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#garden ContainerTechnology#garden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#garden ContainerTechnology#garden}
   */
   readonly garden: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#id ContainerTechnology#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#id ContainerTechnology#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,13 +93,13 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.267
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#podman ContainerTechnology#podman}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#podman ContainerTechnology#podman}
   */
   readonly podman: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#scope ContainerTechnology#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#scope ContainerTechnology#scope}
   */
   readonly scope?: string;
   /**
@@ -111,13 +111,13 @@ export interface ContainerTechnologyConfig extends cdktf.TerraformMetaArguments 
   * 
   * Min agent version: 1.175
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#winc ContainerTechnology#winc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#winc ContainerTechnology#winc}
   */
   readonly winc: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology dynatrace_container_technology}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology dynatrace_container_technology}
 */
 export class ContainerTechnology extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class ContainerTechnology extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerTechnology resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerTechnology to import
-  * @param importFromId The id of the existing ContainerTechnology that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerTechnology that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerTechnology to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class ContainerTechnology extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/container_technology dynatrace_container_technology} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/container_technology dynatrace_container_technology} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class ContainerTechnology extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_container_technology',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

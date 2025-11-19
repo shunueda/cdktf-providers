@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MicrofrontendGroupMembershipConfig extends cdktf.TerraformMetaA
   /**
   * The default route for the project. Used for the screenshot of deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#default_route MicrofrontendGroupMembership#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#default_route MicrofrontendGroupMembership#default_route}
   */
   readonly defaultRoute?: string;
   /**
   * The ID of the microfrontend group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#microfrontend_group_id MicrofrontendGroupMembership#microfrontend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#microfrontend_group_id MicrofrontendGroupMembership#microfrontend_group_id}
   */
   readonly microfrontendGroupId: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#project_id MicrofrontendGroupMembership#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#project_id MicrofrontendGroupMembership#project_id}
   */
   readonly projectId: string;
   /**
   * Whether the project is route observability for this project. If dalse, the project will be route observability for all projects to the default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#route_observability_to_this_project MicrofrontendGroupMembership#route_observability_to_this_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#route_observability_to_this_project MicrofrontendGroupMembership#route_observability_to_this_project}
   */
   readonly routeObservabilityToThisProject?: boolean | cdktf.IResolvable;
   /**
   * The team ID to add the microfrontend group to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#team_id MicrofrontendGroupMembership#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#team_id MicrofrontendGroupMembership#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership vercel_microfrontend_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership vercel_microfrontend_group_membership}
 */
 export class MicrofrontendGroupMembership extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MicrofrontendGroupMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MicrofrontendGroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MicrofrontendGroupMembership to import
-  * @param importFromId The id of the existing MicrofrontendGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MicrofrontendGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MicrofrontendGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MicrofrontendGroupMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/microfrontend_group_membership vercel_microfrontend_group_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/microfrontend_group_membership vercel_microfrontend_group_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class MicrofrontendGroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_microfrontend_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

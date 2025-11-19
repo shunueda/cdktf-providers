@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IamPolicyBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of the account (`urn:dtaccount:<account-uuid>`). The attribute `policies` must contain ONLY policies defined for that account. The prefix `urn:dtaccount:` MUST be omitted here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#account IamPolicyBindings#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#account IamPolicyBindings#account}
   */
   readonly account?: string;
   /**
   * The ID of the environment (https://<environmentid>.live.dynatrace.com). The attribute `policies` must contain ONLY policies defined for that environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#environment IamPolicyBindings#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#environment IamPolicyBindings#environment}
   */
   readonly environment?: string;
   /**
   * The name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#group IamPolicyBindings#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#group IamPolicyBindings#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#id IamPolicyBindings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#id IamPolicyBindings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface IamPolicyBindingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of IDs referring to policies bound to that group. It's not possible to mix policies here that are defined for different scopes (different accounts or environments) than specified via attributes `account` or `environment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#policies IamPolicyBindings#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#policies IamPolicyBindings#policies}
   */
   readonly policies: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings dynatrace_iam_policy_bindings}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings dynatrace_iam_policy_bindings}
 */
 export class IamPolicyBindings extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class IamPolicyBindings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamPolicyBindings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamPolicyBindings to import
-  * @param importFromId The id of the existing IamPolicyBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamPolicyBindings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamPolicyBindings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class IamPolicyBindings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_bindings dynatrace_iam_policy_bindings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_bindings dynatrace_iam_policy_bindings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class IamPolicyBindings extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_iam_policy_bindings',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

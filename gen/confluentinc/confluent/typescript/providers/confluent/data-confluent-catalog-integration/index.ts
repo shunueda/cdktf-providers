@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataConfluentCatalogIntegrationConfig extends cdktf.TerraformMe
   /**
   * The ID of the Catalog Integration, for example, `tci-abc123`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataConfluentCatalogIntegrationConfig extends cdktf.TerraformMe
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#credentials DataConfluentCatalogIntegration#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#credentials DataConfluentCatalogIntegration#credentials}
   */
   readonly credentials?: DataConfluentCatalogIntegrationCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#environment DataConfluentCatalogIntegration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#environment DataConfluentCatalogIntegration#environment}
   */
   readonly environment: DataConfluentCatalogIntegrationEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#kafka_cluster DataConfluentCatalogIntegration#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#kafka_cluster DataConfluentCatalogIntegration#kafka_cluster}
   */
   readonly kafkaCluster: DataConfluentCatalogIntegrationKafkaCluster;
 }
@@ -199,13 +199,13 @@ export interface DataConfluentCatalogIntegrationCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#key DataConfluentCatalogIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#key DataConfluentCatalogIntegration#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#secret DataConfluentCatalogIntegration#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#secret DataConfluentCatalogIntegration#secret}
   */
   readonly secret: string;
 }
@@ -312,7 +312,7 @@ export class DataConfluentCatalogIntegrationCredentialsOutputReference extends c
 }
 export interface DataConfluentCatalogIntegrationEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -396,7 +396,7 @@ export class DataConfluentCatalogIntegrationEnvironmentOutputReference extends c
 }
 export interface DataConfluentCatalogIntegrationKafkaCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#id DataConfluentCatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -480,7 +480,7 @@ export class DataConfluentCatalogIntegrationKafkaClusterOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration confluent_catalog_integration}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration confluent_catalog_integration}
 */
 export class DataConfluentCatalogIntegration extends cdktf.TerraformDataSource {
 
@@ -496,7 +496,7 @@ export class DataConfluentCatalogIntegration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentCatalogIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentCatalogIntegration to import
-  * @param importFromId The id of the existing DataConfluentCatalogIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentCatalogIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentCatalogIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -508,7 +508,7 @@ export class DataConfluentCatalogIntegration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/catalog_integration confluent_catalog_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/catalog_integration confluent_catalog_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -519,8 +519,8 @@ export class DataConfluentCatalogIntegration extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_catalog_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DashboardsAllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#id DashboardsAllowlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#id DashboardsAllowlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DashboardsAllowlistConfig extends cdktf.TerraformMetaArguments 
   /**
   * allowlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#allowlist DashboardsAllowlist#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#allowlist DashboardsAllowlist#allowlist}
   */
   readonly allowlist?: DashboardsAllowlistAllowlistStruct;
 }
@@ -25,13 +25,13 @@ export interface DashboardsAllowlistAllowlistUrlpattern {
   /**
   * Possible Values: `Equals`, `StartsWith`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#rule DashboardsAllowlist#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#rule DashboardsAllowlist#rule}
   */
   readonly rule: string;
   /**
   * Pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#template DashboardsAllowlist#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#template DashboardsAllowlist#template}
   */
   readonly template: string;
 }
@@ -172,7 +172,7 @@ export interface DashboardsAllowlistAllowlistStruct {
   /**
   * urlpattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#urlpattern DashboardsAllowlist#urlpattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#urlpattern DashboardsAllowlist#urlpattern}
   */
   readonly urlpattern: DashboardsAllowlistAllowlistUrlpattern[] | cdktf.IResolvable;
 }
@@ -253,7 +253,7 @@ export class DashboardsAllowlistAllowlistStructOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist dynatrace_dashboards_allowlist}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist dynatrace_dashboards_allowlist}
 */
 export class DashboardsAllowlist extends cdktf.TerraformResource {
 
@@ -269,7 +269,7 @@ export class DashboardsAllowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardsAllowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardsAllowlist to import
-  * @param importFromId The id of the existing DashboardsAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardsAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardsAllowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class DashboardsAllowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_allowlist dynatrace_dashboards_allowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_allowlist dynatrace_dashboards_allowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,8 +292,8 @@ export class DashboardsAllowlist extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_dashboards_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

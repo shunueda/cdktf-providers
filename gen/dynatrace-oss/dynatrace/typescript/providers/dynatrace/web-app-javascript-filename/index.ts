@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppJavascriptFilenameConfig extends cdktf.TerraformMetaArgum
   /**
   * Custom filename prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename#filename WebAppJavascriptFilename#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename#filename WebAppJavascriptFilename#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename#id WebAppJavascriptFilename#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename#id WebAppJavascriptFilename#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface WebAppJavascriptFilenameConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename dynatrace_web_app_javascript_filename}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename dynatrace_web_app_javascript_filename}
 */
 export class WebAppJavascriptFilename extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class WebAppJavascriptFilename extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppJavascriptFilename resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppJavascriptFilename to import
-  * @param importFromId The id of the existing WebAppJavascriptFilename that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppJavascriptFilename that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppJavascriptFilename to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class WebAppJavascriptFilename extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_javascript_filename dynatrace_web_app_javascript_filename} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_javascript_filename dynatrace_web_app_javascript_filename} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class WebAppJavascriptFilename extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_javascript_filename',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

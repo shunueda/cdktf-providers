@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MobileAppKeyPerformanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Treat user actions with reported errors or web request errors as erroneous and rate their performance as Frustrating. Turn off this setting if errors should not affect the Apdex rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#frustrating_if_reported_or_web_request_error MobileAppKeyPerformance#frustrating_if_reported_or_web_request_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#frustrating_if_reported_or_web_request_error MobileAppKeyPerformance#frustrating_if_reported_or_web_request_error}
   */
   readonly frustratingIfReportedOrWebRequestError: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#id MobileAppKeyPerformance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#id MobileAppKeyPerformance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MobileAppKeyPerformanceConfig extends cdktf.TerraformMetaArgume
   /**
   * The scope of this setting (DEVICE_APPLICATION_METHOD, MOBILE_APPLICATION, CUSTOM_APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#scope MobileAppKeyPerformance#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#scope MobileAppKeyPerformance#scope}
   */
   readonly scope: string;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#thresholds MobileAppKeyPerformance#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#thresholds MobileAppKeyPerformance#thresholds}
   */
   readonly thresholds: MobileAppKeyPerformanceThresholds;
 }
@@ -37,13 +37,13 @@ export interface MobileAppKeyPerformanceThresholds {
   /**
   * If the action duration is above this value, the Apdex is considered to be **Frustrating**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#frustrating_threshold_seconds MobileAppKeyPerformance#frustrating_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#frustrating_threshold_seconds MobileAppKeyPerformance#frustrating_threshold_seconds}
   */
   readonly frustratingThresholdSeconds: number;
   /**
   * If the action duration is below this value, the Apdex is considered to be **Satisfactory**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#tolerable_threshold_seconds MobileAppKeyPerformance#tolerable_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#tolerable_threshold_seconds MobileAppKeyPerformance#tolerable_threshold_seconds}
   */
   readonly tolerableThresholdSeconds: number;
 }
@@ -150,7 +150,7 @@ export class MobileAppKeyPerformanceThresholdsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance dynatrace_mobile_app_key_performance}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance dynatrace_mobile_app_key_performance}
 */
 export class MobileAppKeyPerformance extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class MobileAppKeyPerformance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MobileAppKeyPerformance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MobileAppKeyPerformance to import
-  * @param importFromId The id of the existing MobileAppKeyPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MobileAppKeyPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MobileAppKeyPerformance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class MobileAppKeyPerformance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_key_performance dynatrace_mobile_app_key_performance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_key_performance dynatrace_mobile_app_key_performance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class MobileAppKeyPerformance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mobile_app_key_performance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

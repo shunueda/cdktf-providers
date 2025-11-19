@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface RoutingOspfInterfaceTemplateConfig extends cdktf.TerraformMetaA
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#___path___ RoutingOspfInterfaceTemplate#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#___path___ RoutingOspfInterfaceTemplate#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#___unset___ RoutingOspfInterfaceTemplate#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#___unset___ RoutingOspfInterfaceTemplate#___unset___}
   */
   readonly unset?: string;
   /**
   * The OSPF area to which the matching interface will be associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#area RoutingOspfInterfaceTemplate#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#area RoutingOspfInterfaceTemplate#area}
   */
   readonly area: string;
   /**
   * Specifies authentication method for OSPF protocol messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#auth RoutingOspfInterfaceTemplate#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#auth RoutingOspfInterfaceTemplate#auth}
   */
   readonly auth?: string;
   /**
   * The key id is used to calculate message digest (used when MD5 or SHA authentication is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#auth_id RoutingOspfInterfaceTemplate#auth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#auth_id RoutingOspfInterfaceTemplate#auth_id}
   */
   readonly authId?: number;
   /**
   * The authentication key to be used, should match on all the neighbors of the network segment (available since RouterOS 7.x).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#auth_key RoutingOspfInterfaceTemplate#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#auth_key RoutingOspfInterfaceTemplate#auth_key}
   */
   readonly authKey?: string;
   /**
   * The authentication key to be used, should match on all the neighbors of the network segment (for versions before RouterOS 7.x).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#authentication_key RoutingOspfInterfaceTemplate#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#authentication_key RoutingOspfInterfaceTemplate#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#comment RoutingOspfInterfaceTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#comment RoutingOspfInterfaceTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Interface cost expressed as link state metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#cost RoutingOspfInterfaceTemplate#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#cost RoutingOspfInterfaceTemplate#cost}
   */
   readonly cost?: number;
   /**
   * Specifies the interval after which a neighbor is declared dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#dead_interval RoutingOspfInterfaceTemplate#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#dead_interval RoutingOspfInterfaceTemplate#dead_interval}
   */
   readonly deadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#disabled RoutingOspfInterfaceTemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#disabled RoutingOspfInterfaceTemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The interval between HELLO packets that the router sends out this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#hello_interval RoutingOspfInterfaceTemplate#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#hello_interval RoutingOspfInterfaceTemplate#hello_interval}
   */
   readonly helloInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#id RoutingOspfInterfaceTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#id RoutingOspfInterfaceTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,79 +85,79 @@ export interface RoutingOspfInterfaceTemplateConfig extends cdktf.TerraformMetaA
   /**
   * Interface cost expressed as link state metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#instance_id RoutingOspfInterfaceTemplate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#instance_id RoutingOspfInterfaceTemplate#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Interfaces to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#interfaces RoutingOspfInterfaceTemplate#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#interfaces RoutingOspfInterfaceTemplate#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * The network prefixes associated with the area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#networks RoutingOspfInterfaceTemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#networks RoutingOspfInterfaceTemplate#networks}
   */
   readonly networks?: string[];
   /**
   * If enabled, then do not send or receive OSPF traffic on the matching interfaces. <em>The correct value of this attribute may not be displayed in Winbox. Please check the parameters in the console!</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#passive RoutingOspfInterfaceTemplate#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#passive RoutingOspfInterfaceTemplate#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Name of the address list containing networks that should be advertised to the v3 interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#prefix_list RoutingOspfInterfaceTemplate#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#prefix_list RoutingOspfInterfaceTemplate#prefix_list}
   */
   readonly prefixList?: string;
   /**
   * Router's priority. Used to determine the designated router in a broadcast network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#priority RoutingOspfInterfaceTemplate#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#priority RoutingOspfInterfaceTemplate#priority}
   */
   readonly priority?: number;
   /**
   * Time interval the lost link state advertisement will be resent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#retransmit_interval RoutingOspfInterfaceTemplate#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#retransmit_interval RoutingOspfInterfaceTemplate#retransmit_interval}
   */
   readonly retransmitInterval?: string;
   /**
   * Link-state transmit delay is the estimated time it takes to transmit a link-state update packet on the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#transmit_delay RoutingOspfInterfaceTemplate#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#transmit_delay RoutingOspfInterfaceTemplate#transmit_delay}
   */
   readonly transmitDelay?: string;
   /**
   * The OSPF network type on this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#type RoutingOspfInterfaceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#type RoutingOspfInterfaceTemplate#type}
   */
   readonly type?: string;
   /**
   * Whether to use the BFD protocol for faster connection state detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#use_bfd RoutingOspfInterfaceTemplate#use_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#use_bfd RoutingOspfInterfaceTemplate#use_bfd}
   */
   readonly useBfd?: boolean | cdktf.IResolvable;
   /**
   * Specifies the router-id of the neighbor which should be connected over the virtual link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#vlink_neighbor_id RoutingOspfInterfaceTemplate#vlink_neighbor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#vlink_neighbor_id RoutingOspfInterfaceTemplate#vlink_neighbor_id}
   */
   readonly vlinkNeighborId?: string;
   /**
   * A non-backbone area the two routers have in common over which the virtual link will be established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#vlink_transit_area RoutingOspfInterfaceTemplate#vlink_transit_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#vlink_transit_area RoutingOspfInterfaceTemplate#vlink_transit_area}
   */
   readonly vlinkTransitArea?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template routeros_routing_ospf_interface_template}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template routeros_routing_ospf_interface_template}
 */
 export class RoutingOspfInterfaceTemplate extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class RoutingOspfInterfaceTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingOspfInterfaceTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingOspfInterfaceTemplate to import
-  * @param importFromId The id of the existing RoutingOspfInterfaceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingOspfInterfaceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingOspfInterfaceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class RoutingOspfInterfaceTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_interface_template routeros_routing_ospf_interface_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/routing_ospf_interface_template routeros_routing_ospf_interface_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class RoutingOspfInterfaceTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_ospf_interface_template',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

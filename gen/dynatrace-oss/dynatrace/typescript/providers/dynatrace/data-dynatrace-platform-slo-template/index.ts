@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/platform_slo_template
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/platform_slo_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataDynatracePlatformSloTemplateConfig extends cdktf.TerraformM
   /**
   * Name of the SLO objective template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/platform_slo_template#name DataDynatracePlatformSloTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/platform_slo_template#name DataDynatracePlatformSloTemplate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/platform_slo_template dynatrace_platform_slo_template}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/platform_slo_template dynatrace_platform_slo_template}
 */
 export class DataDynatracePlatformSloTemplate extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataDynatracePlatformSloTemplate extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataDynatracePlatformSloTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatracePlatformSloTemplate to import
-  * @param importFromId The id of the existing DataDynatracePlatformSloTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/platform_slo_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatracePlatformSloTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/platform_slo_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatracePlatformSloTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataDynatracePlatformSloTemplate extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/platform_slo_template dynatrace_platform_slo_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/platform_slo_template dynatrace_platform_slo_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataDynatracePlatformSloTemplate extends cdktf.TerraformDataSource 
       terraformResourceType: 'dynatrace_platform_slo_template',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

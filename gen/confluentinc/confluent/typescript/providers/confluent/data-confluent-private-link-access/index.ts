@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentPrivateLinkAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access#display_name DataConfluentPrivateLinkAccess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access#display_name DataConfluentPrivateLinkAccess#display_name}
   */
   readonly displayName?: string;
   /**
   * The ID of the Private Link Access, for example, `pla-abc123`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access#id DataConfluentPrivateLinkAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access#id DataConfluentPrivateLinkAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataConfluentPrivateLinkAccessConfig extends cdktf.TerraformMet
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access#environment DataConfluentPrivateLinkAccess#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access#environment DataConfluentPrivateLinkAccess#environment}
   */
   readonly environment: DataConfluentPrivateLinkAccessEnvironment;
 }
@@ -329,7 +329,7 @@ export class DataConfluentPrivateLinkAccessNetworkList extends cdktf.ComplexList
 }
 export interface DataConfluentPrivateLinkAccessEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access#id DataConfluentPrivateLinkAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access#id DataConfluentPrivateLinkAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -413,7 +413,7 @@ export class DataConfluentPrivateLinkAccessEnvironmentOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access confluent_private_link_access}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access confluent_private_link_access}
 */
 export class DataConfluentPrivateLinkAccess extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataConfluentPrivateLinkAccess extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentPrivateLinkAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentPrivateLinkAccess to import
-  * @param importFromId The id of the existing DataConfluentPrivateLinkAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentPrivateLinkAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentPrivateLinkAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataConfluentPrivateLinkAccess extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/private_link_access confluent_private_link_access} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/private_link_access confluent_private_link_access} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataConfluentPrivateLinkAccess extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_private_link_access',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

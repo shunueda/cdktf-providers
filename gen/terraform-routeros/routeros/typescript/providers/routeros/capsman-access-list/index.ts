@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CapsmanAccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#___path___ CapsmanAccessList#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#___path___ CapsmanAccessList#___path___}
   */
   readonly path?: string;
   /**
   * An action to take when a client matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#action CapsmanAccessList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#action CapsmanAccessList#action}
   */
   readonly action?: string;
   /**
   * An option that permits the client's signal to be out of the range always or for some time interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#allow_signal_out_of_range CapsmanAccessList#allow_signal_out_of_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#allow_signal_out_of_range CapsmanAccessList#allow_signal_out_of_range}
   */
   readonly allowSignalOutOfRange?: string;
   /**
   * Transmission speed limit in the direction of the client..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#ap_tx_limit CapsmanAccessList#ap_tx_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#ap_tx_limit CapsmanAccessList#ap_tx_limit}
   */
   readonly apTxLimit?: number;
   /**
   * An option that specifies whether to allow forwarding data between clients connected to the same interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#client_to_client_forwarding CapsmanAccessList#client_to_client_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#client_to_client_forwarding CapsmanAccessList#client_to_client_forwarding}
   */
   readonly clientToClientForwarding?: boolean | cdktf.IResolvable;
   /**
   * Transmission speed limit in the direction of the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#client_tx_limit CapsmanAccessList#client_tx_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#client_tx_limit CapsmanAccessList#client_tx_limit}
   */
   readonly clientTxLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#comment CapsmanAccessList#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#comment CapsmanAccessList#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#disabled CapsmanAccessList#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#disabled CapsmanAccessList#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#id CapsmanAccessList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#id CapsmanAccessList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,19 +61,19 @@ export interface CapsmanAccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface name to compare with an interface to which the client actually connects to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#interface CapsmanAccessList#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#interface CapsmanAccessList#interface}
   */
   readonly interface?: string;
   /**
   * MAC address of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#mac_address CapsmanAccessList#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#mac_address CapsmanAccessList#mac_address}
   */
   readonly macAddress?: string;
   /**
   * MAC address mask to apply when comparing clients' addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#mac_mask CapsmanAccessList#mac_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#mac_mask CapsmanAccessList#mac_mask}
   */
   readonly macMask?: string;
   /**
@@ -82,55 +82,55 @@ export interface CapsmanAccessListConfig extends cdktf.TerraformMetaArguments {
   * 	> Best way to use in conjunction with a data source. See [example](../data-sources/ip_firewall.md#example-usage).  
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#place_before CapsmanAccessList#place_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#place_before CapsmanAccessList#place_before}
   */
   readonly placeBefore?: string;
   /**
   * PSK passphrase for the client if some PSK authentication algorithm is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#private_passphrase CapsmanAccessList#private_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#private_passphrase CapsmanAccessList#private_passphrase}
   */
   readonly privatePassphrase?: string;
   /**
   * An option that specifies if RADIUS traffic accounting should be used in case of RADIUS authentication of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#radius_accounting CapsmanAccessList#radius_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#radius_accounting CapsmanAccessList#radius_accounting}
   */
   readonly radiusAccounting?: boolean | cdktf.IResolvable;
   /**
   * The range in which the client signal must fall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#signal_range CapsmanAccessList#signal_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#signal_range CapsmanAccessList#signal_range}
   */
   readonly signalRange?: string;
   /**
   * The regular expression to compare the actual SSID the client connects to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#ssid_regexp CapsmanAccessList#ssid_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#ssid_regexp CapsmanAccessList#ssid_regexp}
   */
   readonly ssidRegexp?: string;
   /**
   * Time of the day and days of the week when the rule is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#time CapsmanAccessList#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#time CapsmanAccessList#time}
   */
   readonly time?: string;
   /**
   * VLAN ID to use if vlan-mode enables use of VLAN tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#vlan_id CapsmanAccessList#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#vlan_id CapsmanAccessList#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * VLAN tagging mode specifies if traffic coming from a client should get tagged and untagged when it goes back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#vlan_mode CapsmanAccessList#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#vlan_mode CapsmanAccessList#vlan_mode}
   */
   readonly vlanMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list routeros_capsman_access_list}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list routeros_capsman_access_list}
 */
 export class CapsmanAccessList extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class CapsmanAccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanAccessList to import
-  * @param importFromId The id of the existing CapsmanAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class CapsmanAccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/capsman_access_list routeros_capsman_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/capsman_access_list routeros_capsman_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class CapsmanAccessList extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_access_list',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

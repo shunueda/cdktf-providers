@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KafkaMirrorTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#id KafkaMirrorTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#id KafkaMirrorTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface KafkaMirrorTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the topic to be mirrored over the Kafka Mirror Topic, i.e. the source topic's name. Only required when there is a prefix configured on the link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#mirror_topic_name KafkaMirrorTopic#mirror_topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#mirror_topic_name KafkaMirrorTopic#mirror_topic_name}
   */
   readonly mirrorTopicName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#status KafkaMirrorTopic#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#status KafkaMirrorTopic#status}
   */
   readonly status?: string;
   /**
   * cluster_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#cluster_link KafkaMirrorTopic#cluster_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#cluster_link KafkaMirrorTopic#cluster_link}
   */
   readonly clusterLink: KafkaMirrorTopicClusterLink;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#kafka_cluster KafkaMirrorTopic#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#kafka_cluster KafkaMirrorTopic#kafka_cluster}
   */
   readonly kafkaCluster: KafkaMirrorTopicKafkaCluster;
   /**
   * source_kafka_topic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#source_kafka_topic KafkaMirrorTopic#source_kafka_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#source_kafka_topic KafkaMirrorTopic#source_kafka_topic}
   */
   readonly sourceKafkaTopic: KafkaMirrorTopicSourceKafkaTopic;
 }
@@ -47,7 +47,7 @@ export interface KafkaMirrorTopicClusterLink {
   /**
   * The name of the Cluster Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#link_name KafkaMirrorTopic#link_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#link_name KafkaMirrorTopic#link_name}
   */
   readonly linkName: string;
 }
@@ -130,13 +130,13 @@ export interface KafkaMirrorTopicKafkaClusterCredentials {
   /**
   * The Kafka API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#key KafkaMirrorTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#key KafkaMirrorTopic#key}
   */
   readonly key: string;
   /**
   * The Kafka API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#secret KafkaMirrorTopic#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#secret KafkaMirrorTopic#secret}
   */
   readonly secret: string;
 }
@@ -245,7 +245,7 @@ export interface KafkaMirrorTopicKafkaCluster {
   /**
   * The unique identifier for the referred Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#id KafkaMirrorTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#id KafkaMirrorTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -254,13 +254,13 @@ export interface KafkaMirrorTopicKafkaCluster {
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#rest_endpoint KafkaMirrorTopic#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#rest_endpoint KafkaMirrorTopic#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#credentials KafkaMirrorTopic#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#credentials KafkaMirrorTopic#credentials}
   */
   readonly credentials?: KafkaMirrorTopicKafkaClusterCredentials;
 }
@@ -401,7 +401,7 @@ export interface KafkaMirrorTopicSourceKafkaTopic {
   /**
   * The name of the Source Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#topic_name KafkaMirrorTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#topic_name KafkaMirrorTopic#topic_name}
   */
   readonly topicName: string;
 }
@@ -482,7 +482,7 @@ export class KafkaMirrorTopicSourceKafkaTopicOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic confluent_kafka_mirror_topic}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic confluent_kafka_mirror_topic}
 */
 export class KafkaMirrorTopic extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class KafkaMirrorTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaMirrorTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaMirrorTopic to import
-  * @param importFromId The id of the existing KafkaMirrorTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaMirrorTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaMirrorTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class KafkaMirrorTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/kafka_mirror_topic confluent_kafka_mirror_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/kafka_mirror_topic confluent_kafka_mirror_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class KafkaMirrorTopic extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_kafka_mirror_topic',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SystemSchedulerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#___path___ SystemScheduler#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#___path___ SystemScheduler#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#comment SystemScheduler#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#comment SystemScheduler#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#disabled SystemScheduler#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#disabled SystemScheduler#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#id SystemScheduler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#id SystemScheduler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ export interface SystemSchedulerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval between two script executions, if time interval is set to zero, the script is only executed at its start time, otherwise it is executed repeatedly at the time interval is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#interval SystemScheduler#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#interval SystemScheduler#interval}
   */
   readonly interval?: string;
   /**
@@ -40,13 +40,13 @@ export interface SystemSchedulerConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#name SystemScheduler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#name SystemScheduler#name}
   */
   readonly name: string;
   /**
   * Name of the script to execute. It must be presented at /system script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#on_event SystemScheduler#on_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#on_event SystemScheduler#on_event}
   */
   readonly onEvent: string;
   /**
@@ -65,25 +65,25 @@ export interface SystemSchedulerConfig extends cdktf.TerraformMetaArguments {
   * policy = ["ftp", "read", "write"]
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#policy SystemScheduler#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#policy SystemScheduler#policy}
   */
   readonly policy?: string[];
   /**
   * Date of the first script execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#start_date SystemScheduler#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#start_date SystemScheduler#start_date}
   */
   readonly startDate?: string;
   /**
   * Time of the first script execution. If scheduler item has start-time set to startup, it behaves as if start-time and start-date were set to time 3 seconds after console starts up. It means that all scripts having start-time is startup and interval is 0 will be executed once each time router boots. If the interval is set to value other than 0 scheduler will not run at startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#start_time SystemScheduler#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#start_time SystemScheduler#start_time}
   */
   readonly startTime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler routeros_system_scheduler}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler routeros_system_scheduler}
 */
 export class SystemScheduler extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class SystemScheduler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemScheduler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemScheduler to import
-  * @param importFromId The id of the existing SystemScheduler that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemScheduler that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemScheduler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class SystemScheduler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_scheduler routeros_system_scheduler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/system_scheduler routeros_system_scheduler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class SystemScheduler extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_scheduler',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppKeyPerformanceXhrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#id WebAppKeyPerformanceXhr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#id WebAppKeyPerformanceXhr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface WebAppKeyPerformanceXhrConfig extends cdktf.TerraformMetaArgume
   /**
   * Possible Values: `RESPONSE_END`, `RESPONSE_START`, `USER_ACTION_DURATION`, `VISUALLY_COMPLETE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#kpm WebAppKeyPerformanceXhr#kpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#kpm WebAppKeyPerformanceXhr#kpm}
   */
   readonly kpm: string;
   /**
   * The scope of this setting (APPLICATION_METHOD, APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#scope WebAppKeyPerformanceXhr#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#scope WebAppKeyPerformanceXhr#scope}
   */
   readonly scope: string;
   /**
   * fallback_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#fallback_thresholds WebAppKeyPerformanceXhr#fallback_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#fallback_thresholds WebAppKeyPerformanceXhr#fallback_thresholds}
   */
   readonly fallbackThresholds?: WebAppKeyPerformanceXhrFallbackThresholds;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#thresholds WebAppKeyPerformanceXhr#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#thresholds WebAppKeyPerformanceXhr#thresholds}
   */
   readonly thresholds: WebAppKeyPerformanceXhrThresholds;
 }
@@ -43,13 +43,13 @@ export interface WebAppKeyPerformanceXhrFallbackThresholds {
   /**
   * If **User action duration** is above this value, the action is assigned to the Frustrated performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#frustrating_fallback_threshold_seconds WebAppKeyPerformanceXhr#frustrating_fallback_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#frustrating_fallback_threshold_seconds WebAppKeyPerformanceXhr#frustrating_fallback_threshold_seconds}
   */
   readonly frustratingFallbackThresholdSeconds: number;
   /**
   * If **User action duration** is below this value, the action is assigned to the Satisfied performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#tolerated_fallback_threshold_seconds WebAppKeyPerformanceXhr#tolerated_fallback_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#tolerated_fallback_threshold_seconds WebAppKeyPerformanceXhr#tolerated_fallback_threshold_seconds}
   */
   readonly toleratedFallbackThresholdSeconds: number;
 }
@@ -158,13 +158,13 @@ export interface WebAppKeyPerformanceXhrThresholds {
   /**
   * If the key performance metric is above this value, the action is assigned to the Frustrated performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#frustrating_threshold_seconds WebAppKeyPerformanceXhr#frustrating_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#frustrating_threshold_seconds WebAppKeyPerformanceXhr#frustrating_threshold_seconds}
   */
   readonly frustratingThresholdSeconds: number;
   /**
   * If the key performance metric is below this value, the action is assigned to the Satisfied performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#tolerated_threshold_seconds WebAppKeyPerformanceXhr#tolerated_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#tolerated_threshold_seconds WebAppKeyPerformanceXhr#tolerated_threshold_seconds}
   */
   readonly toleratedThresholdSeconds: number;
 }
@@ -271,7 +271,7 @@ export class WebAppKeyPerformanceXhrThresholdsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr dynatrace_web_app_key_performance_xhr}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr dynatrace_web_app_key_performance_xhr}
 */
 export class WebAppKeyPerformanceXhr extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class WebAppKeyPerformanceXhr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppKeyPerformanceXhr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppKeyPerformanceXhr to import
-  * @param importFromId The id of the existing WebAppKeyPerformanceXhr that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppKeyPerformanceXhr that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppKeyPerformanceXhr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class WebAppKeyPerformanceXhr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_xhr dynatrace_web_app_key_performance_xhr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_xhr dynatrace_web_app_key_performance_xhr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class WebAppKeyPerformanceXhr extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_key_performance_xhr',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

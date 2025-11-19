@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitSqlserverflexInstanceConfig extends cdktf.TerraformM
   /**
   * ID of the SQLServer Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance#instance_id DataStackitSqlserverflexInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance#instance_id DataStackitSqlserverflexInstance#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance#project_id DataStackitSqlserverflexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance#project_id DataStackitSqlserverflexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance#region DataStackitSqlserverflexInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance#region DataStackitSqlserverflexInstance#region}
   */
   readonly region?: string;
 }
@@ -215,7 +215,7 @@ export class DataStackitSqlserverflexInstanceStorageOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance stackit_sqlserverflex_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance stackit_sqlserverflex_instance}
 */
 export class DataStackitSqlserverflexInstance extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataStackitSqlserverflexInstance extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataStackitSqlserverflexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitSqlserverflexInstance to import
-  * @param importFromId The id of the existing DataStackitSqlserverflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitSqlserverflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitSqlserverflexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataStackitSqlserverflexInstance extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/sqlserverflex_instance stackit_sqlserverflex_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/sqlserverflex_instance stackit_sqlserverflex_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class DataStackitSqlserverflexInstance extends cdktf.TerraformDataSource 
       terraformResourceType: 'stackit_sqlserverflex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

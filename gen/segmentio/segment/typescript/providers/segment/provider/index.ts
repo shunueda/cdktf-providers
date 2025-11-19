@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SegmentProviderConfig {
   /**
   * The Public API token. If not set, the PUBLIC_API_TOKEN environment variable will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs#token SegmentProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs#token SegmentProvider#token}
   */
   readonly token?: string;
   /**
   * The Public API url. Defaults to 'api.segmentapis.com', but can be overwritten by supplying it as an input to the provider or as a PUBLIC_API_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs#url SegmentProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs#url SegmentProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs#alias SegmentProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs#alias SegmentProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs segment}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs segment}
 */
 export class SegmentProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class SegmentProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SegmentProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SegmentProvider to import
-  * @param importFromId The id of the existing SegmentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SegmentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SegmentProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SegmentProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SegmentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'segment',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       terraformProviderSource: 'segmentio/segment'
     });

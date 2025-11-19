@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CustomTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * For internal use: current state of tags in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#current_state CustomTags#current_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#current_state CustomTags#current_state}
   */
   readonly currentState?: string;
   /**
   * Specifies the entities where you want to update tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#entity_selector CustomTags#entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#entity_selector CustomTags#entity_selector}
   */
   readonly entitySelector: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#id CustomTags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#id CustomTags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface CustomTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of monitored entities where the tags have been added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#matched_entities CustomTags#matched_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#matched_entities CustomTags#matched_entities}
   */
   readonly matchedEntities?: number;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#tags CustomTags#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#tags CustomTags#tags}
   */
   readonly tags: CustomTagsTags;
 }
@@ -43,19 +43,19 @@ export interface CustomTagsTagsFilter {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#context CustomTags#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#context CustomTags#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#key CustomTags#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#key CustomTags#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#value CustomTags#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#value CustomTags#value}
   */
   readonly value?: string;
 }
@@ -225,7 +225,7 @@ export interface CustomTagsTags {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#filter CustomTags#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#filter CustomTags#filter}
   */
   readonly filter?: CustomTagsTagsFilter[] | cdktf.IResolvable;
 }
@@ -309,7 +309,7 @@ export class CustomTagsTagsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags dynatrace_custom_tags}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags dynatrace_custom_tags}
 */
 export class CustomTags extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class CustomTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomTags to import
-  * @param importFromId The id of the existing CustomTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class CustomTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_tags dynatrace_custom_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_tags dynatrace_custom_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class CustomTags extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_tags',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

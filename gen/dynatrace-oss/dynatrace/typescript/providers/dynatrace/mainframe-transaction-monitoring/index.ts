@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MainframeTransactionMonitoringConfig extends cdktf.TerraformMet
   /**
   * If enabled, CICS regions belonging to the same CICSPlex will be grouped into a single process group. If disabled, a process group will be created for each CICS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#group_cics_regions MainframeTransactionMonitoring#group_cics_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#group_cics_regions MainframeTransactionMonitoring#group_cics_regions}
   */
   readonly groupCicsRegions: boolean | cdktf.IResolvable;
   /**
   * If enabled, IMS regions belonging to the same subsystem will be grouped into a single process group. If disabled, a process group will be created for each IMS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#group_ims_regions MainframeTransactionMonitoring#group_ims_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#group_ims_regions MainframeTransactionMonitoring#group_ims_regions}
   */
   readonly groupImsRegions: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#id MainframeTransactionMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#id MainframeTransactionMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface MainframeTransactionMonitoringConfig extends cdktf.TerraformMet
   /**
   * If enabled, the CICS Transaction Gateway sensor will trace all EXCI requests including those that are using the TCP/IP or SNA protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#monitor_all_ctg_protocols MainframeTransactionMonitoring#monitor_all_ctg_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#monitor_all_ctg_protocols MainframeTransactionMonitoring#monitor_all_ctg_protocols}
   */
   readonly monitorAllCtgProtocols: boolean | cdktf.IResolvable;
   /**
   * Dynatrace automatically traces incoming web requests when they are called by already-monitored services. Enable this setting to monitor all incoming web requests. We recommend enabling it only over a short period of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#monitor_all_incoming_web_requests MainframeTransactionMonitoring#monitor_all_incoming_web_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#monitor_all_incoming_web_requests MainframeTransactionMonitoring#monitor_all_incoming_web_requests}
   */
   readonly monitorAllIncomingWebRequests: boolean | cdktf.IResolvable;
   /**
   * We recommend the default limit of 500 nodes. The value 0 means unlimited number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#node_limit MainframeTransactionMonitoring#node_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#node_limit MainframeTransactionMonitoring#node_limit}
   */
   readonly nodeLimit: number;
   /**
   * If enabled, a CICS service will be created for each monitored transaction ID within a process group. If disabled, a CICS service will be created for each monitored CICS region within a process group. We recommend enabling it only when the CICS regions are grouped by their CICSPlex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#zos_cics_service_detection_uses_transaction_id MainframeTransactionMonitoring#zos_cics_service_detection_uses_transaction_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#zos_cics_service_detection_uses_transaction_id MainframeTransactionMonitoring#zos_cics_service_detection_uses_transaction_id}
   */
   readonly zosCicsServiceDetectionUsesTransactionId: boolean | cdktf.IResolvable;
   /**
   * If enabled, an IMS service will be created for each monitored transaction ID within a process group. If disabled, an IMS service will be created for each monitored IMS region within a process group. We recommend enabling it only when the IMS regions are grouped by their subsystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#zos_ims_service_detection_uses_transaction_id MainframeTransactionMonitoring#zos_ims_service_detection_uses_transaction_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#zos_ims_service_detection_uses_transaction_id MainframeTransactionMonitoring#zos_ims_service_detection_uses_transaction_id}
   */
   readonly zosImsServiceDetectionUsesTransactionId: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring dynatrace_mainframe_transaction_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring dynatrace_mainframe_transaction_monitoring}
 */
 export class MainframeTransactionMonitoring extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class MainframeTransactionMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MainframeTransactionMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MainframeTransactionMonitoring to import
-  * @param importFromId The id of the existing MainframeTransactionMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MainframeTransactionMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MainframeTransactionMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class MainframeTransactionMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mainframe_transaction_monitoring dynatrace_mainframe_transaction_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mainframe_transaction_monitoring dynatrace_mainframe_transaction_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class MainframeTransactionMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mainframe_transaction_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

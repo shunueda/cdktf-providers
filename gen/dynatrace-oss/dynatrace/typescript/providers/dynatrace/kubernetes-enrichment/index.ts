@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesEnrichmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#id KubernetesEnrichment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#id KubernetesEnrichment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface KubernetesEnrichmentConfig extends cdktf.TerraformMetaArguments
   /**
   * The scope of this setting (KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#scope KubernetesEnrichment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#scope KubernetesEnrichment#scope}
   */
   readonly scope?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#rules KubernetesEnrichment#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#rules KubernetesEnrichment#rules}
   */
   readonly rules?: KubernetesEnrichmentRules;
 }
@@ -31,13 +31,13 @@ export interface KubernetesEnrichmentRulesRule {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#enabled KubernetesEnrichment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#enabled KubernetesEnrichment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Uses the key of the annotation or label as field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#primary_grail_tag KubernetesEnrichment#primary_grail_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#primary_grail_tag KubernetesEnrichment#primary_grail_tag}
   */
   readonly primaryGrailTag?: boolean | cdktf.IResolvable;
   /**
@@ -51,19 +51,19 @@ export interface KubernetesEnrichmentRulesRule {
   * 
   * Additionally, the name can have at most 63 characters, and the overall length of the source must not exceed 75 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#source KubernetesEnrichment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#source KubernetesEnrichment#source}
   */
   readonly source: string;
   /**
   * Required when `primary_grail_tag` is omitted or `false`. Possible Values: `dt.cost.costcenter``, `dt.cost.product``, `dt.security_context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#target KubernetesEnrichment#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#target KubernetesEnrichment#target}
   */
   readonly target?: string;
   /**
   * Possible Values: `ANNOTATION`, `LABEL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#type KubernetesEnrichment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#type KubernetesEnrichment#type}
   */
   readonly type: string;
 }
@@ -291,7 +291,7 @@ export interface KubernetesEnrichmentRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#rule KubernetesEnrichment#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#rule KubernetesEnrichment#rule}
   */
   readonly rule: KubernetesEnrichmentRulesRule[] | cdktf.IResolvable;
 }
@@ -372,7 +372,7 @@ export class KubernetesEnrichmentRulesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment dynatrace_kubernetes_enrichment}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment dynatrace_kubernetes_enrichment}
 */
 export class KubernetesEnrichment extends cdktf.TerraformResource {
 
@@ -388,7 +388,7 @@ export class KubernetesEnrichment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesEnrichment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesEnrichment to import
-  * @param importFromId The id of the existing KubernetesEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesEnrichment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -400,7 +400,7 @@ export class KubernetesEnrichment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes_enrichment dynatrace_kubernetes_enrichment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_enrichment dynatrace_kubernetes_enrichment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,8 +411,8 @@ export class KubernetesEnrichment extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_kubernetes_enrichment',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CustomCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The certificate itself. Should be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate#certificate CustomCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate#certificate CustomCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * The Certificate Authority root certificate such as one of Let's Encrypt's ISRG root certificates. This will be provided by your certificate issuer and is different to the core certificate. This may be included in their download process or available for download on their website. Should be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate#certificate_authority_certificate CustomCertificate#certificate_authority_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate#certificate_authority_certificate CustomCertificate#certificate_authority_certificate}
   */
   readonly certificateAuthorityCertificate: string;
   /**
   * The private key of the Certificate. Should be in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate#private_key CustomCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate#private_key CustomCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * The ID of the team the Custom Certificate should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate#team_id CustomCertificate#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate#team_id CustomCertificate#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate vercel_custom_certificate}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate vercel_custom_certificate}
 */
 export class CustomCertificate extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CustomCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomCertificate to import
-  * @param importFromId The id of the existing CustomCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CustomCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/custom_certificate vercel_custom_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/custom_certificate vercel_custom_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CustomCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_custom_certificate',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

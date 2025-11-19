@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceAnomaliesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#id ServiceAnomaliesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#id ServiceAnomaliesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ServiceAnomaliesV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (SERVICE_METHOD, SERVICE, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#scope ServiceAnomaliesV2#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#scope ServiceAnomaliesV2#scope}
   */
   readonly scope?: string;
   /**
   * failure_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#failure_rate ServiceAnomaliesV2#failure_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#failure_rate ServiceAnomaliesV2#failure_rate}
   */
   readonly failureRate: ServiceAnomaliesV2FailureRate;
   /**
   * load_drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#load_drops ServiceAnomaliesV2#load_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#load_drops ServiceAnomaliesV2#load_drops}
   */
   readonly loadDrops: ServiceAnomaliesV2LoadDrops;
   /**
   * load_spikes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#load_spikes ServiceAnomaliesV2#load_spikes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#load_spikes ServiceAnomaliesV2#load_spikes}
   */
   readonly loadSpikes: ServiceAnomaliesV2LoadSpikes;
   /**
   * response_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#response_time ServiceAnomaliesV2#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#response_time ServiceAnomaliesV2#response_time}
   */
   readonly responseTime: ServiceAnomaliesV2ResponseTime;
 }
@@ -49,13 +49,13 @@ export interface ServiceAnomaliesV2FailureRateAutoDetectionOverAlertingProtectio
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
   */
   readonly requestsPerMinute: number;
 }
@@ -164,19 +164,19 @@ export interface ServiceAnomaliesV2FailureRateAutoDetection {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#absolute_increase ServiceAnomaliesV2#absolute_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#absolute_increase ServiceAnomaliesV2#absolute_increase}
   */
   readonly absoluteIncrease: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#relative_increase ServiceAnomaliesV2#relative_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#relative_increase ServiceAnomaliesV2#relative_increase}
   */
   readonly relativeIncrease: number;
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
   */
   readonly overAlertingProtection: ServiceAnomaliesV2FailureRateAutoDetectionOverAlertingProtection;
 }
@@ -311,13 +311,13 @@ export interface ServiceAnomaliesV2FailureRateFixedDetectionOverAlertingProtecti
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
   */
   readonly requestsPerMinute: number;
 }
@@ -426,19 +426,19 @@ export interface ServiceAnomaliesV2FailureRateFixedDetection {
   /**
   * Possible Values: `High`, `Low`, `Medium`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#sensitivity ServiceAnomaliesV2#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#sensitivity ServiceAnomaliesV2#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#threshold ServiceAnomaliesV2#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#threshold ServiceAnomaliesV2#threshold}
   */
   readonly threshold: number;
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
   */
   readonly overAlertingProtection: ServiceAnomaliesV2FailureRateFixedDetectionOverAlertingProtection;
 }
@@ -573,25 +573,25 @@ export interface ServiceAnomaliesV2FailureRate {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#detection_mode ServiceAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#detection_mode ServiceAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * auto_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#auto_detection ServiceAnomaliesV2#auto_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#auto_detection ServiceAnomaliesV2#auto_detection}
   */
   readonly autoDetection?: ServiceAnomaliesV2FailureRateAutoDetection;
   /**
   * fixed_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#fixed_detection ServiceAnomaliesV2#fixed_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#fixed_detection ServiceAnomaliesV2#fixed_detection}
   */
   readonly fixedDetection?: ServiceAnomaliesV2FailureRateFixedDetection;
 }
@@ -761,19 +761,19 @@ export interface ServiceAnomaliesV2LoadDrops {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#load_drop_percent ServiceAnomaliesV2#load_drop_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#load_drop_percent ServiceAnomaliesV2#load_drop_percent}
   */
   readonly loadDropPercent?: number;
   /**
   * Time span
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState?: number;
 }
@@ -914,19 +914,19 @@ export interface ServiceAnomaliesV2LoadSpikes {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#load_spike_percent ServiceAnomaliesV2#load_spike_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#load_spike_percent ServiceAnomaliesV2#load_spike_percent}
   */
   readonly loadSpikePercent?: number;
   /**
   * Time span
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState?: number;
 }
@@ -1067,13 +1067,13 @@ export interface ServiceAnomaliesV2ResponseTimeAutoDetectionOverAlertingProtecti
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
   */
   readonly requestsPerMinute: number;
 }
@@ -1182,13 +1182,13 @@ export interface ServiceAnomaliesV2ResponseTimeAutoDetectionResponseTimeAll {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#degradation_milliseconds ServiceAnomaliesV2#degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#degradation_milliseconds ServiceAnomaliesV2#degradation_milliseconds}
   */
   readonly degradationMilliseconds: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#degradation_percent ServiceAnomaliesV2#degradation_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#degradation_percent ServiceAnomaliesV2#degradation_percent}
   */
   readonly degradationPercent: number;
 }
@@ -1297,13 +1297,13 @@ export interface ServiceAnomaliesV2ResponseTimeAutoDetectionResponseTimeSlowest 
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#slowest_degradation_milliseconds ServiceAnomaliesV2#slowest_degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#slowest_degradation_milliseconds ServiceAnomaliesV2#slowest_degradation_milliseconds}
   */
   readonly slowestDegradationMilliseconds: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#slowest_degradation_percent ServiceAnomaliesV2#slowest_degradation_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#slowest_degradation_percent ServiceAnomaliesV2#slowest_degradation_percent}
   */
   readonly slowestDegradationPercent: number;
 }
@@ -1412,19 +1412,19 @@ export interface ServiceAnomaliesV2ResponseTimeAutoDetection {
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
   */
   readonly overAlertingProtection: ServiceAnomaliesV2ResponseTimeAutoDetectionOverAlertingProtection;
   /**
   * response_time_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#response_time_all ServiceAnomaliesV2#response_time_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#response_time_all ServiceAnomaliesV2#response_time_all}
   */
   readonly responseTimeAll: ServiceAnomaliesV2ResponseTimeAutoDetectionResponseTimeAll;
   /**
   * response_time_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#response_time_slowest ServiceAnomaliesV2#response_time_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#response_time_slowest ServiceAnomaliesV2#response_time_slowest}
   */
   readonly responseTimeSlowest: ServiceAnomaliesV2ResponseTimeAutoDetectionResponseTimeSlowest;
 }
@@ -1559,13 +1559,13 @@ export interface ServiceAnomaliesV2ResponseTimeFixedDetectionOverAlertingProtect
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#minutes_abnormal_state ServiceAnomaliesV2#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#requests_per_minute ServiceAnomaliesV2#requests_per_minute}
   */
   readonly requestsPerMinute: number;
 }
@@ -1674,7 +1674,7 @@ export interface ServiceAnomaliesV2ResponseTimeFixedDetectionResponseTimeAll {
   /**
   * Alert if the response time degrades beyond this many ms within an observation period of 5 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#degradation_milliseconds ServiceAnomaliesV2#degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#degradation_milliseconds ServiceAnomaliesV2#degradation_milliseconds}
   */
   readonly degradationMilliseconds: number;
 }
@@ -1757,7 +1757,7 @@ export interface ServiceAnomaliesV2ResponseTimeFixedDetectionResponseTimeSlowest
   /**
   * Alert if the response time of the slowest 10% degrades beyond this many ms within an observation period of 5 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#slowest_degradation_milliseconds ServiceAnomaliesV2#slowest_degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#slowest_degradation_milliseconds ServiceAnomaliesV2#slowest_degradation_milliseconds}
   */
   readonly slowestDegradationMilliseconds: number;
 }
@@ -1840,25 +1840,25 @@ export interface ServiceAnomaliesV2ResponseTimeFixedDetection {
   /**
   * Possible Values: `High`, `Low`, `Medium`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#sensitivity ServiceAnomaliesV2#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#sensitivity ServiceAnomaliesV2#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#over_alerting_protection ServiceAnomaliesV2#over_alerting_protection}
   */
   readonly overAlertingProtection: ServiceAnomaliesV2ResponseTimeFixedDetectionOverAlertingProtection;
   /**
   * response_time_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#response_time_all ServiceAnomaliesV2#response_time_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#response_time_all ServiceAnomaliesV2#response_time_all}
   */
   readonly responseTimeAll: ServiceAnomaliesV2ResponseTimeFixedDetectionResponseTimeAll;
   /**
   * response_time_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#response_time_slowest ServiceAnomaliesV2#response_time_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#response_time_slowest ServiceAnomaliesV2#response_time_slowest}
   */
   readonly responseTimeSlowest: ServiceAnomaliesV2ResponseTimeFixedDetectionResponseTimeSlowest;
 }
@@ -2019,25 +2019,25 @@ export interface ServiceAnomaliesV2ResponseTime {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#detection_mode ServiceAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#detection_mode ServiceAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#enabled ServiceAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * auto_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#auto_detection ServiceAnomaliesV2#auto_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#auto_detection ServiceAnomaliesV2#auto_detection}
   */
   readonly autoDetection?: ServiceAnomaliesV2ResponseTimeAutoDetection;
   /**
   * fixed_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#fixed_detection ServiceAnomaliesV2#fixed_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#fixed_detection ServiceAnomaliesV2#fixed_detection}
   */
   readonly fixedDetection?: ServiceAnomaliesV2ResponseTimeFixedDetection;
 }
@@ -2205,7 +2205,7 @@ export class ServiceAnomaliesV2ResponseTimeOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2 dynatrace_service_anomalies_v2}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2 dynatrace_service_anomalies_v2}
 */
 export class ServiceAnomaliesV2 extends cdktf.TerraformResource {
 
@@ -2221,7 +2221,7 @@ export class ServiceAnomaliesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAnomaliesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAnomaliesV2 to import
-  * @param importFromId The id of the existing ServiceAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAnomaliesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2233,7 +2233,7 @@ export class ServiceAnomaliesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies_v2 dynatrace_service_anomalies_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies_v2 dynatrace_service_anomalies_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2244,8 +2244,8 @@ export class ServiceAnomaliesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_anomalies_v2',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

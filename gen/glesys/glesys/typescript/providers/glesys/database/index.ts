@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Update the allow list for a database instance list. The list can use single IP addresses or CIDR ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#allowlist Database#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#allowlist Database#allowlist}
   */
   readonly allowlist?: string[];
   /**
   * Datacenter key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#datacenterkey Database#datacenterkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#datacenterkey Database#datacenterkey}
   */
   readonly datacenterkey: string;
   /**
   * Database engine name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#engine Database#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#engine Database#engine}
   */
   readonly engine: string;
   /**
   * Database engine version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#engineversion Database#engineversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#engineversion Database#engineversion}
   */
   readonly engineversion: string;
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#name Database#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#name Database#name}
   */
   readonly name: string;
   /**
   * Database plan key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#plankey Database#plankey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#plankey Database#plankey}
   */
   readonly plankey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database glesys_database}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database glesys_database}
 */
 export class Database extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Database extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Database resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Database to import
-  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Database to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Database extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/database glesys_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/database glesys_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_database',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppKeyPerformanceCustomConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#id WebAppKeyPerformanceCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#id WebAppKeyPerformanceCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface WebAppKeyPerformanceCustomConfig extends cdktf.TerraformMetaArg
   /**
   * The scope of this setting (APPLICATION_METHOD, APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#scope WebAppKeyPerformanceCustom#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#scope WebAppKeyPerformanceCustom#scope}
   */
   readonly scope: string;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#thresholds WebAppKeyPerformanceCustom#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#thresholds WebAppKeyPerformanceCustom#thresholds}
   */
   readonly thresholds: WebAppKeyPerformanceCustomThresholds;
 }
@@ -31,13 +31,13 @@ export interface WebAppKeyPerformanceCustomThresholds {
   /**
   * If **User action duration** is above this value, the action is assigned to the Frustrated performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#frustrating_threshold_seconds WebAppKeyPerformanceCustom#frustrating_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#frustrating_threshold_seconds WebAppKeyPerformanceCustom#frustrating_threshold_seconds}
   */
   readonly frustratingThresholdSeconds: number;
   /**
   * If **User action duration** is below this value, the action is assigned to the Satisfied performance zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#tolerated_threshold_seconds WebAppKeyPerformanceCustom#tolerated_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#tolerated_threshold_seconds WebAppKeyPerformanceCustom#tolerated_threshold_seconds}
   */
   readonly toleratedThresholdSeconds: number;
 }
@@ -144,7 +144,7 @@ export class WebAppKeyPerformanceCustomThresholdsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom dynatrace_web_app_key_performance_custom}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom dynatrace_web_app_key_performance_custom}
 */
 export class WebAppKeyPerformanceCustom extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class WebAppKeyPerformanceCustom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppKeyPerformanceCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppKeyPerformanceCustom to import
-  * @param importFromId The id of the existing WebAppKeyPerformanceCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppKeyPerformanceCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppKeyPerformanceCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class WebAppKeyPerformanceCustom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_key_performance_custom dynatrace_web_app_key_performance_custom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_key_performance_custom dynatrace_web_app_key_performance_custom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class WebAppKeyPerformanceCustom extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_key_performance_custom',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

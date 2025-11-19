@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BusinessEventsMetricsConfig extends cdktf.TerraformMetaArgument
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#dimensions BusinessEventsMetrics#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#dimensions BusinessEventsMetrics#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#enabled BusinessEventsMetrics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#enabled BusinessEventsMetrics#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#id BusinessEventsMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#id BusinessEventsMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface BusinessEventsMetricsConfig extends cdktf.TerraformMetaArgument
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#key BusinessEventsMetrics#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#key BusinessEventsMetrics#key}
   */
   readonly key: string;
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#matcher BusinessEventsMetrics#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#matcher BusinessEventsMetrics#matcher}
   */
   readonly matcher: string;
   /**
   * Possible Values: `ATTRIBUTE`, `OCCURRENCE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#measure BusinessEventsMetrics#measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#measure BusinessEventsMetrics#measure}
   */
   readonly measure: string;
   /**
   * Attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#measure_attribute BusinessEventsMetrics#measure_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#measure_attribute BusinessEventsMetrics#measure_attribute}
   */
   readonly measureAttribute?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics dynatrace_business_events_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics dynatrace_business_events_metrics}
 */
 export class BusinessEventsMetrics extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class BusinessEventsMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessEventsMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessEventsMetrics to import
-  * @param importFromId The id of the existing BusinessEventsMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessEventsMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessEventsMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class BusinessEventsMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_metrics dynatrace_business_events_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_metrics dynatrace_business_events_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class BusinessEventsMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_business_events_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

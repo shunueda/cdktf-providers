@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface JenkinsConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#id JenkinsConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#id JenkinsConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface JenkinsConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Jenkins connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#name JenkinsConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#name JenkinsConnection#name}
   */
   readonly name: string;
   /**
   * The password of the user or API token obtained from the Jenkins UI (Dashboard > User > Configure > API Token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#password JenkinsConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#password JenkinsConnection#password}
   */
   readonly password: string;
   /**
   * Base URL of your Jenkins instance (e.g. https://[YOUR_JENKINS_DOMAIN]/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#url JenkinsConnection#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#url JenkinsConnection#url}
   */
   readonly url: string;
   /**
   * The name of your Jenkins user (e.g. jenkins)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#username JenkinsConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#username JenkinsConnection#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection dynatrace_jenkins_connection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection dynatrace_jenkins_connection}
 */
 export class JenkinsConnection extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class JenkinsConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JenkinsConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JenkinsConnection to import
-  * @param importFromId The id of the existing JenkinsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JenkinsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JenkinsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class JenkinsConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/jenkins_connection dynatrace_jenkins_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/jenkins_connection dynatrace_jenkins_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class JenkinsConnection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_jenkins_connection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

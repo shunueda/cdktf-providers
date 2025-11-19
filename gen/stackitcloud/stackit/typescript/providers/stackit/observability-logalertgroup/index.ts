@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ObservabilityLogalertgroupConfig extends cdktf.TerraformMetaArg
   /**
   * Observability instance ID to which the log alert group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#instance_id ObservabilityLogalertgroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#instance_id ObservabilityLogalertgroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the frequency at which rules within the group are evaluated. The interval must be at least 60 seconds and defaults to 60 seconds if not set. Supported formats include hours, minutes, and seconds, either singly or in combination. Examples of valid formats are: '5h30m40s', '5h', '5h30m', '60m', and '60s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#interval ObservabilityLogalertgroup#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#interval ObservabilityLogalertgroup#interval}
   */
   readonly interval?: string;
   /**
   * The name of the log alert group. Is the identifier and must be unique in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#name ObservabilityLogalertgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#name ObservabilityLogalertgroup#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the log alert group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#project_id ObservabilityLogalertgroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#project_id ObservabilityLogalertgroup#project_id}
   */
   readonly projectId: string;
   /**
   * Rules for the log alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#rules ObservabilityLogalertgroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#rules ObservabilityLogalertgroup#rules}
   */
   readonly rules: ObservabilityLogalertgroupRules[] | cdktf.IResolvable;
 }
@@ -42,31 +42,31 @@ export interface ObservabilityLogalertgroupRules {
   /**
   * The name of the alert rule. Is the identifier and must be unique in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#alert ObservabilityLogalertgroup#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#alert ObservabilityLogalertgroup#alert}
   */
   readonly alert: string;
   /**
   * A map of key:value. Annotations to add or overwrite for each alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#annotations ObservabilityLogalertgroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#annotations ObservabilityLogalertgroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The LogQL expression to evaluate. Every evaluation cycle this is evaluated at the current time, and all resultant time series become pending/firing alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#expression ObservabilityLogalertgroup#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#expression ObservabilityLogalertgroup#expression}
   */
   readonly expression: string;
   /**
   * Alerts are considered firing once they have been returned for this long. Alerts which have not yet fired for long enough are considered pending. Default is 0s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#for ObservabilityLogalertgroup#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#for ObservabilityLogalertgroup#for}
   */
   readonly for?: string;
   /**
   * A map of key:value. Labels to add or overwrite for each alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#labels ObservabilityLogalertgroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#labels ObservabilityLogalertgroup#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -292,7 +292,7 @@ export class ObservabilityLogalertgroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup stackit_observability_logalertgroup}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup stackit_observability_logalertgroup}
 */
 export class ObservabilityLogalertgroup extends cdktf.TerraformResource {
 
@@ -308,7 +308,7 @@ export class ObservabilityLogalertgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityLogalertgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityLogalertgroup to import
-  * @param importFromId The id of the existing ObservabilityLogalertgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityLogalertgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityLogalertgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class ObservabilityLogalertgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_logalertgroup stackit_observability_logalertgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_logalertgroup stackit_observability_logalertgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class ObservabilityLogalertgroup extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_observability_logalertgroup',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

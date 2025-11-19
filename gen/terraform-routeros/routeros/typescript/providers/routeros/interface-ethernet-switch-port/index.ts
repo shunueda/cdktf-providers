@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface InterfaceEthernetSwitchPortConfig extends cdktf.TerraformMetaAr
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#___path___ InterfaceEthernetSwitchPort#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#___path___ InterfaceEthernetSwitchPort#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#___skip___ InterfaceEthernetSwitchPort#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#___skip___ InterfaceEthernetSwitchPort#___skip___}
   */
   readonly skip?: string;
   /**
   * Adds a VLAN tag with the specified VLAN ID on all untagged ingress traffic on a port, should be used with ```vlan-header``` set to ```always-strip``` on a port to configure the port to be the access port. For hybrid ports ```default-vlan-id``` is used to tag untagged traffic. If two ports have the same ```default-vlan-id```, then VLAN tag is not added since the switch chip assumes that traffic is being forwarded between access ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#default_vlan_id InterfaceEthernetSwitchPort#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#default_vlan_id InterfaceEthernetSwitchPort#default_vlan_id}
   */
   readonly defaultVlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#id InterfaceEthernetSwitchPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#id InterfaceEthernetSwitchPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface InterfaceEthernetSwitchPortConfig extends cdktf.TerraformMetaAr
   /**
   * Whether to send egress packet copy to the `mirror-egress-target` port, only available on 88E6393X, 88E6191X and 88E6190 switch chips.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#mirror_egress InterfaceEthernetSwitchPort#mirror_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#mirror_egress InterfaceEthernetSwitchPort#mirror_egress}
   */
   readonly mirrorEgress?: boolean | cdktf.IResolvable;
   /**
   * Whether to send ingress packet copy to the `mirror-ingress-target` port, only available on 88E6393X, 88E6191X and 88E6190 switch chips.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#mirror_ingress InterfaceEthernetSwitchPort#mirror_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#mirror_ingress InterfaceEthernetSwitchPort#mirror_ingress}
   */
   readonly mirrorIngress?: boolean | cdktf.IResolvable;
   /**
   * Selects a single mirroring ingress target port, only available on  88E6393X, 88E6191X and 88E6190 switch chips. Mirrored packets from `mirror-ingress` will be sent to the selected port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#mirror_ingress_target InterfaceEthernetSwitchPort#mirror_ingress_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#mirror_ingress_target InterfaceEthernetSwitchPort#mirror_ingress_target}
   */
   readonly mirrorIngressTarget?: string;
   /**
   * Port name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#name InterfaceEthernetSwitchPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#name InterfaceEthernetSwitchPort#name}
   */
   readonly name: string;
   /**
   * Sets action which is performed on the port for egress traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#vlan_header InterfaceEthernetSwitchPort#vlan_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#vlan_header InterfaceEthernetSwitchPort#vlan_header}
   */
   readonly vlanHeader?: string;
   /**
   * Changes the VLAN lookup mechanism against the VLAN Table for ingress traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#vlan_mode InterfaceEthernetSwitchPort#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#vlan_mode InterfaceEthernetSwitchPort#vlan_mode}
   */
   readonly vlanMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port routeros_interface_ethernet_switch_port}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port routeros_interface_ethernet_switch_port}
 */
 export class InterfaceEthernetSwitchPort extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class InterfaceEthernetSwitchPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitchPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchPort to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class InterfaceEthernetSwitchPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_port routeros_interface_ethernet_switch_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/interface_ethernet_switch_port routeros_interface_ethernet_switch_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class InterfaceEthernetSwitchPort extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch_port',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

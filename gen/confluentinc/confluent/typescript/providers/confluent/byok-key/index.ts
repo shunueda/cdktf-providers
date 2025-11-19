@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ByokKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#id ByokKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#id ByokKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ByokKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#aws ByokKey#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#aws ByokKey#aws}
   */
   readonly aws?: ByokKeyAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#azure ByokKey#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#azure ByokKey#azure}
   */
   readonly azure?: ByokKeyAzure;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#gcp ByokKey#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#gcp ByokKey#gcp}
   */
   readonly gcp?: ByokKeyGcp;
 }
 export interface ByokKeyAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#key_arn ByokKey#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#key_arn ByokKey#key_arn}
   */
   readonly keyArn: string;
 }
@@ -121,15 +121,15 @@ export class ByokKeyAwsOutputReference extends cdktf.ComplexObject {
 }
 export interface ByokKeyAzure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#key_identifier ByokKey#key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#key_identifier ByokKey#key_identifier}
   */
   readonly keyIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#key_vault_id ByokKey#key_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#key_vault_id ByokKey#key_vault_id}
   */
   readonly keyVaultId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#tenant_id ByokKey#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#tenant_id ByokKey#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -267,7 +267,7 @@ export class ByokKeyAzureOutputReference extends cdktf.ComplexObject {
 }
 export interface ByokKeyGcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#key_id ByokKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#key_id ByokKey#key_id}
   */
   readonly keyId: string;
 }
@@ -353,7 +353,7 @@ export class ByokKeyGcpOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key confluent_byok_key}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key confluent_byok_key}
 */
 export class ByokKey extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class ByokKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ByokKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ByokKey to import
-  * @param importFromId The id of the existing ByokKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ByokKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ByokKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class ByokKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/byok_key confluent_byok_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/byok_key confluent_byok_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class ByokKey extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_byok_key',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

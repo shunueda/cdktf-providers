@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HostAnomaliesV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#id HostAnomaliesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#id HostAnomaliesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface HostAnomaliesV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (HOST HOST_GROUP environment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#scope HostAnomaliesV2#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#scope HostAnomaliesV2#scope}
   */
   readonly scope: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#host HostAnomaliesV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#host HostAnomaliesV2#host}
   */
   readonly host: HostAnomaliesV2Host;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#network HostAnomaliesV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#network HostAnomaliesV2#network}
   */
   readonly network: HostAnomaliesV2Network;
 }
@@ -37,13 +37,13 @@ export interface HostAnomaliesV2HostConnectionLostDetection {
   /**
   * Detect host or monitoring connection lost problems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Graceful host shutdowns. Possible values: `DONT_ALERT_ON_GRACEFUL_SHUTDOWN`, `ALERT_ON_GRACEFUL_SHUTDOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#on_graceful_shutdowns HostAnomaliesV2#on_graceful_shutdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#on_graceful_shutdowns HostAnomaliesV2#on_graceful_shutdowns}
   */
   readonly onGracefulShutdowns?: string;
 }
@@ -155,25 +155,25 @@ export interface HostAnomaliesV2HostHighCpuSaturationDetectionCustomThresholdsEv
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -334,13 +334,13 @@ export interface HostAnomaliesV2HostHighCpuSaturationDetectionCustomThresholds {
   /**
   * Alert if the CPU usage is higher than this threshold for the defined amount of samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#cpu_saturation HostAnomaliesV2#cpu_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#cpu_saturation HostAnomaliesV2#cpu_saturation}
   */
   readonly cpuSaturation: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostHighCpuSaturationDetectionCustomThresholdsEventThresholds;
 }
@@ -449,19 +449,19 @@ export interface HostAnomaliesV2HostHighCpuSaturationDetection {
   /**
   * Detection mode for CPU saturation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect CPU saturation on host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostHighCpuSaturationDetectionCustomThresholds;
 }
@@ -602,25 +602,25 @@ export interface HostAnomaliesV2HostHighGcActivityDetectionCustomThresholdsEvent
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -781,19 +781,19 @@ export interface HostAnomaliesV2HostHighGcActivityDetectionCustomThresholds {
   /**
   * Alert if the GC suspension is higher than this threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#gc_suspension_percentage HostAnomaliesV2#gc_suspension_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#gc_suspension_percentage HostAnomaliesV2#gc_suspension_percentage}
   */
   readonly gcSuspensionPercentage: number;
   /**
   * Alert if GC time is higher than this threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#gc_time_percentage HostAnomaliesV2#gc_time_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#gc_time_percentage HostAnomaliesV2#gc_time_percentage}
   */
   readonly gcTimePercentage: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostHighGcActivityDetectionCustomThresholdsEventThresholds;
 }
@@ -928,19 +928,19 @@ export interface HostAnomaliesV2HostHighGcActivityDetection {
   /**
   * Detection mode for high GC activity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * You may also configure high GC activity alerting for .NET processes on [extensions events page](/#settings/anomalydetection/extensionevents).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostHighGcActivityDetectionCustomThresholds;
 }
@@ -1081,25 +1081,25 @@ export interface HostAnomaliesV2HostHighMemoryDetectionCustomThresholdsEventThre
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -1260,31 +1260,31 @@ export interface HostAnomaliesV2HostHighMemoryDetectionCustomThresholds {
   /**
   * Alert if the memory page fault rate on Unix systems is higher than this threshold for the defined amount of samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#page_faults_per_second_non_windows HostAnomaliesV2#page_faults_per_second_non_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#page_faults_per_second_non_windows HostAnomaliesV2#page_faults_per_second_non_windows}
   */
   readonly pageFaultsPerSecondNonWindows: number;
   /**
   * Alert if the memory page fault rate on Windows is higher than this threshold for the defined amount of samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#page_faults_per_second_windows HostAnomaliesV2#page_faults_per_second_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#page_faults_per_second_windows HostAnomaliesV2#page_faults_per_second_windows}
   */
   readonly pageFaultsPerSecondWindows: number;
   /**
   * Alert if the memory usage on Unix systems is higher than this threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#used_memory_percentage_non_windows HostAnomaliesV2#used_memory_percentage_non_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#used_memory_percentage_non_windows HostAnomaliesV2#used_memory_percentage_non_windows}
   */
   readonly usedMemoryPercentageNonWindows: number;
   /**
   * Alert if the memory usage on Windows is higher than this threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#used_memory_percentage_windows HostAnomaliesV2#used_memory_percentage_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#used_memory_percentage_windows HostAnomaliesV2#used_memory_percentage_windows}
   */
   readonly usedMemoryPercentageWindows: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostHighMemoryDetectionCustomThresholdsEventThresholds;
 }
@@ -1471,19 +1471,19 @@ export interface HostAnomaliesV2HostHighMemoryDetection {
   /**
   * Detection mode for high memory usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect high memory usage on host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostHighMemoryDetectionCustomThresholds;
 }
@@ -1624,25 +1624,25 @@ export interface HostAnomaliesV2HostHighSystemLoadDetectionCustomThresholdsEvent
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -1803,13 +1803,13 @@ export interface HostAnomaliesV2HostHighSystemLoadDetectionCustomThresholds {
   /**
   * Alert if the System Load / Logical cpu core is higher than this threshold for the defined amount of samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#system_load HostAnomaliesV2#system_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#system_load HostAnomaliesV2#system_load}
   */
   readonly systemLoad: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostHighSystemLoadDetectionCustomThresholdsEventThresholds;
 }
@@ -1918,19 +1918,19 @@ export interface HostAnomaliesV2HostHighSystemLoadDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostHighSystemLoadDetectionCustomThresholds;
 }
@@ -2071,25 +2071,25 @@ export interface HostAnomaliesV2HostOutOfMemoryDetectionCustomThresholdsEventThr
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -2250,13 +2250,13 @@ export interface HostAnomaliesV2HostOutOfMemoryDetectionCustomThresholds {
   /**
   * Alert if the number of Java out-of-memory exceptions is at least this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#out_of_memory_exceptions_number HostAnomaliesV2#out_of_memory_exceptions_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#out_of_memory_exceptions_number HostAnomaliesV2#out_of_memory_exceptions_number}
   */
   readonly outOfMemoryExceptionsNumber: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostOutOfMemoryDetectionCustomThresholdsEventThresholds;
 }
@@ -2365,19 +2365,19 @@ export interface HostAnomaliesV2HostOutOfMemoryDetection {
   /**
   * Detection mode for Java out of memory problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect Java out of memory problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostOutOfMemoryDetectionCustomThresholds;
 }
@@ -2518,25 +2518,25 @@ export interface HostAnomaliesV2HostOutOfThreadsDetectionCustomThresholdsEventTh
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -2697,13 +2697,13 @@ export interface HostAnomaliesV2HostOutOfThreadsDetectionCustomThresholds {
   /**
   * Alert if the number of Java out-of-threads exceptions is at least this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#out_of_threads_exceptions_number HostAnomaliesV2#out_of_threads_exceptions_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#out_of_threads_exceptions_number HostAnomaliesV2#out_of_threads_exceptions_number}
   */
   readonly outOfThreadsExceptionsNumber: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2HostOutOfThreadsDetectionCustomThresholdsEventThresholds;
 }
@@ -2812,19 +2812,19 @@ export interface HostAnomaliesV2HostOutOfThreadsDetection {
   /**
   * Detection mode for Java out of threads problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect Java out of threads problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2HostOutOfThreadsDetectionCustomThresholds;
 }
@@ -2965,43 +2965,43 @@ export interface HostAnomaliesV2Host {
   /**
   * connection_lost_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#connection_lost_detection HostAnomaliesV2#connection_lost_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#connection_lost_detection HostAnomaliesV2#connection_lost_detection}
   */
   readonly connectionLostDetection: HostAnomaliesV2HostConnectionLostDetection;
   /**
   * high_cpu_saturation_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#high_cpu_saturation_detection HostAnomaliesV2#high_cpu_saturation_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#high_cpu_saturation_detection HostAnomaliesV2#high_cpu_saturation_detection}
   */
   readonly highCpuSaturationDetection: HostAnomaliesV2HostHighCpuSaturationDetection;
   /**
   * high_gc_activity_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#high_gc_activity_detection HostAnomaliesV2#high_gc_activity_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#high_gc_activity_detection HostAnomaliesV2#high_gc_activity_detection}
   */
   readonly highGcActivityDetection: HostAnomaliesV2HostHighGcActivityDetection;
   /**
   * high_memory_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#high_memory_detection HostAnomaliesV2#high_memory_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#high_memory_detection HostAnomaliesV2#high_memory_detection}
   */
   readonly highMemoryDetection: HostAnomaliesV2HostHighMemoryDetection;
   /**
   * high_system_load_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#high_system_load_detection HostAnomaliesV2#high_system_load_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#high_system_load_detection HostAnomaliesV2#high_system_load_detection}
   */
   readonly highSystemLoadDetection: HostAnomaliesV2HostHighSystemLoadDetection;
   /**
   * out_of_memory_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#out_of_memory_detection HostAnomaliesV2#out_of_memory_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#out_of_memory_detection HostAnomaliesV2#out_of_memory_detection}
   */
   readonly outOfMemoryDetection: HostAnomaliesV2HostOutOfMemoryDetection;
   /**
   * out_of_threads_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#out_of_threads_detection HostAnomaliesV2#out_of_threads_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#out_of_threads_detection HostAnomaliesV2#out_of_threads_detection}
   */
   readonly outOfThreadsDetection: HostAnomaliesV2HostOutOfThreadsDetection;
 }
@@ -3240,25 +3240,25 @@ export interface HostAnomaliesV2NetworkHighNetworkDetectionCustomThresholdsEvent
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -3419,13 +3419,13 @@ export interface HostAnomaliesV2NetworkHighNetworkDetectionCustomThresholds {
   /**
   * Alert if sent/received traffic utilization is higher than this threshold for the defined amount of samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#errors_percentage HostAnomaliesV2#errors_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#errors_percentage HostAnomaliesV2#errors_percentage}
   */
   readonly errorsPercentage: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2NetworkHighNetworkDetectionCustomThresholdsEventThresholds;
 }
@@ -3534,19 +3534,19 @@ export interface HostAnomaliesV2NetworkHighNetworkDetection {
   /**
   * Detection mode for high network utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect high network utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2NetworkHighNetworkDetectionCustomThresholds;
 }
@@ -3687,25 +3687,25 @@ export interface HostAnomaliesV2NetworkNetworkDroppedPacketsDetectionCustomThres
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -3866,19 +3866,19 @@ export interface HostAnomaliesV2NetworkNetworkDroppedPacketsDetectionCustomThres
   /**
   * Receive/transmit dropped packet percentage threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dropped_packets_percentage HostAnomaliesV2#dropped_packets_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dropped_packets_percentage HostAnomaliesV2#dropped_packets_percentage}
   */
   readonly droppedPacketsPercentage: number;
   /**
   * Total packets rate threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#total_packets_rate HostAnomaliesV2#total_packets_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#total_packets_rate HostAnomaliesV2#total_packets_rate}
   */
   readonly totalPacketsRate: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2NetworkNetworkDroppedPacketsDetectionCustomThresholdsEventThresholds;
 }
@@ -4013,19 +4013,19 @@ export interface HostAnomaliesV2NetworkNetworkDroppedPacketsDetection {
   /**
   * Detection mode for high number of dropped packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect high number of dropped packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2NetworkNetworkDroppedPacketsDetectionCustomThresholds;
 }
@@ -4166,25 +4166,25 @@ export interface HostAnomaliesV2NetworkNetworkErrorsDetectionCustomThresholdsEve
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -4345,19 +4345,19 @@ export interface HostAnomaliesV2NetworkNetworkErrorsDetectionCustomThresholds {
   /**
   * Receive/transmit error packet percentage threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#errors_percentage HostAnomaliesV2#errors_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#errors_percentage HostAnomaliesV2#errors_percentage}
   */
   readonly errorsPercentage: number;
   /**
   * Total packets rate threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#total_packets_rate HostAnomaliesV2#total_packets_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#total_packets_rate HostAnomaliesV2#total_packets_rate}
   */
   readonly totalPacketsRate: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2NetworkNetworkErrorsDetectionCustomThresholdsEventThresholds;
 }
@@ -4492,19 +4492,19 @@ export interface HostAnomaliesV2NetworkNetworkErrorsDetection {
   /**
   * Detection mode for high number of network errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect high number of network errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2NetworkNetworkErrorsDetectionCustomThresholds;
 }
@@ -4645,25 +4645,25 @@ export interface HostAnomaliesV2NetworkNetworkHighRetransmissionDetectionCustomT
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -4824,19 +4824,19 @@ export interface HostAnomaliesV2NetworkNetworkHighRetransmissionDetectionCustomT
   /**
   * Retransmission rate threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#retransmission_rate_percentage HostAnomaliesV2#retransmission_rate_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#retransmission_rate_percentage HostAnomaliesV2#retransmission_rate_percentage}
   */
   readonly retransmissionRatePercentage: number;
   /**
   * Number of retransmitted packets threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#retransmitted_packets_number_per_minute HostAnomaliesV2#retransmitted_packets_number_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#retransmitted_packets_number_per_minute HostAnomaliesV2#retransmitted_packets_number_per_minute}
   */
   readonly retransmittedPacketsNumberPerMinute: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2NetworkNetworkHighRetransmissionDetectionCustomThresholdsEventThresholds;
 }
@@ -4971,19 +4971,19 @@ export interface HostAnomaliesV2NetworkNetworkHighRetransmissionDetection {
   /**
   * Detection mode for high retransmission rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect high retransmission rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2NetworkNetworkHighRetransmissionDetectionCustomThresholds;
 }
@@ -5124,25 +5124,25 @@ export interface HostAnomaliesV2NetworkNetworkTcpProblemsDetectionCustomThreshol
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_evaluation_window HostAnomaliesV2#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#dealerting_samples HostAnomaliesV2#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_evaluation_window HostAnomaliesV2#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#violating_samples HostAnomaliesV2#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -5303,19 +5303,19 @@ export interface HostAnomaliesV2NetworkNetworkTcpProblemsDetectionCustomThreshol
   /**
   * Number of failed connections threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#failed_connections_number_per_minute HostAnomaliesV2#failed_connections_number_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#failed_connections_number_per_minute HostAnomaliesV2#failed_connections_number_per_minute}
   */
   readonly failedConnectionsNumberPerMinute: number;
   /**
   * New connection failure threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#new_connection_failures_percentage HostAnomaliesV2#new_connection_failures_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#new_connection_failures_percentage HostAnomaliesV2#new_connection_failures_percentage}
   */
   readonly newConnectionFailuresPercentage: number;
   /**
   * event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#event_thresholds HostAnomaliesV2#event_thresholds}
   */
   readonly eventThresholds: HostAnomaliesV2NetworkNetworkTcpProblemsDetectionCustomThresholdsEventThresholds;
 }
@@ -5450,19 +5450,19 @@ export interface HostAnomaliesV2NetworkNetworkTcpProblemsDetection {
   /**
   * Detection mode for TCP connectivity problems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#detection_mode HostAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect TCP connectivity problems for process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#enabled HostAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#custom_thresholds HostAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: HostAnomaliesV2NetworkNetworkTcpProblemsDetectionCustomThresholds;
 }
@@ -5603,31 +5603,31 @@ export interface HostAnomaliesV2Network {
   /**
   * high_network_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#high_network_detection HostAnomaliesV2#high_network_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#high_network_detection HostAnomaliesV2#high_network_detection}
   */
   readonly highNetworkDetection: HostAnomaliesV2NetworkHighNetworkDetection;
   /**
   * network_dropped_packets_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#network_dropped_packets_detection HostAnomaliesV2#network_dropped_packets_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#network_dropped_packets_detection HostAnomaliesV2#network_dropped_packets_detection}
   */
   readonly networkDroppedPacketsDetection: HostAnomaliesV2NetworkNetworkDroppedPacketsDetection;
   /**
   * network_errors_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#network_errors_detection HostAnomaliesV2#network_errors_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#network_errors_detection HostAnomaliesV2#network_errors_detection}
   */
   readonly networkErrorsDetection: HostAnomaliesV2NetworkNetworkErrorsDetection;
   /**
   * network_high_retransmission_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#network_high_retransmission_detection HostAnomaliesV2#network_high_retransmission_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#network_high_retransmission_detection HostAnomaliesV2#network_high_retransmission_detection}
   */
   readonly networkHighRetransmissionDetection: HostAnomaliesV2NetworkNetworkHighRetransmissionDetection;
   /**
   * network_tcp_problems_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#network_tcp_problems_detection HostAnomaliesV2#network_tcp_problems_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#network_tcp_problems_detection HostAnomaliesV2#network_tcp_problems_detection}
   */
   readonly networkTcpProblemsDetection: HostAnomaliesV2NetworkNetworkTcpProblemsDetection;
 }
@@ -5812,7 +5812,7 @@ export class HostAnomaliesV2NetworkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2 dynatrace_host_anomalies_v2}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2 dynatrace_host_anomalies_v2}
 */
 export class HostAnomaliesV2 extends cdktf.TerraformResource {
 
@@ -5828,7 +5828,7 @@ export class HostAnomaliesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostAnomaliesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostAnomaliesV2 to import
-  * @param importFromId The id of the existing HostAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostAnomaliesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5840,7 +5840,7 @@ export class HostAnomaliesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_anomalies_v2 dynatrace_host_anomalies_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies_v2 dynatrace_host_anomalies_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5851,8 +5851,8 @@ export class HostAnomaliesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_host_anomalies_v2',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

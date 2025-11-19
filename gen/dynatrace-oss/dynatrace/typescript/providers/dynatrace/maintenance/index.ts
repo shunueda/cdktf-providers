@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MaintenanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#enabled Maintenance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#enabled Maintenance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#id Maintenance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#id Maintenance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface MaintenanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of this setting when referred to by the Config REST API V1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#legacy_id Maintenance#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#legacy_id Maintenance#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#filters Maintenance#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#filters Maintenance#filters}
   */
   readonly filters?: MaintenanceFilters;
   /**
   * general_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#general_properties Maintenance#general_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#general_properties Maintenance#general_properties}
   */
   readonly generalProperties: MaintenanceGeneralProperties;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#schedule Maintenance#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#schedule Maintenance#schedule}
   */
   readonly schedule: MaintenanceSchedule;
 }
@@ -49,25 +49,25 @@ export interface MaintenanceFiltersFilter {
   /**
   * A specific entity that should match this maintenance window.. **Note**: If an entity type filter value is set, it must be equal to the type of the selected entity. Otherwise this maintenance window will not match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#entity_id Maintenance#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#entity_id Maintenance#entity_id}
   */
   readonly entityId?: string;
   /**
   * Entities which contain all of the configured tags will match this maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#entity_tags Maintenance#entity_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#entity_tags Maintenance#entity_tags}
   */
   readonly entityTags?: string[];
   /**
   * Type of entities this maintenance window should match.. If no entity type is selected all entities regardless of the type will match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#entity_type Maintenance#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#entity_type Maintenance#entity_type}
   */
   readonly entityType?: string;
   /**
   * Entities which are part of all the configured management zones will match this maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#management_zones Maintenance#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#management_zones Maintenance#management_zones}
   */
   readonly managementZones?: string[];
 }
@@ -272,7 +272,7 @@ export interface MaintenanceFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#filter Maintenance#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#filter Maintenance#filter}
   */
   readonly filter: MaintenanceFiltersFilter[] | cdktf.IResolvable;
 }
@@ -355,31 +355,31 @@ export interface MaintenanceGeneralProperties {
   /**
   * A short description of the maintenance purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#description Maintenance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#description Maintenance#description}
   */
   readonly description?: string;
   /**
   * Disables the execution of the synthetic monitors that are within [the scope of this maintenance window](https://dt-url.net/0e0341m).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#disable_synthetic Maintenance#disable_synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#disable_synthetic Maintenance#disable_synthetic}
   */
   readonly disableSynthetic: boolean | cdktf.IResolvable;
   /**
   * The name of the maintenance window, displayed in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#name Maintenance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#name Maintenance#name}
   */
   readonly name: string;
   /**
   * The type of suppression of alerting and problem detection during the maintenance. Possible Values: `DETECT_PROBLEMS_AND_ALERT`, `DETECT_PROBLEMS_DONT_ALERT`, `DONT_DETECT_PROBLEMS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#suppression Maintenance#suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#suppression Maintenance#suppression}
   */
   readonly suppression: string;
   /**
   * The type of the maintenance, possible values: `PLANNED` or `UNPLANNED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#type Maintenance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#type Maintenance#type}
   */
   readonly type: string;
 }
@@ -569,13 +569,13 @@ export interface MaintenanceScheduleDailyRecurrenceRecurrenceRange {
   /**
   * The end date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_date Maintenance#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_date Maintenance#end_date}
   */
   readonly endDate: string;
   /**
   * The start date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_date Maintenance#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_date Maintenance#start_date}
   */
   readonly startDate: string;
 }
@@ -684,19 +684,19 @@ export interface MaintenanceScheduleDailyRecurrenceTimeWindow {
   /**
   * The end time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_time Maintenance#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_time Maintenance#end_time}
   */
   readonly endTime: string;
   /**
   * The start time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_time Maintenance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_time Maintenance#start_time}
   */
   readonly startTime: string;
   /**
   * The time zone of the start and end time. Default time zone is UTC. You can use either UTC offset `UTC+01:00` format or the IANA Time Zone Database format (for example, `Europe/Vienna`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_zone Maintenance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_zone Maintenance#time_zone}
   */
   readonly timeZone: string;
 }
@@ -831,13 +831,13 @@ export interface MaintenanceScheduleDailyRecurrence {
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
   */
   readonly recurrenceRange: MaintenanceScheduleDailyRecurrenceRecurrenceRange;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_window Maintenance#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_window Maintenance#time_window}
   */
   readonly timeWindow: MaintenanceScheduleDailyRecurrenceTimeWindow;
 }
@@ -946,13 +946,13 @@ export interface MaintenanceScheduleMonthlyRecurrenceRecurrenceRange {
   /**
   * The end date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_date Maintenance#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_date Maintenance#end_date}
   */
   readonly endDate: string;
   /**
   * The start date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_date Maintenance#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_date Maintenance#start_date}
   */
   readonly startDate: string;
 }
@@ -1061,19 +1061,19 @@ export interface MaintenanceScheduleMonthlyRecurrenceTimeWindow {
   /**
   * The end time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_time Maintenance#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_time Maintenance#end_time}
   */
   readonly endTime: string;
   /**
   * The start time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_time Maintenance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_time Maintenance#start_time}
   */
   readonly startTime: string;
   /**
   * The time zone of the start and end time. Default time zone is UTC. You can use either UTC offset `UTC+01:00` format or the IANA Time Zone Database format (for example, `Europe/Vienna`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_zone Maintenance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_zone Maintenance#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1208,19 +1208,19 @@ export interface MaintenanceScheduleMonthlyRecurrence {
   /**
   * The day of the month for monthly maintenance. If the selected day does not fall within the month, the maintenance window will be active on the last day of the month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#day_of_month Maintenance#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#day_of_month Maintenance#day_of_month}
   */
   readonly dayOfMonth: number;
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
   */
   readonly recurrenceRange: MaintenanceScheduleMonthlyRecurrenceRecurrenceRange;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_window Maintenance#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_window Maintenance#time_window}
   */
   readonly timeWindow: MaintenanceScheduleMonthlyRecurrenceTimeWindow;
 }
@@ -1355,19 +1355,19 @@ export interface MaintenanceScheduleOnceRecurrence {
   /**
   * The end time of the maintenance window validity period in YYYY-MM-DDThh:mm:ss format (for example, `2022-01-01T08:00:00`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_time Maintenance#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_time Maintenance#end_time}
   */
   readonly endTime: string;
   /**
   * The start time of the maintenance window validity period in YYYY-MM-DDThh:mm:ss format (for example, `2022-01-01T08:00:00`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_time Maintenance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_time Maintenance#start_time}
   */
   readonly startTime: string;
   /**
   * The time zone of the start and end time. Default time zone is UTC. You can use either UTC offset `UTC+01:00` format or the IANA Time Zone Database format (for example, `Europe/Vienna`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_zone Maintenance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_zone Maintenance#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1502,13 +1502,13 @@ export interface MaintenanceScheduleWeeklyRecurrenceRecurrenceRange {
   /**
   * The end date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_date Maintenance#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_date Maintenance#end_date}
   */
   readonly endDate: string;
   /**
   * The start date of the recurrence range in YYYY-MM-DD format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_date Maintenance#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_date Maintenance#start_date}
   */
   readonly startDate: string;
 }
@@ -1617,19 +1617,19 @@ export interface MaintenanceScheduleWeeklyRecurrenceTimeWindow {
   /**
   * The end time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#end_time Maintenance#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#end_time Maintenance#end_time}
   */
   readonly endTime: string;
   /**
   * The start time of the maintenance window validity period in hh:mm:ss format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#start_time Maintenance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#start_time Maintenance#start_time}
   */
   readonly startTime: string;
   /**
   * The time zone of the start and end time. Default time zone is UTC. You can use either UTC offset `UTC+01:00` format or the IANA Time Zone Database format (for example, `Europe/Vienna`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_zone Maintenance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_zone Maintenance#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1764,19 +1764,19 @@ export interface MaintenanceScheduleWeeklyRecurrence {
   /**
   * The day of the week for weekly maintenance, possible values: `FRIDAY`, `MONDAY`, `SATURDAY`, `SUNDAY`, `THURSDAY`, `TUESDAY`, `WEDNESDAY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#day_of_week Maintenance#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#day_of_week Maintenance#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#recurrence_range Maintenance#recurrence_range}
   */
   readonly recurrenceRange: MaintenanceScheduleWeeklyRecurrenceRecurrenceRange;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#time_window Maintenance#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#time_window Maintenance#time_window}
   */
   readonly timeWindow: MaintenanceScheduleWeeklyRecurrenceTimeWindow;
 }
@@ -1911,31 +1911,31 @@ export interface MaintenanceSchedule {
   /**
   * The type maintenance window, possible values: `DAILY`, `MONTHLY`, `ONCE`, `WEEKLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#type Maintenance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#type Maintenance#type}
   */
   readonly type: string;
   /**
   * daily_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#daily_recurrence Maintenance#daily_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#daily_recurrence Maintenance#daily_recurrence}
   */
   readonly dailyRecurrence?: MaintenanceScheduleDailyRecurrence;
   /**
   * monthly_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#monthly_recurrence Maintenance#monthly_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#monthly_recurrence Maintenance#monthly_recurrence}
   */
   readonly monthlyRecurrence?: MaintenanceScheduleMonthlyRecurrence;
   /**
   * once_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#once_recurrence Maintenance#once_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#once_recurrence Maintenance#once_recurrence}
   */
   readonly onceRecurrence?: MaintenanceScheduleOnceRecurrence;
   /**
   * weekly_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#weekly_recurrence Maintenance#weekly_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#weekly_recurrence Maintenance#weekly_recurrence}
   */
   readonly weeklyRecurrence?: MaintenanceScheduleWeeklyRecurrence;
 }
@@ -2132,7 +2132,7 @@ export class MaintenanceScheduleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance dynatrace_maintenance}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance dynatrace_maintenance}
 */
 export class Maintenance extends cdktf.TerraformResource {
 
@@ -2148,7 +2148,7 @@ export class Maintenance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Maintenance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Maintenance to import
-  * @param importFromId The id of the existing Maintenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Maintenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Maintenance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2160,7 +2160,7 @@ export class Maintenance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/maintenance dynatrace_maintenance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/maintenance dynatrace_maintenance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2171,8 +2171,8 @@ export class Maintenance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_maintenance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProcessMonitoringRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#enabled ProcessMonitoringRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#enabled ProcessMonitoringRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#host_group_id ProcessMonitoringRule#host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#host_group_id ProcessMonitoringRule#host_group_id}
   */
   readonly hostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#id ProcessMonitoringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#id ProcessMonitoringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ProcessMonitoringRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#insert_after ProcessMonitoringRule#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#insert_after ProcessMonitoringRule#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Possible Values: `MONITORING_ON`, `MONITORING_OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#mode ProcessMonitoringRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#mode ProcessMonitoringRule#mode}
   */
   readonly mode: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#condition ProcessMonitoringRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#condition ProcessMonitoringRule#condition}
   */
   readonly condition: ProcessMonitoringRuleCondition;
 }
@@ -49,25 +49,25 @@ export interface ProcessMonitoringRuleCondition {
   /**
   * supported only with OneAgent 1.167+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#env_var ProcessMonitoringRule#env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#env_var ProcessMonitoringRule#env_var}
   */
   readonly envVar?: string;
   /**
   * Possible Values: `APACHE_CONFIG_PATH`, `APACHE_SPARK_MASTER_IP_ADDRESS`, `ASP_NET_CORE_APPLICATION_PATH`, `AWS_ECR_ACCOUNT_ID`, `AWS_ECR_REGION`, `AWS_ECS_CLUSTER`, `AWS_ECS_CONTAINERNAME`, `AWS_ECS_FAMILY`, `AWS_ECS_REVISION`, `AWS_LAMBDA_FUNCTION_NAME`, `AWS_REGION`, `AZURE_CONTAINER_APP_ENV_DNS_SUFFIX`, `AZURE_CONTAINER_APP_NAME`, `CATALINA_BASE`, `CATALINA_HOME`, `CLOUD_FOUNDRY_APPLICATION_ID`, `CLOUD_FOUNDRY_APP_NAME`, `CLOUD_FOUNDRY_INSTANCE_INDEX`, `CLOUD_FOUNDRY_SPACE_ID`, `CLOUD_FOUNDRY_SPACE_NAME`, `COLDFUSION_JVM_CONFIG_FILE`, `COMMAND_LINE_ARGS`, `CONTAINER_ID`, `CONTAINER_IMAGE_NAME`, `CONTAINER_IMAGE_VERSION`, `CONTAINER_NAME`, `DATASOURCE_MONITORING_CONFIG_ID`, `DECLARATIVE_ID`, `DOTNET_COMMAND`, `DOTNET_COMMAND_PATH`, `ELASTIC_SEARCH_CLUSTER_NAME`, `ELASTIC_SEARCH_NODE_NAME`, `EQUINOX_CONFIG_PATH`, `EXE_NAME`, `EXE_PATH`, `GAE_INSTANCE`, `GAE_SERVICE`, `GLASSFISH_DOMAIN_NAME`, `GLASSFISH_INSTANCE_NAME`, `GOOGLE_CLOUD_PROJECT`, `HYBRIS_BIN_DIR`, `HYBRIS_CONFIG_DIR`, `HYBRIS_DATA_DIR`, `IBM_APPLID`, `IBM_CICS_IMS_APPLID`, `IBM_CICS_IMS_JOBNAME`, `IBM_CICS_REGION`, `IBM_CTG_NAME`, `IBM_IMS_CONNECT`, `IBM_IMS_CONTROL`, `IBM_IMS_MPR`, `IBM_IMS_SOAP_GW_NAME`, `IBM_JOBNAME`, `IIB_BROKER_NAME`, `IIB_EXECUTION_GROUP_NAME`, `IIS_APP_POOL`, `IIS_ROLE_NAME`, `JAVA_JAR_FILE`, `JAVA_JAR_PATH`, `JAVA_MAIN_CLASS`, `JBOSS_HOME`, `JBOSS_MODE`, `JBOSS_SERVER_NAME`, `KUBERNETES_BASEPODNAME`, `KUBERNETES_CONTAINERNAME`, `KUBERNETES_FULLPODNAME`, `KUBERNETES_NAMESPACE`, `KUBERNETES_PODUID`, `MSSQL_INSTANCE_NAME`, `NODEJS_APP_BASE_DIR`, `NODEJS_APP_NAME`, `NODEJS_SCRIPT_NAME`, `ORACLE_SID`, `PG_ID_CALC_INPUT_KEY_LINKAGE`, `PHP_CLI_SCRIPT_PATH`, `PHP_CLI_WORKING_DIR`, `PYTHON_MODULE`, `PYTHON_SCRIPT`, `PYTHON_SCRIPT_PATH`, `RKE2_TYPE`, `RUXIT_CLUSTER_ID`, `RUXIT_NODE_ID`, `SERVICE_NAME`, `SOFTWAREAG_INSTALL_ROOT`, `SOFTWAREAG_PRODUCTPROPNAME`, `SPRINGBOOT_APP_NAME`, `SPRINGBOOT_PROFILE_NAME`, `SPRINGBOOT_STARTUP_CLASS`, `TIBCO_BUSINESSWORKS_APP_NODE_NAME`, `TIBCO_BUSINESSWORKS_APP_SPACE_NAME`, `TIBCO_BUSINESSWORKS_CE_APP_NAME`, `TIBCO_BUSINESSWORKS_CE_VERSION`, `TIBCO_BUSINESSWORKS_DOMAIN_NAME`, `TIBCO_BUSINESSWORKS_HOME`, `TIPCO_BUSINESSWORKS_PROPERTY_FILE`, `TIPCO_BUSINESSWORKS_PROPERTY_FILE_PATH`, `UNKNOWN`, `VARNISH_INSTANCE_NAME`, `WEBLOGIC_CLUSTER_NAME`, `WEBLOGIC_DOMAIN_NAME`, `WEBLOGIC_HOME`, `WEBLOGIC_NAME`, `WEBSPHERE_CELL_NAME`, `WEBSPHERE_CLUSTER_NAME`, `WEBSPHERE_LIBERTY_SERVER_NAME`, `WEBSPHERE_NODE_NAME`, `WEBSPHERE_SERVER_NAME`, `Z_CM_VERSION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#item ProcessMonitoringRule#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#item ProcessMonitoringRule#item}
   */
   readonly item: string;
   /**
   * Possible Values: `CONTAINS`, `ENDS`, `EQUALS`, `EXISTS`, `NOT_CONTAINS`, `NOT_ENDS`, `NOT_EQUALS`, `NOT_EXISTS`, `NOT_STARTS`, `STARTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#operator ProcessMonitoringRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#operator ProcessMonitoringRule#operator}
   */
   readonly operator: string;
   /**
   * Condition value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#value ProcessMonitoringRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#value ProcessMonitoringRule#value}
   */
   readonly value?: string;
 }
@@ -232,7 +232,7 @@ export class ProcessMonitoringRuleConditionOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule dynatrace_process_monitoring_rule}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule dynatrace_process_monitoring_rule}
 */
 export class ProcessMonitoringRule extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class ProcessMonitoringRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessMonitoringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessMonitoringRule to import
-  * @param importFromId The id of the existing ProcessMonitoringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessMonitoringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessMonitoringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class ProcessMonitoringRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/process_monitoring_rule dynatrace_process_monitoring_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_monitoring_rule dynatrace_process_monitoring_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class ProcessMonitoringRule extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_process_monitoring_rule',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

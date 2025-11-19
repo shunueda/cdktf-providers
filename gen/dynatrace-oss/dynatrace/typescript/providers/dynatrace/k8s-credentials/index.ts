@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface K8SCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Monitoring is enabled (`true`) or disabled (`false`) for given credentials configuration.  If not set on creation, the `true` value is used.  If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#active K8SCredentials#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#active K8SCredentials#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Active Gate group to filter active gates for this credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#active_gate_group K8SCredentials#active_gate_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#active_gate_group K8SCredentials#active_gate_group}
   */
   readonly activeGateGroup?: string;
   /**
   * The service account bearer token for the Kubernetes API server.  Submit your token on creation or update of the configuration. For security reasons, GET requests return this field as `null`.  If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#auth_token K8SCredentials#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#auth_token K8SCredentials#auth_token}
   */
   readonly authToken?: string;
   /**
   * The check of SSL certificates is enabled (`true`) or disabled (`false`) for the Kubernetes cluster.  If not set on creation, the `true` value is used.  If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#certificate_check_enabled K8SCredentials#certificate_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#certificate_check_enabled K8SCredentials#certificate_check_enabled}
   */
   readonly certificateCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * Inclusion of all Davis relevant events is enabled (`true`) or disabled (`false`) for the Kubernetes cluster. If the field is omitted during an update, the old value remains unaffected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#davis_events_integration_enabled K8SCredentials#davis_events_integration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#davis_events_integration_enabled K8SCredentials#davis_events_integration_enabled}
   */
   readonly davisEventsIntegrationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The URL of the Kubernetes API server.  It must be unique within a Dynatrace environment.  The URL must valid according to RFC 2396. Leading or trailing whitespaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#endpoint_url K8SCredentials#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#endpoint_url K8SCredentials#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
   * Event analysis and alerting is (`true`) or disabled (`false`) for the Kubernetes cluster. If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#event_analysis_and_alerting_enabled K8SCredentials#event_analysis_and_alerting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#event_analysis_and_alerting_enabled K8SCredentials#event_analysis_and_alerting_enabled}
   */
   readonly eventAnalysisAndAlertingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Monitoring of events is enabled (`true`) or disabled (`false`) for the Kubernetes cluster. Event monitoring depends on the active state of this configuration to be true.  If not set on creation, the `false` value is used.  If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#events_integration_enabled K8SCredentials#events_integration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#events_integration_enabled K8SCredentials#events_integration_enabled}
   */
   readonly eventsIntegrationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Verify hostname in certificate against Kubernetes API URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#hostname_verification K8SCredentials#hostname_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#hostname_verification K8SCredentials#hostname_verification}
   */
   readonly hostnameVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#id K8SCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#id K8SCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,31 +71,31 @@ export interface K8SCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Kubernetes credentials configuration.  Allowed characters are letters, numbers, whitespaces, and the following characters: `.+-_`. Leading or trailing whitespace is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#label K8SCredentials#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#label K8SCredentials#label}
   */
   readonly label: string;
   /**
   * Prometheus exporters integration is enabled (`true`) or disabled (`false`) for the Kubernetes cluster.If the field is omitted during an update, the old value remains unaffected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#prometheus_exporters K8SCredentials#prometheus_exporters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#prometheus_exporters K8SCredentials#prometheus_exporters}
   */
   readonly prometheusExporters?: boolean | cdktf.IResolvable;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#unknowns K8SCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#unknowns K8SCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Workload and cloud application processing is enabled (`true`) or disabled (`false`) for the Kubernetes cluster. If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#workload_integration_enabled K8SCredentials#workload_integration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#workload_integration_enabled K8SCredentials#workload_integration_enabled}
   */
   readonly workloadIntegrationEnabled?: boolean | cdktf.IResolvable;
   /**
   * events_field_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#events_field_selectors K8SCredentials#events_field_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#events_field_selectors K8SCredentials#events_field_selectors}
   */
   readonly eventsFieldSelectors?: K8SCredentialsEventsFieldSelectors[] | cdktf.IResolvable;
 }
@@ -103,25 +103,25 @@ export interface K8SCredentialsEventsFieldSelectors {
   /**
   * Whether subscription to this events field selector is enabled (value set to `true`). If disabled (value set to `false`), Dynatrace will stop fetching events from the Kubernetes API for this events field selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#active K8SCredentials#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#active K8SCredentials#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The field selector string (url decoding is applied) when storing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#field_selector K8SCredentials#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#field_selector K8SCredentials#field_selector}
   */
   readonly fieldSelector: string;
   /**
   * A label of the events field selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#label K8SCredentials#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#label K8SCredentials#label}
   */
   readonly label: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#unknowns K8SCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#unknowns K8SCredentials#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -315,7 +315,7 @@ export class K8SCredentialsEventsFieldSelectorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials dynatrace_k8s_credentials}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials dynatrace_k8s_credentials}
 */
 export class K8SCredentials extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class K8SCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SCredentials to import
-  * @param importFromId The id of the existing K8SCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class K8SCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_credentials dynatrace_k8s_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_credentials dynatrace_k8s_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class K8SCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LogCustomSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#enabled LogCustomSource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#enabled LogCustomSource#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#id LogCustomSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#id LogCustomSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface LogCustomSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#name LogCustomSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#name LogCustomSource#name}
   */
   readonly name: string;
   /**
   * The scope of this setting (HOST, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#scope LogCustomSource#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#scope LogCustomSource#scope}
   */
   readonly scope?: string;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#context LogCustomSource#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#context LogCustomSource#context}
   */
   readonly context?: LogCustomSourceContext;
   /**
   * custom_log_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#custom_log_source LogCustomSource#custom_log_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#custom_log_source LogCustomSource#custom_log_source}
   */
   readonly customLogSource: LogCustomSourceCustomLogSource;
 }
@@ -49,13 +49,13 @@ export interface LogCustomSourceContextContext {
   /**
   * Possible Values: `Dt_entity_process_group`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#attribute LogCustomSource#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#attribute LogCustomSource#attribute}
   */
   readonly attribute: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#values LogCustomSource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#values LogCustomSource#values}
   */
   readonly values: string[];
 }
@@ -196,7 +196,7 @@ export interface LogCustomSourceContext {
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#context LogCustomSource#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#context LogCustomSource#context}
   */
   readonly context: LogCustomSourceContextContext[] | cdktf.IResolvable;
 }
@@ -279,19 +279,19 @@ export interface LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourc
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#key LogCustomSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#key LogCustomSource#key}
   */
   readonly key?: string;
   /**
   * Possible Values: `Attribute`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#type LogCustomSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#type LogCustomSource#type}
   */
   readonly type: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#value LogCustomSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#value LogCustomSource#value}
   */
   readonly value?: string;
 }
@@ -464,7 +464,7 @@ export interface LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourc
   /**
   * enrichment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#enrichment LogCustomSource#enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#enrichment LogCustomSource#enrichment}
   */
   readonly enrichment: LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourceWithEnrichmentEnrichmentEnrichment[] | cdktf.IResolvable;
 }
@@ -547,13 +547,13 @@ export interface LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourc
   /**
   * Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#path LogCustomSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#path LogCustomSource#path}
   */
   readonly path: string;
   /**
   * enrichment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#enrichment LogCustomSource#enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#enrichment LogCustomSource#enrichment}
   */
   readonly enrichment?: LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourceWithEnrichmentEnrichment;
 }
@@ -697,7 +697,7 @@ export interface LogCustomSourceCustomLogSourceValuesAndEnrichment {
   /**
   * custom_log_source_with_enrichment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#custom_log_source_with_enrichment LogCustomSource#custom_log_source_with_enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#custom_log_source_with_enrichment LogCustomSource#custom_log_source_with_enrichment}
   */
   readonly customLogSourceWithEnrichment: LogCustomSourceCustomLogSourceValuesAndEnrichmentCustomLogSourceWithEnrichment[] | cdktf.IResolvable;
 }
@@ -780,31 +780,31 @@ export interface LogCustomSourceCustomLogSource {
   /**
   * Accept binary content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#accept_binary LogCustomSource#accept_binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#accept_binary LogCustomSource#accept_binary}
   */
   readonly acceptBinary?: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#encoding LogCustomSource#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#encoding LogCustomSource#encoding}
   */
   readonly encoding?: string;
   /**
   * Possible Values: `LOG_PATH_PATTERN`, `WINDOWS_EVENT_LOG`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#type LogCustomSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#type LogCustomSource#type}
   */
   readonly type: string;
   /**
   * (Required attribute for cluster v1.291 and under) It might be either an absolute path to log(s) with optional wildcards or Windows Event Log name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#values LogCustomSource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#values LogCustomSource#values}
   */
   readonly values?: string[];
   /**
   * values_and_enrichment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#values_and_enrichment LogCustomSource#values_and_enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#values_and_enrichment LogCustomSource#values_and_enrichment}
   */
   readonly valuesAndEnrichment?: LogCustomSourceCustomLogSourceValuesAndEnrichment;
 }
@@ -1001,7 +1001,7 @@ export class LogCustomSourceCustomLogSourceOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source dynatrace_log_custom_source}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source dynatrace_log_custom_source}
 */
 export class LogCustomSource extends cdktf.TerraformResource {
 
@@ -1017,7 +1017,7 @@ export class LogCustomSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogCustomSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogCustomSource to import
-  * @param importFromId The id of the existing LogCustomSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogCustomSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogCustomSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class LogCustomSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_custom_source dynatrace_log_custom_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_custom_source dynatrace_log_custom_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,8 +1040,8 @@ export class LogCustomSource extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_custom_source',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

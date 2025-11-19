@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TransformationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The optional Destination metadata associated with the Transformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#destination_metadata_id Transformation#destination_metadata_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#destination_metadata_id Transformation#destination_metadata_id}
   */
   readonly destinationMetadataId?: string;
   /**
   * If the Transformation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#enabled Transformation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#enabled Transformation#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Optional array for defining new properties in FQL. Currently limited to 1 property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#fql_defined_properties Transformation#fql_defined_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#fql_defined_properties Transformation#fql_defined_properties}
   */
   readonly fqlDefinedProperties: TransformationFqlDefinedProperties[] | cdktf.IResolvable;
   /**
@@ -30,37 +30,37 @@ export interface TransformationConfig extends cdktf.TerraformMetaArguments {
   * 
   * 				For standard event matchers, use the following: Track -> "event='EVENT_NAME'" Identify -> "type='identify'" Group -> "type='group'"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#if Transformation#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#if Transformation#if}
   */
   readonly if: string;
   /**
   * The name of the Transformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#name Transformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#name Transformation#name}
   */
   readonly name: string;
   /**
   * Optional new event name for renaming events. Works only for 'track' event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#new_event_name Transformation#new_event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#new_event_name Transformation#new_event_name}
   */
   readonly newEventName?: string;
   /**
   * Optional array for renaming properties collected by your events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#property_renames Transformation#property_renames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#property_renames Transformation#property_renames}
   */
   readonly propertyRenames: TransformationPropertyRenames[] | cdktf.IResolvable;
   /**
   * Optional array for transforming properties and values collected by your events. Limited to 10 properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#property_value_transformations Transformation#property_value_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#property_value_transformations Transformation#property_value_transformations}
   */
   readonly propertyValueTransformations: TransformationPropertyValueTransformations[] | cdktf.IResolvable;
   /**
   * The Source associated with the Transformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#source_id Transformation#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#source_id Transformation#source_id}
   */
   readonly sourceId: string;
 }
@@ -68,13 +68,13 @@ export interface TransformationFqlDefinedProperties {
   /**
   * The FQL expression used to compute the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#fql Transformation#fql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#fql Transformation#fql}
   */
   readonly fql: string;
   /**
   * The new property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#property_name Transformation#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#property_name Transformation#property_name}
   */
   readonly propertyName: string;
 }
@@ -215,13 +215,13 @@ export interface TransformationPropertyRenames {
   /**
   * The new name to rename the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#new_name Transformation#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#new_name Transformation#new_name}
   */
   readonly newName: string;
   /**
   * The old name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#old_name Transformation#old_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#old_name Transformation#old_name}
   */
   readonly oldName: string;
 }
@@ -362,13 +362,13 @@ export interface TransformationPropertyValueTransformations {
   /**
   * The property paths. The maximum number of paths is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#property_paths Transformation#property_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#property_paths Transformation#property_paths}
   */
   readonly propertyPaths: string[];
   /**
   * The new value of the property paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#property_value Transformation#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#property_value Transformation#property_value}
   */
   readonly propertyValue: string;
 }
@@ -507,7 +507,7 @@ export class TransformationPropertyValueTransformationsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation segment_transformation}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation segment_transformation}
 */
 export class Transformation extends cdktf.TerraformResource {
 
@@ -523,7 +523,7 @@ export class Transformation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Transformation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Transformation to import
-  * @param importFromId The id of the existing Transformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Transformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Transformation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -535,7 +535,7 @@ export class Transformation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/transformation segment_transformation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/transformation segment_transformation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,8 +546,8 @@ export class Transformation extends cdktf.TerraformResource {
       terraformResourceType: 'segment_transformation',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

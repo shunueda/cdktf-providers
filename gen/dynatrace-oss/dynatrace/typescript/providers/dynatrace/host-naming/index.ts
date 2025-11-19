@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HostNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#enabled HostNaming#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#enabled HostNaming#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The name to be assigned to matching entities. You can use the following placeholders here:  * `{AwsAutoScalingGroup:Name}`  * `{AwsAvailabilityZone:Name}`  * `{AwsElasticLoadBalancer:Name}`  * `{AwsRelationalDatabaseService:DBName}`  * `{AwsRelationalDatabaseService:Endpoint}`  * `{AwsRelationalDatabaseService:Engine}`  * `{AwsRelationalDatabaseService:InstanceClass}`  * `{AwsRelationalDatabaseService:Name}`  * `{AwsRelationalDatabaseService:Port}`  * `{AzureRegion:Name}`  * `{AzureScaleSet:Name}`  * `{AzureVm:Name}`  * `{CloudFoundryOrganization:Name}`  * `{CustomDevice:DetectedName}`  * `{CustomDevice:DnsName}`  * `{CustomDevice:IpAddress}`  * `{CustomDevice:Port}`  * `{DockerContainerGroupInstance:ContainerName}`  * `{DockerContainerGroupInstance:FullImageName}`  * `{DockerContainerGroupInstance:ImageVersion}`  * `{DockerContainerGroupInstance:StrippedImageName}`  * `{ESXIHost:HardwareModel}`  * `{ESXIHost:HardwareVendor}`  * `{ESXIHost:Name}`  * `{ESXIHost:ProductName}`  * `{ESXIHost:ProductVersion}`  * `{Ec2Instance:AmiId}`  * `{Ec2Instance:BeanstalkEnvironmentName}`  * `{Ec2Instance:InstanceId}`  * `{Ec2Instance:InstanceType}`  * `{Ec2Instance:LocalHostName}`  * `{Ec2Instance:Name}`  * `{Ec2Instance:PublicHostName}`  * `{Ec2Instance:SecurityGroup}`  * `{GoogleComputeInstance:Id}`  * `{GoogleComputeInstance:IpAddresses}`  * `{GoogleComputeInstance:MachineType}`  * `{GoogleComputeInstance:Name}`  * `{GoogleComputeInstance:ProjectId}`  * `{GoogleComputeInstance:Project}`  * `{Host:AWSNameTag}`  * `{Host:AixLogicalCpuCount}`  * `{Host:AzureHostName}`  * `{Host:AzureSiteName}`  * `{Host:BoshDeploymentId}`  * `{Host:BoshInstanceId}`  * `{Host:BoshInstanceName}`  * `{Host:BoshName}`  * `{Host:BoshStemcellVersion}`  * `{Host:CpuCores}`  * `{Host:DetectedName}`  * `{Host:Environment:AppName}`  * `{Host:Environment:BoshReleaseVersion}`  * `{Host:Environment:Environment}`  * `{Host:Environment:Link}`  * `{Host:Environment:Organization}`  * `{Host:Environment:Owner}`  * `{Host:Environment:Support}`  * `{Host:IpAddress}`  * `{Host:LogicalCpuCores}`  * `{Host:OneAgentCustomHostName}`  * `{Host:OperatingSystemVersion}`  * `{Host:PaasMemoryLimit}`  * `{HostGroup:Name}`  * `{KubernetesCluster:Name}`  * `{KubernetesNode:DetectedName}`  * `{OpenstackAvailabilityZone:Name}`  * `{OpenstackZone:Name}`  * `{OpenstackComputeNode:Name}`  * `{OpenstackProject:Name}`  * `{OpenstackVm:InstanceType}`  * `{OpenstackVm:Name}`  * `{OpenstackVm:SecurityGroup}`  * `{ProcessGroup:AmazonECRImageAccountId}`  * `{ProcessGroup:AmazonECRImageRegion}`  * `{ProcessGroup:AmazonECSCluster}`  * `{ProcessGroup:AmazonECSContainerName}`  * `{ProcessGroup:AmazonECSFamily}`  * `{ProcessGroup:AmazonECSRevision}`  * `{ProcessGroup:AmazonLambdaFunctionName}`  * `{ProcessGroup:AmazonRegion}`  * `{ProcessGroup:ApacheConfigPath}`  * `{ProcessGroup:ApacheSparkMasterIpAddress}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AzureHostName}`  * `{ProcessGroup:AzureSiteName}`  * `{ProcessGroup:CassandraClusterName}`  * `{ProcessGroup:CatalinaBase}`  * `{ProcessGroup:CatalinaHome}`  * `{ProcessGroup:CloudFoundryAppId}`  * `{ProcessGroup:CloudFoundryAppName}`  * `{ProcessGroup:CloudFoundryInstanceIndex}`  * `{ProcessGroup:CloudFoundrySpaceId}`  * `{ProcessGroup:CloudFoundrySpaceName}`  * `{ProcessGroup:ColdFusionJvmConfigFile}`  * `{ProcessGroup:ColdFusionServiceName}`  * `{ProcessGroup:CommandLineArgs}`  * `{ProcessGroup:DetectedName}`  * `{ProcessGroup:DotNetCommandPath}`  * `{ProcessGroup:DotNetCommand}`  * `{ProcessGroup:DotNetClusterId}`  * `{ProcessGroup:DotNetNodeId}`  * `{ProcessGroup:ElasticsearchClusterName}`  * `{ProcessGroup:ElasticsearchNodeName}`  * `{ProcessGroup:EquinoxConfigPath}`  * `{ProcessGroup:ExeName}`  * `{ProcessGroup:ExePath}`  * `{ProcessGroup:GlassFishDomainName}`  * `{ProcessGroup:GlassFishInstanceName}`  * `{ProcessGroup:GoogleAppEngineInstance}`  * `{ProcessGroup:GoogleAppEngineService}`  * `{ProcessGroup:GoogleCloudProject}`  * `{ProcessGroup:HybrisBinDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisDataDirectory}`  * `{ProcessGroup:IBMCicsRegion}`  * `{ProcessGroup:IBMCtgName}`  * `{ProcessGroup:IBMImsConnectRegion}`  * `{ProcessGroup:IBMImsControlRegion}`  * `{ProcessGroup:IBMImsMessageProcessingRegion}`  * `{ProcessGroup:IBMImsSoapGwName}`  * `{ProcessGroup:IBMIntegrationNodeName}`  * `{ProcessGroup:IBMIntegrationServerName}`  * `{ProcessGroup:IISAppPool}`  * `{ProcessGroup:IISRoleName}`  * `{ProcessGroup:JbossHome}`  * `{ProcessGroup:JbossMode}`  * `{ProcessGroup:JbossServerName}`  * `{ProcessGroup:JavaJarFile}`  * `{ProcessGroup:JavaJarPath}`  * `{ProcessGroup:JavaMainCLass}`  * `{ProcessGroup:KubernetesBasePodName}`  * `{ProcessGroup:KubernetesContainerName}`  * `{ProcessGroup:KubernetesFullPodName}`  * `{ProcessGroup:KubernetesNamespace}`  * `{ProcessGroup:KubernetesPodUid}`  * `{ProcessGroup:MssqlInstanceName}`  * `{ProcessGroup:NodeJsAppBaseDirectory}`  * `{ProcessGroup:NodeJsAppName}`  * `{ProcessGroup:NodeJsScriptName}`  * `{ProcessGroup:OracleSid}`  * `{ProcessGroup:PHPScriptPath}`  * `{ProcessGroup:PHPWorkingDirectory}`  * `{ProcessGroup:Ports}`  * `{ProcessGroup:RubyAppRootPath}`  * `{ProcessGroup:RubyScriptPath}`  * `{ProcessGroup:SoftwareAGInstallRoot}`  * `{ProcessGroup:SoftwareAGProductPropertyName}`  * `{ProcessGroup:SpringBootAppName}`  * `{ProcessGroup:SpringBootProfileName}`  * `{ProcessGroup:SpringBootStartupClass}`  * `{ProcessGroup:TIBCOBusinessWorksAppNodeName}`  * `{ProcessGroup:TIBCOBusinessWorksAppSpaceName}`  * `{ProcessGroup:TIBCOBusinessWorksCeAppName}`  * `{ProcessGroup:TIBCOBusinessWorksCeVersion}`  * `{ProcessGroup:TIBCOBusinessWorksDomainName}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFilePath}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFile}`  * `{ProcessGroup:TIBCOBusinessWorksHome}`  * `{ProcessGroup:VarnishInstanceName}`  * `{ProcessGroup:WebLogicClusterName}`  * `{ProcessGroup:WebLogicDomainName}`  * `{ProcessGroup:WebLogicHome}`  * `{ProcessGroup:WebLogicName}`  * `{ProcessGroup:WebSphereCellName}`  * `{ProcessGroup:WebSphereClusterName}`  * `{ProcessGroup:WebSphereNodeName}`  * `{ProcessGroup:WebSphereServerName}`  * `{ProcessGroup:ActorSystem}`  * `{Service:STGServerName}`  * `{Service:DatabaseHostName}`  * `{Service:DatabaseName}`  * `{Service:DatabaseVendor}`  * `{Service:DetectedName}`  * `{Service:EndpointPath}`  * `{Service:EndpointPathGatewayUrl}`  * `{Service:IIBApplicationName}`  * `{Service:MessageListenerClassName}`  * `{Service:Port}`  * `{Service:PublicDomainName}`  * `{Service:RemoteEndpoint}`  * `{Service:RemoteName}`  * `{Service:WebApplicationId}`  * `{Service:WebContextRoot}`  * `{Service:WebServerName}`  * `{Service:WebServiceNamespace}`  * `{Service:WebServiceName}`  * `{VmwareDatacenter:Name}`  * `{VmwareVm:Name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#format HostNaming#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#format HostNaming#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#id HostNaming#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#id HostNaming#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface HostNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#name HostNaming#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#name HostNaming#name}
   */
   readonly name: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#conditions HostNaming#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#conditions HostNaming#conditions}
   */
   readonly conditions?: HostNamingConditions[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface HostNamingConditionsConditionApplicationType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -269,31 +269,31 @@ export interface HostNamingConditionsConditionApplicationTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -524,25 +524,25 @@ export interface HostNamingConditionsConditionAzureComputeMode {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -744,25 +744,25 @@ export interface HostNamingConditionsConditionAzureComputeModeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -964,25 +964,25 @@ export interface HostNamingConditionsConditionAzureSku {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -1184,31 +1184,31 @@ export interface HostNamingConditionsConditionAzureSkuComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be AZURE_SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -1439,19 +1439,19 @@ export interface HostNamingConditionsConditionBaseComparisonBasic {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1624,19 +1624,19 @@ export interface HostNamingConditionsConditionBaseConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1809,25 +1809,25 @@ export interface HostNamingConditionsConditionBitness {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -2029,31 +2029,31 @@ export interface HostNamingConditionsConditionBitnessComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be BITNESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -2284,25 +2284,25 @@ export interface HostNamingConditionsConditionCloudType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -2504,31 +2504,31 @@ export interface HostNamingConditionsConditionCloudTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CLOUD_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -2759,19 +2759,19 @@ export interface HostNamingConditionsConditionComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2944,25 +2944,25 @@ export interface HostNamingConditionsConditionCustomApplicationType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -3164,31 +3164,31 @@ export interface HostNamingConditionsConditionCustomApplicationTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CUSTOM_APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -3419,19 +3419,19 @@ export interface HostNamingConditionsConditionCustomHostMetadataDynamicKey {
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#source HostNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#source HostNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3569,19 +3569,19 @@ export interface HostNamingConditionsConditionCustomHostMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: HostNamingConditionsConditionCustomHostMetadataDynamicKey;
 }
@@ -3751,19 +3751,19 @@ export interface HostNamingConditionsConditionCustomHostMetadataConditionKeyDyna
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#source HostNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#source HostNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3901,25 +3901,25 @@ export interface HostNamingConditionsConditionCustomHostMetadataConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be HOST_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: HostNamingConditionsConditionCustomHostMetadataConditionKeyDynamicKey;
 }
@@ -4118,19 +4118,19 @@ export interface HostNamingConditionsConditionCustomProcessMetadataDynamicKey {
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#source HostNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#source HostNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4268,19 +4268,19 @@ export interface HostNamingConditionsConditionCustomProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: HostNamingConditionsConditionCustomProcessMetadataDynamicKey;
 }
@@ -4450,19 +4450,19 @@ export interface HostNamingConditionsConditionCustomProcessMetadataConditionKeyD
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#source HostNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#source HostNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4600,25 +4600,25 @@ export interface HostNamingConditionsConditionCustomProcessMetadataConditionKey 
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be PROCESS_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: HostNamingConditionsConditionCustomProcessMetadataConditionKeyDynamicKey;
 }
@@ -4817,25 +4817,25 @@ export interface HostNamingConditionsConditionDatabaseTopology {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -5037,31 +5037,31 @@ export interface HostNamingConditionsConditionDatabaseTopologyComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DATABASE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -5292,25 +5292,25 @@ export interface HostNamingConditionsConditionDcrumDecoder {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -5512,31 +5512,31 @@ export interface HostNamingConditionsConditionDcrumDecoderComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DCRUM_DECODER_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -5767,25 +5767,25 @@ export interface HostNamingConditionsConditionEntity {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -5987,31 +5987,31 @@ export interface HostNamingConditionsConditionEntityIdComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be ENTITY_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -6242,19 +6242,19 @@ export interface HostNamingConditionsConditionHostTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -6398,25 +6398,25 @@ export interface HostNamingConditionsConditionHostTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionHostTechValue;
 }
@@ -6618,25 +6618,25 @@ export interface HostNamingConditionsConditionHypervisor {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -6838,31 +6838,31 @@ export interface HostNamingConditionsConditionHypervisorTypeComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be HYPERVISOR_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -7093,25 +7093,25 @@ export interface HostNamingConditionsConditionIndexedName {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -7313,31 +7313,31 @@ export interface HostNamingConditionsConditionIndexedNameComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -7568,25 +7568,25 @@ export interface HostNamingConditionsConditionIndexedString {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -7788,31 +7788,31 @@ export interface HostNamingConditionsConditionIndexedStringComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -8043,25 +8043,25 @@ export interface HostNamingConditionsConditionIndexedTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#context HostNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#context HostNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -8228,25 +8228,25 @@ export interface HostNamingConditionsConditionIndexedTag {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionIndexedTagValue;
 }
@@ -8448,25 +8448,25 @@ export interface HostNamingConditionsConditionIndexedTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#context HostNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#context HostNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -8633,31 +8633,31 @@ export interface HostNamingConditionsConditionIndexedTagComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionIndexedTagComparisonValue;
 }
@@ -8888,25 +8888,25 @@ export interface HostNamingConditionsConditionInteger {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: number;
 }
@@ -9108,31 +9108,31 @@ export interface HostNamingConditionsConditionIntegerComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INTEGER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: number;
 }
@@ -9363,31 +9363,31 @@ export interface HostNamingConditionsConditionIpaddress {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -9618,37 +9618,37 @@ export interface HostNamingConditionsConditionIpaddressComparison {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be IP_ADDRESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -9908,19 +9908,19 @@ export interface HostNamingConditionsConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -10093,25 +10093,25 @@ export interface HostNamingConditionsConditionMobilePlatform {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -10313,31 +10313,31 @@ export interface HostNamingConditionsConditionMobilePlatformComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be MOBILE_PLATFORM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -10568,25 +10568,25 @@ export interface HostNamingConditionsConditionOsArch {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -10788,25 +10788,25 @@ export interface HostNamingConditionsConditionOsType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -11008,31 +11008,31 @@ export interface HostNamingConditionsConditionOsarchitectureComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_ARCHITECTURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -11263,31 +11263,31 @@ export interface HostNamingConditionsConditionOstypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -11518,25 +11518,25 @@ export interface HostNamingConditionsConditionPaasType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -11738,31 +11738,31 @@ export interface HostNamingConditionsConditionPaasTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be PAAS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -11993,19 +11993,19 @@ export interface HostNamingConditionsConditionProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12175,25 +12175,25 @@ export interface HostNamingConditionsConditionProcessMetadataConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be PROCESS_PREDEFINED_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12392,25 +12392,25 @@ export interface HostNamingConditionsConditionServiceTopology {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -12612,31 +12612,31 @@ export interface HostNamingConditionsConditionServiceTopologyComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -12867,25 +12867,25 @@ export interface HostNamingConditionsConditionServiceType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -13087,31 +13087,31 @@ export interface HostNamingConditionsConditionServiceTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -13342,19 +13342,19 @@ export interface HostNamingConditionsConditionSimpleHostTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13498,31 +13498,31 @@ export interface HostNamingConditionsConditionSimpleHostTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_HOST_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionSimpleHostTechComparisonValue;
 }
@@ -13753,19 +13753,19 @@ export interface HostNamingConditionsConditionSimpleTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13909,31 +13909,31 @@ export interface HostNamingConditionsConditionSimpleTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionSimpleTechComparisonValue;
 }
@@ -14164,31 +14164,31 @@ export interface HostNamingConditionsConditionString {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -14419,37 +14419,37 @@ export interface HostNamingConditionsConditionStringComparison {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#case_sensitive HostNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -14709,7 +14709,7 @@ export interface HostNamingConditionsConditionStringConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -14808,19 +14808,19 @@ export interface HostNamingConditionsConditionStringConditionKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15019,7 +15019,7 @@ export interface HostNamingConditionsConditionStringKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#attribute HostNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#attribute HostNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -15118,13 +15118,13 @@ export interface HostNamingConditionsConditionStringKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dynamic_key HostNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15294,25 +15294,25 @@ export interface HostNamingConditionsConditionSyntheticEngine {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -15514,31 +15514,31 @@ export interface HostNamingConditionsConditionSyntheticEngineTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SYNTHETIC_ENGINE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -15769,25 +15769,25 @@ export interface HostNamingConditionsConditionTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#context HostNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#context HostNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -15954,25 +15954,25 @@ export interface HostNamingConditionsConditionTag {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionTagValue;
 }
@@ -16174,25 +16174,25 @@ export interface HostNamingConditionsConditionTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#context HostNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#context HostNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: string;
 }
@@ -16359,31 +16359,31 @@ export interface HostNamingConditionsConditionTagComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionTagComparisonValue;
 }
@@ -16614,19 +16614,19 @@ export interface HostNamingConditionsConditionTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#type HostNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#type HostNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#verbatim_type HostNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -16770,25 +16770,25 @@ export interface HostNamingConditionsConditionTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#negate HostNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#negate HostNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#operator HostNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#operator HostNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#value HostNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#value HostNaming#value}
   */
   readonly value?: HostNamingConditionsConditionTechValue;
 }
@@ -16990,391 +16990,391 @@ export interface HostNamingConditionsCondition {
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#unknowns HostNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#unknowns HostNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#application_type HostNaming#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#application_type HostNaming#application_type}
   */
   readonly applicationType?: HostNamingConditionsConditionApplicationType[] | cdktf.IResolvable;
   /**
   * application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#application_type_comparison HostNaming#application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#application_type_comparison HostNaming#application_type_comparison}
   */
   readonly applicationTypeComparison?: HostNamingConditionsConditionApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * azure_compute_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#azure_compute_mode HostNaming#azure_compute_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#azure_compute_mode HostNaming#azure_compute_mode}
   */
   readonly azureComputeMode?: HostNamingConditionsConditionAzureComputeMode[] | cdktf.IResolvable;
   /**
   * azure_compute_mode_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#azure_compute_mode_comparison HostNaming#azure_compute_mode_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#azure_compute_mode_comparison HostNaming#azure_compute_mode_comparison}
   */
   readonly azureComputeModeComparison?: HostNamingConditionsConditionAzureComputeModeComparison[] | cdktf.IResolvable;
   /**
   * azure_sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#azure_sku HostNaming#azure_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#azure_sku HostNaming#azure_sku}
   */
   readonly azureSku?: HostNamingConditionsConditionAzureSku[] | cdktf.IResolvable;
   /**
   * azure_sku_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#azure_sku_comparision HostNaming#azure_sku_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#azure_sku_comparision HostNaming#azure_sku_comparision}
   */
   readonly azureSkuComparision?: HostNamingConditionsConditionAzureSkuComparision[] | cdktf.IResolvable;
   /**
   * base_comparison_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#base_comparison_basic HostNaming#base_comparison_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#base_comparison_basic HostNaming#base_comparison_basic}
   */
   readonly baseComparisonBasic?: HostNamingConditionsConditionBaseComparisonBasic[] | cdktf.IResolvable;
   /**
   * base_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#base_condition_key HostNaming#base_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#base_condition_key HostNaming#base_condition_key}
   */
   readonly baseConditionKey?: HostNamingConditionsConditionBaseConditionKey[] | cdktf.IResolvable;
   /**
   * bitness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#bitness HostNaming#bitness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#bitness HostNaming#bitness}
   */
   readonly bitness?: HostNamingConditionsConditionBitness[] | cdktf.IResolvable;
   /**
   * bitness_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#bitness_comparision HostNaming#bitness_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#bitness_comparision HostNaming#bitness_comparision}
   */
   readonly bitnessComparision?: HostNamingConditionsConditionBitnessComparision[] | cdktf.IResolvable;
   /**
   * cloud_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#cloud_type HostNaming#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#cloud_type HostNaming#cloud_type}
   */
   readonly cloudType?: HostNamingConditionsConditionCloudType[] | cdktf.IResolvable;
   /**
   * cloud_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#cloud_type_comparison HostNaming#cloud_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#cloud_type_comparison HostNaming#cloud_type_comparison}
   */
   readonly cloudTypeComparison?: HostNamingConditionsConditionCloudTypeComparison[] | cdktf.IResolvable;
   /**
   * comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#comparison HostNaming#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#comparison HostNaming#comparison}
   */
   readonly comparison?: HostNamingConditionsConditionComparison[] | cdktf.IResolvable;
   /**
   * custom_application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_application_type HostNaming#custom_application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_application_type HostNaming#custom_application_type}
   */
   readonly customApplicationType?: HostNamingConditionsConditionCustomApplicationType[] | cdktf.IResolvable;
   /**
   * custom_application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_application_type_comparison HostNaming#custom_application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_application_type_comparison HostNaming#custom_application_type_comparison}
   */
   readonly customApplicationTypeComparison?: HostNamingConditionsConditionCustomApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * custom_host_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_host_metadata HostNaming#custom_host_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_host_metadata HostNaming#custom_host_metadata}
   */
   readonly customHostMetadata?: HostNamingConditionsConditionCustomHostMetadata[] | cdktf.IResolvable;
   /**
   * custom_host_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_host_metadata_condition_key HostNaming#custom_host_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_host_metadata_condition_key HostNaming#custom_host_metadata_condition_key}
   */
   readonly customHostMetadataConditionKey?: HostNamingConditionsConditionCustomHostMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * custom_process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_process_metadata HostNaming#custom_process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_process_metadata HostNaming#custom_process_metadata}
   */
   readonly customProcessMetadata?: HostNamingConditionsConditionCustomProcessMetadata[] | cdktf.IResolvable;
   /**
   * custom_process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#custom_process_metadata_condition_key HostNaming#custom_process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#custom_process_metadata_condition_key HostNaming#custom_process_metadata_condition_key}
   */
   readonly customProcessMetadataConditionKey?: HostNamingConditionsConditionCustomProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * database_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#database_topology HostNaming#database_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#database_topology HostNaming#database_topology}
   */
   readonly databaseTopology?: HostNamingConditionsConditionDatabaseTopology[] | cdktf.IResolvable;
   /**
   * database_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#database_topology_comparison HostNaming#database_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#database_topology_comparison HostNaming#database_topology_comparison}
   */
   readonly databaseTopologyComparison?: HostNamingConditionsConditionDatabaseTopologyComparison[] | cdktf.IResolvable;
   /**
   * dcrum_decoder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dcrum_decoder HostNaming#dcrum_decoder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dcrum_decoder HostNaming#dcrum_decoder}
   */
   readonly dcrumDecoder?: HostNamingConditionsConditionDcrumDecoder[] | cdktf.IResolvable;
   /**
   * dcrum_decoder_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#dcrum_decoder_comparison HostNaming#dcrum_decoder_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#dcrum_decoder_comparison HostNaming#dcrum_decoder_comparison}
   */
   readonly dcrumDecoderComparison?: HostNamingConditionsConditionDcrumDecoderComparison[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#entity HostNaming#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#entity HostNaming#entity}
   */
   readonly entity?: HostNamingConditionsConditionEntity[] | cdktf.IResolvable;
   /**
   * entity_id_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#entity_id_comparison HostNaming#entity_id_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#entity_id_comparison HostNaming#entity_id_comparison}
   */
   readonly entityIdComparison?: HostNamingConditionsConditionEntityIdComparison[] | cdktf.IResolvable;
   /**
   * host_tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#host_tech HostNaming#host_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#host_tech HostNaming#host_tech}
   */
   readonly hostTech?: HostNamingConditionsConditionHostTech[] | cdktf.IResolvable;
   /**
   * hypervisor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#hypervisor HostNaming#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#hypervisor HostNaming#hypervisor}
   */
   readonly hypervisor?: HostNamingConditionsConditionHypervisor[] | cdktf.IResolvable;
   /**
   * hypervisor_type_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#hypervisor_type_comparision HostNaming#hypervisor_type_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#hypervisor_type_comparision HostNaming#hypervisor_type_comparision}
   */
   readonly hypervisorTypeComparision?: HostNamingConditionsConditionHypervisorTypeComparision[] | cdktf.IResolvable;
   /**
   * indexed_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_name HostNaming#indexed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_name HostNaming#indexed_name}
   */
   readonly indexedName?: HostNamingConditionsConditionIndexedName[] | cdktf.IResolvable;
   /**
   * indexed_name_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_name_comparison HostNaming#indexed_name_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_name_comparison HostNaming#indexed_name_comparison}
   */
   readonly indexedNameComparison?: HostNamingConditionsConditionIndexedNameComparison[] | cdktf.IResolvable;
   /**
   * indexed_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_string HostNaming#indexed_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_string HostNaming#indexed_string}
   */
   readonly indexedString?: HostNamingConditionsConditionIndexedString[] | cdktf.IResolvable;
   /**
   * indexed_string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_string_comparison HostNaming#indexed_string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_string_comparison HostNaming#indexed_string_comparison}
   */
   readonly indexedStringComparison?: HostNamingConditionsConditionIndexedStringComparison[] | cdktf.IResolvable;
   /**
   * indexed_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_tag HostNaming#indexed_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_tag HostNaming#indexed_tag}
   */
   readonly indexedTag?: HostNamingConditionsConditionIndexedTag[] | cdktf.IResolvable;
   /**
   * indexed_tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#indexed_tag_comparison HostNaming#indexed_tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#indexed_tag_comparison HostNaming#indexed_tag_comparison}
   */
   readonly indexedTagComparison?: HostNamingConditionsConditionIndexedTagComparison[] | cdktf.IResolvable;
   /**
   * integer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#integer HostNaming#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#integer HostNaming#integer}
   */
   readonly integer?: HostNamingConditionsConditionInteger[] | cdktf.IResolvable;
   /**
   * integer_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#integer_comparison HostNaming#integer_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#integer_comparison HostNaming#integer_comparison}
   */
   readonly integerComparison?: HostNamingConditionsConditionIntegerComparison[] | cdktf.IResolvable;
   /**
   * ipaddress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#ipaddress HostNaming#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#ipaddress HostNaming#ipaddress}
   */
   readonly ipaddress?: HostNamingConditionsConditionIpaddress[] | cdktf.IResolvable;
   /**
   * ipaddress_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#ipaddress_comparison HostNaming#ipaddress_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#ipaddress_comparison HostNaming#ipaddress_comparison}
   */
   readonly ipaddressComparison?: HostNamingConditionsConditionIpaddressComparison[] | cdktf.IResolvable;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#key HostNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#key HostNaming#key}
   */
   readonly key?: HostNamingConditionsConditionKey[] | cdktf.IResolvable;
   /**
   * mobile_platform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#mobile_platform HostNaming#mobile_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#mobile_platform HostNaming#mobile_platform}
   */
   readonly mobilePlatform?: HostNamingConditionsConditionMobilePlatform[] | cdktf.IResolvable;
   /**
   * mobile_platform_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#mobile_platform_comparison HostNaming#mobile_platform_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#mobile_platform_comparison HostNaming#mobile_platform_comparison}
   */
   readonly mobilePlatformComparison?: HostNamingConditionsConditionMobilePlatformComparison[] | cdktf.IResolvable;
   /**
   * os_arch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#os_arch HostNaming#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#os_arch HostNaming#os_arch}
   */
   readonly osArch?: HostNamingConditionsConditionOsArch[] | cdktf.IResolvable;
   /**
   * os_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#os_type HostNaming#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#os_type HostNaming#os_type}
   */
   readonly osType?: HostNamingConditionsConditionOsType[] | cdktf.IResolvable;
   /**
   * osarchitecture_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#osarchitecture_comparison HostNaming#osarchitecture_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#osarchitecture_comparison HostNaming#osarchitecture_comparison}
   */
   readonly osarchitectureComparison?: HostNamingConditionsConditionOsarchitectureComparison[] | cdktf.IResolvable;
   /**
   * ostype_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#ostype_comparison HostNaming#ostype_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#ostype_comparison HostNaming#ostype_comparison}
   */
   readonly ostypeComparison?: HostNamingConditionsConditionOstypeComparison[] | cdktf.IResolvable;
   /**
   * paas_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#paas_type HostNaming#paas_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#paas_type HostNaming#paas_type}
   */
   readonly paasType?: HostNamingConditionsConditionPaasType[] | cdktf.IResolvable;
   /**
   * paas_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#paas_type_comparison HostNaming#paas_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#paas_type_comparison HostNaming#paas_type_comparison}
   */
   readonly paasTypeComparison?: HostNamingConditionsConditionPaasTypeComparison[] | cdktf.IResolvable;
   /**
   * process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#process_metadata HostNaming#process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#process_metadata HostNaming#process_metadata}
   */
   readonly processMetadata?: HostNamingConditionsConditionProcessMetadata[] | cdktf.IResolvable;
   /**
   * process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#process_metadata_condition_key HostNaming#process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#process_metadata_condition_key HostNaming#process_metadata_condition_key}
   */
   readonly processMetadataConditionKey?: HostNamingConditionsConditionProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * service_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#service_topology HostNaming#service_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#service_topology HostNaming#service_topology}
   */
   readonly serviceTopology?: HostNamingConditionsConditionServiceTopology[] | cdktf.IResolvable;
   /**
   * service_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#service_topology_comparison HostNaming#service_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#service_topology_comparison HostNaming#service_topology_comparison}
   */
   readonly serviceTopologyComparison?: HostNamingConditionsConditionServiceTopologyComparison[] | cdktf.IResolvable;
   /**
   * service_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#service_type HostNaming#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#service_type HostNaming#service_type}
   */
   readonly serviceType?: HostNamingConditionsConditionServiceType[] | cdktf.IResolvable;
   /**
   * service_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#service_type_comparison HostNaming#service_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#service_type_comparison HostNaming#service_type_comparison}
   */
   readonly serviceTypeComparison?: HostNamingConditionsConditionServiceTypeComparison[] | cdktf.IResolvable;
   /**
   * simple_host_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#simple_host_tech_comparison HostNaming#simple_host_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#simple_host_tech_comparison HostNaming#simple_host_tech_comparison}
   */
   readonly simpleHostTechComparison?: HostNamingConditionsConditionSimpleHostTechComparison[] | cdktf.IResolvable;
   /**
   * simple_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#simple_tech_comparison HostNaming#simple_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#simple_tech_comparison HostNaming#simple_tech_comparison}
   */
   readonly simpleTechComparison?: HostNamingConditionsConditionSimpleTechComparison[] | cdktf.IResolvable;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#string HostNaming#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#string HostNaming#string}
   */
   readonly string?: HostNamingConditionsConditionString[] | cdktf.IResolvable;
   /**
   * string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#string_comparison HostNaming#string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#string_comparison HostNaming#string_comparison}
   */
   readonly stringComparison?: HostNamingConditionsConditionStringComparison[] | cdktf.IResolvable;
   /**
   * string_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#string_condition_key HostNaming#string_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#string_condition_key HostNaming#string_condition_key}
   */
   readonly stringConditionKey?: HostNamingConditionsConditionStringConditionKey[] | cdktf.IResolvable;
   /**
   * string_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#string_key HostNaming#string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#string_key HostNaming#string_key}
   */
   readonly stringKey?: HostNamingConditionsConditionStringKey[] | cdktf.IResolvable;
   /**
   * synthetic_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#synthetic_engine HostNaming#synthetic_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#synthetic_engine HostNaming#synthetic_engine}
   */
   readonly syntheticEngine?: HostNamingConditionsConditionSyntheticEngine[] | cdktf.IResolvable;
   /**
   * synthetic_engine_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#synthetic_engine_type_comparison HostNaming#synthetic_engine_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#synthetic_engine_type_comparison HostNaming#synthetic_engine_type_comparison}
   */
   readonly syntheticEngineTypeComparison?: HostNamingConditionsConditionSyntheticEngineTypeComparison[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#tag HostNaming#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#tag HostNaming#tag}
   */
   readonly tag?: HostNamingConditionsConditionTag[] | cdktf.IResolvable;
   /**
   * tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#tag_comparison HostNaming#tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#tag_comparison HostNaming#tag_comparison}
   */
   readonly tagComparison?: HostNamingConditionsConditionTagComparison[] | cdktf.IResolvable;
   /**
   * tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#tech HostNaming#tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#tech HostNaming#tech}
   */
   readonly tech?: HostNamingConditionsConditionTech[] | cdktf.IResolvable;
 }
@@ -19348,7 +19348,7 @@ export interface HostNamingConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#condition HostNaming#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#condition HostNaming#condition}
   */
   readonly condition?: HostNamingConditionsCondition[] | cdktf.IResolvable;
 }
@@ -19464,7 +19464,7 @@ export class HostNamingConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming dynatrace_host_naming}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming dynatrace_host_naming}
 */
 export class HostNaming extends cdktf.TerraformResource {
 
@@ -19480,7 +19480,7 @@ export class HostNaming extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostNaming resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostNaming to import
-  * @param importFromId The id of the existing HostNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostNaming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19492,7 +19492,7 @@ export class HostNaming extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/host_naming dynatrace_host_naming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_naming dynatrace_host_naming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19503,8 +19503,8 @@ export class HostNaming extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_host_naming',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

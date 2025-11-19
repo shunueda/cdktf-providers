@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOktaAppSamlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Search only ACTIVE applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#active_only DataOktaAppSaml#active_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#active_only DataOktaAppSaml#active_only}
   */
   readonly activeOnly?: boolean | cdktf.IResolvable;
   /**
   * Id of application to retrieve, conflicts with label and label_prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#id DataOktaAppSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#id DataOktaAppSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,32 +27,32 @@ export interface DataOktaAppSamlConfig extends cdktf.TerraformMetaArguments {
   * 				uses the ?q=<label> query parameter exposed by Okta's API. It should be noted that at this time 
   * 				this searches both name and label. This is used to avoid paginating through all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#label DataOktaAppSaml#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#label DataOktaAppSaml#label}
   */
   readonly label?: string;
   /**
   * Label prefix of the app to retrieve, conflicts with label and id. This will tell the
   * 				provider to do a starts with query as opposed to an equals query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#label_prefix DataOktaAppSaml#label_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#label_prefix DataOktaAppSaml#label_prefix}
   */
   readonly labelPrefix?: string;
   /**
   * Denotes whether the request is compressed or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#request_compressed DataOktaAppSaml#request_compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#request_compressed DataOktaAppSaml#request_compressed}
   */
   readonly requestCompressed?: boolean | cdktf.IResolvable;
   /**
   * Ignore groups sync. This is a temporary solution until 'groups' field is supported in all the app-like resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#skip_groups DataOktaAppSaml#skip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#skip_groups DataOktaAppSaml#skip_groups}
   */
   readonly skipGroups?: boolean | cdktf.IResolvable;
   /**
   * Ignore users sync. This is a temporary solution until 'users' field is supported in all the app-like resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#skip_users DataOktaAppSaml#skip_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#skip_users DataOktaAppSaml#skip_users}
   */
   readonly skipUsers?: boolean | cdktf.IResolvable;
 }
@@ -158,7 +158,7 @@ export class DataOktaAppSamlAttributeStatementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml okta_app_saml}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml okta_app_saml}
 */
 export class DataOktaAppSaml extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataOktaAppSaml extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaAppSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaAppSaml to import
-  * @param importFromId The id of the existing DataOktaAppSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaAppSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaAppSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataOktaAppSaml extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/app_saml okta_app_saml} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/app_saml okta_app_saml} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataOktaAppSaml extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_app_saml',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyRulePasswordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#id PolicyRulePassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#id PolicyRulePassword#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface PolicyRulePasswordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policy Rule Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#name PolicyRulePassword#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#name PolicyRulePassword#name}
   */
   readonly name: string;
   /**
   * Network selection mode: `ANYWHERE`, `ZONE`, `ON_NETWORK`, or `OFF_NETWORK`. Default: `ANYWHERE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#network_connection PolicyRulePassword#network_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#network_connection PolicyRulePassword#network_connection}
   */
   readonly networkConnection?: string;
   /**
   * Required if `network_connection` = `ZONE`. Indicates the network zones to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#network_excludes PolicyRulePassword#network_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#network_excludes PolicyRulePassword#network_excludes}
   */
   readonly networkExcludes?: string[];
   /**
   * Required if `network_connection` = `ZONE`. Indicates the network zones to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#network_includes PolicyRulePassword#network_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#network_includes PolicyRulePassword#network_includes}
   */
   readonly networkIncludes?: string[];
   /**
   * Allow or deny a user to change their password: `ALLOW` or `DENY`. Default: `ALLOW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#password_change PolicyRulePassword#password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#password_change PolicyRulePassword#password_change}
   */
   readonly passwordChange?: string;
   /**
   * Allow or deny a user to reset their password: `ALLOW` or `DENY`. Default: `ALLOW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#password_reset PolicyRulePassword#password_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#password_reset PolicyRulePassword#password_reset}
   */
   readonly passwordReset?: string;
   /**
   * Allow or deny a user to unlock. Default: `DENY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#password_unlock PolicyRulePassword#password_unlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#password_unlock PolicyRulePassword#password_unlock}
   */
   readonly passwordUnlock?: string;
   /**
   * Policy ID of the Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#policy_id PolicyRulePassword#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#policy_id PolicyRulePassword#policy_id}
   */
   readonly policyId?: string;
   /**
   * Rule priority. This attribute can be set to a valid priority. To avoid an endless diff situation an error is thrown if an invalid property is provided. The Okta API defaults to the last (lowest) if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#priority PolicyRulePassword#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#priority PolicyRulePassword#priority}
   */
   readonly priority?: number;
   /**
   * Policy Rule Status: `ACTIVE` or `INACTIVE`. Default: `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#status PolicyRulePassword#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#status PolicyRulePassword#status}
   */
   readonly status?: string;
   /**
   * Set of User IDs to Exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#users_excluded PolicyRulePassword#users_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#users_excluded PolicyRulePassword#users_excluded}
   */
   readonly usersExcluded?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password okta_policy_rule_password}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password okta_policy_rule_password}
 */
 export class PolicyRulePassword extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class PolicyRulePassword extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyRulePassword resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyRulePassword to import
-  * @param importFromId The id of the existing PolicyRulePassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyRulePassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyRulePassword to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class PolicyRulePassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_password okta_policy_rule_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_password okta_policy_rule_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class PolicyRulePassword extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_rule_password',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MetricEventsConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#enabled MetricEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#enabled MetricEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Controls the preferred entity type used for triggered events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#event_entity_dimension_key MetricEvents#event_entity_dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#event_entity_dimension_key MetricEvents#event_entity_dimension_key}
   */
   readonly eventEntityDimensionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#id MetricEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#id MetricEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface MetricEventsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Config id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#legacy_id MetricEvents#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#legacy_id MetricEvents#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * The textual summary of the metric event entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#summary MetricEvents#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#summary MetricEvents#summary}
   */
   readonly summary: string;
   /**
   * event_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#event_template MetricEvents#event_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#event_template MetricEvents#event_template}
   */
   readonly eventTemplate: MetricEventsEventTemplate;
   /**
   * model_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#model_properties MetricEvents#model_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#model_properties MetricEvents#model_properties}
   */
   readonly modelProperties: MetricEventsModelProperties;
   /**
   * query_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#query_definition MetricEvents#query_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#query_definition MetricEvents#query_definition}
   */
   readonly queryDefinition: MetricEventsQueryDefinition;
 }
@@ -61,13 +61,13 @@ export interface MetricEventsEventTemplateMetadata {
   /**
   * Type 'dt.' for key hints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#metadata_key MetricEvents#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#metadata_key MetricEvents#metadata_key}
   */
   readonly metadataKey: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#metadata_value MetricEvents#metadata_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#metadata_value MetricEvents#metadata_value}
   */
   readonly metadataValue: string;
 }
@@ -208,31 +208,31 @@ export interface MetricEventsEventTemplate {
   /**
   * Davis® AI will try to merge this event into existing problems, otherwise a new problem will always be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#davis_merge MetricEvents#davis_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#davis_merge MetricEvents#davis_merge}
   */
   readonly davisMerge?: boolean | cdktf.IResolvable;
   /**
   * The description of the event to trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#description MetricEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#description MetricEvents#description}
   */
   readonly description: string;
   /**
-  * Possible Values: `AVAILABILITY`, `CUSTOM_ALERT`, `CUSTOM_ANNOTATION`, `CUSTOM_CONFIGURATION`, `CUSTOM_DEPLOYMENT`, `ERROR`, `INFO`, `MARKED_FOR_TERMINATION`, `RESOURCE`, `SLOWDOWN`
+  * Possible Values: `AVAILABILITY`, `CUSTOM_ALERT`, `CUSTOM_ANNOTATION`, `CUSTOM_CONFIGURATION`, `CUSTOM_DEPLOYMENT`, `ERROR`, `INFO`, `MARKED_FOR_TERMINATION`, `RESOURCE`, `SLOWDOWN`, `WARNING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#event_type MetricEvents#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#event_type MetricEvents#event_type}
   */
   readonly eventType: string;
   /**
   * The title of the event to trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#title MetricEvents#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#title MetricEvents#title}
   */
   readonly title: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#metadata MetricEvents#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#metadata MetricEvents#metadata}
   */
   readonly metadata?: MetricEventsEventTemplateMetadata[] | cdktf.IResolvable;
 }
@@ -425,55 +425,55 @@ export interface MetricEventsModelProperties {
   /**
   * Possible Values: `ABOVE`, `BELOW`, `OUTSIDE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#alert_condition MetricEvents#alert_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#alert_condition MetricEvents#alert_condition}
   */
   readonly alertCondition: string;
   /**
   * The ability to set an alert on missing data in a metric. When enabled, missing data samples will be treated as violating samples defined in the advanced model properties. When disabled, missing data is not treated as a violation but will still contribute to dealerting. We recommend disabling alerting on missing data for sparse timeseries to avoid false alerts. To learn more, visit [anomaly detection configuration](https://dt-url.net/lz02mwi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#alert_on_no_data MetricEvents#alert_on_no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#alert_on_no_data MetricEvents#alert_on_no_data}
   */
   readonly alertOnNoData: boolean | cdktf.IResolvable;
   /**
   * The number of one-minute samples within the evaluation window that must go back to normal to close the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#dealerting_samples MetricEvents#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#dealerting_samples MetricEvents#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of one-minute samples that form the sliding evaluation window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#samples MetricEvents#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#samples MetricEvents#samples}
   */
   readonly samples: number;
   /**
   * Controls how many times the signal fluctuation is added to the baseline to produce the actual threshold for alerting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#signal_fluctuation MetricEvents#signal_fluctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#signal_fluctuation MetricEvents#signal_fluctuation}
   */
   readonly signalFluctuation?: number;
   /**
   * Raise an event if this value is violated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#threshold MetricEvents#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#threshold MetricEvents#threshold}
   */
   readonly threshold?: number;
   /**
   * Controls the width of the confidence band and larger values lead to a less sensitive model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#tolerance MetricEvents#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#tolerance MetricEvents#tolerance}
   */
   readonly tolerance?: number;
   /**
   * Possible Values: `AUTO_ADAPTIVE_THRESHOLD`, `SEASONAL_BASELINE`, `STATIC_THRESHOLD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#type MetricEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#type MetricEvents#type}
   */
   readonly type: string;
   /**
   * The number of one-minute samples within the evaluation window that must violate to trigger an event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#violating_samples MetricEvents#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#violating_samples MetricEvents#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -773,19 +773,19 @@ export interface MetricEventsQueryDefinitionDimensionFilterFilter {
   /**
   * Dimension key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#dimension_key MetricEvents#dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#dimension_key MetricEvents#dimension_key}
   */
   readonly dimensionKey: string;
   /**
   * Dimension value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#dimension_value MetricEvents#dimension_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#dimension_value MetricEvents#dimension_value}
   */
   readonly dimensionValue: string;
   /**
   * Possible Values: `CONTAINS_CASE_SENSITIVE`, `DOES_NOT_CONTAIN_CASE_SENSITIVE`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#operator MetricEvents#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#operator MetricEvents#operator}
   */
   readonly operator?: string;
 }
@@ -955,7 +955,7 @@ export interface MetricEventsQueryDefinitionDimensionFilter {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#filter MetricEvents#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#filter MetricEvents#filter}
   */
   readonly filter: MetricEventsQueryDefinitionDimensionFilterFilter[] | cdktf.IResolvable;
 }
@@ -1038,19 +1038,19 @@ export interface MetricEventsQueryDefinitionEntityFilterConditionsCondition {
   /**
   * Possible Values: `CONTAINS_CASE_INSENSITIVE`, `CONTAINS_CASE_SENSITIVE`, `DOES_NOT_CONTAIN_CASE_INSENSITIVE`, `DOES_NOT_CONTAIN_CASE_SENSITIVE`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#operator MetricEvents#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#operator MetricEvents#operator}
   */
   readonly operator: string;
   /**
   * Possible Values: `CUSTOM_DEVICE_GROUP_NAME`, `ENTITY_ID`, `HOST_GROUP_NAME`, `HOST_NAME`, `MANAGEMENT_ZONE`, `NAME`, `PROCESS_GROUP_ID`, `PROCESS_GROUP_NAME`, `TAG`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#type MetricEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#type MetricEvents#type}
   */
   readonly type: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#value MetricEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#value MetricEvents#value}
   */
   readonly value: string;
 }
@@ -1217,7 +1217,7 @@ export interface MetricEventsQueryDefinitionEntityFilterConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#condition MetricEvents#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#condition MetricEvents#condition}
   */
   readonly condition: MetricEventsQueryDefinitionEntityFilterConditionsCondition[] | cdktf.IResolvable;
 }
@@ -1300,13 +1300,13 @@ export interface MetricEventsQueryDefinitionEntityFilter {
   /**
   * Dimension key of entity type to filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#dimension_key MetricEvents#dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#dimension_key MetricEvents#dimension_key}
   */
   readonly dimensionKey?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#conditions MetricEvents#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#conditions MetricEvents#conditions}
   */
   readonly conditions?: MetricEventsQueryDefinitionEntityFilterConditions;
 }
@@ -1421,49 +1421,49 @@ export interface MetricEventsQueryDefinition {
   /**
   * Possible Values: `AVG`, `COUNT`, `MAX`, `MEDIAN`, `MIN`, `PERCENTILE90`, `SUM`, `VALUE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#aggregation MetricEvents#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#aggregation MetricEvents#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The `legacy_id` of a Management Zone (as provided by the resource `dynatrace_management_zone_v2` or the data source `dynatrace_management_zone`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#management_zone MetricEvents#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#management_zone MetricEvents#management_zone}
   */
   readonly managementZone?: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#metric_key MetricEvents#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#metric_key MetricEvents#metric_key}
   */
   readonly metricKey?: string;
   /**
   * To learn more, visit [Metric Selector](https://dt-url.net/metselad)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#metric_selector MetricEvents#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#metric_selector MetricEvents#metric_selector}
   */
   readonly metricSelector?: string;
   /**
   * Minute offset of sliding evaluation window for metrics with latency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#query_offset MetricEvents#query_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#query_offset MetricEvents#query_offset}
   */
   readonly queryOffset?: number;
   /**
   * Possible Values: `METRIC_KEY`, `METRIC_SELECTOR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#type MetricEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#type MetricEvents#type}
   */
   readonly type: string;
   /**
   * dimension_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#dimension_filter MetricEvents#dimension_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#dimension_filter MetricEvents#dimension_filter}
   */
   readonly dimensionFilter?: MetricEventsQueryDefinitionDimensionFilter;
   /**
   * entity_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#entity_filter MetricEvents#entity_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#entity_filter MetricEvents#entity_filter}
   */
   readonly entityFilter?: MetricEventsQueryDefinitionEntityFilter;
 }
@@ -1747,7 +1747,7 @@ export class MetricEventsQueryDefinitionOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events dynatrace_metric_events}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events dynatrace_metric_events}
 */
 export class MetricEvents extends cdktf.TerraformResource {
 
@@ -1763,7 +1763,7 @@ export class MetricEvents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricEvents to import
-  * @param importFromId The id of the existing MetricEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1775,7 +1775,7 @@ export class MetricEvents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_events dynatrace_metric_events} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_events dynatrace_metric_events} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1786,8 +1786,8 @@ export class MetricEvents extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_metric_events',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

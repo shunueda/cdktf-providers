@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CalculatedServiceMetricConfig extends cdktf.TerraformMetaArgume
   /**
   * The displayed description of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#description CalculatedServiceMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#description CalculatedServiceMetric#description}
   */
   readonly description?: string;
   /**
   * The metric is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#enabled CalculatedServiceMetric#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#enabled CalculatedServiceMetric#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Restricts the metric usage to the specified service. This field is mutually exclusive with the `management_zones` field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#entity_id CalculatedServiceMetric#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#entity_id CalculatedServiceMetric#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#id CalculatedServiceMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#id CalculatedServiceMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface CalculatedServiceMetricConfig extends cdktf.TerraformMetaArgume
   /**
   * Metric should (true) or not (false) ignore muted requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#ignore_muted_requests CalculatedServiceMetric#ignore_muted_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#ignore_muted_requests CalculatedServiceMetric#ignore_muted_requests}
   */
   readonly ignoreMutedRequests?: boolean | cdktf.IResolvable;
   /**
   * Restricts the metric usage to specified management zones. This field is mutually exclusive with the `entity_id` field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#management_zones CalculatedServiceMetric#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#management_zones CalculatedServiceMetric#management_zones}
   */
   readonly managementZones?: string[];
   /**
   * The key of the calculated service metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#metric_key CalculatedServiceMetric#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#metric_key CalculatedServiceMetric#metric_key}
   */
   readonly metricKey: string;
   /**
   * The displayed name of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
   */
   readonly name: string;
   /**
   * The unit of the metric. Possible values are `BIT`, `BIT_PER_HOUR`, `BIT_PER_MINUTE`, `BIT_PER_SECOND`, `BYTE`, `BYTE_PER_HOUR`, `BYTE_PER_MINUTE`, `BYTE_PER_SECOND`, `CORES`, `COUNT`, `DAY`, `DECIBEL_MILLI_WATT`, `GIBI_BYTE`, `GIGA`, `GIGA_BYTE`, `HOUR`, `KIBI_BYTE`, `KIBI_BYTE_PER_HOUR`, `KIBI_BYTE_PER_MINUTE`, `KIBI_BYTE_PER_SECOND`, `KILO`, `KILO_BYTE`, `KILO_BYTE_PER_HOUR`, `KILO_BYTE_PER_MINUTE`, `KILO_BYTE_PER_SECOND`, `MEBI_BYTE`, `MEBI_BYTE_PER_HOUR`, `MEBI_BYTE_PER_MINUTE`, `MEBI_BYTE_PER_SECOND`, `MEGA`, `MEGA_BYTE`, `MEGA_BYTE_PER_HOUR`, `MEGA_BYTE_PER_MINUTE`, `MEGA_BYTE_PER_SECOND`, `MICRO_SECOND`, `MILLI_CORES`, `MILLI_SECOND`, `MILLI_SECOND_PER_MINUTE`, `MINUTE`, `MONTH`, `MSU`, `NANO_SECOND`, `NANO_SECOND_PER_MINUTE`, `NOT_APPLICABLE`, `PERCENT`, `PER_HOUR`, `PER_MINUTE`, `PER_SECOND`, `PIXEL`, `PROMILLE`, `RATIO`, `SECOND`, `STATE`, `UNSPECIFIED`, `WEEK` and `YEAR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unit CalculatedServiceMetric#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unit CalculatedServiceMetric#unit}
   */
   readonly unit: string;
   /**
   * The display name of the metric's unit. Only applicable when the **unit** parameter is set to `UNSPECIFIED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unit_display_name CalculatedServiceMetric#unit_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unit_display_name CalculatedServiceMetric#unit_display_name}
   */
   readonly unitDisplayName?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#conditions CalculatedServiceMetric#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#conditions CalculatedServiceMetric#conditions}
   */
   readonly conditions?: CalculatedServiceMetricConditions[] | cdktf.IResolvable;
   /**
   * dimension_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#dimension_definition CalculatedServiceMetric#dimension_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#dimension_definition CalculatedServiceMetric#dimension_definition}
   */
   readonly dimensionDefinition?: CalculatedServiceMetricDimensionDefinition;
   /**
   * metric_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#metric_definition CalculatedServiceMetric#metric_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#metric_definition CalculatedServiceMetric#metric_definition}
   */
   readonly metricDefinition?: CalculatedServiceMetricMetricDefinition;
 }
@@ -97,25 +97,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonBoolean {
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value: boolean | cdktf.IResolvable;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable;
 }
@@ -285,25 +285,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonEsbInputNod
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `CALLABLE_FLOW_ASYNC_RESPONSE_NODE`, `CALLABLE_FLOW_INPUT_NODE`, `DATABASE_INPUT_NODE`, `DOTNET_INPUT_NODE`, `EMAIL_INPUT_NODE`, `EVENT_INPUT`, `EVENT_INPUT_NODE`, `FILE_INPUT_NODE`, `FTE_INPUT_NODE`, `HTTP_ASYNC_RESPONSE`, `JD_EDWARDS_INPUT_NODE`, `JMS_CLIENT_INPUT_NODE`, `LABEL_NODE`, `MQ_INPUT_NODE`, `PEOPLE_SOFT_INPUT_NODE`, `REST_ASYNC_RESPONSE`, `REST_REQUEST`, `SAP_INPUT_NODE`, `SCA_ASYNC_RESPONSE_NODE`, `SCA_INPUT_NODE`, `SIEBEL_INPUT_NODE`, `SOAP_INPUT_NODE`, `TCPIP_CLIENT_INPUT_NODE`, `TCPIP_CLIENT_REQUEST_NODE`, `TCPIP_SERVER_INPUT_NODE`, `TCPIP_SERVER_REQUEST_NODE`, `TIMEOUT_NOTIFICATION_NODE` and `WS_INPUT_NODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `CALLABLE_FLOW_ASYNC_RESPONSE_NODE`, `CALLABLE_FLOW_INPUT_NODE`, `DATABASE_INPUT_NODE`, `DOTNET_INPUT_NODE`, `EMAIL_INPUT_NODE`, `EVENT_INPUT`, `EVENT_INPUT_NODE`, `FILE_INPUT_NODE`, `FTE_INPUT_NODE`, `HTTP_ASYNC_RESPONSE`, `JD_EDWARDS_INPUT_NODE`, `JMS_CLIENT_INPUT_NODE`, `LABEL_NODE`, `MQ_INPUT_NODE`, `PEOPLE_SOFT_INPUT_NODE`, `REST_ASYNC_RESPONSE`, `REST_REQUEST`, `SAP_INPUT_NODE`, `SCA_ASYNC_RESPONSE_NODE`, `SCA_INPUT_NODE`, `SIEBEL_INPUT_NODE`, `SOAP_INPUT_NODE`, `TCPIP_CLIENT_INPUT_NODE`, `TCPIP_CLIENT_REQUEST_NODE`, `TCPIP_SERVER_INPUT_NODE`, `TCPIP_SERVER_REQUEST_NODE`, `TIMEOUT_NOTIFICATION_NODE` and `WS_INPUT_NODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -476,25 +476,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonFailedState
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `FAILED` and `FAILED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `FAILED` and `FAILED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -667,25 +667,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonFailureReas
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `EXCEPTION_AT_ENTRY_NODE`, `EXCEPTION_ON_ANY_NODE`, `HTTP_CODE` and `REQUEST_ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `EXCEPTION_AT_ENTRY_NODE`, `EXCEPTION_ON_ANY_NODE`, `HTTP_CODE` and `REQUEST_ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -858,31 +858,31 @@ export interface CalculatedServiceMetricConditionsConditionComparisonFastString 
   /**
   * The comparison is case-sensitive (`true`) or not case-sensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `CONTAINS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -1084,25 +1084,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonFlawState {
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `FLAWED` and `NOT_FLAWED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `FLAWED` and `NOT_FLAWED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -1275,13 +1275,13 @@ export interface CalculatedServiceMetricConditionsConditionComparisonGeneric {
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#type CalculatedServiceMetric#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#type CalculatedServiceMetric#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1393,25 +1393,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonHttpMethod 
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `CONNECT`, `DELETE`, `GET`, `HEAD`, `OPTIONS`, `PATCH`, `POST`, `PUT` and `TRACE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `CONNECT`, `DELETE`, `GET`, `HEAD`, `OPTIONS`, `PATCH`, `POST`, `PUT` and `TRACE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -1584,25 +1584,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonHttpStatusC
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `C_1XX`, `C_2XX`, `C_3XX`, `C_4XX`, `C_5XX` and `NO_RESPONSE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `C_1XX`, `C_2XX`, `C_3XX`, `C_4XX`, `C_5XX` and `NO_RESPONSE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -1775,25 +1775,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonIibInputNod
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `CALLABLE_FLOW_ASYNC_RESPONSE_NODE`, `CALLABLE_FLOW_INPUT_NODE`, `DATABASE_INPUT_NODE`, `DOTNET_INPUT_NODE`, `EMAIL_INPUT_NODE`, `EVENT_INPUT`, `EVENT_INPUT_NODE`, `FILE_INPUT_NODE`, `FTE_INPUT_NODE`, `HTTP_ASYNC_RESPONSE`, `JD_EDWARDS_INPUT_NODE`, `JMS_CLIENT_INPUT_NODE`, `LABEL_NODE`, `MQ_INPUT_NODE`, `PEOPLE_SOFT_INPUT_NODE`, `REST_ASYNC_RESPONSE`, `REST_REQUEST`, `SAP_INPUT_NODE`, `SCA_ASYNC_RESPONSE_NODE`, `SCA_INPUT_NODE`, `SIEBEL_INPUT_NODE`, `SOAP_INPUT_NODE`, `TCPIP_CLIENT_INPUT_NODE`, `TCPIP_CLIENT_REQUEST_NODE`, `TCPIP_SERVER_INPUT_NODE`, `TCPIP_SERVER_REQUEST_NODE`, `TIMEOUT_NOTIFICATION_NODE` and `WS_INPUT_NODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `CALLABLE_FLOW_ASYNC_RESPONSE_NODE`, `CALLABLE_FLOW_INPUT_NODE`, `DATABASE_INPUT_NODE`, `DOTNET_INPUT_NODE`, `EMAIL_INPUT_NODE`, `EVENT_INPUT`, `EVENT_INPUT_NODE`, `FILE_INPUT_NODE`, `FTE_INPUT_NODE`, `HTTP_ASYNC_RESPONSE`, `JD_EDWARDS_INPUT_NODE`, `JMS_CLIENT_INPUT_NODE`, `LABEL_NODE`, `MQ_INPUT_NODE`, `PEOPLE_SOFT_INPUT_NODE`, `REST_ASYNC_RESPONSE`, `REST_REQUEST`, `SAP_INPUT_NODE`, `SCA_ASYNC_RESPONSE_NODE`, `SCA_INPUT_NODE`, `SIEBEL_INPUT_NODE`, `SOAP_INPUT_NODE`, `TCPIP_CLIENT_INPUT_NODE`, `TCPIP_CLIENT_REQUEST_NODE`, `TCPIP_SERVER_INPUT_NODE`, `TCPIP_SERVER_REQUEST_NODE`, `TIMEOUT_NOTIFICATION_NODE` and `WS_INPUT_NODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -1966,25 +1966,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonNumber {
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF`, `EXISTS`, `GREATER_THAN`, `GREATER_THAN_OR_EQUAL`, `LOWER_THAN` and `LOWER_THAN_OR_EQUAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: number;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: number[];
 }
@@ -2157,13 +2157,13 @@ export interface CalculatedServiceMetricConditionsConditionComparisonNumberReque
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key?: string;
 }
@@ -2278,25 +2278,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonNumberReque
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. For custom tags use the `CONTEXTLESS` value. The context is set for tags that are automatically imported by OneAgent (for example, from the AWS console or environment variables). It’s useful for determining the origin of tags when not manually defined, and it also helps to prevent clashes with other existing tags. If the tag is not automatically imported, `CONTEXTLESS` set. Possible values are `AWS`, `AWS_GENERIC`, `AZURE`, `CLOUD_FOUNDRY`, `CONTEXTLESS`, `ENVIRONMENT`, `GOOGLE_COMPUTE_ENGINE` and `KUBERNETES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * The key of the tag. For custom tags, put the tag value here. The key allows categorization of multiple tags. It is possible that there are multiple values for a single key which will all be represented as standalone tags. Therefore, the key does not have the semantic of a map key but is more like a key of a key-value tuple. In some cases, for example custom tags, the key represents the actual tag value and the value field is not set – those are called valueless tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags. If a tag does have a separate key and value (in the textual representation they are split by the colon ‘:’), this field is set with the actual value. Key-value pairs can occur for automatically imported tags and tags set by rules if extractors are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * tag_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
   */
   readonly tagKey?: CalculatedServiceMetricConditionsConditionComparisonNumberRequestAttributeSourceServiceTagTagKey;
 }
@@ -2466,19 +2466,19 @@ export interface CalculatedServiceMetricConditionsConditionComparisonNumberReque
   /**
   * Use only request attributes from services that belong to this management zone.. Use either this or `serviceTag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
   */
   readonly managementZone?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * service_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
   */
   readonly serviceTag?: CalculatedServiceMetricConditionsConditionComparisonNumberRequestAttributeSourceServiceTag;
 }
@@ -2622,43 +2622,43 @@ export interface CalculatedServiceMetricConditionsConditionComparisonNumberReque
   /**
   * If `true`, the request attribute is matched on child service calls. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#match_on_child_calls CalculatedServiceMetric#match_on_child_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#match_on_child_calls CalculatedServiceMetric#match_on_child_calls}
   */
   readonly matchOnChildCalls?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF`, `EXISTS`, `GREATER_THAN`, `GREATER_THAN_OR_EQUAL`, `LOWER_THAN` and `LOWER_THAN_OR_EQUAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * No documentation available for this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
   */
   readonly requestAttribute: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: number;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: number[];
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
   */
   readonly source?: CalculatedServiceMetricConditionsConditionComparisonNumberRequestAttributeSource;
 }
@@ -2915,25 +2915,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonServiceType
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `BACKGROUND_ACTIVITY`, `CICS_SERVICE`, `CUSTOM_SERVICE`, `DATABASE_SERVICE`, `ENTERPRISE_SERVICE_BUS_SERVICE`, `EXTERNAL`, `IBM_INTEGRATION_BUS_SERVICE`, `IMS_SERVICE`, `MESSAGING_SERVICE`, `RMI_SERVICE`, `RPC_SERVICE`, `WEB_REQUEST_SERVICE` and `WEB_SERVICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `BACKGROUND_ACTIVITY`, `CICS_SERVICE`, `CUSTOM_SERVICE`, `DATABASE_SERVICE`, `ENTERPRISE_SERVICE_BUS_SERVICE`, `EXTERNAL`, `IBM_INTEGRATION_BUS_SERVICE`, `IMS_SERVICE`, `MESSAGING_SERVICE`, `RMI_SERVICE`, `RPC_SERVICE`, `WEB_REQUEST_SERVICE` and `WEB_SERVICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -3106,31 +3106,31 @@ export interface CalculatedServiceMetricConditionsConditionComparisonString {
   /**
   * The comparison is case-sensitive (`true`) or not case-sensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `BEGINS_WITH`, `BEGINS_WITH_ANY_OF`, `CONTAINS`, `ENDS_WITH`, `ENDS_WITH_ANY_OF`, `EQUALS`, `EQUALS_ANY_OF`, `EXISTS` and `REGEX_MATCHES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -3332,13 +3332,13 @@ export interface CalculatedServiceMetricConditionsConditionComparisonStringReque
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key?: string;
 }
@@ -3453,25 +3453,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonStringReque
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. For custom tags use the `CONTEXTLESS` value. The context is set for tags that are automatically imported by OneAgent (for example, from the AWS console or environment variables). It’s useful for determining the origin of tags when not manually defined, and it also helps to prevent clashes with other existing tags. If the tag is not automatically imported, `CONTEXTLESS` set. Possible values are `AWS`, `AWS_GENERIC`, `AZURE`, `CLOUD_FOUNDRY`, `CONTEXTLESS`, `ENVIRONMENT`, `GOOGLE_COMPUTE_ENGINE` and `KUBERNETES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * The key of the tag. For custom tags, put the tag value here. The key allows categorization of multiple tags. It is possible that there are multiple values for a single key which will all be represented as standalone tags. Therefore, the key does not have the semantic of a map key but is more like a key of a key-value tuple. In some cases, for example custom tags, the key represents the actual tag value and the value field is not set – those are called valueless tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags. If a tag does have a separate key and value (in the textual representation they are split by the colon ‘:’), this field is set with the actual value. Key-value pairs can occur for automatically imported tags and tags set by rules if extractors are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * tag_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
   */
   readonly tagKey?: CalculatedServiceMetricConditionsConditionComparisonStringRequestAttributeSourceServiceTagTagKey;
 }
@@ -3641,19 +3641,19 @@ export interface CalculatedServiceMetricConditionsConditionComparisonStringReque
   /**
   * Use only request attributes from services that belong to this management zone.. Use either this or `serviceTag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
   */
   readonly managementZone?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * service_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
   */
   readonly serviceTag?: CalculatedServiceMetricConditionsConditionComparisonStringRequestAttributeSourceServiceTag;
 }
@@ -3797,49 +3797,49 @@ export interface CalculatedServiceMetricConditionsConditionComparisonStringReque
   /**
   * The comparison is case-sensitive (`true`) or not case-sensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#case_sensitive CalculatedServiceMetric#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the request attribute is matched on child service calls. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#match_on_child_calls CalculatedServiceMetric#match_on_child_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#match_on_child_calls CalculatedServiceMetric#match_on_child_calls}
   */
   readonly matchOnChildCalls?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `BEGINS_WITH`, `BEGINS_WITH_ANY_OF`, `CONTAINS`, `ENDS_WITH`, `ENDS_WITH_ANY_OF`, `EQUALS`, `EQUALS_ANY_OF`, `EXISTS` and `REGEX_MATCHES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * No documentation available for this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
   */
   readonly requestAttribute: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
   */
   readonly source?: CalculatedServiceMetricConditionsConditionComparisonStringRequestAttributeSource;
 }
@@ -4125,25 +4125,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Custom tags use the `CONTEXTLESS` value. Possible values are `AWS`, `AWS_GENERIC`, `AZURE`, `CLOUD_FOUNDRY`, `CONTEXTLESS`, `ENVIRONMENT`, `GOOGLE_CLOUD` and `KUBERNETES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
 }
@@ -4310,25 +4310,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonTagValuesVa
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Custom tags use the `CONTEXTLESS` value. Possible values are `AWS`, `AWS_GENERIC`, `AZURE`, `CLOUD_FOUNDRY`, `CONTEXTLESS`, `ENVIRONMENT`, `GOOGLE_CLOUD` and `KUBERNETES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
 }
@@ -4527,7 +4527,7 @@ export interface CalculatedServiceMetricConditionsConditionComparisonTagValues {
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: CalculatedServiceMetricConditionsConditionComparisonTagValuesValue[] | cdktf.IResolvable;
 }
@@ -4613,25 +4613,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonTag {
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF`, `TAG_KEY_EQUALS` and `TAG_KEY_EQUALS_ANY_OF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: CalculatedServiceMetricConditionsConditionComparisonTagValue;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: CalculatedServiceMetricConditionsConditionComparisonTagValues;
 }
@@ -4804,25 +4804,25 @@ export interface CalculatedServiceMetricConditionsConditionComparisonZosCallType
   /**
   * Operator of the comparison. You can reverse it by setting `negate` to `true`. Possible values are `EQUALS`, `EQUALS_ANY_OF` and `EXISTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#operator CalculatedServiceMetric#operator}
   */
   readonly operator?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are `CTG`, `DPL`, `EXPLICIT_ADK`, `IMS_CONNECT`, `IMS_CONNECT_API`, `IMS_ITRA`, `IMS_MSC`, `IMS_PGM_SWITCH`, `IMS_SHARED_QUEUES`, `IMS_TRANS_EXEC`, `MQ`, `SOAP`, `START`, `TX` and `UNKNOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * The values to compare to. Possible values are `CTG`, `DPL`, `EXPLICIT_ADK`, `IMS_CONNECT`, `IMS_CONNECT_API`, `IMS_ITRA`, `IMS_MSC`, `IMS_PGM_SWITCH`, `IMS_SHARED_QUEUES`, `IMS_TRANS_EXEC`, `MQ`, `SOAP`, `START`, `TX` and `UNKNOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#values CalculatedServiceMetric#values}
   */
   readonly values?: string[];
 }
@@ -4995,109 +4995,109 @@ export interface CalculatedServiceMetricConditionsConditionComparison {
   /**
   * Reverse the comparison **operator**. For example, it turns **equals** into **does not equal**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#negate CalculatedServiceMetric#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#negate CalculatedServiceMetric#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * boolean block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#boolean CalculatedServiceMetric#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#boolean CalculatedServiceMetric#boolean}
   */
   readonly boolean?: CalculatedServiceMetricConditionsConditionComparisonBoolean;
   /**
   * esb_input_node_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#esb_input_node_type CalculatedServiceMetric#esb_input_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#esb_input_node_type CalculatedServiceMetric#esb_input_node_type}
   */
   readonly esbInputNodeType?: CalculatedServiceMetricConditionsConditionComparisonEsbInputNodeType;
   /**
   * failed_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#failed_state CalculatedServiceMetric#failed_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#failed_state CalculatedServiceMetric#failed_state}
   */
   readonly failedState?: CalculatedServiceMetricConditionsConditionComparisonFailedState;
   /**
   * failure_reason block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#failure_reason CalculatedServiceMetric#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#failure_reason CalculatedServiceMetric#failure_reason}
   */
   readonly failureReason?: CalculatedServiceMetricConditionsConditionComparisonFailureReason;
   /**
   * fast_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#fast_string CalculatedServiceMetric#fast_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#fast_string CalculatedServiceMetric#fast_string}
   */
   readonly fastString?: CalculatedServiceMetricConditionsConditionComparisonFastString;
   /**
   * flaw_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#flaw_state CalculatedServiceMetric#flaw_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#flaw_state CalculatedServiceMetric#flaw_state}
   */
   readonly flawState?: CalculatedServiceMetricConditionsConditionComparisonFlawState;
   /**
   * generic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#generic CalculatedServiceMetric#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#generic CalculatedServiceMetric#generic}
   */
   readonly generic?: CalculatedServiceMetricConditionsConditionComparisonGeneric;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#http_method CalculatedServiceMetric#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#http_method CalculatedServiceMetric#http_method}
   */
   readonly httpMethod?: CalculatedServiceMetricConditionsConditionComparisonHttpMethod;
   /**
   * http_status_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#http_status_class CalculatedServiceMetric#http_status_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#http_status_class CalculatedServiceMetric#http_status_class}
   */
   readonly httpStatusClass?: CalculatedServiceMetricConditionsConditionComparisonHttpStatusClass;
   /**
   * iib_input_node_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#iib_input_node_type CalculatedServiceMetric#iib_input_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#iib_input_node_type CalculatedServiceMetric#iib_input_node_type}
   */
   readonly iibInputNodeType?: CalculatedServiceMetricConditionsConditionComparisonIibInputNodeType;
   /**
   * number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#number CalculatedServiceMetric#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#number CalculatedServiceMetric#number}
   */
   readonly number?: CalculatedServiceMetricConditionsConditionComparisonNumber;
   /**
   * number_request_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#number_request_attribute CalculatedServiceMetric#number_request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#number_request_attribute CalculatedServiceMetric#number_request_attribute}
   */
   readonly numberRequestAttribute?: CalculatedServiceMetricConditionsConditionComparisonNumberRequestAttribute;
   /**
   * service_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#service_type CalculatedServiceMetric#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#service_type CalculatedServiceMetric#service_type}
   */
   readonly serviceType?: CalculatedServiceMetricConditionsConditionComparisonServiceType;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#string CalculatedServiceMetric#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#string CalculatedServiceMetric#string}
   */
   readonly string?: CalculatedServiceMetricConditionsConditionComparisonString;
   /**
   * string_request_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#string_request_attribute CalculatedServiceMetric#string_request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#string_request_attribute CalculatedServiceMetric#string_request_attribute}
   */
   readonly stringRequestAttribute?: CalculatedServiceMetricConditionsConditionComparisonStringRequestAttribute;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#tag CalculatedServiceMetric#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#tag CalculatedServiceMetric#tag}
   */
   readonly tag?: CalculatedServiceMetricConditionsConditionComparisonTag;
   /**
   * zos_call_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#zos_call_type CalculatedServiceMetric#zos_call_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#zos_call_type CalculatedServiceMetric#zos_call_type}
   */
   readonly zosCallType?: CalculatedServiceMetricConditionsConditionComparisonZosCallType;
 }
@@ -5676,19 +5676,19 @@ export interface CalculatedServiceMetricConditionsCondition {
   /**
   * The attribute to be matched.  Note that for a service property attribute you must use the comparison of the `FAST_STRING` type. Possible values are `ACTOR_SYSTEM`, `AKKA_ACTOR_CLASS_NAME`, `AKKA_ACTOR_MESSAGE_TYPE`, `AKKA_ACTOR_PATH`, `APPLICATION_BUILD_VERSION`, `APPLICATION_RELEASE_VERSION`, `AZURE_FUNCTIONS_FUNCTION_NAME`, `AZURE_FUNCTIONS_SITE_NAME`, `CICS_PROGRAM_NAME`, `CICS_SYSTEM_ID`, `CICS_TASK_ID`, `CICS_TRANSACTION_ID`, `CICS_USER_ID`, `CPU_TIME`, `CTG_GATEWAY_URL`, `CTG_PROGRAM`, `CTG_SERVER_NAME`, `CTG_TRANSACTION_ID`, `CUSTOMSERVICE_CLASS`, `CUSTOMSERVICE_METHOD`, `DATABASE_CHILD_CALL_COUNT`, `DATABASE_CHILD_CALL_TIME`, `DATABASE_HOST`, `DATABASE_NAME`, `DATABASE_TYPE`, `DATABASE_URL`, `DISK_IO_TIME`, `ERROR_COUNT`, `ESB_APPLICATION_NAME`, `ESB_INPUT_TYPE`, `ESB_LIBRARY_NAME`, `ESB_MESSAGE_FLOW_NAME`, `EXCEPTION_CLASS`, `EXCEPTION_MESSAGE`, `FAILED_STATE`, `FAILURE_REASON`, `FLAW_STATE`, `HTTP_REQUEST_METHOD`, `HTTP_STATUS`, `HTTP_STATUS_CLASS`, `IMS_PROGRAM_NAME`, `IMS_TRANSACTION_ID`, `IMS_USER_ID`, `IO_TIME`, `IS_KEY_REQUEST`, `LAMBDA_COLDSTART`, `LOCK_TIME`, `MESSAGING_DESTINATION_TYPE`, `MESSAGING_IS_TEMPORARY_QUEUE`, `MESSAGING_QUEUE_NAME`, `MESSAGING_QUEUE_VENDOR`, `NETWORK_IO_TIME`, `NON_DATABASE_CHILD_CALL_COUNT`, `NON_DATABASE_CHILD_CALL_TIME`, `PROCESS_GROUP_NAME`, `PROCESS_GROUP_TAG`, `REMOTE_ENDPOINT`, `REMOTE_METHOD`, `REMOTE_SERVICE_NAME`, `REQUEST_NAME`, `REQUEST_TYPE`, `RESPONSE_TIME`, `RESPONSE_TIME_CLIENT`, `RMI_CLASS`, `RMI_METHOD`, `SERVICE_DISPLAY_NAME`, `SERVICE_NAME`, `SERVICE_PORT`, `SERVICE_PUBLIC_DOMAIN_NAME`, `SERVICE_REQUEST_ATTRIBUTE`, `SERVICE_TAG`, `SERVICE_TYPE`, `SERVICE_WEB_APPLICATION_ID`, `SERVICE_WEB_CONTEXT_ROOT`, `SERVICE_WEB_SERVER_NAME`, `SERVICE_WEB_SERVICE_NAME`, `SERVICE_WEB_SERVICE_NAMESPACE`, `SUSPENSION_TIME`, `TOTAL_PROCESSING_TIME`, `WAIT_TIME`, `WEBREQUEST_QUERY`, `WEBREQUEST_RELATIVE_URL`, `WEBREQUEST_URL`, `WEBREQUEST_URL_HOST`, `WEBREQUEST_URL_PATH`, `WEBREQUEST_URL_PORT`, `WEBSERVICE_ENDPOINT`, `WEBSERVICE_METHOD` and `ZOS_CALL_TYPE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#attribute CalculatedServiceMetric#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#attribute CalculatedServiceMetric#attribute}
   */
   readonly attribute: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#comparison CalculatedServiceMetric#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#comparison CalculatedServiceMetric#comparison}
   */
   readonly comparison: CalculatedServiceMetricConditionsConditionComparison;
 }
@@ -5858,7 +5858,7 @@ export interface CalculatedServiceMetricConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#condition CalculatedServiceMetric#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#condition CalculatedServiceMetric#condition}
   */
   readonly condition?: CalculatedServiceMetricConditionsCondition[] | cdktf.IResolvable;
 }
@@ -5976,13 +5976,13 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholdersPlacehold
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * has no documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key?: string;
 }
@@ -6097,25 +6097,25 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholdersPlacehold
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. For custom tags use the `CONTEXTLESS` value. The context is set for tags that are automatically imported by OneAgent (for example, from the AWS console or environment variables). It’s useful for determining the origin of tags when not manually defined, and it also helps to prevent clashes with other existing tags. If the tag is not automatically imported, `CONTEXTLESS` set. Possible values are `AWS`, `AWS_GENERIC`, `AZURE`, `CLOUD_FOUNDRY`, `CONTEXTLESS`, `ENVIRONMENT`, `GOOGLE_COMPUTE_ENGINE` and `KUBERNETES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#context CalculatedServiceMetric#context}
   */
   readonly context?: string;
   /**
   * The key of the tag. For custom tags, put the tag value here. The key allows categorization of multiple tags. It is possible that there are multiple values for a single key which will all be represented as standalone tags. Therefore, the key does not have the semantic of a map key but is more like a key of a key-value tuple. In some cases, for example custom tags, the key represents the actual tag value and the value field is not set – those are called valueless tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#key CalculatedServiceMetric#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags. If a tag does have a separate key and value (in the textual representation they are split by the colon ‘:’), this field is set with the actual value. Key-value pairs can occur for automatically imported tags and tags set by rules if extractors are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#value CalculatedServiceMetric#value}
   */
   readonly value?: string;
   /**
   * tag_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#tag_key CalculatedServiceMetric#tag_key}
   */
   readonly tagKey?: CalculatedServiceMetricDimensionDefinitionPlaceholdersPlaceholderSourceServiceTagTagKey;
 }
@@ -6285,19 +6285,19 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholdersPlacehold
   /**
   * Use only request attributes from services that belong to this management zone.. Use either this or `serviceTag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#management_zone CalculatedServiceMetric#management_zone}
   */
   readonly managementZone?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * service_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#service_tag CalculatedServiceMetric#service_tag}
   */
   readonly serviceTag?: CalculatedServiceMetricDimensionDefinitionPlaceholdersPlaceholderSourceServiceTag;
 }
@@ -6441,13 +6441,13 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholdersPlacehold
   /**
   * Which value of the request attribute must be used when it occurs across multiple child requests. Only applicable for the `SERVICE_REQUEST_ATTRIBUTE` attribute, when **useFromChildCalls** is `true`. For the `COUNT` aggregation, the **kind** field is not applicable. Possible values are `COUNT`, `FIRST` and `LAST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#aggregation CalculatedServiceMetric#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#aggregation CalculatedServiceMetric#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The attribute to extract from. You can only use attributes of the **string** type. Possible values are `ACTOR_SYSTEM`, `AKKA_ACTOR_CLASS_NAME`, `AKKA_ACTOR_MESSAGE_TYPE`, `AKKA_ACTOR_PATH`, `APPLICATION_BUILD_VERSION`, `APPLICATION_RELEASE_VERSION`, `AZURE_FUNCTIONS_FUNCTION_NAME`, `AZURE_FUNCTIONS_SITE_NAME`, `CICS_PROGRAM_NAME`, `CICS_SYSTEM_ID`, `CICS_TASK_ID`, `CICS_TRANSACTION_ID`, `CICS_USER_ID`, `CPU_TIME`, `CTG_GATEWAY_URL`, `CTG_PROGRAM`, `CTG_SERVER_NAME`, `CTG_TRANSACTION_ID`, `CUSTOMSERVICE_CLASS`, `CUSTOMSERVICE_METHOD`, `DATABASE_CHILD_CALL_COUNT`, `DATABASE_CHILD_CALL_TIME`, `DATABASE_HOST`, `DATABASE_NAME`, `DATABASE_TYPE`, `DATABASE_URL`, `DISK_IO_TIME`, `ERROR_COUNT`, `ESB_APPLICATION_NAME`, `ESB_INPUT_TYPE`, `ESB_LIBRARY_NAME`, `ESB_MESSAGE_FLOW_NAME`, `EXCEPTION_CLASS`, `EXCEPTION_MESSAGE`, `FAILED_STATE`, `FAILURE_REASON`, `FLAW_STATE`, `HTTP_REQUEST_METHOD`, `HTTP_STATUS`, `HTTP_STATUS_CLASS`, `IMS_PROGRAM_NAME`, `IMS_TRANSACTION_ID`, `IMS_USER_ID`, `IO_TIME`, `IS_KEY_REQUEST`, `LAMBDA_COLDSTART`, `LOCK_TIME`, `MESSAGING_DESTINATION_TYPE`, `MESSAGING_IS_TEMPORARY_QUEUE`, `MESSAGING_QUEUE_NAME`, `MESSAGING_QUEUE_VENDOR`, `NETWORK_IO_TIME`, `NON_DATABASE_CHILD_CALL_COUNT`, `NON_DATABASE_CHILD_CALL_TIME`, `PROCESS_GROUP_NAME`, `PROCESS_GROUP_TAG`, `REMOTE_ENDPOINT`, `REMOTE_METHOD`, `REMOTE_SERVICE_NAME`, `REQUEST_NAME`, `REQUEST_TYPE`, `RESPONSE_TIME`, `RESPONSE_TIME_CLIENT`, `RMI_CLASS`, `RMI_METHOD`, `SERVICE_DISPLAY_NAME`, `SERVICE_NAME`, `SERVICE_PORT`, `SERVICE_PUBLIC_DOMAIN_NAME`, `SERVICE_REQUEST_ATTRIBUTE`, `SERVICE_TAG`, `SERVICE_TYPE`, `SERVICE_WEB_APPLICATION_ID`, `SERVICE_WEB_CONTEXT_ROOT`, `SERVICE_WEB_SERVER_NAME`, `SERVICE_WEB_SERVICE_NAME`, `SERVICE_WEB_SERVICE_NAMESPACE`, `SUSPENSION_TIME`, `TOTAL_PROCESSING_TIME`, `WAIT_TIME`, `WEBREQUEST_QUERY`, `WEBREQUEST_RELATIVE_URL`, `WEBREQUEST_URL`, `WEBREQUEST_URL_HOST`, `WEBREQUEST_URL_PATH`, `WEBREQUEST_URL_PORT`, `WEBSERVICE_ENDPOINT`, `WEBSERVICE_METHOD` and `ZOS_CALL_TYPE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#attribute CalculatedServiceMetric#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#attribute CalculatedServiceMetric#attribute}
   */
   readonly attribute: string;
   /**
@@ -6462,61 +6462,61 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholdersPlacehold
   * 
   * * All other values: The delimiter string to look for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#delimiter_or_regex CalculatedServiceMetric#delimiter_or_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#delimiter_or_regex CalculatedServiceMetric#delimiter_or_regex}
   */
   readonly delimiterOrRegex?: string;
   /**
   * The closing delimiter string to look for. Required if the `kind` value is `BETWEEN_DELIMITER`. Not applicable otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#end_delimiter CalculatedServiceMetric#end_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#end_delimiter CalculatedServiceMetric#end_delimiter}
   */
   readonly endDelimiter?: string;
   /**
   * The type of extraction. Defines either usage of regular expression (`regex`) or the position of request attribute value to be extracted. When the `attribute` is `SERVICE_REQUEST_ATTRIBUTE` attribute and `aggregation` is `COUNT`, needs to be set to `ORIGINAL_TEXT`. Possible values are 	`AFTER_DELIMITER`, `BEFORE_DELIMITER`, `BETWEEN_DELIMITER`, `ORIGINAL_TEXT` and `REGEX_EXTRACTION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#kind CalculatedServiceMetric#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#kind CalculatedServiceMetric#kind}
   */
   readonly kind: string;
   /**
   * The name of the placeholder. Use it in the naming pattern as `{name}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
   */
   readonly name: string;
   /**
   * The format of the extracted string. Possible values are `ORIGINAL`, `TO_LOWER_CASE` and `TO_UPPER_CASE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#normalization CalculatedServiceMetric#normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#normalization CalculatedServiceMetric#normalization}
   */
   readonly normalization?: string;
   /**
   * The One Agent attribute to extract from. Required if the kind value is `ONE_AGENT_ATTRIBUTE`. Not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#oneagent_attribute_key CalculatedServiceMetric#oneagent_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#oneagent_attribute_key CalculatedServiceMetric#oneagent_attribute_key}
   */
   readonly oneagentAttributeKey?: string;
   /**
   * The request attribute to extract from. Required if the `kind` value is `SERVICE_REQUEST_ATTRIBUTE`. Not applicable otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
   */
   readonly requestAttribute?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * If `true` request attribute will be taken from a child service call. Only applicable for the `SERVICE_REQUEST_ATTRIBUTE` attribute. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#use_from_child_calls CalculatedServiceMetric#use_from_child_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#use_from_child_calls CalculatedServiceMetric#use_from_child_calls}
   */
   readonly useFromChildCalls?: boolean | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#source CalculatedServiceMetric#source}
   */
   readonly source?: CalculatedServiceMetricDimensionDefinitionPlaceholdersPlaceholderSource;
 }
@@ -6944,7 +6944,7 @@ export interface CalculatedServiceMetricDimensionDefinitionPlaceholders {
   /**
   * placeholder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#placeholder CalculatedServiceMetric#placeholder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#placeholder CalculatedServiceMetric#placeholder}
   */
   readonly placeholder?: CalculatedServiceMetricDimensionDefinitionPlaceholdersPlaceholder[] | cdktf.IResolvable;
 }
@@ -7030,43 +7030,43 @@ export interface CalculatedServiceMetricDimensionDefinition {
   /**
   * The dimension value pattern. You can define custom placeholders in the `placeholders` field and use them here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#dimension CalculatedServiceMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#dimension CalculatedServiceMetric#dimension}
   */
   readonly dimension: string;
   /**
   * The name of the dimension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#name CalculatedServiceMetric#name}
   */
   readonly name: string;
   /**
   * The number of top values to be calculated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#top_x CalculatedServiceMetric#top_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#top_x CalculatedServiceMetric#top_x}
   */
   readonly topX: number;
   /**
   * The aggregation of the dimension. Possible values are `AVERAGE`, `COUNT`, `MAX`, `MIN`, `OF_INTEREST_RATIO`, `OTHER_RATIO`, `SINGLE_VALUE` and `SUM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#top_x_aggregation CalculatedServiceMetric#top_x_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#top_x_aggregation CalculatedServiceMetric#top_x_aggregation}
   */
   readonly topXAggregation: string;
   /**
   * How to calculate the **topX** values. Possible values are `ASCENDING` and `DESCENDING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#top_x_direction CalculatedServiceMetric#top_x_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#top_x_direction CalculatedServiceMetric#top_x_direction}
   */
   readonly topXDirection: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#unknowns CalculatedServiceMetric#unknowns}
   */
   readonly unknowns?: string;
   /**
   * placeholders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#placeholders CalculatedServiceMetric#placeholders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#placeholders CalculatedServiceMetric#placeholders}
   */
   readonly placeholders?: CalculatedServiceMetricDimensionDefinitionPlaceholders;
 }
@@ -7311,13 +7311,13 @@ export interface CalculatedServiceMetricMetricDefinition {
   /**
   * The metric to be captured. Possible values are `CPU_TIME`, `DATABASE_CHILD_CALL_COUNT`, `DATABASE_CHILD_CALL_TIME`, `DISK_IO_TIME`, `EXCEPTION_COUNT`, `FAILED_REQUEST_COUNT`, `FAILED_REQUEST_COUNT_CLIENT`, `FAILURE_RATE`, `FAILURE_RATE_CLIENT`, `HTTP_4XX_ERROR_COUNT`, `HTTP_4XX_ERROR_COUNT_CLIENT`, `HTTP_5XX_ERROR_COUNT`, `HTTP_5XX_ERROR_COUNT_CLIENT`, `IO_TIME`, `LOCK_TIME`, `NETWORK_IO_TIME`, `NON_DATABASE_CHILD_CALL_COUNT`, `NON_DATABASE_CHILD_CALL_TIME`, `PROCESSING_TIME`, `REQUEST_ATTRIBUTE`, `REQUEST_COUNT`, `RESPONSE_TIME`, `RESPONSE_TIME_CLIENT`, `SUCCESSFUL_REQUEST_COUNT`, `SUCCESSFUL_REQUEST_COUNT_CLIENT` and `WAIT_TIME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#metric CalculatedServiceMetric#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#metric CalculatedServiceMetric#metric}
   */
   readonly metric: string;
   /**
   * The request attribute to be captured. Only applicable when the **metric** parameter is set to `REQUEST_ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#request_attribute CalculatedServiceMetric#request_attribute}
   */
   readonly requestAttribute?: string;
 }
@@ -7427,7 +7427,7 @@ export class CalculatedServiceMetricMetricDefinitionOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric dynatrace_calculated_service_metric}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric dynatrace_calculated_service_metric}
 */
 export class CalculatedServiceMetric extends cdktf.TerraformResource {
 
@@ -7443,7 +7443,7 @@ export class CalculatedServiceMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CalculatedServiceMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CalculatedServiceMetric to import
-  * @param importFromId The id of the existing CalculatedServiceMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CalculatedServiceMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CalculatedServiceMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7455,7 +7455,7 @@ export class CalculatedServiceMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/calculated_service_metric dynatrace_calculated_service_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_service_metric dynatrace_calculated_service_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7466,8 +7466,8 @@ export class CalculatedServiceMetric extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_calculated_service_metric',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

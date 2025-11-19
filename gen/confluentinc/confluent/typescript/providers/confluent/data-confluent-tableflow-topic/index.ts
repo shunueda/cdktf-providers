@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataConfluentTableflowTopicConfig extends cdktf.TerraformMetaAr
   /**
   * The name of the Kafka topic for which Tableflow is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#display_name DataConfluentTableflowTopic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#display_name DataConfluentTableflowTopic#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataConfluentTableflowTopicConfig extends cdktf.TerraformMetaAr
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#credentials DataConfluentTableflowTopic#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#credentials DataConfluentTableflowTopic#credentials}
   */
   readonly credentials?: DataConfluentTableflowTopicCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#environment DataConfluentTableflowTopic#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#environment DataConfluentTableflowTopic#environment}
   */
   readonly environment: DataConfluentTableflowTopicEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#kafka_cluster DataConfluentTableflowTopic#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#kafka_cluster DataConfluentTableflowTopic#kafka_cluster}
   */
   readonly kafkaCluster: DataConfluentTableflowTopicKafkaCluster;
 }
@@ -278,13 +278,13 @@ export interface DataConfluentTableflowTopicCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#key DataConfluentTableflowTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#key DataConfluentTableflowTopic#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#secret DataConfluentTableflowTopic#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#secret DataConfluentTableflowTopic#secret}
   */
   readonly secret: string;
 }
@@ -391,7 +391,7 @@ export class DataConfluentTableflowTopicCredentialsOutputReference extends cdktf
 }
 export interface DataConfluentTableflowTopicEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +475,7 @@ export class DataConfluentTableflowTopicEnvironmentOutputReference extends cdktf
 }
 export interface DataConfluentTableflowTopicKafkaCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#id DataConfluentTableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -559,7 +559,7 @@ export class DataConfluentTableflowTopicKafkaClusterOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic confluent_tableflow_topic}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic confluent_tableflow_topic}
 */
 export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
 
@@ -575,7 +575,7 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentTableflowTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentTableflowTopic to import
-  * @param importFromId The id of the existing DataConfluentTableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentTableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentTableflowTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/tableflow_topic confluent_tableflow_topic} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/tableflow_topic confluent_tableflow_topic} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class DataConfluentTableflowTopic extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_tableflow_topic',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

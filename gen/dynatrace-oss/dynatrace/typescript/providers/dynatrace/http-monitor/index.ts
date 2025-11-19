@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface HttpMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The monitor is enabled (`true`) or disabled (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#enabled HttpMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#enabled HttpMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -18,11 +18,11 @@ export interface HttpMonitorConfig extends cdktf.TerraformMetaArguments {
   * 
   * You can use one of the following values: `5`, `10`, `15`, `30`, and `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#frequency HttpMonitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#frequency HttpMonitor#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#id HttpMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#id HttpMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,43 +33,43 @@ export interface HttpMonitorConfig extends cdktf.TerraformMetaArguments {
   * 
   * To specify a location, use its entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#locations HttpMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#locations HttpMonitor#locations}
   */
   readonly locations?: string[];
   /**
   * A set of manually assigned applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#manually_assigned_apps HttpMonitor#manually_assigned_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#manually_assigned_apps HttpMonitor#manually_assigned_apps}
   */
   readonly manuallyAssignedApps?: string[];
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#name HttpMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#name HttpMonitor#name}
   */
   readonly name: string;
   /**
   * No script block - handle requests via `dynatrace_http_monitor_script` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#no_script HttpMonitor#no_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#no_script HttpMonitor#no_script}
   */
   readonly noScript?: boolean | cdktf.IResolvable;
   /**
   * anomaly_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#anomaly_detection HttpMonitor#anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#anomaly_detection HttpMonitor#anomaly_detection}
   */
   readonly anomalyDetection?: HttpMonitorAnomalyDetection[] | cdktf.IResolvable;
   /**
   * script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#script HttpMonitor#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#script HttpMonitor#script}
   */
   readonly script?: HttpMonitorScript;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#tags HttpMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#tags HttpMonitor#tags}
   */
   readonly tags?: HttpMonitorTags[] | cdktf.IResolvable;
 }
@@ -77,25 +77,25 @@ export interface HttpMonitorAnomalyDetectionLoadingTimeThresholdsThresholdsThres
   /**
   * Specify the event to which an ACTION threshold applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#event_index HttpMonitor#event_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#event_index HttpMonitor#event_index}
   */
   readonly eventIndex?: number;
   /**
   * Specify the request to which an ACTION threshold applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#request_index HttpMonitor#request_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#request_index HttpMonitor#request_index}
   */
   readonly requestIndex?: number;
   /**
   * The type of the threshold: `TOTAL` (total loading time) or `ACTION` (action loading time)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#type HttpMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#type HttpMonitor#type}
   */
   readonly type?: string;
   /**
   * Notify if monitor takes longer than *X* milliseconds to load
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#value_ms HttpMonitor#value_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#value_ms HttpMonitor#value_ms}
   */
   readonly valueMs: number;
 }
@@ -297,7 +297,7 @@ export interface HttpMonitorAnomalyDetectionLoadingTimeThresholdsThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#threshold HttpMonitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#threshold HttpMonitor#threshold}
   */
   readonly threshold: HttpMonitorAnomalyDetectionLoadingTimeThresholdsThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -412,13 +412,13 @@ export interface HttpMonitorAnomalyDetectionLoadingTimeThresholds {
   /**
   * Performance threshold is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#enabled HttpMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#enabled HttpMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#thresholds HttpMonitor#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#thresholds HttpMonitor#thresholds}
   */
   readonly thresholds?: HttpMonitorAnomalyDetectionLoadingTimeThresholdsThresholds[] | cdktf.IResolvable;
 }
@@ -565,7 +565,7 @@ export interface HttpMonitorAnomalyDetectionOutageHandlingGlobalOutagePolicy {
   /**
   * The number of consecutive fails to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#consecutive_runs HttpMonitor#consecutive_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#consecutive_runs HttpMonitor#consecutive_runs}
   */
   readonly consecutiveRuns: number;
 }
@@ -680,13 +680,13 @@ export interface HttpMonitorAnomalyDetectionOutageHandlingLocalOutagePolicy {
   /**
   * The number of affected locations to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#affected_locations HttpMonitor#affected_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#affected_locations HttpMonitor#affected_locations}
   */
   readonly affectedLocations: number;
   /**
   * The number of consecutive fails to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#consecutive_runs HttpMonitor#consecutive_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#consecutive_runs HttpMonitor#consecutive_runs}
   */
   readonly consecutiveRuns: number;
 }
@@ -827,31 +827,31 @@ export interface HttpMonitorAnomalyDetectionOutageHandling {
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) When enabled (`true`), generate a problem and send an alert when the monitor is unavailable at all configured locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#global_outage HttpMonitor#global_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#global_outage HttpMonitor#global_outage}
   */
   readonly globalOutage?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) When enabled (`true`), generate a problem and send an alert when the monitor is unavailable for one or more consecutive runs at any location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#local_outage HttpMonitor#local_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#local_outage HttpMonitor#local_outage}
   */
   readonly localOutage?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) Schedule retry if browser monitor execution results in a fail. For HTTP monitors this property is ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#retry_on_error HttpMonitor#retry_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#retry_on_error HttpMonitor#retry_on_error}
   */
   readonly retryOnError?: boolean | cdktf.IResolvable;
   /**
   * global_outage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#global_outage_policy HttpMonitor#global_outage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#global_outage_policy HttpMonitor#global_outage_policy}
   */
   readonly globalOutagePolicy?: HttpMonitorAnomalyDetectionOutageHandlingGlobalOutagePolicy[] | cdktf.IResolvable;
   /**
   * local_outage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#local_outage_policy HttpMonitor#local_outage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#local_outage_policy HttpMonitor#local_outage_policy}
   */
   readonly localOutagePolicy?: HttpMonitorAnomalyDetectionOutageHandlingLocalOutagePolicy[] | cdktf.IResolvable;
 }
@@ -1085,13 +1085,13 @@ export interface HttpMonitorAnomalyDetection {
   /**
   * loading_time_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#loading_time_thresholds HttpMonitor#loading_time_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#loading_time_thresholds HttpMonitor#loading_time_thresholds}
   */
   readonly loadingTimeThresholds?: HttpMonitorAnomalyDetectionLoadingTimeThresholds[] | cdktf.IResolvable;
   /**
   * outage_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#outage_handling HttpMonitor#outage_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#outage_handling HttpMonitor#outage_handling}
   */
   readonly outageHandling?: HttpMonitorAnomalyDetectionOutageHandling[] | cdktf.IResolvable;
 }
@@ -1238,25 +1238,25 @@ export interface HttpMonitorScriptRequestAuthentication {
   /**
   * The ID of the credentials within the Dynatrace Credentials Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#credentials HttpMonitor#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#credentials HttpMonitor#credentials}
   */
   readonly credentials: string;
   /**
   * The KDC IP. Valid and required only if the type of authentication is `KERBEROS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#kdc_ip HttpMonitor#kdc_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#kdc_ip HttpMonitor#kdc_ip}
   */
   readonly kdcIp?: string;
   /**
   * The Realm Name. Valid and required only if the type of authentication is `KERBEROS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#realm_name HttpMonitor#realm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#realm_name HttpMonitor#realm_name}
   */
   readonly realmName?: string;
   /**
   * The type of authentication. Possible values are `BASIC_AUTHENTICATION`, `NTLM` and `KERBEROS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#type HttpMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#type HttpMonitor#type}
   */
   readonly type: string;
 }
@@ -1423,13 +1423,13 @@ export interface HttpMonitorScriptRequestConfigurationHeadersHeader {
   /**
   * The key of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#name HttpMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#name HttpMonitor#name}
   */
   readonly name: string;
   /**
   * The value of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#value HttpMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#value HttpMonitor#value}
   */
   readonly value: string;
 }
@@ -1570,7 +1570,7 @@ export interface HttpMonitorScriptRequestConfigurationHeaders {
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#header HttpMonitor#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#header HttpMonitor#header}
   */
   readonly header: HttpMonitorScriptRequestConfigurationHeadersHeader[] | cdktf.IResolvable;
 }
@@ -1655,13 +1655,13 @@ export interface HttpMonitorScriptRequestConfiguration {
   * 
   * If not set, the `false` option is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#accept_any_certificate HttpMonitor#accept_any_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#accept_any_certificate HttpMonitor#accept_any_certificate}
   */
   readonly acceptAnyCertificate?: boolean | cdktf.IResolvable;
   /**
   * The client certificate, if applicable - eg. CREDENTIALS_VAULT-XXXXXXXXXXXXXXXX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#client_certificate HttpMonitor#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#client_certificate HttpMonitor#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
@@ -1669,25 +1669,25 @@ export interface HttpMonitorScriptRequestConfiguration {
   * 
   * If not set, the `false` option is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#follow_redirects HttpMonitor#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#follow_redirects HttpMonitor#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Option not to store and display request and response bodies and header values in execution details, `true` or `false`. If not set, `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#sensitive_data HttpMonitor#sensitive_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#sensitive_data HttpMonitor#sensitive_data}
   */
   readonly sensitiveData?: boolean | cdktf.IResolvable;
   /**
   * The User agent of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#user_agent HttpMonitor#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#user_agent HttpMonitor#user_agent}
   */
   readonly userAgent?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#headers HttpMonitor#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#headers HttpMonitor#headers}
   */
   readonly headers?: HttpMonitorScriptRequestConfigurationHeaders;
 }
@@ -1918,19 +1918,19 @@ export interface HttpMonitorScriptRequestValidationRule {
   /**
   *  The validation condition. `true` means validation succeeds if the specified content/element is found. `false` means validation fails if the specified content/element is found. Always specify `false` for `certificateExpiryDateConstraint` to fail the monitor if SSL certificate expiry is within the specified number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#pass_if_found HttpMonitor#pass_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#pass_if_found HttpMonitor#pass_if_found}
   */
   readonly passIfFound?: boolean | cdktf.IResolvable;
   /**
   * The type of the rule. Possible values are `patternConstraint`, `regexConstraint`, `httpStatusesList` and `certificateExpiryDateConstraint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#type HttpMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#type HttpMonitor#type}
   */
   readonly type: string;
   /**
   * The content to look for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#value HttpMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#value HttpMonitor#value}
   */
   readonly value: string;
 }
@@ -2100,7 +2100,7 @@ export interface HttpMonitorScriptRequestValidation {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#rule HttpMonitor#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#rule HttpMonitor#rule}
   */
   readonly rule: HttpMonitorScriptRequestValidationRule[] | cdktf.IResolvable;
 }
@@ -2183,61 +2183,61 @@ export interface HttpMonitorScriptRequest {
   /**
   * The body of the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#body HttpMonitor#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#body HttpMonitor#body}
   */
   readonly body?: string;
   /**
   * A short description of the event to appear in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#description HttpMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#description HttpMonitor#description}
   */
   readonly description?: string;
   /**
   * The HTTP method of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#method HttpMonitor#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#method HttpMonitor#method}
   */
   readonly method: string;
   /**
   * Javascript code to execute after sending the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#post_processing HttpMonitor#post_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#post_processing HttpMonitor#post_processing}
   */
   readonly postProcessing?: string;
   /**
   * Javascript code to execute before sending the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#pre_processing HttpMonitor#pre_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#pre_processing HttpMonitor#pre_processing}
   */
   readonly preProcessing?: string;
   /**
   * Adapt request timeout option - the maximum time this request is allowed to consume. Keep in mind the maximum timeout of the complete monitor is 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#request_timeout HttpMonitor#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#request_timeout HttpMonitor#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * The URL to check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#url HttpMonitor#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#url HttpMonitor#url}
   */
   readonly url: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#authentication HttpMonitor#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#authentication HttpMonitor#authentication}
   */
   readonly authentication?: HttpMonitorScriptRequestAuthentication;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#configuration HttpMonitor#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#configuration HttpMonitor#configuration}
   */
   readonly configuration?: HttpMonitorScriptRequestConfiguration;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#validation HttpMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#validation HttpMonitor#validation}
   */
   readonly validation?: HttpMonitorScriptRequestValidation;
 }
@@ -2610,7 +2610,7 @@ export interface HttpMonitorScript {
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#request HttpMonitor#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#request HttpMonitor#request}
   */
   readonly request: HttpMonitorScriptRequest[] | cdktf.IResolvable;
 }
@@ -2695,7 +2695,7 @@ export interface HttpMonitorTagsTag {
   * 
   * Custom tags use the `CONTEXTLESS` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#context HttpMonitor#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#context HttpMonitor#context}
   */
   readonly context: string;
   /**
@@ -2703,13 +2703,13 @@ export interface HttpMonitorTagsTag {
   * 
   * Custom tags have the tag value here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#key HttpMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#key HttpMonitor#key}
   */
   readonly key: string;
   /**
   * The source of the tag. Supported values are `USER`, `RULE_BASED` and `AUTO`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#source HttpMonitor#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#source HttpMonitor#source}
   */
   readonly source?: string;
   /**
@@ -2717,7 +2717,7 @@ export interface HttpMonitorTagsTag {
   * 
   * Not applicable to custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#value HttpMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#value HttpMonitor#value}
   */
   readonly value?: string;
 }
@@ -2916,7 +2916,7 @@ export interface HttpMonitorTags {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#tag HttpMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#tag HttpMonitor#tag}
   */
   readonly tag?: HttpMonitorTagsTag[] | cdktf.IResolvable;
 }
@@ -3032,7 +3032,7 @@ export class HttpMonitorTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor dynatrace_http_monitor}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor dynatrace_http_monitor}
 */
 export class HttpMonitor extends cdktf.TerraformResource {
 
@@ -3048,7 +3048,7 @@ export class HttpMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpMonitor to import
-  * @param importFromId The id of the existing HttpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3060,7 +3060,7 @@ export class HttpMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/http_monitor dynatrace_http_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor dynatrace_http_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3071,8 +3071,8 @@ export class HttpMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_http_monitor',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

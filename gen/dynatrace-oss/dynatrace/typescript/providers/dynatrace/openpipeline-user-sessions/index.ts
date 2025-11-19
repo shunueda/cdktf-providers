@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpenpipelineUserSessionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface OpenpipelineUserSessionsConfig extends cdktf.TerraformMetaArgum
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#endpoints OpenpipelineUserSessions#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#endpoints OpenpipelineUserSessions#endpoints}
   */
   readonly endpoints?: OpenpipelineUserSessionsEndpoints;
   /**
   * pipelines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#pipelines OpenpipelineUserSessions#pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#pipelines OpenpipelineUserSessions#pipelines}
   */
   readonly pipelines?: OpenpipelineUserSessionsPipelines;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#routing OpenpipelineUserSessions#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#routing OpenpipelineUserSessions#routing}
   */
   readonly routing?: OpenpipelineUserSessionsRouting;
 }
@@ -37,25 +37,25 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDql
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dql_script OpenpipelineUserSessions#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dql_script OpenpipelineUserSessions#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,13 +64,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDql
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -286,19 +286,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDro
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -307,13 +307,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDro
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -503,13 +503,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#name OpenpipelineUserSessions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#name OpenpipelineUserSessions#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: string;
 }
@@ -650,19 +650,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -671,19 +671,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -899,25 +899,25 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -926,13 +926,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -1148,13 +1148,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#from_name OpenpipelineUserSessions#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#from_name OpenpipelineUserSessions#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#to_name OpenpipelineUserSessions#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#to_name OpenpipelineUserSessions#to_name}
   */
   readonly toName: string;
 }
@@ -1295,19 +1295,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1316,19 +1316,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -1544,19 +1544,19 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorTec
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#custom_matcher OpenpipelineUserSessions#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#custom_matcher OpenpipelineUserSessions#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1565,13 +1565,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorTec
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#technology_id OpenpipelineUserSessions#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#technology_id OpenpipelineUserSessions#technology_id}
   */
   readonly technologyId: string;
 }
@@ -1764,37 +1764,37 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessor {
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dql_processor OpenpipelineUserSessions#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dql_processor OpenpipelineUserSessions#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#drop_processor OpenpipelineUserSessions#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#drop_processor OpenpipelineUserSessions#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_add_processor OpenpipelineUserSessions#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_add_processor OpenpipelineUserSessions#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_remove_processor OpenpipelineUserSessions#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_remove_processor OpenpipelineUserSessions#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_rename_processor OpenpipelineUserSessions#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_rename_processor OpenpipelineUserSessions#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#technology_processor OpenpipelineUserSessions#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#technology_processor OpenpipelineUserSessions#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessorTechnologyProcessor;
 }
@@ -2057,7 +2057,7 @@ export interface OpenpipelineUserSessionsEndpointsEndpointProcessors {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsEndpointsEndpointProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -2143,13 +2143,13 @@ export interface OpenpipelineUserSessionsEndpointsEndpointRouting {
   /**
   * Pipeline ID of the static routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#pipeline_id OpenpipelineUserSessions#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#pipeline_id OpenpipelineUserSessions#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Type of routing, static or dynamic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -2261,37 +2261,37 @@ export interface OpenpipelineUserSessionsEndpointsEndpoint {
   /**
   * The default bucket assigned to records for the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#default_bucket OpenpipelineUserSessions#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#default_bucket OpenpipelineUserSessions#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * Display name of the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#display_name OpenpipelineUserSessions#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#display_name OpenpipelineUserSessions#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The segment of the ingest source, which is applied to the base path. Must be unique within a configuration."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#segment OpenpipelineUserSessions#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#segment OpenpipelineUserSessions#segment}
   */
   readonly segment: string;
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processors OpenpipelineUserSessions#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processors OpenpipelineUserSessions#processors}
   */
   readonly processors?: OpenpipelineUserSessionsEndpointsEndpointProcessors;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#routing OpenpipelineUserSessions#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#routing OpenpipelineUserSessions#routing}
   */
   readonly routing: OpenpipelineUserSessionsEndpointsEndpointRouting;
 }
@@ -2542,7 +2542,7 @@ export interface OpenpipelineUserSessionsEndpoints {
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#endpoint OpenpipelineUserSessions#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#endpoint OpenpipelineUserSessions#endpoint}
   */
   readonly endpoint?: OpenpipelineUserSessionsEndpointsEndpoint[] | cdktf.IResolvable;
 }
@@ -2628,25 +2628,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcesso
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -2816,19 +2816,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2837,19 +2837,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcessorCostAllocationProcessorValue;
 }
@@ -3065,7 +3065,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcesso
   /**
   * cost_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#cost_allocation_processor OpenpipelineUserSessions#cost_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#cost_allocation_processor OpenpipelineUserSessions#cost_allocation_processor}
   */
   readonly costAllocationProcessor?: OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcessorCostAllocationProcessor;
 }
@@ -3183,7 +3183,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineCostAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineCostAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -3269,13 +3269,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
   */
   readonly semantic: string;
 }
@@ -3387,23 +3387,23 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#forwarder_config_id OpenpipelineUserSessions#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#forwarder_config_id OpenpipelineUserSessions#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3412,19 +3412,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessorFieldExtraction;
 }
@@ -3669,25 +3669,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -3857,25 +3857,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -4045,13 +4045,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
   */
   readonly semantic: string;
 }
@@ -4163,19 +4163,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4184,31 +4184,31 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#event_provider OpenpipelineUserSessions#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#event_provider OpenpipelineUserSessions#event_provider}
   */
   readonly eventProvider: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#event_type OpenpipelineUserSessions#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#event_type OpenpipelineUserSessions#event_type}
   */
   readonly eventType: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorFieldExtraction;
 }
@@ -4479,13 +4479,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * The key to set on the davis event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#key OpenpipelineUserSessions#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#key OpenpipelineUserSessions#key}
   */
   readonly key: string;
   /**
   * The value assigned to the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: string;
 }
@@ -4626,19 +4626,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4647,19 +4647,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#properties OpenpipelineUserSessions#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#properties OpenpipelineUserSessions#properties}
   */
   readonly properties: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessorProperties[] | cdktf.IResolvable;
 }
@@ -4875,13 +4875,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#semantic OpenpipelineUserSessions#semantic}
   */
   readonly semantic: string;
 }
@@ -4993,19 +4993,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5014,19 +5014,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field_extraction OpenpipelineUserSessions#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessorFieldExtraction;
 }
@@ -5245,25 +5245,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcesso
   /**
   * azure_log_forwarding_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#azure_log_forwarding_processor OpenpipelineUserSessions#azure_log_forwarding_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#azure_log_forwarding_processor OpenpipelineUserSessions#azure_log_forwarding_processor}
   */
   readonly azureLogForwardingProcessor?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessor;
   /**
   * bizevent_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#bizevent_extraction_processor OpenpipelineUserSessions#bizevent_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#bizevent_extraction_processor OpenpipelineUserSessions#bizevent_extraction_processor}
   */
   readonly bizeventExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessor;
   /**
   * davis_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#davis_event_extraction_processor OpenpipelineUserSessions#davis_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#davis_event_extraction_processor OpenpipelineUserSessions#davis_event_extraction_processor}
   */
   readonly davisEventExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessor;
   /**
   * security_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#security_event_extraction_processor OpenpipelineUserSessions#security_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#security_event_extraction_processor OpenpipelineUserSessions#security_event_extraction_processor}
   */
   readonly securityEventExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessor;
 }
@@ -5468,7 +5468,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineDataExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineDataExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -5554,25 +5554,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5581,19 +5581,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -5838,13 +5838,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Indicates whether aggregation is considered for metric extraction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#aggregation OpenpipelineUserSessions#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#aggregation OpenpipelineUserSessions#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
@@ -5853,19 +5853,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5874,25 +5874,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sampling OpenpipelineUserSessions#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sampling OpenpipelineUserSessions#sampling}
   */
   readonly sampling?: string;
 }
@@ -6195,19 +6195,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Indicates whether aggregation is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#aggregation OpenpipelineUserSessions#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#aggregation OpenpipelineUserSessions#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The default value to use if the given field value could not be extracted. String value must be a number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#default_value OpenpipelineUserSessions#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#default_value OpenpipelineUserSessions#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
@@ -6216,25 +6216,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field from which to extract the value for the metric, or 'null' for a duration measurement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6243,31 +6243,31 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Indicates whether the metric value should be the specified field or duration. Possible values: 'DURATION', 'FIELD'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#measurement OpenpipelineUserSessions#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#measurement OpenpipelineUserSessions#measurement}
   */
   readonly measurement: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sampling OpenpipelineUserSessions#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sampling OpenpipelineUserSessions#sampling}
   */
   readonly sampling?: string;
 }
@@ -6654,31 +6654,31 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dimensions OpenpipelineUserSessions#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field to extract the value for the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6687,19 +6687,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#metric_key OpenpipelineUserSessions#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -6970,25 +6970,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProces
   /**
   * counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#counter_metric_extraction_processor OpenpipelineUserSessions#counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#counter_metric_extraction_processor OpenpipelineUserSessions#counter_metric_extraction_processor}
   */
   readonly counterMetricExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProcessorCounterMetricExtractionProcessor;
   /**
   * sampling_aware_counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sampling_aware_counter_metric_extraction_processor OpenpipelineUserSessions#sampling_aware_counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sampling_aware_counter_metric_extraction_processor OpenpipelineUserSessions#sampling_aware_counter_metric_extraction_processor}
   */
   readonly samplingAwareCounterMetricExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProcessorSamplingAwareCounterMetricExtractionProcessor;
   /**
   * sampling_aware_value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sampling_aware_value_metric_extraction_processor OpenpipelineUserSessions#sampling_aware_value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sampling_aware_value_metric_extraction_processor OpenpipelineUserSessions#sampling_aware_value_metric_extraction_processor}
   */
   readonly samplingAwareValueMetricExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProcessorSamplingAwareValueMetricExtractionProcessor;
   /**
   * value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value_metric_extraction_processor OpenpipelineUserSessions#value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value_metric_extraction_processor OpenpipelineUserSessions#value_metric_extraction_processor}
   */
   readonly valueMetricExtractionProcessor?: OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProcessorValueMetricExtractionProcessor;
 }
@@ -7193,7 +7193,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineMetricExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineMetricExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -7279,25 +7279,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDql
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dql_script OpenpipelineUserSessions#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dql_script OpenpipelineUserSessions#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7306,13 +7306,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDql
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7528,19 +7528,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDro
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7549,13 +7549,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDro
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7745,13 +7745,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#name OpenpipelineUserSessions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#name OpenpipelineUserSessions#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: string;
 }
@@ -7892,19 +7892,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7913,19 +7913,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -8141,25 +8141,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields OpenpipelineUserSessions#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8168,13 +8168,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -8390,13 +8390,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#from_name OpenpipelineUserSessions#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#from_name OpenpipelineUserSessions#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#to_name OpenpipelineUserSessions#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#to_name OpenpipelineUserSessions#to_name}
   */
   readonly toName: string;
 }
@@ -8537,19 +8537,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8558,19 +8558,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFie
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -8786,19 +8786,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorTec
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#custom_matcher OpenpipelineUserSessions#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#custom_matcher OpenpipelineUserSessions#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8807,13 +8807,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorTec
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#technology_id OpenpipelineUserSessions#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#technology_id OpenpipelineUserSessions#technology_id}
   */
   readonly technologyId: string;
 }
@@ -9006,37 +9006,37 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessingProcessor {
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#dql_processor OpenpipelineUserSessions#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#dql_processor OpenpipelineUserSessions#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#drop_processor OpenpipelineUserSessions#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#drop_processor OpenpipelineUserSessions#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_add_processor OpenpipelineUserSessions#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_add_processor OpenpipelineUserSessions#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_remove_processor OpenpipelineUserSessions#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_remove_processor OpenpipelineUserSessions#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#fields_rename_processor OpenpipelineUserSessions#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#fields_rename_processor OpenpipelineUserSessions#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#technology_processor OpenpipelineUserSessions#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#technology_processor OpenpipelineUserSessions#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessorTechnologyProcessor;
 }
@@ -9299,7 +9299,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProcessing {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineProcessingProcessor[] | cdktf.IResolvable;
 }
@@ -9385,25 +9385,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProductAllocationProce
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -9573,19 +9573,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProductAllocationProce
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9594,19 +9594,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProductAllocationProce
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: OpenpipelineUserSessionsPipelinesPipelineProductAllocationProcessorProductAllocationProcessorValue;
 }
@@ -9822,7 +9822,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProductAllocationProce
   /**
   * product_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#product_allocation_processor OpenpipelineUserSessions#product_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#product_allocation_processor OpenpipelineUserSessions#product_allocation_processor}
   */
   readonly productAllocationProcessor?: OpenpipelineUserSessionsPipelinesPipelineProductAllocationProcessorProductAllocationProcessor;
 }
@@ -9940,7 +9940,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineProductAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineProductAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -10026,25 +10026,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcess
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#constant OpenpipelineUserSessions#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#field OpenpipelineUserSessions#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#multi_value_constant OpenpipelineUserSessions#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#type OpenpipelineUserSessions#type}
   */
   readonly type: string;
 }
@@ -10214,19 +10214,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcess
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10235,19 +10235,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcess
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#value OpenpipelineUserSessions#value}
   */
   readonly value: OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcessorSecurityContextProcessorValue;
 }
@@ -10463,7 +10463,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcess
   /**
   * security_context_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#security_context_processor OpenpipelineUserSessions#security_context_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#security_context_processor OpenpipelineUserSessions#security_context_processor}
   */
   readonly securityContextProcessor?: OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcessorSecurityContextProcessor;
 }
@@ -10581,7 +10581,7 @@ export interface OpenpipelineUserSessionsPipelinesPipelineSecurityContext {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineSecurityContextProcessor[] | cdktf.IResolvable;
 }
@@ -10667,25 +10667,25 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorageProcessorBucket
   /**
   * Bucket that is assigned when the record is matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#bucket_name OpenpipelineUserSessions#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#bucket_name OpenpipelineUserSessions#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10694,13 +10694,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorageProcessorBucket
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -10916,19 +10916,19 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorageProcessorNoStor
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#description OpenpipelineUserSessions#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10937,13 +10937,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorageProcessorNoStor
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#sample_data OpenpipelineUserSessions#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -11133,13 +11133,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorageProcessor {
   /**
   * bucket_assignment_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#bucket_assignment_processor OpenpipelineUserSessions#bucket_assignment_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#bucket_assignment_processor OpenpipelineUserSessions#bucket_assignment_processor}
   */
   readonly bucketAssignmentProcessor?: OpenpipelineUserSessionsPipelinesPipelineStorageProcessorBucketAssignmentProcessor;
   /**
   * no_storage_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#no_storage_processor OpenpipelineUserSessions#no_storage_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#no_storage_processor OpenpipelineUserSessions#no_storage_processor}
   */
   readonly noStorageProcessor?: OpenpipelineUserSessionsPipelinesPipelineStorageProcessorNoStorageProcessor;
 }
@@ -11286,13 +11286,13 @@ export interface OpenpipelineUserSessionsPipelinesPipelineStorage {
   /**
   * Default bucket assigned to records which do not match any other storage processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#catch_all_bucket_name OpenpipelineUserSessions#catch_all_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#catch_all_bucket_name OpenpipelineUserSessions#catch_all_bucket_name}
   */
   readonly catchAllBucketName?: string;
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processor OpenpipelineUserSessions#processor}
   */
   readonly processor?: OpenpipelineUserSessionsPipelinesPipelineStorageProcessor[] | cdktf.IResolvable;
 }
@@ -11407,19 +11407,19 @@ export interface OpenpipelineUserSessionsPipelinesPipeline {
   /**
   * Display name of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#display_name OpenpipelineUserSessions#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#display_name OpenpipelineUserSessions#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#id OpenpipelineUserSessions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11428,43 +11428,43 @@ export interface OpenpipelineUserSessionsPipelinesPipeline {
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#cost_allocation OpenpipelineUserSessions#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#cost_allocation OpenpipelineUserSessions#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineUserSessionsPipelinesPipelineCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#data_extraction OpenpipelineUserSessions#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#data_extraction OpenpipelineUserSessions#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineUserSessionsPipelinesPipelineDataExtraction;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#metric_extraction OpenpipelineUserSessions#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#metric_extraction OpenpipelineUserSessions#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineUserSessionsPipelinesPipelineMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#processing OpenpipelineUserSessions#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#processing OpenpipelineUserSessions#processing}
   */
   readonly processing?: OpenpipelineUserSessionsPipelinesPipelineProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#product_allocation OpenpipelineUserSessions#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#product_allocation OpenpipelineUserSessions#product_allocation}
   */
   readonly productAllocation?: OpenpipelineUserSessionsPipelinesPipelineProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#security_context OpenpipelineUserSessions#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#security_context OpenpipelineUserSessions#security_context}
   */
   readonly securityContext?: OpenpipelineUserSessionsPipelinesPipelineSecurityContext;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#storage OpenpipelineUserSessions#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#storage OpenpipelineUserSessions#storage}
   */
   readonly storage?: OpenpipelineUserSessionsPipelinesPipelineStorage;
 }
@@ -11834,7 +11834,7 @@ export interface OpenpipelineUserSessionsPipelines {
   /**
   * pipeline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#pipeline OpenpipelineUserSessions#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#pipeline OpenpipelineUserSessions#pipeline}
   */
   readonly pipeline?: OpenpipelineUserSessionsPipelinesPipeline[] | cdktf.IResolvable;
 }
@@ -11920,25 +11920,25 @@ export interface OpenpipelineUserSessionsRoutingEntry {
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#enabled OpenpipelineUserSessions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#matcher OpenpipelineUserSessions#matcher}
   */
   readonly matcher: string;
   /**
   * Unique note describing the dynamic route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#note OpenpipelineUserSessions#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#note OpenpipelineUserSessions#note}
   */
   readonly note: string;
   /**
   * Identifier of the pipeline the record is routed into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#pipeline_id OpenpipelineUserSessions#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#pipeline_id OpenpipelineUserSessions#pipeline_id}
   */
   readonly pipelineId: string;
 }
@@ -12131,7 +12131,7 @@ export interface OpenpipelineUserSessionsRouting {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#entry OpenpipelineUserSessions#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#entry OpenpipelineUserSessions#entry}
   */
   readonly entry?: OpenpipelineUserSessionsRoutingEntry[] | cdktf.IResolvable;
 }
@@ -12215,7 +12215,7 @@ export class OpenpipelineUserSessionsRoutingOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions dynatrace_openpipeline_user_sessions}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions dynatrace_openpipeline_user_sessions}
 */
 export class OpenpipelineUserSessions extends cdktf.TerraformResource {
 
@@ -12231,7 +12231,7 @@ export class OpenpipelineUserSessions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineUserSessions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineUserSessions to import
-  * @param importFromId The id of the existing OpenpipelineUserSessions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineUserSessions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineUserSessions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12243,7 +12243,7 @@ export class OpenpipelineUserSessions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_user_sessions dynatrace_openpipeline_user_sessions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_user_sessions dynatrace_openpipeline_user_sessions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12254,8 +12254,8 @@ export class OpenpipelineUserSessions extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_user_sessions',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

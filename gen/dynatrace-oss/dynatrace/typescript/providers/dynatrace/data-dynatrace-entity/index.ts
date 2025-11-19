@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDynatraceEntityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#entity_selector DataDynatraceEntity#entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#entity_selector DataDynatraceEntity#entity_selector}
   */
   readonly entitySelector?: string;
   /**
@@ -23,18 +23,18 @@ export interface DataDynatraceEntityConfig extends cdktf.TerraformMetaArguments 
   *     - `M` for months
   *     - `y` for years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#from DataDynatraceEntity#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#from DataDynatraceEntity#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#id DataDynatraceEntity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#id DataDynatraceEntity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#name DataDynatraceEntity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#name DataDynatraceEntity#name}
   */
   readonly name?: string;
   /**
@@ -49,17 +49,17 @@ export interface DataDynatraceEntityConfig extends cdktf.TerraformMetaArguments 
   *     - `M` for months
   *     - `y` for years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#to DataDynatraceEntity#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#to DataDynatraceEntity#to}
   */
   readonly to?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#type DataDynatraceEntity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#type DataDynatraceEntity#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity dynatrace_entity}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity dynatrace_entity}
 */
 export class DataDynatraceEntity extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataDynatraceEntity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDynatraceEntity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatraceEntity to import
-  * @param importFromId The id of the existing DataDynatraceEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatraceEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatraceEntity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataDynatraceEntity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/entity dynatrace_entity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/entity dynatrace_entity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataDynatraceEntity extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_entity',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

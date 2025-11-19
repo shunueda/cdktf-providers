@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface UserSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Language - use browser default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#auto_language UserSettings#auto_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#auto_language UserSettings#auto_language}
   */
   readonly autoLanguage: boolean | cdktf.IResolvable;
   /**
   * Region - use browser default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#auto_region UserSettings#auto_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#auto_region UserSettings#auto_region}
   */
   readonly autoRegion: boolean | cdktf.IResolvable;
   /**
   * Theme - use browser default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#auto_theme UserSettings#auto_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#auto_theme UserSettings#auto_theme}
   */
   readonly autoTheme: boolean | cdktf.IResolvable;
   /**
   * Timezone - use browser default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#auto_timezone UserSettings#auto_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#auto_timezone UserSettings#auto_timezone}
   */
   readonly autoTimezone: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#id UserSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#id UserSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface UserSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Possible Values: `En`, `Ja`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#language UserSettings#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#language UserSettings#language}
   */
   readonly language?: string;
   /**
   * Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#region UserSettings#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#region UserSettings#region}
   */
   readonly region?: string;
   /**
   * The scope of this setting (user, userdefaults)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#scope UserSettings#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#scope UserSettings#scope}
   */
   readonly scope: string;
   /**
   * Possible Values: `Dark`, `Light`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#theme UserSettings#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#theme UserSettings#theme}
   */
   readonly theme?: string;
   /**
   * Timezone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#timezone UserSettings#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#timezone UserSettings#timezone}
   */
   readonly timezone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings dynatrace_user_settings}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings dynatrace_user_settings}
 */
 export class UserSettings extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class UserSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserSettings to import
-  * @param importFromId The id of the existing UserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class UserSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_settings dynatrace_user_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_settings dynatrace_user_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class UserSettings extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_user_settings',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

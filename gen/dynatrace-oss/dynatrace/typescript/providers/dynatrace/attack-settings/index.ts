@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AttackSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#enabled AttackSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#enabled AttackSettings#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#id AttackSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#id AttackSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface AttackSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * default_attack_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#default_attack_handling AttackSettings#default_attack_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#default_attack_handling AttackSettings#default_attack_handling}
   */
   readonly defaultAttackHandling: AttackSettingsDefaultAttackHandling;
 }
@@ -31,19 +31,19 @@ export interface AttackSettingsDefaultAttackHandling {
   /**
   * (v1.290) Possible Values: `BLOCK`, `MONITOR`, `OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#blocking_strategy_dot_net AttackSettings#blocking_strategy_dot_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#blocking_strategy_dot_net AttackSettings#blocking_strategy_dot_net}
   */
   readonly blockingStrategyDotNet?: string;
   /**
   * Possible Values: `BLOCK`, `MONITOR`, `OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#blocking_strategy_go AttackSettings#blocking_strategy_go}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#blocking_strategy_go AttackSettings#blocking_strategy_go}
   */
   readonly blockingStrategyGo?: string;
   /**
   * Possible Values: `BLOCK`, `MONITOR`, `OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#blocking_strategy_java AttackSettings#blocking_strategy_java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#blocking_strategy_java AttackSettings#blocking_strategy_java}
   */
   readonly blockingStrategyJava: string;
 }
@@ -182,7 +182,7 @@ export class AttackSettingsDefaultAttackHandlingOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings dynatrace_attack_settings}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings dynatrace_attack_settings}
 */
 export class AttackSettings extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class AttackSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttackSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttackSettings to import
-  * @param importFromId The id of the existing AttackSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttackSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttackSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class AttackSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_settings dynatrace_attack_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_settings dynatrace_attack_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class AttackSettings extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_attack_settings',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

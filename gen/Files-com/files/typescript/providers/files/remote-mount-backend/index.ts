@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend
+// https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface RemoteMountBackendConfig extends cdktf.TerraformMetaArguments {
   /**
   * Path to the canary file used for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#canary_file_path RemoteMountBackend#canary_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#canary_file_path RemoteMountBackend#canary_file_path}
   */
   readonly canaryFilePath: string;
   /**
   * True if this backend is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#enabled RemoteMountBackend#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#enabled RemoteMountBackend#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Number of consecutive failures before considering the backend unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#fall RemoteMountBackend#fall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#fall RemoteMountBackend#fall}
   */
   readonly fall?: number;
   /**
   * True if health checks are enabled for this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#health_check_enabled RemoteMountBackend#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#health_check_enabled RemoteMountBackend#health_check_enabled}
   */
   readonly healthCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * Type of health check to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#health_check_type RemoteMountBackend#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#health_check_type RemoteMountBackend#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * Interval in seconds between health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#interval RemoteMountBackend#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#interval RemoteMountBackend#interval}
   */
   readonly interval?: number;
   /**
   * Minimum free CPU percentage required for this backend to be considered healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#min_free_cpu RemoteMountBackend#min_free_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#min_free_cpu RemoteMountBackend#min_free_cpu}
   */
   readonly minFreeCpu?: string;
   /**
   * Minimum free memory percentage required for this backend to be considered healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#min_free_mem RemoteMountBackend#min_free_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#min_free_mem RemoteMountBackend#min_free_mem}
   */
   readonly minFreeMem?: string;
   /**
   * Priority of this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#priority RemoteMountBackend#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#priority RemoteMountBackend#priority}
   */
   readonly priority?: number;
   /**
   * Path on the remote server to treat as the root of this mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#remote_path RemoteMountBackend#remote_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#remote_path RemoteMountBackend#remote_path}
   */
   readonly remotePath?: string;
   /**
   * The remote server that this backend is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#remote_server_id RemoteMountBackend#remote_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#remote_server_id RemoteMountBackend#remote_server_id}
   */
   readonly remoteServerId: number;
   /**
   * The mount ID of the Remote Server Mount that this backend is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#remote_server_mount_id RemoteMountBackend#remote_server_mount_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#remote_server_mount_id RemoteMountBackend#remote_server_mount_id}
   */
   readonly remoteServerMountId: number;
   /**
   * Number of consecutive successes before considering the backend healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#rise RemoteMountBackend#rise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#rise RemoteMountBackend#rise}
   */
   readonly rise?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend files_remote_mount_backend}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend files_remote_mount_backend}
 */
 export class RemoteMountBackend extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class RemoteMountBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteMountBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteMountBackend to import
-  * @param importFromId The id of the existing RemoteMountBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteMountBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteMountBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class RemoteMountBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.383/docs/resources/remote_mount_backend files_remote_mount_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.388/docs/resources/remote_mount_backend files_remote_mount_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class RemoteMountBackend extends cdktf.TerraformResource {
       terraformResourceType: 'files_remote_mount_backend',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.383',
-        providerVersionConstraint: '0.1.383'
+        providerVersion: '0.1.388',
+        providerVersionConstraint: '0.1.388'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

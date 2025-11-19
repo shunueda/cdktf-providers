@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KeyUserActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the WebApplication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#application_id KeyUserAction#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#application_id KeyUserAction#application_id}
   */
   readonly applicationId: string;
   /**
   * The domain where the action is performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#domain KeyUserAction#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#domain KeyUserAction#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#id KeyUserAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#id KeyUserAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface KeyUserActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#name KeyUserAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#name KeyUserAction#name}
   */
   readonly name: string;
   /**
   * The type of the action. Possible values are `Custom`, `Load` and `Xhr`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#type KeyUserAction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#type KeyUserAction#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action dynatrace_key_user_action}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action dynatrace_key_user_action}
 */
 export class KeyUserAction extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class KeyUserAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeyUserAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyUserAction to import
-  * @param importFromId The id of the existing KeyUserAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyUserAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyUserAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class KeyUserAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_user_action dynatrace_key_user_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_user_action dynatrace_key_user_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class KeyUserAction extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_key_user_action',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

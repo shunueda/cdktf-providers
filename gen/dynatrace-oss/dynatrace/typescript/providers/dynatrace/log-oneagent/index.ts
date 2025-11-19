@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface LogOneagentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables automatic detection of timezone in container's logs if it is not explicitly defined in content or configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#container_timezone_heuristic_enabled LogOneagent#container_timezone_heuristic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#container_timezone_heuristic_enabled LogOneagent#container_timezone_heuristic_enabled}
   */
   readonly containerTimezoneHeuristicEnabled: boolean | cdktf.IResolvable;
   /**
   * Allows detection of log messages written to the containerized application's stdout/stderr streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#containers_logs_detection_enabled LogOneagent#containers_logs_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#containers_logs_detection_enabled LogOneagent#containers_logs_detection_enabled}
   */
   readonly containersLogsDetectionEnabled: boolean | cdktf.IResolvable;
   /**
   * Defines the number of characters in every log line (starting from the first character in the line) where the timestamp is searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#date_search_limit_bytes LogOneagent#date_search_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#date_search_limit_bytes LogOneagent#date_search_limit_bytes}
   */
   readonly dateSearchLimitBytes: number;
   /**
   * Default timezone for agent if more specific configurations is not defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#default_timezone LogOneagent#default_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#default_timezone LogOneagent#default_timezone}
   */
   readonly defaultTimezone: string;
   /**
   * Defines the maximum timeout value, in seconds, for the query extracting Windows Event Logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#event_log_query_timeout_sec LogOneagent#event_log_query_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#event_log_query_timeout_sec LogOneagent#event_log_query_timeout_sec}
   */
   readonly eventLogQueryTimeoutSec: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#id LogOneagent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#id LogOneagent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface LogOneagentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allows detection of logs and event logs written by IIS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#iisdetection_enabled LogOneagent#iisdetection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#iisdetection_enabled LogOneagent#iisdetection_enabled}
   */
   readonly iisdetectionEnabled: boolean | cdktf.IResolvable;
   /**
   * Allows detection of logs written to mounted network storage drives. Applies only to Linux hosts. For other OSes it's always enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#log_scanner_linux_nfs_enabled LogOneagent#log_scanner_linux_nfs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#log_scanner_linux_nfs_enabled LogOneagent#log_scanner_linux_nfs_enabled}
   */
   readonly logScannerLinuxNfsEnabled: boolean | cdktf.IResolvable;
   /**
   * Defines the maximum number of log group instances per entity after which, the new automatic ones wouldn't be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#max_lgis_per_entity_count LogOneagent#max_lgis_per_entity_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#max_lgis_per_entity_count LogOneagent#max_lgis_per_entity_count}
   */
   readonly maxLgisPerEntityCount: number;
   /**
   * Defines the minimum number of bytes in log file required for binary detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#min_binary_detection_limit_bytes LogOneagent#min_binary_detection_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#min_binary_detection_limit_bytes LogOneagent#min_binary_detection_limit_bytes}
   */
   readonly minBinaryDetectionLimitBytes: number;
   /**
   * Enabling this option may affect your licensing costs. For more details, see [documentation](https://dt-url.net/4l02yi8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#monitor_own_logs_enabled LogOneagent#monitor_own_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#monitor_own_logs_enabled LogOneagent#monitor_own_logs_enabled}
   */
   readonly monitorOwnLogsEnabled: boolean | cdktf.IResolvable;
   /**
   * Automatically detect logs written by important processes. For more details, check our [documentation](https://dt-url.net/7v02z76)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#open_log_files_detection_enabled LogOneagent#open_log_files_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#open_log_files_detection_enabled LogOneagent#open_log_files_detection_enabled}
   */
   readonly openLogFilesDetectionEnabled: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#scope LogOneagent#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#scope LogOneagent#scope}
   */
   readonly scope?: string;
   /**
   * Defines the number of characters in every log line (starting from the first character in the line) where severity is searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#severity_detection_limit_bytes LogOneagent#severity_detection_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#severity_detection_limit_bytes LogOneagent#severity_detection_limit_bytes}
   */
   readonly severityDetectionLimitBytes: number;
   /**
   * Defines the number of the first lines of every log entry where severity is searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#severity_detection_lines_limit LogOneagent#severity_detection_lines_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#severity_detection_lines_limit LogOneagent#severity_detection_lines_limit}
   */
   readonly severityDetectionLinesLimit: number;
   /**
   * Linux: syslog, message log Windows: system, application, security event logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#system_logs_detection_enabled LogOneagent#system_logs_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#system_logs_detection_enabled LogOneagent#system_logs_detection_enabled}
   */
   readonly systemLogsDetectionEnabled: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent dynatrace_log_oneagent}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent dynatrace_log_oneagent}
 */
 export class LogOneagent extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class LogOneagent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogOneagent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogOneagent to import
-  * @param importFromId The id of the existing LogOneagent that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogOneagent that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogOneagent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class LogOneagent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_oneagent dynatrace_log_oneagent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_oneagent dynatrace_log_oneagent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class LogOneagent extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_oneagent',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

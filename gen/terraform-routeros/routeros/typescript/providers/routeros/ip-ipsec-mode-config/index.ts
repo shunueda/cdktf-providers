@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,88 +10,88 @@ export interface IpIpsecModeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#___path___ IpIpsecModeConfig#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#___path___ IpIpsecModeConfig#___path___}
   */
   readonly path?: string;
   /**
   * Single IP address for the initiator instead of specifying a whole address pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#address IpIpsecModeConfig#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#address IpIpsecModeConfig#address}
   */
   readonly address?: string;
   /**
   * Name of the address pool from which the responder will try to assign address if mode-config is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#address_pool IpIpsecModeConfig#address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#address_pool IpIpsecModeConfig#address_pool}
   */
   readonly addressPool?: string;
   /**
   * Prefix length (netmask) of the assigned address from the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#address_prefix_length IpIpsecModeConfig#address_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#address_prefix_length IpIpsecModeConfig#address_prefix_length}
   */
   readonly addressPrefixLength?: number;
   /**
   * Firewall connection mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#connection_mark IpIpsecModeConfig#connection_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#connection_mark IpIpsecModeConfig#connection_mark}
   */
   readonly connectionMark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#id IpIpsecModeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#id IpIpsecModeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#name IpIpsecModeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#name IpIpsecModeConfig#name}
   */
   readonly name: string;
   /**
   * Specifies whether the configuration will work as an initiator (client) or responder (server). The initiator will request for mode-config parameters from the responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#responder IpIpsecModeConfig#responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#responder IpIpsecModeConfig#responder}
   */
   readonly responder?: boolean | cdktf.IResolvable;
   /**
   * List of DNS names that will be resolved using a system-dns=yes or static-dns= setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#split_dns IpIpsecModeConfig#split_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#split_dns IpIpsecModeConfig#split_dns}
   */
   readonly splitDns?: string[];
   /**
   * List of subnets in CIDR format, which to tunnel. Subnets will be sent to the peer using the CISCO UNITY extension, a remote peer will create specific dynamic policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#split_include IpIpsecModeConfig#split_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#split_include IpIpsecModeConfig#split_include}
   */
   readonly splitInclude?: string[];
   /**
   * Specifying an address list will generate dynamic source NAT rules. This parameter is only available with responder=no. A roadWarrior client with NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#src_address_list IpIpsecModeConfig#src_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#src_address_list IpIpsecModeConfig#src_address_list}
   */
   readonly srcAddressList?: string;
   /**
   * Manually specified DNS server's IP address to be sent to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#static_dns IpIpsecModeConfig#static_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#static_dns IpIpsecModeConfig#static_dns}
   */
   readonly staticDns?: string;
   /**
   * When this option is enabled DNS addresses will be taken from `/ip dns`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#system_dns IpIpsecModeConfig#system_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#system_dns IpIpsecModeConfig#system_dns}
   */
   readonly systemDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#use_responder_dns IpIpsecModeConfig#use_responder_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#use_responder_dns IpIpsecModeConfig#use_responder_dns}
   */
   readonly useResponderDns?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config routeros_ip_ipsec_mode_config}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config routeros_ip_ipsec_mode_config}
 */
 export class IpIpsecModeConfig extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class IpIpsecModeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecModeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecModeConfig to import
-  * @param importFromId The id of the existing IpIpsecModeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecModeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecModeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class IpIpsecModeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_mode_config routeros_ip_ipsec_mode_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/ip_ipsec_mode_config routeros_ip_ipsec_mode_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class IpIpsecModeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_mode_config',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

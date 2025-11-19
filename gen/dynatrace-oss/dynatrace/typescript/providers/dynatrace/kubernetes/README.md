@@ -1,3 +1,3 @@
 # `dynatrace_kubernetes`
 
-Refer to the Terraform Registry for docs: [`dynatrace_kubernetes`](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/kubernetes).
+Refer to the Terraform Registry for docs: [`dynatrace_kubernetes`](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes).

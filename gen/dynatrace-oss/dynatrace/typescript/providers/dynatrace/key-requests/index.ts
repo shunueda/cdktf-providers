@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KeyRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests#id KeyRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests#id KeyRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface KeyRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ids of the key requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests#key_request_ids KeyRequests#key_request_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests#key_request_ids KeyRequests#key_request_ids}
   */
   readonly keyRequestIds?: { [key: string]: string };
   /**
   * The names of the key requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests#names KeyRequests#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests#names KeyRequests#names}
   */
   readonly names?: string[];
   /**
   * ID of Dynatrace Service, eg. SERVICE-123ABC45678EFGH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests#service KeyRequests#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests#service KeyRequests#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests dynatrace_key_requests}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests dynatrace_key_requests}
 */
 export class KeyRequests extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class KeyRequests extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeyRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyRequests to import
-  * @param importFromId The id of the existing KeyRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class KeyRequests extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/key_requests dynatrace_key_requests} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/key_requests dynatrace_key_requests} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class KeyRequests extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_key_requests',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

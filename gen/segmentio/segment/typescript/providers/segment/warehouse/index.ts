@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WarehouseConfig extends cdktf.TerraformMetaArguments {
   /**
   * When set to true, this Warehouse receives data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#enabled Warehouse#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#enabled Warehouse#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The metadata for the Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#metadata Warehouse#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#metadata Warehouse#metadata}
   */
   readonly metadata: WarehouseMetadata;
   /**
   * An optional human-readable name for this Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#name Warehouse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#name Warehouse#name}
   */
   readonly name?: string;
   /**
   * The settings associated with this Warehouse. Common settings are connection-related configuration used to connect to it, for example host, username, and port. Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#settings Warehouse#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#settings Warehouse#settings}
   */
   readonly settings: string;
 }
@@ -200,7 +200,7 @@ export interface WarehouseMetadata {
   /**
   * The id of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#id Warehouse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#id Warehouse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -321,7 +321,7 @@ export class WarehouseMetadataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse segment_warehouse}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse segment_warehouse}
 */
 export class Warehouse extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class Warehouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Warehouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Warehouse to import
-  * @param importFromId The id of the existing Warehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Warehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Warehouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class Warehouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/warehouse segment_warehouse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/warehouse segment_warehouse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class Warehouse extends cdktf.TerraformResource {
       terraformResourceType: 'segment_warehouse',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

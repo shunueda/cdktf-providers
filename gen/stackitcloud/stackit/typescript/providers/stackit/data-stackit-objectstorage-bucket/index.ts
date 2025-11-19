@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitObjectstorageBucketConfig extends cdktf.TerraformMet
   /**
   * The bucket name. It must be DNS conform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket#name DataStackitObjectstorageBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket#name DataStackitObjectstorageBucket#name}
   */
   readonly name: string;
   /**
   * STACKIT Project ID to which the bucket is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket#project_id DataStackitObjectstorageBucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket#project_id DataStackitObjectstorageBucket#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket#region DataStackitObjectstorageBucket#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket#region DataStackitObjectstorageBucket#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket stackit_objectstorage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket stackit_objectstorage_bucket}
 */
 export class DataStackitObjectstorageBucket extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitObjectstorageBucket extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitObjectstorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitObjectstorageBucket to import
-  * @param importFromId The id of the existing DataStackitObjectstorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitObjectstorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitObjectstorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitObjectstorageBucket extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/objectstorage_bucket stackit_objectstorage_bucket} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/objectstorage_bucket stackit_objectstorage_bucket} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitObjectstorageBucket extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_objectstorage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

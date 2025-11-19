@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RoleBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * A CRN that specifies the scope and resource patterns necessary for the role to bind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#crn_pattern RoleBinding#crn_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#crn_pattern RoleBinding#crn_pattern}
   */
   readonly crnPattern: string;
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#disable_wait_for_ready RoleBinding#disable_wait_for_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#disable_wait_for_ready RoleBinding#disable_wait_for_ready}
   */
   readonly disableWaitForReady?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#id RoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#id RoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface RoleBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The principal User to bind the role to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#principal RoleBinding#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#principal RoleBinding#principal}
   */
   readonly principal: string;
   /**
   * The name of the role to bind to the principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#role_name RoleBinding#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#role_name RoleBinding#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding confluent_role_binding}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding confluent_role_binding}
 */
 export class RoleBinding extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RoleBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleBinding to import
-  * @param importFromId The id of the existing RoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RoleBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/role_binding confluent_role_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/role_binding confluent_role_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RoleBinding extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

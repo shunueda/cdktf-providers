@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MobileAppEnablementConfig extends cdktf.TerraformMetaArguments 
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#application_id MobileAppEnablement#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#application_id MobileAppEnablement#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#id MobileAppEnablement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#id MobileAppEnablement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MobileAppEnablementConfig extends cdktf.TerraformMetaArguments 
   /**
   * rum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#rum MobileAppEnablement#rum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#rum MobileAppEnablement#rum}
   */
   readonly rum: MobileAppEnablementRum;
   /**
   * session_replay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#session_replay MobileAppEnablement#session_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#session_replay MobileAppEnablement#session_replay}
   */
   readonly sessionReplay: MobileAppEnablementSessionReplay;
 }
@@ -37,19 +37,19 @@ export interface MobileAppEnablementRum {
   /**
   * Percentage of user sessions captured and analyzed. By default, Dynatrace captures all user actions and user sessions for analysis. This approach ensures complete insight into your application’s performance and customer experience. You can optionally reduce the granularity of user-action and user-session analysis by capturing a lower percentage of user sessions. While this approach can reduce monitoring costs, it also results in lower visibility into how your customers are using your applications. For example, a setting of 10% results in Dynatrace analyzing only every tenth user session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#cost_and_traffic_control MobileAppEnablement#cost_and_traffic_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#cost_and_traffic_control MobileAppEnablement#cost_and_traffic_control}
   */
   readonly costAndTrafficControl: number;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#enabled MobileAppEnablement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#enabled MobileAppEnablement#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Please be aware that only mobile agents with version **8.303 or higher** can ingest Grail events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#enabled_on_grail MobileAppEnablement#enabled_on_grail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#enabled_on_grail MobileAppEnablement#enabled_on_grail}
   */
   readonly enabledOnGrail?: boolean | cdktf.IResolvable;
 }
@@ -185,9 +185,21 @@ export class MobileAppEnablementRumOutputReference extends cdktf.ComplexObject {
 }
 export interface MobileAppEnablementSessionReplay {
   /**
+  * Percentage of user sessions recorded with Session Replay. For example, if you have 50% for RUM and 50% for Session Replay, it results in 25% of sessions recorded with Session Replay.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#cost_and_traffic_control MobileAppEnablement#cost_and_traffic_control}
+  */
+  readonly costAndTrafficControl?: number;
+  /**
   * Before enabling, Dynatrace checks your system against the [prerequisites for Session Replay](https://dt-url.net/t23s0ppi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#on_crash MobileAppEnablement#on_crash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#full_session_replay MobileAppEnablement#full_session_replay}
+  */
+  readonly fullSessionReplay?: boolean | cdktf.IResolvable;
+  /**
+  * Capture screen recordings that replay the user actions preceding all detected crashes. Before enabling, Dynatrace checks your system against the [prerequisites for Session Replay](https://dt-url.net/t23s0ppi).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#on_crash MobileAppEnablement#on_crash}
   */
   readonly onCrash: boolean | cdktf.IResolvable;
 }
@@ -198,6 +210,8 @@ export function mobileAppEnablementSessionReplayToTerraform(struct?: MobileAppEn
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    cost_and_traffic_control: cdktf.numberToTerraform(struct!.costAndTrafficControl),
+    full_session_replay: cdktf.booleanToTerraform(struct!.fullSessionReplay),
     on_crash: cdktf.booleanToTerraform(struct!.onCrash),
   }
 }
@@ -209,6 +223,18 @@ export function mobileAppEnablementSessionReplayToHclTerraform(struct?: MobileAp
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    cost_and_traffic_control: {
+      value: cdktf.numberToHclTerraform(struct!.costAndTrafficControl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    full_session_replay: {
+      value: cdktf.booleanToHclTerraform(struct!.fullSessionReplay),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     on_crash: {
       value: cdktf.booleanToHclTerraform(struct!.onCrash),
       isBlock: false,
@@ -235,6 +261,14 @@ export class MobileAppEnablementSessionReplayOutputReference extends cdktf.Compl
   public get internalValue(): MobileAppEnablementSessionReplay | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._costAndTrafficControl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.costAndTrafficControl = this._costAndTrafficControl;
+    }
+    if (this._fullSessionReplay !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fullSessionReplay = this._fullSessionReplay;
+    }
     if (this._onCrash !== undefined) {
       hasAnyValues = true;
       internalValueResult.onCrash = this._onCrash;
@@ -245,12 +279,48 @@ export class MobileAppEnablementSessionReplayOutputReference extends cdktf.Compl
   public set internalValue(value: MobileAppEnablementSessionReplay | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._costAndTrafficControl = undefined;
+      this._fullSessionReplay = undefined;
       this._onCrash = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._costAndTrafficControl = value.costAndTrafficControl;
+      this._fullSessionReplay = value.fullSessionReplay;
       this._onCrash = value.onCrash;
     }
+  }
+
+  // cost_and_traffic_control - computed: false, optional: true, required: false
+  private _costAndTrafficControl?: number; 
+  public get costAndTrafficControl() {
+    return this.getNumberAttribute('cost_and_traffic_control');
+  }
+  public set costAndTrafficControl(value: number) {
+    this._costAndTrafficControl = value;
+  }
+  public resetCostAndTrafficControl() {
+    this._costAndTrafficControl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get costAndTrafficControlInput() {
+    return this._costAndTrafficControl;
+  }
+
+  // full_session_replay - computed: false, optional: true, required: false
+  private _fullSessionReplay?: boolean | cdktf.IResolvable; 
+  public get fullSessionReplay() {
+    return this.getBooleanAttribute('full_session_replay');
+  }
+  public set fullSessionReplay(value: boolean | cdktf.IResolvable) {
+    this._fullSessionReplay = value;
+  }
+  public resetFullSessionReplay() {
+    this._fullSessionReplay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullSessionReplayInput() {
+    return this._fullSessionReplay;
   }
 
   // on_crash - computed: false, optional: false, required: true
@@ -268,7 +338,7 @@ export class MobileAppEnablementSessionReplayOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement dynatrace_mobile_app_enablement}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement dynatrace_mobile_app_enablement}
 */
 export class MobileAppEnablement extends cdktf.TerraformResource {
 
@@ -284,7 +354,7 @@ export class MobileAppEnablement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MobileAppEnablement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MobileAppEnablement to import
-  * @param importFromId The id of the existing MobileAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MobileAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MobileAppEnablement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +366,7 @@ export class MobileAppEnablement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_app_enablement dynatrace_mobile_app_enablement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_enablement dynatrace_mobile_app_enablement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +377,8 @@ export class MobileAppEnablement extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mobile_app_enablement',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

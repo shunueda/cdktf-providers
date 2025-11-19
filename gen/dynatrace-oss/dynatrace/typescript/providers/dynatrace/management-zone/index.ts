@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the management zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#description ManagementZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#description ManagementZone#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#id ManagementZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#id ManagementZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ManagementZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the management zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#name ManagementZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#name ManagementZone#name}
   */
   readonly name: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dimensional_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dimensional_rule ManagementZone#dimensional_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dimensional_rule ManagementZone#dimensional_rule}
   */
   readonly dimensionalRule?: ManagementZoneDimensionalRule[] | cdktf.IResolvable;
   /**
   * entity_selector_based_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#entity_selector_based_rule ManagementZone#entity_selector_based_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#entity_selector_based_rule ManagementZone#entity_selector_based_rule}
   */
   readonly entitySelectorBasedRule?: ManagementZoneEntitySelectorBasedRule[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#rules ManagementZone#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#rules ManagementZone#rules}
   */
   readonly rules?: ManagementZoneRules[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface ManagementZoneDimensionalRuleCondition {
   /**
   * The reference value for comparison. For conditions of the `DIMENSION` type, specify the key here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
@@ -63,7 +63,7 @@ export interface ManagementZoneDimensionalRuleCondition {
   *    - `BEGINS_WITH`
   *    - `EQUALS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#match ManagementZone#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#match ManagementZone#match}
   */
   readonly match: string;
   /**
@@ -72,19 +72,19 @@ export interface ManagementZoneDimensionalRuleCondition {
   *    - `LOG_FILE_NAME`
   *    - `METRIC_KEY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the dimension. Only applicable when type is set to `DIMENSION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -312,25 +312,25 @@ export interface ManagementZoneDimensionalRule {
   *    - `LOG`
   *    - `METRIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#applies_to ManagementZone#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#applies_to ManagementZone#applies_to}
   */
   readonly appliesTo: string;
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#enabled ManagementZone#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#enabled ManagementZone#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#condition ManagementZone#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#condition ManagementZone#condition}
   */
   readonly condition?: ManagementZoneDimensionalRuleCondition[] | cdktf.IResolvable;
 }
@@ -532,19 +532,19 @@ export interface ManagementZoneEntitySelectorBasedRule {
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#enabled ManagementZone#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#enabled ManagementZone#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The entity selector string, by which the entities are selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#selector ManagementZone#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#selector ManagementZone#selector}
   */
   readonly selector?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -720,25 +720,25 @@ export interface ManagementZoneRulesConditionsApplicationType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -940,31 +940,31 @@ export interface ManagementZoneRulesConditionsApplicationTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -1195,25 +1195,25 @@ export interface ManagementZoneRulesConditionsAzureComputeMode {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -1415,25 +1415,25 @@ export interface ManagementZoneRulesConditionsAzureComputeModeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -1635,25 +1635,25 @@ export interface ManagementZoneRulesConditionsAzureSku {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -1855,31 +1855,31 @@ export interface ManagementZoneRulesConditionsAzureSkuComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be AZURE_SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -2110,19 +2110,19 @@ export interface ManagementZoneRulesConditionsBaseComparisonBasic {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2295,19 +2295,19 @@ export interface ManagementZoneRulesConditionsBaseConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2480,25 +2480,25 @@ export interface ManagementZoneRulesConditionsBitness {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -2700,31 +2700,31 @@ export interface ManagementZoneRulesConditionsBitnessComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be BITNESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -2955,25 +2955,25 @@ export interface ManagementZoneRulesConditionsCloudType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -3175,31 +3175,31 @@ export interface ManagementZoneRulesConditionsCloudTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CLOUD_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -3430,19 +3430,19 @@ export interface ManagementZoneRulesConditionsComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3615,25 +3615,25 @@ export interface ManagementZoneRulesConditionsCustomApplicationType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -3835,31 +3835,31 @@ export interface ManagementZoneRulesConditionsCustomApplicationTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CUSTOM_APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -4090,19 +4090,19 @@ export interface ManagementZoneRulesConditionsCustomHostMetadataDynamicKey {
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#source ManagementZone#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#source ManagementZone#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4240,19 +4240,19 @@ export interface ManagementZoneRulesConditionsCustomHostMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: ManagementZoneRulesConditionsCustomHostMetadataDynamicKey;
 }
@@ -4422,19 +4422,19 @@ export interface ManagementZoneRulesConditionsCustomHostMetadataConditionKeyDyna
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#source ManagementZone#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#source ManagementZone#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4572,25 +4572,25 @@ export interface ManagementZoneRulesConditionsCustomHostMetadataConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be HOST_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: ManagementZoneRulesConditionsCustomHostMetadataConditionKeyDynamicKey;
 }
@@ -4789,19 +4789,19 @@ export interface ManagementZoneRulesConditionsCustomProcessMetadataDynamicKey {
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#source ManagementZone#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#source ManagementZone#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4939,19 +4939,19 @@ export interface ManagementZoneRulesConditionsCustomProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: ManagementZoneRulesConditionsCustomProcessMetadataDynamicKey;
 }
@@ -5121,19 +5121,19 @@ export interface ManagementZoneRulesConditionsCustomProcessMetadataConditionKeyD
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#source ManagementZone#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#source ManagementZone#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -5271,25 +5271,25 @@ export interface ManagementZoneRulesConditionsCustomProcessMetadataConditionKey 
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be PROCESS_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: ManagementZoneRulesConditionsCustomProcessMetadataConditionKeyDynamicKey;
 }
@@ -5488,25 +5488,25 @@ export interface ManagementZoneRulesConditionsDatabaseTopology {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -5708,31 +5708,31 @@ export interface ManagementZoneRulesConditionsDatabaseTopologyComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DATABASE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -5963,25 +5963,25 @@ export interface ManagementZoneRulesConditionsDcrumDecoder {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -6183,31 +6183,31 @@ export interface ManagementZoneRulesConditionsDcrumDecoderComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DCRUM_DECODER_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -6438,25 +6438,25 @@ export interface ManagementZoneRulesConditionsEntity {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -6658,31 +6658,31 @@ export interface ManagementZoneRulesConditionsEntityIdComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be ENTITY_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -6913,19 +6913,19 @@ export interface ManagementZoneRulesConditionsHostTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -7069,25 +7069,25 @@ export interface ManagementZoneRulesConditionsHostTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsHostTechValue;
 }
@@ -7289,25 +7289,25 @@ export interface ManagementZoneRulesConditionsHypervisor {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -7509,31 +7509,31 @@ export interface ManagementZoneRulesConditionsHypervisorTypeComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be HYPERVISOR_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -7764,25 +7764,25 @@ export interface ManagementZoneRulesConditionsIndexedName {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -7984,31 +7984,31 @@ export interface ManagementZoneRulesConditionsIndexedNameComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -8239,25 +8239,25 @@ export interface ManagementZoneRulesConditionsIndexedString {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -8459,31 +8459,31 @@ export interface ManagementZoneRulesConditionsIndexedStringComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -8714,25 +8714,25 @@ export interface ManagementZoneRulesConditionsIndexedTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#context ManagementZone#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#context ManagementZone#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -8899,25 +8899,25 @@ export interface ManagementZoneRulesConditionsIndexedTag {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsIndexedTagValue;
 }
@@ -9119,25 +9119,25 @@ export interface ManagementZoneRulesConditionsIndexedTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#context ManagementZone#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#context ManagementZone#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -9304,31 +9304,31 @@ export interface ManagementZoneRulesConditionsIndexedTagComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsIndexedTagComparisonValue;
 }
@@ -9559,25 +9559,25 @@ export interface ManagementZoneRulesConditionsInteger {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: number;
 }
@@ -9779,31 +9779,31 @@ export interface ManagementZoneRulesConditionsIntegerComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INTEGER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: number;
 }
@@ -10034,31 +10034,31 @@ export interface ManagementZoneRulesConditionsIpaddress {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -10289,37 +10289,37 @@ export interface ManagementZoneRulesConditionsIpaddressComparison {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be IP_ADDRESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -10579,19 +10579,19 @@ export interface ManagementZoneRulesConditionsKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -10764,25 +10764,25 @@ export interface ManagementZoneRulesConditionsMobilePlatform {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -10984,31 +10984,31 @@ export interface ManagementZoneRulesConditionsMobilePlatformComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be MOBILE_PLATFORM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -11239,25 +11239,25 @@ export interface ManagementZoneRulesConditionsOsArch {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -11459,25 +11459,25 @@ export interface ManagementZoneRulesConditionsOsType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -11679,31 +11679,31 @@ export interface ManagementZoneRulesConditionsOsarchitectureComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_ARCHITECTURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -11934,31 +11934,31 @@ export interface ManagementZoneRulesConditionsOstypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -12189,25 +12189,25 @@ export interface ManagementZoneRulesConditionsPaasType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -12409,31 +12409,31 @@ export interface ManagementZoneRulesConditionsPaasTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be PAAS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -12664,19 +12664,19 @@ export interface ManagementZoneRulesConditionsProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12846,25 +12846,25 @@ export interface ManagementZoneRulesConditionsProcessMetadataConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be PROCESS_PREDEFINED_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -13063,25 +13063,25 @@ export interface ManagementZoneRulesConditionsServiceTopology {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -13283,31 +13283,31 @@ export interface ManagementZoneRulesConditionsServiceTopologyComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -13538,25 +13538,25 @@ export interface ManagementZoneRulesConditionsServiceType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -13758,31 +13758,31 @@ export interface ManagementZoneRulesConditionsServiceTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -14013,19 +14013,19 @@ export interface ManagementZoneRulesConditionsSimpleHostTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -14169,31 +14169,31 @@ export interface ManagementZoneRulesConditionsSimpleHostTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_HOST_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsSimpleHostTechComparisonValue;
 }
@@ -14424,19 +14424,19 @@ export interface ManagementZoneRulesConditionsSimpleTechComparisonValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -14580,31 +14580,31 @@ export interface ManagementZoneRulesConditionsSimpleTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsSimpleTechComparisonValue;
 }
@@ -14835,31 +14835,31 @@ export interface ManagementZoneRulesConditionsString {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -15090,37 +15090,37 @@ export interface ManagementZoneRulesConditionsStringComparison {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#case_sensitive ManagementZone#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -15380,7 +15380,7 @@ export interface ManagementZoneRulesConditionsStringConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
@@ -15479,19 +15479,19 @@ export interface ManagementZoneRulesConditionsStringConditionKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15690,7 +15690,7 @@ export interface ManagementZoneRulesConditionsStringKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#attribute ManagementZone#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#attribute ManagementZone#attribute}
   */
   readonly attribute: string;
   /**
@@ -15789,13 +15789,13 @@ export interface ManagementZoneRulesConditionsStringKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dynamic_key ManagementZone#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15965,25 +15965,25 @@ export interface ManagementZoneRulesConditionsSyntheticEngine {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -16185,31 +16185,31 @@ export interface ManagementZoneRulesConditionsSyntheticEngineTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SYNTHETIC_ENGINE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -16440,25 +16440,25 @@ export interface ManagementZoneRulesConditionsTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#context ManagementZone#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#context ManagementZone#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -16625,25 +16625,25 @@ export interface ManagementZoneRulesConditionsTag {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsTagValue;
 }
@@ -16845,25 +16845,25 @@ export interface ManagementZoneRulesConditionsTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#context ManagementZone#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#context ManagementZone#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: string;
 }
@@ -17030,31 +17030,31 @@ export interface ManagementZoneRulesConditionsTagComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsTagComparisonValue;
 }
@@ -17285,19 +17285,19 @@ export interface ManagementZoneRulesConditionsTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#verbatim_type ManagementZone#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -17441,25 +17441,25 @@ export interface ManagementZoneRulesConditionsTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#negate ManagementZone#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#negate ManagementZone#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#operator ManagementZone#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#operator ManagementZone#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#value ManagementZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#value ManagementZone#value}
   */
   readonly value?: ManagementZoneRulesConditionsTechValue;
 }
@@ -17661,391 +17661,391 @@ export interface ManagementZoneRulesConditions {
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#application_type ManagementZone#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#application_type ManagementZone#application_type}
   */
   readonly applicationType?: ManagementZoneRulesConditionsApplicationType[] | cdktf.IResolvable;
   /**
   * application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#application_type_comparison ManagementZone#application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#application_type_comparison ManagementZone#application_type_comparison}
   */
   readonly applicationTypeComparison?: ManagementZoneRulesConditionsApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * azure_compute_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#azure_compute_mode ManagementZone#azure_compute_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#azure_compute_mode ManagementZone#azure_compute_mode}
   */
   readonly azureComputeMode?: ManagementZoneRulesConditionsAzureComputeMode[] | cdktf.IResolvable;
   /**
   * azure_compute_mode_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#azure_compute_mode_comparison ManagementZone#azure_compute_mode_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#azure_compute_mode_comparison ManagementZone#azure_compute_mode_comparison}
   */
   readonly azureComputeModeComparison?: ManagementZoneRulesConditionsAzureComputeModeComparison[] | cdktf.IResolvable;
   /**
   * azure_sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#azure_sku ManagementZone#azure_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#azure_sku ManagementZone#azure_sku}
   */
   readonly azureSku?: ManagementZoneRulesConditionsAzureSku[] | cdktf.IResolvable;
   /**
   * azure_sku_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#azure_sku_comparision ManagementZone#azure_sku_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#azure_sku_comparision ManagementZone#azure_sku_comparision}
   */
   readonly azureSkuComparision?: ManagementZoneRulesConditionsAzureSkuComparision[] | cdktf.IResolvable;
   /**
   * base_comparison_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#base_comparison_basic ManagementZone#base_comparison_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#base_comparison_basic ManagementZone#base_comparison_basic}
   */
   readonly baseComparisonBasic?: ManagementZoneRulesConditionsBaseComparisonBasic[] | cdktf.IResolvable;
   /**
   * base_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#base_condition_key ManagementZone#base_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#base_condition_key ManagementZone#base_condition_key}
   */
   readonly baseConditionKey?: ManagementZoneRulesConditionsBaseConditionKey[] | cdktf.IResolvable;
   /**
   * bitness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#bitness ManagementZone#bitness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#bitness ManagementZone#bitness}
   */
   readonly bitness?: ManagementZoneRulesConditionsBitness[] | cdktf.IResolvable;
   /**
   * bitness_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#bitness_comparision ManagementZone#bitness_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#bitness_comparision ManagementZone#bitness_comparision}
   */
   readonly bitnessComparision?: ManagementZoneRulesConditionsBitnessComparision[] | cdktf.IResolvable;
   /**
   * cloud_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#cloud_type ManagementZone#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#cloud_type ManagementZone#cloud_type}
   */
   readonly cloudType?: ManagementZoneRulesConditionsCloudType[] | cdktf.IResolvable;
   /**
   * cloud_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#cloud_type_comparison ManagementZone#cloud_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#cloud_type_comparison ManagementZone#cloud_type_comparison}
   */
   readonly cloudTypeComparison?: ManagementZoneRulesConditionsCloudTypeComparison[] | cdktf.IResolvable;
   /**
   * comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#comparison ManagementZone#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#comparison ManagementZone#comparison}
   */
   readonly comparison?: ManagementZoneRulesConditionsComparison[] | cdktf.IResolvable;
   /**
   * custom_application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_application_type ManagementZone#custom_application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_application_type ManagementZone#custom_application_type}
   */
   readonly customApplicationType?: ManagementZoneRulesConditionsCustomApplicationType[] | cdktf.IResolvable;
   /**
   * custom_application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_application_type_comparison ManagementZone#custom_application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_application_type_comparison ManagementZone#custom_application_type_comparison}
   */
   readonly customApplicationTypeComparison?: ManagementZoneRulesConditionsCustomApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * custom_host_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_host_metadata ManagementZone#custom_host_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_host_metadata ManagementZone#custom_host_metadata}
   */
   readonly customHostMetadata?: ManagementZoneRulesConditionsCustomHostMetadata[] | cdktf.IResolvable;
   /**
   * custom_host_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_host_metadata_condition_key ManagementZone#custom_host_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_host_metadata_condition_key ManagementZone#custom_host_metadata_condition_key}
   */
   readonly customHostMetadataConditionKey?: ManagementZoneRulesConditionsCustomHostMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * custom_process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_process_metadata ManagementZone#custom_process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_process_metadata ManagementZone#custom_process_metadata}
   */
   readonly customProcessMetadata?: ManagementZoneRulesConditionsCustomProcessMetadata[] | cdktf.IResolvable;
   /**
   * custom_process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#custom_process_metadata_condition_key ManagementZone#custom_process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#custom_process_metadata_condition_key ManagementZone#custom_process_metadata_condition_key}
   */
   readonly customProcessMetadataConditionKey?: ManagementZoneRulesConditionsCustomProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * database_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#database_topology ManagementZone#database_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#database_topology ManagementZone#database_topology}
   */
   readonly databaseTopology?: ManagementZoneRulesConditionsDatabaseTopology[] | cdktf.IResolvable;
   /**
   * database_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#database_topology_comparison ManagementZone#database_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#database_topology_comparison ManagementZone#database_topology_comparison}
   */
   readonly databaseTopologyComparison?: ManagementZoneRulesConditionsDatabaseTopologyComparison[] | cdktf.IResolvable;
   /**
   * dcrum_decoder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dcrum_decoder ManagementZone#dcrum_decoder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dcrum_decoder ManagementZone#dcrum_decoder}
   */
   readonly dcrumDecoder?: ManagementZoneRulesConditionsDcrumDecoder[] | cdktf.IResolvable;
   /**
   * dcrum_decoder_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#dcrum_decoder_comparison ManagementZone#dcrum_decoder_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#dcrum_decoder_comparison ManagementZone#dcrum_decoder_comparison}
   */
   readonly dcrumDecoderComparison?: ManagementZoneRulesConditionsDcrumDecoderComparison[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#entity ManagementZone#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#entity ManagementZone#entity}
   */
   readonly entity?: ManagementZoneRulesConditionsEntity[] | cdktf.IResolvable;
   /**
   * entity_id_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#entity_id_comparison ManagementZone#entity_id_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#entity_id_comparison ManagementZone#entity_id_comparison}
   */
   readonly entityIdComparison?: ManagementZoneRulesConditionsEntityIdComparison[] | cdktf.IResolvable;
   /**
   * host_tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#host_tech ManagementZone#host_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#host_tech ManagementZone#host_tech}
   */
   readonly hostTech?: ManagementZoneRulesConditionsHostTech[] | cdktf.IResolvable;
   /**
   * hypervisor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#hypervisor ManagementZone#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#hypervisor ManagementZone#hypervisor}
   */
   readonly hypervisor?: ManagementZoneRulesConditionsHypervisor[] | cdktf.IResolvable;
   /**
   * hypervisor_type_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#hypervisor_type_comparision ManagementZone#hypervisor_type_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#hypervisor_type_comparision ManagementZone#hypervisor_type_comparision}
   */
   readonly hypervisorTypeComparision?: ManagementZoneRulesConditionsHypervisorTypeComparision[] | cdktf.IResolvable;
   /**
   * indexed_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_name ManagementZone#indexed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_name ManagementZone#indexed_name}
   */
   readonly indexedName?: ManagementZoneRulesConditionsIndexedName[] | cdktf.IResolvable;
   /**
   * indexed_name_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_name_comparison ManagementZone#indexed_name_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_name_comparison ManagementZone#indexed_name_comparison}
   */
   readonly indexedNameComparison?: ManagementZoneRulesConditionsIndexedNameComparison[] | cdktf.IResolvable;
   /**
   * indexed_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_string ManagementZone#indexed_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_string ManagementZone#indexed_string}
   */
   readonly indexedString?: ManagementZoneRulesConditionsIndexedString[] | cdktf.IResolvable;
   /**
   * indexed_string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_string_comparison ManagementZone#indexed_string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_string_comparison ManagementZone#indexed_string_comparison}
   */
   readonly indexedStringComparison?: ManagementZoneRulesConditionsIndexedStringComparison[] | cdktf.IResolvable;
   /**
   * indexed_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_tag ManagementZone#indexed_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_tag ManagementZone#indexed_tag}
   */
   readonly indexedTag?: ManagementZoneRulesConditionsIndexedTag[] | cdktf.IResolvable;
   /**
   * indexed_tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#indexed_tag_comparison ManagementZone#indexed_tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#indexed_tag_comparison ManagementZone#indexed_tag_comparison}
   */
   readonly indexedTagComparison?: ManagementZoneRulesConditionsIndexedTagComparison[] | cdktf.IResolvable;
   /**
   * integer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#integer ManagementZone#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#integer ManagementZone#integer}
   */
   readonly integer?: ManagementZoneRulesConditionsInteger[] | cdktf.IResolvable;
   /**
   * integer_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#integer_comparison ManagementZone#integer_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#integer_comparison ManagementZone#integer_comparison}
   */
   readonly integerComparison?: ManagementZoneRulesConditionsIntegerComparison[] | cdktf.IResolvable;
   /**
   * ipaddress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#ipaddress ManagementZone#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#ipaddress ManagementZone#ipaddress}
   */
   readonly ipaddress?: ManagementZoneRulesConditionsIpaddress[] | cdktf.IResolvable;
   /**
   * ipaddress_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#ipaddress_comparison ManagementZone#ipaddress_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#ipaddress_comparison ManagementZone#ipaddress_comparison}
   */
   readonly ipaddressComparison?: ManagementZoneRulesConditionsIpaddressComparison[] | cdktf.IResolvable;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#key ManagementZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#key ManagementZone#key}
   */
   readonly key?: ManagementZoneRulesConditionsKey[] | cdktf.IResolvable;
   /**
   * mobile_platform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#mobile_platform ManagementZone#mobile_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#mobile_platform ManagementZone#mobile_platform}
   */
   readonly mobilePlatform?: ManagementZoneRulesConditionsMobilePlatform[] | cdktf.IResolvable;
   /**
   * mobile_platform_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#mobile_platform_comparison ManagementZone#mobile_platform_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#mobile_platform_comparison ManagementZone#mobile_platform_comparison}
   */
   readonly mobilePlatformComparison?: ManagementZoneRulesConditionsMobilePlatformComparison[] | cdktf.IResolvable;
   /**
   * os_arch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#os_arch ManagementZone#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#os_arch ManagementZone#os_arch}
   */
   readonly osArch?: ManagementZoneRulesConditionsOsArch[] | cdktf.IResolvable;
   /**
   * os_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#os_type ManagementZone#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#os_type ManagementZone#os_type}
   */
   readonly osType?: ManagementZoneRulesConditionsOsType[] | cdktf.IResolvable;
   /**
   * osarchitecture_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#osarchitecture_comparison ManagementZone#osarchitecture_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#osarchitecture_comparison ManagementZone#osarchitecture_comparison}
   */
   readonly osarchitectureComparison?: ManagementZoneRulesConditionsOsarchitectureComparison[] | cdktf.IResolvable;
   /**
   * ostype_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#ostype_comparison ManagementZone#ostype_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#ostype_comparison ManagementZone#ostype_comparison}
   */
   readonly ostypeComparison?: ManagementZoneRulesConditionsOstypeComparison[] | cdktf.IResolvable;
   /**
   * paas_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#paas_type ManagementZone#paas_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#paas_type ManagementZone#paas_type}
   */
   readonly paasType?: ManagementZoneRulesConditionsPaasType[] | cdktf.IResolvable;
   /**
   * paas_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#paas_type_comparison ManagementZone#paas_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#paas_type_comparison ManagementZone#paas_type_comparison}
   */
   readonly paasTypeComparison?: ManagementZoneRulesConditionsPaasTypeComparison[] | cdktf.IResolvable;
   /**
   * process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#process_metadata ManagementZone#process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#process_metadata ManagementZone#process_metadata}
   */
   readonly processMetadata?: ManagementZoneRulesConditionsProcessMetadata[] | cdktf.IResolvable;
   /**
   * process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#process_metadata_condition_key ManagementZone#process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#process_metadata_condition_key ManagementZone#process_metadata_condition_key}
   */
   readonly processMetadataConditionKey?: ManagementZoneRulesConditionsProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * service_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#service_topology ManagementZone#service_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#service_topology ManagementZone#service_topology}
   */
   readonly serviceTopology?: ManagementZoneRulesConditionsServiceTopology[] | cdktf.IResolvable;
   /**
   * service_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#service_topology_comparison ManagementZone#service_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#service_topology_comparison ManagementZone#service_topology_comparison}
   */
   readonly serviceTopologyComparison?: ManagementZoneRulesConditionsServiceTopologyComparison[] | cdktf.IResolvable;
   /**
   * service_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#service_type ManagementZone#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#service_type ManagementZone#service_type}
   */
   readonly serviceType?: ManagementZoneRulesConditionsServiceType[] | cdktf.IResolvable;
   /**
   * service_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#service_type_comparison ManagementZone#service_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#service_type_comparison ManagementZone#service_type_comparison}
   */
   readonly serviceTypeComparison?: ManagementZoneRulesConditionsServiceTypeComparison[] | cdktf.IResolvable;
   /**
   * simple_host_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#simple_host_tech_comparison ManagementZone#simple_host_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#simple_host_tech_comparison ManagementZone#simple_host_tech_comparison}
   */
   readonly simpleHostTechComparison?: ManagementZoneRulesConditionsSimpleHostTechComparison[] | cdktf.IResolvable;
   /**
   * simple_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#simple_tech_comparison ManagementZone#simple_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#simple_tech_comparison ManagementZone#simple_tech_comparison}
   */
   readonly simpleTechComparison?: ManagementZoneRulesConditionsSimpleTechComparison[] | cdktf.IResolvable;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#string ManagementZone#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#string ManagementZone#string}
   */
   readonly string?: ManagementZoneRulesConditionsString[] | cdktf.IResolvable;
   /**
   * string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#string_comparison ManagementZone#string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#string_comparison ManagementZone#string_comparison}
   */
   readonly stringComparison?: ManagementZoneRulesConditionsStringComparison[] | cdktf.IResolvable;
   /**
   * string_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#string_condition_key ManagementZone#string_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#string_condition_key ManagementZone#string_condition_key}
   */
   readonly stringConditionKey?: ManagementZoneRulesConditionsStringConditionKey[] | cdktf.IResolvable;
   /**
   * string_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#string_key ManagementZone#string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#string_key ManagementZone#string_key}
   */
   readonly stringKey?: ManagementZoneRulesConditionsStringKey[] | cdktf.IResolvable;
   /**
   * synthetic_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#synthetic_engine ManagementZone#synthetic_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#synthetic_engine ManagementZone#synthetic_engine}
   */
   readonly syntheticEngine?: ManagementZoneRulesConditionsSyntheticEngine[] | cdktf.IResolvable;
   /**
   * synthetic_engine_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#synthetic_engine_type_comparison ManagementZone#synthetic_engine_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#synthetic_engine_type_comparison ManagementZone#synthetic_engine_type_comparison}
   */
   readonly syntheticEngineTypeComparison?: ManagementZoneRulesConditionsSyntheticEngineTypeComparison[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#tag ManagementZone#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#tag ManagementZone#tag}
   */
   readonly tag?: ManagementZoneRulesConditionsTag[] | cdktf.IResolvable;
   /**
   * tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#tag_comparison ManagementZone#tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#tag_comparison ManagementZone#tag_comparison}
   */
   readonly tagComparison?: ManagementZoneRulesConditionsTagComparison[] | cdktf.IResolvable;
   /**
   * tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#tech ManagementZone#tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#tech ManagementZone#tech}
   */
   readonly tech?: ManagementZoneRulesConditionsTech[] | cdktf.IResolvable;
 }
@@ -20019,7 +20019,7 @@ export interface ManagementZoneRules {
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#enabled ManagementZone#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#enabled ManagementZone#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -20033,25 +20033,25 @@ export interface ManagementZoneRules {
   *    - `AZURE_TO_PG`: Apply to process groups connected to matching Azure entities
   *    - `AZURE_TO_SERVICE`: Apply to services provided by matching Azure entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#propagation_types ManagementZone#propagation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#propagation_types ManagementZone#propagation_types}
   */
   readonly propagationTypes?: string[];
   /**
   * The type of Dynatrace entities the management zone can be applied to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#type ManagementZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#type ManagementZone#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#unknowns ManagementZone#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#unknowns ManagementZone#unknowns}
   */
   readonly unknowns?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#conditions ManagementZone#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#conditions ManagementZone#conditions}
   */
   readonly conditions?: ManagementZoneRulesConditions[] | cdktf.IResolvable;
 }
@@ -20280,7 +20280,7 @@ export class ManagementZoneRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone dynatrace_management_zone}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone dynatrace_management_zone}
 */
 export class ManagementZone extends cdktf.TerraformResource {
 
@@ -20296,7 +20296,7 @@ export class ManagementZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementZone to import
-  * @param importFromId The id of the existing ManagementZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20308,7 +20308,7 @@ export class ManagementZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/management_zone dynatrace_management_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/management_zone dynatrace_management_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20319,8 +20319,8 @@ export class ManagementZone extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_management_zone',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

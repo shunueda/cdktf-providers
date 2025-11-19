@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApplicationDetectionRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * The Dynatrace entity ID of the application, for example APPLICATION-4A3B43
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#application_identifier ApplicationDetectionRule#application_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#application_identifier ApplicationDetectionRule#application_identifier}
   */
   readonly applicationIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#id ApplicationDetectionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#id ApplicationDetectionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ApplicationDetectionRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * The unique name of the Application detection rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#name ApplicationDetectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#name ApplicationDetectionRule#name}
   */
   readonly name?: string;
   /**
   * The order of the rule in the rules list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#order ApplicationDetectionRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#order ApplicationDetectionRule#order}
   */
   readonly order?: string;
   /**
   * filter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#filter_config ApplicationDetectionRule#filter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#filter_config ApplicationDetectionRule#filter_config}
   */
   readonly filterConfig: ApplicationDetectionRuleFilterConfig;
 }
@@ -43,19 +43,19 @@ export interface ApplicationDetectionRuleFilterConfig {
   /**
   * Where to look for the pattern value, possible values are `DOMAIN` or `URL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#application_match_target ApplicationDetectionRule#application_match_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#application_match_target ApplicationDetectionRule#application_match_target}
   */
   readonly applicationMatchTarget: string;
   /**
   * The operator used for matching the application detection rule, possible values are `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH`, `EQUALS`, `MATCHES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#application_match_type ApplicationDetectionRule#application_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#application_match_type ApplicationDetectionRule#application_match_type}
   */
   readonly applicationMatchType: string;
   /**
   * The value to look for with the application detection rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#pattern ApplicationDetectionRule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#pattern ApplicationDetectionRule#pattern}
   */
   readonly pattern: string;
 }
@@ -188,7 +188,7 @@ export class ApplicationDetectionRuleFilterConfigOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule dynatrace_application_detection_rule}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule dynatrace_application_detection_rule}
 */
 export class ApplicationDetectionRule extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class ApplicationDetectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationDetectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationDetectionRule to import
-  * @param importFromId The id of the existing ApplicationDetectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationDetectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationDetectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class ApplicationDetectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_detection_rule dynatrace_application_detection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_detection_rule dynatrace_application_detection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class ApplicationDetectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_application_detection_rule',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/brands
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/brands
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOktaBrandsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/brands#id DataOktaBrands#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/brands#id DataOktaBrands#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ export class DataOktaBrandsBrandsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/brands okta_brands}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/brands okta_brands}
 */
 export class DataOktaBrands extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataOktaBrands extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaBrands resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaBrands to import
-  * @param importFromId The id of the existing DataOktaBrands that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/brands#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaBrands that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/brands#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaBrands to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataOktaBrands extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/brands okta_brands} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/brands okta_brands} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataOktaBrands extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_brands',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

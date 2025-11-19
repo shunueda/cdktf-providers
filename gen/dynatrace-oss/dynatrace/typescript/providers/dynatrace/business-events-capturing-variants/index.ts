@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BusinessEventsCapturingVariantsConfig extends cdktf.TerraformMe
   /**
   * Possible Values: `CONTAINS`, `ENDS_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#content_type_matcher BusinessEventsCapturingVariants#content_type_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#content_type_matcher BusinessEventsCapturingVariants#content_type_matcher}
   */
   readonly contentTypeMatcher: string;
   /**
   * Content-type match value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#content_type_value BusinessEventsCapturingVariants#content_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#content_type_value BusinessEventsCapturingVariants#content_type_value}
   */
   readonly contentTypeValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#id BusinessEventsCapturingVariants#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#id BusinessEventsCapturingVariants#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface BusinessEventsCapturingVariantsConfig extends cdktf.TerraformMe
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#insert_after BusinessEventsCapturingVariants#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#insert_after BusinessEventsCapturingVariants#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Possible Values: `JSON`, `Raw`, `Text`, `URLencoded`, `XML`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#parser BusinessEventsCapturingVariants#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#parser BusinessEventsCapturingVariants#parser}
   */
   readonly parser: string;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#scope BusinessEventsCapturingVariants#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#scope BusinessEventsCapturingVariants#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants dynatrace_business_events_capturing_variants}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants dynatrace_business_events_capturing_variants}
 */
 export class BusinessEventsCapturingVariants extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class BusinessEventsCapturingVariants extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessEventsCapturingVariants resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessEventsCapturingVariants to import
-  * @param importFromId The id of the existing BusinessEventsCapturingVariants that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessEventsCapturingVariants that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessEventsCapturingVariants to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class BusinessEventsCapturingVariants extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/business_events_capturing_variants dynatrace_business_events_capturing_variants} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_capturing_variants dynatrace_business_events_capturing_variants} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class BusinessEventsCapturingVariants extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_business_events_capturing_variants',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

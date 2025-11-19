@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DavisAnomalyDetectorsConfig extends cdktf.TerraformMetaArgument
   /**
   * The description of the anomaly detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#description DavisAnomalyDetectors#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#description DavisAnomalyDetectors#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#enabled DavisAnomalyDetectors#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#enabled DavisAnomalyDetectors#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#id DavisAnomalyDetectors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#id DavisAnomalyDetectors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DavisAnomalyDetectorsConfig extends cdktf.TerraformMetaArgument
   /**
   * Source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#source DavisAnomalyDetectors#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#source DavisAnomalyDetectors#source}
   */
   readonly source: string;
   /**
   * The title of the anomaly detector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#title DavisAnomalyDetectors#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#title DavisAnomalyDetectors#title}
   */
   readonly title: string;
   /**
   * analyzer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#analyzer DavisAnomalyDetectors#analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#analyzer DavisAnomalyDetectors#analyzer}
   */
   readonly analyzer: DavisAnomalyDetectorsAnalyzer;
   /**
   * event_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#event_template DavisAnomalyDetectors#event_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#event_template DavisAnomalyDetectors#event_template}
   */
   readonly eventTemplate: DavisAnomalyDetectorsEventTemplate;
   /**
   * execution_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#execution_settings DavisAnomalyDetectors#execution_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#execution_settings DavisAnomalyDetectors#execution_settings}
   */
   readonly executionSettings: DavisAnomalyDetectorsExecutionSettings;
 }
@@ -61,13 +61,13 @@ export interface DavisAnomalyDetectorsAnalyzerInputAnalyzerInputField {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#key DavisAnomalyDetectors#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#key DavisAnomalyDetectors#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#value DavisAnomalyDetectors#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#value DavisAnomalyDetectors#value}
   */
   readonly value: string;
 }
@@ -208,7 +208,7 @@ export interface DavisAnomalyDetectorsAnalyzerInput {
   /**
   * analyzer_input_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#analyzer_input_field DavisAnomalyDetectors#analyzer_input_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#analyzer_input_field DavisAnomalyDetectors#analyzer_input_field}
   */
   readonly analyzerInputField: DavisAnomalyDetectorsAnalyzerInputAnalyzerInputField[] | cdktf.IResolvable;
 }
@@ -291,13 +291,13 @@ export interface DavisAnomalyDetectorsAnalyzer {
   /**
   * Fully qualified name of the analyzer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#name DavisAnomalyDetectors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#name DavisAnomalyDetectors#name}
   */
   readonly name: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#input DavisAnomalyDetectors#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#input DavisAnomalyDetectors#input}
   */
   readonly input?: DavisAnomalyDetectorsAnalyzerInput;
 }
@@ -409,13 +409,13 @@ export interface DavisAnomalyDetectorsEventTemplatePropertiesProperty {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#key DavisAnomalyDetectors#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#key DavisAnomalyDetectors#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#value DavisAnomalyDetectors#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#value DavisAnomalyDetectors#value}
   */
   readonly value: string;
 }
@@ -556,7 +556,7 @@ export interface DavisAnomalyDetectorsEventTemplateProperties {
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#property DavisAnomalyDetectors#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#property DavisAnomalyDetectors#property}
   */
   readonly property: DavisAnomalyDetectorsEventTemplatePropertiesProperty[] | cdktf.IResolvable;
 }
@@ -639,7 +639,7 @@ export interface DavisAnomalyDetectorsEventTemplate {
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#properties DavisAnomalyDetectors#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#properties DavisAnomalyDetectors#properties}
   */
   readonly properties?: DavisAnomalyDetectorsEventTemplateProperties;
 }
@@ -725,13 +725,13 @@ export interface DavisAnomalyDetectorsExecutionSettings {
   /**
   * UUID of a service user. Queries will be executed on behalf of the service user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#actor DavisAnomalyDetectors#actor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#actor DavisAnomalyDetectors#actor}
   */
   readonly actor?: string;
   /**
   * Minute offset of sliding evaluation window for metrics with latency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#query_offset DavisAnomalyDetectors#query_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#query_offset DavisAnomalyDetectors#query_offset}
   */
   readonly queryOffset?: number;
 }
@@ -844,7 +844,7 @@ export class DavisAnomalyDetectorsExecutionSettingsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors dynatrace_davis_anomaly_detectors}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors dynatrace_davis_anomaly_detectors}
 */
 export class DavisAnomalyDetectors extends cdktf.TerraformResource {
 
@@ -860,7 +860,7 @@ export class DavisAnomalyDetectors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DavisAnomalyDetectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DavisAnomalyDetectors to import
-  * @param importFromId The id of the existing DavisAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DavisAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DavisAnomalyDetectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class DavisAnomalyDetectors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_anomaly_detectors dynatrace_davis_anomaly_detectors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_anomaly_detectors dynatrace_davis_anomaly_detectors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,8 +883,8 @@ export class DavisAnomalyDetectors extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_davis_anomaly_detectors',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

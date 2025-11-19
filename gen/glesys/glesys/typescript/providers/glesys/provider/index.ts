@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GlesysProviderConfig {
   /**
   * The base URL to use for the Glesys API requests. (Defaults to the value of the `GLESYS_API_URL` environment variable or `https://api.glesys.com` if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs#api_endpoint GlesysProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs#api_endpoint GlesysProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * User token for the Glesys API. Alternatively, this can be set using the `GLESYS_TOKEN` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs#token GlesysProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs#token GlesysProvider#token}
   */
   readonly token: string;
   /**
   * UserId for the Glesys API. Alternatively, this can be set using the `GLESYS_USERID` environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs#userid GlesysProvider#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs#userid GlesysProvider#userid}
   */
   readonly userid: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs#alias GlesysProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs#alias GlesysProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs glesys}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs glesys}
 */
 export class GlesysProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class GlesysProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GlesysProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlesysProvider to import
-  * @param importFromId The id of the existing GlesysProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlesysProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlesysProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class GlesysProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs glesys} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs glesys} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class GlesysProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'glesys',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       terraformProviderSource: 'glesys/glesys'
     });

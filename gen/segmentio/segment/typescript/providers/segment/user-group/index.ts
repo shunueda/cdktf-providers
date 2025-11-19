@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface UserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of emails that are members of this user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#members UserGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#members UserGroup#members}
   */
   readonly members: string[];
   /**
   * A set of users with a set of shared permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#name UserGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#name UserGroup#name}
   */
   readonly name: string;
   /**
   * The permissions associated with this user. This field is currently limited to 200 items and must not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#permissions UserGroup#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#permissions UserGroup#permissions}
   */
   readonly permissions: UserGroupPermissions[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface UserGroupPermissionsResourcesLabels {
   /**
   * The key that represents the name of this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#key UserGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#key UserGroup#key}
   */
   readonly key: string;
   /**
   * The value associated with the key of this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#value UserGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#value UserGroup#value}
   */
   readonly value: string;
 }
@@ -177,7 +177,7 @@ export interface UserGroupPermissionsResources {
   /**
   * The id of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#id UserGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#id UserGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -186,13 +186,13 @@ export interface UserGroupPermissionsResources {
   /**
   * The labels that further refine access to this resource. Labels are exclusive to Workspace-level permissions. This field is currently limited to 200 items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#labels UserGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#labels UserGroup#labels}
   */
   readonly labels: UserGroupPermissionsResourcesLabels[] | cdktf.IResolvable;
   /**
   * The type for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#type UserGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#type UserGroup#type}
   */
   readonly type: string;
 }
@@ -359,13 +359,13 @@ export interface UserGroupPermissions {
   /**
   * The resources associated with this permission. This field is currently limited to 200 items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#resources UserGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#resources UserGroup#resources}
   */
   readonly resources?: UserGroupPermissionsResources[] | cdktf.IResolvable;
   /**
   * The id of the role associated with this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#role_id UserGroup#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#role_id UserGroup#role_id}
   */
   readonly roleId: string;
 }
@@ -507,7 +507,7 @@ export class UserGroupPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group segment_user_group}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group segment_user_group}
 */
 export class UserGroup extends cdktf.TerraformResource {
 
@@ -523,7 +523,7 @@ export class UserGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroup to import
-  * @param importFromId The id of the existing UserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -535,7 +535,7 @@ export class UserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/user_group segment_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/user_group segment_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -546,8 +546,8 @@ export class UserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'segment_user_group',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

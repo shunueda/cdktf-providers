@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable to receive data from the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#enabled Source#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#enabled Source#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * A list of labels applied to the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#labels Source#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#labels Source#labels}
   */
   readonly labels?: SourceLabels[] | cdktf.IResolvable;
   /**
   * The metadata for the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#metadata Source#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#metadata Source#metadata}
   */
   readonly metadata: SourceMetadata;
   /**
   * The name of the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#name Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#name Source#name}
   */
   readonly name?: string;
   /**
   * The settings associated with the Source. Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#settings Source#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#settings Source#settings}
   */
   readonly settings: string;
   /**
   * The slug used to identify the Source in the Segment app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#slug Source#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#slug Source#slug}
   */
   readonly slug: string;
 }
@@ -48,13 +48,13 @@ export interface SourceLabels {
   /**
   * The key that represents the name of this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#key Source#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#key Source#key}
   */
   readonly key: string;
   /**
   * The value associated with the key of this label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#value Source#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#value Source#value}
   */
   readonly value: string;
 }
@@ -359,7 +359,7 @@ export interface SourceMetadata {
   /**
   * The id for this Source metadata in the Segment catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#id Source#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#id Source#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -490,7 +490,7 @@ export class SourceMetadataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source segment_source}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source segment_source}
 */
 export class Source extends cdktf.TerraformResource {
 
@@ -506,7 +506,7 @@ export class Source extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Source resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Source to import
-  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Source to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -518,7 +518,7 @@ export class Source extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source segment_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source segment_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -529,8 +529,8 @@ export class Source extends cdktf.TerraformResource {
       terraformResourceType: 'segment_source',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

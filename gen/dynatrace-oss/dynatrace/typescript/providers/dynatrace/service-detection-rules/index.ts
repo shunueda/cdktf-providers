@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceDetectionRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#enabled ServiceDetectionRules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#enabled ServiceDetectionRules#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#id ServiceDetectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#id ServiceDetectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceDetectionRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#insert_after ServiceDetectionRules#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#insert_after ServiceDetectionRules#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#scope ServiceDetectionRules#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#scope ServiceDetectionRules#scope}
   */
   readonly scope?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#rule ServiceDetectionRules#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#rule ServiceDetectionRules#rule}
   */
   readonly rule: ServiceDetectionRulesRule;
 }
@@ -45,7 +45,7 @@ export interface ServiceDetectionRulesRule {
   * 
   * All attribute values contribute to the final service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#additional_required_attributes ServiceDetectionRules#additional_required_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#additional_required_attributes ServiceDetectionRules#additional_required_attributes}
   */
   readonly additionalRequiredAttributes?: string[];
   /**
@@ -53,19 +53,19 @@ export interface ServiceDetectionRulesRule {
   * 
   * If empty, the condition will always match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#condition ServiceDetectionRules#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#condition ServiceDetectionRules#condition}
   */
   readonly condition?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#description ServiceDetectionRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#description ServiceDetectionRules#description}
   */
   readonly description?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#rule_name ServiceDetectionRules#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#rule_name ServiceDetectionRules#rule_name}
   */
   readonly ruleName: string;
   /**
@@ -73,7 +73,7 @@ export interface ServiceDetectionRulesRule {
   * 
   * All resolved attribute values contribute to the final service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#service_name_template ServiceDetectionRules#service_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#service_name_template ServiceDetectionRules#service_name_template}
   */
   readonly serviceNameTemplate: string;
 }
@@ -267,7 +267,7 @@ export class ServiceDetectionRulesRuleOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules dynatrace_service_detection_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules dynatrace_service_detection_rules}
 */
 export class ServiceDetectionRules extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class ServiceDetectionRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceDetectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDetectionRules to import
-  * @param importFromId The id of the existing ServiceDetectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDetectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDetectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class ServiceDetectionRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_detection_rules dynatrace_service_detection_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_detection_rules dynatrace_service_detection_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class ServiceDetectionRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_detection_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

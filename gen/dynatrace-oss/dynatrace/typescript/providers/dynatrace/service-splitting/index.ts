@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceSplittingConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#enabled ServiceSplitting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#enabled ServiceSplitting#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#id ServiceSplitting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#id ServiceSplitting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceSplittingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#insert_after ServiceSplitting#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#insert_after ServiceSplitting#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#scope ServiceSplitting#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#scope ServiceSplitting#scope}
   */
   readonly scope?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#rule ServiceSplitting#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#rule ServiceSplitting#rule}
   */
   readonly rule: ServiceSplittingRule;
 }
@@ -43,7 +43,7 @@ export interface ServiceSplittingRuleServiceSplittingAttributesServiceSplittingA
   /**
   * Attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#key ServiceSplitting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#key ServiceSplitting#key}
   */
   readonly key: string;
 }
@@ -158,7 +158,7 @@ export interface ServiceSplittingRuleServiceSplittingAttributes {
   /**
   * service_splitting_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#service_splitting_attribute ServiceSplitting#service_splitting_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#service_splitting_attribute ServiceSplitting#service_splitting_attribute}
   */
   readonly serviceSplittingAttribute: ServiceSplittingRuleServiceSplittingAttributesServiceSplittingAttribute[] | cdktf.IResolvable;
 }
@@ -243,25 +243,25 @@ export interface ServiceSplittingRule {
   * 
   * If empty, the condition will always match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#condition ServiceSplitting#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#condition ServiceSplitting#condition}
   */
   readonly condition?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#description ServiceSplitting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#description ServiceSplitting#description}
   */
   readonly description?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#rule_name ServiceSplitting#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#rule_name ServiceSplitting#rule_name}
   */
   readonly ruleName: string;
   /**
   * service_splitting_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#service_splitting_attributes ServiceSplitting#service_splitting_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#service_splitting_attributes ServiceSplitting#service_splitting_attributes}
   */
   readonly serviceSplittingAttributes?: ServiceSplittingRuleServiceSplittingAttributes;
 }
@@ -429,7 +429,7 @@ export class ServiceSplittingRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting dynatrace_service_splitting}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting dynatrace_service_splitting}
 */
 export class ServiceSplitting extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class ServiceSplitting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceSplitting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceSplitting to import
-  * @param importFromId The id of the existing ServiceSplitting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceSplitting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceSplitting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class ServiceSplitting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_splitting dynatrace_service_splitting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_splitting dynatrace_service_splitting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class ServiceSplitting extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_splitting',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

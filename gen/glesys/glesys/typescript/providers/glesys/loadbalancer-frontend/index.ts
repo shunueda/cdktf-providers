@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LoadbalancerFrontendConfig extends cdktf.TerraformMetaArguments
   /**
   * LoadBalancer Backend name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#backend LoadbalancerFrontend#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#backend LoadbalancerFrontend#backend}
   */
   readonly backend: string;
   /**
   * Client connection timeout. `milliseconds`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#clienttimeout LoadbalancerFrontend#clienttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#clienttimeout LoadbalancerFrontend#clienttimeout}
   */
   readonly clienttimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#id LoadbalancerFrontend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#id LoadbalancerFrontend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface LoadbalancerFrontendConfig extends cdktf.TerraformMetaArguments
   /**
   * LoadBalancer to associate the Frontend to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#loadbalancerid LoadbalancerFrontend#loadbalancerid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#loadbalancerid LoadbalancerFrontend#loadbalancerid}
   */
   readonly loadbalancerid: string;
   /**
   * Maximum number of connections allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#maxconnections LoadbalancerFrontend#maxconnections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#maxconnections LoadbalancerFrontend#maxconnections}
   */
   readonly maxconnections?: number;
   /**
   * Frontend name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#name LoadbalancerFrontend#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#name LoadbalancerFrontend#name}
   */
   readonly name: string;
   /**
   * Listen port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#port LoadbalancerFrontend#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#port LoadbalancerFrontend#port}
   */
   readonly port: number;
   /**
   * Certificate bundle to use for terminating TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#sslcertificate LoadbalancerFrontend#sslcertificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#sslcertificate LoadbalancerFrontend#sslcertificate}
   */
   readonly sslcertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend glesys_loadbalancer_frontend}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend glesys_loadbalancer_frontend}
 */
 export class LoadbalancerFrontend extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class LoadbalancerFrontend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadbalancerFrontend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadbalancerFrontend to import
-  * @param importFromId The id of the existing LoadbalancerFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadbalancerFrontend that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadbalancerFrontend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class LoadbalancerFrontend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/loadbalancer_frontend glesys_loadbalancer_frontend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/loadbalancer_frontend glesys_loadbalancer_frontend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class LoadbalancerFrontend extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_loadbalancer_frontend',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

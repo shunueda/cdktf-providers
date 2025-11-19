@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataConfluentAccessPointConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the Access Point, for example, `ap-abc123`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point#id DataConfluentAccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point#id DataConfluentAccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataConfluentAccessPointConfig extends cdktf.TerraformMetaArgum
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point#environment DataConfluentAccessPoint#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point#environment DataConfluentAccessPoint#environment}
   */
   readonly environment: DataConfluentAccessPointEnvironment;
   /**
   * gcp_egress_private_service_connect_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point#gcp_egress_private_service_connect_endpoint DataConfluentAccessPoint#gcp_egress_private_service_connect_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point#gcp_egress_private_service_connect_endpoint DataConfluentAccessPoint#gcp_egress_private_service_connect_endpoint}
   */
   readonly gcpEgressPrivateServiceConnectEndpoint?: DataConfluentAccessPointGcpEgressPrivateServiceConnectEndpoint[] | cdktf.IResolvable;
 }
@@ -376,7 +376,7 @@ export class DataConfluentAccessPointGatewayList extends cdktf.ComplexList {
 }
 export interface DataConfluentAccessPointEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point#id DataConfluentAccessPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point#id DataConfluentAccessPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -561,7 +561,7 @@ export class DataConfluentAccessPointGcpEgressPrivateServiceConnectEndpointList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point confluent_access_point}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point confluent_access_point}
 */
 export class DataConfluentAccessPoint extends cdktf.TerraformDataSource {
 
@@ -577,7 +577,7 @@ export class DataConfluentAccessPoint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentAccessPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentAccessPoint to import
-  * @param importFromId The id of the existing DataConfluentAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -589,7 +589,7 @@ export class DataConfluentAccessPoint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/access_point confluent_access_point} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/access_point confluent_access_point} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,8 +600,8 @@ export class DataConfluentAccessPoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_access_point',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

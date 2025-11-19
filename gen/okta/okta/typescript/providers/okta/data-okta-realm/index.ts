@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaRealmConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the Okta Realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm#id DataOktaRealm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm#id DataOktaRealm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataOktaRealmConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Okta Realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm#name DataOktaRealm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm#name DataOktaRealm#name}
   */
   readonly name?: string;
   /**
   * The realm type. Valid values: `PARTNER` and `DEFAULT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm#realm_type DataOktaRealm#realm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm#realm_type DataOktaRealm#realm_type}
   */
   readonly realmType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm okta_realm}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm okta_realm}
 */
 export class DataOktaRealm extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataOktaRealm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaRealm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaRealm to import
-  * @param importFromId The id of the existing DataOktaRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaRealm that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaRealm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataOktaRealm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/realm okta_realm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/realm okta_realm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataOktaRealm extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_realm',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

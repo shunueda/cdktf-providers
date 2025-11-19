@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SpanContextPropagationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether to create an entry point or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#action SpanContextPropagation#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#action SpanContextPropagation#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#id SpanContextPropagation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#id SpanContextPropagation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SpanContextPropagationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#insert_after SpanContextPropagation#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#insert_after SpanContextPropagation#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#name SpanContextPropagation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#name SpanContextPropagation#name}
   */
   readonly name: string;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#matches SpanContextPropagation#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#matches SpanContextPropagation#matches}
   */
   readonly matches: SpanContextPropagationMatches;
 }
@@ -43,31 +43,31 @@ export interface SpanContextPropagationMatchesMatch {
   /**
   * Whether to match strings case sensitively or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#case_sensitive SpanContextPropagation#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#case_sensitive SpanContextPropagation#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Possible values are `EQUALS`, `CONTAINS`, `STARTS_WITH`, `ENDS_WITH`, `DOES_NOT_EQUAL`, `DOES_NOT_CONTAIN`, `DOES_NOT_START_WITH` and `DOES_NOT_END_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#comparison SpanContextPropagation#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#comparison SpanContextPropagation#comparison}
   */
   readonly comparison: string;
   /**
   * The name of the attribute if `source` is `ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#key SpanContextPropagation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#key SpanContextPropagation#key}
   */
   readonly key?: string;
   /**
   * What to match against. Possible values are `SPAN_NAME`, `SPAN_KIND`, `ATTRIBUTE`, `INSTRUMENTATION_LIBRARY_NAME` and `INSTRUMENTATION_LIBRARY_VERSION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#source SpanContextPropagation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#source SpanContextPropagation#source}
   */
   readonly source: string;
   /**
   * The value to compare against. When `source` is `SPAN_KIND` the only allowed values are `INTERNAL`, `SERVER`, `CLIENT`, `PRODUCER` and `CONSUMER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#value SpanContextPropagation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#value SpanContextPropagation#value}
   */
   readonly value?: string;
 }
@@ -295,7 +295,7 @@ export interface SpanContextPropagationMatches {
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#match SpanContextPropagation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#match SpanContextPropagation#match}
   */
   readonly match: SpanContextPropagationMatchesMatch[] | cdktf.IResolvable;
 }
@@ -376,7 +376,7 @@ export class SpanContextPropagationMatchesOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation dynatrace_span_context_propagation}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation dynatrace_span_context_propagation}
 */
 export class SpanContextPropagation extends cdktf.TerraformResource {
 
@@ -392,7 +392,7 @@ export class SpanContextPropagation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpanContextPropagation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpanContextPropagation to import
-  * @param importFromId The id of the existing SpanContextPropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpanContextPropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpanContextPropagation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class SpanContextPropagation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/span_context_propagation dynatrace_span_context_propagation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/span_context_propagation dynatrace_span_context_propagation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class SpanContextPropagation extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_span_context_propagation',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

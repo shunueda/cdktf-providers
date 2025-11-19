@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule
+// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCastaiHibernationScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#id DataCastaiHibernationSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#id DataCastaiHibernationSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataCastaiHibernationScheduleConfig extends cdktf.TerraformMeta
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#name DataCastaiHibernationSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#name DataCastaiHibernationSchedule#name}
   */
   readonly name: string;
   /**
   * ID of the organization. If not provided, then will attempt to infer it using CAST AI API client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#organization_id DataCastaiHibernationSchedule#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#organization_id DataCastaiHibernationSchedule#organization_id}
   */
   readonly organizationId?: string;
   /**
   * cluster_assignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#cluster_assignments DataCastaiHibernationSchedule#cluster_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#cluster_assignments DataCastaiHibernationSchedule#cluster_assignments}
   */
   readonly clusterAssignments?: DataCastaiHibernationScheduleClusterAssignments[] | cdktf.IResolvable;
 }
@@ -1129,7 +1129,7 @@ export interface DataCastaiHibernationScheduleClusterAssignmentsAssignment {
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#cluster_id DataCastaiHibernationSchedule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#cluster_id DataCastaiHibernationSchedule#cluster_id}
   */
   readonly clusterId: string;
 }
@@ -1244,7 +1244,7 @@ export interface DataCastaiHibernationScheduleClusterAssignments {
   /**
   * assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#assignment DataCastaiHibernationSchedule#assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#assignment DataCastaiHibernationSchedule#assignment}
   */
   readonly assignment?: DataCastaiHibernationScheduleClusterAssignmentsAssignment[] | cdktf.IResolvable;
 }
@@ -1360,7 +1360,7 @@ export class DataCastaiHibernationScheduleClusterAssignmentsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule castai_hibernation_schedule}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule castai_hibernation_schedule}
 */
 export class DataCastaiHibernationSchedule extends cdktf.TerraformDataSource {
 
@@ -1376,7 +1376,7 @@ export class DataCastaiHibernationSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCastaiHibernationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCastaiHibernationSchedule to import
-  * @param importFromId The id of the existing DataCastaiHibernationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCastaiHibernationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCastaiHibernationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1388,7 +1388,7 @@ export class DataCastaiHibernationSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/hibernation_schedule castai_hibernation_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/hibernation_schedule castai_hibernation_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1399,8 +1399,8 @@ export class DataCastaiHibernationSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'castai_hibernation_schedule',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.1.0',
-        providerVersionConstraint: '8.1.0'
+        providerVersion: '8.2.1',
+        providerVersionConstraint: '8.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UserSessionMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines the fields that are used as dimensions. A dimension is a collection of reference information about a metric data point that is of interest to your business. Dimensions are parameters like "browserFamily", "userType", "country". For example, using "userType" as a dimension allows you to split chart data based on user types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#dimensions UserSessionMetrics#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#dimensions UserSessionMetrics#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#enabled UserSessionMetrics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#enabled UserSessionMetrics#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#id UserSessionMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#id UserSessionMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface UserSessionMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#metric_key UserSessionMetrics#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#metric_key UserSessionMetrics#metric_key}
   */
   readonly metricKey: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#filters UserSessionMetrics#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#filters UserSessionMetrics#filters}
   */
   readonly filters?: UserSessionMetricsFilters;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#value UserSessionMetrics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#value UserSessionMetrics#value}
   */
   readonly value: UserSessionMetricsValue;
 }
@@ -49,25 +49,25 @@ export interface UserSessionMetricsFiltersFilter {
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#field_name UserSessionMetrics#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#field_name UserSessionMetrics#field_name}
   */
   readonly fieldName: string;
   /**
   * Possible Values: `EQUALS`, `GREATER_THAN`, `GREATER_THAN_OR_EQUAL_TO`, `IN`, `IS_NOT_NULL`, `IS_NULL`, `LESS_THAN`, `LESS_THAN_OR_EQUAL_TO`, `LIKE`, `NOT_EQUAL`, `NOT_LIKE`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#operator UserSessionMetrics#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#operator UserSessionMetrics#operator}
   */
   readonly operator: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#value UserSessionMetrics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#value UserSessionMetrics#value}
   */
   readonly value?: string;
   /**
   * Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#value_in UserSessionMetrics#value_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#value_in UserSessionMetrics#value_in}
   */
   readonly valueIn?: string[];
 }
@@ -266,7 +266,7 @@ export interface UserSessionMetricsFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#filter UserSessionMetrics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#filter UserSessionMetrics#filter}
   */
   readonly filter: UserSessionMetricsFiltersFilter[] | cdktf.IResolvable;
 }
@@ -349,13 +349,13 @@ export interface UserSessionMetricsValue {
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#field_name UserSessionMetrics#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#field_name UserSessionMetrics#field_name}
   */
   readonly fieldName?: string;
   /**
   * Possible Values: `COUNTER`, `FIELD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#type UserSessionMetrics#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#type UserSessionMetrics#type}
   */
   readonly type: string;
 }
@@ -465,7 +465,7 @@ export class UserSessionMetricsValueOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics dynatrace_user_session_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics dynatrace_user_session_metrics}
 */
 export class UserSessionMetrics extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class UserSessionMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserSessionMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserSessionMetrics to import
-  * @param importFromId The id of the existing UserSessionMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserSessionMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserSessionMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class UserSessionMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_session_metrics dynatrace_user_session_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_session_metrics dynatrace_user_session_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class UserSessionMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_user_session_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OpenpipelineV2UsersessionsIngestsourcesConfig extends cdktf.Ter
   /**
   * Default Bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_bucket OpenpipelineV2UsersessionsIngestsources#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_bucket OpenpipelineV2UsersessionsIngestsources#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * Endpoint display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#display_name OpenpipelineV2UsersessionsIngestsources#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#display_name OpenpipelineV2UsersessionsIngestsources#display_name}
   */
   readonly displayName: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#enabled OpenpipelineV2UsersessionsIngestsources#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#enabled OpenpipelineV2UsersessionsIngestsources#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#id OpenpipelineV2UsersessionsIngestsources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#id OpenpipelineV2UsersessionsIngestsources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,31 @@ export interface OpenpipelineV2UsersessionsIngestsourcesConfig extends cdktf.Ter
   /**
   * Endpoint segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#path_segment OpenpipelineV2UsersessionsIngestsources#path_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#path_segment OpenpipelineV2UsersessionsIngestsources#path_segment}
   */
-  readonly pathSegment: string;
+  readonly pathSegment?: string;
+  /**
+  * Source
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source OpenpipelineV2UsersessionsIngestsources#source}
+  */
+  readonly source?: string;
+  /**
+  * Source Type. Possible Values: `extension`, `http`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_type OpenpipelineV2UsersessionsIngestsources#source_type}
+  */
+  readonly sourceType?: string;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#processing OpenpipelineV2UsersessionsIngestsources#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#processing OpenpipelineV2UsersessionsIngestsources#processing}
   */
-  readonly processing: OpenpipelineV2UsersessionsIngestsourcesProcessing;
+  readonly processing?: OpenpipelineV2UsersessionsIngestsourcesProcessing;
   /**
   * static_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#static_routing OpenpipelineV2UsersessionsIngestsources#static_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#static_routing OpenpipelineV2UsersessionsIngestsources#static_routing}
   */
   readonly staticRouting?: OpenpipelineV2UsersessionsIngestsourcesStaticRouting;
 }
@@ -55,19 +67,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -240,7 +252,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -323,19 +335,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`.
+  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
   */
   readonly include?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtractionInclude;
 }
@@ -476,13 +488,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#forwarder_config_id OpenpipelineV2UsersessionsIngestsources#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#forwarder_config_id OpenpipelineV2UsersessionsIngestsources#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtraction;
 }
@@ -591,13 +603,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -709,25 +721,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`.
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventEventProviderField;
 }
@@ -897,13 +909,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1015,25 +1027,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`.
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventEventTypeField;
 }
@@ -1203,19 +1215,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1388,7 +1400,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -1471,19 +1483,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`.
+  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
   */
   readonly include?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtractionInclude;
 }
@@ -1624,19 +1636,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#event_provider OpenpipelineV2UsersessionsIngestsources#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_provider OpenpipelineV2UsersessionsIngestsources#event_provider}
   */
   readonly eventProvider: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#event_type OpenpipelineV2UsersessionsIngestsources#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_type OpenpipelineV2UsersessionsIngestsources#event_type}
   */
   readonly eventType?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtraction;
 }
@@ -1774,7 +1786,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#bucket_name OpenpipelineV2UsersessionsIngestsources#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#bucket_name OpenpipelineV2UsersessionsIngestsources#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -1857,13 +1869,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1975,25 +1987,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`.
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCostAllocationValueField;
 }
@@ -2163,7 +2175,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
   */
   readonly value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCostAllocationValue;
 }
@@ -2246,19 +2258,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -2431,7 +2443,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -2514,13 +2526,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCounterMetricDimensions;
 }
@@ -2632,13 +2644,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#key OpenpipelineV2UsersessionsIngestsources#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#key OpenpipelineV2UsersessionsIngestsources#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
   */
   readonly value: string;
 }
@@ -2779,7 +2791,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#property OpenpipelineV2UsersessionsIngestsources#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#property OpenpipelineV2UsersessionsIngestsources#property}
   */
   readonly property: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorDavisPropertiesProperty[] | cdktf.IResolvable;
 }
@@ -2862,7 +2874,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#properties OpenpipelineV2UsersessionsIngestsources#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#properties OpenpipelineV2UsersessionsIngestsources#properties}
   */
   readonly properties: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorDavisProperties;
 }
@@ -2945,7 +2957,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * DQL script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#script OpenpipelineV2UsersessionsIngestsources#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#script OpenpipelineV2UsersessionsIngestsources#script}
   */
   readonly script: string;
 }
@@ -3028,13 +3040,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#name OpenpipelineV2UsersessionsIngestsources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#name OpenpipelineV2UsersessionsIngestsources#name}
   */
   readonly name: string;
   /**
   * Field's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
   */
   readonly value: string;
 }
@@ -3175,7 +3187,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsAddFieldsField[] | cdktf.IResolvable;
 }
@@ -3258,7 +3270,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
   */
   readonly fields: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsAddFields;
 }
@@ -3341,7 +3353,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields to remove
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
   */
   readonly fields: string[];
 }
@@ -3424,13 +3436,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#from_name OpenpipelineV2UsersessionsIngestsources#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#from_name OpenpipelineV2UsersessionsIngestsources#from_name}
   */
   readonly fromName: string;
   /**
   * New field's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#to_name OpenpipelineV2UsersessionsIngestsources#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#to_name OpenpipelineV2UsersessionsIngestsources#to_name}
   */
   readonly toName: string;
 }
@@ -3571,7 +3583,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsRenameFieldsField[] | cdktf.IResolvable;
 }
@@ -3654,7 +3666,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields OpenpipelineV2UsersessionsIngestsources#fields}
   */
   readonly fields: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsRenameFields;
 }
@@ -3737,19 +3749,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -3922,7 +3934,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -4003,21 +4015,27 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
 }
 export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetric {
   /**
+  * Default value with metric value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetricDimensions;
 }
@@ -4028,6 +4046,7 @@ export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProce
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
     field: cdktf.stringToTerraform(struct!.field),
     metric_key: cdktf.stringToTerraform(struct!.metricKey),
     dimensions: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetricDimensionsToTerraform(struct!.dimensions),
@@ -4041,6 +4060,12 @@ export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProce
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     field: {
       value: cdktf.stringToHclTerraform(struct!.field),
       isBlock: false,
@@ -4079,6 +4104,10 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
   public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetric | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
     if (this._field !== undefined) {
       hasAnyValues = true;
       internalValueResult.field = this._field;
@@ -4097,16 +4126,34 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
   public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetric | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._defaultValue = undefined;
       this._field = undefined;
       this._metricKey = undefined;
       this._dimensions.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
       this._field = value.field;
       this._metricKey = value.metricKey;
       this._dimensions.internalValue = value.dimensions;
     }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
   }
 
   // field - computed: false, optional: false, required: true
@@ -4155,13 +4202,13 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -4273,25 +4320,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`.
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorProductAllocationValueField;
 }
@@ -4461,7 +4508,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
   */
   readonly value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorProductAllocationValue;
 }
@@ -4544,19 +4591,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -4729,7 +4776,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -4810,27 +4857,27 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
 }
 export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetric {
   /**
-  * Possible Values: `disabled`, `enabled`.
+  * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#aggregation OpenpipelineV2UsersessionsIngestsources#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#aggregation OpenpipelineV2UsersessionsIngestsources#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
-  * Possible Values: `disabled`, `enabled`.
+  * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling OpenpipelineV2UsersessionsIngestsources#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling OpenpipelineV2UsersessionsIngestsources#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricDimensions;
 }
@@ -4996,23 +5043,581 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
     return this._dimensions.internalValue;
   }
 }
-export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensionsDimension {
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension {
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    destination_field_name: cdktf.stringToTerraform(struct!.destinationFieldName),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    destination_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.destinationFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._destinationFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationFieldName = this._destinationFieldName;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._defaultValue = undefined;
+      this._destinationFieldName = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._defaultValue = value.defaultValue;
+      this._destinationFieldName = value.destinationFieldName;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // destination_field_name - computed: false, optional: true, required: false
+  private _destinationFieldName?: string; 
+  public get destinationFieldName() {
+    return this.getStringAttribute('destination_field_name');
+  }
+  public set destinationFieldName(value: string) {
+    this._destinationFieldName = value;
+  }
+  public resetDestinationFieldName() {
+    this._destinationFieldName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationFieldNameInput() {
+    return this._destinationFieldName;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionOutputReference {
+    return new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions {
+  /**
+  * dimension block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  */
+  readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dimension: cdktf.listMapper(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionToTerraform, true)(struct!.dimension),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dimension: {
+      value: cdktf.listMapperHcl(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionToHclTerraform, true)(struct!.dimension),
+      isBlock: true,
+      type: "set",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dimension?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimension = this._dimension?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dimension.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dimension.internalValue = value.dimension;
+    }
+  }
+
+  // dimension - computed: false, optional: false, required: true
+  private _dimension = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimensionList(this, "dimension", true);
+  public get dimension() {
+    return this._dimension;
+  }
+  public putDimension(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension[] | cdktf.IResolvable) {
+    this._dimension.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionInput() {
+    return this._dimension.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric {
+  /**
+  * Possible Values: `disabled`, `enabled`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#aggregation OpenpipelineV2UsersessionsIngestsources#aggregation}
+  */
+  readonly aggregation?: string;
+  /**
+  * Default value with metric value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Field with metric value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: string;
+  /**
+  * Possible Values: `duration`, `field`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#measurement OpenpipelineV2UsersessionsIngestsources#measurement}
+  */
+  readonly measurement: string;
+  /**
+  * Metric key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  */
+  readonly metricKey: string;
+  /**
+  * Possible Values: `disabled`, `enabled`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling OpenpipelineV2UsersessionsIngestsources#sampling}
+  */
+  readonly sampling?: string;
+  /**
+  * dimensions block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  */
+  readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    aggregation: cdktf.stringToTerraform(struct!.aggregation),
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    field: cdktf.stringToTerraform(struct!.field),
+    measurement: cdktf.stringToTerraform(struct!.measurement),
+    metric_key: cdktf.stringToTerraform(struct!.metricKey),
+    sampling: cdktf.stringToTerraform(struct!.sampling),
+    dimensions: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsToTerraform(struct!.dimensions),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    aggregation: {
+      value: cdktf.stringToHclTerraform(struct!.aggregation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: cdktf.stringToHclTerraform(struct!.field),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    measurement: {
+      value: cdktf.stringToHclTerraform(struct!.measurement),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    metric_key: {
+      value: cdktf.stringToHclTerraform(struct!.metricKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sampling: {
+      value: cdktf.stringToHclTerraform(struct!.sampling),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dimensions: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsToHclTerraform(struct!.dimensions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._aggregation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.aggregation = this._aggregation;
+    }
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._field !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field;
+    }
+    if (this._measurement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.measurement = this._measurement;
+    }
+    if (this._metricKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricKey = this._metricKey;
+    }
+    if (this._sampling !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sampling = this._sampling;
+    }
+    if (this._dimensions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimensions = this._dimensions?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._aggregation = undefined;
+      this._defaultValue = undefined;
+      this._field = undefined;
+      this._measurement = undefined;
+      this._metricKey = undefined;
+      this._sampling = undefined;
+      this._dimensions.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._aggregation = value.aggregation;
+      this._defaultValue = value.defaultValue;
+      this._field = value.field;
+      this._measurement = value.measurement;
+      this._metricKey = value.metricKey;
+      this._sampling = value.sampling;
+      this._dimensions.internalValue = value.dimensions;
+    }
+  }
+
+  // aggregation - computed: false, optional: true, required: false
+  private _aggregation?: string; 
+  public get aggregation() {
+    return this.getStringAttribute('aggregation');
+  }
+  public set aggregation(value: string) {
+    this._aggregation = value;
+  }
+  public resetAggregation() {
+    this._aggregation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aggregationInput() {
+    return this._aggregation;
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field?: string; 
+  public get field() {
+    return this.getStringAttribute('field');
+  }
+  public set field(value: string) {
+    this._field = value;
+  }
+  public resetField() {
+    this._field = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field;
+  }
+
+  // measurement - computed: false, optional: false, required: true
+  private _measurement?: string; 
+  public get measurement() {
+    return this.getStringAttribute('measurement');
+  }
+  public set measurement(value: string) {
+    this._measurement = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get measurementInput() {
+    return this._measurement;
+  }
+
+  // metric_key - computed: false, optional: false, required: true
+  private _metricKey?: string; 
+  public get metricKey() {
+    return this.getStringAttribute('metric_key');
+  }
+  public set metricKey(value: string) {
+    this._metricKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricKeyInput() {
+    return this._metricKey;
+  }
+
+  // sampling - computed: false, optional: true, required: false
+  private _sampling?: string; 
+  public get sampling() {
+    return this.getStringAttribute('sampling');
+  }
+  public set sampling(value: string) {
+    this._sampling = value;
+  }
+  public resetSampling() {
+    this._sampling = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingInput() {
+    return this._sampling;
+  }
+
+  // dimensions - computed: false, optional: true, required: false
+  private _dimensions = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsOutputReference(this, "dimensions");
+  public get dimensions() {
+    return this._dimensions;
+  }
+  public putDimensions(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions) {
+    this._dimensions.internalValue = value;
+  }
+  public resetDimensions() {
+    this._dimensions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionsInput() {
+    return this._dimensions.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensionsDimension {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Destination field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  */
+  readonly destinationFieldName?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5185,7 +5790,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -5266,45 +5871,45 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
 }
 export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetric {
   /**
-  * Possible Values: `disabled`, `enabled`.
+  * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#aggregation OpenpipelineV2UsersessionsIngestsources#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#aggregation OpenpipelineV2UsersessionsIngestsources#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: string;
   /**
-  * Possible Values: `duration`, `field`.
+  * Possible Values: `duration`, `field`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#measurement OpenpipelineV2UsersessionsIngestsources#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#measurement OpenpipelineV2UsersessionsIngestsources#measurement}
   */
   readonly measurement: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
-  * Possible Values: `disabled`, `enabled`.
+  * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling OpenpipelineV2UsersessionsIngestsources#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling OpenpipelineV2UsersessionsIngestsources#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensions;
 }
@@ -5554,17 +6159,1876 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
     return this._dimensions.internalValue;
   }
 }
-export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextValueField {
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField {
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Destination field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  */
+  readonly destinationFieldName?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    destination_field_name: cdktf.stringToTerraform(struct!.destinationFieldName),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    destination_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.destinationFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._destinationFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationFieldName = this._destinationFieldName;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._defaultValue = undefined;
+      this._destinationFieldName = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._defaultValue = value.defaultValue;
+      this._destinationFieldName = value.destinationFieldName;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // destination_field_name - computed: false, optional: true, required: false
+  private _destinationFieldName?: string; 
+  public get destinationFieldName() {
+    return this.getStringAttribute('destination_field_name');
+  }
+  public set destinationFieldName(value: string) {
+    this._destinationFieldName = value;
+  }
+  public resetDestinationFieldName() {
+    this._destinationFieldName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationFieldNameInput() {
+    return this._destinationFieldName;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference {
+    return new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude {
+  /**
+  * dimension block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  */
+  readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dimension: cdktf.listMapper(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToTerraform, true)(struct!.dimension),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dimension: {
+      value: cdktf.listMapperHcl(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToHclTerraform, true)(struct!.dimension),
+      isBlock: true,
+      type: "set",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dimension?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dimension = this._dimension?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dimension.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dimension.internalValue = value.dimension;
+    }
+  }
+
+  // dimension - computed: false, optional: false, required: true
+  private _dimension = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionList(this, "dimension", true);
+  public get dimension() {
+    return this._dimension;
+  }
+  public putDimension(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable) {
+    this._dimension.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dimensionInput() {
+    return this._dimension.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction {
+  /**
+  * Fields
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
+  */
+  readonly exclude?: string[];
+  /**
+  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * include block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
+  */
+  readonly include?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exclude: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exclude),
+    type: cdktf.stringToTerraform(struct!.type),
+    include: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeToTerraform(struct!.include),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exclude: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exclude),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    include: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeToHclTerraform(struct!.include),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exclude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exclude = this._exclude;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._include?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.include = this._include?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._exclude = undefined;
+      this._type = undefined;
+      this._include.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._exclude = value.exclude;
+      this._type = value.type;
+      this._include.internalValue = value.include;
+    }
+  }
+
+  // exclude - computed: false, optional: true, required: false
+  private _exclude?: string[]; 
+  public get exclude() {
+    return cdktf.Fn.tolist(this.getListAttribute('exclude'));
+  }
+  public set exclude(value: string[]) {
+    this._exclude = value;
+  }
+  public resetExclude() {
+    this._exclude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInput() {
+    return this._exclude;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // include - computed: false, optional: true, required: false
+  private _include = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeOutputReference(this, "include");
+  public get include() {
+    return this._include;
+  }
+  public putInclude(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude) {
+    this._include.internalValue = value;
+  }
+  public resetInclude() {
+    this._include.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeInput() {
+    return this._include.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent {
+  /**
+  * event_category block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_category OpenpipelineV2UsersessionsIngestsources#event_category}
+  */
+  readonly eventCategory: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory;
+  /**
+  * event_provider block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_provider OpenpipelineV2UsersessionsIngestsources#event_provider}
+  */
+  readonly eventProvider: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider;
+  /**
+  * event_status block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_status OpenpipelineV2UsersessionsIngestsources#event_status}
+  */
+  readonly eventStatus: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus;
+  /**
+  * event_type block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#event_type OpenpipelineV2UsersessionsIngestsources#event_type}
+  */
+  readonly eventType?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType;
+  /**
+  * field_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
+  */
+  readonly fieldExtraction: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    event_category: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryToTerraform(struct!.eventCategory),
+    event_provider: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderToTerraform(struct!.eventProvider),
+    event_status: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusToTerraform(struct!.eventStatus),
+    event_type: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeToTerraform(struct!.eventType),
+    field_extraction: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionToTerraform(struct!.fieldExtraction),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    event_category: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryToHclTerraform(struct!.eventCategory),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryList",
+    },
+    event_provider: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderToHclTerraform(struct!.eventProvider),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderList",
+    },
+    event_status: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusToHclTerraform(struct!.eventStatus),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusList",
+    },
+    event_type: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeToHclTerraform(struct!.eventType),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeList",
+    },
+    field_extraction: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionToHclTerraform(struct!.fieldExtraction),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._eventCategory?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eventCategory = this._eventCategory?.internalValue;
+    }
+    if (this._eventProvider?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eventProvider = this._eventProvider?.internalValue;
+    }
+    if (this._eventStatus?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eventStatus = this._eventStatus?.internalValue;
+    }
+    if (this._eventType?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eventType = this._eventType?.internalValue;
+    }
+    if (this._fieldExtraction?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fieldExtraction = this._fieldExtraction?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._eventCategory.internalValue = undefined;
+      this._eventProvider.internalValue = undefined;
+      this._eventStatus.internalValue = undefined;
+      this._eventType.internalValue = undefined;
+      this._fieldExtraction.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._eventCategory.internalValue = value.eventCategory;
+      this._eventProvider.internalValue = value.eventProvider;
+      this._eventStatus.internalValue = value.eventStatus;
+      this._eventType.internalValue = value.eventType;
+      this._fieldExtraction.internalValue = value.fieldExtraction;
+    }
+  }
+
+  // event_category - computed: false, optional: false, required: true
+  private _eventCategory = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryOutputReference(this, "event_category");
+  public get eventCategory() {
+    return this._eventCategory;
+  }
+  public putEventCategory(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory) {
+    this._eventCategory.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eventCategoryInput() {
+    return this._eventCategory.internalValue;
+  }
+
+  // event_provider - computed: false, optional: false, required: true
+  private _eventProvider = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderOutputReference(this, "event_provider");
+  public get eventProvider() {
+    return this._eventProvider;
+  }
+  public putEventProvider(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider) {
+    this._eventProvider.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eventProviderInput() {
+    return this._eventProvider.internalValue;
+  }
+
+  // event_status - computed: false, optional: false, required: true
+  private _eventStatus = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusOutputReference(this, "event_status");
+  public get eventStatus() {
+    return this._eventStatus;
+  }
+  public putEventStatus(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus) {
+    this._eventStatus.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eventStatusInput() {
+    return this._eventStatus.internalValue;
+  }
+
+  // event_type - computed: false, optional: true, required: false
+  private _eventType = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeOutputReference(this, "event_type");
+  public get eventType() {
+    return this._eventType;
+  }
+  public putEventType(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType) {
+    this._eventType.internalValue = value;
+  }
+  public resetEventType() {
+    this._eventType.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eventTypeInput() {
+    return this._eventType.internalValue;
+  }
+
+  // field_extraction - computed: false, optional: false, required: true
+  private _fieldExtraction = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionOutputReference(this, "field_extraction");
+  public get fieldExtraction() {
+    return this._fieldExtraction;
+  }
+  public putFieldExtraction(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction) {
+    this._fieldExtraction.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldExtractionInput() {
+    return this._fieldExtraction.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextValueField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5676,25 +8140,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`.
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextValueField;
 }
@@ -5864,7 +8328,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value OpenpipelineV2UsersessionsIngestsources#value}
   */
   readonly value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextValue;
 }
@@ -5947,19 +8411,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6132,7 +8596,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -6215,19 +8679,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#exclude OpenpipelineV2UsersessionsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`.
+  * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#include OpenpipelineV2UsersessionsIngestsources#include}
   */
   readonly include?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtractionInclude;
 }
@@ -6368,7 +8832,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field_extraction OpenpipelineV2UsersessionsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtraction;
 }
@@ -6447,17 +8911,1540 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
     return this._fieldExtraction.internalValue;
   }
 }
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge {
+  /**
+  * Edge type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#edge_type OpenpipelineV2UsersessionsIngestsources#edge_type}
+  */
+  readonly edgeType: string;
+  /**
+  * Source ID field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_id_field_name OpenpipelineV2UsersessionsIngestsources#source_id_field_name}
+  */
+  readonly sourceIdFieldName: string;
+  /**
+  * Source type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_type OpenpipelineV2UsersessionsIngestsources#source_type}
+  */
+  readonly sourceType: string;
+  /**
+  * Target ID field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#target_id_field_name OpenpipelineV2UsersessionsIngestsources#target_id_field_name}
+  */
+  readonly targetIdFieldName: string;
+  /**
+  * Target type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#target_type OpenpipelineV2UsersessionsIngestsources#target_type}
+  */
+  readonly targetType: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    edge_type: cdktf.stringToTerraform(struct!.edgeType),
+    source_id_field_name: cdktf.stringToTerraform(struct!.sourceIdFieldName),
+    source_type: cdktf.stringToTerraform(struct!.sourceType),
+    target_id_field_name: cdktf.stringToTerraform(struct!.targetIdFieldName),
+    target_type: cdktf.stringToTerraform(struct!.targetType),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    edge_type: {
+      value: cdktf.stringToHclTerraform(struct!.edgeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_id_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceIdFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_type: {
+      value: cdktf.stringToHclTerraform(struct!.sourceType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_id_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.targetIdFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_type: {
+      value: cdktf.stringToHclTerraform(struct!.targetType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._edgeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.edgeType = this._edgeType;
+    }
+    if (this._sourceIdFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceIdFieldName = this._sourceIdFieldName;
+    }
+    if (this._sourceType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceType = this._sourceType;
+    }
+    if (this._targetIdFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetIdFieldName = this._targetIdFieldName;
+    }
+    if (this._targetType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetType = this._targetType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._edgeType = undefined;
+      this._sourceIdFieldName = undefined;
+      this._sourceType = undefined;
+      this._targetIdFieldName = undefined;
+      this._targetType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._edgeType = value.edgeType;
+      this._sourceIdFieldName = value.sourceIdFieldName;
+      this._sourceType = value.sourceType;
+      this._targetIdFieldName = value.targetIdFieldName;
+      this._targetType = value.targetType;
+    }
+  }
+
+  // edge_type - computed: false, optional: false, required: true
+  private _edgeType?: string; 
+  public get edgeType() {
+    return this.getStringAttribute('edge_type');
+  }
+  public set edgeType(value: string) {
+    this._edgeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get edgeTypeInput() {
+    return this._edgeType;
+  }
+
+  // source_id_field_name - computed: false, optional: false, required: true
+  private _sourceIdFieldName?: string; 
+  public get sourceIdFieldName() {
+    return this.getStringAttribute('source_id_field_name');
+  }
+  public set sourceIdFieldName(value: string) {
+    this._sourceIdFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceIdFieldNameInput() {
+    return this._sourceIdFieldName;
+  }
+
+  // source_type - computed: false, optional: false, required: true
+  private _sourceType?: string; 
+  public get sourceType() {
+    return this.getStringAttribute('source_type');
+  }
+  public set sourceType(value: string) {
+    this._sourceType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTypeInput() {
+    return this._sourceType;
+  }
+
+  // target_id_field_name - computed: false, optional: false, required: true
+  private _targetIdFieldName?: string; 
+  public get targetIdFieldName() {
+    return this.getStringAttribute('target_id_field_name');
+  }
+  public set targetIdFieldName(value: string) {
+    this._targetIdFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetIdFieldNameInput() {
+    return this._targetIdFieldName;
+  }
+
+  // target_type - computed: false, optional: false, required: true
+  private _targetType?: string; 
+  public get targetType() {
+    return this.getStringAttribute('target_type');
+  }
+  public set targetType(value: string) {
+    this._targetType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetTypeInput() {
+    return this._targetType;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry {
+  /**
+  * Field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field_name OpenpipelineV2UsersessionsIngestsources#field_name}
+  */
+  readonly fieldName: string;
+  /**
+  * Referenced field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#referenced_field_name OpenpipelineV2UsersessionsIngestsources#referenced_field_name}
+  */
+  readonly referencedFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    field_name: cdktf.stringToTerraform(struct!.fieldName),
+    referenced_field_name: cdktf.stringToTerraform(struct!.referencedFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    field_name: {
+      value: cdktf.stringToHclTerraform(struct!.fieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    referenced_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.referencedFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fieldName = this._fieldName;
+    }
+    if (this._referencedFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.referencedFieldName = this._referencedFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fieldName = undefined;
+      this._referencedFieldName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fieldName = value.fieldName;
+      this._referencedFieldName = value.referencedFieldName;
+    }
+  }
+
+  // field_name - computed: false, optional: false, required: true
+  private _fieldName?: string; 
+  public get fieldName() {
+    return this.getStringAttribute('field_name');
+  }
+  public set fieldName(value: string) {
+    this._fieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldNameInput() {
+    return this._fieldName;
+  }
+
+  // referenced_field_name - computed: false, optional: false, required: true
+  private _referencedFieldName?: string; 
+  public get referencedFieldName() {
+    return this.getStringAttribute('referenced_field_name');
+  }
+  public set referencedFieldName(value: string) {
+    this._referencedFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referencedFieldNameInput() {
+    return this._referencedFieldName;
+  }
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryOutputReference {
+    return new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract {
+  /**
+  * smartscape_field_extraction_entry block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#smartscape_field_extraction_entry OpenpipelineV2UsersessionsIngestsources#smartscape_field_extraction_entry}
+  */
+  readonly smartscapeFieldExtractionEntry: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    smartscape_field_extraction_entry: cdktf.listMapper(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryToTerraform, true)(struct!.smartscapeFieldExtractionEntry),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    smartscape_field_extraction_entry: {
+      value: cdktf.listMapperHcl(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryToHclTerraform, true)(struct!.smartscapeFieldExtractionEntry),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._smartscapeFieldExtractionEntry?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smartscapeFieldExtractionEntry = this._smartscapeFieldExtractionEntry?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._smartscapeFieldExtractionEntry.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._smartscapeFieldExtractionEntry.internalValue = value.smartscapeFieldExtractionEntry;
+    }
+  }
+
+  // smartscape_field_extraction_entry - computed: false, optional: false, required: true
+  private _smartscapeFieldExtractionEntry = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntryList(this, "smartscape_field_extraction_entry", false);
+  public get smartscapeFieldExtractionEntry() {
+    return this._smartscapeFieldExtractionEntry;
+  }
+  public putSmartscapeFieldExtractionEntry(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable) {
+    this._smartscapeFieldExtractionEntry.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeFieldExtractionEntryInput() {
+    return this._smartscapeFieldExtractionEntry.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent {
+  /**
+  * ID component
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#id_component OpenpipelineV2UsersessionsIngestsources#id_component}
+  */
+  readonly idComponent: string;
+  /**
+  * Referenced field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#referenced_field_name OpenpipelineV2UsersessionsIngestsources#referenced_field_name}
+  */
+  readonly referencedFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id_component: cdktf.stringToTerraform(struct!.idComponent),
+    referenced_field_name: cdktf.stringToTerraform(struct!.referencedFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id_component: {
+      value: cdktf.stringToHclTerraform(struct!.idComponent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    referenced_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.referencedFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._idComponent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idComponent = this._idComponent;
+    }
+    if (this._referencedFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.referencedFieldName = this._referencedFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._idComponent = undefined;
+      this._referencedFieldName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._idComponent = value.idComponent;
+      this._referencedFieldName = value.referencedFieldName;
+    }
+  }
+
+  // id_component - computed: false, optional: false, required: true
+  private _idComponent?: string; 
+  public get idComponent() {
+    return this.getStringAttribute('id_component');
+  }
+  public set idComponent(value: string) {
+    this._idComponent = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idComponentInput() {
+    return this._idComponent;
+  }
+
+  // referenced_field_name - computed: false, optional: false, required: true
+  private _referencedFieldName?: string; 
+  public get referencedFieldName() {
+    return this.getStringAttribute('referenced_field_name');
+  }
+  public set referencedFieldName(value: string) {
+    this._referencedFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get referencedFieldNameInput() {
+    return this._referencedFieldName;
+  }
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentOutputReference {
+    return new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents {
+  /**
+  * id_component block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#id_component OpenpipelineV2UsersessionsIngestsources#id_component}
+  */
+  readonly idComponent: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id_component: cdktf.listMapper(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentToTerraform, true)(struct!.idComponent),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id_component: {
+      value: cdktf.listMapperHcl(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentToHclTerraform, true)(struct!.idComponent),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._idComponent?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idComponent = this._idComponent?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._idComponent.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._idComponent.internalValue = value.idComponent;
+    }
+  }
+
+  // id_component - computed: false, optional: false, required: true
+  private _idComponent = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponentList(this, "id_component", false);
+  public get idComponent() {
+    return this._idComponent;
+  }
+  public putIdComponent(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable) {
+    this._idComponent.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idComponentInput() {
+    return this._idComponent.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#constant OpenpipelineV2UsersessionsIngestsources#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#multi_value_constant OpenpipelineV2UsersessionsIngestsources#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  */
+  readonly field?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry {
+  /**
+  * Edge type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#edge_type OpenpipelineV2UsersessionsIngestsources#edge_type}
+  */
+  readonly edgeType: string;
+  /**
+  * Target ID field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#target_id_field_name OpenpipelineV2UsersessionsIngestsources#target_id_field_name}
+  */
+  readonly targetIdFieldName: string;
+  /**
+  * Target type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#target_type OpenpipelineV2UsersessionsIngestsources#target_type}
+  */
+  readonly targetType: string;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    edge_type: cdktf.stringToTerraform(struct!.edgeType),
+    target_id_field_name: cdktf.stringToTerraform(struct!.targetIdFieldName),
+    target_type: cdktf.stringToTerraform(struct!.targetType),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    edge_type: {
+      value: cdktf.stringToHclTerraform(struct!.edgeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_id_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.targetIdFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_type: {
+      value: cdktf.stringToHclTerraform(struct!.targetType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._edgeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.edgeType = this._edgeType;
+    }
+    if (this._targetIdFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetIdFieldName = this._targetIdFieldName;
+    }
+    if (this._targetType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetType = this._targetType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._edgeType = undefined;
+      this._targetIdFieldName = undefined;
+      this._targetType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._edgeType = value.edgeType;
+      this._targetIdFieldName = value.targetIdFieldName;
+      this._targetType = value.targetType;
+    }
+  }
+
+  // edge_type - computed: false, optional: false, required: true
+  private _edgeType?: string; 
+  public get edgeType() {
+    return this.getStringAttribute('edge_type');
+  }
+  public set edgeType(value: string) {
+    this._edgeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get edgeTypeInput() {
+    return this._edgeType;
+  }
+
+  // target_id_field_name - computed: false, optional: false, required: true
+  private _targetIdFieldName?: string; 
+  public get targetIdFieldName() {
+    return this.getStringAttribute('target_id_field_name');
+  }
+  public set targetIdFieldName(value: string) {
+    this._targetIdFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetIdFieldNameInput() {
+    return this._targetIdFieldName;
+  }
+
+  // target_type - computed: false, optional: false, required: true
+  private _targetType?: string; 
+  public get targetType() {
+    return this.getStringAttribute('target_type');
+  }
+  public set targetType(value: string) {
+    this._targetType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetTypeInput() {
+    return this._targetType;
+  }
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryOutputReference {
+    return new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract {
+  /**
+  * smartscape_static_edge_extraction_entry block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#smartscape_static_edge_extraction_entry OpenpipelineV2UsersessionsIngestsources#smartscape_static_edge_extraction_entry}
+  */
+  readonly smartscapeStaticEdgeExtractionEntry: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    smartscape_static_edge_extraction_entry: cdktf.listMapper(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryToTerraform, true)(struct!.smartscapeStaticEdgeExtractionEntry),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    smartscape_static_edge_extraction_entry: {
+      value: cdktf.listMapperHcl(openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryToHclTerraform, true)(struct!.smartscapeStaticEdgeExtractionEntry),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._smartscapeStaticEdgeExtractionEntry?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smartscapeStaticEdgeExtractionEntry = this._smartscapeStaticEdgeExtractionEntry?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._smartscapeStaticEdgeExtractionEntry.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._smartscapeStaticEdgeExtractionEntry.internalValue = value.smartscapeStaticEdgeExtractionEntry;
+    }
+  }
+
+  // smartscape_static_edge_extraction_entry - computed: false, optional: false, required: true
+  private _smartscapeStaticEdgeExtractionEntry = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntryList(this, "smartscape_static_edge_extraction_entry", false);
+  public get smartscapeStaticEdgeExtractionEntry() {
+    return this._smartscapeStaticEdgeExtractionEntry;
+  }
+  public putSmartscapeStaticEdgeExtractionEntry(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable) {
+    this._smartscapeStaticEdgeExtractionEntry.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeStaticEdgeExtractionEntryInput() {
+    return this._smartscapeStaticEdgeExtractionEntry.internalValue;
+  }
+}
+export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode {
+  /**
+  * Extract node
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#extract_node OpenpipelineV2UsersessionsIngestsources#extract_node}
+  */
+  readonly extractNode: boolean | cdktf.IResolvable;
+  /**
+  * Node ID field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#node_id_field_name OpenpipelineV2UsersessionsIngestsources#node_id_field_name}
+  */
+  readonly nodeIdFieldName: string;
+  /**
+  * Node type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#node_type OpenpipelineV2UsersessionsIngestsources#node_type}
+  */
+  readonly nodeType: string;
+  /**
+  * fields_to_extract block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_to_extract OpenpipelineV2UsersessionsIngestsources#fields_to_extract}
+  */
+  readonly fieldsToExtract?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract;
+  /**
+  * id_components block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#id_components OpenpipelineV2UsersessionsIngestsources#id_components}
+  */
+  readonly idComponents: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents;
+  /**
+  * node_name block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#node_name OpenpipelineV2UsersessionsIngestsources#node_name}
+  */
+  readonly nodeName?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName;
+  /**
+  * static_edges_to_extract block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#static_edges_to_extract OpenpipelineV2UsersessionsIngestsources#static_edges_to_extract}
+  */
+  readonly staticEdgesToExtract?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract;
+}
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeToTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    extract_node: cdktf.booleanToTerraform(struct!.extractNode),
+    node_id_field_name: cdktf.stringToTerraform(struct!.nodeIdFieldName),
+    node_type: cdktf.stringToTerraform(struct!.nodeType),
+    fields_to_extract: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractToTerraform(struct!.fieldsToExtract),
+    id_components: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsToTerraform(struct!.idComponents),
+    node_name: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameToTerraform(struct!.nodeName),
+    static_edges_to_extract: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractToTerraform(struct!.staticEdgesToExtract),
+  }
+}
+
+
+export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeToHclTerraform(struct?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeOutputReference | OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    extract_node: {
+      value: cdktf.booleanToHclTerraform(struct!.extractNode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    node_id_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.nodeIdFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    node_type: {
+      value: cdktf.stringToHclTerraform(struct!.nodeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fields_to_extract: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractToHclTerraform(struct!.fieldsToExtract),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractList",
+    },
+    id_components: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsToHclTerraform(struct!.idComponents),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsList",
+    },
+    node_name: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameToHclTerraform(struct!.nodeName),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameList",
+    },
+    static_edges_to_extract: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractToHclTerraform(struct!.staticEdgesToExtract),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._extractNode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.extractNode = this._extractNode;
+    }
+    if (this._nodeIdFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeIdFieldName = this._nodeIdFieldName;
+    }
+    if (this._nodeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeType = this._nodeType;
+    }
+    if (this._fieldsToExtract?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fieldsToExtract = this._fieldsToExtract?.internalValue;
+    }
+    if (this._idComponents?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.idComponents = this._idComponents?.internalValue;
+    }
+    if (this._nodeName?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nodeName = this._nodeName?.internalValue;
+    }
+    if (this._staticEdgesToExtract?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticEdgesToExtract = this._staticEdgesToExtract?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._extractNode = undefined;
+      this._nodeIdFieldName = undefined;
+      this._nodeType = undefined;
+      this._fieldsToExtract.internalValue = undefined;
+      this._idComponents.internalValue = undefined;
+      this._nodeName.internalValue = undefined;
+      this._staticEdgesToExtract.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._extractNode = value.extractNode;
+      this._nodeIdFieldName = value.nodeIdFieldName;
+      this._nodeType = value.nodeType;
+      this._fieldsToExtract.internalValue = value.fieldsToExtract;
+      this._idComponents.internalValue = value.idComponents;
+      this._nodeName.internalValue = value.nodeName;
+      this._staticEdgesToExtract.internalValue = value.staticEdgesToExtract;
+    }
+  }
+
+  // extract_node - computed: false, optional: false, required: true
+  private _extractNode?: boolean | cdktf.IResolvable; 
+  public get extractNode() {
+    return this.getBooleanAttribute('extract_node');
+  }
+  public set extractNode(value: boolean | cdktf.IResolvable) {
+    this._extractNode = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get extractNodeInput() {
+    return this._extractNode;
+  }
+
+  // node_id_field_name - computed: false, optional: false, required: true
+  private _nodeIdFieldName?: string; 
+  public get nodeIdFieldName() {
+    return this.getStringAttribute('node_id_field_name');
+  }
+  public set nodeIdFieldName(value: string) {
+    this._nodeIdFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeIdFieldNameInput() {
+    return this._nodeIdFieldName;
+  }
+
+  // node_type - computed: false, optional: false, required: true
+  private _nodeType?: string; 
+  public get nodeType() {
+    return this.getStringAttribute('node_type');
+  }
+  public set nodeType(value: string) {
+    this._nodeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeTypeInput() {
+    return this._nodeType;
+  }
+
+  // fields_to_extract - computed: false, optional: true, required: false
+  private _fieldsToExtract = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractOutputReference(this, "fields_to_extract");
+  public get fieldsToExtract() {
+    return this._fieldsToExtract;
+  }
+  public putFieldsToExtract(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract) {
+    this._fieldsToExtract.internalValue = value;
+  }
+  public resetFieldsToExtract() {
+    this._fieldsToExtract.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldsToExtractInput() {
+    return this._fieldsToExtract.internalValue;
+  }
+
+  // id_components - computed: false, optional: false, required: true
+  private _idComponents = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsOutputReference(this, "id_components");
+  public get idComponents() {
+    return this._idComponents;
+  }
+  public putIdComponents(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents) {
+    this._idComponents.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idComponentsInput() {
+    return this._idComponents.internalValue;
+  }
+
+  // node_name - computed: false, optional: true, required: false
+  private _nodeName = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameOutputReference(this, "node_name");
+  public get nodeName() {
+    return this._nodeName;
+  }
+  public putNodeName(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName) {
+    this._nodeName.internalValue = value;
+  }
+  public resetNodeName() {
+    this._nodeName.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nodeNameInput() {
+    return this._nodeName.internalValue;
+  }
+
+  // static_edges_to_extract - computed: false, optional: true, required: false
+  private _staticEdgesToExtract = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractOutputReference(this, "static_edges_to_extract");
+  public get staticEdgesToExtract() {
+    return this._staticEdgesToExtract;
+  }
+  public putStaticEdgesToExtract(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract) {
+    this._staticEdgesToExtract.internalValue = value;
+  }
+  public resetStaticEdgesToExtract() {
+    this._staticEdgesToExtract.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticEdgesToExtractInput() {
+    return this._staticEdgesToExtract.internalValue;
+  }
+}
 export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorTechnology {
   /**
   * Custom matching condition which should be used instead of technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#custom_matcher OpenpipelineV2UsersessionsIngestsources#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#custom_matcher OpenpipelineV2UsersessionsIngestsources#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Technology ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#technology_id OpenpipelineV2UsersessionsIngestsources#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#technology_id OpenpipelineV2UsersessionsIngestsources#technology_id}
   */
   readonly technologyId: string;
 }
@@ -6569,19 +10556,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#destination_field_name OpenpipelineV2UsersessionsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#source_field_name OpenpipelineV2UsersessionsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6754,7 +10741,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimension OpenpipelineV2UsersessionsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -6837,25 +10824,25 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#default_value OpenpipelineV2UsersessionsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#field OpenpipelineV2UsersessionsIngestsources#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#metric_key OpenpipelineV2UsersessionsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dimensions OpenpipelineV2UsersessionsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorValueMetricDimensions;
 }
@@ -7022,19 +11009,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#description OpenpipelineV2UsersessionsIngestsources#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#description OpenpipelineV2UsersessionsIngestsources#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#enabled OpenpipelineV2UsersessionsIngestsources#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#enabled OpenpipelineV2UsersessionsIngestsources#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Processor identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#id OpenpipelineV2UsersessionsIngestsources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#id OpenpipelineV2UsersessionsIngestsources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7043,127 +11030,151 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProc
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#matcher OpenpipelineV2UsersessionsIngestsources#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#matcher OpenpipelineV2UsersessionsIngestsources#matcher}
   */
   readonly matcher?: string;
   /**
   * Sample data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#sample_data OpenpipelineV2UsersessionsIngestsources#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sample_data OpenpipelineV2UsersessionsIngestsources#sample_data}
   */
   readonly sampleData?: string;
   /**
-  * Processor type. Possible Values: `azureLogForwarding`, `bizevent`, `bucketAssignment`, `costAllocation`, `counterMetric`, `davis`, `dql`, `drop`, `fieldsAdd`, `fieldsRemove`, `fieldsRename`, `histogramMetric`, `noStorage`, `productAllocation`, `samplingAwareCounterMetric`, `samplingAwareValueMetric`, `securityContext`, `securityEvent`, `technology`, `valueMetric`.
+  * Processor type. Possible Values: `azureLogForwarding`, `bizevent`, `bucketAssignment`, `costAllocation`, `counterMetric`, `davis`, `dql`, `drop`, `fieldsAdd`, `fieldsRemove`, `fieldsRename`, `histogramMetric`, `noStorage`, `productAllocation`, `samplingAwareCounterMetric`, `samplingAwareHistogramMetric`, `samplingAwareValueMetric`, `sdlcEvent`, `securityContext`, `securityEvent`, `smartscapeEdge`, `smartscapeNode`, `technology`, `valueMetric`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#type OpenpipelineV2UsersessionsIngestsources#type}
   */
   readonly type: string;
   /**
   * azure_log_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#azure_log_forwarding OpenpipelineV2UsersessionsIngestsources#azure_log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#azure_log_forwarding OpenpipelineV2UsersessionsIngestsources#azure_log_forwarding}
   */
   readonly azureLogForwarding?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorAzureLogForwarding;
   /**
   * bizevent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#bizevent OpenpipelineV2UsersessionsIngestsources#bizevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#bizevent OpenpipelineV2UsersessionsIngestsources#bizevent}
   */
   readonly bizevent?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBizevent;
   /**
   * bucket_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#bucket_assignment OpenpipelineV2UsersessionsIngestsources#bucket_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#bucket_assignment OpenpipelineV2UsersessionsIngestsources#bucket_assignment}
   */
   readonly bucketAssignment?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorBucketAssignment;
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#cost_allocation OpenpipelineV2UsersessionsIngestsources#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#cost_allocation OpenpipelineV2UsersessionsIngestsources#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCostAllocation;
   /**
   * counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#counter_metric OpenpipelineV2UsersessionsIngestsources#counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#counter_metric OpenpipelineV2UsersessionsIngestsources#counter_metric}
   */
   readonly counterMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorCounterMetric;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#davis OpenpipelineV2UsersessionsIngestsources#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#davis OpenpipelineV2UsersessionsIngestsources#davis}
   */
   readonly davis?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorDavis;
   /**
   * dql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#dql OpenpipelineV2UsersessionsIngestsources#dql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#dql OpenpipelineV2UsersessionsIngestsources#dql}
   */
   readonly dql?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorDql;
   /**
   * fields_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_add OpenpipelineV2UsersessionsIngestsources#fields_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_add OpenpipelineV2UsersessionsIngestsources#fields_add}
   */
   readonly fieldsAdd?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsAdd;
   /**
   * fields_remove block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_remove OpenpipelineV2UsersessionsIngestsources#fields_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_remove OpenpipelineV2UsersessionsIngestsources#fields_remove}
   */
   readonly fieldsRemove?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsRemove;
   /**
   * fields_rename block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_rename OpenpipelineV2UsersessionsIngestsources#fields_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#fields_rename OpenpipelineV2UsersessionsIngestsources#fields_rename}
   */
   readonly fieldsRename?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorFieldsRename;
   /**
   * histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#histogram_metric OpenpipelineV2UsersessionsIngestsources#histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#histogram_metric OpenpipelineV2UsersessionsIngestsources#histogram_metric}
   */
   readonly histogramMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetric;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#product_allocation OpenpipelineV2UsersessionsIngestsources#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#product_allocation OpenpipelineV2UsersessionsIngestsources#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorProductAllocation;
   /**
   * sampling_aware_counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling_aware_counter_metric OpenpipelineV2UsersessionsIngestsources#sampling_aware_counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling_aware_counter_metric OpenpipelineV2UsersessionsIngestsources#sampling_aware_counter_metric}
   */
   readonly samplingAwareCounterMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetric;
   /**
+  * sampling_aware_histogram_metric block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling_aware_histogram_metric OpenpipelineV2UsersessionsIngestsources#sampling_aware_histogram_metric}
+  */
+  readonly samplingAwareHistogramMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric;
+  /**
   * sampling_aware_value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling_aware_value_metric OpenpipelineV2UsersessionsIngestsources#sampling_aware_value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sampling_aware_value_metric OpenpipelineV2UsersessionsIngestsources#sampling_aware_value_metric}
   */
   readonly samplingAwareValueMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetric;
   /**
+  * sdlc_event block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#sdlc_event OpenpipelineV2UsersessionsIngestsources#sdlc_event}
+  */
+  readonly sdlcEvent?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent;
+  /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#security_context OpenpipelineV2UsersessionsIngestsources#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#security_context OpenpipelineV2UsersessionsIngestsources#security_context}
   */
   readonly securityContext?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContext;
   /**
   * security_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#security_event OpenpipelineV2UsersessionsIngestsources#security_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#security_event OpenpipelineV2UsersessionsIngestsources#security_event}
   */
   readonly securityEvent?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEvent;
   /**
+  * smartscape_edge block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#smartscape_edge OpenpipelineV2UsersessionsIngestsources#smartscape_edge}
+  */
+  readonly smartscapeEdge?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge;
+  /**
+  * smartscape_node block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#smartscape_node OpenpipelineV2UsersessionsIngestsources#smartscape_node}
+  */
+  readonly smartscapeNode?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode;
+  /**
   * technology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#technology OpenpipelineV2UsersessionsIngestsources#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#technology OpenpipelineV2UsersessionsIngestsources#technology}
   */
   readonly technology?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorTechnology;
   /**
   * value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#value_metric OpenpipelineV2UsersessionsIngestsources#value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#value_metric OpenpipelineV2UsersessionsIngestsources#value_metric}
   */
   readonly valueMetric?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorValueMetric;
 }
@@ -7193,9 +11204,13 @@ export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProce
     histogram_metric: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorHistogramMetricToTerraform(struct!.histogramMetric),
     product_allocation: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorProductAllocationToTerraform(struct!.productAllocation),
     sampling_aware_counter_metric: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricToTerraform(struct!.samplingAwareCounterMetric),
+    sampling_aware_histogram_metric: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricToTerraform(struct!.samplingAwareHistogramMetric),
     sampling_aware_value_metric: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricToTerraform(struct!.samplingAwareValueMetric),
+    sdlc_event: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventToTerraform(struct!.sdlcEvent),
     security_context: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextToTerraform(struct!.securityContext),
     security_event: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEventToTerraform(struct!.securityEvent),
+    smartscape_edge: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeToTerraform(struct!.smartscapeEdge),
+    smartscape_node: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeToTerraform(struct!.smartscapeNode),
     technology: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorTechnologyToTerraform(struct!.technology),
     value_metric: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorValueMetricToTerraform(struct!.valueMetric),
   }
@@ -7322,11 +11337,23 @@ export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProce
       type: "list",
       storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricList",
     },
+    sampling_aware_histogram_metric: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricToHclTerraform(struct!.samplingAwareHistogramMetric),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricList",
+    },
     sampling_aware_value_metric: {
       value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricToHclTerraform(struct!.samplingAwareValueMetric),
       isBlock: true,
       type: "list",
       storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricList",
+    },
+    sdlc_event: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventToHclTerraform(struct!.sdlcEvent),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventList",
     },
     security_context: {
       value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityContextToHclTerraform(struct!.securityContext),
@@ -7339,6 +11366,18 @@ export function openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProce
       isBlock: true,
       type: "list",
       storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSecurityEventList",
+    },
+    smartscape_edge: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeToHclTerraform(struct!.smartscapeEdge),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeList",
+    },
+    smartscape_node: {
+      value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeToHclTerraform(struct!.smartscapeNode),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeList",
     },
     technology: {
       value: openpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorTechnologyToHclTerraform(struct!.technology),
@@ -7454,9 +11493,17 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
       hasAnyValues = true;
       internalValueResult.samplingAwareCounterMetric = this._samplingAwareCounterMetric?.internalValue;
     }
+    if (this._samplingAwareHistogramMetric?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samplingAwareHistogramMetric = this._samplingAwareHistogramMetric?.internalValue;
+    }
     if (this._samplingAwareValueMetric?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.samplingAwareValueMetric = this._samplingAwareValueMetric?.internalValue;
+    }
+    if (this._sdlcEvent?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sdlcEvent = this._sdlcEvent?.internalValue;
     }
     if (this._securityContext?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -7465,6 +11512,14 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
     if (this._securityEvent?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.securityEvent = this._securityEvent?.internalValue;
+    }
+    if (this._smartscapeEdge?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smartscapeEdge = this._smartscapeEdge?.internalValue;
+    }
+    if (this._smartscapeNode?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smartscapeNode = this._smartscapeNode?.internalValue;
     }
     if (this._technology?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -7500,9 +11555,13 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
       this._histogramMetric.internalValue = undefined;
       this._productAllocation.internalValue = undefined;
       this._samplingAwareCounterMetric.internalValue = undefined;
+      this._samplingAwareHistogramMetric.internalValue = undefined;
       this._samplingAwareValueMetric.internalValue = undefined;
+      this._sdlcEvent.internalValue = undefined;
       this._securityContext.internalValue = undefined;
       this._securityEvent.internalValue = undefined;
+      this._smartscapeEdge.internalValue = undefined;
+      this._smartscapeNode.internalValue = undefined;
       this._technology.internalValue = undefined;
       this._valueMetric.internalValue = undefined;
     }
@@ -7532,9 +11591,13 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
       this._histogramMetric.internalValue = value.histogramMetric;
       this._productAllocation.internalValue = value.productAllocation;
       this._samplingAwareCounterMetric.internalValue = value.samplingAwareCounterMetric;
+      this._samplingAwareHistogramMetric.internalValue = value.samplingAwareHistogramMetric;
       this._samplingAwareValueMetric.internalValue = value.samplingAwareValueMetric;
+      this._sdlcEvent.internalValue = value.sdlcEvent;
       this._securityContext.internalValue = value.securityContext;
       this._securityEvent.internalValue = value.securityEvent;
+      this._smartscapeEdge.internalValue = value.smartscapeEdge;
+      this._smartscapeNode.internalValue = value.smartscapeNode;
       this._technology.internalValue = value.technology;
       this._valueMetric.internalValue = value.valueMetric;
     }
@@ -7832,6 +11895,22 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
     return this._samplingAwareCounterMetric.internalValue;
   }
 
+  // sampling_aware_histogram_metric - computed: false, optional: true, required: false
+  private _samplingAwareHistogramMetric = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricOutputReference(this, "sampling_aware_histogram_metric");
+  public get samplingAwareHistogramMetric() {
+    return this._samplingAwareHistogramMetric;
+  }
+  public putSamplingAwareHistogramMetric(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric) {
+    this._samplingAwareHistogramMetric.internalValue = value;
+  }
+  public resetSamplingAwareHistogramMetric() {
+    this._samplingAwareHistogramMetric.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingAwareHistogramMetricInput() {
+    return this._samplingAwareHistogramMetric.internalValue;
+  }
+
   // sampling_aware_value_metric - computed: false, optional: true, required: false
   private _samplingAwareValueMetric = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricOutputReference(this, "sampling_aware_value_metric");
   public get samplingAwareValueMetric() {
@@ -7846,6 +11925,22 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
   // Temporarily expose input value. Use with caution.
   public get samplingAwareValueMetricInput() {
     return this._samplingAwareValueMetric.internalValue;
+  }
+
+  // sdlc_event - computed: false, optional: true, required: false
+  private _sdlcEvent = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEventOutputReference(this, "sdlc_event");
+  public get sdlcEvent() {
+    return this._sdlcEvent;
+  }
+  public putSdlcEvent(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSdlcEvent) {
+    this._sdlcEvent.internalValue = value;
+  }
+  public resetSdlcEvent() {
+    this._sdlcEvent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sdlcEventInput() {
+    return this._sdlcEvent.internalValue;
   }
 
   // security_context - computed: false, optional: true, required: false
@@ -7878,6 +11973,38 @@ export class OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcesso
   // Temporarily expose input value. Use with caution.
   public get securityEventInput() {
     return this._securityEvent.internalValue;
+  }
+
+  // smartscape_edge - computed: false, optional: true, required: false
+  private _smartscapeEdge = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdgeOutputReference(this, "smartscape_edge");
+  public get smartscapeEdge() {
+    return this._smartscapeEdge;
+  }
+  public putSmartscapeEdge(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge) {
+    this._smartscapeEdge.internalValue = value;
+  }
+  public resetSmartscapeEdge() {
+    this._smartscapeEdge.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeEdgeInput() {
+    return this._smartscapeEdge.internalValue;
+  }
+
+  // smartscape_node - computed: false, optional: true, required: false
+  private _smartscapeNode = new OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeOutputReference(this, "smartscape_node");
+  public get smartscapeNode() {
+    return this._smartscapeNode;
+  }
+  public putSmartscapeNode(value: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessorSmartscapeNode) {
+    this._smartscapeNode.internalValue = value;
+  }
+  public resetSmartscapeNode() {
+    this._smartscapeNode.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeNodeInput() {
+    return this._smartscapeNode.internalValue;
   }
 
   // technology - computed: false, optional: true, required: false
@@ -7936,7 +12063,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessingProcessors {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#processor OpenpipelineV2UsersessionsIngestsources#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#processor OpenpipelineV2UsersessionsIngestsources#processor}
   */
   readonly processor: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -8019,7 +12146,7 @@ export interface OpenpipelineV2UsersessionsIngestsourcesProcessing {
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#processors OpenpipelineV2UsersessionsIngestsources#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#processors OpenpipelineV2UsersessionsIngestsources#processors}
   */
   readonly processors?: OpenpipelineV2UsersessionsIngestsourcesProcessingProcessors;
 }
@@ -8105,19 +12232,19 @@ export interface OpenpipelineV2UsersessionsIngestsourcesStaticRouting {
   /**
   * Builtin Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#builtin_pipeline_id OpenpipelineV2UsersessionsIngestsources#builtin_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#builtin_pipeline_id OpenpipelineV2UsersessionsIngestsources#builtin_pipeline_id}
   */
   readonly builtinPipelineId?: string;
   /**
   * Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#pipeline_id OpenpipelineV2UsersessionsIngestsources#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#pipeline_id OpenpipelineV2UsersessionsIngestsources#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
-  * Pipeline Type. Possible Values: `builtin`, `custom`.
+  * Pipeline Type. Possible Values: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#pipeline_type OpenpipelineV2UsersessionsIngestsources#pipeline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#pipeline_type OpenpipelineV2UsersessionsIngestsources#pipeline_type}
   */
   readonly pipelineType: string;
 }
@@ -8256,7 +12383,7 @@ export class OpenpipelineV2UsersessionsIngestsourcesStaticRoutingOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources dynatrace_openpipeline_v2_usersessions_ingestsources}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources dynatrace_openpipeline_v2_usersessions_ingestsources}
 */
 export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformResource {
 
@@ -8272,7 +12399,7 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
   * Generates CDKTF code for importing a OpenpipelineV2UsersessionsIngestsources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2UsersessionsIngestsources to import
-  * @param importFromId The id of the existing OpenpipelineV2UsersessionsIngestsources that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2UsersessionsIngestsources that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2UsersessionsIngestsources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8284,7 +12411,7 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_ingestsources dynatrace_openpipeline_v2_usersessions_ingestsources} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_ingestsources dynatrace_openpipeline_v2_usersessions_ingestsources} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8295,8 +12422,8 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
       terraformResourceType: 'dynatrace_openpipeline_v2_usersessions_ingestsources',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8311,6 +12438,8 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
     this._enabled = config.enabled;
     this._id = config.id;
     this._pathSegment = config.pathSegment;
+    this._source = config.source;
+    this._sourceType = config.sourceType;
     this._processing.internalValue = config.processing;
     this._staticRouting.internalValue = config.staticRouting;
   }
@@ -8377,7 +12506,7 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
     return this._id;
   }
 
-  // path_segment - computed: false, optional: false, required: true
+  // path_segment - computed: false, optional: true, required: false
   private _pathSegment?: string; 
   public get pathSegment() {
     return this.getStringAttribute('path_segment');
@@ -8385,18 +12514,56 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
   public set pathSegment(value: string) {
     this._pathSegment = value;
   }
+  public resetPathSegment() {
+    this._pathSegment = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get pathSegmentInput() {
     return this._pathSegment;
   }
 
-  // processing - computed: false, optional: false, required: true
+  // source - computed: false, optional: true, required: false
+  private _source?: string; 
+  public get source() {
+    return this.getStringAttribute('source');
+  }
+  public set source(value: string) {
+    this._source = value;
+  }
+  public resetSource() {
+    this._source = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source;
+  }
+
+  // source_type - computed: false, optional: true, required: false
+  private _sourceType?: string; 
+  public get sourceType() {
+    return this.getStringAttribute('source_type');
+  }
+  public set sourceType(value: string) {
+    this._sourceType = value;
+  }
+  public resetSourceType() {
+    this._sourceType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTypeInput() {
+    return this._sourceType;
+  }
+
+  // processing - computed: false, optional: true, required: false
   private _processing = new OpenpipelineV2UsersessionsIngestsourcesProcessingOutputReference(this, "processing");
   public get processing() {
     return this._processing;
   }
   public putProcessing(value: OpenpipelineV2UsersessionsIngestsourcesProcessing) {
     this._processing.internalValue = value;
+  }
+  public resetProcessing() {
+    this._processing.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get processingInput() {
@@ -8430,6 +12597,8 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
       enabled: cdktf.booleanToTerraform(this._enabled),
       id: cdktf.stringToTerraform(this._id),
       path_segment: cdktf.stringToTerraform(this._pathSegment),
+      source: cdktf.stringToTerraform(this._source),
+      source_type: cdktf.stringToTerraform(this._sourceType),
       processing: openpipelineV2UsersessionsIngestsourcesProcessingToTerraform(this._processing.internalValue),
       static_routing: openpipelineV2UsersessionsIngestsourcesStaticRoutingToTerraform(this._staticRouting.internalValue),
     };
@@ -8463,6 +12632,18 @@ export class OpenpipelineV2UsersessionsIngestsources extends cdktf.TerraformReso
       },
       path_segment: {
         value: cdktf.stringToHclTerraform(this._pathSegment),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source: {
+        value: cdktf.stringToHclTerraform(this._source),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_type: {
+        value: cdktf.stringToHclTerraform(this._sourceType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

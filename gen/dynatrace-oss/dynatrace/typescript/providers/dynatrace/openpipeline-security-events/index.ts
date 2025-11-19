@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpenpipelineSecurityEventsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface OpenpipelineSecurityEventsConfig extends cdktf.TerraformMetaArg
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#endpoints OpenpipelineSecurityEvents#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#endpoints OpenpipelineSecurityEvents#endpoints}
   */
   readonly endpoints?: OpenpipelineSecurityEventsEndpoints;
   /**
   * pipelines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#pipelines OpenpipelineSecurityEvents#pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#pipelines OpenpipelineSecurityEvents#pipelines}
   */
   readonly pipelines?: OpenpipelineSecurityEventsPipelines;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#routing OpenpipelineSecurityEvents#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#routing OpenpipelineSecurityEvents#routing}
   */
   readonly routing?: OpenpipelineSecurityEventsRouting;
 }
@@ -37,25 +37,25 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorD
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dql_script OpenpipelineSecurityEvents#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dql_script OpenpipelineSecurityEvents#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,13 +64,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorD
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -286,19 +286,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorD
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -307,13 +307,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorD
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -503,13 +503,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#name OpenpipelineSecurityEvents#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#name OpenpipelineSecurityEvents#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: string;
 }
@@ -650,19 +650,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -671,19 +671,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -899,25 +899,25 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -926,13 +926,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -1148,13 +1148,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#from_name OpenpipelineSecurityEvents#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#from_name OpenpipelineSecurityEvents#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#to_name OpenpipelineSecurityEvents#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#to_name OpenpipelineSecurityEvents#to_name}
   */
   readonly toName: string;
 }
@@ -1295,19 +1295,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1316,19 +1316,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -1544,19 +1544,19 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorT
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#custom_matcher OpenpipelineSecurityEvents#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#custom_matcher OpenpipelineSecurityEvents#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1565,13 +1565,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorT
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#technology_id OpenpipelineSecurityEvents#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#technology_id OpenpipelineSecurityEvents#technology_id}
   */
   readonly technologyId: string;
 }
@@ -1764,37 +1764,37 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessor 
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dql_processor OpenpipelineSecurityEvents#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dql_processor OpenpipelineSecurityEvents#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#drop_processor OpenpipelineSecurityEvents#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#drop_processor OpenpipelineSecurityEvents#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_add_processor OpenpipelineSecurityEvents#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_add_processor OpenpipelineSecurityEvents#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_remove_processor OpenpipelineSecurityEvents#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_remove_processor OpenpipelineSecurityEvents#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_rename_processor OpenpipelineSecurityEvents#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_rename_processor OpenpipelineSecurityEvents#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#technology_processor OpenpipelineSecurityEvents#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#technology_processor OpenpipelineSecurityEvents#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessorTechnologyProcessor;
 }
@@ -2057,7 +2057,7 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointProcessors {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsEndpointsEndpointProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -2143,13 +2143,13 @@ export interface OpenpipelineSecurityEventsEndpointsEndpointRouting {
   /**
   * Pipeline ID of the static routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#pipeline_id OpenpipelineSecurityEvents#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#pipeline_id OpenpipelineSecurityEvents#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Type of routing, static or dynamic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -2261,37 +2261,37 @@ export interface OpenpipelineSecurityEventsEndpointsEndpoint {
   /**
   * The default bucket assigned to records for the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#default_bucket OpenpipelineSecurityEvents#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#default_bucket OpenpipelineSecurityEvents#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * Display name of the ingest source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#display_name OpenpipelineSecurityEvents#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#display_name OpenpipelineSecurityEvents#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The segment of the ingest source, which is applied to the base path. Must be unique within a configuration."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#segment OpenpipelineSecurityEvents#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#segment OpenpipelineSecurityEvents#segment}
   */
   readonly segment: string;
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processors OpenpipelineSecurityEvents#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processors OpenpipelineSecurityEvents#processors}
   */
   readonly processors?: OpenpipelineSecurityEventsEndpointsEndpointProcessors;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#routing OpenpipelineSecurityEvents#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#routing OpenpipelineSecurityEvents#routing}
   */
   readonly routing: OpenpipelineSecurityEventsEndpointsEndpointRouting;
 }
@@ -2542,7 +2542,7 @@ export interface OpenpipelineSecurityEventsEndpoints {
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#endpoint OpenpipelineSecurityEvents#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#endpoint OpenpipelineSecurityEvents#endpoint}
   */
   readonly endpoint?: OpenpipelineSecurityEventsEndpointsEndpoint[] | cdktf.IResolvable;
 }
@@ -2628,25 +2628,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProces
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -2816,19 +2816,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2837,19 +2837,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProcessorCostAllocationProcessorValue;
 }
@@ -3065,7 +3065,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProces
   /**
   * cost_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#cost_allocation_processor OpenpipelineSecurityEvents#cost_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#cost_allocation_processor OpenpipelineSecurityEvents#cost_allocation_processor}
   */
   readonly costAllocationProcessor?: OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProcessorCostAllocationProcessor;
 }
@@ -3183,7 +3183,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineCostAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineCostAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -3269,13 +3269,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
   */
   readonly semantic: string;
 }
@@ -3387,23 +3387,23 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#forwarder_config_id OpenpipelineSecurityEvents#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#forwarder_config_id OpenpipelineSecurityEvents#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3412,19 +3412,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessorFieldExtraction;
 }
@@ -3669,25 +3669,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -3857,25 +3857,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -4045,13 +4045,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
   */
   readonly semantic: string;
 }
@@ -4163,19 +4163,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4184,31 +4184,31 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#event_provider OpenpipelineSecurityEvents#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#event_provider OpenpipelineSecurityEvents#event_provider}
   */
   readonly eventProvider: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#event_type OpenpipelineSecurityEvents#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#event_type OpenpipelineSecurityEvents#event_type}
   */
   readonly eventType: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessorFieldExtraction;
 }
@@ -4479,13 +4479,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * The key to set on the davis event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#key OpenpipelineSecurityEvents#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#key OpenpipelineSecurityEvents#key}
   */
   readonly key: string;
   /**
   * The value assigned to the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: string;
 }
@@ -4626,19 +4626,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4647,19 +4647,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#properties OpenpipelineSecurityEvents#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#properties OpenpipelineSecurityEvents#properties}
   */
   readonly properties: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessorProperties[] | cdktf.IResolvable;
 }
@@ -4875,13 +4875,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Unique fields to include/exclude in the extracted record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
   */
   readonly fields?: string[];
   /**
   * Defines how the fields of the source record should be extracted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#semantic OpenpipelineSecurityEvents#semantic}
   */
   readonly semantic: string;
 }
@@ -4993,19 +4993,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5014,19 +5014,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field_extraction OpenpipelineSecurityEvents#field_extraction}
   */
   readonly fieldExtraction?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessorFieldExtraction;
 }
@@ -5245,25 +5245,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProces
   /**
   * azure_log_forwarding_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#azure_log_forwarding_processor OpenpipelineSecurityEvents#azure_log_forwarding_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#azure_log_forwarding_processor OpenpipelineSecurityEvents#azure_log_forwarding_processor}
   */
   readonly azureLogForwardingProcessor?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorAzureLogForwardingProcessor;
   /**
   * bizevent_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#bizevent_extraction_processor OpenpipelineSecurityEvents#bizevent_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#bizevent_extraction_processor OpenpipelineSecurityEvents#bizevent_extraction_processor}
   */
   readonly bizeventExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorBizeventExtractionProcessor;
   /**
   * davis_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#davis_event_extraction_processor OpenpipelineSecurityEvents#davis_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#davis_event_extraction_processor OpenpipelineSecurityEvents#davis_event_extraction_processor}
   */
   readonly davisEventExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorDavisEventExtractionProcessor;
   /**
   * security_event_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#security_event_extraction_processor OpenpipelineSecurityEvents#security_event_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#security_event_extraction_processor OpenpipelineSecurityEvents#security_event_extraction_processor}
   */
   readonly securityEventExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessorSecurityEventExtractionProcessor;
 }
@@ -5468,7 +5468,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineDataExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineDataExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -5554,25 +5554,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5581,19 +5581,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -5838,13 +5838,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Indicates whether aggregation is considered for metric extraction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#aggregation OpenpipelineSecurityEvents#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#aggregation OpenpipelineSecurityEvents#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
@@ -5853,19 +5853,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5874,25 +5874,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sampling OpenpipelineSecurityEvents#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sampling OpenpipelineSecurityEvents#sampling}
   */
   readonly sampling?: string;
 }
@@ -6195,19 +6195,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Indicates whether aggregation is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#aggregation OpenpipelineSecurityEvents#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#aggregation OpenpipelineSecurityEvents#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The default value to use if the given field value could not be extracted. String value must be a number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#default_value OpenpipelineSecurityEvents#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#default_value OpenpipelineSecurityEvents#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
@@ -6216,25 +6216,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   * '{dimensionName}' is optional if {sourceField} represents a valid metric dimension name.
   * '{sourceField}' has to represent a valid DQL field accessor and it can access a nested field (for example, 'field[field2][0]')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field from which to extract the value for the metric, or 'null' for a duration measurement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6243,31 +6243,31 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Indicates whether the metric value should be the specified field or duration. Possible values: 'DURATION', 'FIELD'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#measurement OpenpipelineSecurityEvents#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#measurement OpenpipelineSecurityEvents#measurement}
   */
   readonly measurement: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Indicates whether sampling is considered for metric extraction. Possible values: 'DISABLED', 'ENABLED'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sampling OpenpipelineSecurityEvents#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sampling OpenpipelineSecurityEvents#sampling}
   */
   readonly sampling?: string;
 }
@@ -6654,31 +6654,31 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * List of dimensions to add to the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dimensions OpenpipelineSecurityEvents#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The field to extract the value for the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field: string;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6687,19 +6687,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * The key of the metric to write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#metric_key OpenpipelineSecurityEvents#metric_key}
   */
   readonly metricKey: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -6970,25 +6970,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProc
   /**
   * counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#counter_metric_extraction_processor OpenpipelineSecurityEvents#counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#counter_metric_extraction_processor OpenpipelineSecurityEvents#counter_metric_extraction_processor}
   */
   readonly counterMetricExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProcessorCounterMetricExtractionProcessor;
   /**
   * sampling_aware_counter_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sampling_aware_counter_metric_extraction_processor OpenpipelineSecurityEvents#sampling_aware_counter_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sampling_aware_counter_metric_extraction_processor OpenpipelineSecurityEvents#sampling_aware_counter_metric_extraction_processor}
   */
   readonly samplingAwareCounterMetricExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProcessorSamplingAwareCounterMetricExtractionProcessor;
   /**
   * sampling_aware_value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sampling_aware_value_metric_extraction_processor OpenpipelineSecurityEvents#sampling_aware_value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sampling_aware_value_metric_extraction_processor OpenpipelineSecurityEvents#sampling_aware_value_metric_extraction_processor}
   */
   readonly samplingAwareValueMetricExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProcessorSamplingAwareValueMetricExtractionProcessor;
   /**
   * value_metric_extraction_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value_metric_extraction_processor OpenpipelineSecurityEvents#value_metric_extraction_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value_metric_extraction_processor OpenpipelineSecurityEvents#value_metric_extraction_processor}
   */
   readonly valueMetricExtractionProcessor?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProcessorValueMetricExtractionProcessor;
 }
@@ -7193,7 +7193,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineMetricExtraction {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtractionProcessor[] | cdktf.IResolvable;
 }
@@ -7279,25 +7279,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorD
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * The DQL script to apply on the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dql_script OpenpipelineSecurityEvents#dql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dql_script OpenpipelineSecurityEvents#dql_script}
   */
   readonly dqlScript: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7306,13 +7306,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorD
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7528,19 +7528,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorD
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7549,13 +7549,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorD
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -7745,13 +7745,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Name of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#name OpenpipelineSecurityEvents#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#name OpenpipelineSecurityEvents#name}
   */
   readonly name: string;
   /**
   *  Value to assign to the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: string;
 }
@@ -7892,19 +7892,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7913,19 +7913,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorFieldsAddProcessorField[] | cdktf.IResolvable;
 }
@@ -8141,25 +8141,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field to add to the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields OpenpipelineSecurityEvents#fields}
   */
   readonly fields: string[];
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8168,13 +8168,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -8390,13 +8390,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * The field to rename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#from_name OpenpipelineSecurityEvents#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#from_name OpenpipelineSecurityEvents#from_name}
   */
   readonly fromName: string;
   /**
   * The new field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#to_name OpenpipelineSecurityEvents#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#to_name OpenpipelineSecurityEvents#to_name}
   */
   readonly toName: string;
 }
@@ -8537,19 +8537,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8558,19 +8558,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorF
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorFieldsRenameProcessorField[] | cdktf.IResolvable;
 }
@@ -8786,19 +8786,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorT
   /**
   * Optional customer-defined matching condition, that is used in place of the main technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#custom_matcher OpenpipelineSecurityEvents#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#custom_matcher OpenpipelineSecurityEvents#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8807,13 +8807,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorT
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * The reference identifier to a specific technology. This technology is applied on the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#technology_id OpenpipelineSecurityEvents#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#technology_id OpenpipelineSecurityEvents#technology_id}
   */
   readonly technologyId: string;
 }
@@ -9006,37 +9006,37 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessor 
   /**
   * dql_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#dql_processor OpenpipelineSecurityEvents#dql_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#dql_processor OpenpipelineSecurityEvents#dql_processor}
   */
   readonly dqlProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorDqlProcessor;
   /**
   * drop_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#drop_processor OpenpipelineSecurityEvents#drop_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#drop_processor OpenpipelineSecurityEvents#drop_processor}
   */
   readonly dropProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorDropProcessor;
   /**
   * fields_add_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_add_processor OpenpipelineSecurityEvents#fields_add_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_add_processor OpenpipelineSecurityEvents#fields_add_processor}
   */
   readonly fieldsAddProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorFieldsAddProcessor;
   /**
   * fields_remove_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_remove_processor OpenpipelineSecurityEvents#fields_remove_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_remove_processor OpenpipelineSecurityEvents#fields_remove_processor}
   */
   readonly fieldsRemoveProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorFieldsRemoveProcessor;
   /**
   * fields_rename_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#fields_rename_processor OpenpipelineSecurityEvents#fields_rename_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#fields_rename_processor OpenpipelineSecurityEvents#fields_rename_processor}
   */
   readonly fieldsRenameProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorFieldsRenameProcessor;
   /**
   * technology_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#technology_processor OpenpipelineSecurityEvents#technology_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#technology_processor OpenpipelineSecurityEvents#technology_processor}
   */
   readonly technologyProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessorTechnologyProcessor;
 }
@@ -9299,7 +9299,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProcessing {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineProcessingProcessor[] | cdktf.IResolvable;
 }
@@ -9385,25 +9385,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProductAllocationPro
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -9573,19 +9573,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProductAllocationPro
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9594,19 +9594,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProductAllocationPro
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: OpenpipelineSecurityEventsPipelinesPipelineProductAllocationProcessorProductAllocationProcessorValue;
 }
@@ -9822,7 +9822,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProductAllocationPro
   /**
   * product_allocation_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#product_allocation_processor OpenpipelineSecurityEvents#product_allocation_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#product_allocation_processor OpenpipelineSecurityEvents#product_allocation_processor}
   */
   readonly productAllocationProcessor?: OpenpipelineSecurityEventsPipelinesPipelineProductAllocationProcessorProductAllocationProcessor;
 }
@@ -9940,7 +9940,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineProductAllocation {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineProductAllocationProcessor[] | cdktf.IResolvable;
 }
@@ -10026,25 +10026,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProce
   /**
   * Assign a constant value. Can only be used if 'type' is set to 'constant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#constant OpenpipelineSecurityEvents#constant}
   */
   readonly constant?: string;
   /**
   * Assign a value extracted from a field. Can only be used if 'type' is set to 'field'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#field OpenpipelineSecurityEvents#field}
   */
   readonly field?: string;
   /**
   * The constant multi value to assign. Can only be used if 'type' is set to 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#multi_value_constant OpenpipelineSecurityEvents#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Strategy to assign a value. Possible values: 'constant', 'field', 'multiValueConstant'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#type OpenpipelineSecurityEvents#type}
   */
   readonly type: string;
 }
@@ -10214,19 +10214,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProce
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10235,19 +10235,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProce
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#value OpenpipelineSecurityEvents#value}
   */
   readonly value: OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProcessorSecurityContextProcessorValue;
 }
@@ -10463,7 +10463,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProce
   /**
   * security_context_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#security_context_processor OpenpipelineSecurityEvents#security_context_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#security_context_processor OpenpipelineSecurityEvents#security_context_processor}
   */
   readonly securityContextProcessor?: OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProcessorSecurityContextProcessor;
 }
@@ -10581,7 +10581,7 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineSecurityContext {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineSecurityContextProcessor[] | cdktf.IResolvable;
 }
@@ -10667,25 +10667,25 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorBuck
   /**
   * Bucket that is assigned when the record is matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#bucket_name OpenpipelineSecurityEvents#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#bucket_name OpenpipelineSecurityEvents#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10694,13 +10694,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorBuck
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -10916,19 +10916,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorNoSt
   /**
   * Name or description of the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#description OpenpipelineSecurityEvents#description}
   */
   readonly description: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the processor. Must be unique within a stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10937,13 +10937,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorNoSt
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Sample data related to the processor for documentation or testing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#sample_data OpenpipelineSecurityEvents#sample_data}
   */
   readonly sampleData?: string;
 }
@@ -11133,13 +11133,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorageProcessor {
   /**
   * bucket_assignment_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#bucket_assignment_processor OpenpipelineSecurityEvents#bucket_assignment_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#bucket_assignment_processor OpenpipelineSecurityEvents#bucket_assignment_processor}
   */
   readonly bucketAssignmentProcessor?: OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorBucketAssignmentProcessor;
   /**
   * no_storage_processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#no_storage_processor OpenpipelineSecurityEvents#no_storage_processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#no_storage_processor OpenpipelineSecurityEvents#no_storage_processor}
   */
   readonly noStorageProcessor?: OpenpipelineSecurityEventsPipelinesPipelineStorageProcessorNoStorageProcessor;
 }
@@ -11286,13 +11286,13 @@ export interface OpenpipelineSecurityEventsPipelinesPipelineStorage {
   /**
   * Default bucket assigned to records which do not match any other storage processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#catch_all_bucket_name OpenpipelineSecurityEvents#catch_all_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#catch_all_bucket_name OpenpipelineSecurityEvents#catch_all_bucket_name}
   */
   readonly catchAllBucketName?: string;
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processor OpenpipelineSecurityEvents#processor}
   */
   readonly processor?: OpenpipelineSecurityEventsPipelinesPipelineStorageProcessor[] | cdktf.IResolvable;
 }
@@ -11407,19 +11407,19 @@ export interface OpenpipelineSecurityEventsPipelinesPipeline {
   /**
   * Display name of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#display_name OpenpipelineSecurityEvents#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#display_name OpenpipelineSecurityEvents#display_name}
   */
   readonly displayName: string;
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Identifier of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#id OpenpipelineSecurityEvents#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11428,43 +11428,43 @@ export interface OpenpipelineSecurityEventsPipelinesPipeline {
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#cost_allocation OpenpipelineSecurityEvents#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#cost_allocation OpenpipelineSecurityEvents#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineSecurityEventsPipelinesPipelineCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#data_extraction OpenpipelineSecurityEvents#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#data_extraction OpenpipelineSecurityEvents#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineSecurityEventsPipelinesPipelineDataExtraction;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#metric_extraction OpenpipelineSecurityEvents#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#metric_extraction OpenpipelineSecurityEvents#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineSecurityEventsPipelinesPipelineMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#processing OpenpipelineSecurityEvents#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#processing OpenpipelineSecurityEvents#processing}
   */
   readonly processing?: OpenpipelineSecurityEventsPipelinesPipelineProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#product_allocation OpenpipelineSecurityEvents#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#product_allocation OpenpipelineSecurityEvents#product_allocation}
   */
   readonly productAllocation?: OpenpipelineSecurityEventsPipelinesPipelineProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#security_context OpenpipelineSecurityEvents#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#security_context OpenpipelineSecurityEvents#security_context}
   */
   readonly securityContext?: OpenpipelineSecurityEventsPipelinesPipelineSecurityContext;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#storage OpenpipelineSecurityEvents#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#storage OpenpipelineSecurityEvents#storage}
   */
   readonly storage?: OpenpipelineSecurityEventsPipelinesPipelineStorage;
 }
@@ -11834,7 +11834,7 @@ export interface OpenpipelineSecurityEventsPipelines {
   /**
   * pipeline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#pipeline OpenpipelineSecurityEvents#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#pipeline OpenpipelineSecurityEvents#pipeline}
   */
   readonly pipeline?: OpenpipelineSecurityEventsPipelinesPipeline[] | cdktf.IResolvable;
 }
@@ -11920,25 +11920,25 @@ export interface OpenpipelineSecurityEventsRoutingEntry {
   /**
   * Indicates if the object is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#enabled OpenpipelineSecurityEvents#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Matching condition to apply on incoming records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#matcher OpenpipelineSecurityEvents#matcher}
   */
   readonly matcher: string;
   /**
   * Unique note describing the dynamic route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#note OpenpipelineSecurityEvents#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#note OpenpipelineSecurityEvents#note}
   */
   readonly note: string;
   /**
   * Identifier of the pipeline the record is routed into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#pipeline_id OpenpipelineSecurityEvents#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#pipeline_id OpenpipelineSecurityEvents#pipeline_id}
   */
   readonly pipelineId: string;
 }
@@ -12131,7 +12131,7 @@ export interface OpenpipelineSecurityEventsRouting {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#entry OpenpipelineSecurityEvents#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#entry OpenpipelineSecurityEvents#entry}
   */
   readonly entry?: OpenpipelineSecurityEventsRoutingEntry[] | cdktf.IResolvable;
 }
@@ -12215,7 +12215,7 @@ export class OpenpipelineSecurityEventsRoutingOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events dynatrace_openpipeline_security_events}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events dynatrace_openpipeline_security_events}
 */
 export class OpenpipelineSecurityEvents extends cdktf.TerraformResource {
 
@@ -12231,7 +12231,7 @@ export class OpenpipelineSecurityEvents extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineSecurityEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineSecurityEvents to import
-  * @param importFromId The id of the existing OpenpipelineSecurityEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineSecurityEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineSecurityEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12243,7 +12243,7 @@ export class OpenpipelineSecurityEvents extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_security_events dynatrace_openpipeline_security_events} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_security_events dynatrace_openpipeline_security_events} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12254,8 +12254,8 @@ export class OpenpipelineSecurityEvents extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_security_events',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpenpipelineV2UsersessionsRoutingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#id OpenpipelineV2UsersessionsRouting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#id OpenpipelineV2UsersessionsRouting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface OpenpipelineV2UsersessionsRoutingConfig extends cdktf.Terraform
   /**
   * routing_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#routing_entries OpenpipelineV2UsersessionsRouting#routing_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#routing_entries OpenpipelineV2UsersessionsRouting#routing_entries}
   */
   readonly routingEntries?: OpenpipelineV2UsersessionsRoutingRoutingEntries;
 }
@@ -25,37 +25,37 @@ export interface OpenpipelineV2UsersessionsRoutingRoutingEntriesRoutingEntry {
   /**
   * Builtin Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#builtin_pipeline_id OpenpipelineV2UsersessionsRouting#builtin_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#builtin_pipeline_id OpenpipelineV2UsersessionsRouting#builtin_pipeline_id}
   */
   readonly builtinPipelineId?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#description OpenpipelineV2UsersessionsRouting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#description OpenpipelineV2UsersessionsRouting#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#enabled OpenpipelineV2UsersessionsRouting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#enabled OpenpipelineV2UsersessionsRouting#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Query which determines whether the record should be routed to the target pipeline of this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#matcher OpenpipelineV2UsersessionsRouting#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#matcher OpenpipelineV2UsersessionsRouting#matcher}
   */
   readonly matcher: string;
   /**
   * Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#pipeline_id OpenpipelineV2UsersessionsRouting#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#pipeline_id OpenpipelineV2UsersessionsRouting#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
-  * Pipeline Type. Possible Values: `builtin`, `custom`.
+  * Pipeline Type. Possible Values: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#pipeline_type OpenpipelineV2UsersessionsRouting#pipeline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#pipeline_type OpenpipelineV2UsersessionsRouting#pipeline_type}
   */
   readonly pipelineType: string;
 }
@@ -306,7 +306,7 @@ export interface OpenpipelineV2UsersessionsRoutingRoutingEntries {
   /**
   * routing_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#routing_entry OpenpipelineV2UsersessionsRouting#routing_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#routing_entry OpenpipelineV2UsersessionsRouting#routing_entry}
   */
   readonly routingEntry: OpenpipelineV2UsersessionsRoutingRoutingEntriesRoutingEntry[] | cdktf.IResolvable;
 }
@@ -387,7 +387,7 @@ export class OpenpipelineV2UsersessionsRoutingRoutingEntriesOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing dynatrace_openpipeline_v2_usersessions_routing}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing dynatrace_openpipeline_v2_usersessions_routing}
 */
 export class OpenpipelineV2UsersessionsRouting extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class OpenpipelineV2UsersessionsRouting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineV2UsersessionsRouting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2UsersessionsRouting to import
-  * @param importFromId The id of the existing OpenpipelineV2UsersessionsRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2UsersessionsRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2UsersessionsRouting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class OpenpipelineV2UsersessionsRouting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_routing dynatrace_openpipeline_v2_usersessions_routing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_routing dynatrace_openpipeline_v2_usersessions_routing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class OpenpipelineV2UsersessionsRouting extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_v2_usersessions_routing',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

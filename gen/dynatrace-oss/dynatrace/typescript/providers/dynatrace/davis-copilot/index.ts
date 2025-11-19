@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DavisCopilotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Please note that once enabled, you still need to [assign permissions](https://dt-url.net/rh22idn "Davis CoPilot permissions") to the relevant user groups.
+  * Please note that once enabled, you still need to [assign permissions](https://dt-url.net/rh22idn "Dynatrace Generative AI permissions") to the relevant user groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#enable_copilot DavisCopilot#enable_copilot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#enable_copilot DavisCopilot#enable_copilot}
   */
   readonly enableCopilot: boolean | cdktf.IResolvable;
   /**
-  * You can enrich Davis CoPilot with your environment data. This lets you generate more accurate queries that identify and reference relevant entities, events, spans, logs, and metrics from your environment. Once enabled, Davis CoPilot periodically scans your Grail data to create its own semantic index. Please note, it can take up to 24 hours to reflect changes. Learn more about [environment-aware queries](https://dt-url.net/4g42iu7 "Davis CoPilot environment aware queries").
+  * By enabling document suggestions, Dynatrace AI can find similarities between Problems and existing Notebooks and Dashboards in order to suggest relevant troubleshooting guides. Learn more about [document suggestions](https://dt-url.net/xy02gpo "Dynatrace AI document suggestions").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#enable_tenant_aware_data_mining DavisCopilot#enable_tenant_aware_data_mining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#enable_document_suggestion DavisCopilot#enable_document_suggestion}
+  */
+  readonly enableDocumentSuggestion?: boolean | cdktf.IResolvable;
+  /**
+  * You can enrich Dynatrace Generative AI with your environment data. This lets you generate more accurate queries that identify and reference relevant entities, events, spans, logs, and metrics from your environment. Once enabled, Dynatrace AI periodically scans your Grail data to create its own semantic index. Please note, it can take up to 24 hours to reflect changes. Learn more about [environment-aware queries](https://dt-url.net/4g42iu7 "Dynatrace Generative AI environment aware queries").
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#enable_tenant_aware_data_mining DavisCopilot#enable_tenant_aware_data_mining}
   */
   readonly enableTenantAwareDataMining?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#id DavisCopilot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#id DavisCopilot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +35,7 @@ export interface DavisCopilotConfig extends cdktf.TerraformMetaArguments {
   /**
   * blocklist_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#blocklist_entries DavisCopilot#blocklist_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#blocklist_entries DavisCopilot#blocklist_entries}
   */
   readonly blocklistEntries?: DavisCopilotBlocklistEntries;
 }
@@ -37,13 +43,13 @@ export interface DavisCopilotBlocklistEntriesBlocklistEntrie {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#name DavisCopilot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#name DavisCopilot#name}
   */
   readonly name: string;
   /**
   * Possible Values: `BUCKET`, `TABLE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#type DavisCopilot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#type DavisCopilot#type}
   */
   readonly type: string;
 }
@@ -184,7 +190,7 @@ export interface DavisCopilotBlocklistEntries {
   /**
   * blocklist_entrie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#blocklist_entrie DavisCopilot#blocklist_entrie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#blocklist_entrie DavisCopilot#blocklist_entrie}
   */
   readonly blocklistEntrie: DavisCopilotBlocklistEntriesBlocklistEntrie[] | cdktf.IResolvable;
 }
@@ -265,7 +271,7 @@ export class DavisCopilotBlocklistEntriesOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot dynatrace_davis_copilot}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot dynatrace_davis_copilot}
 */
 export class DavisCopilot extends cdktf.TerraformResource {
 
@@ -281,7 +287,7 @@ export class DavisCopilot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DavisCopilot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DavisCopilot to import
-  * @param importFromId The id of the existing DavisCopilot that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DavisCopilot that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DavisCopilot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +299,7 @@ export class DavisCopilot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/davis_copilot dynatrace_davis_copilot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/davis_copilot dynatrace_davis_copilot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +310,8 @@ export class DavisCopilot extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_davis_copilot',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -316,6 +322,7 @@ export class DavisCopilot extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._enableCopilot = config.enableCopilot;
+    this._enableDocumentSuggestion = config.enableDocumentSuggestion;
     this._enableTenantAwareDataMining = config.enableTenantAwareDataMining;
     this._id = config.id;
     this._blocklistEntries.internalValue = config.blocklistEntries;
@@ -336,6 +343,22 @@ export class DavisCopilot extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableCopilotInput() {
     return this._enableCopilot;
+  }
+
+  // enable_document_suggestion - computed: false, optional: true, required: false
+  private _enableDocumentSuggestion?: boolean | cdktf.IResolvable; 
+  public get enableDocumentSuggestion() {
+    return this.getBooleanAttribute('enable_document_suggestion');
+  }
+  public set enableDocumentSuggestion(value: boolean | cdktf.IResolvable) {
+    this._enableDocumentSuggestion = value;
+  }
+  public resetEnableDocumentSuggestion() {
+    this._enableDocumentSuggestion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDocumentSuggestionInput() {
+    return this._enableDocumentSuggestion;
   }
 
   // enable_tenant_aware_data_mining - computed: false, optional: true, required: false
@@ -393,6 +416,7 @@ export class DavisCopilot extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       enable_copilot: cdktf.booleanToTerraform(this._enableCopilot),
+      enable_document_suggestion: cdktf.booleanToTerraform(this._enableDocumentSuggestion),
       enable_tenant_aware_data_mining: cdktf.booleanToTerraform(this._enableTenantAwareDataMining),
       id: cdktf.stringToTerraform(this._id),
       blocklist_entries: davisCopilotBlocklistEntriesToTerraform(this._blocklistEntries.internalValue),
@@ -403,6 +427,12 @@ export class DavisCopilot extends cdktf.TerraformResource {
     const attrs = {
       enable_copilot: {
         value: cdktf.booleanToHclTerraform(this._enableCopilot),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_document_suggestion: {
+        value: cdktf.booleanToHclTerraform(this._enableDocumentSuggestion),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

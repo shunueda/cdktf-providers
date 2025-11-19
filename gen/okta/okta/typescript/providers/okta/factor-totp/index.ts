@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FactorTotpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Clock drift interval. This setting allows you to build in tolerance for any drift between the token's current time and the server's current time. Valid values: `3`, `5`, `10`. Default is `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#clock_drift_interval FactorTotp#clock_drift_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#clock_drift_interval FactorTotp#clock_drift_interval}
   */
   readonly clockDriftInterval?: number;
   /**
   * HMAC Algorithm. Valid values: `HMacSHA1`, `HMacSHA256`, `HMacSHA512`. Default is `HMacSHA512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#hmac_algorithm FactorTotp#hmac_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#hmac_algorithm FactorTotp#hmac_algorithm}
   */
   readonly hmacAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#id FactorTotp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#id FactorTotp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface FactorTotpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The TOTP name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#name FactorTotp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#name FactorTotp#name}
   */
   readonly name: string;
   /**
   * Length of the password. Default is `6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#otp_length FactorTotp#otp_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#otp_length FactorTotp#otp_length}
   */
   readonly otpLength?: number;
   /**
   * Shared secret encoding. Valid values: `base32`, `base64`, `hexadecimal`. Default is `base32`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#shared_secret_encoding FactorTotp#shared_secret_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#shared_secret_encoding FactorTotp#shared_secret_encoding}
   */
   readonly sharedSecretEncoding?: string;
   /**
   * Time step in seconds. Valid values: `15`, `30`, `60`. Default is `15`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#time_step FactorTotp#time_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#time_step FactorTotp#time_step}
   */
   readonly timeStep?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp okta_factor_totp}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp okta_factor_totp}
 */
 export class FactorTotp extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class FactorTotp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FactorTotp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FactorTotp to import
-  * @param importFromId The id of the existing FactorTotp that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FactorTotp that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FactorTotp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class FactorTotp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/factor_totp okta_factor_totp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/factor_totp okta_factor_totp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class FactorTotp extends cdktf.TerraformResource {
       terraformResourceType: 'okta_factor_totp',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

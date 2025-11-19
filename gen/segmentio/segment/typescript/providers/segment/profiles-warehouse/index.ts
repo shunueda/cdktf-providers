@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProfilesWarehouseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable to allow this Warehouse to receive data. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#enabled ProfilesWarehouse#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#enabled ProfilesWarehouse#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Warehouse metadata to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#metadata_id ProfilesWarehouse#metadata_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#metadata_id ProfilesWarehouse#metadata_id}
   */
   readonly metadataId: string;
   /**
   * An optional human-readable name for this Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#name ProfilesWarehouse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#name ProfilesWarehouse#name}
   */
   readonly name?: string;
   /**
   * The custom schema name that Segment uses on the Warehouse side. The space slug value is default otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#schema_name ProfilesWarehouse#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#schema_name ProfilesWarehouse#schema_name}
   */
   readonly schemaName?: string;
   /**
@@ -42,19 +42,19 @@ export interface ProfilesWarehouseConfig extends cdktf.TerraformMetaArguments {
   * 			 
   * 			 Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#settings ProfilesWarehouse#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#settings ProfilesWarehouse#settings}
   */
   readonly settings: string;
   /**
   * The Space id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#space_id ProfilesWarehouse#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#space_id ProfilesWarehouse#space_id}
   */
   readonly spaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse segment_profiles_warehouse}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse segment_profiles_warehouse}
 */
 export class ProfilesWarehouse extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class ProfilesWarehouse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfilesWarehouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfilesWarehouse to import
-  * @param importFromId The id of the existing ProfilesWarehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfilesWarehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfilesWarehouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class ProfilesWarehouse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/profiles_warehouse segment_profiles_warehouse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/profiles_warehouse segment_profiles_warehouse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class ProfilesWarehouse extends cdktf.TerraformResource {
       terraformResourceType: 'segment_profiles_warehouse',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkTrafficConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#host_id NetworkTraffic#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#host_id NetworkTraffic#host_id}
   */
   readonly hostId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#id NetworkTraffic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#id NetworkTraffic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface NetworkTrafficConfig extends cdktf.TerraformMetaArguments {
   /**
   * exclude_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#exclude_ip NetworkTraffic#exclude_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#exclude_ip NetworkTraffic#exclude_ip}
   */
   readonly excludeIp?: NetworkTrafficExcludeIp;
   /**
   * exclude_nic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#exclude_nic NetworkTraffic#exclude_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#exclude_nic NetworkTraffic#exclude_nic}
   */
   readonly excludeNic?: NetworkTrafficExcludeNic;
 }
@@ -37,7 +37,7 @@ export interface NetworkTrafficExcludeIpIpAddressForm {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#ip_address NetworkTraffic#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#ip_address NetworkTraffic#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -152,7 +152,7 @@ export interface NetworkTrafficExcludeIp {
   /**
   * ip_address_form block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#ip_address_form NetworkTraffic#ip_address_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#ip_address_form NetworkTraffic#ip_address_form}
   */
   readonly ipAddressForm: NetworkTrafficExcludeIpIpAddressForm[] | cdktf.IResolvable;
 }
@@ -235,13 +235,13 @@ export interface NetworkTrafficExcludeNicNicForm {
   /**
   * Network interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#interface NetworkTraffic#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#interface NetworkTraffic#interface}
   */
   readonly interface: string;
   /**
   * Possible Values: `OS_TYPE_AIX`, `OS_TYPE_DARWIN`, `OS_TYPE_HPUX`, `OS_TYPE_LINUX`, `OS_TYPE_SOLARIS`, `OS_TYPE_UNKNOWN`, `OS_TYPE_WINDOWS`, `OS_TYPE_ZOS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#os NetworkTraffic#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#os NetworkTraffic#os}
   */
   readonly os: string;
 }
@@ -382,7 +382,7 @@ export interface NetworkTrafficExcludeNic {
   /**
   * nic_form block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#nic_form NetworkTraffic#nic_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#nic_form NetworkTraffic#nic_form}
   */
   readonly nicForm: NetworkTrafficExcludeNicNicForm[] | cdktf.IResolvable;
 }
@@ -463,7 +463,7 @@ export class NetworkTrafficExcludeNicOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic dynatrace_network_traffic}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic dynatrace_network_traffic}
 */
 export class NetworkTraffic extends cdktf.TerraformResource {
 
@@ -479,7 +479,7 @@ export class NetworkTraffic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkTraffic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkTraffic to import
-  * @param importFromId The id of the existing NetworkTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkTraffic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class NetworkTraffic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_traffic dynatrace_network_traffic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_traffic dynatrace_network_traffic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,8 +502,8 @@ export class NetworkTraffic extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_network_traffic',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

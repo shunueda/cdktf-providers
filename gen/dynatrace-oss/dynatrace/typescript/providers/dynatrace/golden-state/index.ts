@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,599 +10,599 @@ export interface GoldenStateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IDs for resource of type `dynatrace_aix_extension` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_aix_extension GoldenState#dynatrace_aix_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_aix_extension GoldenState#dynatrace_aix_extension}
   */
   readonly dynatraceAixExtension?: string[];
   /**
   * The IDs for resource of type `dynatrace_alerting` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_alerting GoldenState#dynatrace_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_alerting GoldenState#dynatrace_alerting}
   */
   readonly dynatraceAlerting?: string[];
   /**
   * The IDs for resource of type `dynatrace_ansible_tower_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_ansible_tower_notification GoldenState#dynatrace_ansible_tower_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_ansible_tower_notification GoldenState#dynatrace_ansible_tower_notification}
   */
   readonly dynatraceAnsibleTowerNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_application_detection_rule` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_application_detection_rule GoldenState#dynatrace_application_detection_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_application_detection_rule GoldenState#dynatrace_application_detection_rule}
   */
   readonly dynatraceApplicationDetectionRule?: string[];
   /**
   * The IDs for resource of type `dynatrace_application_error_rules` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_application_error_rules GoldenState#dynatrace_application_error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_application_error_rules GoldenState#dynatrace_application_error_rules}
   */
   readonly dynatraceApplicationErrorRules?: string[];
   /**
   * The IDs for resource of type `dynatrace_autotag_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_autotag_v2 GoldenState#dynatrace_autotag_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_autotag_v2 GoldenState#dynatrace_autotag_v2}
   */
   readonly dynatraceAutotagV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_aws_credentials` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_aws_credentials GoldenState#dynatrace_aws_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_aws_credentials GoldenState#dynatrace_aws_credentials}
   */
   readonly dynatraceAwsCredentials?: string[];
   /**
   * The IDs for resource of type `dynatrace_azure_credentials` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_azure_credentials GoldenState#dynatrace_azure_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_azure_credentials GoldenState#dynatrace_azure_credentials}
   */
   readonly dynatraceAzureCredentials?: string[];
   /**
   * The IDs for resource of type `dynatrace_browser_monitor` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_browser_monitor GoldenState#dynatrace_browser_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_browser_monitor GoldenState#dynatrace_browser_monitor}
   */
   readonly dynatraceBrowserMonitor?: string[];
   /**
   * The IDs for resource of type `dynatrace_calculated_mobile_metric` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_calculated_mobile_metric GoldenState#dynatrace_calculated_mobile_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_calculated_mobile_metric GoldenState#dynatrace_calculated_mobile_metric}
   */
   readonly dynatraceCalculatedMobileMetric?: string[];
   /**
   * The IDs for resource of type `dynatrace_calculated_service_metric` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_calculated_service_metric GoldenState#dynatrace_calculated_service_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_calculated_service_metric GoldenState#dynatrace_calculated_service_metric}
   */
   readonly dynatraceCalculatedServiceMetric?: string[];
   /**
   * The IDs for resource of type `dynatrace_calculated_synthetic_metric` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_calculated_synthetic_metric GoldenState#dynatrace_calculated_synthetic_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_calculated_synthetic_metric GoldenState#dynatrace_calculated_synthetic_metric}
   */
   readonly dynatraceCalculatedSyntheticMetric?: string[];
   /**
   * The IDs for resource of type `dynatrace_calculated_web_metric` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_calculated_web_metric GoldenState#dynatrace_calculated_web_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_calculated_web_metric GoldenState#dynatrace_calculated_web_metric}
   */
   readonly dynatraceCalculatedWebMetric?: string[];
   /**
   * The IDs for resource of type `dynatrace_credentials` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_credentials GoldenState#dynatrace_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_credentials GoldenState#dynatrace_credentials}
   */
   readonly dynatraceCredentials?: string[];
   /**
   * The IDs for resource of type `dynatrace_custom_app_anomalies` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_custom_app_anomalies GoldenState#dynatrace_custom_app_anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_custom_app_anomalies GoldenState#dynatrace_custom_app_anomalies}
   */
   readonly dynatraceCustomAppAnomalies?: string[];
   /**
   * The IDs for resource of type `dynatrace_custom_app_crash_rate` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_custom_app_crash_rate GoldenState#dynatrace_custom_app_crash_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_custom_app_crash_rate GoldenState#dynatrace_custom_app_crash_rate}
   */
   readonly dynatraceCustomAppCrashRate?: string[];
   /**
   * The IDs for resource of type `dynatrace_custom_app_enablement` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_custom_app_enablement GoldenState#dynatrace_custom_app_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_custom_app_enablement GoldenState#dynatrace_custom_app_enablement}
   */
   readonly dynatraceCustomAppEnablement?: string[];
   /**
   * The IDs for resource of type `dynatrace_custom_service` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_custom_service GoldenState#dynatrace_custom_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_custom_service GoldenState#dynatrace_custom_service}
   */
   readonly dynatraceCustomService?: string[];
   /**
   * The IDs for resource of type `dynatrace_data_privacy` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_data_privacy GoldenState#dynatrace_data_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_data_privacy GoldenState#dynatrace_data_privacy}
   */
   readonly dynatraceDataPrivacy?: string[];
   /**
   * The IDs for resource of type `dynatrace_database_anomalies_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_database_anomalies_v2 GoldenState#dynatrace_database_anomalies_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_database_anomalies_v2 GoldenState#dynatrace_database_anomalies_v2}
   */
   readonly dynatraceDatabaseAnomaliesV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_declarative_grouping` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_declarative_grouping GoldenState#dynatrace_declarative_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_declarative_grouping GoldenState#dynatrace_declarative_grouping}
   */
   readonly dynatraceDeclarativeGrouping?: string[];
   /**
   * The IDs for resource of type `dynatrace_disk_anomalies_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_disk_anomalies_v2 GoldenState#dynatrace_disk_anomalies_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_disk_anomalies_v2 GoldenState#dynatrace_disk_anomalies_v2}
   */
   readonly dynatraceDiskAnomaliesV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_disk_options` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_disk_options GoldenState#dynatrace_disk_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_disk_options GoldenState#dynatrace_disk_options}
   */
   readonly dynatraceDiskOptions?: string[];
   /**
   * The IDs for resource of type `dynatrace_disk_specific_anomalies_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_disk_specific_anomalies_v2 GoldenState#dynatrace_disk_specific_anomalies_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_disk_specific_anomalies_v2 GoldenState#dynatrace_disk_specific_anomalies_v2}
   */
   readonly dynatraceDiskSpecificAnomaliesV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_email_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_email_notification GoldenState#dynatrace_email_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_email_notification GoldenState#dynatrace_email_notification}
   */
   readonly dynatraceEmailNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_extension_execution_controller` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_extension_execution_controller GoldenState#dynatrace_extension_execution_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_extension_execution_controller GoldenState#dynatrace_extension_execution_controller}
   */
   readonly dynatraceExtensionExecutionController?: string[];
   /**
   * The IDs for resource of type `dynatrace_generic_types` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_generic_types GoldenState#dynatrace_generic_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_generic_types GoldenState#dynatrace_generic_types}
   */
   readonly dynatraceGenericTypes?: string[];
   /**
   * The IDs for resource of type `dynatrace_host_anomalies_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_host_anomalies_v2 GoldenState#dynatrace_host_anomalies_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_host_anomalies_v2 GoldenState#dynatrace_host_anomalies_v2}
   */
   readonly dynatraceHostAnomaliesV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_host_naming` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_host_naming GoldenState#dynatrace_host_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_host_naming GoldenState#dynatrace_host_naming}
   */
   readonly dynatraceHostNaming?: string[];
   /**
   * The IDs for resource of type `dynatrace_host_process_group_monitoring` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_host_process_group_monitoring GoldenState#dynatrace_host_process_group_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_host_process_group_monitoring GoldenState#dynatrace_host_process_group_monitoring}
   */
   readonly dynatraceHostProcessGroupMonitoring?: string[];
   /**
   * The IDs for resource of type `dynatrace_http_monitor` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_http_monitor GoldenState#dynatrace_http_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_http_monitor GoldenState#dynatrace_http_monitor}
   */
   readonly dynatraceHttpMonitor?: string[];
   /**
   * The IDs for resource of type `dynatrace_ims_bridges` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_ims_bridges GoldenState#dynatrace_ims_bridges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_ims_bridges GoldenState#dynatrace_ims_bridges}
   */
   readonly dynatraceImsBridges?: string[];
   /**
   * The IDs for resource of type `dynatrace_jira_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_jira_notification GoldenState#dynatrace_jira_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_jira_notification GoldenState#dynatrace_jira_notification}
   */
   readonly dynatraceJiraNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_k8s_namespace_anomalies` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_k8s_namespace_anomalies GoldenState#dynatrace_k8s_namespace_anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_k8s_namespace_anomalies GoldenState#dynatrace_k8s_namespace_anomalies}
   */
   readonly dynatraceK8SNamespaceAnomalies?: string[];
   /**
   * The IDs for resource of type `dynatrace_key_requests` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_key_requests GoldenState#dynatrace_key_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_key_requests GoldenState#dynatrace_key_requests}
   */
   readonly dynatraceKeyRequests?: string[];
   /**
   * The IDs for resource of type `dynatrace_log_metrics` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_log_metrics GoldenState#dynatrace_log_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_log_metrics GoldenState#dynatrace_log_metrics}
   */
   readonly dynatraceLogMetrics?: string[];
   /**
   * The IDs for resource of type `dynatrace_maintenance` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_maintenance GoldenState#dynatrace_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_maintenance GoldenState#dynatrace_maintenance}
   */
   readonly dynatraceMaintenance?: string[];
   /**
   * The IDs for resource of type `dynatrace_management_zone_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_management_zone_v2 GoldenState#dynatrace_management_zone_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_management_zone_v2 GoldenState#dynatrace_management_zone_v2}
   */
   readonly dynatraceManagementZoneV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_metric_events` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_metric_events GoldenState#dynatrace_metric_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_metric_events GoldenState#dynatrace_metric_events}
   */
   readonly dynatraceMetricEvents?: string[];
   /**
   * The IDs for resource of type `dynatrace_mobile_app_anomalies` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_mobile_app_anomalies GoldenState#dynatrace_mobile_app_anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_mobile_app_anomalies GoldenState#dynatrace_mobile_app_anomalies}
   */
   readonly dynatraceMobileAppAnomalies?: string[];
   /**
   * The IDs for resource of type `dynatrace_mobile_app_crash_rate` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_mobile_app_crash_rate GoldenState#dynatrace_mobile_app_crash_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_mobile_app_crash_rate GoldenState#dynatrace_mobile_app_crash_rate}
   */
   readonly dynatraceMobileAppCrashRate?: string[];
   /**
   * The IDs for resource of type `dynatrace_mobile_app_enablement` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_mobile_app_enablement GoldenState#dynatrace_mobile_app_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_mobile_app_enablement GoldenState#dynatrace_mobile_app_enablement}
   */
   readonly dynatraceMobileAppEnablement?: string[];
   /**
   * The IDs for resource of type `dynatrace_mobile_application` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_mobile_application GoldenState#dynatrace_mobile_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_mobile_application GoldenState#dynatrace_mobile_application}
   */
   readonly dynatraceMobileApplication?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_apache` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_apache GoldenState#dynatrace_monitored_technologies_apache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_apache GoldenState#dynatrace_monitored_technologies_apache}
   */
   readonly dynatraceMonitoredTechnologiesApache?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_dotnet` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_dotnet GoldenState#dynatrace_monitored_technologies_dotnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_dotnet GoldenState#dynatrace_monitored_technologies_dotnet}
   */
   readonly dynatraceMonitoredTechnologiesDotnet?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_go` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_go GoldenState#dynatrace_monitored_technologies_go}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_go GoldenState#dynatrace_monitored_technologies_go}
   */
   readonly dynatraceMonitoredTechnologiesGo?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_iis` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_iis GoldenState#dynatrace_monitored_technologies_iis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_iis GoldenState#dynatrace_monitored_technologies_iis}
   */
   readonly dynatraceMonitoredTechnologiesIis?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_java` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_java GoldenState#dynatrace_monitored_technologies_java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_java GoldenState#dynatrace_monitored_technologies_java}
   */
   readonly dynatraceMonitoredTechnologiesJava?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_nginx` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_nginx GoldenState#dynatrace_monitored_technologies_nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_nginx GoldenState#dynatrace_monitored_technologies_nginx}
   */
   readonly dynatraceMonitoredTechnologiesNginx?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_nodejs` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_nodejs GoldenState#dynatrace_monitored_technologies_nodejs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_nodejs GoldenState#dynatrace_monitored_technologies_nodejs}
   */
   readonly dynatraceMonitoredTechnologiesNodejs?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_opentracing` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_opentracing GoldenState#dynatrace_monitored_technologies_opentracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_opentracing GoldenState#dynatrace_monitored_technologies_opentracing}
   */
   readonly dynatraceMonitoredTechnologiesOpentracing?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_php` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_php GoldenState#dynatrace_monitored_technologies_php}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_php GoldenState#dynatrace_monitored_technologies_php}
   */
   readonly dynatraceMonitoredTechnologiesPhp?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_varnish` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_varnish GoldenState#dynatrace_monitored_technologies_varnish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_varnish GoldenState#dynatrace_monitored_technologies_varnish}
   */
   readonly dynatraceMonitoredTechnologiesVarnish?: string[];
   /**
   * The IDs for resource of type `dynatrace_monitored_technologies_wsmb` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_monitored_technologies_wsmb GoldenState#dynatrace_monitored_technologies_wsmb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_monitored_technologies_wsmb GoldenState#dynatrace_monitored_technologies_wsmb}
   */
   readonly dynatraceMonitoredTechnologiesWsmb?: string[];
   /**
   * The IDs for resource of type `dynatrace_muted_requests` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_muted_requests GoldenState#dynatrace_muted_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_muted_requests GoldenState#dynatrace_muted_requests}
   */
   readonly dynatraceMutedRequests?: string[];
   /**
   * The IDs for resource of type `dynatrace_nettracer` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_nettracer GoldenState#dynatrace_nettracer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_nettracer GoldenState#dynatrace_nettracer}
   */
   readonly dynatraceNettracer?: string[];
   /**
   * The IDs for resource of type `dynatrace_oneagent_features` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_oneagent_features GoldenState#dynatrace_oneagent_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_oneagent_features GoldenState#dynatrace_oneagent_features}
   */
   readonly dynatraceOneagentFeatures?: string[];
   /**
   * The IDs for resource of type `dynatrace_ops_genie_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_ops_genie_notification GoldenState#dynatrace_ops_genie_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_ops_genie_notification GoldenState#dynatrace_ops_genie_notification}
   */
   readonly dynatraceOpsGenieNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_pager_duty_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_pager_duty_notification GoldenState#dynatrace_pager_duty_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_pager_duty_notification GoldenState#dynatrace_pager_duty_notification}
   */
   readonly dynatracePagerDutyNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_pg_alerting` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_pg_alerting GoldenState#dynatrace_pg_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_pg_alerting GoldenState#dynatrace_pg_alerting}
   */
   readonly dynatracePgAlerting?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_availability` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_availability GoldenState#dynatrace_process_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_availability GoldenState#dynatrace_process_availability}
   */
   readonly dynatraceProcessAvailability?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_group_detection` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_group_detection GoldenState#dynatrace_process_group_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_group_detection GoldenState#dynatrace_process_group_detection}
   */
   readonly dynatraceProcessGroupDetection?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_group_detection_flags` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_group_detection_flags GoldenState#dynatrace_process_group_detection_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_group_detection_flags GoldenState#dynatrace_process_group_detection_flags}
   */
   readonly dynatraceProcessGroupDetectionFlags?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_group_monitoring` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_group_monitoring GoldenState#dynatrace_process_group_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_group_monitoring GoldenState#dynatrace_process_group_monitoring}
   */
   readonly dynatraceProcessGroupMonitoring?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_group_rum` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_group_rum GoldenState#dynatrace_process_group_rum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_group_rum GoldenState#dynatrace_process_group_rum}
   */
   readonly dynatraceProcessGroupRum?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_group_simple_detection` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_group_simple_detection GoldenState#dynatrace_process_group_simple_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_group_simple_detection GoldenState#dynatrace_process_group_simple_detection}
   */
   readonly dynatraceProcessGroupSimpleDetection?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_monitoring` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_monitoring GoldenState#dynatrace_process_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_monitoring GoldenState#dynatrace_process_monitoring}
   */
   readonly dynatraceProcessMonitoring?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_monitoring_rule` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_monitoring_rule GoldenState#dynatrace_process_monitoring_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_monitoring_rule GoldenState#dynatrace_process_monitoring_rule}
   */
   readonly dynatraceProcessMonitoringRule?: string[];
   /**
   * The IDs for resource of type `dynatrace_process_visibility` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_process_visibility GoldenState#dynatrace_process_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_process_visibility GoldenState#dynatrace_process_visibility}
   */
   readonly dynatraceProcessVisibility?: string[];
   /**
   * The IDs for resource of type `dynatrace_processgroup_naming` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_processgroup_naming GoldenState#dynatrace_processgroup_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_processgroup_naming GoldenState#dynatrace_processgroup_naming}
   */
   readonly dynatraceProcessgroupNaming?: string[];
   /**
   * The IDs for resource of type `dynatrace_queue_manager` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_queue_manager GoldenState#dynatrace_queue_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_queue_manager GoldenState#dynatrace_queue_manager}
   */
   readonly dynatraceQueueManager?: string[];
   /**
   * The IDs for resource of type `dynatrace_queue_sharing_groups` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_queue_sharing_groups GoldenState#dynatrace_queue_sharing_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_queue_sharing_groups GoldenState#dynatrace_queue_sharing_groups}
   */
   readonly dynatraceQueueSharingGroups?: string[];
   /**
   * The IDs for resource of type `dynatrace_request_attribute` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_request_attribute GoldenState#dynatrace_request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_request_attribute GoldenState#dynatrace_request_attribute}
   */
   readonly dynatraceRequestAttribute?: string[];
   /**
   * The IDs for resource of type `dynatrace_request_naming` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_request_naming GoldenState#dynatrace_request_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_request_naming GoldenState#dynatrace_request_naming}
   */
   readonly dynatraceRequestNaming?: string[];
   /**
   * The IDs for resource of type `dynatrace_rum_advanced_correlation` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_rum_advanced_correlation GoldenState#dynatrace_rum_advanced_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_rum_advanced_correlation GoldenState#dynatrace_rum_advanced_correlation}
   */
   readonly dynatraceRumAdvancedCorrelation?: string[];
   /**
   * The IDs for resource of type `dynatrace_rum_ip_locations` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_rum_ip_locations GoldenState#dynatrace_rum_ip_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_rum_ip_locations GoldenState#dynatrace_rum_ip_locations}
   */
   readonly dynatraceRumIpLocations?: string[];
   /**
   * The IDs for resource of type `dynatrace_rum_provider_breakdown` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_rum_provider_breakdown GoldenState#dynatrace_rum_provider_breakdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_rum_provider_breakdown GoldenState#dynatrace_rum_provider_breakdown}
   */
   readonly dynatraceRumProviderBreakdown?: string[];
   /**
   * The IDs for resource of type `dynatrace_service_failure` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_service_failure GoldenState#dynatrace_service_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_service_failure GoldenState#dynatrace_service_failure}
   */
   readonly dynatraceServiceFailure?: string[];
   /**
   * The IDs for resource of type `dynatrace_service_http_failure` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_service_http_failure GoldenState#dynatrace_service_http_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_service_http_failure GoldenState#dynatrace_service_http_failure}
   */
   readonly dynatraceServiceHttpFailure?: string[];
   /**
   * The IDs for resource of type `dynatrace_service_naming` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_service_naming GoldenState#dynatrace_service_naming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_service_naming GoldenState#dynatrace_service_naming}
   */
   readonly dynatraceServiceNaming?: string[];
   /**
   * The IDs for resource of type `dynatrace_service_now_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_service_now_notification GoldenState#dynatrace_service_now_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_service_now_notification GoldenState#dynatrace_service_now_notification}
   */
   readonly dynatraceServiceNowNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_session_replay_web_privacy` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_session_replay_web_privacy GoldenState#dynatrace_session_replay_web_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_session_replay_web_privacy GoldenState#dynatrace_session_replay_web_privacy}
   */
   readonly dynatraceSessionReplayWebPrivacy?: string[];
   /**
   * The IDs for resource of type `dynatrace_slack_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_slack_notification GoldenState#dynatrace_slack_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_slack_notification GoldenState#dynatrace_slack_notification}
   */
   readonly dynatraceSlackNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_slo_v2` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_slo_v2 GoldenState#dynatrace_slo_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_slo_v2 GoldenState#dynatrace_slo_v2}
   */
   readonly dynatraceSloV2?: string[];
   /**
   * The IDs for resource of type `dynatrace_span_capture_rule` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_span_capture_rule GoldenState#dynatrace_span_capture_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_span_capture_rule GoldenState#dynatrace_span_capture_rule}
   */
   readonly dynatraceSpanCaptureRule?: string[];
   /**
   * The IDs for resource of type `dynatrace_span_context_propagation` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_span_context_propagation GoldenState#dynatrace_span_context_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_span_context_propagation GoldenState#dynatrace_span_context_propagation}
   */
   readonly dynatraceSpanContextPropagation?: string[];
   /**
   * The IDs for resource of type `dynatrace_synthetic_location` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_synthetic_location GoldenState#dynatrace_synthetic_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_synthetic_location GoldenState#dynatrace_synthetic_location}
   */
   readonly dynatraceSyntheticLocation?: string[];
   /**
   * The IDs for resource of type `dynatrace_trello_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_trello_notification GoldenState#dynatrace_trello_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_trello_notification GoldenState#dynatrace_trello_notification}
   */
   readonly dynatraceTrelloNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_update_windows` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_update_windows GoldenState#dynatrace_update_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_update_windows GoldenState#dynatrace_update_windows}
   */
   readonly dynatraceUpdateWindows?: string[];
   /**
   * The IDs for resource of type `dynatrace_usability_analytics` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_usability_analytics GoldenState#dynatrace_usability_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_usability_analytics GoldenState#dynatrace_usability_analytics}
   */
   readonly dynatraceUsabilityAnalytics?: string[];
   /**
   * The IDs for resource of type `dynatrace_victor_ops_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_victor_ops_notification GoldenState#dynatrace_victor_ops_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_victor_ops_notification GoldenState#dynatrace_victor_ops_notification}
   */
   readonly dynatraceVictorOpsNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_app_anomalies` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_app_anomalies GoldenState#dynatrace_web_app_anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_app_anomalies GoldenState#dynatrace_web_app_anomalies}
   */
   readonly dynatraceWebAppAnomalies?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_app_beacon_origins` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_app_beacon_origins GoldenState#dynatrace_web_app_beacon_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_app_beacon_origins GoldenState#dynatrace_web_app_beacon_origins}
   */
   readonly dynatraceWebAppBeaconOrigins?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_app_enablement` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_app_enablement GoldenState#dynatrace_web_app_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_app_enablement GoldenState#dynatrace_web_app_enablement}
   */
   readonly dynatraceWebAppEnablement?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_app_resource_cleanup` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_app_resource_cleanup GoldenState#dynatrace_web_app_resource_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_app_resource_cleanup GoldenState#dynatrace_web_app_resource_cleanup}
   */
   readonly dynatraceWebAppResourceCleanup?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_app_resource_types` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_app_resource_types GoldenState#dynatrace_web_app_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_app_resource_types GoldenState#dynatrace_web_app_resource_types}
   */
   readonly dynatraceWebAppResourceTypes?: string[];
   /**
   * The IDs for resource of type `dynatrace_web_application` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_web_application GoldenState#dynatrace_web_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_web_application GoldenState#dynatrace_web_application}
   */
   readonly dynatraceWebApplication?: string[];
   /**
   * The IDs for resource of type `dynatrace_webhook_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_webhook_notification GoldenState#dynatrace_webhook_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_webhook_notification GoldenState#dynatrace_webhook_notification}
   */
   readonly dynatraceWebhookNotification?: string[];
   /**
   * The IDs for resource of type `dynatrace_xmatters_notification` this `dynatrace_golden_state` should ignore (and therefore neither warn about their existence nor attempt to delete them). Specify `[]` if you expect no such resources to exist in Dynatrace. Omit this attribute if you don't care about these kinds of resources regarding the golden state of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#dynatrace_xmatters_notification GoldenState#dynatrace_xmatters_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#dynatrace_xmatters_notification GoldenState#dynatrace_xmatters_notification}
   */
   readonly dynatraceXmattersNotification?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#id GoldenState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#id GoldenState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -613,13 +613,13 @@ export interface GoldenStateConfig extends cdktf.TerraformMetaArguments {
   * * `DELETE` if you want resources to automatally get deleted`n* `WARN` if you want to get notified about resources that aren't managed by Terraform via a warning message from this resource`
   * Default is `WARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#mode GoldenState#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#mode GoldenState#mode}
   */
   readonly mode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state dynatrace_golden_state}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state dynatrace_golden_state}
 */
 export class GoldenState extends cdktf.TerraformResource {
 
@@ -635,7 +635,7 @@ export class GoldenState extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GoldenState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoldenState to import
-  * @param importFromId The id of the existing GoldenState that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoldenState that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoldenState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -647,7 +647,7 @@ export class GoldenState extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/golden_state dynatrace_golden_state} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/golden_state dynatrace_golden_state} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -658,8 +658,8 @@ export class GoldenState extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_golden_state',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

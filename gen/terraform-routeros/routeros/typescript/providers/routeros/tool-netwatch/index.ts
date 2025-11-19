@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface ToolNetwatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#___path___ ToolNetwatch#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#___path___ ToolNetwatch#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#___skip___ ToolNetwatch#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#___skip___ ToolNetwatch#___skip___}
   */
   readonly skip?: string;
   /**
   * If the ICMP `time exceeded` message should be considered a valid response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#accept_icmp_time_exceeded ToolNetwatch#accept_icmp_time_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#accept_icmp_time_exceeded ToolNetwatch#accept_icmp_time_exceeded}
   */
   readonly acceptIcmpTimeExceeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#comment ToolNetwatch#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#comment ToolNetwatch#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#disabled ToolNetwatch#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#disabled ToolNetwatch#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The DNS server that the probe should send its requests to, if not specified it will use the value from `/ip dns`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#dns_server ToolNetwatch#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#dns_server ToolNetwatch#dns_server}
   */
   readonly dnsServer?: string;
   /**
   * Script to execute on the event of probe state change `OK` --> `fail`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#down_script ToolNetwatch#down_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#down_script ToolNetwatch#down_script}
   */
   readonly downScript?: string;
   /**
   * Netwatch will not wait to finish all the packets to be processed to change probe status if it is already known that host will be considered as `down`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#early_failure_detection ToolNetwatch#early_failure_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#early_failure_detection ToolNetwatch#early_failure_detection}
   */
   readonly earlyFailureDetection?: boolean | cdktf.IResolvable;
   /**
   * Netwatch will not wait to finish all the packets to be processed to change probe status if it is already known that host will be considered as `up`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#early_success_detection ToolNetwatch#early_success_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#early_success_detection ToolNetwatch#early_success_detection}
   */
   readonly earlySuccessDetection?: boolean | cdktf.IResolvable;
   /**
@@ -65,23 +65,23 @@ export interface ToolNetwatchConfig extends cdktf.TerraformMetaArguments {
   *   * ipv6@vrf
   *   * ipv6-linklocal%interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#host ToolNetwatch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#host ToolNetwatch#host}
   */
   readonly host: string;
   /**
   * Response in the range [http-code-min , http-code-max] is a probe pass/OK; outside - a probe fail. See [mozilla-http-status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) or [rfc7231](https://datatracker.ietf.org/doc/html/rfc7231#section-6).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#http_code_max ToolNetwatch#http_code_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#http_code_max ToolNetwatch#http_code_max}
   */
   readonly httpCodeMax?: number;
   /**
   * OK/fail criteria for HTTP response code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#http_code_min ToolNetwatch#http_code_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#http_code_min ToolNetwatch#http_code_min}
   */
   readonly httpCodeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#id ToolNetwatch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#id ToolNetwatch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,127 +90,127 @@ export interface ToolNetwatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time interval between probe tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#interval ToolNetwatch#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#interval ToolNetwatch#interval}
   */
   readonly interval?: string;
   /**
   * Task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#name ToolNetwatch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#name ToolNetwatch#name}
   */
   readonly name: string;
   /**
   * Total count of ICMP packets to send out within a single test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#packet_count ToolNetwatch#packet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#packet_count ToolNetwatch#packet_count}
   */
   readonly packetCount?: number;
   /**
   * The time between ICMP-request packet send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#packet_interval ToolNetwatch#packet_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#packet_interval ToolNetwatch#packet_interval}
   */
   readonly packetInterval?: string;
   /**
   * The total size of the IP ICMP packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#packet_size ToolNetwatch#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#packet_size ToolNetwatch#packet_size}
   */
   readonly packetSize?: number;
   /**
   * TCP port (for both tcp-conn and http-get probes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#port ToolNetwatch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#port ToolNetwatch#port}
   */
   readonly port?: number;
   /**
   * Record type that will be used for DNS probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#record_type ToolNetwatch#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#record_type ToolNetwatch#record_type}
   */
   readonly recordType?: string;
   /**
   * Source IP address which the Netwatch will try to use in order to reach the host. If address is not present, then the host will be considered as `down`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#src_address ToolNetwatch#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#src_address ToolNetwatch#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Time to wait before starting probe (on add, enable, or system start).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#start_delay ToolNetwatch#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#start_delay ToolNetwatch#start_delay}
   */
   readonly startDelay?: string;
   /**
   * Time to wait until starting Netwatch probe after system startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#startup_delay ToolNetwatch#startup_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#startup_delay ToolNetwatch#startup_delay}
   */
   readonly startupDelay?: string;
   /**
   * Script to execute at the end of every probe test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#test_script ToolNetwatch#test_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#test_script ToolNetwatch#test_script}
   */
   readonly testScript?: string;
   /**
   * Fail threshold for rtt-avg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_avg ToolNetwatch#thr_avg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_avg ToolNetwatch#thr_avg}
   */
   readonly thrAvg?: string;
   /**
   * Fail threshold for http-resp-time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_http_time ToolNetwatch#thr_http_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_http_time ToolNetwatch#thr_http_time}
   */
   readonly thrHttpTime?: string;
   /**
   * Fail threshold for rtt-jitter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_jitter ToolNetwatch#thr_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_jitter ToolNetwatch#thr_jitter}
   */
   readonly thrJitter?: string;
   /**
   * Fail threshold for loss-count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_loss_count ToolNetwatch#thr_loss_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_loss_count ToolNetwatch#thr_loss_count}
   */
   readonly thrLossCount?: number;
   /**
   * Fail threshold for loss-percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_loss_percent ToolNetwatch#thr_loss_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_loss_percent ToolNetwatch#thr_loss_percent}
   */
   readonly thrLossPercent?: number;
   /**
   * Fail threshold for rtt-max (a value above thr-max is a probe fail).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_max ToolNetwatch#thr_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_max ToolNetwatch#thr_max}
   */
   readonly thrMax?: string;
   /**
   * Fail threshold for rtt-stdev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_stdev ToolNetwatch#thr_stdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_stdev ToolNetwatch#thr_stdev}
   */
   readonly thrStdev?: string;
   /**
   * Fail threshold for tcp-connect-time, the configuration uses microseconds, if the time unit is not specified (s/m/h), log and status pages display the same value in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#thr_tcp_conn_time ToolNetwatch#thr_tcp_conn_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#thr_tcp_conn_time ToolNetwatch#thr_tcp_conn_time}
   */
   readonly thrTcpConnTime?: string;
   /**
   * Max time limit to wait for a response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#timeout ToolNetwatch#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#timeout ToolNetwatch#timeout}
   */
   readonly timeout?: string;
   /**
   * Manually set time to live value for ICMP packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#ttl ToolNetwatch#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#ttl ToolNetwatch#ttl}
   */
   readonly ttl?: number;
   /**
@@ -220,19 +220,19 @@ export interface ToolNetwatchConfig extends cdktf.TerraformMetaArguments {
   *   *  http-get - do an HTTP Get request and test for a range of correct replies
   *   *  simple - simplified ICMP probe, with fewer options than **ICMP** type, used for backward compatibility with the older Netwatch version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#type ToolNetwatch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#type ToolNetwatch#type}
   */
   readonly type?: string;
   /**
   * Script to execute on the event of probe state change `fail` --> `OK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#up_script ToolNetwatch#up_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#up_script ToolNetwatch#up_script}
   */
   readonly upScript?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch routeros_tool_netwatch}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch routeros_tool_netwatch}
 */
 export class ToolNetwatch extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class ToolNetwatch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ToolNetwatch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ToolNetwatch to import
-  * @param importFromId The id of the existing ToolNetwatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ToolNetwatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ToolNetwatch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class ToolNetwatch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch routeros_tool_netwatch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/tool_netwatch routeros_tool_netwatch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class ToolNetwatch extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_tool_netwatch',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

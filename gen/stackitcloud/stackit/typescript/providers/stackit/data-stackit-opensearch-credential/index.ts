@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitOpensearchCredentialConfig extends cdktf.TerraformMe
   /**
   * The credential's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential#credential_id DataStackitOpensearchCredential#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential#credential_id DataStackitOpensearchCredential#credential_id}
   */
   readonly credentialId: string;
   /**
   * ID of the OpenSearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential#instance_id DataStackitOpensearchCredential#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential#instance_id DataStackitOpensearchCredential#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential#project_id DataStackitOpensearchCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential#project_id DataStackitOpensearchCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential stackit_opensearch_credential}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential stackit_opensearch_credential}
 */
 export class DataStackitOpensearchCredential extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitOpensearchCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitOpensearchCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitOpensearchCredential to import
-  * @param importFromId The id of the existing DataStackitOpensearchCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitOpensearchCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitOpensearchCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitOpensearchCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/opensearch_credential stackit_opensearch_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/opensearch_credential stackit_opensearch_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitOpensearchCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_opensearch_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

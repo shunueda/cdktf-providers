@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface CustomConnectorPluginConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#cloud CustomConnectorPlugin#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#cloud CustomConnectorPlugin#cloud}
   */
   readonly cloud?: string;
   /**
   * Java class or alias for connector. You can get connector class from connector documentation provided by developer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#connector_class CustomConnectorPlugin#connector_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#connector_class CustomConnectorPlugin#connector_class}
   */
   readonly connectorClass: string;
   /**
   * Custom Connector type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#connector_type CustomConnectorPlugin#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#connector_type CustomConnectorPlugin#connector_type}
   */
   readonly connectorType: string;
   /**
   * A free-form description of the Custom Connector Plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#description CustomConnectorPlugin#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#description CustomConnectorPlugin#description}
   */
   readonly description?: string;
   /**
   * A human-readable name for the Custom Connector Plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#display_name CustomConnectorPlugin#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#display_name CustomConnectorPlugin#display_name}
   */
   readonly displayName: string;
   /**
   * A documentation link of the Custom Connector Plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#documentation_link CustomConnectorPlugin#documentation_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#documentation_link CustomConnectorPlugin#documentation_link}
   */
   readonly documentationLink?: string;
   /**
   * The path to the file that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#filename CustomConnectorPlugin#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#filename CustomConnectorPlugin#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#id CustomConnectorPlugin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#id CustomConnectorPlugin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,13 +57,13 @@ export interface CustomConnectorPluginConfig extends cdktf.TerraformMetaArgument
   /**
   * A list of sensitive properties where a sensitive property is a connector configuration property that must be hidden after a user enters property value when setting up connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#sensitive_config_properties CustomConnectorPlugin#sensitive_config_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#sensitive_config_properties CustomConnectorPlugin#sensitive_config_properties}
   */
   readonly sensitiveConfigProperties?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin confluent_custom_connector_plugin}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin confluent_custom_connector_plugin}
 */
 export class CustomConnectorPlugin extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class CustomConnectorPlugin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomConnectorPlugin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomConnectorPlugin to import
-  * @param importFromId The id of the existing CustomConnectorPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomConnectorPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomConnectorPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class CustomConnectorPlugin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/custom_connector_plugin confluent_custom_connector_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/custom_connector_plugin confluent_custom_connector_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class CustomConnectorPlugin extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_custom_connector_plugin',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

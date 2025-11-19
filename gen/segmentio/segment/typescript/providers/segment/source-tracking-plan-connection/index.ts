@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SourceTrackingPlanConnectionConfig extends cdktf.TerraformMetaA
   /**
   * The schema settings associated with the Source. Upon import, this field will be empty even if the settings have already been configured due to Terraform limitations, but will be populated on the first apply. Fields not present in the config will not be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#schema_settings SourceTrackingPlanConnection#schema_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#schema_settings SourceTrackingPlanConnection#schema_settings}
   */
   readonly schemaSettings?: SourceTrackingPlanConnectionSchemaSettings;
   /**
   * The id of the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#source_id SourceTrackingPlanConnection#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#source_id SourceTrackingPlanConnection#source_id}
   */
   readonly sourceId: string;
   /**
   * The id of the Tracking Plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#tracking_plan_id SourceTrackingPlanConnection#tracking_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#tracking_plan_id SourceTrackingPlanConnection#tracking_plan_id}
   */
   readonly trackingPlanId: string;
 }
@@ -30,19 +30,19 @@ export interface SourceTrackingPlanConnectionSchemaSettingsGroup {
   /**
   * Enable to allow group traits on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_traits_on_violations SourceTrackingPlanConnection#allow_traits_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_traits_on_violations SourceTrackingPlanConnection#allow_traits_on_violations}
   */
   readonly allowTraitsOnViolations?: boolean | cdktf.IResolvable;
   /**
   * Enable to allow unplanned group traits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_unplanned_traits SourceTrackingPlanConnection#allow_unplanned_traits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_unplanned_traits SourceTrackingPlanConnection#allow_unplanned_traits}
   */
   readonly allowUnplannedTraits?: boolean | cdktf.IResolvable;
   /**
   * The common group event on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
   */
   readonly commonEventOnViolations?: string;
 }
@@ -196,19 +196,19 @@ export interface SourceTrackingPlanConnectionSchemaSettingsIdentify {
   /**
   * Enable to allow identify traits on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_traits_on_violations SourceTrackingPlanConnection#allow_traits_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_traits_on_violations SourceTrackingPlanConnection#allow_traits_on_violations}
   */
   readonly allowTraitsOnViolations?: boolean | cdktf.IResolvable;
   /**
   * Enable to allow unplanned identify traits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_unplanned_traits SourceTrackingPlanConnection#allow_unplanned_traits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_unplanned_traits SourceTrackingPlanConnection#allow_unplanned_traits}
   */
   readonly allowUnplannedTraits?: boolean | cdktf.IResolvable;
   /**
   * The common identify event on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
   */
   readonly commonEventOnViolations?: string;
 }
@@ -362,31 +362,31 @@ export interface SourceTrackingPlanConnectionSchemaSettingsTrack {
   /**
   * Allow track event on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_event_on_violations SourceTrackingPlanConnection#allow_event_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_event_on_violations SourceTrackingPlanConnection#allow_event_on_violations}
   */
   readonly allowEventOnViolations?: boolean | cdktf.IResolvable;
   /**
   * Enable to allow track properties on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_properties_on_violations SourceTrackingPlanConnection#allow_properties_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_properties_on_violations SourceTrackingPlanConnection#allow_properties_on_violations}
   */
   readonly allowPropertiesOnViolations?: boolean | cdktf.IResolvable;
   /**
   * Enable to allow unplanned track event properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_unplanned_event_properties SourceTrackingPlanConnection#allow_unplanned_event_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_unplanned_event_properties SourceTrackingPlanConnection#allow_unplanned_event_properties}
   */
   readonly allowUnplannedEventProperties?: boolean | cdktf.IResolvable;
   /**
   * Enable to allow unplanned track events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#allow_unplanned_events SourceTrackingPlanConnection#allow_unplanned_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#allow_unplanned_events SourceTrackingPlanConnection#allow_unplanned_events}
   */
   readonly allowUnplannedEvents?: boolean | cdktf.IResolvable;
   /**
   * The common track event on violations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#common_event_on_violations SourceTrackingPlanConnection#common_event_on_violations}
   */
   readonly commonEventOnViolations?: string;
 }
@@ -598,31 +598,31 @@ export interface SourceTrackingPlanConnectionSchemaSettings {
   /**
   * Source id to forward blocked events to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#forwarding_blocked_events_to SourceTrackingPlanConnection#forwarding_blocked_events_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#forwarding_blocked_events_to SourceTrackingPlanConnection#forwarding_blocked_events_to}
   */
   readonly forwardingBlockedEventsTo?: string;
   /**
   * Source id to forward violations to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#forwarding_violations_to SourceTrackingPlanConnection#forwarding_violations_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#forwarding_violations_to SourceTrackingPlanConnection#forwarding_violations_to}
   */
   readonly forwardingViolationsTo?: string;
   /**
   * Group settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#group SourceTrackingPlanConnection#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#group SourceTrackingPlanConnection#group}
   */
   readonly group?: SourceTrackingPlanConnectionSchemaSettingsGroup;
   /**
   * Identify settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#identify SourceTrackingPlanConnection#identify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#identify SourceTrackingPlanConnection#identify}
   */
   readonly identify?: SourceTrackingPlanConnectionSchemaSettingsIdentify;
   /**
   * Track settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#track SourceTrackingPlanConnection#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#track SourceTrackingPlanConnection#track}
   */
   readonly track?: SourceTrackingPlanConnectionSchemaSettingsTrack;
 }
@@ -832,7 +832,7 @@ export class SourceTrackingPlanConnectionSchemaSettingsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection segment_source_tracking_plan_connection}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection segment_source_tracking_plan_connection}
 */
 export class SourceTrackingPlanConnection extends cdktf.TerraformResource {
 
@@ -848,7 +848,7 @@ export class SourceTrackingPlanConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceTrackingPlanConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceTrackingPlanConnection to import
-  * @param importFromId The id of the existing SourceTrackingPlanConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceTrackingPlanConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceTrackingPlanConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -860,7 +860,7 @@ export class SourceTrackingPlanConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_tracking_plan_connection segment_source_tracking_plan_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_tracking_plan_connection segment_source_tracking_plan_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -871,8 +871,8 @@ export class SourceTrackingPlanConnection extends cdktf.TerraformResource {
       terraformResourceType: 'segment_source_tracking_plan_connection',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

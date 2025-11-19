@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DiskAnomalyRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#enabled DiskAnomalyRules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#enabled DiskAnomalyRules#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#host_group_id DiskAnomalyRules#host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#host_group_id DiskAnomalyRules#host_group_id}
   */
   readonly hostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#id DiskAnomalyRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#id DiskAnomalyRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DiskAnomalyRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Possible Values: `LOW_DISK_SPACE`, `LOW_INODES`, `READ_TIME_EXCEEDING`, `WRITE_TIME_EXCEEDING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#metric DiskAnomalyRules#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#metric DiskAnomalyRules#metric}
   */
   readonly metric: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#name DiskAnomalyRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#name DiskAnomalyRules#name}
   */
   readonly name: string;
   /**
   * Only apply to hosts that have the following tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#tag_filters DiskAnomalyRules#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#tag_filters DiskAnomalyRules#tag_filters}
   */
   readonly tagFilters?: string[];
   /**
   * Alert if higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#threshold_milliseconds DiskAnomalyRules#threshold_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#threshold_milliseconds DiskAnomalyRules#threshold_milliseconds}
   */
   readonly thresholdMilliseconds?: number;
   /**
   * Alert if lower than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#threshold_percent DiskAnomalyRules#threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#threshold_percent DiskAnomalyRules#threshold_percent}
   */
   readonly thresholdPercent?: number;
   /**
   * disk_name_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#disk_name_filter DiskAnomalyRules#disk_name_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#disk_name_filter DiskAnomalyRules#disk_name_filter}
   */
   readonly diskNameFilter: DiskAnomalyRulesDiskNameFilter;
   /**
   * sample_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#sample_limit DiskAnomalyRules#sample_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#sample_limit DiskAnomalyRules#sample_limit}
   */
   readonly sampleLimit: DiskAnomalyRulesSampleLimit;
 }
@@ -73,13 +73,13 @@ export interface DiskAnomalyRulesDiskNameFilter {
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#operator DiskAnomalyRules#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#operator DiskAnomalyRules#operator}
   */
   readonly operator: string;
   /**
   * Matching text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#value DiskAnomalyRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#value DiskAnomalyRules#value}
   */
   readonly value?: string;
 }
@@ -191,13 +191,13 @@ export interface DiskAnomalyRulesSampleLimit {
   /**
   * .. within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#samples DiskAnomalyRules#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#samples DiskAnomalyRules#samples}
   */
   readonly samples: number;
   /**
   * Minimum number of violating samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#violating_samples DiskAnomalyRules#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#violating_samples DiskAnomalyRules#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -304,7 +304,7 @@ export class DiskAnomalyRulesSampleLimitOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules dynatrace_disk_anomaly_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules dynatrace_disk_anomaly_rules}
 */
 export class DiskAnomalyRules extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class DiskAnomalyRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskAnomalyRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskAnomalyRules to import
-  * @param importFromId The id of the existing DiskAnomalyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskAnomalyRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskAnomalyRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class DiskAnomalyRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_anomaly_rules dynatrace_disk_anomaly_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomaly_rules dynatrace_disk_anomaly_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class DiskAnomalyRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_anomaly_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

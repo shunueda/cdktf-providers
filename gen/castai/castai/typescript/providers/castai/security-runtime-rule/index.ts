@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule
+// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SecurityRuntimeRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Category of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#category SecurityRuntimeRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#category SecurityRuntimeRule#category}
   */
   readonly category?: string;
   /**
   * Whether the rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#enabled SecurityRuntimeRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#enabled SecurityRuntimeRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#id SecurityRuntimeRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#id SecurityRuntimeRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface SecurityRuntimeRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Key-value labels attached to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#labels SecurityRuntimeRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#labels SecurityRuntimeRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique name of the runtime security rule. Name is used as resource identifier in Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#name SecurityRuntimeRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#name SecurityRuntimeRule#name}
   */
   readonly name: string;
   /**
   * Optional CEL expression for resource selection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#resource_selector SecurityRuntimeRule#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#resource_selector SecurityRuntimeRule#resource_selector}
   */
   readonly resourceSelector?: string;
   /**
   * The engine type used to evaluate the rule. Only RULE_ENGINE_TYPE_CEL is currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#rule_engine_type SecurityRuntimeRule#rule_engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#rule_engine_type SecurityRuntimeRule#rule_engine_type}
   */
   readonly ruleEngineType?: string;
   /**
   * CEL rule expression text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#rule_text SecurityRuntimeRule#rule_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#rule_text SecurityRuntimeRule#rule_text}
   */
   readonly ruleText: string;
   /**
   * Severity of the rule. One of SEVERITY_CRITICAL, SEVERITY_HIGH, SEVERITY_MEDIUM, SEVERITY_LOW, SEVERITY_NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#severity SecurityRuntimeRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#severity SecurityRuntimeRule#severity}
   */
   readonly severity: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#timeouts SecurityRuntimeRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#timeouts SecurityRuntimeRule#timeouts}
   */
   readonly timeouts?: SecurityRuntimeRuleTimeouts;
 }
 export interface SecurityRuntimeRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#create SecurityRuntimeRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#create SecurityRuntimeRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#delete SecurityRuntimeRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#delete SecurityRuntimeRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#read SecurityRuntimeRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#read SecurityRuntimeRule#read}
   */
   readonly read?: string;
 }
@@ -231,7 +231,7 @@ export class SecurityRuntimeRuleTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule castai_security_runtime_rule}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule castai_security_runtime_rule}
 */
 export class SecurityRuntimeRule extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class SecurityRuntimeRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityRuntimeRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityRuntimeRule to import
-  * @param importFromId The id of the existing SecurityRuntimeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityRuntimeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityRuntimeRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class SecurityRuntimeRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/security_runtime_rule castai_security_runtime_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/security_runtime_rule castai_security_runtime_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class SecurityRuntimeRule extends cdktf.TerraformResource {
       terraformResourceType: 'castai_security_runtime_rule',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.1.0',
-        providerVersionConstraint: '8.1.0'
+        providerVersion: '8.2.1',
+        providerVersionConstraint: '8.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

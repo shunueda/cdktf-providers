@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AttackRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#enabled AttackRules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#enabled AttackRules#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#id AttackRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#id AttackRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface AttackRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#insert_after AttackRules#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#insert_after AttackRules#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#rule_name AttackRules#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#rule_name AttackRules#rule_name}
   */
   readonly ruleName?: string;
   /**
   * attack_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#attack_handling AttackRules#attack_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#attack_handling AttackRules#attack_handling}
   */
   readonly attackHandling: AttackRulesAttackHandling;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#criteria AttackRules#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#criteria AttackRules#criteria}
   */
   readonly criteria: AttackRulesCriteria;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#metadata AttackRules#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#metadata AttackRules#metadata}
   */
   readonly metadata: AttackRulesMetadata;
   /**
   * resource_attribute_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#resource_attribute_conditions AttackRules#resource_attribute_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#resource_attribute_conditions AttackRules#resource_attribute_conditions}
   */
   readonly resourceAttributeConditions?: AttackRulesResourceAttributeConditions;
 }
@@ -61,7 +61,7 @@ export interface AttackRulesAttackHandling {
   /**
   * Possible Values: `BLOCK`, `MONITOR`, `OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#blocking_strategy AttackRules#blocking_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#blocking_strategy AttackRules#blocking_strategy}
   */
   readonly blockingStrategy: string;
 }
@@ -144,13 +144,13 @@ export interface AttackRulesCriteria {
   /**
   * Possible Values: `ANY`, `CMD_INJECTION`, `JNDI_INJECTION`, `SQL_INJECTION`, `SSRF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#attack_type AttackRules#attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#attack_type AttackRules#attack_type}
   */
   readonly attackType: string;
   /**
   * Process group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#process_group AttackRules#process_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#process_group AttackRules#process_group}
   */
   readonly processGroup?: string;
 }
@@ -262,7 +262,7 @@ export interface AttackRulesMetadata {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#comment AttackRules#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#comment AttackRules#comment}
   */
   readonly comment: string;
 }
@@ -345,19 +345,19 @@ export interface AttackRulesResourceAttributeConditionsResourceAttributeConditio
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_EXIST`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `EQUALS`, `EXISTS`, `NOT_EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#matcher AttackRules#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#matcher AttackRules#matcher}
   */
   readonly matcher: string;
   /**
   * Resource attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#resource_attribute_key AttackRules#resource_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#resource_attribute_key AttackRules#resource_attribute_key}
   */
   readonly resourceAttributeKey: string;
   /**
   * Resource attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#resource_attribute_value AttackRules#resource_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#resource_attribute_value AttackRules#resource_attribute_value}
   */
   readonly resourceAttributeValue?: string;
 }
@@ -527,7 +527,7 @@ export interface AttackRulesResourceAttributeConditions {
   /**
   * resource_attribute_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#resource_attribute_condition AttackRules#resource_attribute_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#resource_attribute_condition AttackRules#resource_attribute_condition}
   */
   readonly resourceAttributeCondition: AttackRulesResourceAttributeConditionsResourceAttributeCondition[] | cdktf.IResolvable;
 }
@@ -608,7 +608,7 @@ export class AttackRulesResourceAttributeConditionsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules dynatrace_attack_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules dynatrace_attack_rules}
 */
 export class AttackRules extends cdktf.TerraformResource {
 
@@ -624,7 +624,7 @@ export class AttackRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttackRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttackRules to import
-  * @param importFromId The id of the existing AttackRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttackRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttackRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class AttackRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_rules dynatrace_attack_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_rules dynatrace_attack_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class AttackRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_attack_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

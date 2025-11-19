@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InsertFunctionInstanceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether this insert Function instance should be enabled for the Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#enabled InsertFunctionInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#enabled InsertFunctionInstance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Insert Function id to which this instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#function_id InsertFunctionInstance#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#function_id InsertFunctionInstance#function_id}
   */
   readonly functionId: string;
   /**
   * The Source or Destination id to be connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#integration_id InsertFunctionInstance#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#integration_id InsertFunctionInstance#integration_id}
   */
   readonly integrationId: string;
   /**
   * Defines the display name of the insert Function instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#name InsertFunctionInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#name InsertFunctionInstance#name}
   */
   readonly name: string;
   /**
   * An object that contains settings for this insert Function instance based on the settings present in the insert Function class. Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#settings InsertFunctionInstance#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#settings InsertFunctionInstance#settings}
   */
   readonly settings: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance segment_insert_function_instance}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance segment_insert_function_instance}
 */
 export class InsertFunctionInstance extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class InsertFunctionInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InsertFunctionInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InsertFunctionInstance to import
-  * @param importFromId The id of the existing InsertFunctionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InsertFunctionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InsertFunctionInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class InsertFunctionInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/insert_function_instance segment_insert_function_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/insert_function_instance segment_insert_function_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class InsertFunctionInstance extends cdktf.TerraformResource {
       terraformResourceType: 'segment_insert_function_instance',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

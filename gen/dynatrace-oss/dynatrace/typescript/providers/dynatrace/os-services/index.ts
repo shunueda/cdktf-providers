@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OsServicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of **10-second measurement cycles** before alerting is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#alert_activation_duration OsServices#alert_activation_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#alert_activation_duration OsServices#alert_activation_duration}
   */
   readonly alertActivationDuration?: number;
   /**
   * Toggle the switch in order to enable or disable alerting for this policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#alerting OsServices#alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#alerting OsServices#alerting}
   */
   readonly alerting: boolean | cdktf.IResolvable;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#enabled OsServices#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#enabled OsServices#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#id OsServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#id OsServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface OsServicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#insert_after OsServices#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#insert_after OsServices#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Toggle the switch in order to enable or disable availability metric monitoring for this policy. Availability metrics produce custom metrics. Refer to [documentation](https://dt-url.net/vl03xzk) for consumption examples. Each monitored service consumes one custom metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#monitoring OsServices#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#monitoring OsServices#monitoring}
   */
   readonly monitoring: boolean | cdktf.IResolvable;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#name OsServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#name OsServices#name}
   */
   readonly name: string;
   /**
   * By default, Dynatrace does not alert if the service is not installed. Toggle the switch to enable or disable this feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#not_installed_alerting OsServices#not_installed_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#not_installed_alerting OsServices#not_installed_alerting}
   */
   readonly notInstalledAlerting?: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#scope OsServices#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#scope OsServices#scope}
   */
   readonly scope?: string;
   /**
@@ -80,7 +80,7 @@ export interface OsServicesConfig extends cdktf.TerraformMetaArguments {
   * - `inactive`
   * - `active`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#status_condition_linux OsServices#status_condition_linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#status_condition_linux OsServices#status_condition_linux}
   */
   readonly statusConditionLinux?: string;
   /**
@@ -102,31 +102,31 @@ export interface OsServicesConfig extends cdktf.TerraformMetaArguments {
   * - `pause_pending`
   * - `paused`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#status_condition_windows OsServices#status_condition_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#status_condition_windows OsServices#status_condition_windows}
   */
   readonly statusConditionWindows?: string;
   /**
   * Possible Values: `LINUX`, `WINDOWS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#system OsServices#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#system OsServices#system}
   */
   readonly systemAttribute: string;
   /**
   * detection_conditions_linux block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#detection_conditions_linux OsServices#detection_conditions_linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#detection_conditions_linux OsServices#detection_conditions_linux}
   */
   readonly detectionConditionsLinux?: OsServicesDetectionConditionsLinux;
   /**
   * detection_conditions_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#detection_conditions_windows OsServices#detection_conditions_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#detection_conditions_windows OsServices#detection_conditions_windows}
   */
   readonly detectionConditionsWindows?: OsServicesDetectionConditionsWindows;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata OsServices#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata OsServices#metadata}
   */
   readonly metadata?: OsServicesMetadata;
 }
@@ -134,7 +134,7 @@ export interface OsServicesDetectionConditionsLinuxLinuxDetectionConditionHostMe
   /**
   * When enabled, the condition requires a metadata key to exist and match the constraints; when disabled, the key is optional but must still match the constrains if it is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#key_must_exist OsServices#key_must_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#key_must_exist OsServices#key_must_exist}
   */
   readonly keyMustExist?: boolean | cdktf.IResolvable;
   /**
@@ -152,13 +152,13 @@ export interface OsServicesDetectionConditionsLinuxLinuxDetectionConditionHostMe
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_condition OsServices#metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_condition OsServices#metadata_condition}
   */
   readonly metadataCondition: string;
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_key OsServices#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_key OsServices#metadata_key}
   */
   readonly metadataKey: string;
 }
@@ -308,19 +308,19 @@ export interface OsServicesDetectionConditionsLinuxLinuxDetectionCondition {
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#condition OsServices#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#condition OsServices#condition}
   */
   readonly condition?: string;
   /**
   * Possible Values: `ServiceName`, `StartupType`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#property OsServices#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#property OsServices#property}
   */
   readonly property?: string;
   /**
   * Possible Values: `RuleTypeHost`, `RuleTypeOsService`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#rule_type OsServices#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#rule_type OsServices#rule_type}
   */
   readonly ruleType?: string;
   /**
@@ -339,13 +339,13 @@ export interface OsServicesDetectionConditionsLinuxLinuxDetectionCondition {
   * - `static`
   * - `disabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#startup_condition OsServices#startup_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#startup_condition OsServices#startup_condition}
   */
   readonly startupCondition?: string;
   /**
   * host_metadata_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#host_metadata_condition OsServices#host_metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#host_metadata_condition OsServices#host_metadata_condition}
   */
   readonly hostMetadataCondition?: OsServicesDetectionConditionsLinuxLinuxDetectionConditionHostMetadataCondition;
 }
@@ -579,7 +579,7 @@ export interface OsServicesDetectionConditionsLinux {
   /**
   * linux_detection_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#linux_detection_condition OsServices#linux_detection_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#linux_detection_condition OsServices#linux_detection_condition}
   */
   readonly linuxDetectionCondition: OsServicesDetectionConditionsLinuxLinuxDetectionCondition[] | cdktf.IResolvable;
 }
@@ -662,7 +662,7 @@ export interface OsServicesDetectionConditionsWindowsDetectionConditionsWindowHo
   /**
   * When enabled, the condition requires a metadata key to exist and match the constraints; when disabled, the key is optional but must still match the constrains if it is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#key_must_exist OsServices#key_must_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#key_must_exist OsServices#key_must_exist}
   */
   readonly keyMustExist?: boolean | cdktf.IResolvable;
   /**
@@ -680,13 +680,13 @@ export interface OsServicesDetectionConditionsWindowsDetectionConditionsWindowHo
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_condition OsServices#metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_condition OsServices#metadata_condition}
   */
   readonly metadataCondition: string;
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_key OsServices#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_key OsServices#metadata_key}
   */
   readonly metadataKey: string;
 }
@@ -836,19 +836,19 @@ export interface OsServicesDetectionConditionsWindowsDetectionConditionsWindow {
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#condition OsServices#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#condition OsServices#condition}
   */
   readonly condition?: string;
   /**
   * Possible Values: `DisplayName`, `Manufacturer`, `Path`, `ServiceName`, `StartupType`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#property OsServices#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#property OsServices#property}
   */
   readonly property?: string;
   /**
   * Possible Values: `RuleTypeHost`, `RuleTypeOsService`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#rule_type OsServices#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#rule_type OsServices#rule_type}
   */
   readonly ruleType?: string;
   /**
@@ -870,13 +870,13 @@ export interface OsServicesDetectionConditionsWindowsDetectionConditionsWindow {
   * - `auto_delay_trigger` for Automatic (Delayed Start, Trigger Start)
   * - `disabled` for Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#startup_condition OsServices#startup_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#startup_condition OsServices#startup_condition}
   */
   readonly startupCondition?: string;
   /**
   * host_metadata_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#host_metadata_condition OsServices#host_metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#host_metadata_condition OsServices#host_metadata_condition}
   */
   readonly hostMetadataCondition?: OsServicesDetectionConditionsWindowsDetectionConditionsWindowHostMetadataCondition;
 }
@@ -1110,7 +1110,7 @@ export interface OsServicesDetectionConditionsWindows {
   /**
   * detection_conditions_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#detection_conditions_window OsServices#detection_conditions_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#detection_conditions_window OsServices#detection_conditions_window}
   */
   readonly detectionConditionsWindow: OsServicesDetectionConditionsWindowsDetectionConditionsWindow[] | cdktf.IResolvable;
 }
@@ -1193,13 +1193,13 @@ export interface OsServicesMetadataItem {
   /**
   * Type 'dt.' for key hints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_key OsServices#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_key OsServices#metadata_key}
   */
   readonly metadataKey: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#metadata_value OsServices#metadata_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#metadata_value OsServices#metadata_value}
   */
   readonly metadataValue: string;
 }
@@ -1340,7 +1340,7 @@ export interface OsServicesMetadata {
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#item OsServices#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#item OsServices#item}
   */
   readonly item: OsServicesMetadataItem[] | cdktf.IResolvable;
 }
@@ -1421,7 +1421,7 @@ export class OsServicesMetadataOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services dynatrace_os_services}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services dynatrace_os_services}
 */
 export class OsServices extends cdktf.TerraformResource {
 
@@ -1437,7 +1437,7 @@ export class OsServices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsServices to import
-  * @param importFromId The id of the existing OsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1449,7 +1449,7 @@ export class OsServices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/os_services dynatrace_os_services} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/os_services dynatrace_os_services} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1460,8 +1460,8 @@ export class OsServices extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_os_services',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

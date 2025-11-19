@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,395 +10,395 @@ export interface BuiltinProcessMonitoringConfig extends cdktf.TerraformMetaArgum
   /**
   * Rule id: 3 - Do monitor processes if ASP.NET Core application path exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#aspnetcore BuiltinProcessMonitoring#aspnetcore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#aspnetcore BuiltinProcessMonitoring#aspnetcore}
   */
   readonly aspnetcore?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 64 - Do not monitor processes if ASP.NET Core application DLL contains 'Agent.Listener'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#aspnetcore_agentlistener BuiltinProcessMonitoring#aspnetcore_agentlistener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#aspnetcore_agentlistener BuiltinProcessMonitoring#aspnetcore_agentlistener}
   */
   readonly aspnetcoreAgentlistener?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 62 - Do not monitor processes if ASP.NET Core application DLL contains 'Agent.Worker'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#aspnetcore_agentworker BuiltinProcessMonitoring#aspnetcore_agentworker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#aspnetcore_agentworker BuiltinProcessMonitoring#aspnetcore_agentworker}
   */
   readonly aspnetcoreAgentworker?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 37 - Do monitor processes if Cloud Foundry application exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#cf BuiltinProcessMonitoring#cf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#cf BuiltinProcessMonitoring#cf}
   */
   readonly cf?: boolean | cdktf.IResolvable;
   /**
   * Do not monitor processes if Cloud Foundry application begins with 'apps-manager-js'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#cf_appsmanagerjs BuiltinProcessMonitoring#cf_appsmanagerjs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#cf_appsmanagerjs BuiltinProcessMonitoring#cf_appsmanagerjs}
   */
   readonly cfAppsmanagerjs?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 84 - Do not monitor processes if command line arguments contain 'forever/bin/monitor'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#cmd_foreverbinmonitor BuiltinProcessMonitoring#cmd_foreverbinmonitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#cmd_foreverbinmonitor BuiltinProcessMonitoring#cmd_foreverbinmonitor}
   */
   readonly cmdForeverbinmonitor?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 41 - Do monitor processes if container name exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#container BuiltinProcessMonitoring#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#container BuiltinProcessMonitoring#container}
   */
   readonly container?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 39 - Do not monitor processes if Docker stripped image contains 'pause-amd64'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#docker_pauseamd64 BuiltinProcessMonitoring#docker_pauseamd64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#docker_pauseamd64 BuiltinProcessMonitoring#docker_pauseamd64}
   */
   readonly dockerPauseamd64?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 7 - Do monitor processes if EXE name equals 'adapter'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_adapter BuiltinProcessMonitoring#exe_adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_adapter BuiltinProcessMonitoring#exe_adapter}
   */
   readonly exeAdapter?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 63 - Do not monitor processes if EXE name contains 'Agent.Listener'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_agentlistener BuiltinProcessMonitoring#exe_agentlistener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_agentlistener BuiltinProcessMonitoring#exe_agentlistener}
   */
   readonly exeAgentlistener?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 61 - Do not monitor processes if EXE name contains 'Agent.Worker'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_agentworker BuiltinProcessMonitoring#exe_agentworker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_agentworker BuiltinProcessMonitoring#exe_agentworker}
   */
   readonly exeAgentworker?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 79 - Do not monitor processes if EXE name equals 'ansible'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_ansible BuiltinProcessMonitoring#exe_ansible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_ansible BuiltinProcessMonitoring#exe_ansible}
   */
   readonly exeAnsible?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 8 - Do monitor processes if EXE name equals 'auctioneer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_auctioneer BuiltinProcessMonitoring#exe_auctioneer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_auctioneer BuiltinProcessMonitoring#exe_auctioneer}
   */
   readonly exeAuctioneer?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 52 - Do not monitor processes if EXE name equals 'auditbeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_auditbeat BuiltinProcessMonitoring#exe_auditbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_auditbeat BuiltinProcessMonitoring#exe_auditbeat}
   */
   readonly exeAuditbeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 81 - Do not monitor processes if EXE name equals 'aws'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_aws BuiltinProcessMonitoring#exe_aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_aws BuiltinProcessMonitoring#exe_aws}
   */
   readonly exeAws?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 82 - Do not monitor processes if EXE name equals 'az'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_az BuiltinProcessMonitoring#exe_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_az BuiltinProcessMonitoring#exe_az}
   */
   readonly exeAz?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 9 - Do monitor processes if EXE name equals 'bbs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_bbs BuiltinProcessMonitoring#exe_bbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_bbs BuiltinProcessMonitoring#exe_bbs}
   */
   readonly exeBbs?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 5 - Do monitor processes if EXE name equals 'caddy'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_caddy BuiltinProcessMonitoring#exe_caddy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_caddy BuiltinProcessMonitoring#exe_caddy}
   */
   readonly exeCaddy?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 58 - Do not monitor processes if EXE name equals 'calico-node'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_caliconode BuiltinProcessMonitoring#exe_caliconode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_caliconode BuiltinProcessMonitoring#exe_caliconode}
   */
   readonly exeCaliconode?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 59 - Do not monitor processes if EXE name equals 'casclient.exe'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_casclient BuiltinProcessMonitoring#exe_casclient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_casclient BuiltinProcessMonitoring#exe_casclient}
   */
   readonly exeCasclient?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 10 - Do monitor processes if EXE name equals 'cc-uploader'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_ccuploader BuiltinProcessMonitoring#exe_ccuploader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_ccuploader BuiltinProcessMonitoring#exe_ccuploader}
   */
   readonly exeCcuploader?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 78 - Do not monitor processes if EXE name equals 'conda'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_conda BuiltinProcessMonitoring#exe_conda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_conda BuiltinProcessMonitoring#exe_conda}
   */
   readonly exeConda?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 11 - Do monitor processes if EXE name equals 'doppler'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_doppler BuiltinProcessMonitoring#exe_doppler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_doppler BuiltinProcessMonitoring#exe_doppler}
   */
   readonly exeDoppler?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 49 - Do not monitor processes if EXE name equals 'filebeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_filebeat BuiltinProcessMonitoring#exe_filebeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_filebeat BuiltinProcessMonitoring#exe_filebeat}
   */
   readonly exeFilebeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 65 - Do not monitor processes if EXE name equals 'FlexNetJobExecutorService'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_flexnetjobexecutorservice BuiltinProcessMonitoring#exe_flexnetjobexecutorservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_flexnetjobexecutorservice BuiltinProcessMonitoring#exe_flexnetjobexecutorservice}
   */
   readonly exeFlexnetjobexecutorservice?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 66 - Do not monitor processes if EXE name equals 'FlexNetMaintenanceRemotingService'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_flexnetmaintenanceremotingservice BuiltinProcessMonitoring#exe_flexnetmaintenanceremotingservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_flexnetmaintenanceremotingservice BuiltinProcessMonitoring#exe_flexnetmaintenanceremotingservice}
   */
   readonly exeFlexnetmaintenanceremotingservice?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 54 - Do not monitor processes if EXE name equals 'functionbeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_functionbeat BuiltinProcessMonitoring#exe_functionbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_functionbeat BuiltinProcessMonitoring#exe_functionbeat}
   */
   readonly exeFunctionbeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 83 - Do not monitor processes if EXE name equals 'gcloud'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_gcloud BuiltinProcessMonitoring#exe_gcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_gcloud BuiltinProcessMonitoring#exe_gcloud}
   */
   readonly exeGcloud?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 12 - Do monitor processes if EXE name equals 'gorouter'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_gorouter BuiltinProcessMonitoring#exe_gorouter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_gorouter BuiltinProcessMonitoring#exe_gorouter}
   */
   readonly exeGorouter?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 55 - Do not monitor processes if EXE name equals 'grootfs'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_grootfs BuiltinProcessMonitoring#exe_grootfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_grootfs BuiltinProcessMonitoring#exe_grootfs}
   */
   readonly exeGrootfs?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 74 - Do not monitor processes if EXE name equals 'hatch'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_hatch BuiltinProcessMonitoring#exe_hatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_hatch BuiltinProcessMonitoring#exe_hatch}
   */
   readonly exeHatch?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 53 - Do not monitor processes if EXE name equals 'heartbeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_heartbeat BuiltinProcessMonitoring#exe_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_heartbeat BuiltinProcessMonitoring#exe_heartbeat}
   */
   readonly exeHeartbeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 6 - Do monitor processes if EXE name equals 'influxd'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_influxd BuiltinProcessMonitoring#exe_influxd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_influxd BuiltinProcessMonitoring#exe_influxd}
   */
   readonly exeInfluxd?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 77 - Do not monitor processes if EXE name equals 'jupyter'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_jupyter BuiltinProcessMonitoring#exe_jupyter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_jupyter BuiltinProcessMonitoring#exe_jupyter}
   */
   readonly exeJupyter?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 13 - Do monitor processes if EXE name equals 'locket'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_locket BuiltinProcessMonitoring#exe_locket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_locket BuiltinProcessMonitoring#exe_locket}
   */
   readonly exeLocket?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 50 - Do not monitor processes if EXE name equals 'metricbeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_metricbeat BuiltinProcessMonitoring#exe_metricbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_metricbeat BuiltinProcessMonitoring#exe_metricbeat}
   */
   readonly exeMetricbeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 14 - Do monitor processes if EXE name equals 'metron'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_metron BuiltinProcessMonitoring#exe_metron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_metron BuiltinProcessMonitoring#exe_metron}
   */
   readonly exeMetron?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 48 - Do not monitor processes if EXE name begins with 'mqsi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_mqsi BuiltinProcessMonitoring#exe_mqsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_mqsi BuiltinProcessMonitoring#exe_mqsi}
   */
   readonly exeMqsi?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 44 - Do not monitor processes if EXE name equals 'oc'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_oc BuiltinProcessMonitoring#exe_oc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_oc BuiltinProcessMonitoring#exe_oc}
   */
   readonly exeOc?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 71 - Do not monitor processes if EXE name equals 'openhandlecollector.exe'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_openhandlecollector BuiltinProcessMonitoring#exe_openhandlecollector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_openhandlecollector BuiltinProcessMonitoring#exe_openhandlecollector}
   */
   readonly exeOpenhandlecollector?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 80 - Do not monitor processes if EXE name equals 'openstack'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_openstack BuiltinProcessMonitoring#exe_openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_openstack BuiltinProcessMonitoring#exe_openstack}
   */
   readonly exeOpenstack?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 46 - Do not monitor processes if EXE path equals '/opt/cni/bin/host-local'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_optcnibinhostlocal BuiltinProcessMonitoring#exe_optcnibinhostlocal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_optcnibinhostlocal BuiltinProcessMonitoring#exe_optcnibinhostlocal}
   */
   readonly exeOptcnibinhostlocal?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 51 - Do not monitor processes if EXE name equals 'packetbeat'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_packetbeat BuiltinProcessMonitoring#exe_packetbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_packetbeat BuiltinProcessMonitoring#exe_packetbeat}
   */
   readonly exePacketbeat?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 2 - Do not monitor processes if EXE name equals 'php-cgi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_phpcgi BuiltinProcessMonitoring#exe_phpcgi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_phpcgi BuiltinProcessMonitoring#exe_phpcgi}
   */
   readonly exePhpcgi?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 73 - Do not monitor processes if EXE name equals 'pip'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_pip BuiltinProcessMonitoring#exe_pip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_pip BuiltinProcessMonitoring#exe_pip}
   */
   readonly exePip?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 16 - Do monitor processes if EXE name equals 'rep'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_rep BuiltinProcessMonitoring#exe_rep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_rep BuiltinProcessMonitoring#exe_rep}
   */
   readonly exeRep?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 17 - Do monitor processes if EXE name equals 'route-emitter'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_routeemitter BuiltinProcessMonitoring#exe_routeemitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_routeemitter BuiltinProcessMonitoring#exe_routeemitter}
   */
   readonly exeRouteemitter?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 18 - Do monitor processes if EXE name equals 'route-registrar'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_routeregistrar BuiltinProcessMonitoring#exe_routeregistrar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_routeregistrar BuiltinProcessMonitoring#exe_routeregistrar}
   */
   readonly exeRouteregistrar?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 19 - Do monitor processes if EXE name equals 'routing-api'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_routingapi BuiltinProcessMonitoring#exe_routingapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_routingapi BuiltinProcessMonitoring#exe_routingapi}
   */
   readonly exeRoutingapi?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 20 - Do monitor processes if EXE name equals 'scheduler'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_schedular BuiltinProcessMonitoring#exe_schedular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_schedular BuiltinProcessMonitoring#exe_schedular}
   */
   readonly exeSchedular?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 21 - Do monitor processes if EXE name equals 'silk-daemon'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_silkdaemon BuiltinProcessMonitoring#exe_silkdaemon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_silkdaemon BuiltinProcessMonitoring#exe_silkdaemon}
   */
   readonly exeSilkdaemon?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 22 - Do monitor processes if EXE name equals 'switchboard'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_switchboard BuiltinProcessMonitoring#exe_switchboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_switchboard BuiltinProcessMonitoring#exe_switchboard}
   */
   readonly exeSwitchboard?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 23 - Do monitor processes if EXE name equals 'syslog_drain_binder'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_syslogdrainbinder BuiltinProcessMonitoring#exe_syslogdrainbinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_syslogdrainbinder BuiltinProcessMonitoring#exe_syslogdrainbinder}
   */
   readonly exeSyslogdrainbinder?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 56 - Do not monitor processes if EXE name equals 'tardis'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_tardis BuiltinProcessMonitoring#exe_tardis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_tardis BuiltinProcessMonitoring#exe_tardis}
   */
   readonly exeTardis?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 43 - Do not monitor processes if EXE path begins with '/tmp/buildpacks/'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_tmpbuildpacks BuiltinProcessMonitoring#exe_tmpbuildpacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_tmpbuildpacks BuiltinProcessMonitoring#exe_tmpbuildpacks}
   */
   readonly exeTmpbuildpacks?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 24 - Do monitor processes if EXE name equals 'tps-watcher'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_tpswatcher BuiltinProcessMonitoring#exe_tpswatcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_tpswatcher BuiltinProcessMonitoring#exe_tpswatcher}
   */
   readonly exeTpswatcher?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 25 - Do monitor processes if EXE name equals 'trafficcontroller'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_trafficcontroller BuiltinProcessMonitoring#exe_trafficcontroller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_trafficcontroller BuiltinProcessMonitoring#exe_trafficcontroller}
   */
   readonly exeTrafficcontroller?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 70 - Do not monitor processes if EXE name contains 'UiPath'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_uipath BuiltinProcessMonitoring#exe_uipath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_uipath BuiltinProcessMonitoring#exe_uipath}
   */
   readonly exeUipath?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 67 - Do not monitor processes if EXE path equals '/usr/bin/piper'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_userbinpiper BuiltinProcessMonitoring#exe_userbinpiper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_userbinpiper BuiltinProcessMonitoring#exe_userbinpiper}
   */
   readonly exeUserbinpiper?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 4 - Do monitor processes if EXE name equals 'w3wp.exe'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_w3wp BuiltinProcessMonitoring#exe_w3wp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_w3wp BuiltinProcessMonitoring#exe_w3wp}
   */
   readonly exeW3Wp?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 75 - Do not monitor processes if EXE name equals 'wheel'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_wheel BuiltinProcessMonitoring#exe_wheel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_wheel BuiltinProcessMonitoring#exe_wheel}
   */
   readonly exeWheel?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 72 - Do not monitor processes if EXE name equals 'yq'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_yq BuiltinProcessMonitoring#exe_yq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_yq BuiltinProcessMonitoring#exe_yq}
   */
   readonly exeYq?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 76 - Do not monitor processes if EXE name equals 'yum'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#exe_yum BuiltinProcessMonitoring#exe_yum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#exe_yum BuiltinProcessMonitoring#exe_yum}
   */
   readonly exeYum?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 47 - Do not monitor processes if Go Binary Linkage equals 'static'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#go_static BuiltinProcessMonitoring#go_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#go_static BuiltinProcessMonitoring#go_static}
   */
   readonly goStatic?: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#host_group_id BuiltinProcessMonitoring#host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#host_group_id BuiltinProcessMonitoring#host_group_id}
   */
   readonly hostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#id BuiltinProcessMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#id BuiltinProcessMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -407,103 +407,103 @@ export interface BuiltinProcessMonitoringConfig extends cdktf.TerraformMetaArgum
   /**
   * Rule id: 60 - Do not monitor processes if JAR file name equals 'dynatrace_ibm_mq_connector.jar'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#jar_dtibmmqconnector BuiltinProcessMonitoring#jar_dtibmmqconnector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#jar_dtibmmqconnector BuiltinProcessMonitoring#jar_dtibmmqconnector}
   */
   readonly jarDtibmmqconnector?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 57 - Do not monitor processes if Java JAR file begins with 'org.eclipse.equinox.launcher'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#jar_eclipseequinox BuiltinProcessMonitoring#jar_eclipseequinox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#jar_eclipseequinox BuiltinProcessMonitoring#jar_eclipseequinox}
   */
   readonly jarEclipseequinox?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 69 - Do not monitor processes if Kubernetes container name equals 'cassandra-operator'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#k8s_cassandraoperator BuiltinProcessMonitoring#k8s_cassandraoperator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#k8s_cassandraoperator BuiltinProcessMonitoring#k8s_cassandraoperator}
   */
   readonly k8SCassandraoperator?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 38 - Do not monitor processes if Kubernetes container name equals 'POD'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#k8s_containerpod BuiltinProcessMonitoring#k8s_containerpod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#k8s_containerpod BuiltinProcessMonitoring#k8s_containerpod}
   */
   readonly k8SContainerpod?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 40 - Do monitor processes if Kubernetes namespace exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#k8s_namespace BuiltinProcessMonitoring#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#k8s_namespace BuiltinProcessMonitoring#k8s_namespace}
   */
   readonly k8SNamespace?: boolean | cdktf.IResolvable;
   /**
   * Do not monitor processes if Node.js script equals 'bin/pm2'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_binpm2 BuiltinProcessMonitoring#node_binpm2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_binpm2 BuiltinProcessMonitoring#node_binpm2}
   */
   readonly nodeBinpm2?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 68 - Do not monitor processes if Node.js application equals 'corepack'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_corepack BuiltinProcessMonitoring#node_corepack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_corepack BuiltinProcessMonitoring#node_corepack}
   */
   readonly nodeCorepack?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 28 - Do not monitor processes if Node.js application base directory ends with '/node_modules/grunt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_grunt BuiltinProcessMonitoring#node_grunt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_grunt BuiltinProcessMonitoring#node_grunt}
   */
   readonly nodeGrunt?: boolean | cdktf.IResolvable;
   /**
   * Do not monitor processes if Node.js application base directory ends with '/node_modules/gulp-cli'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_gulpcli BuiltinProcessMonitoring#node_gulpcli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_gulpcli BuiltinProcessMonitoring#node_gulpcli}
   */
   readonly nodeGulpcli?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 33 - Do not monitor processes if Node.js application base directory ends with '/node_modules/node-gyp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_nodegyp BuiltinProcessMonitoring#node_nodegyp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_nodegyp BuiltinProcessMonitoring#node_nodegyp}
   */
   readonly nodeNodegyp?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 32 - Do not monitor processes if Node.js application base directory ends with '/node_modules/node-pre-gyp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_nodepregyp BuiltinProcessMonitoring#node_nodepregyp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_nodepregyp BuiltinProcessMonitoring#node_nodepregyp}
   */
   readonly nodeNodepregyp?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 27 - Do not monitor processes if Node.js application base directory ends with '/node_modules/npm'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_npm BuiltinProcessMonitoring#node_npm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_npm BuiltinProcessMonitoring#node_npm}
   */
   readonly nodeNpm?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 26 - Do not monitor processes if Node.js application base directory ends with '/node_modules/prebuild-install'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_prebuildinstall BuiltinProcessMonitoring#node_prebuildinstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_prebuildinstall BuiltinProcessMonitoring#node_prebuildinstall}
   */
   readonly nodePrebuildinstall?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 29 - Do not monitor processes if Node.js application base directory ends with '/node_modules/typescript'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_typescript BuiltinProcessMonitoring#node_typescript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_typescript BuiltinProcessMonitoring#node_typescript}
   */
   readonly nodeTypescript?: boolean | cdktf.IResolvable;
   /**
   * Rule id: 45 - Do not monitor processes if Node.js application equals 'yarn'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#node_yarn BuiltinProcessMonitoring#node_yarn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#node_yarn BuiltinProcessMonitoring#node_yarn}
   */
   readonly nodeYarn?: boolean | cdktf.IResolvable;
   /**
   * (v1.274) Rule id: 1 - Do not monitor processes if PHP script exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#php_script BuiltinProcessMonitoring#php_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#php_script BuiltinProcessMonitoring#php_script}
   */
   readonly phpScript?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring dynatrace_builtin_process_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring dynatrace_builtin_process_monitoring}
 */
 export class BuiltinProcessMonitoring extends cdktf.TerraformResource {
 
@@ -519,7 +519,7 @@ export class BuiltinProcessMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BuiltinProcessMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuiltinProcessMonitoring to import
-  * @param importFromId The id of the existing BuiltinProcessMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuiltinProcessMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuiltinProcessMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class BuiltinProcessMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/builtin_process_monitoring dynatrace_builtin_process_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/builtin_process_monitoring dynatrace_builtin_process_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class BuiltinProcessMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_builtin_process_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

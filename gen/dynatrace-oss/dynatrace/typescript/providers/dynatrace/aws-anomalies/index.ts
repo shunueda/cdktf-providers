@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AwsAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#id AwsAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#id AwsAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface AwsAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * ec_2_candidate_high_cpu_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#ec_2_candidate_high_cpu_detection AwsAnomalies#ec_2_candidate_high_cpu_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#ec_2_candidate_high_cpu_detection AwsAnomalies#ec_2_candidate_high_cpu_detection}
   */
   readonly ec2CandidateHighCpuDetection: AwsAnomaliesEc2CandidateHighCpuDetection;
   /**
   * elb_high_connection_errors_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#elb_high_connection_errors_detection AwsAnomalies#elb_high_connection_errors_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#elb_high_connection_errors_detection AwsAnomalies#elb_high_connection_errors_detection}
   */
   readonly elbHighConnectionErrorsDetection: AwsAnomaliesElbHighConnectionErrorsDetection;
   /**
   * lambda_high_error_rate_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#lambda_high_error_rate_detection AwsAnomalies#lambda_high_error_rate_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#lambda_high_error_rate_detection AwsAnomalies#lambda_high_error_rate_detection}
   */
   readonly lambdaHighErrorRateDetection: AwsAnomaliesLambdaHighErrorRateDetection;
   /**
   * rds_high_cpu_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#rds_high_cpu_detection AwsAnomalies#rds_high_cpu_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#rds_high_cpu_detection AwsAnomalies#rds_high_cpu_detection}
   */
   readonly rdsHighCpuDetection: AwsAnomaliesRdsHighCpuDetection;
   /**
   * rds_high_memory_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#rds_high_memory_detection AwsAnomalies#rds_high_memory_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#rds_high_memory_detection AwsAnomalies#rds_high_memory_detection}
   */
   readonly rdsHighMemoryDetection: AwsAnomaliesRdsHighMemoryDetection;
   /**
   * rds_high_write_read_latency_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#rds_high_write_read_latency_detection AwsAnomalies#rds_high_write_read_latency_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#rds_high_write_read_latency_detection AwsAnomalies#rds_high_write_read_latency_detection}
   */
   readonly rdsHighWriteReadLatencyDetection: AwsAnomaliesRdsHighWriteReadLatencyDetection;
   /**
   * rds_low_storage_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#rds_low_storage_detection AwsAnomalies#rds_low_storage_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#rds_low_storage_detection AwsAnomalies#rds_low_storage_detection}
   */
   readonly rdsLowStorageDetection: AwsAnomaliesRdsLowStorageDetection;
   /**
   * rds_restarts_sequence_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#rds_restarts_sequence_detection AwsAnomalies#rds_restarts_sequence_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#rds_restarts_sequence_detection AwsAnomalies#rds_restarts_sequence_detection}
   */
   readonly rdsRestartsSequenceDetection: AwsAnomaliesRdsRestartsSequenceDetection;
 }
@@ -67,7 +67,7 @@ export interface AwsAnomaliesEc2CandidateHighCpuDetectionCustomThresholds {
   /**
   * CPU usage is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#cpu_usage AwsAnomalies#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#cpu_usage AwsAnomalies#cpu_usage}
   */
   readonly cpuUsage: number;
 }
@@ -150,19 +150,19 @@ export interface AwsAnomaliesEc2CandidateHighCpuDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesEc2CandidateHighCpuDetectionCustomThresholds;
 }
@@ -303,7 +303,7 @@ export interface AwsAnomaliesElbHighConnectionErrorsDetectionCustomThresholds {
   /**
   * Number of backend connection errors is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#connection_errors_per_minute AwsAnomalies#connection_errors_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#connection_errors_per_minute AwsAnomalies#connection_errors_per_minute}
   */
   readonly connectionErrorsPerMinute: number;
 }
@@ -386,19 +386,19 @@ export interface AwsAnomaliesElbHighConnectionErrorsDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesElbHighConnectionErrorsDetectionCustomThresholds;
 }
@@ -539,7 +539,7 @@ export interface AwsAnomaliesLambdaHighErrorRateDetectionCustomThresholds {
   /**
   * Failed invocations rate is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#failed_invocations_rate AwsAnomalies#failed_invocations_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#failed_invocations_rate AwsAnomalies#failed_invocations_rate}
   */
   readonly failedInvocationsRate: number;
 }
@@ -622,19 +622,19 @@ export interface AwsAnomaliesLambdaHighErrorRateDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesLambdaHighErrorRateDetectionCustomThresholds;
 }
@@ -775,7 +775,7 @@ export interface AwsAnomaliesRdsHighCpuDetectionCustomThresholds {
   /**
   * CPU usage is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#cpu_usage AwsAnomalies#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#cpu_usage AwsAnomalies#cpu_usage}
   */
   readonly cpuUsage: number;
 }
@@ -858,19 +858,19 @@ export interface AwsAnomaliesRdsHighCpuDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesRdsHighCpuDetectionCustomThresholds;
 }
@@ -1011,13 +1011,13 @@ export interface AwsAnomaliesRdsHighMemoryDetectionCustomThresholds {
   /**
   * Freeable memory is lower than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#free_memory AwsAnomalies#free_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#free_memory AwsAnomalies#free_memory}
   */
   readonly freeMemory: number;
   /**
   * Swap usage is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#swap_usage AwsAnomalies#swap_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#swap_usage AwsAnomalies#swap_usage}
   */
   readonly swapUsage: number;
 }
@@ -1126,19 +1126,19 @@ export interface AwsAnomaliesRdsHighMemoryDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesRdsHighMemoryDetectionCustomThresholds;
 }
@@ -1279,7 +1279,7 @@ export interface AwsAnomaliesRdsHighWriteReadLatencyDetectionCustomThresholds {
   /**
   * Read/write latency is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#read_write_latency AwsAnomalies#read_write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#read_write_latency AwsAnomalies#read_write_latency}
   */
   readonly readWriteLatency: number;
 }
@@ -1362,19 +1362,19 @@ export interface AwsAnomaliesRdsHighWriteReadLatencyDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesRdsHighWriteReadLatencyDetectionCustomThresholds;
 }
@@ -1515,7 +1515,7 @@ export interface AwsAnomaliesRdsLowStorageDetectionCustomThresholds {
   /**
   * Free storage space divided by allocated storage is lower than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#free_storage_percentage AwsAnomalies#free_storage_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#free_storage_percentage AwsAnomalies#free_storage_percentage}
   */
   readonly freeStoragePercentage: number;
 }
@@ -1598,19 +1598,19 @@ export interface AwsAnomaliesRdsLowStorageDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesRdsLowStorageDetectionCustomThresholds;
 }
@@ -1751,7 +1751,7 @@ export interface AwsAnomaliesRdsRestartsSequenceDetectionCustomThresholds {
   /**
   * Number of restarts per minute is equal or higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#restarts_per_minute AwsAnomalies#restarts_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#restarts_per_minute AwsAnomalies#restarts_per_minute}
   */
   readonly restartsPerMinute: number;
 }
@@ -1834,19 +1834,19 @@ export interface AwsAnomaliesRdsRestartsSequenceDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#detection_mode AwsAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#enabled AwsAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#custom_thresholds AwsAnomalies#custom_thresholds}
   */
   readonly customThresholds?: AwsAnomaliesRdsRestartsSequenceDetectionCustomThresholds;
 }
@@ -1985,7 +1985,7 @@ export class AwsAnomaliesRdsRestartsSequenceDetectionOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies dynatrace_aws_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies dynatrace_aws_anomalies}
 */
 export class AwsAnomalies extends cdktf.TerraformResource {
 
@@ -2001,7 +2001,7 @@ export class AwsAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAnomalies to import
-  * @param importFromId The id of the existing AwsAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2013,7 +2013,7 @@ export class AwsAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_anomalies dynatrace_aws_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_anomalies dynatrace_aws_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2024,8 +2024,8 @@ export class AwsAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_aws_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

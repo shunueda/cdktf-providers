@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FunctionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Function code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#code FunctionResource#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#code FunctionResource#code}
   */
   readonly code: string;
   /**
   * A description for this function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#description FunctionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#description FunctionResource#description}
   */
   readonly description?: string;
   /**
   * A display name for this Function. Destination Functions append the Workspace to the display name, but this is omitted from the Terraform output for consistency purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#display_name FunctionResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#display_name FunctionResource#display_name}
   */
   readonly displayName?: string;
   /**
   * The URL of the logo for this Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#logo_url FunctionResource#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#logo_url FunctionResource#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * The Function type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#resource_type FunctionResource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#resource_type FunctionResource#resource_type}
   */
   readonly resourceType: string;
   /**
   * The settings associated with this Function. Common settings are connection-related configuration used to connect to it, for example host, username, and port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#settings FunctionResource#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#settings FunctionResource#settings}
   */
   readonly settings?: FunctionResourceSettings[] | cdktf.IResolvable;
 }
@@ -48,37 +48,37 @@ export interface FunctionResourceSettings {
   /**
   * A description of this Function Setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#description FunctionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#description FunctionResource#description}
   */
   readonly description: string;
   /**
   * The label for this Function Setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#label FunctionResource#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#label FunctionResource#label}
   */
   readonly label: string;
   /**
   * The name of this Function setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#name FunctionResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#name FunctionResource#name}
   */
   readonly name: string;
   /**
   * Whether this Function Setting is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#required FunctionResource#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#required FunctionResource#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * Whether this Function Setting contains sensitive information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#sensitive FunctionResource#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#sensitive FunctionResource#sensitive}
   */
   readonly sensitive: boolean | cdktf.IResolvable;
   /**
   * The type of this Function Setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#type FunctionResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#type FunctionResource#type}
   */
   readonly type: string;
 }
@@ -321,7 +321,7 @@ export class FunctionResourceSettingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function segment_function}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function segment_function}
 */
 export class FunctionResource extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionResource to import
-  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/function segment_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/function segment_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class FunctionResource extends cdktf.TerraformResource {
       terraformResourceType: 'segment_function',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataRouterosInterfacesConfig extends cdktf.TerraformMetaArgumen
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces#___path___ DataRouterosInterfaces#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces#___path___ DataRouterosInterfaces#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces#___skip___ DataRouterosInterfaces#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces#___skip___ DataRouterosInterfaces#___skip___}
   */
   readonly skip?: string;
   /**
   * Additional request filtering options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces#filter DataRouterosInterfaces#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces#filter DataRouterosInterfaces#filter}
   */
   readonly filter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces#id DataRouterosInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces#id DataRouterosInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -190,7 +190,7 @@ export class DataRouterosInterfacesInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces routeros_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces routeros_interfaces}
 */
 export class DataRouterosInterfaces extends cdktf.TerraformDataSource {
 
@@ -206,7 +206,7 @@ export class DataRouterosInterfaces extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRouterosInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRouterosInterfaces to import
-  * @param importFromId The id of the existing DataRouterosInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRouterosInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRouterosInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class DataRouterosInterfaces extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/data-sources/interfaces routeros_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/data-sources/interfaces routeros_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class DataRouterosInterfaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'routeros_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CloudappWorkloaddetectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#id CloudappWorkloaddetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#id CloudappWorkloaddetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CloudappWorkloaddetectionConfig extends cdktf.TerraformMetaArgu
   /**
   * cloud_foundry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#cloud_foundry CloudappWorkloaddetection#cloud_foundry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#cloud_foundry CloudappWorkloaddetection#cloud_foundry}
   */
   readonly cloudFoundry: CloudappWorkloaddetectionCloudFoundry;
   /**
   * docker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#docker CloudappWorkloaddetection#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#docker CloudappWorkloaddetection#docker}
   */
   readonly docker: CloudappWorkloaddetectionDocker;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#kubernetes CloudappWorkloaddetection#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#kubernetes CloudappWorkloaddetection#kubernetes}
   */
   readonly kubernetes: CloudappWorkloaddetectionKubernetes;
   /**
   * serverless block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#serverless CloudappWorkloaddetection#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#serverless CloudappWorkloaddetection#serverless}
   */
   readonly serverless?: CloudappWorkloaddetectionServerless;
 }
@@ -43,7 +43,7 @@ export interface CloudappWorkloaddetectionCloudFoundry {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -126,7 +126,7 @@ export interface CloudappWorkloaddetectionDocker {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -209,31 +209,31 @@ export interface CloudappWorkloaddetectionKubernetesFiltersFilterInclusionToggle
   /**
   * E.g. "cloud-credential-operator-" for "cloud-credential-operator-5ff6dbff57-gszgq"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inc_basepod CloudappWorkloaddetection#inc_basepod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inc_basepod CloudappWorkloaddetection#inc_basepod}
   */
   readonly incBasepod: boolean | cdktf.IResolvable;
   /**
   * Container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inc_container CloudappWorkloaddetection#inc_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inc_container CloudappWorkloaddetection#inc_container}
   */
   readonly incContainer: boolean | cdktf.IResolvable;
   /**
   * Namespace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inc_namespace CloudappWorkloaddetection#inc_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inc_namespace CloudappWorkloaddetection#inc_namespace}
   */
   readonly incNamespace: boolean | cdktf.IResolvable;
   /**
   * If Product is enabled and has no value, it defaults to Base pod name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inc_product CloudappWorkloaddetection#inc_product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inc_product CloudappWorkloaddetection#inc_product}
   */
   readonly incProduct: boolean | cdktf.IResolvable;
   /**
   * Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inc_stage CloudappWorkloaddetection#inc_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inc_stage CloudappWorkloaddetection#inc_stage}
   */
   readonly incStage: boolean | cdktf.IResolvable;
 }
@@ -420,13 +420,13 @@ export interface CloudappWorkloaddetectionKubernetesFiltersFilterMatchFilter {
   /**
   * Possible Values: `CONTAINS`, `ENDS`, `EQUALS`, `EXISTS`, `NOT_CONTAINS`, `NOT_ENDS`, `NOT_EQUALS`, `NOT_STARTS`, `STARTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#match_operator CloudappWorkloaddetection#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#match_operator CloudappWorkloaddetection#match_operator}
   */
   readonly matchOperator: string;
   /**
   * Namespace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#namespace CloudappWorkloaddetection#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#namespace CloudappWorkloaddetection#namespace}
   */
   readonly namespace?: string;
 }
@@ -538,19 +538,19 @@ export interface CloudappWorkloaddetectionKubernetesFiltersFilter {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * inclusion_toggles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#inclusion_toggles CloudappWorkloaddetection#inclusion_toggles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#inclusion_toggles CloudappWorkloaddetection#inclusion_toggles}
   */
   readonly inclusionToggles: CloudappWorkloaddetectionKubernetesFiltersFilterInclusionToggles;
   /**
   * match_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#match_filter CloudappWorkloaddetection#match_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#match_filter CloudappWorkloaddetection#match_filter}
   */
   readonly matchFilter: CloudappWorkloaddetectionKubernetesFiltersFilterMatchFilter;
 }
@@ -717,7 +717,7 @@ export interface CloudappWorkloaddetectionKubernetesFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#filter CloudappWorkloaddetection#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#filter CloudappWorkloaddetection#filter}
   */
   readonly filter: CloudappWorkloaddetectionKubernetesFiltersFilter[] | cdktf.IResolvable;
 }
@@ -800,13 +800,13 @@ export interface CloudappWorkloaddetectionKubernetes {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#filters CloudappWorkloaddetection#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#filters CloudappWorkloaddetection#filters}
   */
   readonly filters?: CloudappWorkloaddetectionKubernetesFilters;
 }
@@ -918,7 +918,7 @@ export interface CloudappWorkloaddetectionServerless {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#enabled CloudappWorkloaddetection#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -999,7 +999,7 @@ export class CloudappWorkloaddetectionServerlessOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection dynatrace_cloudapp_workloaddetection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection dynatrace_cloudapp_workloaddetection}
 */
 export class CloudappWorkloaddetection extends cdktf.TerraformResource {
 
@@ -1015,7 +1015,7 @@ export class CloudappWorkloaddetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudappWorkloaddetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudappWorkloaddetection to import
-  * @param importFromId The id of the existing CloudappWorkloaddetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudappWorkloaddetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudappWorkloaddetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1027,7 +1027,7 @@ export class CloudappWorkloaddetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudapp_workloaddetection dynatrace_cloudapp_workloaddetection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudapp_workloaddetection dynatrace_cloudapp_workloaddetection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1038,8 +1038,8 @@ export class CloudappWorkloaddetection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_cloudapp_workloaddetection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

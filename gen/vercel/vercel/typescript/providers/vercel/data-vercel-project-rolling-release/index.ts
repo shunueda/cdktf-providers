@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelProjectRollingReleaseConfig extends cdktf.TerraformMe
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release#project_id DataVercelProjectRollingRelease#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release#project_id DataVercelProjectRollingRelease#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the Vercel team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release#team_id DataVercelProjectRollingRelease#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release#team_id DataVercelProjectRollingRelease#team_id}
   */
   readonly teamId?: string;
 }
@@ -102,7 +102,7 @@ export class DataVercelProjectRollingReleaseStagesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release vercel_project_rolling_release}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release vercel_project_rolling_release}
 */
 export class DataVercelProjectRollingRelease extends cdktf.TerraformDataSource {
 
@@ -118,7 +118,7 @@ export class DataVercelProjectRollingRelease extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelProjectRollingRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelProjectRollingRelease to import
-  * @param importFromId The id of the existing DataVercelProjectRollingRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelProjectRollingRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelProjectRollingRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class DataVercelProjectRollingRelease extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/project_rolling_release vercel_project_rolling_release} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/project_rolling_release vercel_project_rolling_release} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class DataVercelProjectRollingRelease extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_project_rolling_release',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

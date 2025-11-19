@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface FlinkArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * The artifact file for Flink Artifact in JAR or ZIP format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#artifact_file FlinkArtifact#artifact_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#artifact_file FlinkArtifact#artifact_file}
   */
   readonly artifactFile?: string;
   /**
   * Java class or alias for the Flink Artifact as provided by developer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#class FlinkArtifact#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#class FlinkArtifact#class}
   */
   readonly class?: string;
   /**
   * Cloud provider where the Flink Artifact archive is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#cloud FlinkArtifact#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#cloud FlinkArtifact#cloud}
   */
   readonly cloud: string;
   /**
   * Archive format of the Flink Artifact (JAR or ZIP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#content_format FlinkArtifact#content_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#content_format FlinkArtifact#content_format}
   */
   readonly contentFormat?: string;
   /**
   * Description of the Flink Artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#description FlinkArtifact#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#description FlinkArtifact#description}
   */
   readonly description?: string;
   /**
   * The unique name of the Flink Artifact per cloud, region, environment scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#display_name FlinkArtifact#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#display_name FlinkArtifact#display_name}
   */
   readonly displayName: string;
   /**
   * Documentation link of the Flink Artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#documentation_link FlinkArtifact#documentation_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#documentation_link FlinkArtifact#documentation_link}
   */
   readonly documentationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#id FlinkArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#id FlinkArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,19 +59,19 @@ export interface FlinkArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Cloud provider region the Flink Artifact archive is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#region FlinkArtifact#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#region FlinkArtifact#region}
   */
   readonly region: string;
   /**
   * Runtime language of the Flink Artifact as Python or JAVA. The default runtime language is JAVA. Defaults to `JAVA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#runtime_language FlinkArtifact#runtime_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#runtime_language FlinkArtifact#runtime_language}
   */
   readonly runtimeLanguage?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#environment FlinkArtifact#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#environment FlinkArtifact#environment}
   */
   readonly environment: FlinkArtifactEnvironment;
 }
@@ -154,7 +154,7 @@ export interface FlinkArtifactEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#id FlinkArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#id FlinkArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -238,7 +238,7 @@ export class FlinkArtifactEnvironmentOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact confluent_flink_artifact}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact confluent_flink_artifact}
 */
 export class FlinkArtifact extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class FlinkArtifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkArtifact to import
-  * @param importFromId The id of the existing FlinkArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class FlinkArtifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/flink_artifact confluent_flink_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/flink_artifact confluent_flink_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class FlinkArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_flink_artifact',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

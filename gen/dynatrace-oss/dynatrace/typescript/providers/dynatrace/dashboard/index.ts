@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dashboard_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#dashboard_metadata Dashboard#dashboard_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#dashboard_metadata Dashboard#dashboard_metadata}
   */
   readonly dashboardMetadata?: DashboardDashboardMetadata;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#metadata Dashboard#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#metadata Dashboard#metadata}
   */
   readonly metadata?: DashboardMetadata;
   /**
   * tile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tile Dashboard#tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tile Dashboard#tile}
   */
   readonly tile?: DashboardTile[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface DashboardDashboardMetadataDynamicFiltersGenericTagFiltersFilter
   /**
   * Entity types affected by tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#entity_types Dashboard#entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#entity_types Dashboard#entity_types}
   */
   readonly entityTypes: string[];
   /**
   * The display name used to identify this generic filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
   * The entity type for which the suggestions should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#suggestions_from_entity_type Dashboard#suggestions_from_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#suggestions_from_entity_type Dashboard#suggestions_from_entity_type}
   */
   readonly suggestionsFromEntityType?: string;
   /**
   * The tag key for this filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tag_key Dashboard#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tag_key Dashboard#tag_key}
   */
   readonly tagKey?: string;
 }
@@ -263,7 +263,7 @@ export interface DashboardDashboardMetadataDynamicFiltersGenericTagFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter: DashboardDashboardMetadataDynamicFiltersGenericTagFiltersFilter[] | cdktf.IResolvable;
 }
@@ -361,7 +361,7 @@ export interface DashboardDashboardMetadataDynamicFilters {
   * 	RELATED_NAMESPACE,
   * 	TAG_KEY:<tagname>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters: string[];
   /**
@@ -369,19 +369,19 @@ export interface DashboardDashboardMetadataDynamicFilters {
   * 
   * Only applicable if the **filters** set includes `TAG_KEY:<tagname>`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tag_suggestion_types Dashboard#tag_suggestion_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tag_suggestion_types Dashboard#tag_suggestion_types}
   */
   readonly tagSuggestionTypes?: string[];
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * generic_tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#generic_tag_filters Dashboard#generic_tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#generic_tag_filters Dashboard#generic_tag_filters}
   */
   readonly genericTagFilters?: DashboardDashboardMetadataDynamicFiltersGenericTagFilters;
 }
@@ -551,13 +551,13 @@ export interface DashboardDashboardMetadataFilterManagementZone {
   /**
   * a short description of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * the ID of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -566,13 +566,13 @@ export interface DashboardDashboardMetadataFilterManagementZone {
   /**
   * the name of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -774,19 +774,19 @@ export interface DashboardDashboardMetadataFilter {
   /**
   * the default timeframe of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#timeframe Dashboard#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#timeframe Dashboard#timeframe}
   */
   readonly timeframe?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * management_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#management_zone Dashboard#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#management_zone Dashboard#management_zone}
   */
   readonly managementZone?: DashboardDashboardMetadataFilterManagementZone[] | cdktf.IResolvable;
 }
@@ -930,19 +930,19 @@ export interface DashboardDashboardMetadataSharingDetails {
   /**
   * If `true`, the dashboard is shared via link and authenticated users with the link can view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#link_shared Dashboard#link_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#link_shared Dashboard#link_shared}
   */
   readonly linkShared?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the dashboard is published to anyone on this environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#published Dashboard#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#published Dashboard#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1086,73 +1086,73 @@ export interface DashboardDashboardMetadata {
   /**
   * The tile uses consistent colors when rendering its content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#consistent_colors Dashboard#consistent_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#consistent_colors Dashboard#consistent_colors}
   */
   readonly consistentColors?: boolean | cdktf.IResolvable;
   /**
   * the name of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * the owner of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#owner Dashboard#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#owner Dashboard#owner}
   */
   readonly owner: string;
   /**
   * the dashboard is a preset (`true`) or not (`false`). Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#preset Dashboard#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#preset Dashboard#preset}
   */
   readonly preset?: boolean | cdktf.IResolvable;
   /**
   * the dashboard is shared (`true`) or private (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#shared Dashboard#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#shared Dashboard#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * a set of tags assigned to the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tags Dashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tags Dashboard#tags}
   */
   readonly tags?: string[];
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tiles_name_size Dashboard#tiles_name_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tiles_name_size Dashboard#tiles_name_size}
   */
   readonly tilesNameSize?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * a set of all possible global dashboard filters that can be applied to dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#valid_filter_keys Dashboard#valid_filter_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#valid_filter_keys Dashboard#valid_filter_keys}
   */
   readonly validFilterKeys?: string[];
   /**
   * dynamic_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#dynamic_filters Dashboard#dynamic_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#dynamic_filters Dashboard#dynamic_filters}
   */
   readonly dynamicFilters?: DashboardDashboardMetadataDynamicFilters;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter?: DashboardDashboardMetadataFilter;
   /**
   * sharing_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#sharing_details Dashboard#sharing_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#sharing_details Dashboard#sharing_details}
   */
   readonly sharingDetails?: DashboardDashboardMetadataSharingDetails;
 }
@@ -1551,19 +1551,19 @@ export interface DashboardMetadata {
   /**
   * Dynatrace server version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#cluster_version Dashboard#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#cluster_version Dashboard#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
   * A Sorted list of the version numbers of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#configuration_versions Dashboard#configuration_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#configuration_versions Dashboard#configuration_versions}
   */
   readonly configurationVersions?: number[];
   /**
   * A Sorted list of the version numbers of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#current_configuration_versions Dashboard#current_configuration_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#current_configuration_versions Dashboard#current_configuration_versions}
   */
   readonly currentConfigurationVersions?: string[];
 }
@@ -1707,31 +1707,31 @@ export interface DashboardTileBounds {
   /**
   * the height of the tile, in pixels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#height Dashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#height Dashboard#height}
   */
   readonly height: number;
   /**
   * the horizontal distance from the top left corner of the dashboard to the top left corner of the tile, in pixels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#left Dashboard#left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#left Dashboard#left}
   */
   readonly left: number;
   /**
   * the vertical distance from the top left corner of the dashboard to the top left corner of the tile, in pixels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#top Dashboard#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#top Dashboard#top}
   */
   readonly top: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * the width of the tile, in pixels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width: number;
 }
@@ -1921,13 +1921,13 @@ export interface DashboardTileFilterManagementZone {
   /**
   * a short description of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * the ID of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1936,13 +1936,13 @@ export interface DashboardTileFilterManagementZone {
   /**
   * the name of the Dynatrace entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2144,19 +2144,19 @@ export interface DashboardTileFilter {
   /**
   * the default timeframe of the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#timeframe Dashboard#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#timeframe Dashboard#timeframe}
   */
   readonly timeframe?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * management_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#management_zone Dashboard#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#management_zone Dashboard#management_zone}
   */
   readonly managementZone?: DashboardTileFilterManagementZone[] | cdktf.IResolvable;
 }
@@ -2300,25 +2300,25 @@ export interface DashboardTileFilterConfigChartConfigResultMetadataConfig {
   /**
   * The color of the metric in the chart, hex format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#custom_color Dashboard#custom_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#custom_color Dashboard#custom_color}
   */
   readonly customColor?: string;
   /**
   * A generated key by the Dynatrace Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key?: string;
   /**
   * The timestamp of the last metadata modification, in UTC milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#last_modified Dashboard#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#last_modified Dashboard#last_modified}
   */
   readonly lastModified?: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2523,7 +2523,7 @@ export interface DashboardTileFilterConfigChartConfigResultMetadata {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#config Dashboard#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#config Dashboard#config}
   */
   readonly config?: DashboardTileFilterConfigChartConfigResultMetadataConfig[] | cdktf.IResolvable;
 }
@@ -2639,13 +2639,13 @@ export class DashboardTileFilterConfigChartConfigResultMetadataList extends cdkt
 }
 export interface DashboardTileFilterConfigChartConfigSeriesDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#entity_dimension Dashboard#entity_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#entity_dimension Dashboard#entity_dimension}
   */
   readonly entityDimension?: boolean | cdktf.IResolvable;
   /**
   * The ID of the dimension by which the metric is split
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2654,19 +2654,19 @@ export interface DashboardTileFilterConfigChartConfigSeriesDimension {
   /**
   * The name of the dimension by which the metric is split
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The splitting value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values?: string[];
 }
@@ -2897,59 +2897,59 @@ export interface DashboardTileFilterConfigChartConfigSeries {
   /**
   * The charted aggregation of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#aggregation Dashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#aggregation Dashboard#aggregation}
   */
   readonly aggregation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#aggregation_rate Dashboard#aggregation_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#aggregation_rate Dashboard#aggregation_rate}
   */
   readonly aggregationRate?: string;
   /**
   * The visualization of the timeseries chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#entity_type Dashboard#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#entity_type Dashboard#entity_type}
   */
   readonly entityType: string;
   /**
   * The name of the charted metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * The charted percentile. Only applicable if the **aggregation** is set to `PERCENTILE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#percentile Dashboard#percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#percentile Dashboard#percentile}
   */
   readonly percentile?: number;
   /**
   * Sort ascending (`true`) or descending (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#sort_ascending Dashboard#sort_ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#sort_ascending Dashboard#sort_ascending}
   */
   readonly sortAscending?: boolean | cdktf.IResolvable;
   /**
   * Sort the column (`true`) or (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#sort_column Dashboard#sort_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#sort_column Dashboard#sort_column}
   */
   readonly sortColumn?: boolean | cdktf.IResolvable;
   /**
   * The visualization of the timeseries chart. Possible values are `AREA`, `BAR` and `LINE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#dimension Dashboard#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#dimension Dashboard#dimension}
   */
   readonly dimension?: DashboardTileFilterConfigChartConfigSeriesDimension[] | cdktf.IResolvable;
 }
@@ -3316,49 +3316,49 @@ export interface DashboardTileFilterConfigChartConfig {
   /**
   * The optional custom y-axis limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#axis_limits Dashboard#axis_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#axis_limits Dashboard#axis_limits}
   */
   readonly axisLimits?: { [key: string]: number };
   /**
   * Either one of `Bit`, `BitPerHour`, `BitPerMinute`, `BitPerSecond`, `Byte`, `BytePerHour`, `BytePerMinute`, `BytePerSecond`, `Cores`, `Count`, `Day`, `DecibelMilliWatt`, `GibiByte`, `Giga`, `GigaByte`, `Hour`, `KibiByte`, `KibiBytePerHour`, `KibiBytePerMinute`, `KibiBytePerSecond`, `Kilo`, `KiloByte`, `KiloBytePerHour`, `KiloBytePerMinute`, `KiloBytePerSecond`, `MebiByte`, `MebiBytePerHour`, `MebiBytePerMinute`, `MebiBytePerSecond`, `Mega`, `MegaByte`, `MegaBytePerHour`, `MegaBytePerMinute`, `MegaBytePerSecond`, `MicroSecond`, `MilliCores`, `MilliSecond`, `MilliSecondPerMinute`, `Minute`, `Month`, `NanoSecond`, `NanoSecondPerMinute`, `NotApplicable`, `PerHour`, `PerMinute`, `PerSecond`, `Percent`, `Pixel`, `Promille`, `Ratio`, `Second`, `State`, `Unspecified`, `Week`, `Year`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#left_axis_custom_unit Dashboard#left_axis_custom_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#left_axis_custom_unit Dashboard#left_axis_custom_unit}
   */
   readonly leftAxisCustomUnit?: string;
   /**
   * Defines if a legend should be shown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#legend Dashboard#legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#legend Dashboard#legend}
   */
   readonly legend?: boolean | cdktf.IResolvable;
   /**
   * Either one of `Bit`, `BitPerHour`, `BitPerMinute`, `BitPerSecond`, `Byte`, `BytePerHour`, `BytePerMinute`, `BytePerSecond`, `Cores`, `Count`, `Day`, `DecibelMilliWatt`, `GibiByte`, `Giga`, `GigaByte`, `Hour`, `KibiByte`, `KibiBytePerHour`, `KibiBytePerMinute`, `KibiBytePerSecond`, `Kilo`, `KiloByte`, `KiloBytePerHour`, `KiloBytePerMinute`, `KiloBytePerSecond`, `MebiByte`, `MebiBytePerHour`, `MebiBytePerMinute`, `MebiBytePerSecond`, `Mega`, `MegaByte`, `MegaBytePerHour`, `MegaBytePerMinute`, `MegaBytePerSecond`, `MicroSecond`, `MilliCores`, `MilliSecond`, `MilliSecondPerMinute`, `Minute`, `Month`, `NanoSecond`, `NanoSecondPerMinute`, `NotApplicable`, `PerHour`, `PerMinute`, `PerSecond`, `Percent`, `Pixel`, `Promille`, `Ratio`, `Second`, `State`, `Unspecified`, `Week`, `Year`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#right_axis_custom_unit Dashboard#right_axis_custom_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#right_axis_custom_unit Dashboard#right_axis_custom_unit}
   */
   readonly rightAxisCustomUnit?: string;
   /**
   * The type of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * result_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#result_metadata Dashboard#result_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#result_metadata Dashboard#result_metadata}
   */
   readonly resultMetadata?: DashboardTileFilterConfigChartConfigResultMetadata[] | cdktf.IResolvable;
   /**
   * series block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#series Dashboard#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#series Dashboard#series}
   */
   readonly series?: DashboardTileFilterConfigChartConfigSeries[] | cdktf.IResolvable;
 }
@@ -3644,13 +3644,13 @@ export interface DashboardTileFilterConfigFiltersFilterMatch {
   /**
   * The entity type (e.g. HOST, SERVICE, ...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
   * the tiles this Dashboard consist of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values?: string[];
 }
@@ -3794,13 +3794,13 @@ export interface DashboardTileFilterConfigFiltersFilter {
   /**
   * The entity type (e.g. HOST, SERVICE, ...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#entity_type Dashboard#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#entity_type Dashboard#entity_type}
   */
   readonly entityType: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#match Dashboard#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#match Dashboard#match}
   */
   readonly match?: DashboardTileFilterConfigFiltersFilterMatch[] | cdktf.IResolvable;
 }
@@ -3944,7 +3944,7 @@ export interface DashboardTileFilterConfigFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter?: DashboardTileFilterConfigFiltersFilter[] | cdktf.IResolvable;
 }
@@ -4030,37 +4030,37 @@ export interface DashboardTileFilterConfig {
   /**
   * The name of the tile, set by user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#custom_name Dashboard#custom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#custom_name Dashboard#custom_name}
   */
   readonly customName: string;
   /**
   * The default name of the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#default_name Dashboard#default_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#default_name Dashboard#default_name}
   */
   readonly defaultName: string;
   /**
   * The type of the filter. Possible values are `ALB`, `APPLICATION`, `APPLICATION_METHOD`, `APPMON`, `ASG`, `AWS_CREDENTIALS`, `AWS_CUSTOM_SERVICE`, `AWS_LAMBDA_FUNCTION`, `CLOUD_APPLICATION`, `CLOUD_APPLICATION_INSTANCE`, `CLOUD_APPLICATION_NAMESPACE`, `CONTAINER_GROUP_INSTANCE`, `CUSTOM_APPLICATION`, `CUSTOM_DEVICES`, `CUSTOM_SERVICES`, `DATABASE`, `DATABASE_KEY_REQUEST`, `DCRUM_APPLICATION`, `DCRUM_ENTITY`, `DYNAMO_DB`, `EBS`, `EC2`, `ELB`, `ENVIRONMENT`, `ESXI`, `EXTERNAL_SYNTHETIC_TEST`, `GLOBAL_BACKGROUND_ACTIVITY`, `HOST`, `IOT`, `KUBERNETES_CLUSTER`, `KUBERNETES_NODE`, `MDA_SERVICE`, `MIXED`, `MOBILE_APPLICATION`, `MONITORED_ENTITY`, `NLB`, `PG_BACKGROUND_ACTIVITY`, `PROBLEM`, `PROCESS_GROUP_INSTANCE`, `RDS`, `REMOTE_PLUGIN`, `SERVICE`, `SERVICE_KEY_REQUEST`, `SYNTHETIC_BROWSER_MONITOR`, `SYNTHETIC_HTTPCHECK`, `SYNTHETIC_HTTPCHECK_STEP`, `SYNTHETIC_LOCATION`, `SYNTHETIC_TEST`, `SYNTHETIC_TEST_STEP`, `UI_ENTITY`, `VIRTUAL_MACHINE`, `WEB_CHECK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * chart_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#chart_config Dashboard#chart_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#chart_config Dashboard#chart_config}
   */
   readonly chartConfig?: DashboardTileFilterConfigChartConfig;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filters Dashboard#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filters Dashboard#filters}
   */
   readonly filters?: DashboardTileFilterConfigFilters;
 }
@@ -4282,13 +4282,13 @@ export interface DashboardTileVisualizationConfig {
   /**
   * The axis bucketing when enabled groups similar series in the same virtual axis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#has_axis_bucketing Dashboard#has_axis_bucketing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#has_axis_bucketing Dashboard#has_axis_bucketing}
   */
   readonly hasAxisBucketing?: boolean | cdktf.IResolvable;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4403,125 +4403,125 @@ export interface DashboardTile {
   /**
   * The list of Dynatrace entities, assigned to the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#assigned_entities Dashboard#assigned_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#assigned_entities Dashboard#assigned_entities}
   */
   readonly assignedEntities?: string[];
   /**
   * Auto Refresh is disabled (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#auto_refresh_disabled Dashboard#auto_refresh_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#auto_refresh_disabled Dashboard#auto_refresh_disabled}
   */
   readonly autoRefreshDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#chart_visible Dashboard#chart_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#chart_visible Dashboard#chart_visible}
   */
   readonly chartVisible?: boolean | cdktf.IResolvable;
   /**
   * The tile is configured and ready to use (`true`) or just placed on the dashboard (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#configured Dashboard#configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#configured Dashboard#configured}
   */
   readonly configured?: boolean | cdktf.IResolvable;
   /**
   * The name of the tile, set by user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#custom_name Dashboard#custom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#custom_name Dashboard#custom_name}
   */
   readonly customName?: string;
   /**
   * Include (`false') or exclude (`true`) maintenance windows from availability calculations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#exclude_maintenance_windows Dashboard#exclude_maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#exclude_maintenance_windows Dashboard#exclude_maintenance_windows}
   */
   readonly excludeMaintenanceWindows?: boolean | cdktf.IResolvable;
   /**
   * The limit of the results, if not set will use the default value of the system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#limit Dashboard#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#limit Dashboard#limit}
   */
   readonly limit?: number;
   /**
   * The markdown-formatted content of the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#markdown Dashboard#markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#markdown Dashboard#markdown}
   */
   readonly markdown?: string;
   /**
   * The metric assigned to the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric?: string;
   /**
   * the name of the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * The size of the tile name. Possible values are `small`, `medium` and `large`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#name_size Dashboard#name_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#name_size Dashboard#name_size}
   */
   readonly nameSize?: string;
   /**
   * A [user session query](https://www.dynatrace.com/support/help/shortlink/usql-info) executed by the tile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: string;
   /**
   * the type of the tile. Must be either `APPLICATION_WORLDMAP`, `RESOURCES`, `THIRD_PARTY_MOST_ACTIVE`, `UEM_CONVERSIONS_PER_GOAL`, `PROCESS_GROUPS_ONE` or `HOST` .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#tile_type Dashboard#tile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#tile_type Dashboard#tile_type}
   */
   readonly tileType: string;
   /**
   * The comparison timeframe of the query. If specified, you additionally get the results of the same query with the specified time shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#time_frame_shift Dashboard#time_frame_shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#time_frame_shift Dashboard#time_frame_shift}
   */
   readonly timeFrameShift?: string;
   /**
   * The attribute `type` exists for backwards compatibilty. Usage is discouraged. You should use `visualization` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#unknowns Dashboard#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#unknowns Dashboard#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The visualization of the tile. Possible values are: `COLUMN_CHART`, `FUNNEL`, `LINE_CHART`, `PIE_CHART`, `SINGLE_VALUE`, `TABLE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#visualization Dashboard#visualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#visualization Dashboard#visualization}
   */
   readonly visualization?: string;
   /**
   * bounds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#bounds Dashboard#bounds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#bounds Dashboard#bounds}
   */
   readonly bounds?: DashboardTileBounds;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter?: DashboardTileFilter;
   /**
   * filter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#filter_config Dashboard#filter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#filter_config Dashboard#filter_config}
   */
   readonly filterConfig?: DashboardTileFilterConfig;
   /**
   * visualization_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#visualization_config Dashboard#visualization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#visualization_config Dashboard#visualization_config}
   */
   readonly visualizationConfig?: DashboardTileVisualizationConfig;
 }
@@ -5211,7 +5211,7 @@ export class DashboardTileList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard dynatrace_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard dynatrace_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -5227,7 +5227,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5239,7 +5239,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboard dynatrace_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard dynatrace_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5250,8 +5250,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

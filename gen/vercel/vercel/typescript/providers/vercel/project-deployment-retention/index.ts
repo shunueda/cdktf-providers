@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ProjectDeploymentRetentionConfig extends cdktf.TerraformMetaArg
   /**
   * The retention period for canceled deployments. Should be one of '1d', '1w', '1m', '2m', '3m', '6m', '1y'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#expiration_canceled ProjectDeploymentRetention#expiration_canceled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#expiration_canceled ProjectDeploymentRetention#expiration_canceled}
   */
   readonly expirationCanceled?: string;
   /**
   * The retention period for errored deployments. Should be one of '1d', '1w', '1m', '2m', '3m', '6m', '1y'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#expiration_errored ProjectDeploymentRetention#expiration_errored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#expiration_errored ProjectDeploymentRetention#expiration_errored}
   */
   readonly expirationErrored?: string;
   /**
   * The retention period for preview deployments. Should be one of '1d', '1w', '1m', '2m', '3m', '6m', '1y'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#expiration_preview ProjectDeploymentRetention#expiration_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#expiration_preview ProjectDeploymentRetention#expiration_preview}
   */
   readonly expirationPreview?: string;
   /**
   * The retention period for production deployments. Should be one of '1d', '1w', '1m', '2m', '3m', '6m', '1y'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#expiration_production ProjectDeploymentRetention#expiration_production}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#expiration_production ProjectDeploymentRetention#expiration_production}
   */
   readonly expirationProduction?: string;
   /**
   * The ID of the Project for the retention policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#project_id ProjectDeploymentRetention#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#project_id ProjectDeploymentRetention#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the Vercel team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#team_id ProjectDeploymentRetention#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#team_id ProjectDeploymentRetention#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention vercel_project_deployment_retention}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention vercel_project_deployment_retention}
 */
 export class ProjectDeploymentRetention extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ProjectDeploymentRetention extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectDeploymentRetention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectDeploymentRetention to import
-  * @param importFromId The id of the existing ProjectDeploymentRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectDeploymentRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectDeploymentRetention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ProjectDeploymentRetention extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/project_deployment_retention vercel_project_deployment_retention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/project_deployment_retention vercel_project_deployment_retention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ProjectDeploymentRetention extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project_deployment_retention',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

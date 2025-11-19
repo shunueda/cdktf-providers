@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The display name of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * Indicates whether the environment is enabled or disabled. Possible values are `ENABLED` and `DISABLED`. The default value is ENABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#state Environment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#state Environment#state}
   */
   readonly state: string;
   /**
   * A set of tags that are assigned to this environment. Every tag can have a maximum length of 100 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#tags Environment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#tags Environment#tags}
   */
   readonly tags?: string[];
   /**
   * Specifies whether the environment is a trial environment or a non-trial environment. Creating a trial environment is only possible if your license allows that. The default value is false (non-trial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#trial Environment#trial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#trial Environment#trial}
   */
   readonly trial?: boolean | cdktf.IResolvable;
   /**
   * quotas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#quotas Environment#quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#quotas Environment#quotas}
   */
   readonly quotas?: EnvironmentQuotas;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#storage Environment#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#storage Environment#storage}
   */
   readonly storage: EnvironmentStorage;
 }
@@ -55,13 +55,13 @@ export interface EnvironmentQuotasDdus {
   /**
   * Annual environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#annual Environment#annual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#annual Environment#annual}
   */
   readonly annual?: number;
   /**
   * Monthly environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly?: number;
 }
@@ -176,13 +176,13 @@ export interface EnvironmentQuotasDemUnits {
   /**
   * Annual environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#annual Environment#annual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#annual Environment#annual}
   */
   readonly annual?: number;
   /**
   * Monthly environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly?: number;
 }
@@ -297,13 +297,13 @@ export interface EnvironmentQuotasLogs {
   /**
   * Annual environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#annual Environment#annual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#annual Environment#annual}
   */
   readonly annual?: number;
   /**
   * Monthly environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly?: number;
 }
@@ -418,13 +418,13 @@ export interface EnvironmentQuotasSynthetic {
   /**
   * Annual environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#annual Environment#annual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#annual Environment#annual}
   */
   readonly annual?: number;
   /**
   * Monthly environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly?: number;
 }
@@ -539,13 +539,13 @@ export interface EnvironmentQuotasUserSessions {
   /**
   * Annual total User sessions environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#annual Environment#annual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#annual Environment#annual}
   */
   readonly annual?: number;
   /**
   * Monthly total User sessions environment quota. Not set if unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#monthly Environment#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#monthly Environment#monthly}
   */
   readonly monthly?: number;
 }
@@ -660,37 +660,37 @@ export interface EnvironmentQuotas {
   /**
   * Host units consumption and quota information on environment level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#host_units Environment#host_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#host_units Environment#host_units}
   */
   readonly hostUnits?: number;
   /**
   * ddus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#ddus Environment#ddus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#ddus Environment#ddus}
   */
   readonly ddus?: EnvironmentQuotasDdus;
   /**
   * dem_units block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#dem_units Environment#dem_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#dem_units Environment#dem_units}
   */
   readonly demUnits?: EnvironmentQuotasDemUnits;
   /**
   * logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#logs Environment#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#logs Environment#logs}
   */
   readonly logs?: EnvironmentQuotasLogs;
   /**
   * synthetic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#synthetic Environment#synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#synthetic Environment#synthetic}
   */
   readonly synthetic?: EnvironmentQuotasSynthetic;
   /**
   * user_sessions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#user_sessions Environment#user_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#user_sessions Environment#user_sessions}
   */
   readonly userSessions?: EnvironmentQuotasUserSessions;
 }
@@ -921,25 +921,25 @@ export interface EnvironmentStorageLimits {
   /**
   * Log monitoring storage usage and limit information on environment level in bytes. Not editable when Log monitoring is not allowed by license or not configured on cluster level. 0 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#logs Environment#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#logs Environment#logs}
   */
   readonly logs?: number;
   /**
   * Session replay storage usage and limit information on environment level in bytes. 0 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#session_replay Environment#session_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#session_replay Environment#session_replay}
   */
   readonly sessionReplay?: number;
   /**
   * Session replay storage usage and limit information on environment level in bytes. 0 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#symbol_files Environment#symbol_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#symbol_files Environment#symbol_files}
   */
   readonly symbolFiles?: number;
   /**
   * Transaction storage usage and limit information on environment level in bytes. 0 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#transactions Environment#transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#transactions Environment#transactions}
   */
   readonly transactions?: number;
 }
@@ -1112,37 +1112,37 @@ export interface EnvironmentStorageRetention {
   /**
   * Log monitoring retention settings on environment level in days. Not editable when Log monitoring is not allowed by license or not configured on cluster level. Can be set to any value from 5 to 90 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#logs Environment#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#logs Environment#logs}
   */
   readonly logs?: number;
   /**
   * Real user monitoring retention settings on environment level in days. Can be set to any value from 1 to 35 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#rum Environment#rum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#rum Environment#rum}
   */
   readonly rum: number;
   /**
   * Service code level retention settings on environment level in days. Service code level retention time can't be greater than service request level retention time and both can't exceed one year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#service_code_level Environment#service_code_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#service_code_level Environment#service_code_level}
   */
   readonly serviceCodeLevel: number;
   /**
   * Service request level retention settings on environment level in days. Service code level retention time can't be greater than service request level retention time and both can't exceed one year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#service_request_level Environment#service_request_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#service_request_level Environment#service_request_level}
   */
   readonly serviceRequestLevel: number;
   /**
   * Session replay retention settings on environment level in days. Can be set to any value from 1 to 35 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#session_replay Environment#session_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#session_replay Environment#session_replay}
   */
   readonly sessionReplay: number;
   /**
   * Synthetic monitoring retention settings on environment level in days. Can be set to any value from 1 to 35 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#synthetic Environment#synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#synthetic Environment#synthetic}
   */
   readonly synthetic: number;
 }
@@ -1358,25 +1358,25 @@ export interface EnvironmentStorage {
   /**
   * Maximum number of newly monitored entry point PurePaths captured per process/minute on environment level. Can be set to any value from 100 to 100000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#transactions Environment#transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#transactions Environment#transactions}
   */
   readonly transactions: number;
   /**
   * Maximum number of user actions generated per minute on environment level. Can be set to any value from 1 to 2147483646 or left unlimited by omitting this property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#user_actions Environment#user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#user_actions Environment#user_actions}
   */
   readonly userActions?: number;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#limits Environment#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#limits Environment#limits}
   */
   readonly limits?: EnvironmentStorageLimits;
   /**
   * retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#retention Environment#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#retention Environment#retention}
   */
   readonly retention?: EnvironmentStorageRetention;
 }
@@ -1544,7 +1544,7 @@ export class EnvironmentStorageOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment dynatrace_environment}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment dynatrace_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -1560,7 +1560,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1572,7 +1572,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/environment dynatrace_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/environment dynatrace_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1583,8 +1583,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_environment',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

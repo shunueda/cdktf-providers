@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DevobsAgentOptinConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin#enabled DevobsAgentOptin#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin#enabled DevobsAgentOptin#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin#id DevobsAgentOptin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin#id DevobsAgentOptin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DevobsAgentOptinConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (PROCESS_GROUP, CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin#scope DevobsAgentOptin#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin#scope DevobsAgentOptin#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin dynatrace_devobs_agent_optin}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin dynatrace_devobs_agent_optin}
 */
 export class DevobsAgentOptin extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DevobsAgentOptin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevobsAgentOptin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevobsAgentOptin to import
-  * @param importFromId The id of the existing DevobsAgentOptin that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevobsAgentOptin that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevobsAgentOptin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DevobsAgentOptin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_agent_optin dynatrace_devobs_agent_optin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_agent_optin dynatrace_devobs_agent_optin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DevobsAgentOptin extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_devobs_agent_optin',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ObservabilityCredentialConfig extends cdktf.TerraformMetaArgume
   /**
   * A description of the credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential#description ObservabilityCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential#description ObservabilityCredential#description}
   */
   readonly description?: string;
   /**
   * The Observability Instance ID the credential belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential#instance_id ObservabilityCredential#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential#instance_id ObservabilityCredential#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT project ID to which the credential is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential#project_id ObservabilityCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential#project_id ObservabilityCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential stackit_observability_credential}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential stackit_observability_credential}
 */
 export class ObservabilityCredential extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ObservabilityCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityCredential to import
-  * @param importFromId The id of the existing ObservabilityCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ObservabilityCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/observability_credential stackit_observability_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/observability_credential stackit_observability_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ObservabilityCredential extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_observability_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

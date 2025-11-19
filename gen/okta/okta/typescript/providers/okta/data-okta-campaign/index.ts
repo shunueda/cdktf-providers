@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOktaCampaignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifies if it is a resource campaign or a user campaign. By default it is RESOURCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#campaign_type DataOktaCampaign#campaign_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#campaign_type DataOktaCampaign#campaign_type}
   */
   readonly campaignType?: string;
   /**
   * Human readable description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#description DataOktaCampaign#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#description DataOktaCampaign#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#id DataOktaCampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#id DataOktaCampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,31 +31,31 @@ export interface DataOktaCampaignConfig extends cdktf.TerraformMetaArguments {
   /**
   * principal_scope_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#principal_scope_settings DataOktaCampaign#principal_scope_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#principal_scope_settings DataOktaCampaign#principal_scope_settings}
   */
   readonly principalScopeSettings?: DataOktaCampaignPrincipalScopeSettings;
   /**
   * remediation_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#remediation_settings DataOktaCampaign#remediation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#remediation_settings DataOktaCampaign#remediation_settings}
   */
   readonly remediationSettings?: DataOktaCampaignRemediationSettings;
   /**
   * resource_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#resource_settings DataOktaCampaign#resource_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#resource_settings DataOktaCampaign#resource_settings}
   */
   readonly resourceSettings?: DataOktaCampaignResourceSettings;
   /**
   * reviewer_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#reviewer_settings DataOktaCampaign#reviewer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#reviewer_settings DataOktaCampaign#reviewer_settings}
   */
   readonly reviewerSettings?: DataOktaCampaignReviewerSettings;
   /**
   * schedule_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#schedule_settings DataOktaCampaign#schedule_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#schedule_settings DataOktaCampaign#schedule_settings}
   */
   readonly scheduleSettings?: DataOktaCampaignScheduleSettings;
 }
@@ -238,7 +238,7 @@ export interface DataOktaCampaignPrincipalScopeSettings {
   /**
   * predefined_inactive_users_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#predefined_inactive_users_scope DataOktaCampaign#predefined_inactive_users_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#predefined_inactive_users_scope DataOktaCampaign#predefined_inactive_users_scope}
   */
   readonly predefinedInactiveUsersScope?: DataOktaCampaignPrincipalScopeSettingsPredefinedInactiveUsersScope[] | cdktf.IResolvable;
 }
@@ -369,13 +369,13 @@ export interface DataOktaCampaignRemediationSettingsAutoRemediationSettingsInclu
   /**
   * The resource ID of the target resource When type = GROUP, it will point to the group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#resource_id DataOktaCampaign#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#resource_id DataOktaCampaign#resource_id}
   */
   readonly resourceId: string;
   /**
   * The type of the resource to be automatically remediated. Only GROUP is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#resource_type DataOktaCampaign#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#resource_type DataOktaCampaign#resource_type}
   */
   readonly resourceType: string;
 }
@@ -516,13 +516,13 @@ export interface DataOktaCampaignRemediationSettingsAutoRemediationSettings {
   /**
   * When a group is selected to be automatically remediated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#include_all_indirect_assignments DataOktaCampaign#include_all_indirect_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#include_all_indirect_assignments DataOktaCampaign#include_all_indirect_assignments}
   */
   readonly includeAllIndirectAssignments?: boolean | cdktf.IResolvable;
   /**
   * include_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#include_only DataOktaCampaign#include_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#include_only DataOktaCampaign#include_only}
   */
   readonly includeOnly?: DataOktaCampaignRemediationSettingsAutoRemediationSettingsIncludeOnly[] | cdktf.IResolvable;
 }
@@ -647,7 +647,7 @@ export interface DataOktaCampaignRemediationSettings {
   /**
   * auto_remediation_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#auto_remediation_settings DataOktaCampaign#auto_remediation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#auto_remediation_settings DataOktaCampaign#auto_remediation_settings}
   */
   readonly autoRemediationSettings?: DataOktaCampaignRemediationSettingsAutoRemediationSettings;
 }
@@ -849,7 +849,7 @@ export interface DataOktaCampaignResourceSettingsTargetResourcesEntitlementBundl
   /**
   * The id of the entitlement bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#id DataOktaCampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#id DataOktaCampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -967,7 +967,7 @@ export interface DataOktaCampaignResourceSettingsTargetResourcesEntitlementsValu
   /**
   * The entitlement value id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#id DataOktaCampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#id DataOktaCampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1085,7 +1085,7 @@ export interface DataOktaCampaignResourceSettingsTargetResourcesEntitlements {
   /**
   * The id of the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#id DataOktaCampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#id DataOktaCampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1094,7 +1094,7 @@ export interface DataOktaCampaignResourceSettingsTargetResourcesEntitlements {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#values DataOktaCampaign#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#values DataOktaCampaign#values}
   */
   readonly values?: DataOktaCampaignResourceSettingsTargetResourcesEntitlementsValues[] | cdktf.IResolvable;
 }
@@ -1243,19 +1243,19 @@ export interface DataOktaCampaignResourceSettingsTargetResources {
   /**
   * The resource ID that is being reviewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#resource_id DataOktaCampaign#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#resource_id DataOktaCampaign#resource_id}
   */
   readonly resourceId: string;
   /**
   * entitlement_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#entitlement_bundles DataOktaCampaign#entitlement_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#entitlement_bundles DataOktaCampaign#entitlement_bundles}
   */
   readonly entitlementBundles?: DataOktaCampaignResourceSettingsTargetResourcesEntitlementBundles[] | cdktf.IResolvable;
   /**
   * entitlements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#entitlements DataOktaCampaign#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#entitlements DataOktaCampaign#entitlements}
   */
   readonly entitlements?: DataOktaCampaignResourceSettingsTargetResourcesEntitlements[] | cdktf.IResolvable;
 }
@@ -1438,43 +1438,43 @@ export interface DataOktaCampaignResourceSettings {
   /**
   * Include admin roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#include_admin_roles DataOktaCampaign#include_admin_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#include_admin_roles DataOktaCampaign#include_admin_roles}
   */
   readonly includeAdminRoles?: boolean | cdktf.IResolvable;
   /**
   * Include entitlements for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#include_entitlements DataOktaCampaign#include_entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#include_entitlements DataOktaCampaign#include_entitlements}
   */
   readonly includeEntitlements?: boolean | cdktf.IResolvable;
   /**
   * Only include individually assigned groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#individually_assigned_apps_only DataOktaCampaign#individually_assigned_apps_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#individually_assigned_apps_only DataOktaCampaign#individually_assigned_apps_only}
   */
   readonly individuallyAssignedAppsOnly?: boolean | cdktf.IResolvable;
   /**
   * Only include individually assigned groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#individually_assigned_groups_only DataOktaCampaign#individually_assigned_groups_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#individually_assigned_groups_only DataOktaCampaign#individually_assigned_groups_only}
   */
   readonly individuallyAssignedGroupsOnly?: boolean | cdktf.IResolvable;
   /**
   * Only include out-of-policy entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#only_include_out_of_policy_entitlements DataOktaCampaign#only_include_out_of_policy_entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#only_include_out_of_policy_entitlements DataOktaCampaign#only_include_out_of_policy_entitlements}
   */
   readonly onlyIncludeOutOfPolicyEntitlements?: boolean | cdktf.IResolvable;
   /**
   * excluded_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#excluded_resources DataOktaCampaign#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#excluded_resources DataOktaCampaign#excluded_resources}
   */
   readonly excludedResources?: DataOktaCampaignResourceSettingsExcludedResources[] | cdktf.IResolvable;
   /**
   * target_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#target_resources DataOktaCampaign#target_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#target_resources DataOktaCampaign#target_resources}
   */
   readonly targetResources?: DataOktaCampaignResourceSettingsTargetResources[] | cdktf.IResolvable;
 }
@@ -1840,7 +1840,7 @@ export interface DataOktaCampaignReviewerSettingsReviewerLevels {
   /**
   * start_review block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#start_review DataOktaCampaign#start_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#start_review DataOktaCampaign#start_review}
   */
   readonly startReview?: DataOktaCampaignReviewerSettingsReviewerLevelsStartReview[] | cdktf.IResolvable;
 }
@@ -1988,7 +1988,7 @@ export interface DataOktaCampaignReviewerSettings {
   /**
   * reviewer_levels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#reviewer_levels DataOktaCampaign#reviewer_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#reviewer_levels DataOktaCampaign#reviewer_levels}
   */
   readonly reviewerLevels?: DataOktaCampaignReviewerSettingsReviewerLevels[] | cdktf.IResolvable;
 }
@@ -2225,7 +2225,7 @@ export interface DataOktaCampaignScheduleSettings {
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#recurrence DataOktaCampaign#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#recurrence DataOktaCampaign#recurrence}
   */
   readonly recurrence?: DataOktaCampaignScheduleSettingsRecurrence[] | cdktf.IResolvable;
 }
@@ -2344,7 +2344,7 @@ export class DataOktaCampaignScheduleSettingsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign okta_campaign}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign okta_campaign}
 */
 export class DataOktaCampaign extends cdktf.TerraformDataSource {
 
@@ -2360,7 +2360,7 @@ export class DataOktaCampaign extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaCampaign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaCampaign to import
-  * @param importFromId The id of the existing DataOktaCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaCampaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2372,7 +2372,7 @@ export class DataOktaCampaign extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/campaign okta_campaign} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/campaign okta_campaign} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2383,8 +2383,8 @@ export class DataOktaCampaign extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_campaign',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

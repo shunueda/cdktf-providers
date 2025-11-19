@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ZerotierControllerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#___path___ ZerotierController#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#___path___ ZerotierController#___path___}
   */
   readonly path?: string;
   /**
   * An option to allow receiving broadcast packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#broadcast ZerotierController#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#broadcast ZerotierController#broadcast}
   */
   readonly broadcast?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#comment ZerotierController#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#comment ZerotierController#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#disabled ZerotierController#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#disabled ZerotierController#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#id ZerotierController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#id ZerotierController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,73 +37,73 @@ export interface ZerotierControllerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ZeroTier instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#instance ZerotierController#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#instance ZerotierController#instance}
   */
   readonly instance: string;
   /**
   * An option to assign every member a `/80` address within a `/40` network with using NDP emulation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#ip6_6plane ZerotierController#ip6_6plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#ip6_6plane ZerotierController#ip6_6plane}
   */
   readonly ip66Plane?: boolean | cdktf.IResolvable;
   /**
   * The IPv6 range of the ZeroTier network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#ip6_range ZerotierController#ip6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#ip6_range ZerotierController#ip6_range}
   */
   readonly ip6Range?: string;
   /**
   * An option to assign every member a `/128` address within a `/88` network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#ip6_rfc4193 ZerotierController#ip6_rfc4193}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#ip6_rfc4193 ZerotierController#ip6_rfc4193}
   */
   readonly ip6Rfc4193?: boolean | cdktf.IResolvable;
   /**
   * The IP range of the ZeroTier network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#ip_range ZerotierController#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#ip_range ZerotierController#ip_range}
   */
   readonly ipRange?: string;
   /**
   * Layer2 Maximum transmission unit. [See](https://wiki.mikrotik.com/wiki/Maximum_Transmission_Unit_on_RouterBoards).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#mtu ZerotierController#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#mtu ZerotierController#mtu}
   */
   readonly mtu?: number;
   /**
   * An option to limit the maximum recipients of a multicast packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#multicast_limit ZerotierController#multicast_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#multicast_limit ZerotierController#multicast_limit}
   */
   readonly multicastLimit?: number;
   /**
   * Name of the ZeroTier controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#name ZerotierController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#name ZerotierController#name}
   */
   readonly name: string;
   /**
   * The ZeroTier network identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#network ZerotierController#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#network ZerotierController#network}
   */
   readonly network: string;
   /**
   * The ZeroTier network access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#private ZerotierController#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#private ZerotierController#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * The routes list that will be pushed to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#routes ZerotierController#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#routes ZerotierController#routes}
   */
   readonly routes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller routeros_zerotier_controller}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller routeros_zerotier_controller}
 */
 export class ZerotierController extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class ZerotierController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZerotierController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZerotierController to import
-  * @param importFromId The id of the existing ZerotierController that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZerotierController that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZerotierController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class ZerotierController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/zerotier_controller routeros_zerotier_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/zerotier_controller routeros_zerotier_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class ZerotierController extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_zerotier_controller',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

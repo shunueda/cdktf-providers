@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OwnershipTeamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#description OwnershipTeams#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#description OwnershipTeams#description}
   */
   readonly description?: string;
   /**
   * This field should only be used for the automation purpose when importing team information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#external_id OwnershipTeams#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#external_id OwnershipTeams#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#id OwnershipTeams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#id OwnershipTeams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface OwnershipTeamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The team identifier is used to reference the team from any entity in Dynatrace. If you are using Kubernetes labels, keep in mind the 63 character limit that they enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#identifier OwnershipTeams#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#identifier OwnershipTeams#identifier}
   */
   readonly identifier: string;
   /**
   * Team name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#name OwnershipTeams#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#name OwnershipTeams#name}
   */
   readonly name: string;
   /**
   * additional_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#additional_information OwnershipTeams#additional_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#additional_information OwnershipTeams#additional_information}
   */
   readonly additionalInformation?: OwnershipTeamsAdditionalInformation;
   /**
   * contact_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#contact_details OwnershipTeams#contact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#contact_details OwnershipTeams#contact_details}
   */
   readonly contactDetails?: OwnershipTeamsContactDetails;
   /**
   * links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#links OwnershipTeams#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#links OwnershipTeams#links}
   */
   readonly links?: OwnershipTeamsLinks;
   /**
   * responsibilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#responsibilities OwnershipTeams#responsibilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#responsibilities OwnershipTeams#responsibilities}
   */
   readonly responsibilities: OwnershipTeamsResponsibilities;
   /**
   * supplementary_identifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#supplementary_identifiers OwnershipTeams#supplementary_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#supplementary_identifiers OwnershipTeams#supplementary_identifiers}
   */
   readonly supplementaryIdentifiers?: OwnershipTeamsSupplementaryIdentifiers;
 }
@@ -73,19 +73,19 @@ export interface OwnershipTeamsAdditionalInformationAdditionalInformation {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#key OwnershipTeams#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#key OwnershipTeams#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#url OwnershipTeams#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#url OwnershipTeams#url}
   */
   readonly url?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#value OwnershipTeams#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#value OwnershipTeams#value}
   */
   readonly value: string;
 }
@@ -255,7 +255,7 @@ export interface OwnershipTeamsAdditionalInformation {
   /**
   * additional_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#additional_information OwnershipTeams#additional_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#additional_information OwnershipTeams#additional_information}
   */
   readonly additionalInformation: OwnershipTeamsAdditionalInformationAdditionalInformation[] | cdktf.IResolvable;
 }
@@ -338,13 +338,13 @@ export interface OwnershipTeamsContactDetailsContactDetailJira {
   /**
   * Default Assignee
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#default_assignee OwnershipTeams#default_assignee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#default_assignee OwnershipTeams#default_assignee}
   */
   readonly defaultAssignee: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#project OwnershipTeams#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#project OwnershipTeams#project}
   */
   readonly project: string;
 }
@@ -453,37 +453,37 @@ export interface OwnershipTeamsContactDetailsContactDetail {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#email OwnershipTeams#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#email OwnershipTeams#email}
   */
   readonly email?: string;
   /**
   * Possible Values: `EMAIL`, `JIRA`, `MS_TEAMS`, `SLACK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#integration_type OwnershipTeams#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#integration_type OwnershipTeams#integration_type}
   */
   readonly integrationType: string;
   /**
   * Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#ms_teams OwnershipTeams#ms_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#ms_teams OwnershipTeams#ms_teams}
   */
   readonly msTeams?: string;
   /**
   * Channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#slack_channel OwnershipTeams#slack_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#slack_channel OwnershipTeams#slack_channel}
   */
   readonly slackChannel?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#url OwnershipTeams#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#url OwnershipTeams#url}
   */
   readonly url?: string;
   /**
   * jira block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#jira OwnershipTeams#jira}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#jira OwnershipTeams#jira}
   */
   readonly jira?: OwnershipTeamsContactDetailsContactDetailJira;
 }
@@ -743,7 +743,7 @@ export interface OwnershipTeamsContactDetails {
   /**
   * contact_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#contact_detail OwnershipTeams#contact_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#contact_detail OwnershipTeams#contact_detail}
   */
   readonly contactDetail: OwnershipTeamsContactDetailsContactDetail[] | cdktf.IResolvable;
 }
@@ -826,13 +826,13 @@ export interface OwnershipTeamsLinksLink {
   /**
   * Possible Values: `DASHBOARD`, `DOCUMENTATION`, `HEALTH_APP`, `REPOSITORY`, `RUNBOOK`, `URL`, `WIKI`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#link_type OwnershipTeams#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#link_type OwnershipTeams#link_type}
   */
   readonly linkType: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#url OwnershipTeams#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#url OwnershipTeams#url}
   */
   readonly url: string;
 }
@@ -973,7 +973,7 @@ export interface OwnershipTeamsLinks {
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#link OwnershipTeams#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#link OwnershipTeams#link}
   */
   readonly link: OwnershipTeamsLinksLink[] | cdktf.IResolvable;
 }
@@ -1056,31 +1056,31 @@ export interface OwnershipTeamsResponsibilities {
   /**
   * Responsible for developing and maintaining high quality software. Development teams are responsible for making code changes to address performance regressions, errors, or security vulnerabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#development OwnershipTeams#development}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#development OwnershipTeams#development}
   */
   readonly development: boolean | cdktf.IResolvable;
   /**
   * Responsible for the administration, management, and support of the IT infrastructure including physical servers, virtualization, and cloud. Teams with infrastructure responsibility are responsible for addressing hardware issues, resource limits, and operating system vulnerabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#infrastructure OwnershipTeams#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#infrastructure OwnershipTeams#infrastructure}
   */
   readonly infrastructure: boolean | cdktf.IResolvable;
   /**
   * Responsible for ensuring that applications in development align with business needs and meet the usability requirements of users, stakeholders, customers, and external partners. Teams with line of business responsibility are responsible for understanding the customer experience and how it affects business goals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#line_of_business OwnershipTeams#line_of_business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#line_of_business OwnershipTeams#line_of_business}
   */
   readonly lineOfBusiness: boolean | cdktf.IResolvable;
   /**
   * Responsible for deploying and managing software, with a focus on high availability and performance. Teams with operations responsibilities needs to understand the impact, priority, and team responsible for addressing problems detected by Dynatrace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#operations OwnershipTeams#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#operations OwnershipTeams#operations}
   */
   readonly operations: boolean | cdktf.IResolvable;
   /**
   * Responsible for the security posture of the organization. Teams with security responsibility must understand the impact, priority, and team responsible for addressing security vulnerabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#security OwnershipTeams#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#security OwnershipTeams#security}
   */
   readonly security: boolean | cdktf.IResolvable;
 }
@@ -1267,7 +1267,7 @@ export interface OwnershipTeamsSupplementaryIdentifiersSupplementaryIdentifier {
   /**
   * Supplementary Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#supplementary_identifier OwnershipTeams#supplementary_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#supplementary_identifier OwnershipTeams#supplementary_identifier}
   */
   readonly supplementaryIdentifier: string;
 }
@@ -1382,7 +1382,7 @@ export interface OwnershipTeamsSupplementaryIdentifiers {
   /**
   * supplementary_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#supplementary_identifier OwnershipTeams#supplementary_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#supplementary_identifier OwnershipTeams#supplementary_identifier}
   */
   readonly supplementaryIdentifier: OwnershipTeamsSupplementaryIdentifiersSupplementaryIdentifier[] | cdktf.IResolvable;
 }
@@ -1463,7 +1463,7 @@ export class OwnershipTeamsSupplementaryIdentifiersOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams dynatrace_ownership_teams}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams dynatrace_ownership_teams}
 */
 export class OwnershipTeams extends cdktf.TerraformResource {
 
@@ -1479,7 +1479,7 @@ export class OwnershipTeams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OwnershipTeams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OwnershipTeams to import
-  * @param importFromId The id of the existing OwnershipTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OwnershipTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OwnershipTeams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1491,7 +1491,7 @@ export class OwnershipTeams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ownership_teams dynatrace_ownership_teams} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ownership_teams dynatrace_ownership_teams} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1502,8 +1502,8 @@ export class OwnershipTeams extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ownership_teams',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

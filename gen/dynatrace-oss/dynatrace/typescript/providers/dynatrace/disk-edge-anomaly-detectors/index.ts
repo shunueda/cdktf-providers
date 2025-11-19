@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DiskEdgeAnomalyDetectorsConfig extends cdktf.TerraformMetaArgum
   /**
   * Disk will be included in this policy if **any** of the filters match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#disk_name_filters DiskEdgeAnomalyDetectors#disk_name_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#disk_name_filters DiskEdgeAnomalyDetectors#disk_name_filters}
   */
   readonly diskNameFilters?: string[];
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#enabled DiskEdgeAnomalyDetectors#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#enabled DiskEdgeAnomalyDetectors#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#id DiskEdgeAnomalyDetectors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#id DiskEdgeAnomalyDetectors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DiskEdgeAnomalyDetectorsConfig extends cdktf.TerraformMetaArgum
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#insert_after DiskEdgeAnomalyDetectors#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#insert_after DiskEdgeAnomalyDetectors#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Select the operating systems on which policy should be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#operating_system DiskEdgeAnomalyDetectors#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#operating_system DiskEdgeAnomalyDetectors#operating_system}
   */
   readonly operatingSystem?: string[];
   /**
   * Policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#policy_name DiskEdgeAnomalyDetectors#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#policy_name DiskEdgeAnomalyDetectors#policy_name}
   */
   readonly policyName: string;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#scope DiskEdgeAnomalyDetectors#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#scope DiskEdgeAnomalyDetectors#scope}
   */
   readonly scope?: string;
   /**
   * alerts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#alerts DiskEdgeAnomalyDetectors#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#alerts DiskEdgeAnomalyDetectors#alerts}
   */
   readonly alerts?: DiskEdgeAnomalyDetectorsAlerts;
   /**
   * event_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#event_properties DiskEdgeAnomalyDetectors#event_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#event_properties DiskEdgeAnomalyDetectors#event_properties}
   */
   readonly eventProperties?: DiskEdgeAnomalyDetectorsEventProperties;
   /**
   * host_metadata_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#host_metadata_conditions DiskEdgeAnomalyDetectors#host_metadata_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#host_metadata_conditions DiskEdgeAnomalyDetectors#host_metadata_conditions}
   */
   readonly hostMetadataConditions?: DiskEdgeAnomalyDetectorsHostMetadataConditions;
 }
@@ -73,25 +73,25 @@ export interface DiskEdgeAnomalyDetectorsAlertsAlertSampleCountThresholds {
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#dealerting_evaluation_window DiskEdgeAnomalyDetectors#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#dealerting_evaluation_window DiskEdgeAnomalyDetectors#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower than the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#dealerting_samples DiskEdgeAnomalyDetectors#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#dealerting_samples DiskEdgeAnomalyDetectors#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#violating_evaluation_window DiskEdgeAnomalyDetectors#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#violating_evaluation_window DiskEdgeAnomalyDetectors#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#violating_samples DiskEdgeAnomalyDetectors#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#violating_samples DiskEdgeAnomalyDetectors#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -252,25 +252,25 @@ export interface DiskEdgeAnomalyDetectorsAlertsAlertSampleCountThresholdsImmedia
   /**
   * The number of **10-second samples** that form the sliding evaluation window for dealerting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#dealerting_evaluation_window DiskEdgeAnomalyDetectors#dealerting_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#dealerting_evaluation_window DiskEdgeAnomalyDetectors#dealerting_evaluation_window}
   */
   readonly dealertingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must be lower than the threshold to close an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#dealerting_samples DiskEdgeAnomalyDetectors#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#dealerting_samples DiskEdgeAnomalyDetectors#dealerting_samples}
   */
   readonly dealertingSamples: number;
   /**
   * The number of **10-second samples** that form the sliding evaluation window to detect violating samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#violating_evaluation_window DiskEdgeAnomalyDetectors#violating_evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#violating_evaluation_window DiskEdgeAnomalyDetectors#violating_evaluation_window}
   */
   readonly violatingEvaluationWindow: number;
   /**
   * The number of **10-second samples** within the evaluation window that must exceed the threshold to trigger an event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#violating_samples DiskEdgeAnomalyDetectors#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#violating_samples DiskEdgeAnomalyDetectors#violating_samples}
   */
   readonly violatingSamples: number;
 }
@@ -431,43 +431,43 @@ export interface DiskEdgeAnomalyDetectorsAlertsAlert {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#threshold_mebibytes DiskEdgeAnomalyDetectors#threshold_mebibytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#threshold_mebibytes DiskEdgeAnomalyDetectors#threshold_mebibytes}
   */
   readonly thresholdMebibytes?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#threshold_milliseconds DiskEdgeAnomalyDetectors#threshold_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#threshold_milliseconds DiskEdgeAnomalyDetectors#threshold_milliseconds}
   */
   readonly thresholdMilliseconds?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#threshold_number DiskEdgeAnomalyDetectors#threshold_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#threshold_number DiskEdgeAnomalyDetectors#threshold_number}
   */
   readonly thresholdNumber?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#threshold_percent DiskEdgeAnomalyDetectors#threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#threshold_percent DiskEdgeAnomalyDetectors#threshold_percent}
   */
   readonly thresholdPercent?: number;
   /**
   * Possible Values: `AVAILABLE_DISK_SPACE_MEBIBYTES_BELOW`, `AVAILABLE_DISK_SPACE_PERCENT_BELOW`, `AVAILABLE_INODES_NUMBER_BELOW`, `AVAILABLE_INODES_PERCENT_BELOW`, `READ_ONLY_FILE_SYSTEM`, `READ_TIME_EXCEEDING`, `WRITE_TIME_EXCEEDING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#trigger DiskEdgeAnomalyDetectors#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#trigger DiskEdgeAnomalyDetectors#trigger}
   */
   readonly trigger: string;
   /**
   * sample_count_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#sample_count_thresholds DiskEdgeAnomalyDetectors#sample_count_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#sample_count_thresholds DiskEdgeAnomalyDetectors#sample_count_thresholds}
   */
   readonly sampleCountThresholds?: DiskEdgeAnomalyDetectorsAlertsAlertSampleCountThresholds;
   /**
   * sample_count_thresholds_immediately block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#sample_count_thresholds_immediately DiskEdgeAnomalyDetectors#sample_count_thresholds_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#sample_count_thresholds_immediately DiskEdgeAnomalyDetectors#sample_count_thresholds_immediately}
   */
   readonly sampleCountThresholdsImmediately?: DiskEdgeAnomalyDetectorsAlertsAlertSampleCountThresholdsImmediately;
 }
@@ -756,7 +756,7 @@ export interface DiskEdgeAnomalyDetectorsAlerts {
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#alert DiskEdgeAnomalyDetectors#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#alert DiskEdgeAnomalyDetectors#alert}
   */
   readonly alert: DiskEdgeAnomalyDetectorsAlertsAlert[] | cdktf.IResolvable;
 }
@@ -839,13 +839,13 @@ export interface DiskEdgeAnomalyDetectorsEventPropertiesEventPropertie {
   /**
   * Type 'dt.' for key hints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#metadata_key DiskEdgeAnomalyDetectors#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#metadata_key DiskEdgeAnomalyDetectors#metadata_key}
   */
   readonly metadataKey: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#metadata_value DiskEdgeAnomalyDetectors#metadata_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#metadata_value DiskEdgeAnomalyDetectors#metadata_value}
   */
   readonly metadataValue: string;
 }
@@ -986,7 +986,7 @@ export interface DiskEdgeAnomalyDetectorsEventProperties {
   /**
   * event_propertie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#event_propertie DiskEdgeAnomalyDetectors#event_propertie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#event_propertie DiskEdgeAnomalyDetectors#event_propertie}
   */
   readonly eventPropertie: DiskEdgeAnomalyDetectorsEventPropertiesEventPropertie[] | cdktf.IResolvable;
 }
@@ -1069,7 +1069,7 @@ export interface DiskEdgeAnomalyDetectorsHostMetadataConditionsHostMetadataCondi
   /**
   * When enabled, the condition requires a metadata key to exist and match the constraints; when disabled, the key is optional but must still match the constrains if it is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#key_must_exist DiskEdgeAnomalyDetectors#key_must_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#key_must_exist DiskEdgeAnomalyDetectors#key_must_exist}
   */
   readonly keyMustExist?: boolean | cdktf.IResolvable;
   /**
@@ -1087,13 +1087,13 @@ export interface DiskEdgeAnomalyDetectorsHostMetadataConditionsHostMetadataCondi
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#metadata_condition DiskEdgeAnomalyDetectors#metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#metadata_condition DiskEdgeAnomalyDetectors#metadata_condition}
   */
   readonly metadataCondition: string;
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#metadata_key DiskEdgeAnomalyDetectors#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#metadata_key DiskEdgeAnomalyDetectors#metadata_key}
   */
   readonly metadataKey: string;
 }
@@ -1231,7 +1231,7 @@ export interface DiskEdgeAnomalyDetectorsHostMetadataConditionsHostMetadataCondi
   /**
   * host_metadata_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#host_metadata_condition DiskEdgeAnomalyDetectors#host_metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#host_metadata_condition DiskEdgeAnomalyDetectors#host_metadata_condition}
   */
   readonly hostMetadataCondition: DiskEdgeAnomalyDetectorsHostMetadataConditionsHostMetadataConditionHostMetadataCondition;
 }
@@ -1346,7 +1346,7 @@ export interface DiskEdgeAnomalyDetectorsHostMetadataConditions {
   /**
   * host_metadata_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#host_metadata_condition DiskEdgeAnomalyDetectors#host_metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#host_metadata_condition DiskEdgeAnomalyDetectors#host_metadata_condition}
   */
   readonly hostMetadataCondition: DiskEdgeAnomalyDetectorsHostMetadataConditionsHostMetadataCondition[] | cdktf.IResolvable;
 }
@@ -1427,7 +1427,7 @@ export class DiskEdgeAnomalyDetectorsHostMetadataConditionsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors dynatrace_disk_edge_anomaly_detectors}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors dynatrace_disk_edge_anomaly_detectors}
 */
 export class DiskEdgeAnomalyDetectors extends cdktf.TerraformResource {
 
@@ -1443,7 +1443,7 @@ export class DiskEdgeAnomalyDetectors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskEdgeAnomalyDetectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskEdgeAnomalyDetectors to import
-  * @param importFromId The id of the existing DiskEdgeAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskEdgeAnomalyDetectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskEdgeAnomalyDetectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1455,7 +1455,7 @@ export class DiskEdgeAnomalyDetectors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_edge_anomaly_detectors dynatrace_disk_edge_anomaly_detectors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_edge_anomaly_detectors dynatrace_disk_edge_anomaly_detectors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1466,8 +1466,8 @@ export class DiskEdgeAnomalyDetectors extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_edge_anomaly_detectors',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

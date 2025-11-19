@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomAppEnablementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#id CustomAppEnablement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#id CustomAppEnablement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface CustomAppEnablementConfig extends cdktf.TerraformMetaArguments 
   /**
   * The scope of this setting (CUSTOM_APPLICATION). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#scope CustomAppEnablement#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#scope CustomAppEnablement#scope}
   */
   readonly scope?: string;
   /**
   * rum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#rum CustomAppEnablement#rum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#rum CustomAppEnablement#rum}
   */
   readonly rum: CustomAppEnablementRum;
 }
@@ -31,13 +31,13 @@ export interface CustomAppEnablementRum {
   /**
   * (Field has overlap with `dynatrace_mobile_application`) Percentage of user sessions captured and analyzed. By default, Dynatrace captures all user actions and user sessions for analysis. This approach ensures complete insight into your application’s performance and customer experience. You can optionally reduce the granularity of user-action and user-session analysis by capturing a lower percentage of user sessions. While this approach can reduce monitoring costs, it also results in lower visibility into how your customers are using your applications. For example, a setting of 10% results in Dynatrace analyzing only every tenth user session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#cost_and_traffic_control CustomAppEnablement#cost_and_traffic_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#cost_and_traffic_control CustomAppEnablement#cost_and_traffic_control}
   */
   readonly costAndTrafficControl: number;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#enabled CustomAppEnablement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#enabled CustomAppEnablement#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -144,7 +144,7 @@ export class CustomAppEnablementRumOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement dynatrace_custom_app_enablement}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement dynatrace_custom_app_enablement}
 */
 export class CustomAppEnablement extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class CustomAppEnablement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomAppEnablement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomAppEnablement to import
-  * @param importFromId The id of the existing CustomAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomAppEnablement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class CustomAppEnablement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/custom_app_enablement dynatrace_custom_app_enablement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_enablement dynatrace_custom_app_enablement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class CustomAppEnablement extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_app_enablement',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

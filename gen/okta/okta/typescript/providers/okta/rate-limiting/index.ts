@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface RateLimitingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#default_mode RateLimiting#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#default_mode RateLimiting#default_mode}
   */
   readonly defaultMode: string;
   /**
   * use_case_mode_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#use_case_mode_overrides RateLimiting#use_case_mode_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#use_case_mode_overrides RateLimiting#use_case_mode_overrides}
   */
   readonly useCaseModeOverrides?: RateLimitingUseCaseModeOverrides;
 }
 export interface RateLimitingUseCaseModeOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#login_page RateLimiting#login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#login_page RateLimiting#login_page}
   */
   readonly loginPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#oauth2_authorize RateLimiting#oauth2_authorize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#oauth2_authorize RateLimiting#oauth2_authorize}
   */
   readonly oauth2Authorize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#oie_app_intent RateLimiting#oie_app_intent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#oie_app_intent RateLimiting#oie_app_intent}
   */
   readonly oieAppIntent?: string;
 }
@@ -180,7 +180,7 @@ export class RateLimitingUseCaseModeOverridesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting okta_rate_limiting}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting okta_rate_limiting}
 */
 export class RateLimiting extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class RateLimiting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RateLimiting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RateLimiting to import
-  * @param importFromId The id of the existing RateLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RateLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RateLimiting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class RateLimiting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/rate_limiting okta_rate_limiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/rate_limiting okta_rate_limiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class RateLimiting extends cdktf.TerraformResource {
       terraformResourceType: 'okta_rate_limiting',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

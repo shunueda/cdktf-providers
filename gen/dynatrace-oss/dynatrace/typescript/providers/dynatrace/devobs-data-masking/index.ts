@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DevobsDataMaskingConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#enabled DevobsDataMasking#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#enabled DevobsDataMasking#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#id DevobsDataMasking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#id DevobsDataMasking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DevobsDataMaskingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#insert_after DevobsDataMasking#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#insert_after DevobsDataMasking#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#replacement_pattern DevobsDataMasking#replacement_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#replacement_pattern DevobsDataMasking#replacement_pattern}
   */
   readonly replacementPattern?: string;
   /**
   * Possible Values: `SHA256`, `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#replacement_type DevobsDataMasking#replacement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#replacement_type DevobsDataMasking#replacement_type}
   */
   readonly replacementType: string;
   /**
   * Rule Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#rule_name DevobsDataMasking#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#rule_name DevobsDataMasking#rule_name}
   */
   readonly ruleName: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#rule_regex DevobsDataMasking#rule_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#rule_regex DevobsDataMasking#rule_regex}
   */
   readonly ruleRegex?: string;
   /**
   * Possible Values: `REGEX`, `VAR_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#rule_type DevobsDataMasking#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#rule_type DevobsDataMasking#rule_type}
   */
   readonly ruleType: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#rule_var_name DevobsDataMasking#rule_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#rule_var_name DevobsDataMasking#rule_var_name}
   */
   readonly ruleVarName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking dynatrace_devobs_data_masking}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking dynatrace_devobs_data_masking}
 */
 export class DevobsDataMasking extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class DevobsDataMasking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevobsDataMasking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevobsDataMasking to import
-  * @param importFromId The id of the existing DevobsDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevobsDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevobsDataMasking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DevobsDataMasking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/devobs_data_masking dynatrace_devobs_data_masking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/devobs_data_masking dynatrace_devobs_data_masking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DevobsDataMasking extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_devobs_data_masking',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

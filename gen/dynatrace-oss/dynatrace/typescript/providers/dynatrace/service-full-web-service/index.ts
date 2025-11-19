@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServiceFullWebServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#description ServiceFullWebService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#description ServiceFullWebService#description}
   */
   readonly description?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enabled ServiceFullWebService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enabled ServiceFullWebService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#id ServiceFullWebService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#id ServiceFullWebService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ServiceFullWebServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#insert_after ServiceFullWebService#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#insert_after ServiceFullWebService#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Define a management zone of the process group for which this service detection rule should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#management_zones ServiceFullWebService#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#management_zones ServiceFullWebService#management_zones}
   */
   readonly managementZones?: string[];
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#name ServiceFullWebService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#name ServiceFullWebService#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#conditions ServiceFullWebService#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#conditions ServiceFullWebService#conditions}
   */
   readonly conditions?: ServiceFullWebServiceConditions;
   /**
   * id_contributors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#id_contributors ServiceFullWebService#id_contributors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#id_contributors ServiceFullWebService#id_contributors}
   */
   readonly idContributors: ServiceFullWebServiceIdContributors;
 }
@@ -61,61 +61,61 @@ export interface ServiceFullWebServiceConditionsCondition {
   /**
   * Take the value of this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#attribute ServiceFullWebService#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#attribute ServiceFullWebService#attribute}
   */
   readonly attribute: string;
   /**
   * Apply this operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#compare_operation_type ServiceFullWebService#compare_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#compare_operation_type ServiceFullWebService#compare_operation_type}
   */
   readonly compareOperationType: string;
   /**
   * Technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#framework ServiceFullWebService#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#framework ServiceFullWebService#framework}
   */
   readonly framework?: string[];
   /**
   * Ignore case sensitivity for texts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#ignore_case ServiceFullWebService#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#ignore_case ServiceFullWebService#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#int_value ServiceFullWebService#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#int_value ServiceFullWebService#int_value}
   */
   readonly intValue?: number;
   /**
   * Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#int_values ServiceFullWebService#int_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#int_values ServiceFullWebService#int_values}
   */
   readonly intValues?: number[];
   /**
   * From
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#ip_range_from ServiceFullWebService#ip_range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#ip_range_from ServiceFullWebService#ip_range_from}
   */
   readonly ipRangeFrom?: string;
   /**
   * To
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#ip_range_to ServiceFullWebService#ip_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#ip_range_to ServiceFullWebService#ip_range_to}
   */
   readonly ipRangeTo?: string;
   /**
   * If multiple values are specified, at least one of them must match for the condition to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#tag_values ServiceFullWebService#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#tag_values ServiceFullWebService#tag_values}
   */
   readonly tagValues?: string[];
   /**
   * If multiple values are specified, at least one of them must match for the condition to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#text_values ServiceFullWebService#text_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#text_values ServiceFullWebService#text_values}
   */
   readonly textValues?: string[];
 }
@@ -488,7 +488,7 @@ export interface ServiceFullWebServiceConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#condition ServiceFullWebService#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#condition ServiceFullWebService#condition}
   */
   readonly condition: ServiceFullWebServiceConditionsCondition[] | cdktf.IResolvable;
 }
@@ -571,61 +571,61 @@ export interface ServiceFullWebServiceIdContributorsApplicationIdServiceIdContri
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -1001,7 +1001,7 @@ export interface ServiceFullWebServiceIdContributorsApplicationIdServiceIdContri
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
   */
   readonly transformation: ServiceFullWebServiceIdContributorsApplicationIdServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -1084,7 +1084,7 @@ export interface ServiceFullWebServiceIdContributorsApplicationIdServiceIdContri
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value ServiceFullWebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value ServiceFullWebService#value}
   */
   readonly value: string;
 }
@@ -1167,19 +1167,19 @@ export interface ServiceFullWebServiceIdContributorsApplicationIdServiceIdContri
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
   */
   readonly contributionType: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
   */
   readonly transformations?: ServiceFullWebServiceIdContributorsApplicationIdServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
   */
   readonly valueOverride?: ServiceFullWebServiceIdContributorsApplicationIdServiceIdContributorValueOverride;
 }
@@ -1320,13 +1320,13 @@ export interface ServiceFullWebServiceIdContributorsApplicationId {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceFullWebServiceIdContributorsApplicationIdServiceIdContributor;
 }
@@ -1438,37 +1438,37 @@ export interface ServiceFullWebServiceIdContributorsContextRootServiceIdContribu
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
   */
   readonly suffix?: string;
   /**
   * Possible Values: `BEFORE`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -1728,7 +1728,7 @@ export interface ServiceFullWebServiceIdContributorsContextRootServiceIdContribu
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
   */
   readonly transformation: ServiceFullWebServiceIdContributorsContextRootServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -1811,7 +1811,7 @@ export interface ServiceFullWebServiceIdContributorsContextRootServiceIdContribu
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value ServiceFullWebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value ServiceFullWebService#value}
   */
   readonly value: string;
 }
@@ -1894,25 +1894,25 @@ export interface ServiceFullWebServiceIdContributorsContextRootServiceIdContribu
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformURL`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
   */
   readonly contributionType: string;
   /**
   * The number of segments of the URL to be kept. The URL is divided by slashes (/), the indexing starts with 1 at context root. For example, if you specify 2 for the `www.dynatrace.com/support/help/dynatrace-api/` URL, the value of `support/help` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
   */
   readonly transformations?: ServiceFullWebServiceIdContributorsContextRootServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
   */
   readonly valueOverride?: ServiceFullWebServiceIdContributorsContextRootServiceIdContributorValueOverride;
 }
@@ -2082,13 +2082,13 @@ export interface ServiceFullWebServiceIdContributorsContextRoot {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceFullWebServiceIdContributorsContextRootServiceIdContributor;
 }
@@ -2200,61 +2200,61 @@ export interface ServiceFullWebServiceIdContributorsServerNameServiceIdContribut
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -2630,7 +2630,7 @@ export interface ServiceFullWebServiceIdContributorsServerNameServiceIdContribut
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
   */
   readonly transformation: ServiceFullWebServiceIdContributorsServerNameServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -2713,7 +2713,7 @@ export interface ServiceFullWebServiceIdContributorsServerNameServiceIdContribut
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value ServiceFullWebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value ServiceFullWebService#value}
   */
   readonly value: string;
 }
@@ -2796,19 +2796,19 @@ export interface ServiceFullWebServiceIdContributorsServerNameServiceIdContribut
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
   */
   readonly contributionType: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
   */
   readonly transformations?: ServiceFullWebServiceIdContributorsServerNameServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
   */
   readonly valueOverride?: ServiceFullWebServiceIdContributorsServerNameServiceIdContributorValueOverride;
 }
@@ -2949,13 +2949,13 @@ export interface ServiceFullWebServiceIdContributorsServerName {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceFullWebServiceIdContributorsServerNameServiceIdContributor;
 }
@@ -3067,61 +3067,61 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContr
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -3497,7 +3497,7 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContr
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
   */
   readonly transformation: ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -3580,7 +3580,7 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContr
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value ServiceFullWebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value ServiceFullWebService#value}
   */
   readonly value: string;
 }
@@ -3663,19 +3663,19 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContr
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
   */
   readonly contributionType: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
   */
   readonly transformations?: ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
   */
   readonly valueOverride?: ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContributorValueOverride;
 }
@@ -3816,13 +3816,13 @@ export interface ServiceFullWebServiceIdContributorsWebServiceName {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceFullWebServiceIdContributorsWebServiceNameServiceIdContributor;
 }
@@ -3934,61 +3934,61 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceId
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#include_hex_numbers ServiceFullWebService#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#min_digit_count ServiceFullWebService#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#prefix ServiceFullWebService#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#replacement_value ServiceFullWebService#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#segment_count ServiceFullWebService#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#select_index ServiceFullWebService#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#split_delimiter ServiceFullWebService#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#suffix ServiceFullWebService#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#take_from_end ServiceFullWebService#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation_type ServiceFullWebService#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -4364,7 +4364,7 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceId
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformation ServiceFullWebService#transformation}
   */
   readonly transformation: ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -4447,7 +4447,7 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceId
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value ServiceFullWebService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value ServiceFullWebService#value}
   */
   readonly value: string;
 }
@@ -4530,19 +4530,19 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceId
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#contribution_type ServiceFullWebService#contribution_type}
   */
   readonly contributionType: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#transformations ServiceFullWebService#transformations}
   */
   readonly transformations?: ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#value_override ServiceFullWebService#value_override}
   */
   readonly valueOverride?: ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceIdContributorValueOverride;
 }
@@ -4683,13 +4683,13 @@ export interface ServiceFullWebServiceIdContributorsWebServiceNamespace {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#enable_id_contributor ServiceFullWebService#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#service_id_contributor ServiceFullWebService#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceFullWebServiceIdContributorsWebServiceNamespaceServiceIdContributor;
 }
@@ -4803,37 +4803,37 @@ export interface ServiceFullWebServiceIdContributors {
   * 
   * Setting this field to true prevents detecting of matching requests as full web services. A web request service is created instead. If you need to further modify the resulting web request service, you need to create a separate [Full web request rule](builtin:service-detection.full-web-request).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#detect_as_web_request_service ServiceFullWebService#detect_as_web_request_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#detect_as_web_request_service ServiceFullWebService#detect_as_web_request_service}
   */
   readonly detectAsWebRequestService: boolean | cdktf.IResolvable;
   /**
   * application_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#application_id ServiceFullWebService#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#application_id ServiceFullWebService#application_id}
   */
   readonly applicationId?: ServiceFullWebServiceIdContributorsApplicationId;
   /**
   * context_root block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#context_root ServiceFullWebService#context_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#context_root ServiceFullWebService#context_root}
   */
   readonly contextRoot?: ServiceFullWebServiceIdContributorsContextRoot;
   /**
   * server_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#server_name ServiceFullWebService#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#server_name ServiceFullWebService#server_name}
   */
   readonly serverName?: ServiceFullWebServiceIdContributorsServerName;
   /**
   * web_service_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#web_service_name ServiceFullWebService#web_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#web_service_name ServiceFullWebService#web_service_name}
   */
   readonly webServiceName?: ServiceFullWebServiceIdContributorsWebServiceName;
   /**
   * web_service_namespace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#web_service_namespace ServiceFullWebService#web_service_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#web_service_namespace ServiceFullWebService#web_service_namespace}
   */
   readonly webServiceNamespace?: ServiceFullWebServiceIdContributorsWebServiceNamespace;
 }
@@ -5059,7 +5059,7 @@ export class ServiceFullWebServiceIdContributorsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service dynatrace_service_full_web_service}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service dynatrace_service_full_web_service}
 */
 export class ServiceFullWebService extends cdktf.TerraformResource {
 
@@ -5075,7 +5075,7 @@ export class ServiceFullWebService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceFullWebService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceFullWebService to import
-  * @param importFromId The id of the existing ServiceFullWebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceFullWebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceFullWebService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5087,7 +5087,7 @@ export class ServiceFullWebService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_full_web_service dynatrace_service_full_web_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_full_web_service dynatrace_service_full_web_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5098,8 +5098,8 @@ export class ServiceFullWebService extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_full_web_service',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

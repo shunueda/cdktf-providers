@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LogTimestampConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#config_item_title LogTimestamp#config_item_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#config_item_title LogTimestamp#config_item_title}
   */
   readonly configItemTitle: string;
   /**
   * Defines the number of characters in every log line (starting from the first character in the line) where the timestamp is searched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#date_search_limit LogTimestamp#date_search_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#date_search_limit LogTimestamp#date_search_limit}
   */
   readonly dateSearchLimit?: number;
   /**
   * Date-time pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#date_time_pattern LogTimestamp#date_time_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#date_time_pattern LogTimestamp#date_time_pattern}
   */
   readonly dateTimePattern: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#enabled LogTimestamp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#enabled LogTimestamp#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#id LogTimestamp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#id LogTimestamp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,37 @@ export interface LogTimestampConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#insert_after LogTimestamp#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#insert_after LogTimestamp#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The scope of this setting (HOST, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#scope LogTimestamp#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#scope LogTimestamp#scope}
   */
   readonly scope?: string;
   /**
+  * Don't parse timestamps in lines starting with white character
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#skip_indented_lines LogTimestamp#skip_indented_lines}
+  */
+  readonly skipIndentedLines?: boolean | cdktf.IResolvable;
+  /**
   * Timezone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#timezone LogTimestamp#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#timezone LogTimestamp#timezone}
   */
   readonly timezone: string;
   /**
   * entry_boundary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#entry_boundary LogTimestamp#entry_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#entry_boundary LogTimestamp#entry_boundary}
   */
   readonly entryBoundary?: LogTimestampEntryBoundary;
   /**
   * matchers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#matchers LogTimestamp#matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#matchers LogTimestamp#matchers}
   */
   readonly matchers?: LogTimestampMatchers;
 }
@@ -73,7 +79,7 @@ export interface LogTimestampEntryBoundary {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#pattern LogTimestamp#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#pattern LogTimestamp#pattern}
   */
   readonly pattern?: string;
 }
@@ -159,19 +165,19 @@ export interface LogTimestampMatchersMatcher {
   /**
   * Possible Values: `Container_name`, `Dt_entity_container_group`, `Dt_entity_process_group`, `Host_tag`, `K8s_container_name`, `K8s_deployment_name`, `K8s_namespace_name`, `K8s_pod_annotation`, `K8s_pod_label`, `K8s_workload_kind`, `K8s_workload_name`, `Log_source`, `Log_source_origin`, `Process_technology`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#attribute LogTimestamp#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#attribute LogTimestamp#attribute}
   */
   readonly attribute: string;
   /**
   * Possible Values: `MATCHES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#operator LogTimestamp#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#operator LogTimestamp#operator}
   */
   readonly operator: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#values LogTimestamp#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#values LogTimestamp#values}
   */
   readonly values: string[];
 }
@@ -338,7 +344,7 @@ export interface LogTimestampMatchers {
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#matcher LogTimestamp#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#matcher LogTimestamp#matcher}
   */
   readonly matcher: LogTimestampMatchersMatcher[] | cdktf.IResolvable;
 }
@@ -419,7 +425,7 @@ export class LogTimestampMatchersOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp dynatrace_log_timestamp}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp dynatrace_log_timestamp}
 */
 export class LogTimestamp extends cdktf.TerraformResource {
 
@@ -435,7 +441,7 @@ export class LogTimestamp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogTimestamp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogTimestamp to import
-  * @param importFromId The id of the existing LogTimestamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogTimestamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogTimestamp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +453,7 @@ export class LogTimestamp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/log_timestamp dynatrace_log_timestamp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_timestamp dynatrace_log_timestamp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +464,8 @@ export class LogTimestamp extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_timestamp',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -476,6 +482,7 @@ export class LogTimestamp extends cdktf.TerraformResource {
     this._id = config.id;
     this._insertAfter = config.insertAfter;
     this._scope = config.scope;
+    this._skipIndentedLines = config.skipIndentedLines;
     this._timezone = config.timezone;
     this._entryBoundary.internalValue = config.entryBoundary;
     this._matchers.internalValue = config.matchers;
@@ -588,6 +595,22 @@ export class LogTimestamp extends cdktf.TerraformResource {
     return this._scope;
   }
 
+  // skip_indented_lines - computed: false, optional: true, required: false
+  private _skipIndentedLines?: boolean | cdktf.IResolvable; 
+  public get skipIndentedLines() {
+    return this.getBooleanAttribute('skip_indented_lines');
+  }
+  public set skipIndentedLines(value: boolean | cdktf.IResolvable) {
+    this._skipIndentedLines = value;
+  }
+  public resetSkipIndentedLines() {
+    this._skipIndentedLines = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipIndentedLinesInput() {
+    return this._skipIndentedLines;
+  }
+
   // timezone - computed: false, optional: false, required: true
   private _timezone?: string; 
   public get timezone() {
@@ -646,6 +669,7 @@ export class LogTimestamp extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       insert_after: cdktf.stringToTerraform(this._insertAfter),
       scope: cdktf.stringToTerraform(this._scope),
+      skip_indented_lines: cdktf.booleanToTerraform(this._skipIndentedLines),
       timezone: cdktf.stringToTerraform(this._timezone),
       entry_boundary: logTimestampEntryBoundaryToTerraform(this._entryBoundary.internalValue),
       matchers: logTimestampMatchersToTerraform(this._matchers.internalValue),
@@ -695,6 +719,12 @@ export class LogTimestamp extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      skip_indented_lines: {
+        value: cdktf.booleanToHclTerraform(this._skipIndentedLines),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       timezone: {
         value: cdktf.stringToHclTerraform(this._timezone),

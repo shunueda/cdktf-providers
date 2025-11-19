@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyRuleSignonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow or deny access based on the rule conditions: `ALLOW`, `DENY` or `CHALLENGE`. Default: `ALLOW`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#access PolicyRuleSignon#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#access PolicyRuleSignon#access}
   */
   readonly access?: string;
   /**
   * Authentication entrypoint: `ANY`, `RADIUS` or `LDAP_INTERFACE`. Default: `ANY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#authtype PolicyRuleSignon#authtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#authtype PolicyRuleSignon#authtype}
   */
   readonly authtype?: string;
   /**
   * List of behavior IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#behaviors PolicyRuleSignon#behaviors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#behaviors PolicyRuleSignon#behaviors}
   */
   readonly behaviors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#id PolicyRuleSignon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#id PolicyRuleSignon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,127 +35,127 @@ export interface PolicyRuleSignonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apply rule based on the IdP used: `ANY`, `OKTA` or `SPECIFIC_IDP`. Default: `ANY`. ~> **WARNING**: Use of `identity_provider` requires a feature flag to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#identity_provider PolicyRuleSignon#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#identity_provider PolicyRuleSignon#identity_provider}
   */
   readonly identityProvider?: string;
   /**
   * When identity_provider is `SPECIFIC_IDP` then this is the list of IdP IDs to apply the rule on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#identity_provider_ids PolicyRuleSignon#identity_provider_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#identity_provider_ids PolicyRuleSignon#identity_provider_ids}
   */
   readonly identityProviderIds?: string[];
   /**
   * Elapsed time before the next MFA challenge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#mfa_lifetime PolicyRuleSignon#mfa_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#mfa_lifetime PolicyRuleSignon#mfa_lifetime}
   */
   readonly mfaLifetime?: number;
   /**
   * Prompt for MFA based on the device used, a factor session lifetime, or every sign-on attempt: `DEVICE`, `SESSION` or`ALWAYS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#mfa_prompt PolicyRuleSignon#mfa_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#mfa_prompt PolicyRuleSignon#mfa_prompt}
   */
   readonly mfaPrompt?: string;
   /**
   * Remember MFA device. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#mfa_remember_device PolicyRuleSignon#mfa_remember_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#mfa_remember_device PolicyRuleSignon#mfa_remember_device}
   */
   readonly mfaRememberDevice?: boolean | cdktf.IResolvable;
   /**
   * Require MFA. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#mfa_required PolicyRuleSignon#mfa_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#mfa_required PolicyRuleSignon#mfa_required}
   */
   readonly mfaRequired?: boolean | cdktf.IResolvable;
   /**
   * Policy Rule Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#name PolicyRuleSignon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#name PolicyRuleSignon#name}
   */
   readonly name: string;
   /**
   * Network selection mode: `ANYWHERE`, `ZONE`, `ON_NETWORK`, or `OFF_NETWORK`. Default: `ANYWHERE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#network_connection PolicyRuleSignon#network_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#network_connection PolicyRuleSignon#network_connection}
   */
   readonly networkConnection?: string;
   /**
   * Required if `network_connection` = `ZONE`. Indicates the network zones to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#network_excludes PolicyRuleSignon#network_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#network_excludes PolicyRuleSignon#network_excludes}
   */
   readonly networkExcludes?: string[];
   /**
   * Required if `network_connection` = `ZONE`. Indicates the network zones to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#network_includes PolicyRuleSignon#network_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#network_includes PolicyRuleSignon#network_includes}
   */
   readonly networkIncludes?: string[];
   /**
   * Policy ID of the Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#policy_id PolicyRuleSignon#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#policy_id PolicyRuleSignon#policy_id}
   */
   readonly policyId?: string;
   /**
   * Rule's primary factor. **WARNING** Ony works as a part of the Identity Engine. Valid values: `PASSWORD_IDP_ANY_FACTOR`, `PASSWORD_IDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#primary_factor PolicyRuleSignon#primary_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#primary_factor PolicyRuleSignon#primary_factor}
   */
   readonly primaryFactor?: string;
   /**
   * Rule priority. This attribute can be set to a valid priority. To avoid an endless diff situation an error is thrown if an invalid property is provided. The Okta API defaults to the last (lowest) if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#priority PolicyRuleSignon#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#priority PolicyRuleSignon#priority}
   */
   readonly priority?: number;
   /**
   * Risc level: ANY, LOW, MEDIUM or HIGH. Default: `ANY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#risc_level PolicyRuleSignon#risc_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#risc_level PolicyRuleSignon#risc_level}
   */
   readonly riscLevel?: string;
   /**
   * Risk level: ANY, LOW, MEDIUM or HIGH. Default: `ANY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#risk_level PolicyRuleSignon#risk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#risk_level PolicyRuleSignon#risk_level}
   */
   readonly riskLevel?: string;
   /**
   * Max minutes a session can be idle. Default: `120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#session_idle PolicyRuleSignon#session_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#session_idle PolicyRuleSignon#session_idle}
   */
   readonly sessionIdle?: number;
   /**
   * Max minutes a session is active: Disable = 0. Default: `120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#session_lifetime PolicyRuleSignon#session_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#session_lifetime PolicyRuleSignon#session_lifetime}
   */
   readonly sessionLifetime?: number;
   /**
   * Whether session cookies will last across browser sessions. Okta Administrators can never have persistent session cookies. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#session_persistent PolicyRuleSignon#session_persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#session_persistent PolicyRuleSignon#session_persistent}
   */
   readonly sessionPersistent?: boolean | cdktf.IResolvable;
   /**
   * Policy Rule Status: `ACTIVE` or `INACTIVE`. Default: `ACTIVE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#status PolicyRuleSignon#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#status PolicyRuleSignon#status}
   */
   readonly status?: string;
   /**
   * Set of User IDs to Exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#users_excluded PolicyRuleSignon#users_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#users_excluded PolicyRuleSignon#users_excluded}
   */
   readonly usersExcluded?: string[];
   /**
   * factor_sequence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#factor_sequence PolicyRuleSignon#factor_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#factor_sequence PolicyRuleSignon#factor_sequence}
   */
   readonly factorSequence?: PolicyRuleSignonFactorSequence[] | cdktf.IResolvable;
 }
@@ -163,13 +163,13 @@ export interface PolicyRuleSignonFactorSequenceSecondaryCriteria {
   /**
   * Type of a Factor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#factor_type PolicyRuleSignon#factor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#factor_type PolicyRuleSignon#factor_type}
   */
   readonly factorType: string;
   /**
   * Factor provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#provider PolicyRuleSignon#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#provider PolicyRuleSignon#provider}
   */
   readonly provider: string;
 }
@@ -310,19 +310,19 @@ export interface PolicyRuleSignonFactorSequence {
   /**
   * Type of a Factor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#primary_criteria_factor_type PolicyRuleSignon#primary_criteria_factor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#primary_criteria_factor_type PolicyRuleSignon#primary_criteria_factor_type}
   */
   readonly primaryCriteriaFactorType: string;
   /**
   * Factor provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#primary_criteria_provider PolicyRuleSignon#primary_criteria_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#primary_criteria_provider PolicyRuleSignon#primary_criteria_provider}
   */
   readonly primaryCriteriaProvider: string;
   /**
   * secondary_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#secondary_criteria PolicyRuleSignon#secondary_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#secondary_criteria PolicyRuleSignon#secondary_criteria}
   */
   readonly secondaryCriteria?: PolicyRuleSignonFactorSequenceSecondaryCriteria[] | cdktf.IResolvable;
 }
@@ -490,7 +490,7 @@ export class PolicyRuleSignonFactorSequenceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon okta_policy_rule_signon}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon okta_policy_rule_signon}
 */
 export class PolicyRuleSignon extends cdktf.TerraformResource {
 
@@ -506,7 +506,7 @@ export class PolicyRuleSignon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyRuleSignon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyRuleSignon to import
-  * @param importFromId The id of the existing PolicyRuleSignon that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyRuleSignon that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyRuleSignon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -518,7 +518,7 @@ export class PolicyRuleSignon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/policy_rule_signon okta_policy_rule_signon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/policy_rule_signon okta_policy_rule_signon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -529,8 +529,8 @@ export class PolicyRuleSignon extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_rule_signon',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

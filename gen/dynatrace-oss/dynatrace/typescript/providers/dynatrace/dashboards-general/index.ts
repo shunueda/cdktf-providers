@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DashboardsGeneralConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow users to grant anonymous access to dashboards. No sign-in will be required to view those dashboards read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#enable_public_sharing DashboardsGeneral#enable_public_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#enable_public_sharing DashboardsGeneral#enable_public_sharing}
   */
   readonly enablePublicSharing: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#id DashboardsGeneral#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#id DashboardsGeneral#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DashboardsGeneralConfig extends cdktf.TerraformMetaArguments {
   /**
   * default_dashboard_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#default_dashboard_list DashboardsGeneral#default_dashboard_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#default_dashboard_list DashboardsGeneral#default_dashboard_list}
   */
   readonly defaultDashboardList?: DashboardsGeneralDefaultDashboardListStruct;
 }
@@ -31,13 +31,13 @@ export interface DashboardsGeneralDefaultDashboardListDefaultDashboard {
   /**
   * Preset dashboard to show as default landing page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#dashboard DashboardsGeneral#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#dashboard DashboardsGeneral#dashboard}
   */
   readonly dashboard: string;
   /**
   * Show selected dashboard by default for this user group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#user_group DashboardsGeneral#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#user_group DashboardsGeneral#user_group}
   */
   readonly userGroup: string;
 }
@@ -178,7 +178,7 @@ export interface DashboardsGeneralDefaultDashboardListStruct {
   /**
   * default_dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#default_dashboard DashboardsGeneral#default_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#default_dashboard DashboardsGeneral#default_dashboard}
   */
   readonly defaultDashboard: DashboardsGeneralDefaultDashboardListDefaultDashboard[] | cdktf.IResolvable;
 }
@@ -259,7 +259,7 @@ export class DashboardsGeneralDefaultDashboardListStructOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general dynatrace_dashboards_general}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general dynatrace_dashboards_general}
 */
 export class DashboardsGeneral extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class DashboardsGeneral extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardsGeneral resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardsGeneral to import
-  * @param importFromId The id of the existing DashboardsGeneral that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardsGeneral that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardsGeneral to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class DashboardsGeneral extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/dashboards_general dynatrace_dashboards_general} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_general dynatrace_dashboards_general} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class DashboardsGeneral extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_dashboards_general',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

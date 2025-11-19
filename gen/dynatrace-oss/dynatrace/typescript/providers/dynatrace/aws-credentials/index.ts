@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AwsCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable monitoring of specified AWS credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#credentials_enabled AwsCredentials#credentials_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#credentials_enabled AwsCredentials#credentials_enabled}
   */
   readonly credentialsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#id AwsCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#id AwsCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,62 +23,62 @@ export interface AwsCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#label AwsCredentials#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#label AwsCredentials#label}
   */
   readonly label?: string;
   /**
   * The type of the AWS partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#partition_type AwsCredentials#partition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#partition_type AwsCredentials#partition_type}
   */
   readonly partitionType: string;
   /**
   * Instructs the provider to remove the supporting services Dynatrace applies by default to newly created AWS Credentials. Supporting Services applied by via `dynatrace_aws_service` subsequently won't get touched.
   * Note: This attribute is only getting considered during creation of the resource. Changing it afterwards won't have an effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#remove_defaults AwsCredentials#remove_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#remove_defaults AwsCredentials#remove_defaults}
   */
   readonly removeDefaults?: boolean | cdktf.IResolvable;
   /**
   * Run credentials on Dynatrace infrastructure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#running_on_dynatrace_infrastructure AwsCredentials#running_on_dynatrace_infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#running_on_dynatrace_infrastructure AwsCredentials#running_on_dynatrace_infrastructure}
   */
   readonly runningOnDynatraceInfrastructure?: boolean | cdktf.IResolvable;
   /**
   * If enabled (`true`) the attribute `supporting_services` will not get synchronized with Dynatrace. You will be able to manage them via WebUI without interference by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#supporting_services_managed_in_dynatrace AwsCredentials#supporting_services_managed_in_dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#supporting_services_managed_in_dynatrace AwsCredentials#supporting_services_managed_in_dynatrace}
   */
   readonly supportingServicesManagedInDynatrace?: boolean | cdktf.IResolvable;
   /**
   * Monitor only resources which have specified AWS tags (`true`) or all resources (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#tagged_only AwsCredentials#tagged_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#tagged_only AwsCredentials#tagged_only}
   */
   readonly taggedOnly: boolean | cdktf.IResolvable;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * authentication_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#authentication_data AwsCredentials#authentication_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#authentication_data AwsCredentials#authentication_data}
   */
   readonly authenticationData: AwsCredentialsAuthenticationData;
   /**
   * supporting_services_to_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#supporting_services_to_monitor AwsCredentials#supporting_services_to_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#supporting_services_to_monitor AwsCredentials#supporting_services_to_monitor}
   */
   readonly supportingServicesToMonitor?: AwsCredentialsSupportingServicesToMonitor[] | cdktf.IResolvable;
   /**
   * tags_to_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#tags_to_monitor AwsCredentials#tags_to_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#tags_to_monitor AwsCredentials#tags_to_monitor}
   */
   readonly tagsToMonitor?: AwsCredentialsTagsToMonitor[] | cdktf.IResolvable;
 }
@@ -86,31 +86,31 @@ export interface AwsCredentialsAuthenticationData {
   /**
   * the access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#access_key AwsCredentials#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#access_key AwsCredentials#access_key}
   */
   readonly accessKey?: string;
   /**
   * the ID of the Amazon account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#account_id AwsCredentials#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#account_id AwsCredentials#account_id}
   */
   readonly accountId?: string;
   /**
   * the IAM role to be used by Dynatrace to get monitoring data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#iam_role AwsCredentials#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#iam_role AwsCredentials#iam_role}
   */
   readonly iamRole?: string;
   /**
   * the secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#secret_key AwsCredentials#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#secret_key AwsCredentials#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -317,25 +317,25 @@ export interface AwsCredentialsSupportingServicesToMonitorMonitoredMetrics {
   /**
   * a list of metric's dimensions names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#dimensions AwsCredentials#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#dimensions AwsCredentials#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * the name of the metric of the supporting service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#name AwsCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#name AwsCredentials#name}
   */
   readonly name?: string;
   /**
   * the statistic (aggregation) to be used for the metric. AVG_MIN_MAX value is 3 statistics at once: AVERAGE, MINIMUM and MAXIMUM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#statistic AwsCredentials#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#statistic AwsCredentials#statistic}
   */
   readonly statistic?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -540,19 +540,19 @@ export interface AwsCredentialsSupportingServicesToMonitor {
   /**
   * the name of the supporting service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#name AwsCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#name AwsCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * monitored_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#monitored_metrics AwsCredentials#monitored_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#monitored_metrics AwsCredentials#monitored_metrics}
   */
   readonly monitoredMetrics?: AwsCredentialsSupportingServicesToMonitorMonitoredMetrics[] | cdktf.IResolvable;
 }
@@ -728,19 +728,19 @@ export interface AwsCredentialsTagsToMonitor {
   /**
   * the key of the AWS tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#name AwsCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#name AwsCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#unknowns AwsCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * the value of the AWS tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#value AwsCredentials#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#value AwsCredentials#value}
   */
   readonly value?: string;
 }
@@ -914,7 +914,7 @@ export class AwsCredentialsTagsToMonitorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials dynatrace_aws_credentials}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials dynatrace_aws_credentials}
 */
 export class AwsCredentials extends cdktf.TerraformResource {
 
@@ -930,7 +930,7 @@ export class AwsCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCredentials to import
-  * @param importFromId The id of the existing AwsCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -942,7 +942,7 @@ export class AwsCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/aws_credentials dynatrace_aws_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/aws_credentials dynatrace_aws_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -953,8 +953,8 @@ export class AwsCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_aws_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

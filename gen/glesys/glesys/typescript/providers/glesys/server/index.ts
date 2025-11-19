@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Server network adapter bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#bandwidth Server#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#bandwidth Server#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Campaigncode used during creation for possible discount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#campaigncode Server#campaigncode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#campaigncode Server#campaigncode}
   */
   readonly campaigncode?: string;
   /**
   * Cloudconfig used to provision server using a provided cloud-config mustache template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#cloudconfig Server#cloudconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#cloudconfig Server#cloudconfig}
   */
   readonly cloudconfig?: string;
   /**
   * Cloudconfigparams is used to provide additional parameters to the template in `cloudconfig` using a map. This can be set using a Terraform Local Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#cloudconfigparams Server#cloudconfigparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#cloudconfigparams Server#cloudconfigparams}
   */
   readonly cloudconfigparams?: { [key: string]: string };
   /**
   * Server CPU cores count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#cpu Server#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#cpu Server#cpu}
   */
   readonly cpu: number;
   /**
   * Server datacenter placement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#datacenter Server#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#datacenter Server#datacenter}
   */
   readonly datacenter: string;
   /**
   * Server description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#description Server#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#description Server#description}
   */
   readonly description?: string;
   /**
   * Server hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#hostname Server#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#hostname Server#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#id Server#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#id Server#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,65 +65,71 @@ export interface ServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Server IPv4 address, set `none` to disable IP allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#ipv4_address Server#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#ipv4_address Server#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Server IPv6 address, set `none` to disable IP allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#ipv6_address Server#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#ipv6_address Server#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Server RAM setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#memory Server#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#memory Server#memory}
   */
   readonly memory: number;
   /**
   * Server root password, VMware only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#password Server#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#password Server#password}
   */
   readonly password?: string;
   /**
   * Server virtualisation platform, `KVM` or `VMware`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#platform Server#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#platform Server#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#publickey Server#publickey}
+  * (VMware) Set the network for the primary network adapter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#primary_networkadapter_network Server#primary_networkadapter_network}
+  */
+  readonly primaryNetworkadapterNetwork?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#publickey Server#publickey}
   */
   readonly publickey?: string;
   /**
   * Server disk space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#storage Server#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#storage Server#storage}
   */
   readonly storage: number;
   /**
   * Server OS template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#template Server#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#template Server#template}
   */
   readonly template?: string;
   /**
   * backups_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#backups_schedule Server#backups_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#backups_schedule Server#backups_schedule}
   */
   readonly backupsSchedule?: ServerBackupsSchedule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#timeouts Server#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#timeouts Server#timeouts}
   */
   readonly timeouts?: ServerTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#user Server#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#user Server#user}
   */
   readonly user?: ServerUser[] | cdktf.IResolvable;
 }
@@ -224,11 +230,11 @@ export class ServerNetworkAdaptersList extends cdktf.ComplexList {
 }
 export interface ServerBackupsSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#frequency Server#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#frequency Server#frequency}
   */
   readonly frequency: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#retention Server#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#retention Server#retention}
   */
   readonly retention: number;
 }
@@ -367,11 +373,11 @@ export class ServerBackupsScheduleList extends cdktf.ComplexList {
 }
 export interface ServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#create Server#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#create Server#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#delete Server#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#delete Server#delete}
   */
   readonly delete?: string;
 }
@@ -494,17 +500,17 @@ export class ServerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface ServerUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#password Server#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#password Server#password}
   */
-  readonly password: string;
+  readonly password?: string;
   /**
   * User SSH key(s), as a list. '["ssh-rsa abc...", "ssh-rsa foo..."]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#publickeys Server#publickeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#publickeys Server#publickeys}
   */
   readonly publickeys: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#username Server#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#username Server#username}
   */
   readonly username: string;
 }
@@ -608,13 +614,16 @@ export class ServerUserOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // password - computed: false, optional: false, required: true
+  // password - computed: false, optional: true, required: false
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
   public set password(value: string) {
     this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get passwordInput() {
@@ -669,7 +678,7 @@ export class ServerUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server glesys_server}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server glesys_server}
 */
 export class Server extends cdktf.TerraformResource {
 
@@ -685,7 +694,7 @@ export class Server extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Server resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Server to import
-  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Server that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Server to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +706,7 @@ export class Server extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server glesys_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server glesys_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +717,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_server',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -733,6 +742,7 @@ export class Server extends cdktf.TerraformResource {
     this._memory = config.memory;
     this._password = config.password;
     this._platform = config.platform;
+    this._primaryNetworkadapterNetwork = config.primaryNetworkadapterNetwork;
     this._publickey = config.publickey;
     this._storage = config.storage;
     this._template = config.template;
@@ -975,6 +985,22 @@ export class Server extends cdktf.TerraformResource {
     return this._platform;
   }
 
+  // primary_networkadapter_network - computed: true, optional: true, required: false
+  private _primaryNetworkadapterNetwork?: string; 
+  public get primaryNetworkadapterNetwork() {
+    return this.getStringAttribute('primary_networkadapter_network');
+  }
+  public set primaryNetworkadapterNetwork(value: string) {
+    this._primaryNetworkadapterNetwork = value;
+  }
+  public resetPrimaryNetworkadapterNetwork() {
+    this._primaryNetworkadapterNetwork = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get primaryNetworkadapterNetworkInput() {
+    return this._primaryNetworkadapterNetwork;
+  }
+
   // publickey - computed: false, optional: true, required: false
   private _publickey?: string; 
   public get publickey() {
@@ -1088,6 +1114,7 @@ export class Server extends cdktf.TerraformResource {
       memory: cdktf.numberToTerraform(this._memory),
       password: cdktf.stringToTerraform(this._password),
       platform: cdktf.stringToTerraform(this._platform),
+      primary_networkadapter_network: cdktf.stringToTerraform(this._primaryNetworkadapterNetwork),
       publickey: cdktf.stringToTerraform(this._publickey),
       storage: cdktf.numberToTerraform(this._storage),
       template: cdktf.stringToTerraform(this._template),
@@ -1179,6 +1206,12 @@ export class Server extends cdktf.TerraformResource {
       },
       platform: {
         value: cdktf.stringToHclTerraform(this._platform),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      primary_networkadapter_network: {
+        value: cdktf.stringToHclTerraform(this._primaryNetworkadapterNetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

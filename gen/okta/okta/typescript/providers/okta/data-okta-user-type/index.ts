@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaUserTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the user type to retrieve, conflicts with `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type#id DataOktaUserType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type#id DataOktaUserType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataOktaUserTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of user type to retrieve, conflicts with `id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type#name DataOktaUserType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type#name DataOktaUserType#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type okta_user_type}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type okta_user_type}
 */
 export class DataOktaUserType extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataOktaUserType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaUserType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaUserType to import
-  * @param importFromId The id of the existing DataOktaUserType that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaUserType that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaUserType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataOktaUserType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/user_type okta_user_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/user_type okta_user_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataOktaUserType extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_user_type',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

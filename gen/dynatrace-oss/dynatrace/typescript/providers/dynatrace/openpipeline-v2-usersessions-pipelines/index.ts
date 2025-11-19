@@ -28,6 +28,14 @@ OpenpipelineV2UsersessionsPipelinesSecurityContext,
 openpipelineV2UsersessionsPipelinesSecurityContextToTerraform, 
 openpipelineV2UsersessionsPipelinesSecurityContextToHclTerraform, 
 OpenpipelineV2UsersessionsPipelinesSecurityContextOutputReference, 
+OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtraction, 
+openpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionToTerraform, 
+openpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionToHclTerraform, 
+OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionOutputReference, 
+OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtraction, 
+openpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionToTerraform, 
+openpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionToHclTerraform, 
+OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionOutputReference, 
 OpenpipelineV2UsersessionsPipelinesStorage, 
 openpipelineV2UsersessionsPipelinesStorageToTerraform, 
 openpipelineV2UsersessionsPipelinesStorageToHclTerraform, 
@@ -39,17 +47,17 @@ export interface OpenpipelineV2UsersessionsPipelinesConfig extends cdktf.Terrafo
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#custom_id OpenpipelineV2UsersessionsPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#custom_id OpenpipelineV2UsersessionsPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#display_name OpenpipelineV2UsersessionsPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#display_name OpenpipelineV2UsersessionsPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#id OpenpipelineV2UsersessionsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#id OpenpipelineV2UsersessionsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,55 +66,67 @@ export interface OpenpipelineV2UsersessionsPipelinesConfig extends cdktf.Terrafo
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#cost_allocation OpenpipelineV2UsersessionsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#cost_allocation OpenpipelineV2UsersessionsPipelines#cost_allocation}
   */
-  readonly costAllocation: OpenpipelineV2UsersessionsPipelinesCostAllocation;
+  readonly costAllocation?: OpenpipelineV2UsersessionsPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#data_extraction OpenpipelineV2UsersessionsPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#data_extraction OpenpipelineV2UsersessionsPipelines#data_extraction}
   */
-  readonly dataExtraction: OpenpipelineV2UsersessionsPipelinesDataExtraction;
+  readonly dataExtraction?: OpenpipelineV2UsersessionsPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#davis OpenpipelineV2UsersessionsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#davis OpenpipelineV2UsersessionsPipelines#davis}
   */
-  readonly davis: OpenpipelineV2UsersessionsPipelinesDavis;
+  readonly davis?: OpenpipelineV2UsersessionsPipelinesDavis;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#metric_extraction OpenpipelineV2UsersessionsPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#metric_extraction OpenpipelineV2UsersessionsPipelines#metric_extraction}
   */
-  readonly metricExtraction: OpenpipelineV2UsersessionsPipelinesMetricExtraction;
+  readonly metricExtraction?: OpenpipelineV2UsersessionsPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#processing OpenpipelineV2UsersessionsPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#processing OpenpipelineV2UsersessionsPipelines#processing}
   */
-  readonly processing: OpenpipelineV2UsersessionsPipelinesProcessing;
+  readonly processing?: OpenpipelineV2UsersessionsPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#product_allocation OpenpipelineV2UsersessionsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#product_allocation OpenpipelineV2UsersessionsPipelines#product_allocation}
   */
-  readonly productAllocation: OpenpipelineV2UsersessionsPipelinesProductAllocation;
+  readonly productAllocation?: OpenpipelineV2UsersessionsPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#security_context OpenpipelineV2UsersessionsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#security_context OpenpipelineV2UsersessionsPipelines#security_context}
   */
-  readonly securityContext: OpenpipelineV2UsersessionsPipelinesSecurityContext;
+  readonly securityContext?: OpenpipelineV2UsersessionsPipelinesSecurityContext;
+  /**
+  * smartscape_edge_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_edge_extraction OpenpipelineV2UsersessionsPipelines#smartscape_edge_extraction}
+  */
+  readonly smartscapeEdgeExtraction?: OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtraction;
+  /**
+  * smartscape_node_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_node_extraction OpenpipelineV2UsersessionsPipelines#smartscape_node_extraction}
+  */
+  readonly smartscapeNodeExtraction?: OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#storage OpenpipelineV2UsersessionsPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#storage OpenpipelineV2UsersessionsPipelines#storage}
   */
-  readonly storage: OpenpipelineV2UsersessionsPipelinesStorage;
+  readonly storage?: OpenpipelineV2UsersessionsPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines}
 */
 export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource {
 
@@ -122,7 +142,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OpenpipelineV2UsersessionsPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2UsersessionsPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2UsersessionsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2UsersessionsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2UsersessionsPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +154,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +165,8 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
       terraformResourceType: 'dynatrace_openpipeline_v2_usersessions_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -166,6 +186,8 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
     this._securityContext.internalValue = config.securityContext;
+    this._smartscapeEdgeExtraction.internalValue = config.smartscapeEdgeExtraction;
+    this._smartscapeNodeExtraction.internalValue = config.smartscapeNodeExtraction;
     this._storage.internalValue = config.storage;
   }
 
@@ -215,7 +237,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
     return this._id;
   }
 
-  // cost_allocation - computed: false, optional: false, required: true
+  // cost_allocation - computed: false, optional: true, required: false
   private _costAllocation = new OpenpipelineV2UsersessionsPipelinesCostAllocationOutputReference(this, "cost_allocation");
   public get costAllocation() {
     return this._costAllocation;
@@ -223,12 +245,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putCostAllocation(value: OpenpipelineV2UsersessionsPipelinesCostAllocation) {
     this._costAllocation.internalValue = value;
   }
+  public resetCostAllocation() {
+    this._costAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get costAllocationInput() {
     return this._costAllocation.internalValue;
   }
 
-  // data_extraction - computed: false, optional: false, required: true
+  // data_extraction - computed: false, optional: true, required: false
   private _dataExtraction = new OpenpipelineV2UsersessionsPipelinesDataExtractionOutputReference(this, "data_extraction");
   public get dataExtraction() {
     return this._dataExtraction;
@@ -236,12 +261,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putDataExtraction(value: OpenpipelineV2UsersessionsPipelinesDataExtraction) {
     this._dataExtraction.internalValue = value;
   }
+  public resetDataExtraction() {
+    this._dataExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get dataExtractionInput() {
     return this._dataExtraction.internalValue;
   }
 
-  // davis - computed: false, optional: false, required: true
+  // davis - computed: false, optional: true, required: false
   private _davis = new OpenpipelineV2UsersessionsPipelinesDavisOutputReference(this, "davis");
   public get davis() {
     return this._davis;
@@ -249,12 +277,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putDavis(value: OpenpipelineV2UsersessionsPipelinesDavis) {
     this._davis.internalValue = value;
   }
+  public resetDavis() {
+    this._davis.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
   }
 
-  // metric_extraction - computed: false, optional: false, required: true
+  // metric_extraction - computed: false, optional: true, required: false
   private _metricExtraction = new OpenpipelineV2UsersessionsPipelinesMetricExtractionOutputReference(this, "metric_extraction");
   public get metricExtraction() {
     return this._metricExtraction;
@@ -262,12 +293,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putMetricExtraction(value: OpenpipelineV2UsersessionsPipelinesMetricExtraction) {
     this._metricExtraction.internalValue = value;
   }
+  public resetMetricExtraction() {
+    this._metricExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get metricExtractionInput() {
     return this._metricExtraction.internalValue;
   }
 
-  // processing - computed: false, optional: false, required: true
+  // processing - computed: false, optional: true, required: false
   private _processing = new OpenpipelineV2UsersessionsPipelinesProcessingOutputReference(this, "processing");
   public get processing() {
     return this._processing;
@@ -275,12 +309,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putProcessing(value: OpenpipelineV2UsersessionsPipelinesProcessing) {
     this._processing.internalValue = value;
   }
+  public resetProcessing() {
+    this._processing.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get processingInput() {
     return this._processing.internalValue;
   }
 
-  // product_allocation - computed: false, optional: false, required: true
+  // product_allocation - computed: false, optional: true, required: false
   private _productAllocation = new OpenpipelineV2UsersessionsPipelinesProductAllocationOutputReference(this, "product_allocation");
   public get productAllocation() {
     return this._productAllocation;
@@ -288,12 +325,15 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putProductAllocation(value: OpenpipelineV2UsersessionsPipelinesProductAllocation) {
     this._productAllocation.internalValue = value;
   }
+  public resetProductAllocation() {
+    this._productAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get productAllocationInput() {
     return this._productAllocation.internalValue;
   }
 
-  // security_context - computed: false, optional: false, required: true
+  // security_context - computed: false, optional: true, required: false
   private _securityContext = new OpenpipelineV2UsersessionsPipelinesSecurityContextOutputReference(this, "security_context");
   public get securityContext() {
     return this._securityContext;
@@ -301,18 +341,56 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   public putSecurityContext(value: OpenpipelineV2UsersessionsPipelinesSecurityContext) {
     this._securityContext.internalValue = value;
   }
+  public resetSecurityContext() {
+    this._securityContext.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get securityContextInput() {
     return this._securityContext.internalValue;
   }
 
-  // storage - computed: false, optional: false, required: true
+  // smartscape_edge_extraction - computed: false, optional: true, required: false
+  private _smartscapeEdgeExtraction = new OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionOutputReference(this, "smartscape_edge_extraction");
+  public get smartscapeEdgeExtraction() {
+    return this._smartscapeEdgeExtraction;
+  }
+  public putSmartscapeEdgeExtraction(value: OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtraction) {
+    this._smartscapeEdgeExtraction.internalValue = value;
+  }
+  public resetSmartscapeEdgeExtraction() {
+    this._smartscapeEdgeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeEdgeExtractionInput() {
+    return this._smartscapeEdgeExtraction.internalValue;
+  }
+
+  // smartscape_node_extraction - computed: false, optional: true, required: false
+  private _smartscapeNodeExtraction = new OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionOutputReference(this, "smartscape_node_extraction");
+  public get smartscapeNodeExtraction() {
+    return this._smartscapeNodeExtraction;
+  }
+  public putSmartscapeNodeExtraction(value: OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtraction) {
+    this._smartscapeNodeExtraction.internalValue = value;
+  }
+  public resetSmartscapeNodeExtraction() {
+    this._smartscapeNodeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeNodeExtractionInput() {
+    return this._smartscapeNodeExtraction.internalValue;
+  }
+
+  // storage - computed: false, optional: true, required: false
   private _storage = new OpenpipelineV2UsersessionsPipelinesStorageOutputReference(this, "storage");
   public get storage() {
     return this._storage;
   }
   public putStorage(value: OpenpipelineV2UsersessionsPipelinesStorage) {
     this._storage.internalValue = value;
+  }
+  public resetStorage() {
+    this._storage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get storageInput() {
@@ -335,6 +413,8 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
       processing: openpipelineV2UsersessionsPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2UsersessionsPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
       security_context: openpipelineV2UsersessionsPipelinesSecurityContextToTerraform(this._securityContext.internalValue),
+      smartscape_edge_extraction: openpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionToTerraform(this._smartscapeEdgeExtraction.internalValue),
+      smartscape_node_extraction: openpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionToTerraform(this._smartscapeNodeExtraction.internalValue),
       storage: openpipelineV2UsersessionsPipelinesStorageToTerraform(this._storage.internalValue),
     };
   }
@@ -400,6 +480,18 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2UsersessionsPipelinesSecurityContextList",
+      },
+      smartscape_edge_extraction: {
+        value: openpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionToHclTerraform(this._smartscapeEdgeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtractionList",
+      },
+      smartscape_node_extraction: {
+        value: openpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionToHclTerraform(this._smartscapeNodeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtractionList",
       },
       storage: {
         value: openpipelineV2UsersessionsPipelinesStorageToHclTerraform(this._storage.internalValue),

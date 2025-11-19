@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DiskSpecificAnomaliesV2Config extends cdktf.TerraformMetaArgume
   /**
   * The id for the disk anomaly detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#disk_id DiskSpecificAnomaliesV2#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#disk_id DiskSpecificAnomaliesV2#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#id DiskSpecificAnomaliesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#id DiskSpecificAnomaliesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DiskSpecificAnomaliesV2Config extends cdktf.TerraformMetaArgume
   /**
   * Override low disk space detection settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#override_disk_low_space_detection DiskSpecificAnomaliesV2#override_disk_low_space_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#override_disk_low_space_detection DiskSpecificAnomaliesV2#override_disk_low_space_detection}
   */
   readonly overrideDiskLowSpaceDetection: boolean | cdktf.IResolvable;
   /**
   * Override low inodes detection settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#override_low_inodes_detection DiskSpecificAnomaliesV2#override_low_inodes_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#override_low_inodes_detection DiskSpecificAnomaliesV2#override_low_inodes_detection}
   */
   readonly overrideLowInodesDetection: boolean | cdktf.IResolvable;
   /**
   * Override slow writes and reads detection settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#override_slow_writes_and_reads_detection DiskSpecificAnomaliesV2#override_slow_writes_and_reads_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#override_slow_writes_and_reads_detection DiskSpecificAnomaliesV2#override_slow_writes_and_reads_detection}
   */
   readonly overrideSlowWritesAndReadsDetection: boolean | cdktf.IResolvable;
   /**
   * disk_low_inodes_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#disk_low_inodes_detection DiskSpecificAnomaliesV2#disk_low_inodes_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#disk_low_inodes_detection DiskSpecificAnomaliesV2#disk_low_inodes_detection}
   */
   readonly diskLowInodesDetection?: DiskSpecificAnomaliesV2DiskLowInodesDetection;
   /**
   * disk_low_space_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#disk_low_space_detection DiskSpecificAnomaliesV2#disk_low_space_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#disk_low_space_detection DiskSpecificAnomaliesV2#disk_low_space_detection}
   */
   readonly diskLowSpaceDetection?: DiskSpecificAnomaliesV2DiskLowSpaceDetection;
   /**
   * disk_slow_writes_and_reads_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#disk_slow_writes_and_reads_detection DiskSpecificAnomaliesV2#disk_slow_writes_and_reads_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#disk_slow_writes_and_reads_detection DiskSpecificAnomaliesV2#disk_slow_writes_and_reads_detection}
   */
   readonly diskSlowWritesAndReadsDetection?: DiskSpecificAnomaliesV2DiskSlowWritesAndReadsDetection;
 }
@@ -61,7 +61,7 @@ export interface DiskSpecificAnomaliesV2DiskLowInodesDetectionCustomThresholds {
   /**
   * Alert if the percentage of available inodes is lower than this threshold in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#free_inodes_percentage DiskSpecificAnomaliesV2#free_inodes_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#free_inodes_percentage DiskSpecificAnomaliesV2#free_inodes_percentage}
   */
   readonly freeInodesPercentage: number;
 }
@@ -144,19 +144,19 @@ export interface DiskSpecificAnomaliesV2DiskLowInodesDetection {
   /**
   * Detection mode for low inodes number available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect low inodes number available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: DiskSpecificAnomaliesV2DiskLowInodesDetectionCustomThresholds;
 }
@@ -297,7 +297,7 @@ export interface DiskSpecificAnomaliesV2DiskLowSpaceDetectionCustomThresholds {
   /**
   * Alert if free disk space is lower than this percentage in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#free_space_percentage DiskSpecificAnomaliesV2#free_space_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#free_space_percentage DiskSpecificAnomaliesV2#free_space_percentage}
   */
   readonly freeSpacePercentage: number;
 }
@@ -380,19 +380,19 @@ export interface DiskSpecificAnomaliesV2DiskLowSpaceDetection {
   /**
   * Detection mode for low disk space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect low disk space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: DiskSpecificAnomaliesV2DiskLowSpaceDetectionCustomThresholds;
 }
@@ -533,7 +533,7 @@ export interface DiskSpecificAnomaliesV2DiskSlowWritesAndReadsDetectionCustomThr
   /**
   * Alert if disk read time or write time is higher than this threshold in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#write_and_read_time DiskSpecificAnomaliesV2#write_and_read_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#write_and_read_time DiskSpecificAnomaliesV2#write_and_read_time}
   */
   readonly writeAndReadTime: number;
 }
@@ -616,19 +616,19 @@ export interface DiskSpecificAnomaliesV2DiskSlowWritesAndReadsDetection {
   /**
   * Detection mode for slow running disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#detection_mode DiskSpecificAnomaliesV2#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * Detect slow-running disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#enabled DiskSpecificAnomaliesV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#custom_thresholds DiskSpecificAnomaliesV2#custom_thresholds}
   */
   readonly customThresholds?: DiskSpecificAnomaliesV2DiskSlowWritesAndReadsDetectionCustomThresholds;
 }
@@ -767,7 +767,7 @@ export class DiskSpecificAnomaliesV2DiskSlowWritesAndReadsDetectionOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2 dynatrace_disk_specific_anomalies_v2}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2 dynatrace_disk_specific_anomalies_v2}
 */
 export class DiskSpecificAnomaliesV2 extends cdktf.TerraformResource {
 
@@ -783,7 +783,7 @@ export class DiskSpecificAnomaliesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskSpecificAnomaliesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskSpecificAnomaliesV2 to import
-  * @param importFromId The id of the existing DiskSpecificAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskSpecificAnomaliesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskSpecificAnomaliesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DiskSpecificAnomaliesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/disk_specific_anomalies_v2 dynatrace_disk_specific_anomalies_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_specific_anomalies_v2 dynatrace_disk_specific_anomalies_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class DiskSpecificAnomaliesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_specific_anomalies_v2',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

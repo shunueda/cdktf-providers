@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BridgeVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#___path___ BridgeVlan#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#___path___ BridgeVlan#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#___skip___ BridgeVlan#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#___skip___ BridgeVlan#___skip___}
   */
   readonly skip?: string;
   /**
   * The bridge interface which the respective VLAN entry is intended for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#bridge BridgeVlan#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#bridge BridgeVlan#bridge}
   */
   readonly bridge: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#comment BridgeVlan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#comment BridgeVlan#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#disabled BridgeVlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#disabled BridgeVlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#id BridgeVlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#id BridgeVlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,31 +43,31 @@ export interface BridgeVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ports that ignore all MRP messages and remains Not Registered (MT), as well as disables applicant from declaring specific VLAN ID (available since RouterOS 7.15).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#mvrp_forbidden BridgeVlan#mvrp_forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#mvrp_forbidden BridgeVlan#mvrp_forbidden}
   */
   readonly mvrpForbidden?: string[];
   /**
   * Interface list with a VLAN tag adding action in egress. This setting accepts comma separated values. E.g. tagged=ether1,ether2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#tagged BridgeVlan#tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#tagged BridgeVlan#tagged}
   */
   readonly tagged?: string[];
   /**
   * Interface list with a VLAN tag removing action in egress. This setting accepts comma separated values. E.g. untagged=ether3,ether4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#untagged BridgeVlan#untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#untagged BridgeVlan#untagged}
   */
   readonly untagged?: string[];
   /**
   * The list of VLAN IDs for certain port configuration. This setting accepts VLAN ID range as well as comma separated values. E.g. `vlan-ids=["100-115","120","122","128-130"]`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#vlan_ids BridgeVlan#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#vlan_ids BridgeVlan#vlan_ids}
   */
   readonly vlanIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan routeros_bridge_vlan}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan routeros_bridge_vlan}
 */
 export class BridgeVlan extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class BridgeVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BridgeVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BridgeVlan to import
-  * @param importFromId The id of the existing BridgeVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BridgeVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BridgeVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class BridgeVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/bridge_vlan routeros_bridge_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.92.1/docs/resources/bridge_vlan routeros_bridge_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class BridgeVlan extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_bridge_vlan',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.91.0',
-        providerVersionConstraint: '1.91.0'
+        providerVersion: '1.92.1',
+        providerVersionConstraint: '1.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

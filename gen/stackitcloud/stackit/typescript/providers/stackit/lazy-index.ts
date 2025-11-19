@@ -9,7 +9,9 @@ Object.defineProperty(exports, 'dnsZone', { get: function () { return require('.
 Object.defineProperty(exports, 'git', { get: function () { return require('./git'); } });
 Object.defineProperty(exports, 'image', { get: function () { return require('./image'); } });
 Object.defineProperty(exports, 'keyPair', { get: function () { return require('./key-pair'); } });
+Object.defineProperty(exports, 'kmsKey', { get: function () { return require('./kms-key'); } });
 Object.defineProperty(exports, 'kmsKeyring', { get: function () { return require('./kms-keyring'); } });
+Object.defineProperty(exports, 'kmsWrappingKey', { get: function () { return require('./kms-wrapping-key'); } });
 Object.defineProperty(exports, 'loadbalancer', { get: function () { return require('./loadbalancer'); } });
 Object.defineProperty(exports, 'loadbalancerObservabilityCredential', { get: function () { return require('./loadbalancer-observability-credential'); } });
 Object.defineProperty(exports, 'logmeCredential', { get: function () { return require('./logme-credential'); } });
@@ -76,7 +78,9 @@ Object.defineProperty(exports, 'dataStackitIaasProject', { get: function () { re
 Object.defineProperty(exports, 'dataStackitImage', { get: function () { return require('./data-stackit-image'); } });
 Object.defineProperty(exports, 'dataStackitImageV2', { get: function () { return require('./data-stackit-image-v2'); } });
 Object.defineProperty(exports, 'dataStackitKeyPair', { get: function () { return require('./data-stackit-key-pair'); } });
+Object.defineProperty(exports, 'dataStackitKmsKey', { get: function () { return require('./data-stackit-kms-key'); } });
 Object.defineProperty(exports, 'dataStackitKmsKeyring', { get: function () { return require('./data-stackit-kms-keyring'); } });
+Object.defineProperty(exports, 'dataStackitKmsWrappingKey', { get: function () { return require('./data-stackit-kms-wrapping-key'); } });
 Object.defineProperty(exports, 'dataStackitLoadbalancer', { get: function () { return require('./data-stackit-loadbalancer'); } });
 Object.defineProperty(exports, 'dataStackitLogmeCredential', { get: function () { return require('./data-stackit-logme-credential'); } });
 Object.defineProperty(exports, 'dataStackitLogmeInstance', { get: function () { return require('./data-stackit-logme-instance'); } });

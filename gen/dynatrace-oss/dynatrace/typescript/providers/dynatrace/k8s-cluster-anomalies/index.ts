@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface K8SClusterAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#id K8SClusterAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#id K8SClusterAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface K8SClusterAnomaliesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The scope of this setting (KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#scope K8SClusterAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#scope K8SClusterAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * cpu_requests_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#cpu_requests_saturation K8SClusterAnomalies#cpu_requests_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#cpu_requests_saturation K8SClusterAnomalies#cpu_requests_saturation}
   */
   readonly cpuRequestsSaturation: K8SClusterAnomaliesCpuRequestsSaturation;
   /**
   * memory_requests_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#memory_requests_saturation K8SClusterAnomalies#memory_requests_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#memory_requests_saturation K8SClusterAnomalies#memory_requests_saturation}
   */
   readonly memoryRequestsSaturation: K8SClusterAnomaliesMemoryRequestsSaturation;
   /**
   * monitoring_issues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#monitoring_issues K8SClusterAnomalies#monitoring_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#monitoring_issues K8SClusterAnomalies#monitoring_issues}
   */
   readonly monitoringIssues: K8SClusterAnomaliesMonitoringIssues;
   /**
   * pods_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#pods_saturation K8SClusterAnomalies#pods_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#pods_saturation K8SClusterAnomalies#pods_saturation}
   */
   readonly podsSaturation: K8SClusterAnomaliesPodsSaturation;
   /**
   * readiness_issues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#readiness_issues K8SClusterAnomalies#readiness_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#readiness_issues K8SClusterAnomalies#readiness_issues}
   */
   readonly readinessIssues: K8SClusterAnomaliesReadinessIssues;
 }
@@ -55,19 +55,19 @@ export interface K8SClusterAnomaliesCpuRequestsSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of cluster CPU capacity for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of requested CPU is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -202,13 +202,13 @@ export interface K8SClusterAnomaliesCpuRequestsSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
   */
   readonly configuration?: K8SClusterAnomaliesCpuRequestsSaturationConfiguration;
 }
@@ -320,19 +320,19 @@ export interface K8SClusterAnomaliesMemoryRequestsSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of cluster memory capacity for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of requested memory is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -467,13 +467,13 @@ export interface K8SClusterAnomaliesMemoryRequestsSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
   */
   readonly configuration?: K8SClusterAnomaliesMemoryRequestsSaturationConfiguration;
 }
@@ -585,13 +585,13 @@ export interface K8SClusterAnomaliesMonitoringIssuesConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * monitoring is not available for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -700,13 +700,13 @@ export interface K8SClusterAnomaliesMonitoringIssues {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
   */
   readonly configuration?: K8SClusterAnomaliesMonitoringIssuesConfiguration;
 }
@@ -818,19 +818,19 @@ export interface K8SClusterAnomaliesPodsSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of schedulable pod capacity for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * number of running pods is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#threshold K8SClusterAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -965,13 +965,13 @@ export interface K8SClusterAnomaliesPodsSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
   */
   readonly configuration?: K8SClusterAnomaliesPodsSaturationConfiguration;
 }
@@ -1083,13 +1083,13 @@ export interface K8SClusterAnomaliesReadinessIssuesConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#observation_period_in_minutes K8SClusterAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * cluster is not ready for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#sample_period_in_minutes K8SClusterAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -1198,13 +1198,13 @@ export interface K8SClusterAnomaliesReadinessIssues {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#enabled K8SClusterAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#configuration K8SClusterAnomalies#configuration}
   */
   readonly configuration?: K8SClusterAnomaliesReadinessIssuesConfiguration;
 }
@@ -1314,7 +1314,7 @@ export class K8SClusterAnomaliesReadinessIssuesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies dynatrace_k8s_cluster_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies dynatrace_k8s_cluster_anomalies}
 */
 export class K8SClusterAnomalies extends cdktf.TerraformResource {
 
@@ -1330,7 +1330,7 @@ export class K8SClusterAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SClusterAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SClusterAnomalies to import
-  * @param importFromId The id of the existing K8SClusterAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SClusterAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SClusterAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1342,7 +1342,7 @@ export class K8SClusterAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_cluster_anomalies dynatrace_k8s_cluster_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_cluster_anomalies dynatrace_k8s_cluster_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1353,8 +1353,8 @@ export class K8SClusterAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_cluster_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

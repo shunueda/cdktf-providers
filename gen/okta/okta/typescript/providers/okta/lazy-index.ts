@@ -2,10 +2,14 @@
 Object.defineProperty(exports, 'adminRoleCustom', { get: function () { return require('./admin-role-custom'); } });
 Object.defineProperty(exports, 'adminRoleCustomAssignments', { get: function () { return require('./admin-role-custom-assignments'); } });
 Object.defineProperty(exports, 'adminRoleTargets', { get: function () { return require('./admin-role-targets'); } });
+Object.defineProperty(exports, 'apiServiceIntegration', { get: function () { return require('./api-service-integration'); } });
+Object.defineProperty(exports, 'apiToken', { get: function () { return require('./api-token'); } });
 Object.defineProperty(exports, 'appAccessPolicyAssignment', { get: function () { return require('./app-access-policy-assignment'); } });
 Object.defineProperty(exports, 'appAutoLogin', { get: function () { return require('./app-auto-login'); } });
 Object.defineProperty(exports, 'appBasicAuth', { get: function () { return require('./app-basic-auth'); } });
 Object.defineProperty(exports, 'appBookmark', { get: function () { return require('./app-bookmark'); } });
+Object.defineProperty(exports, 'appConnection', { get: function () { return require('./app-connection'); } });
+Object.defineProperty(exports, 'appFeatures', { get: function () { return require('./app-features'); } });
 Object.defineProperty(exports, 'appGroupAssignment', { get: function () { return require('./app-group-assignment'); } });
 Object.defineProperty(exports, 'appGroupAssignments', { get: function () { return require('./app-group-assignments'); } });
 Object.defineProperty(exports, 'appOauth', { get: function () { return require('./app-oauth'); } });
@@ -21,6 +25,7 @@ Object.defineProperty(exports, 'appSignonPolicy', { get: function () { return re
 Object.defineProperty(exports, 'appSignonPolicyRule', { get: function () { return require('./app-signon-policy-rule'); } });
 Object.defineProperty(exports, 'appSwa', { get: function () { return require('./app-swa'); } });
 Object.defineProperty(exports, 'appThreeField', { get: function () { return require('./app-three-field'); } });
+Object.defineProperty(exports, 'appToken', { get: function () { return require('./app-token'); } });
 Object.defineProperty(exports, 'appUser', { get: function () { return require('./app-user'); } });
 Object.defineProperty(exports, 'appUserBaseSchemaProperty', { get: function () { return require('./app-user-base-schema-property'); } });
 Object.defineProperty(exports, 'appUserSchemaProperty', { get: function () { return require('./app-user-schema-property'); } });
@@ -38,6 +43,7 @@ Object.defineProperty(exports, 'campaign', { get: function () { return require('
 Object.defineProperty(exports, 'captcha', { get: function () { return require('./captcha'); } });
 Object.defineProperty(exports, 'captchaOrgWideSettings', { get: function () { return require('./captcha-org-wide-settings'); } });
 Object.defineProperty(exports, 'customizedSigninPage', { get: function () { return require('./customized-signin-page'); } });
+Object.defineProperty(exports, 'device', { get: function () { return require('./device'); } });
 Object.defineProperty(exports, 'domain', { get: function () { return require('./domain'); } });
 Object.defineProperty(exports, 'domainCertificate', { get: function () { return require('./domain-certificate'); } });
 Object.defineProperty(exports, 'domainVerification', { get: function () { return require('./domain-verification'); } });
@@ -62,6 +68,7 @@ Object.defineProperty(exports, 'groupOwner', { get: function () { return require
 Object.defineProperty(exports, 'groupRole', { get: function () { return require('./group-role'); } });
 Object.defineProperty(exports, 'groupRule', { get: function () { return require('./group-rule'); } });
 Object.defineProperty(exports, 'groupSchemaProperty', { get: function () { return require('./group-schema-property'); } });
+Object.defineProperty(exports, 'hookKey', { get: function () { return require('./hook-key'); } });
 Object.defineProperty(exports, 'idpOidc', { get: function () { return require('./idp-oidc'); } });
 Object.defineProperty(exports, 'idpSaml', { get: function () { return require('./idp-saml'); } });
 Object.defineProperty(exports, 'idpSamlKey', { get: function () { return require('./idp-saml-key'); } });
@@ -93,6 +100,7 @@ Object.defineProperty(exports, 'policySignon', { get: function () { return requi
 Object.defineProperty(exports, 'previewSigninPage', { get: function () { return require('./preview-signin-page'); } });
 Object.defineProperty(exports, 'principalRateLimits', { get: function () { return require('./principal-rate-limits'); } });
 Object.defineProperty(exports, 'profileMapping', { get: function () { return require('./profile-mapping'); } });
+Object.defineProperty(exports, 'pushProvider', { get: function () { return require('./push-provider'); } });
 Object.defineProperty(exports, 'rateLimitAdminNotificationSettings', { get: function () { return require('./rate-limit-admin-notification-settings'); } });
 Object.defineProperty(exports, 'rateLimitWarningThresholdPercentage', { get: function () { return require('./rate-limit-warning-threshold-percentage'); } });
 Object.defineProperty(exports, 'rateLimiting', { get: function () { return require('./rate-limiting'); } });
@@ -106,6 +114,7 @@ Object.defineProperty(exports, 'requestV2', { get: function () { return require(
 Object.defineProperty(exports, 'resourceSet', { get: function () { return require('./resource-set'); } });
 Object.defineProperty(exports, 'review', { get: function () { return require('./review'); } });
 Object.defineProperty(exports, 'roleSubscription', { get: function () { return require('./role-subscription'); } });
+Object.defineProperty(exports, 'securityEventsProvider', { get: function () { return require('./security-events-provider'); } });
 Object.defineProperty(exports, 'securityNotificationEmails', { get: function () { return require('./security-notification-emails'); } });
 Object.defineProperty(exports, 'templateSms', { get: function () { return require('./template-sms'); } });
 Object.defineProperty(exports, 'theme', { get: function () { return require('./theme'); } });
@@ -119,17 +128,24 @@ Object.defineProperty(exports, 'userFactorQuestion', { get: function () { return
 Object.defineProperty(exports, 'userGroupMemberships', { get: function () { return require('./user-group-memberships'); } });
 Object.defineProperty(exports, 'userSchemaProperty', { get: function () { return require('./user-schema-property'); } });
 Object.defineProperty(exports, 'userType', { get: function () { return require('./user-type'); } });
+Object.defineProperty(exports, 'dataOktaApiServiceIntegration', { get: function () { return require('./data-okta-api-service-integration'); } });
+Object.defineProperty(exports, 'dataOktaApiToken', { get: function () { return require('./data-okta-api-token'); } });
 Object.defineProperty(exports, 'dataOktaApp', { get: function () { return require('./data-okta-app'); } });
+Object.defineProperty(exports, 'dataOktaAppConnection', { get: function () { return require('./data-okta-app-connection'); } });
+Object.defineProperty(exports, 'dataOktaAppFeatures', { get: function () { return require('./data-okta-app-features'); } });
 Object.defineProperty(exports, 'dataOktaAppGroupAssignments', { get: function () { return require('./data-okta-app-group-assignments'); } });
 Object.defineProperty(exports, 'dataOktaAppMetadataSaml', { get: function () { return require('./data-okta-app-metadata-saml'); } });
 Object.defineProperty(exports, 'dataOktaAppOauth', { get: function () { return require('./data-okta-app-oauth'); } });
 Object.defineProperty(exports, 'dataOktaAppSaml', { get: function () { return require('./data-okta-app-saml'); } });
 Object.defineProperty(exports, 'dataOktaAppSignonPolicy', { get: function () { return require('./data-okta-app-signon-policy'); } });
+Object.defineProperty(exports, 'dataOktaAppToken', { get: function () { return require('./data-okta-app-token'); } });
 Object.defineProperty(exports, 'dataOktaAppUserAssignments', { get: function () { return require('./data-okta-app-user-assignments'); } });
 Object.defineProperty(exports, 'dataOktaApps', { get: function () { return require('./data-okta-apps'); } });
 Object.defineProperty(exports, 'dataOktaAuthServer', { get: function () { return require('./data-okta-auth-server'); } });
 Object.defineProperty(exports, 'dataOktaAuthServerClaim', { get: function () { return require('./data-okta-auth-server-claim'); } });
 Object.defineProperty(exports, 'dataOktaAuthServerClaims', { get: function () { return require('./data-okta-auth-server-claims'); } });
+Object.defineProperty(exports, 'dataOktaAuthServerClients', { get: function () { return require('./data-okta-auth-server-clients'); } });
+Object.defineProperty(exports, 'dataOktaAuthServerKeys', { get: function () { return require('./data-okta-auth-server-keys'); } });
 Object.defineProperty(exports, 'dataOktaAuthServerPolicy', { get: function () { return require('./data-okta-auth-server-policy'); } });
 Object.defineProperty(exports, 'dataOktaAuthServerScopes', { get: function () { return require('./data-okta-auth-server-scopes'); } });
 Object.defineProperty(exports, 'dataOktaAuthenticator', { get: function () { return require('./data-okta-authenticator'); } });
@@ -142,6 +158,7 @@ Object.defineProperty(exports, 'dataOktaCatalogEntryDefault', { get: function ()
 Object.defineProperty(exports, 'dataOktaCatalogEntryUserAccessRequestFields', { get: function () { return require('./data-okta-catalog-entry-user-access-request-fields'); } });
 Object.defineProperty(exports, 'dataOktaDefaultPolicy', { get: function () { return require('./data-okta-default-policy'); } });
 Object.defineProperty(exports, 'dataOktaDefaultSigninPage', { get: function () { return require('./data-okta-default-signin-page'); } });
+Object.defineProperty(exports, 'dataOktaDevice', { get: function () { return require('./data-okta-device'); } });
 Object.defineProperty(exports, 'dataOktaDeviceAssurancePolicy', { get: function () { return require('./data-okta-device-assurance-policy'); } });
 Object.defineProperty(exports, 'dataOktaDomain', { get: function () { return require('./data-okta-domain'); } });
 Object.defineProperty(exports, 'dataOktaEmailCustomization', { get: function () { return require('./data-okta-email-customization'); } });
@@ -157,6 +174,7 @@ Object.defineProperty(exports, 'dataOktaFeatures', { get: function () { return r
 Object.defineProperty(exports, 'dataOktaGroup', { get: function () { return require('./data-okta-group'); } });
 Object.defineProperty(exports, 'dataOktaGroupRule', { get: function () { return require('./data-okta-group-rule'); } });
 Object.defineProperty(exports, 'dataOktaGroups', { get: function () { return require('./data-okta-groups'); } });
+Object.defineProperty(exports, 'dataOktaHookKey', { get: function () { return require('./data-okta-hook-key'); } });
 Object.defineProperty(exports, 'dataOktaIdpMetadataSaml', { get: function () { return require('./data-okta-idp-metadata-saml'); } });
 Object.defineProperty(exports, 'dataOktaIdpOidc', { get: function () { return require('./data-okta-idp-oidc'); } });
 Object.defineProperty(exports, 'dataOktaIdpSaml', { get: function () { return require('./data-okta-idp-saml'); } });
@@ -167,6 +185,7 @@ Object.defineProperty(exports, 'dataOktaOrgMetadata', { get: function () { retur
 Object.defineProperty(exports, 'dataOktaPolicy', { get: function () { return require('./data-okta-policy'); } });
 Object.defineProperty(exports, 'dataOktaPrincipalEntitlements', { get: function () { return require('./data-okta-principal-entitlements'); } });
 Object.defineProperty(exports, 'dataOktaPrincipalRateLimits', { get: function () { return require('./data-okta-principal-rate-limits'); } });
+Object.defineProperty(exports, 'dataOktaPushProvider', { get: function () { return require('./data-okta-push-provider'); } });
 Object.defineProperty(exports, 'dataOktaRateLimitAdminNotificationSettings', { get: function () { return require('./data-okta-rate-limit-admin-notification-settings'); } });
 Object.defineProperty(exports, 'dataOktaRateLimitWarningThresholdPercentage', { get: function () { return require('./data-okta-rate-limit-warning-threshold-percentage'); } });
 Object.defineProperty(exports, 'dataOktaRealm', { get: function () { return require('./data-okta-realm'); } });
@@ -178,6 +197,7 @@ Object.defineProperty(exports, 'dataOktaRequestSettingResource', { get: function
 Object.defineProperty(exports, 'dataOktaRequestV2', { get: function () { return require('./data-okta-request-v2'); } });
 Object.defineProperty(exports, 'dataOktaReview', { get: function () { return require('./data-okta-review'); } });
 Object.defineProperty(exports, 'dataOktaRoleSubscription', { get: function () { return require('./data-okta-role-subscription'); } });
+Object.defineProperty(exports, 'dataOktaSecurityEventsProvider', { get: function () { return require('./data-okta-security-events-provider'); } });
 Object.defineProperty(exports, 'dataOktaTheme', { get: function () { return require('./data-okta-theme'); } });
 Object.defineProperty(exports, 'dataOktaThemes', { get: function () { return require('./data-okta-themes'); } });
 Object.defineProperty(exports, 'dataOktaTrustedOrigins', { get: function () { return require('./data-okta-trusted-origins'); } });

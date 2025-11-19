@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UserActionMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines the fields that are used as dimensions. A dimension is a collection of reference information about a metric data point that is of interest to your business. Dimensions are parameters like "application", "type", "apdexCategory". For example, using "type" as a dimension allows you to split chart data based on the user action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#dimensions UserActionMetrics#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#dimensions UserActionMetrics#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#enabled UserActionMetrics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#enabled UserActionMetrics#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#id UserActionMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#id UserActionMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface UserActionMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#metric_key UserActionMetrics#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#metric_key UserActionMetrics#metric_key}
   */
   readonly metricKey: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#filters UserActionMetrics#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#filters UserActionMetrics#filters}
   */
   readonly filters?: UserActionMetricsFilters;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#value UserActionMetrics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#value UserActionMetrics#value}
   */
   readonly value: UserActionMetricsValue;
 }
@@ -49,25 +49,25 @@ export interface UserActionMetricsFiltersFilter {
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#field_name UserActionMetrics#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#field_name UserActionMetrics#field_name}
   */
   readonly fieldName: string;
   /**
   * Possible Values: `EQUALS`, `GREATER_THAN`, `GREATER_THAN_OR_EQUAL_TO`, `IN`, `IS_NOT_NULL`, `IS_NULL`, `LESS_THAN`, `LESS_THAN_OR_EQUAL_TO`, `LIKE`, `NOT_EQUAL`, `NOT_LIKE`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#operator UserActionMetrics#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#operator UserActionMetrics#operator}
   */
   readonly operator: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#value UserActionMetrics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#value UserActionMetrics#value}
   */
   readonly value?: string;
   /**
   * Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#value_in UserActionMetrics#value_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#value_in UserActionMetrics#value_in}
   */
   readonly valueIn?: string[];
 }
@@ -266,7 +266,7 @@ export interface UserActionMetricsFilters {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#filter UserActionMetrics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#filter UserActionMetrics#filter}
   */
   readonly filter: UserActionMetricsFiltersFilter[] | cdktf.IResolvable;
 }
@@ -349,13 +349,13 @@ export interface UserActionMetricsValue {
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#field_name UserActionMetrics#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#field_name UserActionMetrics#field_name}
   */
   readonly fieldName?: string;
   /**
   * Possible Values: `COUNTER`, `FIELD`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#type UserActionMetrics#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#type UserActionMetrics#type}
   */
   readonly type: string;
 }
@@ -465,7 +465,7 @@ export class UserActionMetricsValueOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics dynatrace_user_action_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics dynatrace_user_action_metrics}
 */
 export class UserActionMetrics extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class UserActionMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserActionMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserActionMetrics to import
-  * @param importFromId The id of the existing UserActionMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserActionMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserActionMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class UserActionMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/user_action_metrics dynatrace_user_action_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/user_action_metrics dynatrace_user_action_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class UserActionMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_user_action_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

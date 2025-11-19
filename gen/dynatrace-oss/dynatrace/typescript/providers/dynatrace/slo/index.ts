@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * The total count metric (the denominator in rate calculation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#denominator Slo#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#denominator Slo#denominator}
   */
   readonly denominator?: string;
   /**
   * The custom description of the SLO (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
   * The SLO is enabled (`false`) or disabled (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#disabled Slo#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#disabled Slo#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The evaluation type of the SLO. Currently only `AGGREGATE` is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#evaluation Slo#evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#evaluation Slo#evaluation}
   */
   readonly evaluation: string;
   /**
   * The entity filter for the SLO evaluation. Use the [syntax of entity selector](https://dt-url.net/entityselector)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#filter Slo#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#filter Slo#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#id Slo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#id Slo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
   * The percentage-based metric expression for the calculation of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#metric_expression Slo#metric_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#metric_expression Slo#metric_expression}
   */
   readonly metricExpression?: string;
   /**
   * The name that is used to create SLO func metrics keys. Once created, metric name cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#metric_name Slo#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#metric_name Slo#metric_name}
   */
   readonly metricName?: string;
   /**
   * The name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
   * The metric for the count of successes (the numerator in rate calculation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#numerator Slo#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#numerator Slo#numerator}
   */
   readonly numerator?: string;
   /**
   * The percentage-based metric for the calculation of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#rate Slo#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#rate Slo#rate}
   */
   readonly rate?: string;
   /**
   * The target value of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#target Slo#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#target Slo#target}
   */
   readonly target: number;
   /**
   * The timeframe for the SLO evaluation. Use the syntax of the global timeframe selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#timeframe Slo#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#timeframe Slo#timeframe}
   */
   readonly timeframe: string;
   /**
   * The warning value of the SLO. At warning state the SLO is still fulfilled but is getting close to failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#warning Slo#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#warning Slo#warning}
   */
   readonly warning: number;
   /**
   * error_budget_burn_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#error_budget_burn_rate Slo#error_budget_burn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#error_budget_burn_rate Slo#error_budget_burn_rate}
   */
   readonly errorBudgetBurnRate?: SloErrorBudgetBurnRate;
 }
@@ -103,13 +103,13 @@ export interface SloErrorBudgetBurnRate {
   /**
   * The error budget burn rate calculation is enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#burn_rate_visualization_enabled Slo#burn_rate_visualization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#burn_rate_visualization_enabled Slo#burn_rate_visualization_enabled}
   */
   readonly burnRateVisualizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The threshold between a slow and a fast burn rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#fast_burn_threshold Slo#fast_burn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#fast_burn_threshold Slo#fast_burn_threshold}
   */
   readonly fastBurnThreshold?: number;
 }
@@ -222,7 +222,7 @@ export class SloErrorBudgetBurnRateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo dynatrace_slo}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo dynatrace_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo dynatrace_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo dynatrace_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_slo',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

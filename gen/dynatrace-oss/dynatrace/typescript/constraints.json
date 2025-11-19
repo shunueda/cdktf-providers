@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "dynatrace": "1.87.1"
+    "dynatrace": "1.88.0"
   }
 }

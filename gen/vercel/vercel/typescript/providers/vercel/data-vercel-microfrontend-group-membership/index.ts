@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVercelMicrofrontendGroupMembershipConfig extends cdktf.Terr
   /**
   * The ID of the microfrontend group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership#microfrontend_group_id DataVercelMicrofrontendGroupMembership#microfrontend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership#microfrontend_group_id DataVercelMicrofrontendGroupMembership#microfrontend_group_id}
   */
   readonly microfrontendGroupId: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership#project_id DataVercelMicrofrontendGroupMembership#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership#project_id DataVercelMicrofrontendGroupMembership#project_id}
   */
   readonly projectId: string;
   /**
   * The team ID to add the microfrontend group to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership#team_id DataVercelMicrofrontendGroupMembership#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership#team_id DataVercelMicrofrontendGroupMembership#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership vercel_microfrontend_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership vercel_microfrontend_group_membership}
 */
 export class DataVercelMicrofrontendGroupMembership extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataVercelMicrofrontendGroupMembership extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataVercelMicrofrontendGroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelMicrofrontendGroupMembership to import
-  * @param importFromId The id of the existing DataVercelMicrofrontendGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelMicrofrontendGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelMicrofrontendGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataVercelMicrofrontendGroupMembership extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/microfrontend_group_membership vercel_microfrontend_group_membership} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/microfrontend_group_membership vercel_microfrontend_group_membership} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataVercelMicrofrontendGroupMembership extends cdktf.TerraformDataS
       terraformResourceType: 'vercel_microfrontend_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

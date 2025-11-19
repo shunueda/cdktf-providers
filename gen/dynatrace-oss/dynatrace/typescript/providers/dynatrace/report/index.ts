@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the associated dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#dashboard_id Report#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#dashboard_id Report#dashboard_id}
   */
   readonly dashboardId: string;
   /**
   * The email notifications for the dashboard report are enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#email_notifications Report#email_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#email_notifications Report#email_notifications}
   */
   readonly emailNotifications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#id Report#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#type Report#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
   * subscriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#subscriptions Report#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#subscriptions Report#subscriptions}
   */
   readonly subscriptions?: ReportSubscriptions;
 }
@@ -45,7 +45,7 @@ export interface ReportSubscriptions {
   *  Monthly subscribers receive the report on the first Monday of the month at midnight.
   *  You can specify email addresses or Dynatrace user IDs here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#month Report#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#month Report#month}
   */
   readonly month?: string[];
   /**
@@ -53,7 +53,7 @@ export interface ReportSubscriptions {
   *  Weekly subscribers receive the report every Monday at midnight.
   *  You can specify email addresses or Dynatrace user IDs here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#week Report#week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#week Report#week}
   */
   readonly week?: string[];
 }
@@ -166,7 +166,7 @@ export class ReportSubscriptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report dynatrace_report}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report dynatrace_report}
 */
 export class Report extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class Report extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Report resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Report to import
-  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Report to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class Report extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/report dynatrace_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/report dynatrace_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class Report extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_report',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

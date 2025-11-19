@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagedPreferencesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#certificate_management_enabled ManagedPreferences#certificate_management_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#certificate_management_enabled ManagedPreferences#certificate_management_enabled}
   */
   readonly certificateManagementEnabled?: boolean | cdktf.IResolvable;
   /**
   * Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#certificate_management_possible ManagedPreferences#certificate_management_possible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#certificate_management_possible ManagedPreferences#certificate_management_possible}
   */
   readonly certificateManagementPossible?: boolean | cdktf.IResolvable;
   /**
   * If true, each new user will get an invitation to set up a Dynatrace user account to access Dynatrace support resources user upon first login. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#community_create_user ManagedPreferences#community_create_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#community_create_user ManagedPreferences#community_create_user}
   */
   readonly communityCreateUser?: boolean | cdktf.IResolvable;
   /**
   * If true, results from Documentation are included in platform search. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#community_external_search ManagedPreferences#community_external_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#community_external_search ManagedPreferences#community_external_search}
   */
   readonly communityExternalSearch?: boolean | cdktf.IResolvable;
   /**
   * If true, live, in-product assistance with our Product Experts is enabled. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#help_chat_enabled ManagedPreferences#help_chat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#help_chat_enabled ManagedPreferences#help_chat_enabled}
   */
   readonly helpChatEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#id ManagedPreferences#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#id ManagedPreferences#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +47,61 @@ export interface ManagedPreferencesConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, audited, read-only remote access to your Dynatrace configuration settings is allowed. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#read_only_remote_access_allowed ManagedPreferences#read_only_remote_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#read_only_remote_access_allowed ManagedPreferences#read_only_remote_access_allowed}
   */
   readonly readOnlyRemoteAccessAllowed?: boolean | cdktf.IResolvable;
   /**
   * If true, audited access to your Dynatrace cluster is allowed by approved Dynatrace employees otherwise by privileged Dynatrace employees. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#remote_access_on_demand_only ManagedPreferences#remote_access_on_demand_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#remote_access_on_demand_only ManagedPreferences#remote_access_on_demand_only}
   */
   readonly remoteAccessOnDemandOnly?: boolean | cdktf.IResolvable;
   /**
   * If true, Dynatrace OneAgent monitors Dynatrace. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#ruxit_monitors_ruxit ManagedPreferences#ruxit_monitors_ruxit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#ruxit_monitors_ruxit ManagedPreferences#ruxit_monitors_ruxit}
   */
   readonly ruxitMonitorsRuxit: boolean | cdktf.IResolvable;
   /**
   * If true, audited remote-access to your Dynatrace configuration is allowed settings. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#support_allow_remote_access ManagedPreferences#support_allow_remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#support_allow_remote_access ManagedPreferences#support_allow_remote_access}
   */
   readonly supportAllowRemoteAccess?: boolean | cdktf.IResolvable;
   /**
   * If true, usage and billing information will be reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#support_send_billing ManagedPreferences#support_send_billing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#support_send_billing ManagedPreferences#support_send_billing}
   */
   readonly supportSendBilling: boolean | cdktf.IResolvable;
   /**
   * If true, Dynatrace cluster health will be reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#support_send_cluster_health ManagedPreferences#support_send_cluster_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#support_send_cluster_health ManagedPreferences#support_send_cluster_health}
   */
   readonly supportSendClusterHealth: boolean | cdktf.IResolvable;
   /**
   * If true, Dynatrace cluster health and OneAgent events will be reported. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#support_send_events ManagedPreferences#support_send_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#support_send_events ManagedPreferences#support_send_events}
   */
   readonly supportSendEvents?: boolean | cdktf.IResolvable;
   /**
   * If true, usage and billing information will NOT be reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#suppress_non_billing_relevant_data ManagedPreferences#suppress_non_billing_relevant_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#suppress_non_billing_relevant_data ManagedPreferences#suppress_non_billing_relevant_data}
   */
   readonly suppressNonBillingRelevantData: boolean | cdktf.IResolvable;
   /**
   * Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#telemetry_sharing ManagedPreferences#telemetry_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#telemetry_sharing ManagedPreferences#telemetry_sharing}
   */
   readonly telemetrySharing?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences dynatrace_managed_preferences}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences dynatrace_managed_preferences}
 */
 export class ManagedPreferences extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ManagedPreferences extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedPreferences resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedPreferences to import
-  * @param importFromId The id of the existing ManagedPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedPreferences to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ManagedPreferences extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/managed_preferences dynatrace_managed_preferences} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_preferences dynatrace_managed_preferences} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class ManagedPreferences extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_preferences',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

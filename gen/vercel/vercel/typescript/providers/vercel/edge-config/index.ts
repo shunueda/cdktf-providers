@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface EdgeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name/slug of the Edge Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config#name EdgeConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config#name EdgeConfig#name}
   */
   readonly name: string;
   /**
   * The ID of the team the Edge Config should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config#team_id EdgeConfig#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config#team_id EdgeConfig#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config vercel_edge_config}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config vercel_edge_config}
 */
 export class EdgeConfig extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class EdgeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeConfig to import
-  * @param importFromId The id of the existing EdgeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class EdgeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config vercel_edge_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config vercel_edge_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class EdgeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_edge_config',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

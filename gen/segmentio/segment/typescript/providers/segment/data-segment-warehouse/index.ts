@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSegmentWarehouseConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse#id DataSegmentWarehouse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse#id DataSegmentWarehouse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ export interface DataSegmentWarehouseMetadata {
   /**
   * The id of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse#id DataSegmentWarehouse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse#id DataSegmentWarehouse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ export class DataSegmentWarehouseMetadataOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse segment_warehouse}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse segment_warehouse}
 */
 export class DataSegmentWarehouse extends cdktf.TerraformDataSource {
 
@@ -312,7 +312,7 @@ export class DataSegmentWarehouse extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSegmentWarehouse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSegmentWarehouse to import
-  * @param importFromId The id of the existing DataSegmentWarehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSegmentWarehouse that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSegmentWarehouse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class DataSegmentWarehouse extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/data-sources/warehouse segment_warehouse} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/data-sources/warehouse segment_warehouse} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class DataSegmentWarehouse extends cdktf.TerraformDataSource {
       terraformResourceType: 'segment_warehouse',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

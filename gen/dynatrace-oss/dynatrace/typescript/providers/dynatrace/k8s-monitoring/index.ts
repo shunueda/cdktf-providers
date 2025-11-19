@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface K8SMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
   * Monitor Kubernetes namespaces, services, workloads, and pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#cloud_application_pipeline_enabled K8SMonitoring#cloud_application_pipeline_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#cloud_application_pipeline_enabled K8SMonitoring#cloud_application_pipeline_enabled}
   */
   readonly cloudApplicationPipelineEnabled: boolean | cdktf.IResolvable;
   /**
@@ -20,17 +20,17 @@ export interface K8SMonitoringConfig extends cdktf.TerraformMetaArguments {
   * 
   * If you have a non-DPS license see [DDUs for events](https://dt-url.net/5n03vcu) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#event_processing_active K8SMonitoring#event_processing_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#event_processing_active K8SMonitoring#event_processing_active}
   */
   readonly eventProcessingActive: boolean | cdktf.IResolvable;
   /**
   * Include only events specified by Events Field Selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#filter_events K8SMonitoring#filter_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#filter_events K8SMonitoring#filter_events}
   */
   readonly filterEvents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#id K8SMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#id K8SMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,37 +39,37 @@ export interface K8SMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
   * For a list of included events, see the [documentation](https://dt-url.net/l61d02no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#include_all_fdi_events K8SMonitoring#include_all_fdi_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#include_all_fdi_events K8SMonitoring#include_all_fdi_events}
   */
   readonly includeAllFdiEvents?: boolean | cdktf.IResolvable;
   /**
   * Workload and node resource metrics are based on a subset of cAdvisor metrics. Depending on your Kubernetes cluster size, this may increase the CPU/memory resource consumption of your ActiveGate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#open_metrics_builtin_enabled K8SMonitoring#open_metrics_builtin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#open_metrics_builtin_enabled K8SMonitoring#open_metrics_builtin_enabled}
   */
   readonly openMetricsBuiltinEnabled: boolean | cdktf.IResolvable;
   /**
   * For annotation guidance, see the [documentation](https://dt-url.net/g42i0ppw).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#open_metrics_pipeline_enabled K8SMonitoring#open_metrics_pipeline_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#open_metrics_pipeline_enabled K8SMonitoring#open_metrics_pipeline_enabled}
   */
   readonly openMetricsPipelineEnabled: boolean | cdktf.IResolvable;
   /**
   * To enable dashboards and alerts, add the [Kubernetes persistent volume claims](ui/hub/ext/com.dynatrace.extension.kubernetes-pvc) extension to your environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#pvc_monitoring_enabled K8SMonitoring#pvc_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#pvc_monitoring_enabled K8SMonitoring#pvc_monitoring_enabled}
   */
   readonly pvcMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#scope K8SMonitoring#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#scope K8SMonitoring#scope}
   */
   readonly scope?: string;
   /**
   * event_patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#event_patterns K8SMonitoring#event_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#event_patterns K8SMonitoring#event_patterns}
   */
   readonly eventPatterns?: K8SMonitoringEventPatterns;
 }
@@ -77,19 +77,19 @@ export interface K8SMonitoringEventPatternsEventPattern {
   /**
   * Activate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#active K8SMonitoring#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#active K8SMonitoring#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * Field selector name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#label K8SMonitoring#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#label K8SMonitoring#label}
   */
   readonly label: string;
   /**
   * The set of allowed characters for this field has been extended with ActiveGate version 1.259. For more details, see the [documentation](https://dt-url.net/7h23wuk#set-up-event-field-selectors).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#pattern K8SMonitoring#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#pattern K8SMonitoring#pattern}
   */
   readonly pattern: string;
 }
@@ -256,7 +256,7 @@ export interface K8SMonitoringEventPatterns {
   /**
   * event_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#event_pattern K8SMonitoring#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#event_pattern K8SMonitoring#event_pattern}
   */
   readonly eventPattern: K8SMonitoringEventPatternsEventPattern[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export class K8SMonitoringEventPatternsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring dynatrace_k8s_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring dynatrace_k8s_monitoring}
 */
 export class K8SMonitoring extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class K8SMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SMonitoring to import
-  * @param importFromId The id of the existing K8SMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class K8SMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_monitoring dynatrace_k8s_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_monitoring dynatrace_k8s_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class K8SMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

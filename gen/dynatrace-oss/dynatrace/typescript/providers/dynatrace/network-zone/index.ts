@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of alternative network zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#alternative_zones NetworkZone#alternative_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#alternative_zones NetworkZone#alternative_zones}
   */
   readonly alternativeZones?: string[];
   /**
   * A short description of the network zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#description NetworkZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#description NetworkZone#description}
   */
   readonly description?: string;
   /**
   * The fallback mode of the network zone. Possible values: `ANY_ACTIVE_GATE`, `NONE`, `ONLY_DEFAULT_ZONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#fallback_mode NetworkZone#fallback_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#fallback_mode NetworkZone#fallback_mode}
   */
   readonly fallbackMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#id NetworkZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#id NetworkZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface NetworkZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the network zone cannot be modified once created. Dynatrace stores the field in lowercase, allowed characters: alphanumeric, hyphen, underscore, dot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#name NetworkZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#name NetworkZone#name}
   */
   readonly name?: string;
   /**
   * The number of ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#num_of_configured_activegates NetworkZone#num_of_configured_activegates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#num_of_configured_activegates NetworkZone#num_of_configured_activegates}
   */
   readonly numOfConfiguredActivegates?: number;
   /**
   * The number of OneAgents that are configured to use the network zone as primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#num_of_configured_oneagents NetworkZone#num_of_configured_oneagents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#num_of_configured_oneagents NetworkZone#num_of_configured_oneagents}
   */
   readonly numOfConfiguredOneagents?: number;
   /**
   * The number of OneAgents from other network zones that are using ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#num_of_oneagents_from_other_zones NetworkZone#num_of_oneagents_from_other_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#num_of_oneagents_from_other_zones NetworkZone#num_of_oneagents_from_other_zones}
   */
   readonly numOfOneagentsFromOtherZones?: number;
   /**
   * The number of OneAgents that are using ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#num_of_oneagents_using NetworkZone#num_of_oneagents_using}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#num_of_oneagents_using NetworkZone#num_of_oneagents_using}
   */
   readonly numOfOneagentsUsing?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone dynatrace_network_zone}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone dynatrace_network_zone}
 */
 export class NetworkZone extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class NetworkZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkZone to import
-  * @param importFromId The id of the existing NetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class NetworkZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/network_zone dynatrace_network_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_zone dynatrace_network_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class NetworkZone extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_network_zone',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * A name for the Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#display_name Gateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#display_name Gateway#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#id Gateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#id Gateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws_egress_private_link_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#aws_egress_private_link_gateway Gateway#aws_egress_private_link_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#aws_egress_private_link_gateway Gateway#aws_egress_private_link_gateway}
   */
   readonly awsEgressPrivateLinkGateway?: GatewayAwsEgressPrivateLinkGateway;
   /**
   * aws_private_network_interface_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#aws_private_network_interface_gateway Gateway#aws_private_network_interface_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#aws_private_network_interface_gateway Gateway#aws_private_network_interface_gateway}
   */
   readonly awsPrivateNetworkInterfaceGateway?: GatewayAwsPrivateNetworkInterfaceGateway;
   /**
   * azure_egress_private_link_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#azure_egress_private_link_gateway Gateway#azure_egress_private_link_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#azure_egress_private_link_gateway Gateway#azure_egress_private_link_gateway}
   */
   readonly azureEgressPrivateLinkGateway?: GatewayAzureEgressPrivateLinkGateway;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#environment Gateway#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#environment Gateway#environment}
   */
   readonly environment: GatewayEnvironment;
 }
 export interface GatewayAwsEgressPrivateLinkGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#region Gateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#region Gateway#region}
   */
   readonly region: string;
 }
@@ -135,13 +135,13 @@ export interface GatewayAwsPrivateNetworkInterfaceGateway {
   /**
   * AWS region of the Private Network Interface Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#region Gateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#region Gateway#region}
   */
   readonly region: string;
   /**
   * AWS availability zone ids of the Private Network Interface Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#zones Gateway#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#zones Gateway#zones}
   */
   readonly zones: string[];
 }
@@ -253,7 +253,7 @@ export class GatewayAwsPrivateNetworkInterfaceGatewayOutputReference extends cdk
 }
 export interface GatewayAzureEgressPrivateLinkGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#region Gateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#region Gateway#region}
   */
   readonly region: string;
 }
@@ -341,7 +341,7 @@ export interface GatewayEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#id Gateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#id Gateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -425,7 +425,7 @@ export class GatewayEnvironmentOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway confluent_gateway}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway confluent_gateway}
 */
 export class Gateway extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class Gateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gateway to import
-  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class Gateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/resources/gateway confluent_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/resources/gateway confluent_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class Gateway extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_gateway',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

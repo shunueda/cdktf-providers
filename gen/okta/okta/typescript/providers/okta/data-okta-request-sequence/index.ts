@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOktaRequestSequenceConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the request sequence. This is typically the sequence ID in Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence#id DataOktaRequestSequence#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence#id DataOktaRequestSequence#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataOktaRequestSequenceConfig extends cdktf.TerraformMetaArgume
   /**
   * The id of the resource in Okta ID format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence#resource_id DataOktaRequestSequence#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence#resource_id DataOktaRequestSequence#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence okta_request_sequence}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence okta_request_sequence}
 */
 export class DataOktaRequestSequence extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataOktaRequestSequence extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOktaRequestSequence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOktaRequestSequence to import
-  * @param importFromId The id of the existing DataOktaRequestSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOktaRequestSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOktaRequestSequence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataOktaRequestSequence extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/data-sources/request_sequence okta_request_sequence} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/data-sources/request_sequence okta_request_sequence} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataOktaRequestSequence extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_request_sequence',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

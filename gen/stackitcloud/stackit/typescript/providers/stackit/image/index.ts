@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Properties to set hardware and scheduling settings for an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#config Image#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#config Image#config}
   */
   readonly config?: ImageConfigA;
   /**
   * The disk format of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#disk_format Image#disk_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#disk_format Image#disk_format}
   */
   readonly diskFormat: string;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#labels Image#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#labels Image#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The filepath of the raw image file to be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#local_file_path Image#local_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#local_file_path Image#local_file_path}
   */
   readonly localFilePath: string;
   /**
   * The minimum disk size of the image in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#min_disk_size Image#min_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#min_disk_size Image#min_disk_size}
   */
   readonly minDiskSize?: number;
   /**
   * The minimum RAM of the image in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#min_ram Image#min_ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#min_ram Image#min_ram}
   */
   readonly minRam?: number;
   /**
   * The name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#name Image#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#name Image#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the image is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#project_id Image#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#project_id Image#project_id}
   */
   readonly projectId: string;
 }
@@ -119,79 +119,79 @@ export interface ImageConfigA {
   /**
   * Enables the BIOS bootmenu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#boot_menu Image#boot_menu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#boot_menu Image#boot_menu}
   */
   readonly bootMenu?: boolean | cdktf.IResolvable;
   /**
   * Sets CDROM bus controller type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#cdrom_bus Image#cdrom_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#cdrom_bus Image#cdrom_bus}
   */
   readonly cdromBus?: string;
   /**
   * Sets Disk bus controller type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#disk_bus Image#disk_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#disk_bus Image#disk_bus}
   */
   readonly diskBus?: string;
   /**
   * Sets virtual network interface model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#nic_model Image#nic_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#nic_model Image#nic_model}
   */
   readonly nicModel?: string;
   /**
   * Enables operating system specific optimizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#operating_system Image#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#operating_system Image#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * Operating system distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#operating_system_distro Image#operating_system_distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#operating_system_distro Image#operating_system_distro}
   */
   readonly operatingSystemDistro?: string;
   /**
   * Version of the operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#operating_system_version Image#operating_system_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#operating_system_version Image#operating_system_version}
   */
   readonly operatingSystemVersion?: string;
   /**
   * Sets the device bus when the image is used as a rescue image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#rescue_bus Image#rescue_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#rescue_bus Image#rescue_bus}
   */
   readonly rescueBus?: string;
   /**
   * Sets the device when the image is used as a rescue image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#rescue_device Image#rescue_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#rescue_device Image#rescue_device}
   */
   readonly rescueDevice?: string;
   /**
   * Enables Secure Boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#secure_boot Image#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#secure_boot Image#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
   /**
   * Enables UEFI boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#uefi Image#uefi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#uefi Image#uefi}
   */
   readonly uefi?: boolean | cdktf.IResolvable;
   /**
   * Sets Graphic device model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#video_model Image#video_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#video_model Image#video_model}
   */
   readonly videoModel?: string;
   /**
   * Enables the use of VirtIO SCSI to provide block device access. By default instances use VirtIO Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#virtio_scsi Image#virtio_scsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#virtio_scsi Image#virtio_scsi}
   */
   readonly virtioScsi?: boolean | cdktf.IResolvable;
 }
@@ -633,7 +633,7 @@ export class ImageConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image stackit_image}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image stackit_image}
 */
 export class Image extends cdktf.TerraformResource {
 
@@ -649,7 +649,7 @@ export class Image extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Image resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Image to import
-  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Image to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -661,7 +661,7 @@ export class Image extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/image stackit_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/image stackit_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -672,8 +672,8 @@ export class Image extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_image',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

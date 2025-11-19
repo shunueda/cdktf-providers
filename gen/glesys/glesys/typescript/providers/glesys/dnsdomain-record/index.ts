@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DnsdomainRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Record data field. Ex. `127.0.0.1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#data DnsdomainRecord#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#data DnsdomainRecord#data}
   */
   readonly data: string;
   /**
   * Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#domain DnsdomainRecord#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#domain DnsdomainRecord#domain}
   */
   readonly domain: string;
   /**
   * Record host field. Ex. `www`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#host DnsdomainRecord#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#host DnsdomainRecord#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#id DnsdomainRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#id DnsdomainRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DnsdomainRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Record TTL field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#ttl DnsdomainRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#ttl DnsdomainRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * Record type. Must be one of `SOA`, `A`, `AAAA`, `CAA`, `CNAME`, `MX`, `NS`, `TXT`, `SRV`, `URL` or `PTR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#type DnsdomainRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#type DnsdomainRecord#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record glesys_dnsdomain_record}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record glesys_dnsdomain_record}
 */
 export class DnsdomainRecord extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DnsdomainRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsdomainRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsdomainRecord to import
-  * @param importFromId The id of the existing DnsdomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsdomainRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsdomainRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DnsdomainRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/dnsdomain_record glesys_dnsdomain_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/dnsdomain_record glesys_dnsdomain_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DnsdomainRecord extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_dnsdomain_record',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

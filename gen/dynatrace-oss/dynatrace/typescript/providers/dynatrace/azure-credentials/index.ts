@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AzureCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The monitoring is enabled (`true`) or disabled (`false`).  If not set on creation, the `true` value is used.  If the field is omitted during an update, the old value remains unaffected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#active AzureCredentials#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#active AzureCredentials#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The Application ID (also referred to as Client ID)  The combination of Application ID and Directory ID must be unique
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#app_id AzureCredentials#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#app_id AzureCredentials#app_id}
   */
   readonly appId?: string;
   /**
   * The automatic capture of Azure tags is on (`true`) or off (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#auto_tagging AzureCredentials#auto_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#auto_tagging AzureCredentials#auto_tagging}
   */
   readonly autoTagging?: boolean | cdktf.IResolvable;
   /**
   * The Directory ID (also referred to as Tenant ID)  The combination of Application ID and Directory ID must be unique
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#directory_id AzureCredentials#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#directory_id AzureCredentials#directory_id}
   */
   readonly directoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#id AzureCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#id AzureCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface AzureCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The secret key associated with the Application ID.  For security reasons, GET requests return this field as `null`. Submit your key on creation or update of the configuration. If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#key AzureCredentials#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#key AzureCredentials#key}
   */
   readonly key?: string;
   /**
   * The unique name of the Azure credentials configuration.  Allowed characters are letters, numbers, and spaces. Also the special characters `.+-_` are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#label AzureCredentials#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#label AzureCredentials#label}
   */
   readonly label: string;
   /**
   * Monitor only resources that have specified Azure tags (`true`) or all resources (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#monitor_only_tagged_entities AzureCredentials#monitor_only_tagged_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#monitor_only_tagged_entities AzureCredentials#monitor_only_tagged_entities}
   */
   readonly monitorOnlyTaggedEntities: boolean | cdktf.IResolvable;
   /**
   * Instructs the provider to remove the supporting services Dynatrace applies by default to newly created Azure Credentials. Supporting Services applied by via `dynatrace_azure_service` subsequently won't get touched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#remove_defaults AzureCredentials#remove_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#remove_defaults AzureCredentials#remove_defaults}
   */
   readonly removeDefaults?: boolean | cdktf.IResolvable;
   /**
   * If enabled (`true`) the attribute `supporting_services` will not get synchronized with Dynatrace. You will be able to manage them via WebUI without interference by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#supporting_services_managed_in_dynatrace AzureCredentials#supporting_services_managed_in_dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#supporting_services_managed_in_dynatrace AzureCredentials#supporting_services_managed_in_dynatrace}
   */
   readonly supportingServicesManagedInDynatrace?: boolean | cdktf.IResolvable;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * monitor_only_excluding_tag_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#monitor_only_excluding_tag_pairs AzureCredentials#monitor_only_excluding_tag_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#monitor_only_excluding_tag_pairs AzureCredentials#monitor_only_excluding_tag_pairs}
   */
   readonly monitorOnlyExcludingTagPairs?: AzureCredentialsMonitorOnlyExcludingTagPairs[] | cdktf.IResolvable;
   /**
   * monitor_only_tag_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#monitor_only_tag_pairs AzureCredentials#monitor_only_tag_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#monitor_only_tag_pairs AzureCredentials#monitor_only_tag_pairs}
   */
   readonly monitorOnlyTagPairs?: AzureCredentialsMonitorOnlyTagPairs[] | cdktf.IResolvable;
   /**
   * supporting_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#supporting_services AzureCredentials#supporting_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#supporting_services AzureCredentials#supporting_services}
   */
   readonly supportingServices?: AzureCredentialsSupportingServices[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface AzureCredentialsMonitorOnlyExcludingTagPairs {
   /**
   * The name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#name AzureCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#name AzureCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag.   If set to `null`, then resources with any value of the tag are monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#value AzureCredentials#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#value AzureCredentials#value}
   */
   readonly value?: string;
 }
@@ -285,19 +285,19 @@ export interface AzureCredentialsMonitorOnlyTagPairs {
   /**
   * The name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#name AzureCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#name AzureCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag.   If set to `null`, then resources with any value of the tag are monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#value AzureCredentials#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#value AzureCredentials#value}
   */
   readonly value?: string;
 }
@@ -473,19 +473,19 @@ export interface AzureCredentialsSupportingServicesMonitoredMetrics {
   /**
   * a list of metric's dimensions names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#dimensions AzureCredentials#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#dimensions AzureCredentials#dimensions}
   */
   readonly dimensions?: string[];
   /**
   * the name of the metric of the supporting service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#name AzureCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#name AzureCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -661,19 +661,19 @@ export interface AzureCredentialsSupportingServices {
   /**
   * The name of the supporting service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#name AzureCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#name AzureCredentials#name}
   */
   readonly name?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#unknowns AzureCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * monitored_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#monitored_metrics AzureCredentials#monitored_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#monitored_metrics AzureCredentials#monitored_metrics}
   */
   readonly monitoredMetrics?: AzureCredentialsSupportingServicesMonitoredMetrics[] | cdktf.IResolvable;
 }
@@ -847,7 +847,7 @@ export class AzureCredentialsSupportingServicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials dynatrace_azure_credentials}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials dynatrace_azure_credentials}
 */
 export class AzureCredentials extends cdktf.TerraformResource {
 
@@ -863,7 +863,7 @@ export class AzureCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCredentials to import
-  * @param importFromId The id of the existing AzureCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -875,7 +875,7 @@ export class AzureCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/azure_credentials dynatrace_azure_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/azure_credentials dynatrace_azure_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -886,8 +886,8 @@ export class AzureCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_azure_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

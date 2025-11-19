@@ -1,3 +1,3 @@
 # `data_castai_eks_settings`
 
-Refer to the Terraform Registry for docs: [`data_castai_eks_settings`](https://registry.terraform.io/providers/castai/castai/8.1.0/docs/data-sources/eks_settings).
+Refer to the Terraform Registry for docs: [`data_castai_eks_settings`](https://registry.terraform.io/providers/castai/castai/8.2.1/docs/data-sources/eks_settings).

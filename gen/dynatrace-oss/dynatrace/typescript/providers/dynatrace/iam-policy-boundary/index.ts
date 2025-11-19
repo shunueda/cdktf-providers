@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IamPolicyBoundaryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary#id IamPolicyBoundary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary#id IamPolicyBoundary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IamPolicyBoundaryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary#name IamPolicyBoundary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary#name IamPolicyBoundary#name}
   */
   readonly name: string;
   /**
   * The boundary query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary#query IamPolicyBoundary#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary#query IamPolicyBoundary#query}
   */
   readonly query: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary dynatrace_iam_policy_boundary}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary dynatrace_iam_policy_boundary}
 */
 export class IamPolicyBoundary extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IamPolicyBoundary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamPolicyBoundary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamPolicyBoundary to import
-  * @param importFromId The id of the existing IamPolicyBoundary that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamPolicyBoundary that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamPolicyBoundary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IamPolicyBoundary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/iam_policy_boundary dynatrace_iam_policy_boundary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/iam_policy_boundary dynatrace_iam_policy_boundary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IamPolicyBoundary extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_iam_policy_boundary',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

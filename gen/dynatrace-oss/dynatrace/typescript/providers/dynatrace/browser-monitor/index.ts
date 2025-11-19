@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface BrowserMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The monitor is enabled (`true`) or disabled (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#enabled BrowserMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#enabled BrowserMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -18,11 +18,11 @@ export interface BrowserMonitorConfig extends cdktf.TerraformMetaArguments {
   * 
   * You can use one of the following values: `5`, `10`, `15`, `30`, and `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#frequency BrowserMonitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#frequency BrowserMonitor#frequency}
   */
   readonly frequency: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#id BrowserMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#id BrowserMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,43 +33,43 @@ export interface BrowserMonitorConfig extends cdktf.TerraformMetaArguments {
   * 
   * To specify a location, use its entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locations BrowserMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locations BrowserMonitor#locations}
   */
   readonly locations?: string[];
   /**
   * A set of manually assigned applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#manually_assigned_apps BrowserMonitor#manually_assigned_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#manually_assigned_apps BrowserMonitor#manually_assigned_apps}
   */
   readonly manuallyAssignedApps?: string[];
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#name BrowserMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#name BrowserMonitor#name}
   */
   readonly name: string;
   /**
   * anomaly_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#anomaly_detection BrowserMonitor#anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#anomaly_detection BrowserMonitor#anomaly_detection}
   */
   readonly anomalyDetection?: BrowserMonitorAnomalyDetection;
   /**
   * key_performance_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#key_performance_metrics BrowserMonitor#key_performance_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#key_performance_metrics BrowserMonitor#key_performance_metrics}
   */
   readonly keyPerformanceMetrics: BrowserMonitorKeyPerformanceMetrics;
   /**
   * script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#script BrowserMonitor#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#script BrowserMonitor#script}
   */
   readonly script?: BrowserMonitorScript;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#tags BrowserMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#tags BrowserMonitor#tags}
   */
   readonly tags?: BrowserMonitorTags[] | cdktf.IResolvable;
 }
@@ -77,25 +77,25 @@ export interface BrowserMonitorAnomalyDetectionLoadingTimeThresholdsThresholdsTh
   /**
   * Specify the event to which an ACTION threshold applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#event_index BrowserMonitor#event_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#event_index BrowserMonitor#event_index}
   */
   readonly eventIndex?: number;
   /**
   * Specify the request to which an ACTION threshold applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#request_index BrowserMonitor#request_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#request_index BrowserMonitor#request_index}
   */
   readonly requestIndex?: number;
   /**
   * The type of the threshold: `TOTAL` (total loading time) or `ACTION` (action loading time)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type?: string;
   /**
   * Notify if monitor takes longer than *X* milliseconds to load
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value_ms BrowserMonitor#value_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value_ms BrowserMonitor#value_ms}
   */
   readonly valueMs: number;
 }
@@ -297,7 +297,7 @@ export interface BrowserMonitorAnomalyDetectionLoadingTimeThresholdsThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#threshold BrowserMonitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#threshold BrowserMonitor#threshold}
   */
   readonly threshold: BrowserMonitorAnomalyDetectionLoadingTimeThresholdsThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -412,13 +412,13 @@ export interface BrowserMonitorAnomalyDetectionLoadingTimeThresholds {
   /**
   * Performance threshold is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#enabled BrowserMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#enabled BrowserMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#thresholds BrowserMonitor#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#thresholds BrowserMonitor#thresholds}
   */
   readonly thresholds?: BrowserMonitorAnomalyDetectionLoadingTimeThresholdsThresholds[] | cdktf.IResolvable;
 }
@@ -565,7 +565,7 @@ export interface BrowserMonitorAnomalyDetectionOutageHandlingGlobalOutagePolicy 
   /**
   * The number of consecutive fails to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#consecutive_runs BrowserMonitor#consecutive_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#consecutive_runs BrowserMonitor#consecutive_runs}
   */
   readonly consecutiveRuns: number;
 }
@@ -680,13 +680,13 @@ export interface BrowserMonitorAnomalyDetectionOutageHandlingLocalOutagePolicy {
   /**
   * The number of affected locations to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#affected_locations BrowserMonitor#affected_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#affected_locations BrowserMonitor#affected_locations}
   */
   readonly affectedLocations: number;
   /**
   * The number of consecutive fails to trigger an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#consecutive_runs BrowserMonitor#consecutive_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#consecutive_runs BrowserMonitor#consecutive_runs}
   */
   readonly consecutiveRuns: number;
 }
@@ -827,31 +827,31 @@ export interface BrowserMonitorAnomalyDetectionOutageHandling {
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) When enabled (`true`), generate a problem and send an alert when the monitor is unavailable at all configured locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#global_outage BrowserMonitor#global_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#global_outage BrowserMonitor#global_outage}
   */
   readonly globalOutage?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) When enabled (`true`), generate a problem and send an alert when the monitor is unavailable for one or more consecutive runs at any location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#local_outage BrowserMonitor#local_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#local_outage BrowserMonitor#local_outage}
   */
   readonly localOutage?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_browser_monitor_outage` and `dynatrace_http_monitor_outage`) Schedule retry if browser monitor execution results in a fail. For HTTP monitors this property is ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#retry_on_error BrowserMonitor#retry_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#retry_on_error BrowserMonitor#retry_on_error}
   */
   readonly retryOnError?: boolean | cdktf.IResolvable;
   /**
   * global_outage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#global_outage_policy BrowserMonitor#global_outage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#global_outage_policy BrowserMonitor#global_outage_policy}
   */
   readonly globalOutagePolicy?: BrowserMonitorAnomalyDetectionOutageHandlingGlobalOutagePolicy[] | cdktf.IResolvable;
   /**
   * local_outage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#local_outage_policy BrowserMonitor#local_outage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#local_outage_policy BrowserMonitor#local_outage_policy}
   */
   readonly localOutagePolicy?: BrowserMonitorAnomalyDetectionOutageHandlingLocalOutagePolicy[] | cdktf.IResolvable;
 }
@@ -1085,13 +1085,13 @@ export interface BrowserMonitorAnomalyDetection {
   /**
   * loading_time_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#loading_time_thresholds BrowserMonitor#loading_time_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#loading_time_thresholds BrowserMonitor#loading_time_thresholds}
   */
   readonly loadingTimeThresholds?: BrowserMonitorAnomalyDetectionLoadingTimeThresholds[] | cdktf.IResolvable;
   /**
   * outage_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#outage_handling BrowserMonitor#outage_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#outage_handling BrowserMonitor#outage_handling}
   */
   readonly outageHandling?: BrowserMonitorAnomalyDetectionOutageHandling[] | cdktf.IResolvable;
 }
@@ -1206,13 +1206,13 @@ export interface BrowserMonitorKeyPerformanceMetrics {
   /**
   * Defines the key performance metric for load actions. Supported values are `VISUALLY_COMPLETE`, `SPEED_INDEX`, `USER_ACTION_DURATION`, `TIME_TO_FIRST_BYTE`, `HTML_DOWNLOADED`, `DOM_INTERACTIVE`, `LOAD_EVENT_START` and `LOAD_EVENT_END`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#load_action_kpm BrowserMonitor#load_action_kpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#load_action_kpm BrowserMonitor#load_action_kpm}
   */
   readonly loadActionKpm: string;
   /**
   * Defines the key performance metric for XHR actions. Supported values are `VISUALLY_COMPLETE`, `USER_ACTION_DURATION`, `TIME_TO_FIRST_BYTE` and `RESPONSE_END`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#xhr_action_kpm BrowserMonitor#xhr_action_kpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#xhr_action_kpm BrowserMonitor#xhr_action_kpm}
   */
   readonly xhrActionKpm: string;
 }
@@ -1321,25 +1321,25 @@ export interface BrowserMonitorScriptConfigurationBandwidth {
   /**
   * The download speed of the network, in bytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#download BrowserMonitor#download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#download BrowserMonitor#download}
   */
   readonly download?: number;
   /**
   * The latency of the network, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#latency BrowserMonitor#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#latency BrowserMonitor#latency}
   */
   readonly latency?: number;
   /**
   * The type of the preconfigured network—when editing in the browser, press `Crtl+Spacebar` to see the list of available networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#network_type BrowserMonitor#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#network_type BrowserMonitor#network_type}
   */
   readonly networkType?: string;
   /**
   * The upload speed of the network, in bytes per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#upload BrowserMonitor#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#upload BrowserMonitor#upload}
   */
   readonly upload?: number;
 }
@@ -1512,25 +1512,25 @@ export interface BrowserMonitorScriptConfigurationCookiesCookie {
   /**
   * The domain of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#domain BrowserMonitor#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#domain BrowserMonitor#domain}
   */
   readonly domain: string;
   /**
   * The name of the cookie. The following cookie names are now allowed: `dtCookie`, `dtLatC`, `dtPC`, `rxVisitor`, `rxlatency`, `rxpc`, `rxsession` and `rxvt`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#name BrowserMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#name BrowserMonitor#name}
   */
   readonly name: string;
   /**
   * The path of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#path BrowserMonitor#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#path BrowserMonitor#path}
   */
   readonly path?: string;
   /**
   * The value of the cookie. The following symbols are not allowed: `;`, `,`, `\` and `"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -1726,7 +1726,7 @@ export interface BrowserMonitorScriptConfigurationCookies {
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
   */
   readonly cookie: BrowserMonitorScriptConfigurationCookiesCookie[] | cdktf.IResolvable;
 }
@@ -1810,46 +1810,46 @@ export interface BrowserMonitorScriptConfigurationDevice {
   * The height of the screen in pixels.
   * The maximum allowed width is `1080`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#height BrowserMonitor#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#height BrowserMonitor#height}
   */
   readonly height?: number;
   /**
   * The flag of the mobile device.
   * Set to `true` for mobile devices or `false` for a desktop or laptop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#mobile BrowserMonitor#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#mobile BrowserMonitor#mobile}
   */
   readonly mobile?: boolean | cdktf.IResolvable;
   /**
   * The name of the preconfigured device—when editing in the browser, press `Crtl+Spacebar` to see the list of available devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#name BrowserMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#name BrowserMonitor#name}
   */
   readonly name?: string;
   /**
   * The orientation of the device. Possible values are `portrait` or `landscape`. Desktop and laptop devices are not allowed to use the `portrait` orientation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#orientation BrowserMonitor#orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#orientation BrowserMonitor#orientation}
   */
   readonly orientation?: string;
   /**
   * The pixel ratio of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#scale_factor BrowserMonitor#scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#scale_factor BrowserMonitor#scale_factor}
   */
   readonly scaleFactor?: number;
   /**
   * The flag of the touchscreen.
   * Set to `true` if the device uses touchscreen. In that case, use can set interaction event as `tap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#touch_enabled BrowserMonitor#touch_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#touch_enabled BrowserMonitor#touch_enabled}
   */
   readonly touchEnabled?: boolean | cdktf.IResolvable;
   /**
   * The width of the screen in pixels.
   * The maximum allowed width is `1920`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#width BrowserMonitor#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#width BrowserMonitor#width}
   */
   readonly width?: number;
 }
@@ -2109,13 +2109,13 @@ export interface BrowserMonitorScriptConfigurationHeadersHeader {
   /**
   * The key of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#name BrowserMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#name BrowserMonitor#name}
   */
   readonly name: string;
   /**
   * The value of the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -2256,13 +2256,13 @@ export interface BrowserMonitorScriptConfigurationHeaders {
   /**
   * Restrict applying headers to a set of URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#restrictions BrowserMonitor#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#restrictions BrowserMonitor#restrictions}
   */
   readonly restrictions?: string[];
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#header BrowserMonitor#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#header BrowserMonitor#header}
   */
   readonly header: BrowserMonitorScriptConfigurationHeadersHeader[] | cdktf.IResolvable;
 }
@@ -2374,13 +2374,13 @@ export interface BrowserMonitorScriptConfigurationIgnoredErrorCodes {
   /**
   * Only apply to document request matching this regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#matching_document_requests BrowserMonitor#matching_document_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#matching_document_requests BrowserMonitor#matching_document_requests}
   */
   readonly matchingDocumentRequests?: string;
   /**
   * You can use exact number, range or status class mask. Multiple values can be separated by comma, i.e. 404, 405-410, 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#status_codes BrowserMonitor#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#status_codes BrowserMonitor#status_codes}
   */
   readonly statusCodes: string;
 }
@@ -2492,13 +2492,13 @@ export interface BrowserMonitorScriptConfigurationJavascriptSetttingsTimeoutSett
   /**
   * Track up to n cascading setTimeout calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#action_limit BrowserMonitor#action_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#action_limit BrowserMonitor#action_limit}
   */
   readonly actionLimit: number;
   /**
   * Limit cascading timeouts cumulatively to n ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#total_timeout BrowserMonitor#total_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#total_timeout BrowserMonitor#total_timeout}
   */
   readonly totalTimeout: number;
 }
@@ -2607,31 +2607,31 @@ export interface BrowserMonitorScriptConfigurationJavascriptSetttingsVisuallyCom
   /**
   * Query CSS selectors to specify mutation nodes (elements that change) to ignore in Visually complete and Speed index calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#excluded_elements BrowserMonitor#excluded_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#excluded_elements BrowserMonitor#excluded_elements}
   */
   readonly excludedElements?: string[];
   /**
   * Parameters for Visually complete and Speed index calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#excluded_urls BrowserMonitor#excluded_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#excluded_urls BrowserMonitor#excluded_urls}
   */
   readonly excludedUrls?: string[];
   /**
   * Use this setting to define the minimum visible area per element (in pixels) for an element to be counted towards Visually complete and Speed index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#image_size_threshold BrowserMonitor#image_size_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#image_size_threshold BrowserMonitor#image_size_threshold}
   */
   readonly imageSizeThreshold: number;
   /**
   * The time the Visually complete module waits for inactivity and no further mutations on the page after the load action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#inactivity_timeout BrowserMonitor#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#inactivity_timeout BrowserMonitor#inactivity_timeout}
   */
   readonly inactivityTimeout: number;
   /**
   * The time the Visually complete module waits after an XHR or custom action closes to start the calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#mutation_timeout BrowserMonitor#mutation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#mutation_timeout BrowserMonitor#mutation_timeout}
   */
   readonly mutationTimeout: number;
 }
@@ -2824,43 +2824,43 @@ export interface BrowserMonitorScriptConfigurationJavascriptSetttings {
   /**
   * Additional Javascript Agent Properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#custom_properties BrowserMonitor#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#custom_properties BrowserMonitor#custom_properties}
   */
   readonly customProperties?: string;
   /**
   * Capture fetch() requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fetch_requests BrowserMonitor#fetch_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fetch_requests BrowserMonitor#fetch_requests}
   */
   readonly fetchRequests?: boolean | cdktf.IResolvable;
   /**
   * JavaScript error report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#javascript_errors BrowserMonitor#javascript_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#javascript_errors BrowserMonitor#javascript_errors}
   */
   readonly javascriptErrors?: boolean | cdktf.IResolvable;
   /**
   * Timed action support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timed_actions BrowserMonitor#timed_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timed_actions BrowserMonitor#timed_actions}
   */
   readonly timedActions?: boolean | cdktf.IResolvable;
   /**
   * Capture XMLHttpRequests (XHR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#xml_http_requests BrowserMonitor#xml_http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#xml_http_requests BrowserMonitor#xml_http_requests}
   */
   readonly xmlHttpRequests?: boolean | cdktf.IResolvable;
   /**
   * timeout_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout_settings BrowserMonitor#timeout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout_settings BrowserMonitor#timeout_settings}
   */
   readonly timeoutSettings?: BrowserMonitorScriptConfigurationJavascriptSetttingsTimeoutSettings;
   /**
   * visually_complete_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#visually_complete_options BrowserMonitor#visually_complete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#visually_complete_options BrowserMonitor#visually_complete_options}
   */
   readonly visuallyCompleteOptions?: BrowserMonitorScriptConfigurationJavascriptSetttingsVisuallyCompleteOptions;
 }
@@ -3120,67 +3120,67 @@ export interface BrowserMonitorScriptConfiguration {
   /**
   * Block these URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#block BrowserMonitor#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#block BrowserMonitor#block}
   */
   readonly block?: string[];
   /**
   * Bypass Content Security Policy of monitored pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#bypass_csp BrowserMonitor#bypass_csp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#bypass_csp BrowserMonitor#bypass_csp}
   */
   readonly bypassCsp?: boolean | cdktf.IResolvable;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#disable_web_security BrowserMonitor#disable_web_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#disable_web_security BrowserMonitor#disable_web_security}
   */
   readonly disableWebSecurity?: boolean | cdktf.IResolvable;
   /**
   * Capture performance metrics for pages loaded in frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#monitor_frames BrowserMonitor#monitor_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#monitor_frames BrowserMonitor#monitor_frames}
   */
   readonly monitorFrames?: boolean | cdktf.IResolvable;
   /**
   * The user agent of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#user_agent BrowserMonitor#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#user_agent BrowserMonitor#user_agent}
   */
   readonly userAgent?: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#bandwidth BrowserMonitor#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#bandwidth BrowserMonitor#bandwidth}
   */
   readonly bandwidth?: BrowserMonitorScriptConfigurationBandwidth;
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#cookies BrowserMonitor#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#cookies BrowserMonitor#cookies}
   */
   readonly cookies?: BrowserMonitorScriptConfigurationCookies;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#device BrowserMonitor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#device BrowserMonitor#device}
   */
   readonly device?: BrowserMonitorScriptConfigurationDevice;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#headers BrowserMonitor#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#headers BrowserMonitor#headers}
   */
   readonly headers?: BrowserMonitorScriptConfigurationHeaders;
   /**
   * ignored_error_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#ignored_error_codes BrowserMonitor#ignored_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#ignored_error_codes BrowserMonitor#ignored_error_codes}
   */
   readonly ignoredErrorCodes?: BrowserMonitorScriptConfigurationIgnoredErrorCodes;
   /**
   * javascript_setttings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#javascript_setttings BrowserMonitor#javascript_setttings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#javascript_setttings BrowserMonitor#javascript_setttings}
   */
   readonly javascriptSetttings?: BrowserMonitorScriptConfigurationJavascriptSetttings;
 }
@@ -3556,13 +3556,13 @@ export interface BrowserMonitorScriptEventsEventClickTargetLocatorsLocator {
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -3703,7 +3703,7 @@ export interface BrowserMonitorScriptEventsEventClickTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventClickTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -3818,13 +3818,13 @@ export interface BrowserMonitorScriptEventsEventClickTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventClickTargetLocators[] | cdktf.IResolvable;
 }
@@ -3939,13 +3939,13 @@ export interface BrowserMonitorScriptEventsEventClickValidateValidationTargetLoc
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -4086,7 +4086,7 @@ export interface BrowserMonitorScriptEventsEventClickValidateValidationTargetLoc
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventClickValidateValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -4201,13 +4201,13 @@ export interface BrowserMonitorScriptEventsEventClickValidateValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventClickValidateValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -4322,32 +4322,32 @@ export interface BrowserMonitorScriptEventsEventClickValidateValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventClickValidateValidationTarget;
 }
@@ -4578,7 +4578,7 @@ export interface BrowserMonitorScriptEventsEventClickValidate {
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation: BrowserMonitorScriptEventsEventClickValidateValidation[] | cdktf.IResolvable;
 }
@@ -4661,13 +4661,13 @@ export interface BrowserMonitorScriptEventsEventClickWaitValidationTargetLocator
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -4808,7 +4808,7 @@ export interface BrowserMonitorScriptEventsEventClickWaitValidationTargetLocator
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventClickWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -4923,13 +4923,13 @@ export interface BrowserMonitorScriptEventsEventClickWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventClickWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -5044,32 +5044,32 @@ export interface BrowserMonitorScriptEventsEventClickWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventClickWaitValidationTarget;
 }
@@ -5268,26 +5268,26 @@ export interface BrowserMonitorScriptEventsEventClickWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventClickWaitValidation;
 }
@@ -5457,25 +5457,25 @@ export interface BrowserMonitorScriptEventsEventClick {
   /**
   * the mouse button to be used for the click
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#button BrowserMonitor#button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#button BrowserMonitor#button}
   */
   readonly button: number;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventClickTarget;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validate BrowserMonitor#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validate BrowserMonitor#validate}
   */
   readonly validate?: BrowserMonitorScriptEventsEventClickValidate;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventClickWait;
 }
@@ -5645,25 +5645,25 @@ export interface BrowserMonitorScriptEventsEventCookieCookiesCookie {
   /**
   * The domain of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#domain BrowserMonitor#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#domain BrowserMonitor#domain}
   */
   readonly domain: string;
   /**
   * The name of the cookie. The following cookie names are now allowed: `dtCookie`, `dtLatC`, `dtPC`, `rxVisitor`, `rxlatency`, `rxpc`, `rxsession` and `rxvt`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#name BrowserMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#name BrowserMonitor#name}
   */
   readonly name: string;
   /**
   * The path of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#path BrowserMonitor#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#path BrowserMonitor#path}
   */
   readonly path?: string;
   /**
   * The value of the cookie. The following symbols are not allowed: `;`, `,`, `\` and `"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -5859,7 +5859,7 @@ export interface BrowserMonitorScriptEventsEventCookieCookies {
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
   */
   readonly cookie: BrowserMonitorScriptEventsEventCookieCookiesCookie[] | cdktf.IResolvable;
 }
@@ -5942,7 +5942,7 @@ export interface BrowserMonitorScriptEventsEventCookie {
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#cookies BrowserMonitor#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#cookies BrowserMonitor#cookies}
   */
   readonly cookies: BrowserMonitorScriptEventsEventCookieCookies;
 }
@@ -6025,13 +6025,13 @@ export interface BrowserMonitorScriptEventsEventJavascriptTargetLocatorsLocator 
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -6172,7 +6172,7 @@ export interface BrowserMonitorScriptEventsEventJavascriptTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventJavascriptTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -6287,13 +6287,13 @@ export interface BrowserMonitorScriptEventsEventJavascriptTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventJavascriptTargetLocators[] | cdktf.IResolvable;
 }
@@ -6408,13 +6408,13 @@ export interface BrowserMonitorScriptEventsEventJavascriptWaitValidationTargetLo
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -6555,7 +6555,7 @@ export interface BrowserMonitorScriptEventsEventJavascriptWaitValidationTargetLo
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventJavascriptWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -6670,13 +6670,13 @@ export interface BrowserMonitorScriptEventsEventJavascriptWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventJavascriptWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -6791,32 +6791,32 @@ export interface BrowserMonitorScriptEventsEventJavascriptWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventJavascriptWaitValidationTarget;
 }
@@ -7015,26 +7015,26 @@ export interface BrowserMonitorScriptEventsEventJavascriptWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventJavascriptWaitValidation;
 }
@@ -7204,19 +7204,19 @@ export interface BrowserMonitorScriptEventsEventJavascript {
   /**
   * The JavaScript code to be executed in this event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#code BrowserMonitor#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#code BrowserMonitor#code}
   */
   readonly code: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventJavascriptTarget;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventJavascriptWait;
 }
@@ -7357,13 +7357,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesCredential {
   /**
   * Either `username` or `password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#field BrowserMonitor#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#field BrowserMonitor#field}
   */
   readonly field: string;
   /**
   * The ID of the credential within the Credentials Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#vault_id BrowserMonitor#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#vault_id BrowserMonitor#vault_id}
   */
   readonly vaultId: string;
 }
@@ -7472,13 +7472,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesTargetLocatorsLocator 
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -7619,7 +7619,7 @@ export interface BrowserMonitorScriptEventsEventKeystrokesTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventKeystrokesTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -7734,13 +7734,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventKeystrokesTargetLocators[] | cdktf.IResolvable;
 }
@@ -7855,13 +7855,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesValidateValidationTarg
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -8002,7 +8002,7 @@ export interface BrowserMonitorScriptEventsEventKeystrokesValidateValidationTarg
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventKeystrokesValidateValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -8117,13 +8117,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesValidateValidationTarg
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventKeystrokesValidateValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -8238,32 +8238,32 @@ export interface BrowserMonitorScriptEventsEventKeystrokesValidateValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventKeystrokesValidateValidationTarget;
 }
@@ -8494,7 +8494,7 @@ export interface BrowserMonitorScriptEventsEventKeystrokesValidate {
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation: BrowserMonitorScriptEventsEventKeystrokesValidateValidation[] | cdktf.IResolvable;
 }
@@ -8577,13 +8577,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesWaitValidationTargetLo
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -8724,7 +8724,7 @@ export interface BrowserMonitorScriptEventsEventKeystrokesWaitValidationTargetLo
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventKeystrokesWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -8839,13 +8839,13 @@ export interface BrowserMonitorScriptEventsEventKeystrokesWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventKeystrokesWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -8960,32 +8960,32 @@ export interface BrowserMonitorScriptEventsEventKeystrokesWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventKeystrokesWaitValidationTarget;
 }
@@ -9184,26 +9184,26 @@ export interface BrowserMonitorScriptEventsEventKeystrokesWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventKeystrokesWaitValidation;
 }
@@ -9373,50 +9373,50 @@ export interface BrowserMonitorScriptEventsEventKeystrokes {
   /**
   * Indicates whether the `textValue` is encrypted (`true`) or not (`false`). Must not be specified if `credentials` from the vault are being used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#masked BrowserMonitor#masked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#masked BrowserMonitor#masked}
   */
   readonly masked?: boolean | cdktf.IResolvable;
   /**
   * Defines whether to blur the text field when it loses focus.
   * Set to `true` to trigger the blur the `textValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#simulate_blur_event BrowserMonitor#simulate_blur_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#simulate_blur_event BrowserMonitor#simulate_blur_event}
   */
   readonly simulateBlurEvent?: boolean | cdktf.IResolvable;
   /**
   * Simulates pressing the 'Return' key after simulating other keystrokes. For example, to submit a form or trigger a login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#simulate_return_key BrowserMonitor#simulate_return_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#simulate_return_key BrowserMonitor#simulate_return_key}
   */
   readonly simulateReturnKey?: boolean | cdktf.IResolvable;
   /**
   * The text to enter. Must not be specified if `credentials` from the vault are being used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#text BrowserMonitor#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#text BrowserMonitor#text}
   */
   readonly text?: string;
   /**
   * credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#credential BrowserMonitor#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#credential BrowserMonitor#credential}
   */
   readonly credential?: BrowserMonitorScriptEventsEventKeystrokesCredential;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventKeystrokesTarget;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validate BrowserMonitor#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validate BrowserMonitor#validate}
   */
   readonly validate?: BrowserMonitorScriptEventsEventKeystrokesValidate;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventKeystrokesWait;
 }
@@ -9705,25 +9705,25 @@ export interface BrowserMonitorScriptEventsEventNavigateAuthentication {
   /**
   * List of allowed servers, optional with Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#auth_server_allowlist BrowserMonitor#auth_server_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#auth_server_allowlist BrowserMonitor#auth_server_allowlist}
   */
   readonly authServerAllowlist?: string;
   /**
   * A reference to the entry within the credential vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#creds BrowserMonitor#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#creds BrowserMonitor#creds}
   */
   readonly creds: string;
   /**
   * User's domain name, required with Kerberos authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#domain BrowserMonitor#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#domain BrowserMonitor#domain}
   */
   readonly domain?: string;
   /**
   * The type of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
 }
@@ -9890,13 +9890,13 @@ export interface BrowserMonitorScriptEventsEventNavigateTargetLocatorsLocator {
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -10037,7 +10037,7 @@ export interface BrowserMonitorScriptEventsEventNavigateTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventNavigateTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -10152,13 +10152,13 @@ export interface BrowserMonitorScriptEventsEventNavigateTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventNavigateTargetLocators[] | cdktf.IResolvable;
 }
@@ -10273,13 +10273,13 @@ export interface BrowserMonitorScriptEventsEventNavigateValidateValidationTarget
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -10420,7 +10420,7 @@ export interface BrowserMonitorScriptEventsEventNavigateValidateValidationTarget
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventNavigateValidateValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -10535,13 +10535,13 @@ export interface BrowserMonitorScriptEventsEventNavigateValidateValidationTarget
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventNavigateValidateValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -10656,32 +10656,32 @@ export interface BrowserMonitorScriptEventsEventNavigateValidateValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventNavigateValidateValidationTarget;
 }
@@ -10912,7 +10912,7 @@ export interface BrowserMonitorScriptEventsEventNavigateValidate {
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation: BrowserMonitorScriptEventsEventNavigateValidateValidation[] | cdktf.IResolvable;
 }
@@ -10995,13 +10995,13 @@ export interface BrowserMonitorScriptEventsEventNavigateWaitValidationTargetLoca
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -11142,7 +11142,7 @@ export interface BrowserMonitorScriptEventsEventNavigateWaitValidationTargetLoca
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventNavigateWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -11257,13 +11257,13 @@ export interface BrowserMonitorScriptEventsEventNavigateWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventNavigateWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -11378,32 +11378,32 @@ export interface BrowserMonitorScriptEventsEventNavigateWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventNavigateWaitValidationTarget;
 }
@@ -11602,26 +11602,26 @@ export interface BrowserMonitorScriptEventsEventNavigateWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventNavigateWaitValidation;
 }
@@ -11791,31 +11791,31 @@ export interface BrowserMonitorScriptEventsEventNavigate {
   /**
   * The URL to navigate to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#url BrowserMonitor#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#url BrowserMonitor#url}
   */
   readonly url: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#authentication BrowserMonitor#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#authentication BrowserMonitor#authentication}
   */
   readonly authentication?: BrowserMonitorScriptEventsEventNavigateAuthentication;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventNavigateTarget;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validate BrowserMonitor#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validate BrowserMonitor#validate}
   */
   readonly validate?: BrowserMonitorScriptEventsEventNavigateValidate;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventNavigateWait;
 }
@@ -12014,13 +12014,13 @@ export interface BrowserMonitorScriptEventsEventSelectSelectionsOption {
   /**
   * The index of the option to be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#index BrowserMonitor#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#index BrowserMonitor#index}
   */
   readonly index: number;
   /**
   * The value of the option to be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -12161,7 +12161,7 @@ export interface BrowserMonitorScriptEventsEventSelectSelections {
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#option BrowserMonitor#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#option BrowserMonitor#option}
   */
   readonly option: BrowserMonitorScriptEventsEventSelectSelectionsOption[] | cdktf.IResolvable;
 }
@@ -12244,13 +12244,13 @@ export interface BrowserMonitorScriptEventsEventSelectTargetLocatorsLocator {
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -12391,7 +12391,7 @@ export interface BrowserMonitorScriptEventsEventSelectTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventSelectTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -12506,13 +12506,13 @@ export interface BrowserMonitorScriptEventsEventSelectTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventSelectTargetLocators[] | cdktf.IResolvable;
 }
@@ -12627,13 +12627,13 @@ export interface BrowserMonitorScriptEventsEventSelectValidateValidationTargetLo
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -12774,7 +12774,7 @@ export interface BrowserMonitorScriptEventsEventSelectValidateValidationTargetLo
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventSelectValidateValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -12889,13 +12889,13 @@ export interface BrowserMonitorScriptEventsEventSelectValidateValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventSelectValidateValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -13010,32 +13010,32 @@ export interface BrowserMonitorScriptEventsEventSelectValidateValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventSelectValidateValidationTarget;
 }
@@ -13266,7 +13266,7 @@ export interface BrowserMonitorScriptEventsEventSelectValidate {
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation: BrowserMonitorScriptEventsEventSelectValidateValidation[] | cdktf.IResolvable;
 }
@@ -13349,13 +13349,13 @@ export interface BrowserMonitorScriptEventsEventSelectWaitValidationTargetLocato
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -13496,7 +13496,7 @@ export interface BrowserMonitorScriptEventsEventSelectWaitValidationTargetLocato
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventSelectWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -13611,13 +13611,13 @@ export interface BrowserMonitorScriptEventsEventSelectWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventSelectWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -13732,32 +13732,32 @@ export interface BrowserMonitorScriptEventsEventSelectWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventSelectWaitValidationTarget;
 }
@@ -13956,26 +13956,26 @@ export interface BrowserMonitorScriptEventsEventSelectWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventSelectWaitValidation;
 }
@@ -14145,25 +14145,25 @@ export interface BrowserMonitorScriptEventsEventSelect {
   /**
   * selections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#selections BrowserMonitor#selections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#selections BrowserMonitor#selections}
   */
   readonly selections: BrowserMonitorScriptEventsEventSelectSelections;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventSelectTarget;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validate BrowserMonitor#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validate BrowserMonitor#validate}
   */
   readonly validate?: BrowserMonitorScriptEventsEventSelectValidate;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventSelectWait;
 }
@@ -14333,13 +14333,13 @@ export interface BrowserMonitorScriptEventsEventTapTargetLocatorsLocator {
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -14480,7 +14480,7 @@ export interface BrowserMonitorScriptEventsEventTapTargetLocators {
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventTapTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -14595,13 +14595,13 @@ export interface BrowserMonitorScriptEventsEventTapTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventTapTargetLocators[] | cdktf.IResolvable;
 }
@@ -14716,13 +14716,13 @@ export interface BrowserMonitorScriptEventsEventTapValidateValidationTargetLocat
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -14863,7 +14863,7 @@ export interface BrowserMonitorScriptEventsEventTapValidateValidationTargetLocat
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventTapValidateValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -14978,13 +14978,13 @@ export interface BrowserMonitorScriptEventsEventTapValidateValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventTapValidateValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -15099,32 +15099,32 @@ export interface BrowserMonitorScriptEventsEventTapValidateValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventTapValidateValidationTarget;
 }
@@ -15355,7 +15355,7 @@ export interface BrowserMonitorScriptEventsEventTapValidate {
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation: BrowserMonitorScriptEventsEventTapValidateValidation[] | cdktf.IResolvable;
 }
@@ -15438,13 +15438,13 @@ export interface BrowserMonitorScriptEventsEventTapWaitValidationTargetLocatorsL
   /**
   * Defines where to look for an element. `css` (CSS Selector) or `dom` (Javascript code)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * The name of the element to be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value: string;
 }
@@ -15585,7 +15585,7 @@ export interface BrowserMonitorScriptEventsEventTapWaitValidationTargetLocators 
   /**
   * locator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locator BrowserMonitor#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locator BrowserMonitor#locator}
   */
   readonly locator: BrowserMonitorScriptEventsEventTapWaitValidationTargetLocatorsLocator[] | cdktf.IResolvable;
 }
@@ -15700,13 +15700,13 @@ export interface BrowserMonitorScriptEventsEventTapWaitValidationTarget {
   /**
   * The tab of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#window BrowserMonitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#window BrowserMonitor#window}
   */
   readonly window?: string;
   /**
   * locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#locators BrowserMonitor#locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#locators BrowserMonitor#locators}
   */
   readonly locators?: BrowserMonitorScriptEventsEventTapWaitValidationTargetLocators[] | cdktf.IResolvable;
 }
@@ -15821,32 +15821,32 @@ export interface BrowserMonitorScriptEventsEventTapWaitValidation {
   /**
   * The condition of the validation. `false` means the validation succeeds if the specified content/element is found. `true` means the validation fails if the specified content/element is found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#fail_if_found BrowserMonitor#fail_if_found}
   */
   readonly failIfFound?: boolean | cdktf.IResolvable;
   /**
   * The content to look for on the page.
   * Regular expressions are allowed. In that case set `isRegex` as `true`. Required for `content_match`, optional for `element_match`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#match BrowserMonitor#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#match BrowserMonitor#match}
   */
   readonly match?: string;
   /**
   * Defines whether `match` is plain text (`false`) or a regular expression (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#regex BrowserMonitor#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#regex BrowserMonitor#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * The goal of the validation. `content_match` (check page for the specific content. Not allowed for validation inside of wait condition), `element_match` (check page for the specific element).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventTapWaitValidationTarget;
 }
@@ -16045,26 +16045,26 @@ export interface BrowserMonitorScriptEventsEventTapWait {
   /**
   * The time to wait, in millisencods. The maximum allowed value is `60000`. Required for the type `time`, not applicable otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#milliseconds BrowserMonitor#milliseconds}
   */
   readonly milliseconds?: number;
   /**
   * he maximum amount of time to wait for a certain element to appear, in milliseconds—if exceeded, the action is marked as failed.
   * The maximum allowed value is 60000. Required for the type `validation`, not applicable otherwise..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#timeout BrowserMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * The time to wait before the next event is triggered. Possible values are `page_complete` (wait for the page to load completely), `network` (wait for background network activity to complete), `next_action` (wait for the next action), `time` (wait for a specified periodof time) and `validation` (wait for a specific element to appear)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait_for BrowserMonitor#wait_for}
   */
   readonly waitFor: string;
   /**
   * validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validation BrowserMonitor#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validation BrowserMonitor#validation}
   */
   readonly validation?: BrowserMonitorScriptEventsEventTapWaitValidation;
 }
@@ -16234,25 +16234,25 @@ export interface BrowserMonitorScriptEventsEventTap {
   /**
   * the mouse button to be used for the click
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#button BrowserMonitor#button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#button BrowserMonitor#button}
   */
   readonly button: number;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#target BrowserMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#target BrowserMonitor#target}
   */
   readonly target?: BrowserMonitorScriptEventsEventTapTarget;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#validate BrowserMonitor#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#validate BrowserMonitor#validate}
   */
   readonly validate?: BrowserMonitorScriptEventsEventTapValidate;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#wait BrowserMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#wait BrowserMonitor#wait}
   */
   readonly wait?: BrowserMonitorScriptEventsEventTapWait;
 }
@@ -16422,49 +16422,49 @@ export interface BrowserMonitorScriptEventsEvent {
   /**
   * A short description of the event to appear in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#description BrowserMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#description BrowserMonitor#description}
   */
   readonly description: string;
   /**
   * click block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#click BrowserMonitor#click}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#click BrowserMonitor#click}
   */
   readonly click?: BrowserMonitorScriptEventsEventClick;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#cookie BrowserMonitor#cookie}
   */
   readonly cookie?: BrowserMonitorScriptEventsEventCookie;
   /**
   * javascript block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#javascript BrowserMonitor#javascript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#javascript BrowserMonitor#javascript}
   */
   readonly javascript?: BrowserMonitorScriptEventsEventJavascript;
   /**
   * keystrokes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#keystrokes BrowserMonitor#keystrokes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#keystrokes BrowserMonitor#keystrokes}
   */
   readonly keystrokes?: BrowserMonitorScriptEventsEventKeystrokes;
   /**
   * navigate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#navigate BrowserMonitor#navigate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#navigate BrowserMonitor#navigate}
   */
   readonly navigate?: BrowserMonitorScriptEventsEventNavigate;
   /**
   * select block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#select BrowserMonitor#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#select BrowserMonitor#select}
   */
   readonly select?: BrowserMonitorScriptEventsEventSelect;
   /**
   * tap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#tap BrowserMonitor#tap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#tap BrowserMonitor#tap}
   */
   readonly tap?: BrowserMonitorScriptEventsEventTap;
 }
@@ -16782,7 +16782,7 @@ export interface BrowserMonitorScriptEvents {
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#event BrowserMonitor#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#event BrowserMonitor#event}
   */
   readonly event?: BrowserMonitorScriptEventsEvent[] | cdktf.IResolvable;
 }
@@ -16868,19 +16868,19 @@ export interface BrowserMonitorScript {
   /**
   * The type of monitor. Possible values are `clickpath` for clickpath monitors and `availability` for single-URL browser monitors. These monitors are only allowed to have one event of the `navigate` type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#type BrowserMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#type BrowserMonitor#type}
   */
   readonly type: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#configuration BrowserMonitor#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#configuration BrowserMonitor#configuration}
   */
   readonly configuration?: BrowserMonitorScriptConfiguration;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#events BrowserMonitor#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#events BrowserMonitor#events}
   */
   readonly events?: BrowserMonitorScriptEvents;
 }
@@ -17023,7 +17023,7 @@ export interface BrowserMonitorTagsTag {
   * 
   * Custom tags use the `CONTEXTLESS` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#context BrowserMonitor#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#context BrowserMonitor#context}
   */
   readonly context: string;
   /**
@@ -17031,13 +17031,13 @@ export interface BrowserMonitorTagsTag {
   * 
   * Custom tags have the tag value here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#key BrowserMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#key BrowserMonitor#key}
   */
   readonly key: string;
   /**
   * The source of the tag. Supported values are `USER`, `RULE_BASED` and `AUTO`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#source BrowserMonitor#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#source BrowserMonitor#source}
   */
   readonly source?: string;
   /**
@@ -17045,7 +17045,7 @@ export interface BrowserMonitorTagsTag {
   * 
   * Not applicable to custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#value BrowserMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#value BrowserMonitor#value}
   */
   readonly value?: string;
 }
@@ -17244,7 +17244,7 @@ export interface BrowserMonitorTags {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#tag BrowserMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#tag BrowserMonitor#tag}
   */
   readonly tag?: BrowserMonitorTagsTag[] | cdktf.IResolvable;
 }
@@ -17360,7 +17360,7 @@ export class BrowserMonitorTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor dynatrace_browser_monitor}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor dynatrace_browser_monitor}
 */
 export class BrowserMonitor extends cdktf.TerraformResource {
 
@@ -17376,7 +17376,7 @@ export class BrowserMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrowserMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrowserMonitor to import
-  * @param importFromId The id of the existing BrowserMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrowserMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrowserMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17388,7 +17388,7 @@ export class BrowserMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor dynatrace_browser_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor dynatrace_browser_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17399,8 +17399,8 @@ export class BrowserMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_browser_monitor',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

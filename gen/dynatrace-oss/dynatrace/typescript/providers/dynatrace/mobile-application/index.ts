@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface MobileApplicationConfig extends cdktf.TerraformMetaArguments {
   * 
   * It is used only by OneAgent to send data to Dynatrace. If not specified it will get generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#application_id MobileApplication#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#application_id MobileApplication#application_id}
   */
   readonly applicationId?: string;
   /**
   * The type of the application. Either `CUSTOM_APPLICATION` or `MOBILE_APPLICATION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#application_type MobileApplication#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#application_type MobileApplication#application_type}
   */
   readonly applicationType?: string;
   /**
   * The type of the beacon endpoint. Possible values are `CLUSTER_ACTIVE_GATE`, `ENVIRONMENT_ACTIVE_GATE` and `INSTRUMENTED_WEB_SERVER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#beacon_endpoint_type MobileApplication#beacon_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#beacon_endpoint_type MobileApplication#beacon_endpoint_type}
   */
   readonly beaconEndpointType: string;
   /**
@@ -32,17 +32,17 @@ export interface MobileApplicationConfig extends cdktf.TerraformMetaArguments {
   * 
   * Only applicable when the **beacon_endpoint_type** is set to `ENVIRONMENT_ACTIVE_GATE` or `INSTRUMENTED_WEB_SERVER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#beacon_endpoint_url MobileApplication#beacon_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#beacon_endpoint_url MobileApplication#beacon_endpoint_url}
   */
   readonly beaconEndpointUrl?: string;
   /**
   * Custom application icon. Mobile apps always use the mobile device icon, so this icon can only be set for custom apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#icon_type MobileApplication#icon_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#icon_type MobileApplication#icon_type}
   */
   readonly iconType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#id MobileApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#id MobileApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,25 +51,25 @@ export interface MobileApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * User Action names to be flagged as Key User Actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#key_user_actions MobileApplication#key_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#key_user_actions MobileApplication#key_user_actions}
   */
   readonly keyUserActions?: string[];
   /**
   * The name of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#name MobileApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#name MobileApplication#name}
   */
   readonly name: string;
   /**
   * The opt-in mode is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#opt_in_mode MobileApplication#opt_in_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#opt_in_mode MobileApplication#opt_in_mode}
   */
   readonly optInMode?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_mobile_app_enablement`) The session replay is enabled (`true`) or disabled (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#session_replay MobileApplication#session_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#session_replay MobileApplication#session_replay}
   */
   readonly sessionReplay?: boolean | cdktf.IResolvable;
   /**
@@ -77,25 +77,25 @@ export interface MobileApplicationConfig extends cdktf.TerraformMetaArguments {
   * 
   * Enabling requires both **sessionReplayEnabled** and **optInModeEnabled** values set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#session_replay_on_crash MobileApplication#session_replay_on_crash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#session_replay_on_crash MobileApplication#session_replay_on_crash}
   */
   readonly sessionReplayOnCrash?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_mobile_app_enablement` for mobile and `dynatrace_custom_app_enablement` for custom apps) The percentage of user sessions to be analyzed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#user_session_percentage MobileApplication#user_session_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#user_session_percentage MobileApplication#user_session_percentage}
   */
   readonly userSessionPercentage?: number;
   /**
   * apdex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#apdex MobileApplication#apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#apdex MobileApplication#apdex}
   */
   readonly apdex: MobileApplicationApdex;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#properties MobileApplication#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#properties MobileApplication#properties}
   */
   readonly properties?: MobileApplicationProperties;
 }
@@ -103,19 +103,19 @@ export interface MobileApplicationApdex {
   /**
   * Apdex **frustrated** threshold, in milliseconds: a duration greater than or equal to this value is considered frustrated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#frustrated MobileApplication#frustrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#frustrated MobileApplication#frustrated}
   */
   readonly frustrated: number;
   /**
   * Apdex error condition: if `true` the user session is considered frustrated when an error is reported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#frustrated_on_error MobileApplication#frustrated_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#frustrated_on_error MobileApplication#frustrated_on_error}
   */
   readonly frustratedOnError?: boolean | cdktf.IResolvable;
   /**
   * Apdex **tolerable** threshold, in milliseconds: a duration greater than or equal to this value is considered tolerable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#tolerable MobileApplication#tolerable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#tolerable MobileApplication#tolerable}
   */
   readonly tolerable: number;
 }
@@ -253,49 +253,49 @@ export interface MobileApplicationPropertiesApiValue {
   /**
   * The aggregation type of the property. It defines how multiple values of the property are aggregated. Possible values are `SUM`, `MIN`, `MAX`, `FIRST` and `LAST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#aggregation MobileApplication#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#aggregation MobileApplication#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The cleanup rule of the property. Defines how to extract the data you need from a string value. Specify the [regular expression](https://dt-url.net/k9e0iaq) for the data you need there
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#cleanup_rule MobileApplication#cleanup_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#cleanup_rule MobileApplication#cleanup_rule}
   */
   readonly cleanupRule?: string;
   /**
   * The display name of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#display_name MobileApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#display_name MobileApplication#display_name}
   */
   readonly displayName?: string;
   /**
   * The unique key of the mobile session or user action property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#key MobileApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#key MobileApplication#key}
   */
   readonly key: string;
   /**
   * The name of the reported value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#name MobileApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#name MobileApplication#name}
   */
   readonly name?: string;
   /**
   * If `true`, the property is stored as a session property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#store_as_session_property MobileApplication#store_as_session_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#store_as_session_property MobileApplication#store_as_session_property}
   */
   readonly storeAsSessionProperty?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the property is stored as a user action property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#store_as_user_action_property MobileApplication#store_as_user_action_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#store_as_user_action_property MobileApplication#store_as_user_action_property}
   */
   readonly storeAsUserActionProperty?: boolean | cdktf.IResolvable;
   /**
   * The data type of the property. Possible values are `DOUBLE`, `LONG` and `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#type MobileApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#type MobileApplication#type}
   */
   readonly type: string;
 }
@@ -610,25 +610,25 @@ export interface MobileApplicationPropertiesRequestAttribute {
   /**
   * The aggregation type of the property. It defines how multiple values of the property are aggregated. Possible values are `SUM`, `MIN`, `MAX`, `FIRST` and `LAST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#aggregation MobileApplication#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#aggregation MobileApplication#aggregation}
   */
   readonly aggregation?: string;
   /**
   * The cleanup rule of the property. Defines how to extract the data you need from a string value. Specify the [regular expression](https://dt-url.net/k9e0iaq) for the data you need there
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#cleanup_rule MobileApplication#cleanup_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#cleanup_rule MobileApplication#cleanup_rule}
   */
   readonly cleanupRule?: string;
   /**
   * The display name of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#display_name MobileApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#display_name MobileApplication#display_name}
   */
   readonly displayName?: string;
   /**
   * The ID of the request attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#id MobileApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#id MobileApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -637,25 +637,25 @@ export interface MobileApplicationPropertiesRequestAttribute {
   /**
   * The unique key of the mobile session or user action property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#key MobileApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#key MobileApplication#key}
   */
   readonly key: string;
   /**
   * If `true`, the property is stored as a session property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#store_as_session_property MobileApplication#store_as_session_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#store_as_session_property MobileApplication#store_as_session_property}
   */
   readonly storeAsSessionProperty?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the property is stored as a user action property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#store_as_user_action_property MobileApplication#store_as_user_action_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#store_as_user_action_property MobileApplication#store_as_user_action_property}
   */
   readonly storeAsUserActionProperty?: boolean | cdktf.IResolvable;
   /**
   * The data type of the property. Possible values are `DOUBLE`, `LONG` and `STRING`. The value MUST match the data type of the Request Attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#type MobileApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#type MobileApplication#type}
   */
   readonly type: string;
 }
@@ -967,13 +967,13 @@ export interface MobileApplicationProperties {
   /**
   * api_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#api_value MobileApplication#api_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#api_value MobileApplication#api_value}
   */
   readonly apiValue?: MobileApplicationPropertiesApiValue[] | cdktf.IResolvable;
   /**
   * request_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#request_attribute MobileApplication#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#request_attribute MobileApplication#request_attribute}
   */
   readonly requestAttribute?: MobileApplicationPropertiesRequestAttribute[] | cdktf.IResolvable;
 }
@@ -1086,7 +1086,7 @@ export class MobileApplicationPropertiesOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application dynatrace_mobile_application}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application dynatrace_mobile_application}
 */
 export class MobileApplication extends cdktf.TerraformResource {
 
@@ -1102,7 +1102,7 @@ export class MobileApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MobileApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MobileApplication to import
-  * @param importFromId The id of the existing MobileApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MobileApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MobileApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1114,7 +1114,7 @@ export class MobileApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/mobile_application dynatrace_mobile_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_application dynatrace_mobile_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1125,8 +1125,8 @@ export class MobileApplication extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mobile_application',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

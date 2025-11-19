@@ -28,6 +28,14 @@ OpenpipelineV2EventsSecurityPipelinesSecurityContext,
 openpipelineV2EventsSecurityPipelinesSecurityContextToTerraform, 
 openpipelineV2EventsSecurityPipelinesSecurityContextToHclTerraform, 
 OpenpipelineV2EventsSecurityPipelinesSecurityContextOutputReference, 
+OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtraction, 
+openpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionToTerraform, 
+openpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionToHclTerraform, 
+OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionOutputReference, 
+OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtraction, 
+openpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionToTerraform, 
+openpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionToHclTerraform, 
+OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionOutputReference, 
 OpenpipelineV2EventsSecurityPipelinesStorage, 
 openpipelineV2EventsSecurityPipelinesStorageToTerraform, 
 openpipelineV2EventsSecurityPipelinesStorageToHclTerraform, 
@@ -39,17 +47,17 @@ export interface OpenpipelineV2EventsSecurityPipelinesConfig extends cdktf.Terra
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#custom_id OpenpipelineV2EventsSecurityPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#custom_id OpenpipelineV2EventsSecurityPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#display_name OpenpipelineV2EventsSecurityPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#display_name OpenpipelineV2EventsSecurityPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#id OpenpipelineV2EventsSecurityPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#id OpenpipelineV2EventsSecurityPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,55 +66,67 @@ export interface OpenpipelineV2EventsSecurityPipelinesConfig extends cdktf.Terra
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#cost_allocation OpenpipelineV2EventsSecurityPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#cost_allocation OpenpipelineV2EventsSecurityPipelines#cost_allocation}
   */
-  readonly costAllocation: OpenpipelineV2EventsSecurityPipelinesCostAllocation;
+  readonly costAllocation?: OpenpipelineV2EventsSecurityPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#data_extraction OpenpipelineV2EventsSecurityPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#data_extraction OpenpipelineV2EventsSecurityPipelines#data_extraction}
   */
-  readonly dataExtraction: OpenpipelineV2EventsSecurityPipelinesDataExtraction;
+  readonly dataExtraction?: OpenpipelineV2EventsSecurityPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#davis OpenpipelineV2EventsSecurityPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#davis OpenpipelineV2EventsSecurityPipelines#davis}
   */
-  readonly davis: OpenpipelineV2EventsSecurityPipelinesDavis;
+  readonly davis?: OpenpipelineV2EventsSecurityPipelinesDavis;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#metric_extraction OpenpipelineV2EventsSecurityPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#metric_extraction OpenpipelineV2EventsSecurityPipelines#metric_extraction}
   */
-  readonly metricExtraction: OpenpipelineV2EventsSecurityPipelinesMetricExtraction;
+  readonly metricExtraction?: OpenpipelineV2EventsSecurityPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#processing OpenpipelineV2EventsSecurityPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#processing OpenpipelineV2EventsSecurityPipelines#processing}
   */
-  readonly processing: OpenpipelineV2EventsSecurityPipelinesProcessing;
+  readonly processing?: OpenpipelineV2EventsSecurityPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#product_allocation OpenpipelineV2EventsSecurityPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#product_allocation OpenpipelineV2EventsSecurityPipelines#product_allocation}
   */
-  readonly productAllocation: OpenpipelineV2EventsSecurityPipelinesProductAllocation;
+  readonly productAllocation?: OpenpipelineV2EventsSecurityPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#security_context OpenpipelineV2EventsSecurityPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#security_context OpenpipelineV2EventsSecurityPipelines#security_context}
   */
-  readonly securityContext: OpenpipelineV2EventsSecurityPipelinesSecurityContext;
+  readonly securityContext?: OpenpipelineV2EventsSecurityPipelinesSecurityContext;
+  /**
+  * smartscape_edge_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#smartscape_edge_extraction OpenpipelineV2EventsSecurityPipelines#smartscape_edge_extraction}
+  */
+  readonly smartscapeEdgeExtraction?: OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtraction;
+  /**
+  * smartscape_node_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#smartscape_node_extraction OpenpipelineV2EventsSecurityPipelines#smartscape_node_extraction}
+  */
+  readonly smartscapeNodeExtraction?: OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#storage OpenpipelineV2EventsSecurityPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#storage OpenpipelineV2EventsSecurityPipelines#storage}
   */
-  readonly storage: OpenpipelineV2EventsSecurityPipelinesStorage;
+  readonly storage?: OpenpipelineV2EventsSecurityPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines dynatrace_openpipeline_v2_events_security_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines dynatrace_openpipeline_v2_events_security_pipelines}
 */
 export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResource {
 
@@ -122,7 +142,7 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   * Generates CDKTF code for importing a OpenpipelineV2EventsSecurityPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2EventsSecurityPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2EventsSecurityPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2EventsSecurityPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2EventsSecurityPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +154,7 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_events_security_pipelines dynatrace_openpipeline_v2_events_security_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_events_security_pipelines dynatrace_openpipeline_v2_events_security_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +165,8 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
       terraformResourceType: 'dynatrace_openpipeline_v2_events_security_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -166,6 +186,8 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
     this._securityContext.internalValue = config.securityContext;
+    this._smartscapeEdgeExtraction.internalValue = config.smartscapeEdgeExtraction;
+    this._smartscapeNodeExtraction.internalValue = config.smartscapeNodeExtraction;
     this._storage.internalValue = config.storage;
   }
 
@@ -215,7 +237,7 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
     return this._id;
   }
 
-  // cost_allocation - computed: false, optional: false, required: true
+  // cost_allocation - computed: false, optional: true, required: false
   private _costAllocation = new OpenpipelineV2EventsSecurityPipelinesCostAllocationOutputReference(this, "cost_allocation");
   public get costAllocation() {
     return this._costAllocation;
@@ -223,12 +245,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putCostAllocation(value: OpenpipelineV2EventsSecurityPipelinesCostAllocation) {
     this._costAllocation.internalValue = value;
   }
+  public resetCostAllocation() {
+    this._costAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get costAllocationInput() {
     return this._costAllocation.internalValue;
   }
 
-  // data_extraction - computed: false, optional: false, required: true
+  // data_extraction - computed: false, optional: true, required: false
   private _dataExtraction = new OpenpipelineV2EventsSecurityPipelinesDataExtractionOutputReference(this, "data_extraction");
   public get dataExtraction() {
     return this._dataExtraction;
@@ -236,12 +261,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putDataExtraction(value: OpenpipelineV2EventsSecurityPipelinesDataExtraction) {
     this._dataExtraction.internalValue = value;
   }
+  public resetDataExtraction() {
+    this._dataExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get dataExtractionInput() {
     return this._dataExtraction.internalValue;
   }
 
-  // davis - computed: false, optional: false, required: true
+  // davis - computed: false, optional: true, required: false
   private _davis = new OpenpipelineV2EventsSecurityPipelinesDavisOutputReference(this, "davis");
   public get davis() {
     return this._davis;
@@ -249,12 +277,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putDavis(value: OpenpipelineV2EventsSecurityPipelinesDavis) {
     this._davis.internalValue = value;
   }
+  public resetDavis() {
+    this._davis.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
   }
 
-  // metric_extraction - computed: false, optional: false, required: true
+  // metric_extraction - computed: false, optional: true, required: false
   private _metricExtraction = new OpenpipelineV2EventsSecurityPipelinesMetricExtractionOutputReference(this, "metric_extraction");
   public get metricExtraction() {
     return this._metricExtraction;
@@ -262,12 +293,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putMetricExtraction(value: OpenpipelineV2EventsSecurityPipelinesMetricExtraction) {
     this._metricExtraction.internalValue = value;
   }
+  public resetMetricExtraction() {
+    this._metricExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get metricExtractionInput() {
     return this._metricExtraction.internalValue;
   }
 
-  // processing - computed: false, optional: false, required: true
+  // processing - computed: false, optional: true, required: false
   private _processing = new OpenpipelineV2EventsSecurityPipelinesProcessingOutputReference(this, "processing");
   public get processing() {
     return this._processing;
@@ -275,12 +309,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putProcessing(value: OpenpipelineV2EventsSecurityPipelinesProcessing) {
     this._processing.internalValue = value;
   }
+  public resetProcessing() {
+    this._processing.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get processingInput() {
     return this._processing.internalValue;
   }
 
-  // product_allocation - computed: false, optional: false, required: true
+  // product_allocation - computed: false, optional: true, required: false
   private _productAllocation = new OpenpipelineV2EventsSecurityPipelinesProductAllocationOutputReference(this, "product_allocation");
   public get productAllocation() {
     return this._productAllocation;
@@ -288,12 +325,15 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putProductAllocation(value: OpenpipelineV2EventsSecurityPipelinesProductAllocation) {
     this._productAllocation.internalValue = value;
   }
+  public resetProductAllocation() {
+    this._productAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get productAllocationInput() {
     return this._productAllocation.internalValue;
   }
 
-  // security_context - computed: false, optional: false, required: true
+  // security_context - computed: false, optional: true, required: false
   private _securityContext = new OpenpipelineV2EventsSecurityPipelinesSecurityContextOutputReference(this, "security_context");
   public get securityContext() {
     return this._securityContext;
@@ -301,18 +341,56 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
   public putSecurityContext(value: OpenpipelineV2EventsSecurityPipelinesSecurityContext) {
     this._securityContext.internalValue = value;
   }
+  public resetSecurityContext() {
+    this._securityContext.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get securityContextInput() {
     return this._securityContext.internalValue;
   }
 
-  // storage - computed: false, optional: false, required: true
+  // smartscape_edge_extraction - computed: false, optional: true, required: false
+  private _smartscapeEdgeExtraction = new OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionOutputReference(this, "smartscape_edge_extraction");
+  public get smartscapeEdgeExtraction() {
+    return this._smartscapeEdgeExtraction;
+  }
+  public putSmartscapeEdgeExtraction(value: OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtraction) {
+    this._smartscapeEdgeExtraction.internalValue = value;
+  }
+  public resetSmartscapeEdgeExtraction() {
+    this._smartscapeEdgeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeEdgeExtractionInput() {
+    return this._smartscapeEdgeExtraction.internalValue;
+  }
+
+  // smartscape_node_extraction - computed: false, optional: true, required: false
+  private _smartscapeNodeExtraction = new OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionOutputReference(this, "smartscape_node_extraction");
+  public get smartscapeNodeExtraction() {
+    return this._smartscapeNodeExtraction;
+  }
+  public putSmartscapeNodeExtraction(value: OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtraction) {
+    this._smartscapeNodeExtraction.internalValue = value;
+  }
+  public resetSmartscapeNodeExtraction() {
+    this._smartscapeNodeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeNodeExtractionInput() {
+    return this._smartscapeNodeExtraction.internalValue;
+  }
+
+  // storage - computed: false, optional: true, required: false
   private _storage = new OpenpipelineV2EventsSecurityPipelinesStorageOutputReference(this, "storage");
   public get storage() {
     return this._storage;
   }
   public putStorage(value: OpenpipelineV2EventsSecurityPipelinesStorage) {
     this._storage.internalValue = value;
+  }
+  public resetStorage() {
+    this._storage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get storageInput() {
@@ -335,6 +413,8 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
       processing: openpipelineV2EventsSecurityPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2EventsSecurityPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
       security_context: openpipelineV2EventsSecurityPipelinesSecurityContextToTerraform(this._securityContext.internalValue),
+      smartscape_edge_extraction: openpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionToTerraform(this._smartscapeEdgeExtraction.internalValue),
+      smartscape_node_extraction: openpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionToTerraform(this._smartscapeNodeExtraction.internalValue),
       storage: openpipelineV2EventsSecurityPipelinesStorageToTerraform(this._storage.internalValue),
     };
   }
@@ -400,6 +480,18 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2EventsSecurityPipelinesSecurityContextList",
+      },
+      smartscape_edge_extraction: {
+        value: openpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionToHclTerraform(this._smartscapeEdgeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2EventsSecurityPipelinesSmartscapeEdgeExtractionList",
+      },
+      smartscape_node_extraction: {
+        value: openpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionToHclTerraform(this._smartscapeNodeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2EventsSecurityPipelinesSmartscapeNodeExtractionList",
       },
       storage: {
         value: openpipelineV2EventsSecurityPipelinesStorageToHclTerraform(this._storage.internalValue),

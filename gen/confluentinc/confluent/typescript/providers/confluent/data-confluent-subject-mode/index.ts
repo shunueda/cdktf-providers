@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentSubjectModeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#id DataConfluentSubjectMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#id DataConfluentSubjectMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataConfluentSubjectModeConfig extends cdktf.TerraformMetaArgum
   /**
   * The REST endpoint of the Schema Registry cluster, for example, `https://psrc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#rest_endpoint DataConfluentSubjectMode#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#rest_endpoint DataConfluentSubjectMode#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * The name of the Schema Registry Subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#subject_name DataConfluentSubjectMode#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#subject_name DataConfluentSubjectMode#subject_name}
   */
   readonly subjectName: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#credentials DataConfluentSubjectMode#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#credentials DataConfluentSubjectMode#credentials}
   */
   readonly credentials?: DataConfluentSubjectModeCredentials;
   /**
   * schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#schema_registry_cluster DataConfluentSubjectMode#schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#schema_registry_cluster DataConfluentSubjectMode#schema_registry_cluster}
   */
   readonly schemaRegistryCluster?: DataConfluentSubjectModeSchemaRegistryCluster;
 }
@@ -43,13 +43,13 @@ export interface DataConfluentSubjectModeCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#key DataConfluentSubjectMode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#key DataConfluentSubjectMode#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#secret DataConfluentSubjectMode#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#secret DataConfluentSubjectMode#secret}
   */
   readonly secret: string;
 }
@@ -158,7 +158,7 @@ export interface DataConfluentSubjectModeSchemaRegistryCluster {
   /**
   * The Schema Registry cluster ID (e.g., `lsrc-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#id DataConfluentSubjectMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#id DataConfluentSubjectMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -242,7 +242,7 @@ export class DataConfluentSubjectModeSchemaRegistryClusterOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode confluent_subject_mode}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode confluent_subject_mode}
 */
 export class DataConfluentSubjectMode extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataConfluentSubjectMode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentSubjectMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentSubjectMode to import
-  * @param importFromId The id of the existing DataConfluentSubjectMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentSubjectMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentSubjectMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataConfluentSubjectMode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/subject_mode confluent_subject_mode} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/subject_mode confluent_subject_mode} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataConfluentSubjectMode extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_subject_mode',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

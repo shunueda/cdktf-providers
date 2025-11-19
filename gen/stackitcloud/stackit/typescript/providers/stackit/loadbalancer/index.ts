@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface LoadbalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, this will disable the automatic assignment of a security group to the load balancer's targets. This option is primarily used to allow targets that are not within the load balancer's own network or SNA (STACKIT network area). When this is enabled, you are fully responsible for ensuring network connectivity to the targets, including managing all routing and security group rules manually. This setting cannot be changed after the load balancer is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#disable_security_group_assignment Loadbalancer#disable_security_group_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#disable_security_group_assignment Loadbalancer#disable_security_group_assignment}
   */
   readonly disableSecurityGroupAssignment?: boolean | cdktf.IResolvable;
   /**
   * External Load Balancer IP address where this Load Balancer is exposed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#external_address Loadbalancer#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#external_address Loadbalancer#external_address}
   */
   readonly externalAddress?: string;
   /**
   * List of all listeners which will accept traffic. Limited to 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#listeners Loadbalancer#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#listeners Loadbalancer#listeners}
   */
   readonly listeners: LoadbalancerListeners[] | cdktf.IResolvable;
   /**
   * Load balancer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
   readonly name: string;
   /**
   * List of networks that listeners and targets reside in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#networks Loadbalancer#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#networks Loadbalancer#networks}
   */
   readonly networks: LoadbalancerNetworks[] | cdktf.IResolvable;
   /**
   * Defines any optional functionality you want to have enabled on your load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#options Loadbalancer#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#options Loadbalancer#options}
   */
   readonly options?: LoadbalancerOptions;
   /**
   * The service plan ID. If not defined, the default service plan is `p10`. Possible values are: `p10`, `p50`, `p250`, `p750`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#plan_id Loadbalancer#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#plan_id Loadbalancer#plan_id}
   */
   readonly planId?: string;
   /**
   * STACKIT project ID to which the Load Balancer is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#region Loadbalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#region Loadbalancer#region}
   */
   readonly region?: string;
   /**
   * List of all target pools which will be used in the Load Balancer. Limited to 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#target_pools Loadbalancer#target_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#target_pools Loadbalancer#target_pools}
   */
   readonly targetPools: LoadbalancerTargetPools[] | cdktf.IResolvable;
 }
@@ -72,7 +72,7 @@ export interface LoadbalancerListenersServerNameIndicators {
   /**
   * A domain name to match in order to pass TLS traffic to the target pool in the current listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
   readonly name?: string;
 }
@@ -190,7 +190,7 @@ export interface LoadbalancerListenersTcp {
   /**
   * Time after which an idle connection is closed. The default value is set to 300 seconds, and the maximum value is 3600 seconds. The format is a duration and the unit must be seconds. Example: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#idle_timeout Loadbalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#idle_timeout Loadbalancer#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -286,7 +286,7 @@ export interface LoadbalancerListenersUdp {
   /**
   * Time after which an idle session is closed. The default value is set to 1 minute, and the maximum value is 2 minutes. The format is a duration and the unit must be seconds. Example: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#idle_timeout Loadbalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#idle_timeout Loadbalancer#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -380,43 +380,43 @@ export class LoadbalancerListenersUdpOutputReference extends cdktf.ComplexObject
 }
 export interface LoadbalancerListeners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#display_name Loadbalancer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#display_name Loadbalancer#display_name}
   */
   readonly displayName?: string;
   /**
   * Port number where we listen for traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#port Loadbalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#port Loadbalancer#port}
   */
   readonly port: number;
   /**
   * Protocol is the highest network protocol we understand to load balance. Possible values are: `PROTOCOL_UNSPECIFIED`, `PROTOCOL_TCP`, `PROTOCOL_UDP`, `PROTOCOL_TCP_PROXY`, `PROTOCOL_TLS_PASSTHROUGH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#protocol Loadbalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#protocol Loadbalancer#protocol}
   */
   readonly protocol: string;
   /**
   * A list of domain names to match in order to pass TLS traffic to the target pool in the current listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#server_name_indicators Loadbalancer#server_name_indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#server_name_indicators Loadbalancer#server_name_indicators}
   */
   readonly serverNameIndicators?: LoadbalancerListenersServerNameIndicators[] | cdktf.IResolvable;
   /**
   * Reference target pool by target pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#target_pool Loadbalancer#target_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#target_pool Loadbalancer#target_pool}
   */
   readonly targetPool: string;
   /**
   * Options that are specific to the TCP protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#tcp Loadbalancer#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#tcp Loadbalancer#tcp}
   */
   readonly tcp?: LoadbalancerListenersTcp;
   /**
   * Options that are specific to the UDP protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#udp Loadbalancer#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#udp Loadbalancer#udp}
   */
   readonly udp?: LoadbalancerListenersUdp;
 }
@@ -699,13 +699,13 @@ export interface LoadbalancerNetworks {
   /**
   * Openstack network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#network_id Loadbalancer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#network_id Loadbalancer#network_id}
   */
   readonly networkId: string;
   /**
   * The role defines how the load balancer is using the network. Possible values are: `ROLE_UNSPECIFIED`, `ROLE_LISTENERS_AND_TARGETS`, `ROLE_LISTENERS`, `ROLE_TARGETS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#role Loadbalancer#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#role Loadbalancer#role}
   */
   readonly role: string;
 }
@@ -846,13 +846,13 @@ export interface LoadbalancerOptionsObservabilityLogs {
   /**
   * Credentials reference for logs. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#credentials_ref Loadbalancer#credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#credentials_ref Loadbalancer#credentials_ref}
   */
   readonly credentialsRef?: string;
   /**
   * Credentials reference for logs. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#push_url Loadbalancer#push_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#push_url Loadbalancer#push_url}
   */
   readonly pushUrl?: string;
 }
@@ -977,13 +977,13 @@ export interface LoadbalancerOptionsObservabilityMetrics {
   /**
   * Credentials reference for metrics. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#credentials_ref Loadbalancer#credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#credentials_ref Loadbalancer#credentials_ref}
   */
   readonly credentialsRef?: string;
   /**
   * Credentials reference for metrics. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#push_url Loadbalancer#push_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#push_url Loadbalancer#push_url}
   */
   readonly pushUrl?: string;
 }
@@ -1108,13 +1108,13 @@ export interface LoadbalancerOptionsObservability {
   /**
   * Observability logs configuration. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#logs Loadbalancer#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#logs Loadbalancer#logs}
   */
   readonly logs?: LoadbalancerOptionsObservabilityLogs;
   /**
   * Observability metrics configuration. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#metrics Loadbalancer#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#metrics Loadbalancer#metrics}
   */
   readonly metrics?: LoadbalancerOptionsObservabilityMetrics;
 }
@@ -1239,19 +1239,19 @@ export interface LoadbalancerOptions {
   /**
   * Load Balancer is accessible only from an IP address in this range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#acl Loadbalancer#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#acl Loadbalancer#acl}
   */
   readonly acl?: string[];
   /**
   * We offer Load Balancer metrics observability via ARGUS or external solutions. Not changeable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#observability Loadbalancer#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#observability Loadbalancer#observability}
   */
   readonly observability?: LoadbalancerOptionsObservability;
   /**
   * If true, Load Balancer is accessible only via a private network IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#private_network_only Loadbalancer#private_network_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#private_network_only Loadbalancer#private_network_only}
   */
   readonly privateNetworkOnly?: boolean | cdktf.IResolvable;
 }
@@ -1405,31 +1405,31 @@ export interface LoadbalancerTargetPoolsActiveHealthCheck {
   /**
   * Healthy threshold of the health checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#healthy_threshold Loadbalancer#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#healthy_threshold Loadbalancer#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * Interval duration of health checking in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#interval Loadbalancer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#interval Loadbalancer#interval}
   */
   readonly interval?: string;
   /**
   * Interval duration threshold of the health checking in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#interval_jitter Loadbalancer#interval_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#interval_jitter Loadbalancer#interval_jitter}
   */
   readonly intervalJitter?: string;
   /**
   * Active health checking timeout duration in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#timeout Loadbalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#timeout Loadbalancer#timeout}
   */
   readonly timeout?: string;
   /**
   * Unhealthy threshold of the health checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#unhealthy_threshold Loadbalancer#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#unhealthy_threshold Loadbalancer#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -1641,7 +1641,7 @@ export interface LoadbalancerTargetPoolsSessionPersistence {
   /**
   * If true then all connections from one source IP address are redirected to the same target. This setting changes the load balancing algorithm to Maglev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#use_source_ip_address Loadbalancer#use_source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#use_source_ip_address Loadbalancer#use_source_ip_address}
   */
   readonly useSourceIpAddress?: boolean | cdktf.IResolvable;
 }
@@ -1737,13 +1737,13 @@ export interface LoadbalancerTargetPoolsTargets {
   /**
   * Target display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#display_name Loadbalancer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#display_name Loadbalancer#display_name}
   */
   readonly displayName: string;
   /**
   * Target IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#ip Loadbalancer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#ip Loadbalancer#ip}
   */
   readonly ip: string;
 }
@@ -1882,31 +1882,31 @@ export class LoadbalancerTargetPoolsTargetsList extends cdktf.ComplexList {
 }
 export interface LoadbalancerTargetPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#active_health_check Loadbalancer#active_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#active_health_check Loadbalancer#active_health_check}
   */
   readonly activeHealthCheck?: LoadbalancerTargetPoolsActiveHealthCheck;
   /**
   * Target pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#name Loadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#name Loadbalancer#name}
   */
   readonly name: string;
   /**
   * Here you can setup various session persistence options, so far only "`use_source_ip_address`" is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#session_persistence Loadbalancer#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#session_persistence Loadbalancer#session_persistence}
   */
   readonly sessionPersistence?: LoadbalancerTargetPoolsSessionPersistence;
   /**
   * Identical port number where each target listens for traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#target_port Loadbalancer#target_port}
   */
   readonly targetPort: number;
   /**
   * List of all targets which will be used in the pool. Limited to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#targets Loadbalancer#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#targets Loadbalancer#targets}
   */
   readonly targets: LoadbalancerTargetPoolsTargets[] | cdktf.IResolvable;
 }
@@ -2129,7 +2129,7 @@ export class LoadbalancerTargetPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer stackit_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer stackit_loadbalancer}
 */
 export class Loadbalancer extends cdktf.TerraformResource {
 
@@ -2145,7 +2145,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Loadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Loadbalancer to import
-  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Loadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Loadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2157,7 +2157,7 @@ export class Loadbalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/resources/loadbalancer stackit_loadbalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/resources/loadbalancer stackit_loadbalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2168,8 +2168,8 @@ export class Loadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

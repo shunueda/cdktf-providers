@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVercelAttackChallengeModeConfig extends cdktf.TerraformMeta
   /**
   * The ID of the Project to adjust the CPU for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode#project_id DataVercelAttackChallengeMode#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode#project_id DataVercelAttackChallengeMode#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the team the Project exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode#team_id DataVercelAttackChallengeMode#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode#team_id DataVercelAttackChallengeMode#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode vercel_attack_challenge_mode}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode vercel_attack_challenge_mode}
 */
 export class DataVercelAttackChallengeMode extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataVercelAttackChallengeMode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelAttackChallengeMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelAttackChallengeMode to import
-  * @param importFromId The id of the existing DataVercelAttackChallengeMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelAttackChallengeMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelAttackChallengeMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataVercelAttackChallengeMode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/data-sources/attack_challenge_mode vercel_attack_challenge_mode} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/data-sources/attack_challenge_mode vercel_attack_challenge_mode} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataVercelAttackChallengeMode extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_attack_challenge_mode',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

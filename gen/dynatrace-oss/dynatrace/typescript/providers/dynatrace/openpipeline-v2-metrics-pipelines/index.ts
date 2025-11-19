@@ -28,6 +28,14 @@ OpenpipelineV2MetricsPipelinesSecurityContext,
 openpipelineV2MetricsPipelinesSecurityContextToTerraform, 
 openpipelineV2MetricsPipelinesSecurityContextToHclTerraform, 
 OpenpipelineV2MetricsPipelinesSecurityContextOutputReference, 
+OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtraction, 
+openpipelineV2MetricsPipelinesSmartscapeEdgeExtractionToTerraform, 
+openpipelineV2MetricsPipelinesSmartscapeEdgeExtractionToHclTerraform, 
+OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtractionOutputReference, 
+OpenpipelineV2MetricsPipelinesSmartscapeNodeExtraction, 
+openpipelineV2MetricsPipelinesSmartscapeNodeExtractionToTerraform, 
+openpipelineV2MetricsPipelinesSmartscapeNodeExtractionToHclTerraform, 
+OpenpipelineV2MetricsPipelinesSmartscapeNodeExtractionOutputReference, 
 OpenpipelineV2MetricsPipelinesStorage, 
 openpipelineV2MetricsPipelinesStorageToTerraform, 
 openpipelineV2MetricsPipelinesStorageToHclTerraform, 
@@ -39,17 +47,17 @@ export interface OpenpipelineV2MetricsPipelinesConfig extends cdktf.TerraformMet
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#custom_id OpenpipelineV2MetricsPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#custom_id OpenpipelineV2MetricsPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#display_name OpenpipelineV2MetricsPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#display_name OpenpipelineV2MetricsPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#id OpenpipelineV2MetricsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#id OpenpipelineV2MetricsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,55 +66,67 @@ export interface OpenpipelineV2MetricsPipelinesConfig extends cdktf.TerraformMet
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#cost_allocation OpenpipelineV2MetricsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#cost_allocation OpenpipelineV2MetricsPipelines#cost_allocation}
   */
-  readonly costAllocation: OpenpipelineV2MetricsPipelinesCostAllocation;
+  readonly costAllocation?: OpenpipelineV2MetricsPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#data_extraction OpenpipelineV2MetricsPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#data_extraction OpenpipelineV2MetricsPipelines#data_extraction}
   */
-  readonly dataExtraction: OpenpipelineV2MetricsPipelinesDataExtraction;
+  readonly dataExtraction?: OpenpipelineV2MetricsPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#davis OpenpipelineV2MetricsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#davis OpenpipelineV2MetricsPipelines#davis}
   */
-  readonly davis: OpenpipelineV2MetricsPipelinesDavis;
+  readonly davis?: OpenpipelineV2MetricsPipelinesDavis;
   /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#metric_extraction OpenpipelineV2MetricsPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#metric_extraction OpenpipelineV2MetricsPipelines#metric_extraction}
   */
-  readonly metricExtraction: OpenpipelineV2MetricsPipelinesMetricExtraction;
+  readonly metricExtraction?: OpenpipelineV2MetricsPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#processing OpenpipelineV2MetricsPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#processing OpenpipelineV2MetricsPipelines#processing}
   */
-  readonly processing: OpenpipelineV2MetricsPipelinesProcessing;
+  readonly processing?: OpenpipelineV2MetricsPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#product_allocation OpenpipelineV2MetricsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#product_allocation OpenpipelineV2MetricsPipelines#product_allocation}
   */
-  readonly productAllocation: OpenpipelineV2MetricsPipelinesProductAllocation;
+  readonly productAllocation?: OpenpipelineV2MetricsPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#security_context OpenpipelineV2MetricsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#security_context OpenpipelineV2MetricsPipelines#security_context}
   */
-  readonly securityContext: OpenpipelineV2MetricsPipelinesSecurityContext;
+  readonly securityContext?: OpenpipelineV2MetricsPipelinesSecurityContext;
+  /**
+  * smartscape_edge_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_edge_extraction OpenpipelineV2MetricsPipelines#smartscape_edge_extraction}
+  */
+  readonly smartscapeEdgeExtraction?: OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtraction;
+  /**
+  * smartscape_node_extraction block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_node_extraction OpenpipelineV2MetricsPipelines#smartscape_node_extraction}
+  */
+  readonly smartscapeNodeExtraction?: OpenpipelineV2MetricsPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#storage OpenpipelineV2MetricsPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#storage OpenpipelineV2MetricsPipelines#storage}
   */
-  readonly storage: OpenpipelineV2MetricsPipelinesStorage;
+  readonly storage?: OpenpipelineV2MetricsPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines}
 */
 export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
 
@@ -122,7 +142,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineV2MetricsPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2MetricsPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2MetricsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2MetricsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2MetricsPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +154,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +165,8 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_v2_metrics_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -166,6 +186,8 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
     this._securityContext.internalValue = config.securityContext;
+    this._smartscapeEdgeExtraction.internalValue = config.smartscapeEdgeExtraction;
+    this._smartscapeNodeExtraction.internalValue = config.smartscapeNodeExtraction;
     this._storage.internalValue = config.storage;
   }
 
@@ -215,7 +237,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // cost_allocation - computed: false, optional: false, required: true
+  // cost_allocation - computed: false, optional: true, required: false
   private _costAllocation = new OpenpipelineV2MetricsPipelinesCostAllocationOutputReference(this, "cost_allocation");
   public get costAllocation() {
     return this._costAllocation;
@@ -223,12 +245,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putCostAllocation(value: OpenpipelineV2MetricsPipelinesCostAllocation) {
     this._costAllocation.internalValue = value;
   }
+  public resetCostAllocation() {
+    this._costAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get costAllocationInput() {
     return this._costAllocation.internalValue;
   }
 
-  // data_extraction - computed: false, optional: false, required: true
+  // data_extraction - computed: false, optional: true, required: false
   private _dataExtraction = new OpenpipelineV2MetricsPipelinesDataExtractionOutputReference(this, "data_extraction");
   public get dataExtraction() {
     return this._dataExtraction;
@@ -236,12 +261,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putDataExtraction(value: OpenpipelineV2MetricsPipelinesDataExtraction) {
     this._dataExtraction.internalValue = value;
   }
+  public resetDataExtraction() {
+    this._dataExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get dataExtractionInput() {
     return this._dataExtraction.internalValue;
   }
 
-  // davis - computed: false, optional: false, required: true
+  // davis - computed: false, optional: true, required: false
   private _davis = new OpenpipelineV2MetricsPipelinesDavisOutputReference(this, "davis");
   public get davis() {
     return this._davis;
@@ -249,12 +277,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putDavis(value: OpenpipelineV2MetricsPipelinesDavis) {
     this._davis.internalValue = value;
   }
+  public resetDavis() {
+    this._davis.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
   }
 
-  // metric_extraction - computed: false, optional: false, required: true
+  // metric_extraction - computed: false, optional: true, required: false
   private _metricExtraction = new OpenpipelineV2MetricsPipelinesMetricExtractionOutputReference(this, "metric_extraction");
   public get metricExtraction() {
     return this._metricExtraction;
@@ -262,12 +293,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putMetricExtraction(value: OpenpipelineV2MetricsPipelinesMetricExtraction) {
     this._metricExtraction.internalValue = value;
   }
+  public resetMetricExtraction() {
+    this._metricExtraction.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get metricExtractionInput() {
     return this._metricExtraction.internalValue;
   }
 
-  // processing - computed: false, optional: false, required: true
+  // processing - computed: false, optional: true, required: false
   private _processing = new OpenpipelineV2MetricsPipelinesProcessingOutputReference(this, "processing");
   public get processing() {
     return this._processing;
@@ -275,12 +309,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putProcessing(value: OpenpipelineV2MetricsPipelinesProcessing) {
     this._processing.internalValue = value;
   }
+  public resetProcessing() {
+    this._processing.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get processingInput() {
     return this._processing.internalValue;
   }
 
-  // product_allocation - computed: false, optional: false, required: true
+  // product_allocation - computed: false, optional: true, required: false
   private _productAllocation = new OpenpipelineV2MetricsPipelinesProductAllocationOutputReference(this, "product_allocation");
   public get productAllocation() {
     return this._productAllocation;
@@ -288,12 +325,15 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putProductAllocation(value: OpenpipelineV2MetricsPipelinesProductAllocation) {
     this._productAllocation.internalValue = value;
   }
+  public resetProductAllocation() {
+    this._productAllocation.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get productAllocationInput() {
     return this._productAllocation.internalValue;
   }
 
-  // security_context - computed: false, optional: false, required: true
+  // security_context - computed: false, optional: true, required: false
   private _securityContext = new OpenpipelineV2MetricsPipelinesSecurityContextOutputReference(this, "security_context");
   public get securityContext() {
     return this._securityContext;
@@ -301,18 +341,56 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   public putSecurityContext(value: OpenpipelineV2MetricsPipelinesSecurityContext) {
     this._securityContext.internalValue = value;
   }
+  public resetSecurityContext() {
+    this._securityContext.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get securityContextInput() {
     return this._securityContext.internalValue;
   }
 
-  // storage - computed: false, optional: false, required: true
+  // smartscape_edge_extraction - computed: false, optional: true, required: false
+  private _smartscapeEdgeExtraction = new OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtractionOutputReference(this, "smartscape_edge_extraction");
+  public get smartscapeEdgeExtraction() {
+    return this._smartscapeEdgeExtraction;
+  }
+  public putSmartscapeEdgeExtraction(value: OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtraction) {
+    this._smartscapeEdgeExtraction.internalValue = value;
+  }
+  public resetSmartscapeEdgeExtraction() {
+    this._smartscapeEdgeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeEdgeExtractionInput() {
+    return this._smartscapeEdgeExtraction.internalValue;
+  }
+
+  // smartscape_node_extraction - computed: false, optional: true, required: false
+  private _smartscapeNodeExtraction = new OpenpipelineV2MetricsPipelinesSmartscapeNodeExtractionOutputReference(this, "smartscape_node_extraction");
+  public get smartscapeNodeExtraction() {
+    return this._smartscapeNodeExtraction;
+  }
+  public putSmartscapeNodeExtraction(value: OpenpipelineV2MetricsPipelinesSmartscapeNodeExtraction) {
+    this._smartscapeNodeExtraction.internalValue = value;
+  }
+  public resetSmartscapeNodeExtraction() {
+    this._smartscapeNodeExtraction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smartscapeNodeExtractionInput() {
+    return this._smartscapeNodeExtraction.internalValue;
+  }
+
+  // storage - computed: false, optional: true, required: false
   private _storage = new OpenpipelineV2MetricsPipelinesStorageOutputReference(this, "storage");
   public get storage() {
     return this._storage;
   }
   public putStorage(value: OpenpipelineV2MetricsPipelinesStorage) {
     this._storage.internalValue = value;
+  }
+  public resetStorage() {
+    this._storage.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get storageInput() {
@@ -335,6 +413,8 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
       processing: openpipelineV2MetricsPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2MetricsPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
       security_context: openpipelineV2MetricsPipelinesSecurityContextToTerraform(this._securityContext.internalValue),
+      smartscape_edge_extraction: openpipelineV2MetricsPipelinesSmartscapeEdgeExtractionToTerraform(this._smartscapeEdgeExtraction.internalValue),
+      smartscape_node_extraction: openpipelineV2MetricsPipelinesSmartscapeNodeExtractionToTerraform(this._smartscapeNodeExtraction.internalValue),
       storage: openpipelineV2MetricsPipelinesStorageToTerraform(this._storage.internalValue),
     };
   }
@@ -400,6 +480,18 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2MetricsPipelinesSecurityContextList",
+      },
+      smartscape_edge_extraction: {
+        value: openpipelineV2MetricsPipelinesSmartscapeEdgeExtractionToHclTerraform(this._smartscapeEdgeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtractionList",
+      },
+      smartscape_node_extraction: {
+        value: openpipelineV2MetricsPipelinesSmartscapeNodeExtractionToHclTerraform(this._smartscapeNodeExtraction.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2MetricsPipelinesSmartscapeNodeExtractionList",
       },
       storage: {
         value: openpipelineV2MetricsPipelinesStorageToHclTerraform(this._storage.internalValue),

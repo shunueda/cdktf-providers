@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataDynatraceLambdaAgentVersionConfig extends cdktf.TerraformMe
   /**
   * Latest version name of standalone log collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#collector DataDynatraceLambdaAgentVersion#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#collector DataDynatraceLambdaAgentVersion#collector}
   */
   readonly collector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#id DataDynatraceLambdaAgentVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#id DataDynatraceLambdaAgentVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataDynatraceLambdaAgentVersionConfig extends cdktf.TerraformMe
   /**
   * Latest version name of Java code module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#java DataDynatraceLambdaAgentVersion#java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#java DataDynatraceLambdaAgentVersion#java}
   */
   readonly java?: string;
   /**
   * Latest version name of Java code module with log collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#java_with_collector DataDynatraceLambdaAgentVersion#java_with_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#java_with_collector DataDynatraceLambdaAgentVersion#java_with_collector}
   */
   readonly javaWithCollector?: string;
   /**
   * Latest version name of NodeJS code module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#nodejs DataDynatraceLambdaAgentVersion#nodejs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#nodejs DataDynatraceLambdaAgentVersion#nodejs}
   */
   readonly nodejs?: string;
   /**
   * Latest version name of NodeJS code module with log collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#nodejs_with_collector DataDynatraceLambdaAgentVersion#nodejs_with_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#nodejs_with_collector DataDynatraceLambdaAgentVersion#nodejs_with_collector}
   */
   readonly nodejsWithCollector?: string;
   /**
   * Latest version name of Python code module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#python DataDynatraceLambdaAgentVersion#python}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#python DataDynatraceLambdaAgentVersion#python}
   */
   readonly python?: string;
   /**
   * Latest version name of Python code module with log collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#python_with_collector DataDynatraceLambdaAgentVersion#python_with_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#python_with_collector DataDynatraceLambdaAgentVersion#python_with_collector}
   */
   readonly pythonWithCollector?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version dynatrace_lambda_agent_version}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version dynatrace_lambda_agent_version}
 */
 export class DataDynatraceLambdaAgentVersion extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataDynatraceLambdaAgentVersion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDynatraceLambdaAgentVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatraceLambdaAgentVersion to import
-  * @param importFromId The id of the existing DataDynatraceLambdaAgentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatraceLambdaAgentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatraceLambdaAgentVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataDynatraceLambdaAgentVersion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/lambda_agent_version dynatrace_lambda_agent_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/lambda_agent_version dynatrace_lambda_agent_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataDynatraceLambdaAgentVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_lambda_agent_version',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

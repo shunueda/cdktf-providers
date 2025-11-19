@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OneagentUpdatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#id OneagentUpdates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#id OneagentUpdates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface OneagentUpdatesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#revision OneagentUpdates#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#revision OneagentUpdates#revision}
   */
   readonly revision?: string;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#scope OneagentUpdates#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#scope OneagentUpdates#scope}
   */
   readonly scope?: string;
   /**
   * Target version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#target_version OneagentUpdates#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#target_version OneagentUpdates#target_version}
   */
   readonly targetVersion?: string;
   /**
   * Possible Values: `AUTOMATIC`, `AUTOMATIC_DURING_MW`, `MANUAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#update_mode OneagentUpdates#update_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#update_mode OneagentUpdates#update_mode}
   */
   readonly updateMode: string;
   /**
   * maintenance_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#maintenance_windows OneagentUpdates#maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#maintenance_windows OneagentUpdates#maintenance_windows}
   */
   readonly maintenanceWindows?: OneagentUpdatesMaintenanceWindows;
 }
@@ -49,7 +49,7 @@ export interface OneagentUpdatesMaintenanceWindowsMaintenanceWindow {
   /**
   * Select a [maintenance window for OneAgent updates](/ui/settings/builtin:deployment.management.update-windows)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#maintenance_window OneagentUpdates#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#maintenance_window OneagentUpdates#maintenance_window}
   */
   readonly maintenanceWindow: string;
 }
@@ -164,7 +164,7 @@ export interface OneagentUpdatesMaintenanceWindows {
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#maintenance_window OneagentUpdates#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#maintenance_window OneagentUpdates#maintenance_window}
   */
   readonly maintenanceWindow: OneagentUpdatesMaintenanceWindowsMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -245,7 +245,7 @@ export class OneagentUpdatesMaintenanceWindowsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates dynatrace_oneagent_updates}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates dynatrace_oneagent_updates}
 */
 export class OneagentUpdates extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class OneagentUpdates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OneagentUpdates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OneagentUpdates to import
-  * @param importFromId The id of the existing OneagentUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OneagentUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OneagentUpdates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class OneagentUpdates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/oneagent_updates dynatrace_oneagent_updates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_updates dynatrace_oneagent_updates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class OneagentUpdates extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_oneagent_updates',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

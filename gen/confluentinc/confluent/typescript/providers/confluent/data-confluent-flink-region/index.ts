@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region
+// https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentFlinkRegionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region#cloud DataConfluentFlinkRegion#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region#cloud DataConfluentFlinkRegion#cloud}
   */
   readonly cloud: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region#region DataConfluentFlinkRegion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region#region DataConfluentFlinkRegion#region}
   */
   readonly region: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region confluent_flink_region}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region confluent_flink_region}
 */
 export class DataConfluentFlinkRegion extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataConfluentFlinkRegion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentFlinkRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentFlinkRegion to import
-  * @param importFromId The id of the existing DataConfluentFlinkRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentFlinkRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentFlinkRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataConfluentFlinkRegion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.51.0/docs/data-sources/flink_region confluent_flink_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.52.0/docs/data-sources/flink_region confluent_flink_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataConfluentFlinkRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_flink_region',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0',
-        providerVersionConstraint: '2.51.0'
+        providerVersion: '2.52.0',
+        providerVersionConstraint: '2.52.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

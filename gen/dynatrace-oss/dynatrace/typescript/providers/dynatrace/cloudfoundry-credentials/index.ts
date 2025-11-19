@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudfoundryCredentialsConfig extends cdktf.TerraformMetaArgume
   /**
   * The monitoring is enabled (`true`) or disabled (`false`) for given credentials configuration.  If not set on creation, the `true` value is used.  If the field is omitted during an update, the old value remains unaffected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#active CloudfoundryCredentials#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#active CloudfoundryCredentials#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The URL of the Cloud Foundry foundation credentials.  The URL must be valid according to RFC 2396.  Leading or trailing whitespaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#api_url CloudfoundryCredentials#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#api_url CloudfoundryCredentials#api_url}
   */
   readonly apiUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#id CloudfoundryCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#id CloudfoundryCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CloudfoundryCredentialsConfig extends cdktf.TerraformMetaArgume
   /**
   * The login URL of the Cloud Foundry foundation credentials. The URL must be valid according to RFC 2396.  Leading or trailing whitespaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#login_url CloudfoundryCredentials#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#login_url CloudfoundryCredentials#login_url}
   */
   readonly loginUrl: string;
   /**
   * The name of the Cloud Foundry foundation credentials.  Allowed characters are letters, numbers, whitespaces, and the following characters: `.+-_`. Leading or trailing whitespace is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#name CloudfoundryCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#name CloudfoundryCredentials#name}
   */
   readonly name: string;
   /**
   * The password of the Cloud Foundry foundation credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#password CloudfoundryCredentials#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#password CloudfoundryCredentials#password}
   */
   readonly password?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#unknowns CloudfoundryCredentials#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#unknowns CloudfoundryCredentials#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The username of the Cloud Foundry foundation credentials.  Leading and trailing whitespaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#username CloudfoundryCredentials#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#username CloudfoundryCredentials#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials dynatrace_cloudfoundry_credentials}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials dynatrace_cloudfoundry_credentials}
 */
 export class CloudfoundryCredentials extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CloudfoundryCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudfoundryCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfoundryCredentials to import
-  * @param importFromId The id of the existing CloudfoundryCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfoundryCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfoundryCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CloudfoundryCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/cloudfoundry_credentials dynatrace_cloudfoundry_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloudfoundry_credentials dynatrace_cloudfoundry_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CloudfoundryCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_cloudfoundry_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MetricMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#description MetricMetadata#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#description MetricMetadata#description}
   */
   readonly description?: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#display_name MetricMetadata#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#display_name MetricMetadata#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#id MetricMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#id MetricMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface MetricMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#metric_id MetricMetadata#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#metric_id MetricMetadata#metric_id}
   */
   readonly metricId: string;
   /**
   * Specifies which entity dimension should be used as the primary dimension. The property can only be configured for metrics ingested with the Metrics API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#source_entity_type MetricMetadata#source_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#source_entity_type MetricMetadata#source_entity_type}
   */
   readonly sourceEntityType?: string;
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#tags MetricMetadata#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#tags MetricMetadata#tags}
   */
   readonly tags?: string[];
   /**
   * Unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#unit MetricMetadata#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#unit MetricMetadata#unit}
   */
   readonly unit: string;
   /**
@@ -59,19 +59,19 @@ export interface MetricMetadataConfig extends cdktf.TerraformMetaArguments {
   * 
   * If not set, the decimal system is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#unit_display_format MetricMetadata#unit_display_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#unit_display_format MetricMetadata#unit_display_format}
   */
   readonly unitDisplayFormat?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#dimensions MetricMetadata#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#dimensions MetricMetadata#dimensions}
   */
   readonly dimensions?: MetricMetadataDimensions;
   /**
   * metric_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#metric_properties MetricMetadata#metric_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#metric_properties MetricMetadata#metric_properties}
   */
   readonly metricProperties?: MetricMetadataMetricProperties;
 }
@@ -79,13 +79,13 @@ export interface MetricMetadataDimensionsDimension {
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#display_name MetricMetadata#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#display_name MetricMetadata#display_name}
   */
   readonly displayName?: string;
   /**
   * Dimension key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#key MetricMetadata#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#key MetricMetadata#key}
   */
   readonly key: string;
 }
@@ -229,7 +229,7 @@ export interface MetricMetadataDimensions {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#dimension MetricMetadata#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#dimension MetricMetadata#dimension}
   */
   readonly dimension: MetricMetadataDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -314,7 +314,7 @@ export interface MetricMetadataMetricProperties {
   * 
   * An impact-relevant metric is highly dependent on other metrics and changes because an underlying root-cause metric has changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#impact_relevant MetricMetadata#impact_relevant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#impact_relevant MetricMetadata#impact_relevant}
   */
   readonly impactRelevant?: boolean | cdktf.IResolvable;
   /**
@@ -324,19 +324,19 @@ export interface MetricMetadataMetricProperties {
   * 
   * The allowed value range is from 1 to 60 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#latency MetricMetadata#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#latency MetricMetadata#latency}
   */
   readonly latency?: number;
   /**
   * The maximum allowed value of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#max_value MetricMetadata#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#max_value MetricMetadata#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum allowed value of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#min_value MetricMetadata#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#min_value MetricMetadata#min_value}
   */
   readonly minValue?: number;
   /**
@@ -344,13 +344,13 @@ export interface MetricMetadataMetricProperties {
   * 
   * A root-cause relevant metric represents a strong indicator for a faulty component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#root_cause_relevant MetricMetadata#root_cause_relevant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#root_cause_relevant MetricMetadata#root_cause_relevant}
   */
   readonly rootCauseRelevant?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `Error`, `Score`, `Unknown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#value_type MetricMetadata#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#value_type MetricMetadata#value_type}
   */
   readonly valueType: string;
 }
@@ -576,7 +576,7 @@ export class MetricMetadataMetricPropertiesOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata dynatrace_metric_metadata}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata dynatrace_metric_metadata}
 */
 export class MetricMetadata extends cdktf.TerraformResource {
 
@@ -592,7 +592,7 @@ export class MetricMetadata extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricMetadata to import
-  * @param importFromId The id of the existing MetricMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +604,7 @@ export class MetricMetadata extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/metric_metadata dynatrace_metric_metadata} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/metric_metadata dynatrace_metric_metadata} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +615,8 @@ export class MetricMetadata extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_metric_metadata',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

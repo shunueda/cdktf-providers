@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry
+// https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIncidentCatalogEntryConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of this catalog type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry#catalog_type_id DataIncidentCatalogEntry#catalog_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry#catalog_type_id DataIncidentCatalogEntry#catalog_type_id}
   */
   readonly catalogTypeId: string;
   /**
   * The identifier to use for finding the catalog entry. This can be a name, external ID, or alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry#identifier DataIncidentCatalogEntry#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry#identifier DataIncidentCatalogEntry#identifier}
   */
   readonly identifier: string;
 }
@@ -107,7 +107,7 @@ export class DataIncidentCatalogEntryAttributeValuesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry incident_catalog_entry}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry incident_catalog_entry}
 */
 export class DataIncidentCatalogEntry extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataIncidentCatalogEntry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncidentCatalogEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncidentCatalogEntry to import
-  * @param importFromId The id of the existing DataIncidentCatalogEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncidentCatalogEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncidentCatalogEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataIncidentCatalogEntry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.18.0/docs/data-sources/catalog_entry incident_catalog_entry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.19.0/docs/data-sources/catalog_entry incident_catalog_entry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataIncidentCatalogEntry extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_catalog_entry',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.18.0',
-        providerVersionConstraint: '5.18.0'
+        providerVersion: '5.19.0',
+        providerVersionConstraint: '5.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

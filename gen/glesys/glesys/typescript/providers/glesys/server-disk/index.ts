@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk
+// https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServerDiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disk descriptive name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk#name ServerDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk#name ServerDisk#name}
   */
   readonly name?: string;
   /**
   * Associated `glesys_server` id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk#serverid ServerDisk#serverid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk#serverid ServerDisk#serverid}
   */
   readonly serverid: string;
   /**
   * Disk size in GIB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk#size ServerDisk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk#size ServerDisk#size}
   */
   readonly size: number;
   /**
   * Disk type [gold|silver]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk#type ServerDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk#type ServerDisk#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk glesys_server_disk}
+* Represents a {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk glesys_server_disk}
 */
 export class ServerDisk extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServerDisk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerDisk to import
-  * @param importFromId The id of the existing ServerDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServerDisk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.15.0/docs/resources/server_disk glesys_server_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glesys/glesys/0.16.0/docs/resources/server_disk glesys_server_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServerDisk extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_server_disk',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0',
-        providerVersionConstraint: '0.15.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

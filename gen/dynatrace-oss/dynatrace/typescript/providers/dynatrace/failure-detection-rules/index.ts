@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FailureDetectionRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * Rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#description FailureDetectionRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#description FailureDetectionRules#description}
   */
   readonly description?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#enabled FailureDetectionRules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#enabled FailureDetectionRules#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#id FailureDetectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#id FailureDetectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface FailureDetectionRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#insert_after FailureDetectionRules#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#insert_after FailureDetectionRules#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#name FailureDetectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#name FailureDetectionRules#name}
   */
   readonly name: string;
   /**
   * Failure detection parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#parameter_id FailureDetectionRules#parameter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#parameter_id FailureDetectionRules#parameter_id}
   */
   readonly parameterId: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#conditions FailureDetectionRules#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#conditions FailureDetectionRules#conditions}
   */
   readonly conditions: FailureDetectionRulesConditions;
 }
@@ -55,43 +55,43 @@ export interface FailureDetectionRulesConditionsConditionPredicate {
   /**
   * Case sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#case_sensitive FailureDetectionRules#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#case_sensitive FailureDetectionRules#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Management zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#management_zones FailureDetectionRules#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#management_zones FailureDetectionRules#management_zones}
   */
   readonly managementZones?: string[];
   /**
   * Predicate type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#predicate_type FailureDetectionRules#predicate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#predicate_type FailureDetectionRules#predicate_type}
   */
   readonly predicateType: string;
   /**
   * Service types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#service_type FailureDetectionRules#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#service_type FailureDetectionRules#service_type}
   */
   readonly serviceType?: string[];
   /**
   * Tag keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#tag_keys FailureDetectionRules#tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#tag_keys FailureDetectionRules#tag_keys}
   */
   readonly tagKeys?: string[];
   /**
   * Tags (exact match)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#tags FailureDetectionRules#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#tags FailureDetectionRules#tags}
   */
   readonly tags?: string[];
   /**
   * Names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#text_values FailureDetectionRules#text_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#text_values FailureDetectionRules#text_values}
   */
   readonly textValues?: string[];
 }
@@ -348,13 +348,13 @@ export interface FailureDetectionRulesConditionsCondition {
   /**
   * Possible Values: `PG_NAME`, `PG_TAG`, `SERVICE_MANAGEMENT_ZONE`, `SERVICE_NAME`, `SERVICE_TAG`, `SERVICE_TYPE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#attribute FailureDetectionRules#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#attribute FailureDetectionRules#attribute}
   */
   readonly attribute: string;
   /**
   * predicate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#predicate FailureDetectionRules#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#predicate FailureDetectionRules#predicate}
   */
   readonly predicate: FailureDetectionRulesConditionsConditionPredicate;
 }
@@ -495,7 +495,7 @@ export interface FailureDetectionRulesConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#condition FailureDetectionRules#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#condition FailureDetectionRules#condition}
   */
   readonly condition: FailureDetectionRulesConditionsCondition[] | cdktf.IResolvable;
 }
@@ -576,7 +576,7 @@ export class FailureDetectionRulesConditionsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules dynatrace_failure_detection_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules dynatrace_failure_detection_rules}
 */
 export class FailureDetectionRules extends cdktf.TerraformResource {
 
@@ -592,7 +592,7 @@ export class FailureDetectionRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FailureDetectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FailureDetectionRules to import
-  * @param importFromId The id of the existing FailureDetectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FailureDetectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FailureDetectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -604,7 +604,7 @@ export class FailureDetectionRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/failure_detection_rules dynatrace_failure_detection_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rules dynatrace_failure_detection_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -615,8 +615,8 @@ export class FailureDetectionRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_failure_detection_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

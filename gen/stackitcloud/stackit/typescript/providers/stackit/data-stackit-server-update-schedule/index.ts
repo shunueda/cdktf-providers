@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitServerUpdateScheduleConfig extends cdktf.TerraformMe
   /**
   * STACKIT Project ID to which the server is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule#project_id DataStackitServerUpdateSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule#project_id DataStackitServerUpdateSchedule#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule#region DataStackitServerUpdateSchedule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule#region DataStackitServerUpdateSchedule#region}
   */
   readonly region?: string;
   /**
   * Server ID for the update schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule#server_id DataStackitServerUpdateSchedule#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule#server_id DataStackitServerUpdateSchedule#server_id}
   */
   readonly serverId: string;
   /**
   * Update schedule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule#update_schedule_id DataStackitServerUpdateSchedule#update_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule#update_schedule_id DataStackitServerUpdateSchedule#update_schedule_id}
   */
   readonly updateScheduleId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule stackit_server_update_schedule}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule stackit_server_update_schedule}
 */
 export class DataStackitServerUpdateSchedule extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataStackitServerUpdateSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitServerUpdateSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitServerUpdateSchedule to import
-  * @param importFromId The id of the existing DataStackitServerUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitServerUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitServerUpdateSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataStackitServerUpdateSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.70.0/docs/data-sources/server_update_schedule stackit_server_update_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.71.0/docs/data-sources/server_update_schedule stackit_server_update_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataStackitServerUpdateSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_server_update_schedule',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.70.0',
-        providerVersionConstraint: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

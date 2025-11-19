@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BrowserMonitorPerformanceConfig extends cdktf.TerraformMetaArgu
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#enabled BrowserMonitorPerformance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#enabled BrowserMonitorPerformance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#id BrowserMonitorPerformance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#id BrowserMonitorPerformance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,47 @@ export interface BrowserMonitorPerformanceConfig extends cdktf.TerraformMetaArgu
   /**
   * The scope of this setting (SYNTHETIC_TEST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#scope BrowserMonitorPerformance#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#scope BrowserMonitorPerformance#scope}
   */
   readonly scope: string;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#thresholds BrowserMonitorPerformance#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#thresholds BrowserMonitorPerformance#thresholds}
   */
   readonly thresholds?: BrowserMonitorPerformanceThresholds;
 }
 export interface BrowserMonitorPerformanceThresholdsThreshold {
   /**
+  * Number of most recent non-violating executions that closes the problem
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#dealerting_samples BrowserMonitorPerformance#dealerting_samples}
+  */
+  readonly dealertingSamples?: number;
+  /**
   * Synthetic event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#event BrowserMonitorPerformance#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#event BrowserMonitorPerformance#event}
   */
   readonly event: string;
   /**
+  * Number of executions in analyzed sliding window (sliding window size)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#samples BrowserMonitorPerformance#samples}
+  */
+  readonly samples?: number;
+  /**
   * Threshold (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
   */
   readonly threshold: number;
+  /**
+  * Number of violating executions in analyzed sliding window
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#violating_samples BrowserMonitorPerformance#violating_samples}
+  */
+  readonly violatingSamples?: number;
 }
 
 export function browserMonitorPerformanceThresholdsThresholdToTerraform(struct?: BrowserMonitorPerformanceThresholdsThreshold | cdktf.IResolvable): any {
@@ -54,8 +72,11 @@ export function browserMonitorPerformanceThresholdsThresholdToTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    dealerting_samples: cdktf.numberToTerraform(struct!.dealertingSamples),
     event: cdktf.stringToTerraform(struct!.event),
+    samples: cdktf.numberToTerraform(struct!.samples),
     threshold: cdktf.numberToTerraform(struct!.threshold),
+    violating_samples: cdktf.numberToTerraform(struct!.violatingSamples),
   }
 }
 
@@ -66,14 +87,32 @@ export function browserMonitorPerformanceThresholdsThresholdToHclTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    dealerting_samples: {
+      value: cdktf.numberToHclTerraform(struct!.dealertingSamples),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     event: {
       value: cdktf.stringToHclTerraform(struct!.event),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
+    samples: {
+      value: cdktf.numberToHclTerraform(struct!.samples),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     threshold: {
       value: cdktf.numberToHclTerraform(struct!.threshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    violating_samples: {
+      value: cdktf.numberToHclTerraform(struct!.violatingSamples),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -104,13 +143,25 @@ export class BrowserMonitorPerformanceThresholdsThresholdOutputReference extends
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._dealertingSamples !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dealertingSamples = this._dealertingSamples;
+    }
     if (this._event !== undefined) {
       hasAnyValues = true;
       internalValueResult.event = this._event;
     }
+    if (this._samples !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.samples = this._samples;
+    }
     if (this._threshold !== undefined) {
       hasAnyValues = true;
       internalValueResult.threshold = this._threshold;
+    }
+    if (this._violatingSamples !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.violatingSamples = this._violatingSamples;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -119,8 +170,11 @@ export class BrowserMonitorPerformanceThresholdsThresholdOutputReference extends
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._dealertingSamples = undefined;
       this._event = undefined;
+      this._samples = undefined;
       this._threshold = undefined;
+      this._violatingSamples = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -129,9 +183,28 @@ export class BrowserMonitorPerformanceThresholdsThresholdOutputReference extends
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._dealertingSamples = value.dealertingSamples;
       this._event = value.event;
+      this._samples = value.samples;
       this._threshold = value.threshold;
+      this._violatingSamples = value.violatingSamples;
     }
+  }
+
+  // dealerting_samples - computed: false, optional: true, required: false
+  private _dealertingSamples?: number; 
+  public get dealertingSamples() {
+    return this.getNumberAttribute('dealerting_samples');
+  }
+  public set dealertingSamples(value: number) {
+    this._dealertingSamples = value;
+  }
+  public resetDealertingSamples() {
+    this._dealertingSamples = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dealertingSamplesInput() {
+    return this._dealertingSamples;
   }
 
   // event - computed: false, optional: false, required: true
@@ -147,6 +220,22 @@ export class BrowserMonitorPerformanceThresholdsThresholdOutputReference extends
     return this._event;
   }
 
+  // samples - computed: false, optional: true, required: false
+  private _samples?: number; 
+  public get samples() {
+    return this.getNumberAttribute('samples');
+  }
+  public set samples(value: number) {
+    this._samples = value;
+  }
+  public resetSamples() {
+    this._samples = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplesInput() {
+    return this._samples;
+  }
+
   // threshold - computed: false, optional: false, required: true
   private _threshold?: number; 
   public get threshold() {
@@ -158,6 +247,22 @@ export class BrowserMonitorPerformanceThresholdsThresholdOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get thresholdInput() {
     return this._threshold;
+  }
+
+  // violating_samples - computed: false, optional: true, required: false
+  private _violatingSamples?: number; 
+  public get violatingSamples() {
+    return this.getNumberAttribute('violating_samples');
+  }
+  public set violatingSamples(value: number) {
+    this._violatingSamples = value;
+  }
+  public resetViolatingSamples() {
+    this._violatingSamples = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get violatingSamplesInput() {
+    return this._violatingSamples;
   }
 }
 
@@ -184,7 +289,7 @@ export interface BrowserMonitorPerformanceThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
   */
   readonly threshold: BrowserMonitorPerformanceThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -265,7 +370,7 @@ export class BrowserMonitorPerformanceThresholdsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance}
 */
 export class BrowserMonitorPerformance extends cdktf.TerraformResource {
 
@@ -281,7 +386,7 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrowserMonitorPerformance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrowserMonitorPerformance to import
-  * @param importFromId The id of the existing BrowserMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrowserMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrowserMonitorPerformance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +398,7 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +409,8 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_browser_monitor_performance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

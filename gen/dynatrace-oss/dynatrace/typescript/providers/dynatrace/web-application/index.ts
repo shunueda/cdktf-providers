@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Field has overlap with `dynatrace_web_app_enablement`) Analize *X*% of user sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cost_control_user_session_percentage WebApplication#cost_control_user_session_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cost_control_user_session_percentage WebApplication#cost_control_user_session_percentage}
   */
   readonly costControlUserSessionPercentage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#id WebApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#id WebApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,109 +23,109 @@ export interface WebApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The key performance metric of load actions. Possible values are `ACTION_DURATION`, `CUMULATIVE_LAYOUT_SHIFT`, `DOM_INTERACTIVE`, `FIRST_INPUT_DELAY`, `LARGEST_CONTENTFUL_PAINT`, `LOAD_EVENT_END`, `LOAD_EVENT_START`, `RESPONSE_END`, `RESPONSE_START`, `SPEED_INDEX` and `VISUALLY_COMPLETE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#load_action_key_performance_metric WebApplication#load_action_key_performance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#load_action_key_performance_metric WebApplication#load_action_key_performance_metric}
   */
   readonly loadActionKeyPerformanceMetric: string;
   /**
   * The name of the web application, displayed in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#name WebApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#name WebApplication#name}
   */
   readonly name: string;
   /**
   * (Field has overlap with `dynatrace_web_app_enablement`) Real user monitoring enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#real_user_monitoring_enabled WebApplication#real_user_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#real_user_monitoring_enabled WebApplication#real_user_monitoring_enabled}
   */
   readonly realUserMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The type of the web application. Possible values are `AUTO_INJECTED`, `BROWSER_EXTENSION_INJECTED` and `MANUALLY_INJECTED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type: string;
   /**
   * URL injection pattern for manual web application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#url_injection_pattern WebApplication#url_injection_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#url_injection_pattern WebApplication#url_injection_pattern}
   */
   readonly urlInjectionPattern?: string;
   /**
   * The key performance metric of XHR actions. Possible values are `ACTION_DURATION`, `RESPONSE_END`, `RESPONSE_START` and `VISUALLY_COMPLETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#xhr_action_key_performance_metric WebApplication#xhr_action_key_performance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#xhr_action_key_performance_metric WebApplication#xhr_action_key_performance_metric}
   */
   readonly xhrActionKeyPerformanceMetric: string;
   /**
   * conversion_goals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#conversion_goals WebApplication#conversion_goals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#conversion_goals WebApplication#conversion_goals}
   */
   readonly conversionGoals?: WebApplicationConversionGoals;
   /**
   * custom_action_apdex_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#custom_action_apdex_settings WebApplication#custom_action_apdex_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#custom_action_apdex_settings WebApplication#custom_action_apdex_settings}
   */
   readonly customActionApdexSettings: WebApplicationCustomActionApdexSettings;
   /**
   * key_user_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#key_user_actions WebApplication#key_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#key_user_actions WebApplication#key_user_actions}
   */
   readonly keyUserActions?: WebApplicationKeyUserActions[] | cdktf.IResolvable;
   /**
   * load_action_apdex_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#load_action_apdex_settings WebApplication#load_action_apdex_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#load_action_apdex_settings WebApplication#load_action_apdex_settings}
   */
   readonly loadActionApdexSettings: WebApplicationLoadActionApdexSettings;
   /**
   * meta_data_capture_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#meta_data_capture_settings WebApplication#meta_data_capture_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#meta_data_capture_settings WebApplication#meta_data_capture_settings}
   */
   readonly metaDataCaptureSettings?: WebApplicationMetaDataCaptureSettings;
   /**
   * monitoring_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#monitoring_settings WebApplication#monitoring_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#monitoring_settings WebApplication#monitoring_settings}
   */
   readonly monitoringSettings: WebApplicationMonitoringSettings;
   /**
   * session_replay_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#session_replay_config WebApplication#session_replay_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#session_replay_config WebApplication#session_replay_config}
   */
   readonly sessionReplayConfig?: WebApplicationSessionReplayConfig;
   /**
   * user_action_and_session_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#user_action_and_session_properties WebApplication#user_action_and_session_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#user_action_and_session_properties WebApplication#user_action_and_session_properties}
   */
   readonly userActionAndSessionProperties?: WebApplicationUserActionAndSessionProperties;
   /**
   * user_action_naming_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#user_action_naming_settings WebApplication#user_action_naming_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#user_action_naming_settings WebApplication#user_action_naming_settings}
   */
   readonly userActionNamingSettings?: WebApplicationUserActionNamingSettings;
   /**
   * user_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#user_tags WebApplication#user_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#user_tags WebApplication#user_tags}
   */
   readonly userTags?: WebApplicationUserTags;
   /**
   * waterfall_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#waterfall_settings WebApplication#waterfall_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#waterfall_settings WebApplication#waterfall_settings}
   */
   readonly waterfallSettings: WebApplicationWaterfallSettings;
   /**
   * xhr_action_apdex_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#xhr_action_apdex_settings WebApplication#xhr_action_apdex_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#xhr_action_apdex_settings WebApplication#xhr_action_apdex_settings}
   */
   readonly xhrActionApdexSettings: WebApplicationXhrActionApdexSettings;
 }
@@ -133,19 +133,19 @@ export interface WebApplicationConversionGoalsGoalDestination {
   /**
   * The match is case-sensitive (`true`) or (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#case_sensitive WebApplication#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#case_sensitive WebApplication#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * The operator of the match. Possible values are `Begins`, `Contains` and `Ends`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#match_type WebApplication#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#match_type WebApplication#match_type}
   */
   readonly matchType?: string;
   /**
   * The path to be reached to hit the conversion goal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#url_or_path WebApplication#url_or_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#url_or_path WebApplication#url_or_path}
   */
   readonly urlOrPath: string;
 }
@@ -286,31 +286,31 @@ export interface WebApplicationConversionGoalsGoalUserAction {
   /**
   * Type of the action to which the rule applies. Possible values are `Custom`, `Load` and `Xhr`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#action_type WebApplication#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#action_type WebApplication#action_type}
   */
   readonly actionType?: string;
   /**
   * The match is case-sensitive (`true`) or (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#case_sensitive WebApplication#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#case_sensitive WebApplication#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * The type of the entity to which the rule applies. Possible values are `ActionName`, `CssSelector`, `JavaScriptVariable`, `MetaTag`, `PagePath`, `PageTitle`, `PageUrl`, `UrlAnchor` and `XhrUrl`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#match_entity WebApplication#match_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#match_entity WebApplication#match_entity}
   */
   readonly matchEntity?: string;
   /**
   * The operator of the match. Possible values are `Begins`, `Contains` and `Ends`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#match_type WebApplication#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#match_type WebApplication#match_type}
   */
   readonly matchType?: string;
   /**
   * The value to be matched to hit the conversion goal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#value WebApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#value WebApplication#value}
   */
   readonly value?: string;
 }
@@ -512,7 +512,7 @@ export interface WebApplicationConversionGoalsGoalVisitDuration {
   /**
   * The duration of session to hit the conversion goal, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#duration WebApplication#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#duration WebApplication#duration}
   */
   readonly duration: number;
 }
@@ -595,7 +595,7 @@ export interface WebApplicationConversionGoalsGoalVisitNumAction {
   /**
   * The number of user actions to hit the conversion goal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#num_user_actions WebApplication#num_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#num_user_actions WebApplication#num_user_actions}
   */
   readonly numUserActions?: number;
 }
@@ -683,7 +683,7 @@ export interface WebApplicationConversionGoalsGoal {
   * 
   *  Omit it while creating a new conversion goal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#id WebApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#id WebApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -692,37 +692,37 @@ export interface WebApplicationConversionGoalsGoal {
   /**
   * The name of the conversion goal. Valid length within 1 and 50 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#name WebApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#name WebApplication#name}
   */
   readonly name: string;
   /**
   * The type of the conversion goal. Possible values are `Destination`, `UserAction`, `VisitDuration` and `VisitNumActions`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#destination WebApplication#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#destination WebApplication#destination}
   */
   readonly destination?: WebApplicationConversionGoalsGoalDestination;
   /**
   * user_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#user_action WebApplication#user_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#user_action WebApplication#user_action}
   */
   readonly userAction?: WebApplicationConversionGoalsGoalUserAction;
   /**
   * visit_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#visit_duration WebApplication#visit_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#visit_duration WebApplication#visit_duration}
   */
   readonly visitDuration?: WebApplicationConversionGoalsGoalVisitDuration;
   /**
   * visit_num_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#visit_num_action WebApplication#visit_num_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#visit_num_action WebApplication#visit_num_action}
   */
   readonly visitNumAction?: WebApplicationConversionGoalsGoalVisitNumAction;
 }
@@ -1011,7 +1011,7 @@ export interface WebApplicationConversionGoals {
   /**
   * goal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#goal WebApplication#goal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#goal WebApplication#goal}
   */
   readonly goal: WebApplicationConversionGoalsGoal[] | cdktf.IResolvable;
 }
@@ -1094,31 +1094,31 @@ export interface WebApplicationCustomActionApdexSettings {
   /**
   * Fallback threshold of an XHR action, defining a tolerable user experience, when the configured KPM is not available. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
   */
   readonly frustratingFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as tolerable user experience. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
   */
   readonly frustratingThreshold: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#threshold WebApplication#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#threshold WebApplication#threshold}
   */
   readonly threshold?: number;
   /**
   * Fallback threshold of an XHR action, defining a satisfied user experience, when the configured KPM is not available. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
   */
   readonly toleratedFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as satisfied user experience. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
   */
   readonly toleratedThreshold: number;
 }
@@ -1308,19 +1308,19 @@ export interface WebApplicationKeyUserActionsAction {
   /**
   * The domain where the action is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#domain WebApplication#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#domain WebApplication#domain}
   */
   readonly domain?: string;
   /**
   * The name of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#name WebApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#name WebApplication#name}
   */
   readonly name: string;
   /**
   * The type of the action. Possible values are `Custom`, `Load` and `Xhr`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type: string;
 }
@@ -1490,7 +1490,7 @@ export interface WebApplicationKeyUserActions {
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#action WebApplication#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#action WebApplication#action}
   */
   readonly action: WebApplicationKeyUserActionsAction[] | cdktf.IResolvable;
 }
@@ -1605,31 +1605,31 @@ export interface WebApplicationLoadActionApdexSettings {
   /**
   * Fallback threshold of an XHR action, defining a tolerable user experience, when the configured KPM is not available. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
   */
   readonly frustratingFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as tolerable user experience. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
   */
   readonly frustratingThreshold: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#threshold WebApplication#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#threshold WebApplication#threshold}
   */
   readonly threshold?: number;
   /**
   * Fallback threshold of an XHR action, defining a satisfied user experience, when the configured KPM is not available. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
   */
   readonly toleratedFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as satisfied user experience. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
   */
   readonly toleratedThreshold: number;
 }
@@ -1819,37 +1819,37 @@ export interface WebApplicationMetaDataCaptureSettingsCapture {
   /**
   * The name of the meta data to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#capturing_name WebApplication#capturing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#capturing_name WebApplication#capturing_name}
   */
   readonly capturingName: string;
   /**
   * Name for displaying the captured values in Dynatrace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#name WebApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#name WebApplication#name}
   */
   readonly name: string;
   /**
   * `true` if this metadata should be captured regardless of the privacy settings, `false` otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#public_metadata WebApplication#public_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#public_metadata WebApplication#public_metadata}
   */
   readonly publicMetadata?: boolean | cdktf.IResolvable;
   /**
   * The type of the meta data to capture. Possible values are `COOKIE`, `CSS_SELECTOR`, `JAVA_SCRIPT_FUNCTION`, `JAVA_SCRIPT_VARIABLE`, `META_TAG` and `QUERY_STRING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type: string;
   /**
   * The unique ID of the meta data to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#unique_id WebApplication#unique_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#unique_id WebApplication#unique_id}
   */
   readonly uniqueId?: number;
   /**
   * `true` if the last captured value should be used for this metadata. By default the first value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_last_value WebApplication#use_last_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_last_value WebApplication#use_last_value}
   */
   readonly useLastValue?: boolean | cdktf.IResolvable;
 }
@@ -2103,7 +2103,7 @@ export interface WebApplicationMetaDataCaptureSettings {
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#capture WebApplication#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#capture WebApplication#capture}
   */
   readonly capture?: WebApplicationMetaDataCaptureSettingsCapture[] | cdktf.IResolvable;
 }
@@ -2189,43 +2189,43 @@ export interface WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsAd
   /**
   * Blur event handler enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#blur WebApplication#blur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#blur WebApplication#blur}
   */
   readonly blur?: boolean | cdktf.IResolvable;
   /**
   * Change event handler enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#change WebApplication#change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#change WebApplication#change}
   */
   readonly change?: boolean | cdktf.IResolvable;
   /**
   * Click event handler enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#click WebApplication#click}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#click WebApplication#click}
   */
   readonly click?: boolean | cdktf.IResolvable;
   /**
   * Max. number of DOM nodes to instrument. Valid values range from 0 to 100000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#max_dom_nodes WebApplication#max_dom_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#max_dom_nodes WebApplication#max_dom_nodes}
   */
   readonly maxDomNodes: number;
   /**
   * Mouseup event handler enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mouseup WebApplication#mouseup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mouseup WebApplication#mouseup}
   */
   readonly mouseup?: boolean | cdktf.IResolvable;
   /**
   * toString method enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#to_string_method WebApplication#to_string_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#to_string_method WebApplication#to_string_method}
   */
   readonly toStringMethod?: boolean | cdktf.IResolvable;
   /**
   * Use mouseup event for clicks enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_mouse_up_event_for_clicks WebApplication#use_mouse_up_event_for_clicks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_mouse_up_event_for_clicks WebApplication#use_mouse_up_event_for_clicks}
   */
   readonly useMouseUpEventForClicks?: boolean | cdktf.IResolvable;
 }
@@ -2482,37 +2482,37 @@ export interface WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsEv
   /**
   * Blur enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#blur WebApplication#blur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#blur WebApplication#blur}
   */
   readonly blur?: boolean | cdktf.IResolvable;
   /**
   * Change enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#change WebApplication#change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#change WebApplication#change}
   */
   readonly change?: boolean | cdktf.IResolvable;
   /**
   * Click enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#click WebApplication#click}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#click WebApplication#click}
   */
   readonly click?: boolean | cdktf.IResolvable;
   /**
   * MouseUp enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mouseup WebApplication#mouseup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mouseup WebApplication#mouseup}
   */
   readonly mouseup?: boolean | cdktf.IResolvable;
   /**
   * TouchEnd enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#touch_end WebApplication#touch_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#touch_end WebApplication#touch_end}
   */
   readonly touchEnd?: boolean | cdktf.IResolvable;
   /**
   * TouchStart enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#touch_start WebApplication#touch_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#touch_start WebApplication#touch_start}
   */
   readonly touchStart?: boolean | cdktf.IResolvable;
 }
@@ -2745,67 +2745,67 @@ export interface WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsGl
   * 
   * For example `DragStart` or `DragEnd`. Maximum 100 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#additional_event_captured_as_user_input WebApplication#additional_event_captured_as_user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#additional_event_captured_as_user_input WebApplication#additional_event_captured_as_user_input}
   */
   readonly additionalEventCapturedAsUserInput?: string;
   /**
   * Change enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#change WebApplication#change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#change WebApplication#change}
   */
   readonly change?: boolean | cdktf.IResolvable;
   /**
   * Click enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#click WebApplication#click}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#click WebApplication#click}
   */
   readonly click?: boolean | cdktf.IResolvable;
   /**
   * DoubleClick enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#doubleclick WebApplication#doubleclick}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#doubleclick WebApplication#doubleclick}
   */
   readonly doubleclick?: boolean | cdktf.IResolvable;
   /**
   * KeyDown enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#keydown WebApplication#keydown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#keydown WebApplication#keydown}
   */
   readonly keydown?: boolean | cdktf.IResolvable;
   /**
   * KeyUp enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#keyup WebApplication#keyup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#keyup WebApplication#keyup}
   */
   readonly keyup?: boolean | cdktf.IResolvable;
   /**
   * MouseDown enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mousedown WebApplication#mousedown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mousedown WebApplication#mousedown}
   */
   readonly mousedown?: boolean | cdktf.IResolvable;
   /**
   * MouseUp enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mouseup WebApplication#mouseup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mouseup WebApplication#mouseup}
   */
   readonly mouseup?: boolean | cdktf.IResolvable;
   /**
   * Scroll enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#scroll WebApplication#scroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#scroll WebApplication#scroll}
   */
   readonly scroll?: boolean | cdktf.IResolvable;
   /**
   * TouchEnd enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#touch_end WebApplication#touch_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#touch_end WebApplication#touch_end}
   */
   readonly touchEnd?: boolean | cdktf.IResolvable;
   /**
   * TouchStart enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#touch_start WebApplication#touch_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#touch_start WebApplication#touch_start}
   */
   readonly touchStart?: boolean | cdktf.IResolvable;
 }
@@ -3181,67 +3181,67 @@ export interface WebApplicationMonitoringSettingsAdvancedJavascriptTagSettings {
   /**
   * Instrumentation of unsupported Ajax frameworks enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#instrument_unsupported_ajax_frameworks WebApplication#instrument_unsupported_ajax_frameworks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#instrument_unsupported_ajax_frameworks WebApplication#instrument_unsupported_ajax_frameworks}
   */
   readonly instrumentUnsupportedAjaxFrameworks?: boolean | cdktf.IResolvable;
   /**
   * Maximum character length for action names. Valid values range from 5 to 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#max_action_name_length WebApplication#max_action_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#max_action_name_length WebApplication#max_action_name_length}
   */
   readonly maxActionNameLength: number;
   /**
   * Maximum number of errors to be captured per page. Valid values range from 0 to 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#max_errors_to_capture WebApplication#max_errors_to_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#max_errors_to_capture WebApplication#max_errors_to_capture}
   */
   readonly maxErrorsToCapture: number;
   /**
   * Proxy wrapper enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#proxy_wrapper_enabled WebApplication#proxy_wrapper_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#proxy_wrapper_enabled WebApplication#proxy_wrapper_enabled}
   */
   readonly proxyWrapperEnabled?: boolean | cdktf.IResolvable;
   /**
   * Additional special characters that are to be escaped using non-alphanumeric characters in HTML escape format. Maximum length 30 character. Allowed characters are `^`, `\`, `<` and `>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#special_characters_to_escape WebApplication#special_characters_to_escape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#special_characters_to_escape WebApplication#special_characters_to_escape}
   */
   readonly specialCharactersToEscape?: string;
   /**
   * Send the beacon signal as a synchronous XMLHttpRequest using Firefox enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#sync_beacon_firefox WebApplication#sync_beacon_firefox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#sync_beacon_firefox WebApplication#sync_beacon_firefox}
   */
   readonly syncBeaconFirefox?: boolean | cdktf.IResolvable;
   /**
   * Send the beacon signal as a synchronous XMLHttpRequest using Internet Explorer enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#sync_beacon_internet_explorer WebApplication#sync_beacon_internet_explorer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#sync_beacon_internet_explorer WebApplication#sync_beacon_internet_explorer}
   */
   readonly syncBeaconInternetExplorer?: boolean | cdktf.IResolvable;
   /**
   * User action name attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#user_action_name_attribute WebApplication#user_action_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#user_action_name_attribute WebApplication#user_action_name_attribute}
   */
   readonly userActionNameAttribute?: string;
   /**
   * additional_event_handlers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#additional_event_handlers WebApplication#additional_event_handlers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#additional_event_handlers WebApplication#additional_event_handlers}
   */
   readonly additionalEventHandlers: WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsAdditionalEventHandlers;
   /**
   * event_wrapper_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#event_wrapper_settings WebApplication#event_wrapper_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#event_wrapper_settings WebApplication#event_wrapper_settings}
   */
   readonly eventWrapperSettings?: WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsEventWrapperSettings;
   /**
   * global_event_capture_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#global_event_capture_settings WebApplication#global_event_capture_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#global_event_capture_settings WebApplication#global_event_capture_settings}
   */
   readonly globalEventCaptureSettings?: WebApplicationMonitoringSettingsAdvancedJavascriptTagSettingsGlobalEventCaptureSettings;
 }
@@ -3608,25 +3608,25 @@ export interface WebApplicationMonitoringSettingsBrowserRestrictionSettingsRestr
   /**
   * The type of the browser that is used. Possible values are `ANDROID_WEBKIT`, `BOTS_SPIDERS`, `CHROME`, `EDGE`, `FIREFOX`, `INTERNET_EXPLORER, `OPERA` and `SAFARI`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#browser_type WebApplication#browser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#browser_type WebApplication#browser_type}
   */
   readonly browserType: string;
   /**
   * The version of the browser that is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#browser_version WebApplication#browser_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#browser_version WebApplication#browser_version}
   */
   readonly browserVersion?: string;
   /**
   * No documentation available. Possible values are `EQUALS`, `GREATER_THAN_OR_EQUAL` and `LOWER_THAN_OR_EQUAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#comparator WebApplication#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#comparator WebApplication#comparator}
   */
   readonly comparator?: string;
   /**
   * The platform on which the browser is being used. Possible values are `ALL`, `DESKTOP` and `MOBILE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#platform WebApplication#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#platform WebApplication#platform}
   */
   readonly platform?: string;
 }
@@ -3828,7 +3828,7 @@ export interface WebApplicationMonitoringSettingsBrowserRestrictionSettingsRestr
   /**
   * restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#restriction WebApplication#restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#restriction WebApplication#restriction}
   */
   readonly restriction: WebApplicationMonitoringSettingsBrowserRestrictionSettingsRestrictionsRestriction[] | cdktf.IResolvable;
 }
@@ -3911,13 +3911,13 @@ export interface WebApplicationMonitoringSettingsBrowserRestrictionSettings {
   /**
   * The mode of the list of browser restrictions. Possible values area `EXCLUDE` and `INCLUDE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mode WebApplication#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mode WebApplication#mode}
   */
   readonly mode: string;
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#restrictions WebApplication#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#restrictions WebApplication#restrictions}
   */
   readonly restrictions?: WebApplicationMonitoringSettingsBrowserRestrictionSettingsRestrictions;
 }
@@ -4033,13 +4033,13 @@ export interface WebApplicationMonitoringSettingsContentCaptureResourceTimingSet
   * 
   * Only effective if `nonW3cResourceTimings` is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#instrumentation_delay WebApplication#instrumentation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#instrumentation_delay WebApplication#instrumentation_delay}
   */
   readonly instrumentationDelay: number;
   /**
   * Timing for JavaScript files and images on non-W3C supported browsers enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#non_w3c_resource_timings WebApplication#non_w3c_resource_timings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#non_w3c_resource_timings WebApplication#non_w3c_resource_timings}
   */
   readonly nonW3CResourceTimings?: boolean | cdktf.IResolvable;
   /**
@@ -4047,7 +4047,7 @@ export interface WebApplicationMonitoringSettingsContentCaptureResourceTimingSet
   * 
   * Only effective if **w3cResourceTimings** or **nonW3cResourceTimings** is enabled. Possible values are `CAPTURE_ALL_SUMMARIES`, `CAPTURE_FULL_DETAILS` and `CAPTURE_LIMITED_SUMMARIES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#resource_timing_capture_type WebApplication#resource_timing_capture_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#resource_timing_capture_type WebApplication#resource_timing_capture_type}
   */
   readonly resourceTimingCaptureType?: string;
   /**
@@ -4055,13 +4055,13 @@ export interface WebApplicationMonitoringSettingsContentCaptureResourceTimingSet
   * 
   * Only effective if **resourceTimingCaptureType** is `CAPTURE_LIMITED_SUMMARIES`. Valid values range from 0 to 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#resource_timings_domain_limit WebApplication#resource_timings_domain_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#resource_timings_domain_limit WebApplication#resource_timings_domain_limit}
   */
   readonly resourceTimingsDomainLimit?: number;
   /**
   * W3C resource timings for third party/CDN enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#w3c_resource_timings WebApplication#w3c_resource_timings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#w3c_resource_timings WebApplication#w3c_resource_timings}
   */
   readonly w3CResourceTimings?: boolean | cdktf.IResolvable;
 }
@@ -4260,13 +4260,13 @@ export interface WebApplicationMonitoringSettingsContentCaptureTimeoutSettings {
   /**
   * Defines how deep temporary actions may cascade. 0 disables temporary actions completely. Recommended value if enabled is 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#temporary_action_limit WebApplication#temporary_action_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#temporary_action_limit WebApplication#temporary_action_limit}
   */
   readonly temporaryActionLimit: number;
   /**
   * The total timeout of all cascaded timeouts that should still be able to create a temporary action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#temporary_action_total_timeout WebApplication#temporary_action_total_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#temporary_action_total_timeout WebApplication#temporary_action_total_timeout}
   */
   readonly temporaryActionTotalTimeout: number;
   /**
@@ -4274,7 +4274,7 @@ export interface WebApplicationMonitoringSettingsContentCaptureTimeoutSettings {
   * 
   * Enable to detect actions that trigger sending of XHRs via `setTimout` methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#timed_action_support WebApplication#timed_action_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#timed_action_support WebApplication#timed_action_support}
   */
   readonly timedActionSupport?: boolean | cdktf.IResolvable;
 }
@@ -4412,31 +4412,31 @@ export interface WebApplicationMonitoringSettingsContentCaptureVisuallyCompleteS
   /**
   * A RegularExpression used to exclude images and iframes from being detected by the VC module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#exclude_url_regex WebApplication#exclude_url_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#exclude_url_regex WebApplication#exclude_url_regex}
   */
   readonly excludeUrlRegex?: string;
   /**
   * Query selector for mutation nodes to ignore in VC and SI calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ignored_mutations_list WebApplication#ignored_mutations_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ignored_mutations_list WebApplication#ignored_mutations_list}
   */
   readonly ignoredMutationsList?: string;
   /**
   * The time in ms the VC module waits for no mutations happening on the page after the load action. Defaults to 1000. Valid values range from 0 to 30000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#inactivity_timeout WebApplication#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#inactivity_timeout WebApplication#inactivity_timeout}
   */
   readonly inactivityTimeout?: number;
   /**
   * Determines the time in ms VC waits after an action closes to start calculation. Defaults to 50. Valid values range from 0 to 5000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mutation_timeout WebApplication#mutation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mutation_timeout WebApplication#mutation_timeout}
   */
   readonly mutationTimeout?: number;
   /**
   * Minimum visible area in pixels of elements to be counted towards VC and SI. Defaults to 50. Valid values range from 0 to 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#threshold WebApplication#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#threshold WebApplication#threshold}
   */
   readonly threshold?: number;
 }
@@ -4638,31 +4638,31 @@ export interface WebApplicationMonitoringSettingsContentCapture {
   /**
   * JavaScript errors monitoring enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#javascript_errors WebApplication#javascript_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#javascript_errors WebApplication#javascript_errors}
   */
   readonly javascriptErrors?: boolean | cdktf.IResolvable;
   /**
   * Visually complete and Speed index support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#visually_complete_and_speed_index WebApplication#visually_complete_and_speed_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#visually_complete_and_speed_index WebApplication#visually_complete_and_speed_index}
   */
   readonly visuallyCompleteAndSpeedIndex?: boolean | cdktf.IResolvable;
   /**
   * resource_timing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#resource_timing_settings WebApplication#resource_timing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#resource_timing_settings WebApplication#resource_timing_settings}
   */
   readonly resourceTimingSettings: WebApplicationMonitoringSettingsContentCaptureResourceTimingSettings;
   /**
   * timeout_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#timeout_settings WebApplication#timeout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#timeout_settings WebApplication#timeout_settings}
   */
   readonly timeoutSettings: WebApplicationMonitoringSettingsContentCaptureTimeoutSettings;
   /**
   * visually_complete_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#visually_complete_settings WebApplication#visually_complete_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#visually_complete_settings WebApplication#visually_complete_settings}
   */
   readonly visuallyCompleteSettings?: WebApplicationMonitoringSettingsContentCaptureVisuallyCompleteSettings;
 }
@@ -4860,19 +4860,19 @@ export interface WebApplicationMonitoringSettingsIpAddressRestrictionSettingsRes
   * 
   * For an IP address range, this is the **from** address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#address WebApplication#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#address WebApplication#address}
   */
   readonly address: string;
   /**
   * The **to** address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#address_to WebApplication#address_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#address_to WebApplication#address_to}
   */
   readonly addressTo?: string;
   /**
   * The subnet mask of the IP address range. Valid values range from 0 to 128.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#subnet_mask WebApplication#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#subnet_mask WebApplication#subnet_mask}
   */
   readonly subnetMask?: number;
 }
@@ -5045,7 +5045,7 @@ export interface WebApplicationMonitoringSettingsIpAddressRestrictionSettingsRes
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#range WebApplication#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#range WebApplication#range}
   */
   readonly range: WebApplicationMonitoringSettingsIpAddressRestrictionSettingsRestrictionsRange[] | cdktf.IResolvable;
 }
@@ -5128,13 +5128,13 @@ export interface WebApplicationMonitoringSettingsIpAddressRestrictionSettings {
   /**
   * The mode of the list of ip address restrictions. Possible values area `EXCLUDE` and `INCLUDE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#mode WebApplication#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#mode WebApplication#mode}
   */
   readonly mode: string;
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#restrictions WebApplication#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#restrictions WebApplication#restrictions}
   */
   readonly restrictions?: WebApplicationMonitoringSettingsIpAddressRestrictionSettingsRestrictions;
 }
@@ -5246,49 +5246,49 @@ export interface WebApplicationMonitoringSettingsJavascriptFrameworkSupport {
   /**
   * ActiveXObject support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#active_x_object WebApplication#active_x_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#active_x_object WebApplication#active_x_object}
   */
   readonly activeXObject?: boolean | cdktf.IResolvable;
   /**
   * AngularJS and Angular support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#angular WebApplication#angular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#angular WebApplication#angular}
   */
   readonly angular?: boolean | cdktf.IResolvable;
   /**
   * Dojo support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#dojo WebApplication#dojo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#dojo WebApplication#dojo}
   */
   readonly dojo?: boolean | cdktf.IResolvable;
   /**
   * ExtJS, Sencha Touch support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#extjs WebApplication#extjs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#extjs WebApplication#extjs}
   */
   readonly extjs?: boolean | cdktf.IResolvable;
   /**
   * ICEfaces support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#icefaces WebApplication#icefaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#icefaces WebApplication#icefaces}
   */
   readonly icefaces?: boolean | cdktf.IResolvable;
   /**
   * jQuery, Backbone.js support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#jquery WebApplication#jquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#jquery WebApplication#jquery}
   */
   readonly jquery?: boolean | cdktf.IResolvable;
   /**
   * MooTools support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#moo_tools WebApplication#moo_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#moo_tools WebApplication#moo_tools}
   */
   readonly mooTools?: boolean | cdktf.IResolvable;
   /**
   * Prototype support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#prototype WebApplication#prototype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#prototype WebApplication#prototype}
   */
   readonly prototype?: boolean | cdktf.IResolvable;
 }
@@ -5577,37 +5577,37 @@ export interface WebApplicationMonitoringSettingsJavascriptInjectionRulesRule {
   /**
   * `fetch()` request capture enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#enabled WebApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#enabled WebApplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The HTML pattern of the java script injection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#html_pattern WebApplication#html_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#html_pattern WebApplication#html_pattern}
   */
   readonly htmlPattern?: string;
   /**
   * The url rule of the java script injection. Possible values are `AFTER_SPECIFIC_HTML`, `AUTOMATIC_INJECTION`, `BEFORE_SPECIFIC_HTML` and `DO_NOT_INJECT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#rule WebApplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#rule WebApplication#rule}
   */
   readonly rule: string;
   /**
   * The target against which the rule of the java script injection should be matched. Possible values are `PAGE_QUERY` and `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#target WebApplication#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#target WebApplication#target}
   */
   readonly target?: string;
   /**
   * The url operator of the java script injection. Possible values are `ALL_PAGES`, `CONTAINS`, `ENDS_WITH`, `EQUALS` and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#url_operator WebApplication#url_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#url_operator WebApplication#url_operator}
   */
   readonly urlOperator: string;
   /**
   * The url pattern of the java script injection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#url_pattern WebApplication#url_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#url_pattern WebApplication#url_pattern}
   */
   readonly urlPattern?: string;
 }
@@ -5864,7 +5864,7 @@ export interface WebApplicationMonitoringSettingsJavascriptInjectionRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#rule WebApplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#rule WebApplication#rule}
   */
   readonly rule: WebApplicationMonitoringSettingsJavascriptInjectionRulesRule[] | cdktf.IResolvable;
 }
@@ -5947,25 +5947,25 @@ export interface WebApplicationMonitoringSettings {
   /**
   * Add the cross origin = anonymous attribute to capture JavaScript error messages and W3C resource timings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#add_cross_origin_anonymous_attribute WebApplication#add_cross_origin_anonymous_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#add_cross_origin_anonymous_attribute WebApplication#add_cross_origin_anonymous_attribute}
   */
   readonly addCrossOriginAnonymousAttribute?: boolean | cdktf.IResolvable;
   /**
   * The name of the angular package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#angular_package_name WebApplication#angular_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#angular_package_name WebApplication#angular_package_name}
   */
   readonly angularPackageName?: string;
   /**
   * Optimize the value of cache control headers for use with Dynatrace real user monitoring enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cache_control_header_optimizations WebApplication#cache_control_header_optimizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cache_control_header_optimizations WebApplication#cache_control_header_optimizations}
   */
   readonly cacheControlHeaderOptimizations?: boolean | cdktf.IResolvable;
   /**
   * Domain for cookie placement. Maximum 150 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cookie_placement_domain WebApplication#cookie_placement_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cookie_placement_domain WebApplication#cookie_placement_domain}
   */
   readonly cookiePlacementDomain?: string;
   /**
@@ -5973,7 +5973,7 @@ export interface WebApplicationMonitoringSettings {
   * 
   * Important: These endpoints must accept the `x-dtc` header, or the requests will fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#correlation_header_inclusion_regex WebApplication#correlation_header_inclusion_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#correlation_header_inclusion_regex WebApplication#correlation_header_inclusion_regex}
   */
   readonly correlationHeaderInclusionRegex?: string;
   /**
@@ -5983,7 +5983,7 @@ export interface WebApplicationMonitoringSettings {
   * 
   *  **Required** for auto-injected applications, optional for agentless applications. Maximum 512 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#custom_configuration_properties WebApplication#custom_configuration_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#custom_configuration_properties WebApplication#custom_configuration_properties}
   */
   readonly customConfigurationProperties?: string;
   /**
@@ -5993,37 +5993,37 @@ export interface WebApplicationMonitoringSettings {
   * 
   * If noting specified the feature is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#exclude_xhr_regex WebApplication#exclude_xhr_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#exclude_xhr_regex WebApplication#exclude_xhr_regex}
   */
   readonly excludeXhrRegex?: string;
   /**
   * `fetch()` request capture enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#fetch_requests WebApplication#fetch_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#fetch_requests WebApplication#fetch_requests}
   */
   readonly fetchRequests?: boolean | cdktf.IResolvable;
   /**
   * Manage IP address exclusion settings with `dynatrace_web_app_ip_address_exclusion` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ignore_ip_address_restriction_settings WebApplication#ignore_ip_address_restriction_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ignore_ip_address_restriction_settings WebApplication#ignore_ip_address_restriction_settings}
   */
   readonly ignoreIpAddressRestrictionSettings?: boolean | cdktf.IResolvable;
   /**
   * Possible valures are `CODE_SNIPPET`, `CODE_SNIPPET_ASYNC`, `INLINE_CODE`, `JAVASCRIPT_TAG`, `JAVASCRIPT_TAG_COMPLETE`, `JAVASCRIPT_TAG_SRI`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#injection_mode WebApplication#injection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#injection_mode WebApplication#injection_mode}
   */
   readonly injectionMode: string;
   /**
   * Instrumented web or app server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#instrumented_web_server WebApplication#instrumented_web_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#instrumented_web_server WebApplication#instrumented_web_server}
   */
   readonly instrumentedWebServer?: boolean | cdktf.IResolvable;
   /**
   * Get the JavaScript library file from the CDN. Not supported by agentless applications and assumed to be false for auto-injected applications if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#library_file_from_cdn WebApplication#library_file_from_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#library_file_from_cdn WebApplication#library_file_from_cdn}
   */
   readonly libraryFileFromCdn?: boolean | cdktf.IResolvable;
   /**
@@ -6033,7 +6033,7 @@ export interface WebApplicationMonitoringSettings {
   * 
   *  **Required** for auto-injected applications, not supported by agentless applications. Maximum 512 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#library_file_location WebApplication#library_file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#library_file_location WebApplication#library_file_location}
   */
   readonly libraryFileLocation?: string;
   /**
@@ -6043,79 +6043,79 @@ export interface WebApplicationMonitoringSettings {
   * 
   *  **Required** for auto-injected applications, optional for agentless applications. Maximum 512 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#monitoring_data_path WebApplication#monitoring_data_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#monitoring_data_path WebApplication#monitoring_data_path}
   */
   readonly monitoringDataPath?: string;
   /**
   * Same site cookie attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#same_site_cookie_attribute WebApplication#same_site_cookie_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#same_site_cookie_attribute WebApplication#same_site_cookie_attribute}
   */
   readonly sameSiteCookieAttribute?: string;
   /**
   * Time duration for the cache settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#script_tag_cache_duration_in_hours WebApplication#script_tag_cache_duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#script_tag_cache_duration_in_hours WebApplication#script_tag_cache_duration_in_hours}
   */
   readonly scriptTagCacheDurationInHours?: number;
   /**
   * Secure attribute usage for Dynatrace cookies enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#secure_cookie_attribute WebApplication#secure_cookie_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#secure_cookie_attribute WebApplication#secure_cookie_attribute}
   */
   readonly secureCookieAttribute?: boolean | cdktf.IResolvable;
   /**
   * Path to identify the server’s request ID. Maximum 150 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#server_request_path_id WebApplication#server_request_path_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#server_request_path_id WebApplication#server_request_path_id}
   */
   readonly serverRequestPathId?: string;
   /**
   * Send beacon data via CORS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_cors WebApplication#use_cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_cors WebApplication#use_cors}
   */
   readonly useCors?: boolean | cdktf.IResolvable;
   /**
   * `XmlHttpRequest` support enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#xml_http_request WebApplication#xml_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#xml_http_request WebApplication#xml_http_request}
   */
   readonly xmlHttpRequest?: boolean | cdktf.IResolvable;
   /**
   * advanced_javascript_tag_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#advanced_javascript_tag_settings WebApplication#advanced_javascript_tag_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#advanced_javascript_tag_settings WebApplication#advanced_javascript_tag_settings}
   */
   readonly advancedJavascriptTagSettings: WebApplicationMonitoringSettingsAdvancedJavascriptTagSettings;
   /**
   * browser_restriction_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#browser_restriction_settings WebApplication#browser_restriction_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#browser_restriction_settings WebApplication#browser_restriction_settings}
   */
   readonly browserRestrictionSettings?: WebApplicationMonitoringSettingsBrowserRestrictionSettings;
   /**
   * content_capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#content_capture WebApplication#content_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#content_capture WebApplication#content_capture}
   */
   readonly contentCapture: WebApplicationMonitoringSettingsContentCapture;
   /**
   * ip_address_restriction_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ip_address_restriction_settings WebApplication#ip_address_restriction_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ip_address_restriction_settings WebApplication#ip_address_restriction_settings}
   */
   readonly ipAddressRestrictionSettings?: WebApplicationMonitoringSettingsIpAddressRestrictionSettings;
   /**
   * javascript_framework_support block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#javascript_framework_support WebApplication#javascript_framework_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#javascript_framework_support WebApplication#javascript_framework_support}
   */
   readonly javascriptFrameworkSupport?: WebApplicationMonitoringSettingsJavascriptFrameworkSupport;
   /**
   * javascript_injection_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#javascript_injection_rules WebApplication#javascript_injection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#javascript_injection_rules WebApplication#javascript_injection_rules}
   */
   readonly javascriptInjectionRules?: WebApplicationMonitoringSettingsJavascriptInjectionRules;
 }
@@ -6917,25 +6917,25 @@ export interface WebApplicationSessionReplayConfig {
   /**
   * (Field has overlap with `dynatrace_web_app_enablement`) Session replay sampling rating in percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cost_control_percentage WebApplication#cost_control_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cost_control_percentage WebApplication#cost_control_percentage}
   */
   readonly costControlPercentage: number;
   /**
   * (Field has overlap with `dynatrace_session_replay_resource_capture`) A list of URLs to be excluded from CSS resource capturing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#css_resource_capturing_exclusion_rules WebApplication#css_resource_capturing_exclusion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#css_resource_capturing_exclusion_rules WebApplication#css_resource_capturing_exclusion_rules}
   */
   readonly cssResourceCapturingExclusionRules?: string[];
   /**
   * (Field has overlap with `dynatrace_session_replay_resource_capture`) Capture (`true`) or don't capture (`false`) CSS resources from the session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#enable_css_resource_capturing WebApplication#enable_css_resource_capturing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#enable_css_resource_capturing WebApplication#enable_css_resource_capturing}
   */
   readonly enableCssResourceCapturing?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_web_app_enablement`) SessionReplay Enabled/Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#enabled WebApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#enabled WebApplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7107,7 +7107,7 @@ export interface WebApplicationUserActionAndSessionPropertiesProperty {
   * 
   *   It defines how multiple values of the property are aggregated. Possible values are `AVERAGE`, `FIRST`, `LAST`, `MAXIMUM`, `MINIMUM` and `SUM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#aggregation WebApplication#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#aggregation WebApplication#aggregation}
   */
   readonly aggregation?: string;
   /**
@@ -7115,19 +7115,19 @@ export interface WebApplicationUserActionAndSessionPropertiesProperty {
   * 
   * Defines how to extract the data you need from a string value. Specify the [regular expression](https://dt-url.net/k9e0iaq) for the data you need there
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cleanup_rule WebApplication#cleanup_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cleanup_rule WebApplication#cleanup_rule}
   */
   readonly cleanupRule?: string;
   /**
   * The display name of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#display_name WebApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#display_name WebApplication#display_name}
   */
   readonly displayName?: string;
   /**
   * Unique id among all userTags and properties of this application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#id WebApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#id WebApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7136,31 +7136,31 @@ export interface WebApplicationUserActionAndSessionPropertiesProperty {
   /**
   * If `true`, the value of this property will always be stored in lower case. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ignore_case WebApplication#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ignore_case WebApplication#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Key of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#key WebApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#key WebApplication#key}
   */
   readonly key: string;
   /**
   * If the `type` is `LONG_STRING`, the max length for this property. Must be a multiple of `100`. Defaults to `200`. Maximum is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#long_string_length WebApplication#long_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#long_string_length WebApplication#long_string_length}
   */
   readonly longStringLength?: number;
   /**
   * If the origin is `META_DATA`, metaData id of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#metadata_id WebApplication#metadata_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#metadata_id WebApplication#metadata_id}
   */
   readonly metadataId?: number;
   /**
   * The origin of the property. Possible values are `JAVASCRIPT_API`, `META_DATA` and `SERVER_SIDE_REQUEST_ATTRIBUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#origin WebApplication#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#origin WebApplication#origin}
   */
   readonly origin: string;
   /**
@@ -7168,25 +7168,25 @@ export interface WebApplicationUserActionAndSessionPropertiesProperty {
   * 
   * Only applicable when the **origin** is set to `SERVER_SIDE_REQUEST_ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#server_side_request_attribute WebApplication#server_side_request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#server_side_request_attribute WebApplication#server_side_request_attribute}
   */
   readonly serverSideRequestAttribute?: string;
   /**
   * If `true`, the property is stored as a session property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#store_as_session_property WebApplication#store_as_session_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#store_as_session_property WebApplication#store_as_session_property}
   */
   readonly storeAsSessionProperty?: boolean | cdktf.IResolvable;
   /**
   * If `true`, the property is stored as a user action property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#store_as_user_action_property WebApplication#store_as_user_action_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#store_as_user_action_property WebApplication#store_as_user_action_property}
   */
   readonly storeAsUserActionProperty?: boolean | cdktf.IResolvable;
   /**
   * The data type of the property. Possible values are `DATE`, `DOUBLE`, `LONG`, `LONG_STRING` and `STRING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type: string;
 }
@@ -7640,7 +7640,7 @@ export interface WebApplicationUserActionAndSessionProperties {
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#property WebApplication#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#property WebApplication#property}
   */
   readonly property?: WebApplicationUserActionAndSessionPropertiesProperty[] | cdktf.IResolvable;
 }
@@ -7726,19 +7726,19 @@ export interface WebApplicationUserActionNamingSettingsCustomActionNamingRulesRu
   /**
   * Must be a defined placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand1 WebApplication#operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand1 WebApplication#operand1}
   */
   readonly operand1: string;
   /**
   * Must be null if operator is `IS_EMPTY`, a regex if operator is `MATCHES_REGULAR_ERPRESSION`. In all other cases the value can be a freetext or a placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand2 WebApplication#operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand2 WebApplication#operand2}
   */
   readonly operand2?: string;
   /**
   * The operator of the condition. Possible values are `CONTAINS`, `ENDS_WITH`, `EQUALS`, `IS_EMPTY`, `IS_NOT_EMPTY`, `MATCHES_REGULAR_EXPRESSION`, `NOT_CONTAINS`, `NOT_ENDS_WITH`, `NOT_EQUALS`, `NOT_MATCHES_REGULAR_EXPRESSION`, `NOT_STARTS_WITH` and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operator WebApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operator WebApplication#operator}
   */
   readonly operator: string;
 }
@@ -7908,7 +7908,7 @@ export interface WebApplicationUserActionNamingSettingsCustomActionNamingRulesRu
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#condition WebApplication#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#condition WebApplication#condition}
   */
   readonly condition: WebApplicationUserActionNamingSettingsCustomActionNamingRulesRuleConditionsCondition[] | cdktf.IResolvable;
 }
@@ -7991,19 +7991,19 @@ export interface WebApplicationUserActionNamingSettingsCustomActionNamingRulesRu
   /**
   * Naming pattern. Use Curly brackets `{}` to select placeholders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#template WebApplication#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#template WebApplication#template}
   */
   readonly template: string;
   /**
   * If set to `true` the conditions will be connected by logical OR instead of logical AND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
   */
   readonly useOrConditions?: boolean | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#conditions WebApplication#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#conditions WebApplication#conditions}
   */
   readonly conditions?: WebApplicationUserActionNamingSettingsCustomActionNamingRulesRuleConditions;
 }
@@ -8176,7 +8176,7 @@ export interface WebApplicationUserActionNamingSettingsCustomActionNamingRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#rule WebApplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#rule WebApplication#rule}
   */
   readonly rule: WebApplicationUserActionNamingSettingsCustomActionNamingRulesRule[] | cdktf.IResolvable;
 }
@@ -8259,19 +8259,19 @@ export interface WebApplicationUserActionNamingSettingsLoadActionNamingRulesRule
   /**
   * Must be a defined placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand1 WebApplication#operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand1 WebApplication#operand1}
   */
   readonly operand1: string;
   /**
   * Must be null if operator is `IS_EMPTY`, a regex if operator is `MATCHES_REGULAR_ERPRESSION`. In all other cases the value can be a freetext or a placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand2 WebApplication#operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand2 WebApplication#operand2}
   */
   readonly operand2?: string;
   /**
   * The operator of the condition. Possible values are `CONTAINS`, `ENDS_WITH`, `EQUALS`, `IS_EMPTY`, `IS_NOT_EMPTY`, `MATCHES_REGULAR_EXPRESSION`, `NOT_CONTAINS`, `NOT_ENDS_WITH`, `NOT_EQUALS`, `NOT_MATCHES_REGULAR_EXPRESSION`, `NOT_STARTS_WITH` and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operator WebApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operator WebApplication#operator}
   */
   readonly operator: string;
 }
@@ -8441,7 +8441,7 @@ export interface WebApplicationUserActionNamingSettingsLoadActionNamingRulesRule
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#condition WebApplication#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#condition WebApplication#condition}
   */
   readonly condition: WebApplicationUserActionNamingSettingsLoadActionNamingRulesRuleConditionsCondition[] | cdktf.IResolvable;
 }
@@ -8524,19 +8524,19 @@ export interface WebApplicationUserActionNamingSettingsLoadActionNamingRulesRule
   /**
   * Naming pattern. Use Curly brackets `{}` to select placeholders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#template WebApplication#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#template WebApplication#template}
   */
   readonly template: string;
   /**
   * If set to `true` the conditions will be connected by logical OR instead of logical AND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
   */
   readonly useOrConditions?: boolean | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#conditions WebApplication#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#conditions WebApplication#conditions}
   */
   readonly conditions?: WebApplicationUserActionNamingSettingsLoadActionNamingRulesRuleConditions;
 }
@@ -8709,7 +8709,7 @@ export interface WebApplicationUserActionNamingSettingsLoadActionNamingRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#rule WebApplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#rule WebApplication#rule}
   */
   readonly rule: WebApplicationUserActionNamingSettingsLoadActionNamingRulesRule[] | cdktf.IResolvable;
 }
@@ -8794,31 +8794,31 @@ export interface WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderPr
   * 
   *  Otherwise `null` is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#fallback_to_input WebApplication#fallback_to_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#fallback_to_input WebApplication#fallback_to_input}
   */
   readonly fallbackToInput?: boolean | cdktf.IResolvable;
   /**
   * The pattern after the required value. It will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#pattern_after WebApplication#pattern_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#pattern_after WebApplication#pattern_after}
   */
   readonly patternAfter?: string;
   /**
   * The required occurrence of **patternAfter**. Possible values are `FIRST` and `LAST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#pattern_after_search_type WebApplication#pattern_after_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#pattern_after_search_type WebApplication#pattern_after_search_type}
   */
   readonly patternAfterSearchType?: string;
   /**
   * The pattern before the required value. It will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#pattern_before WebApplication#pattern_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#pattern_before WebApplication#pattern_before}
   */
   readonly patternBefore?: string;
   /**
   * The required occurrence of **patternBefore**. Possible values are `FIRST` and `LAST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#pattern_before_search_type WebApplication#pattern_before_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#pattern_before_search_type WebApplication#pattern_before_search_type}
   */
   readonly patternBeforeSearchType?: string;
   /**
@@ -8826,19 +8826,19 @@ export interface WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderPr
   * 
   *  Only applicable if the `type` is `REPLACE_WITH_PATTERN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#pattern_to_replace WebApplication#pattern_to_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#pattern_to_replace WebApplication#pattern_to_replace}
   */
   readonly patternToReplace?: string;
   /**
   * A regular expression for the string to be extracted or replaced. Only applicable if the `type` is `EXTRACT_BY_REGULAR_EXPRESSION` or `REPLACE_WITH_REGULAR_EXPRESSION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#regular_expression WebApplication#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#regular_expression WebApplication#regular_expression}
   */
   readonly regularExpression?: string;
   /**
   * Replacement for the original value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#replacement WebApplication#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#replacement WebApplication#replacement}
   */
   readonly replacement?: string;
   /**
@@ -8851,7 +8851,7 @@ export interface WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderPr
   * * `REPLACE_WITH_REGULAR_EXPRESSION`: Replaces all occurrences that match **regularExpression** with the specified **replacement**. 
   * * `REPLACE_IDS`: Replaces all IDs and UUIDs with the specified **replacement**. Possible values are `EXTRACT_BY_REGULAR_EXPRESSION`, `REPLACEMENT`, `REPLACE_IDS`, `REPLACE_WITH_PATTERN`, `REPLACE_WITH_REGULAR_EXPRESSION` and `SUBSTRING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#type WebApplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#type WebApplication#type}
   */
   readonly type: string;
 }
@@ -9198,7 +9198,7 @@ export interface WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderPr
   /**
   * step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#step WebApplication#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#step WebApplication#step}
   */
   readonly step: WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderProcessingStepsStep[] | cdktf.IResolvable;
 }
@@ -9281,37 +9281,37 @@ export interface WebApplicationUserActionNamingSettingsPlaceholdersPlaceholder {
   /**
   * The input for the place holder. Possible values are `ELEMENT_IDENTIFIER`, `INPUT_TYPE`, `METADATA`, `PAGE_TITLE`, `PAGE_URL`, `SOURCE_URL`, `TOP_XHR_URL` and `XHR_URL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#input WebApplication#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#input WebApplication#input}
   */
   readonly input: string;
   /**
   * The ID of the metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#metadata_id WebApplication#metadata_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#metadata_id WebApplication#metadata_id}
   */
   readonly metadataId?: number;
   /**
   * Placeholder name. Valid length needs to be between 1 and 50 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#name WebApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#name WebApplication#name}
   */
   readonly name: string;
   /**
   * The part to process. Possible values are `ALL`, `ANCHOR` and `PATH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#processing_part WebApplication#processing_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#processing_part WebApplication#processing_part}
   */
   readonly processingPart: string;
   /**
   * Use the element identifier that was selected by Dynatrace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_guessed_element_identifier WebApplication#use_guessed_element_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_guessed_element_identifier WebApplication#use_guessed_element_identifier}
   */
   readonly useGuessedElementIdentifier?: boolean | cdktf.IResolvable;
   /**
   * processing_steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#processing_steps WebApplication#processing_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#processing_steps WebApplication#processing_steps}
   */
   readonly processingSteps?: WebApplicationUserActionNamingSettingsPlaceholdersPlaceholderProcessingSteps;
 }
@@ -9565,7 +9565,7 @@ export interface WebApplicationUserActionNamingSettingsPlaceholders {
   /**
   * placeholder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#placeholder WebApplication#placeholder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#placeholder WebApplication#placeholder}
   */
   readonly placeholder: WebApplicationUserActionNamingSettingsPlaceholdersPlaceholder[] | cdktf.IResolvable;
 }
@@ -9648,19 +9648,19 @@ export interface WebApplicationUserActionNamingSettingsXhrActionNamingRulesRuleC
   /**
   * Must be a defined placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand1 WebApplication#operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand1 WebApplication#operand1}
   */
   readonly operand1: string;
   /**
   * Must be null if operator is `IS_EMPTY`, a regex if operator is `MATCHES_REGULAR_ERPRESSION`. In all other cases the value can be a freetext or a placeholder wrapped in curly braces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operand2 WebApplication#operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operand2 WebApplication#operand2}
   */
   readonly operand2?: string;
   /**
   * The operator of the condition. Possible values are `CONTAINS`, `ENDS_WITH`, `EQUALS`, `IS_EMPTY`, `IS_NOT_EMPTY`, `MATCHES_REGULAR_EXPRESSION`, `NOT_CONTAINS`, `NOT_ENDS_WITH`, `NOT_EQUALS`, `NOT_MATCHES_REGULAR_EXPRESSION`, `NOT_STARTS_WITH` and `STARTS_WITH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#operator WebApplication#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#operator WebApplication#operator}
   */
   readonly operator: string;
 }
@@ -9830,7 +9830,7 @@ export interface WebApplicationUserActionNamingSettingsXhrActionNamingRulesRuleC
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#condition WebApplication#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#condition WebApplication#condition}
   */
   readonly condition: WebApplicationUserActionNamingSettingsXhrActionNamingRulesRuleConditionsCondition[] | cdktf.IResolvable;
 }
@@ -9913,19 +9913,19 @@ export interface WebApplicationUserActionNamingSettingsXhrActionNamingRulesRule 
   /**
   * Naming pattern. Use Curly brackets `{}` to select placeholders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#template WebApplication#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#template WebApplication#template}
   */
   readonly template: string;
   /**
   * If set to `true` the conditions will be connected by logical OR instead of logical AND
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_or_conditions WebApplication#use_or_conditions}
   */
   readonly useOrConditions?: boolean | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#conditions WebApplication#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#conditions WebApplication#conditions}
   */
   readonly conditions?: WebApplicationUserActionNamingSettingsXhrActionNamingRulesRuleConditions;
 }
@@ -10098,7 +10098,7 @@ export interface WebApplicationUserActionNamingSettingsXhrActionNamingRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#rule WebApplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#rule WebApplication#rule}
   */
   readonly rule: WebApplicationUserActionNamingSettingsXhrActionNamingRulesRule[] | cdktf.IResolvable;
 }
@@ -10181,49 +10181,49 @@ export interface WebApplicationUserActionNamingSettings {
   /**
   * Case insensitive naming
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ignore_case WebApplication#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ignore_case WebApplication#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * User action naming rules for custom actions. If not specified Dynatrace assumes `__sid`, `cfid`, `cftoken`, `phpsessid` and `sid`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#query_parameter_cleanups WebApplication#query_parameter_cleanups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#query_parameter_cleanups WebApplication#query_parameter_cleanups}
   */
   readonly queryParameterCleanups?: string[];
   /**
   * Deactivate this setting if different domains should not result in separate user actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#split_user_actions_by_domain WebApplication#split_user_actions_by_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#split_user_actions_by_domain WebApplication#split_user_actions_by_domain}
   */
   readonly splitUserActionsByDomain?: boolean | cdktf.IResolvable;
   /**
   * First load action found under an XHR action should be used when true. Else the deepest one under the xhr action is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#use_first_detected_load_action WebApplication#use_first_detected_load_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#use_first_detected_load_action WebApplication#use_first_detected_load_action}
   */
   readonly useFirstDetectedLoadAction?: boolean | cdktf.IResolvable;
   /**
   * custom_action_naming_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#custom_action_naming_rules WebApplication#custom_action_naming_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#custom_action_naming_rules WebApplication#custom_action_naming_rules}
   */
   readonly customActionNamingRules?: WebApplicationUserActionNamingSettingsCustomActionNamingRules;
   /**
   * load_action_naming_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#load_action_naming_rules WebApplication#load_action_naming_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#load_action_naming_rules WebApplication#load_action_naming_rules}
   */
   readonly loadActionNamingRules?: WebApplicationUserActionNamingSettingsLoadActionNamingRules;
   /**
   * placeholders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#placeholders WebApplication#placeholders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#placeholders WebApplication#placeholders}
   */
   readonly placeholders?: WebApplicationUserActionNamingSettingsPlaceholders;
   /**
   * xhr_action_naming_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#xhr_action_naming_rules WebApplication#xhr_action_naming_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#xhr_action_naming_rules WebApplication#xhr_action_naming_rules}
   */
   readonly xhrActionNamingRules?: WebApplicationUserActionNamingSettingsXhrActionNamingRules;
 }
@@ -10512,13 +10512,13 @@ export interface WebApplicationUserTagsTag {
   /**
   * Cleanup rule expression of the userTag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#cleanup_rule WebApplication#cleanup_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#cleanup_rule WebApplication#cleanup_rule}
   */
   readonly cleanupRule?: string;
   /**
   * A unique ID among all userTags and properties of this application. Minimum value is 1. Do not set that attribute anymore - terraform will handle it. Kept for backwards compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#id WebApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#id WebApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10527,19 +10527,19 @@ export interface WebApplicationUserTagsTag {
   /**
   * If `true`, the value of this tag will always be stored in lower case. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#ignore_case WebApplication#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#ignore_case WebApplication#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * If it's of type metaData, metaData id of the userTag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#metadata_id WebApplication#metadata_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#metadata_id WebApplication#metadata_id}
   */
   readonly metadataId?: number;
   /**
   * The ID of the RrequestAttribute for the userTag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#server_side_request_attribute WebApplication#server_side_request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#server_side_request_attribute WebApplication#server_side_request_attribute}
   */
   readonly serverSideRequestAttribute?: string;
 }
@@ -10778,7 +10778,7 @@ export interface WebApplicationUserTags {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tag WebApplication#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tag WebApplication#tag}
   */
   readonly tag: WebApplicationUserTagsTag[] | cdktf.IResolvable;
 }
@@ -10861,43 +10861,43 @@ export interface WebApplicationWaterfallSettings {
   /**
   * Warn about resources with a lower browser cache rate above *X*%. Values between 1 and 100 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#resource_browser_caching_threshold WebApplication#resource_browser_caching_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#resource_browser_caching_threshold WebApplication#resource_browser_caching_threshold}
   */
   readonly resourceBrowserCachingThreshold: number;
   /**
   * Warn about resources larger than *X* bytes. Values between 0 and 99999000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#resources_threshold WebApplication#resources_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#resources_threshold WebApplication#resources_threshold}
   */
   readonly resourcesThreshold: number;
   /**
   * Warn about slow CDN resources with a response time above *X* ms. Values between 0 and 99999000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#slow_cnd_resources_threshold WebApplication#slow_cnd_resources_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#slow_cnd_resources_threshold WebApplication#slow_cnd_resources_threshold}
   */
   readonly slowCndResourcesThreshold: number;
   /**
   * Warn about slow 1st party resources with a response time above *X* ms. Values between 0 and 99999000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#slow_first_party_resources_threshold WebApplication#slow_first_party_resources_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#slow_first_party_resources_threshold WebApplication#slow_first_party_resources_threshold}
   */
   readonly slowFirstPartyResourcesThreshold: number;
   /**
   * Warn about slow 3rd party resources with a response time above *X* ms. Values between 0 and 99999000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#slow_third_party_resources_threshold WebApplication#slow_third_party_resources_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#slow_third_party_resources_threshold WebApplication#slow_third_party_resources_threshold}
   */
   readonly slowThirdPartyResourcesThreshold: number;
   /**
   * Warn if Speed index exceeds *X* % of Visually complete. Values between 1 and 99 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#speed_index_visually_complete_ratio_threshold WebApplication#speed_index_visually_complete_ratio_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#speed_index_visually_complete_ratio_threshold WebApplication#speed_index_visually_complete_ratio_threshold}
   */
   readonly speedIndexVisuallyCompleteRatioThreshold: number;
   /**
   * Warn about uncompressed resources larger than *X* bytes. Values between 0 and 99999 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#uncompressed_resources_threshold WebApplication#uncompressed_resources_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#uncompressed_resources_threshold WebApplication#uncompressed_resources_threshold}
   */
   readonly uncompressedResourcesThreshold: number;
 }
@@ -11136,31 +11136,31 @@ export interface WebApplicationXhrActionApdexSettings {
   /**
   * Fallback threshold of an XHR action, defining a tolerable user experience, when the configured KPM is not available. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_fallback_threshold WebApplication#frustrating_fallback_threshold}
   */
   readonly frustratingFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as tolerable user experience. Values between 0 and 240000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#frustrating_threshold WebApplication#frustrating_threshold}
   */
   readonly frustratingThreshold: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#threshold WebApplication#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#threshold WebApplication#threshold}
   */
   readonly threshold?: number;
   /**
   * Fallback threshold of an XHR action, defining a satisfied user experience, when the configured KPM is not available. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_fallback_threshold WebApplication#tolerated_fallback_threshold}
   */
   readonly toleratedFallbackThreshold: number;
   /**
   * Maximal value of apdex, which is considered as satisfied user experience. Values between 0 and 60000 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#tolerated_threshold WebApplication#tolerated_threshold}
   */
   readonly toleratedThreshold: number;
 }
@@ -11348,7 +11348,7 @@ export class WebApplicationXhrActionApdexSettingsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application dynatrace_web_application}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application dynatrace_web_application}
 */
 export class WebApplication extends cdktf.TerraformResource {
 
@@ -11364,7 +11364,7 @@ export class WebApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebApplication to import
-  * @param importFromId The id of the existing WebApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11376,7 +11376,7 @@ export class WebApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_application dynatrace_web_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_application dynatrace_web_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11387,8 +11387,8 @@ export class WebApplication extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_application',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

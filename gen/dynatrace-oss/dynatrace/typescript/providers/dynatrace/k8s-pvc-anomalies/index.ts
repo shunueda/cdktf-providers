@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface K8SPvcAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#id K8SPvcAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#id K8SPvcAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface K8SPvcAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#scope K8SPvcAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#scope K8SPvcAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * low_disk_space_critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#low_disk_space_critical K8SPvcAnomalies#low_disk_space_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#low_disk_space_critical K8SPvcAnomalies#low_disk_space_critical}
   */
   readonly lowDiskSpaceCritical: K8SPvcAnomaliesLowDiskSpaceCritical;
   /**
   * low_disk_space_critical_percentage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#low_disk_space_critical_percentage K8SPvcAnomalies#low_disk_space_critical_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#low_disk_space_critical_percentage K8SPvcAnomalies#low_disk_space_critical_percentage}
   */
   readonly lowDiskSpaceCriticalPercentage: K8SPvcAnomaliesLowDiskSpaceCriticalPercentage;
 }
@@ -37,19 +37,19 @@ export interface K8SPvcAnomaliesLowDiskSpaceCriticalConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#observation_period_in_minutes K8SPvcAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#observation_period_in_minutes K8SPvcAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#sample_period_in_minutes K8SPvcAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#sample_period_in_minutes K8SPvcAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * the available disk space is below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#threshold K8SPvcAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#threshold K8SPvcAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -184,13 +184,13 @@ export interface K8SPvcAnomaliesLowDiskSpaceCritical {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#enabled K8SPvcAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#enabled K8SPvcAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#configuration K8SPvcAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#configuration K8SPvcAnomalies#configuration}
   */
   readonly configuration?: K8SPvcAnomaliesLowDiskSpaceCriticalConfiguration;
 }
@@ -302,19 +302,19 @@ export interface K8SPvcAnomaliesLowDiskSpaceCriticalPercentageConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#observation_period_in_minutes K8SPvcAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#observation_period_in_minutes K8SPvcAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#sample_period_in_minutes K8SPvcAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#sample_period_in_minutes K8SPvcAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * the available disk space is below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#threshold K8SPvcAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#threshold K8SPvcAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -449,13 +449,13 @@ export interface K8SPvcAnomaliesLowDiskSpaceCriticalPercentage {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#enabled K8SPvcAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#enabled K8SPvcAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#configuration K8SPvcAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#configuration K8SPvcAnomalies#configuration}
   */
   readonly configuration?: K8SPvcAnomaliesLowDiskSpaceCriticalPercentageConfiguration;
 }
@@ -565,7 +565,7 @@ export class K8SPvcAnomaliesLowDiskSpaceCriticalPercentageOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies dynatrace_k8s_pvc_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies dynatrace_k8s_pvc_anomalies}
 */
 export class K8SPvcAnomalies extends cdktf.TerraformResource {
 
@@ -581,7 +581,7 @@ export class K8SPvcAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SPvcAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SPvcAnomalies to import
-  * @param importFromId The id of the existing K8SPvcAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SPvcAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SPvcAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -593,7 +593,7 @@ export class K8SPvcAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_pvc_anomalies dynatrace_k8s_pvc_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_pvc_anomalies dynatrace_k8s_pvc_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -604,8 +604,8 @@ export class K8SPvcAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_pvc_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

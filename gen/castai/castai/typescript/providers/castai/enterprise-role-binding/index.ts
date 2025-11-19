@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding
+// https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface EnterpriseRoleBindingConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#description EnterpriseRoleBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#description EnterpriseRoleBinding#description}
   */
   readonly description?: string;
   /**
   * Enterprise organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#enterprise_id EnterpriseRoleBinding#enterprise_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#enterprise_id EnterpriseRoleBinding#enterprise_id}
   */
   readonly enterpriseId: string;
   /**
   * Name of the role binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#name EnterpriseRoleBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#name EnterpriseRoleBinding#name}
   */
   readonly name: string;
   /**
   * Organization ID (either enterprise or it's child) where the role binding is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#organization_id EnterpriseRoleBinding#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#organization_id EnterpriseRoleBinding#organization_id}
   */
   readonly organizationId: string;
   /**
   * Role UUID to bind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#role_id EnterpriseRoleBinding#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#role_id EnterpriseRoleBinding#role_id}
   */
   readonly roleId: string;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#scopes EnterpriseRoleBinding#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#scopes EnterpriseRoleBinding#scopes}
   */
   readonly scopes: EnterpriseRoleBindingScopes;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#subjects EnterpriseRoleBinding#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#subjects EnterpriseRoleBinding#subjects}
   */
   readonly subjects: EnterpriseRoleBindingSubjects;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#timeouts EnterpriseRoleBinding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#timeouts EnterpriseRoleBinding#timeouts}
   */
   readonly timeouts?: EnterpriseRoleBindingTimeouts;
 }
@@ -60,7 +60,7 @@ export interface EnterpriseRoleBindingScopesCluster {
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -178,7 +178,7 @@ export interface EnterpriseRoleBindingScopesOrganization {
   /**
   * Organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,13 +296,13 @@ export interface EnterpriseRoleBindingScopes {
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#cluster EnterpriseRoleBinding#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#cluster EnterpriseRoleBinding#cluster}
   */
   readonly cluster?: EnterpriseRoleBindingScopesCluster[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#organization EnterpriseRoleBinding#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#organization EnterpriseRoleBinding#organization}
   */
   readonly organization?: EnterpriseRoleBindingScopesOrganization[] | cdktf.IResolvable;
 }
@@ -417,7 +417,7 @@ export interface EnterpriseRoleBindingSubjectsGroup {
   /**
   * Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -535,7 +535,7 @@ export interface EnterpriseRoleBindingSubjectsServiceAccount {
   /**
   * Service account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -653,7 +653,7 @@ export interface EnterpriseRoleBindingSubjectsUser {
   /**
   * User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#id EnterpriseRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -771,19 +771,19 @@ export interface EnterpriseRoleBindingSubjects {
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#group EnterpriseRoleBinding#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#group EnterpriseRoleBinding#group}
   */
   readonly group?: EnterpriseRoleBindingSubjectsGroup[] | cdktf.IResolvable;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#service_account EnterpriseRoleBinding#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#service_account EnterpriseRoleBinding#service_account}
   */
   readonly serviceAccount?: EnterpriseRoleBindingSubjectsServiceAccount[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#user EnterpriseRoleBinding#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#user EnterpriseRoleBinding#user}
   */
   readonly user?: EnterpriseRoleBindingSubjectsUser[] | cdktf.IResolvable;
 }
@@ -925,15 +925,15 @@ export class EnterpriseRoleBindingSubjectsOutputReference extends cdktf.ComplexO
 }
 export interface EnterpriseRoleBindingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#create EnterpriseRoleBinding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#create EnterpriseRoleBinding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#delete EnterpriseRoleBinding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#delete EnterpriseRoleBinding#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#update EnterpriseRoleBinding#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#update EnterpriseRoleBinding#update}
   */
   readonly update?: string;
 }
@@ -1085,7 +1085,7 @@ export class EnterpriseRoleBindingTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding castai_enterprise_role_binding}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding castai_enterprise_role_binding}
 */
 export class EnterpriseRoleBinding extends cdktf.TerraformResource {
 
@@ -1101,7 +1101,7 @@ export class EnterpriseRoleBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnterpriseRoleBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseRoleBinding to import
-  * @param importFromId The id of the existing EnterpriseRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnterpriseRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseRoleBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1113,7 +1113,7 @@ export class EnterpriseRoleBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/enterprise_role_binding castai_enterprise_role_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.2.1/docs/resources/enterprise_role_binding castai_enterprise_role_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1124,8 +1124,8 @@ export class EnterpriseRoleBinding extends cdktf.TerraformResource {
       terraformResourceType: 'castai_enterprise_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.1.0',
-        providerVersionConstraint: '8.1.0'
+        providerVersion: '8.2.1',
+        providerVersionConstraint: '8.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

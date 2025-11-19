@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SourceWarehouseConnectionConfig extends cdktf.TerraformMetaArgu
   /**
   * The id of the Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection#source_id SourceWarehouseConnection#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection#source_id SourceWarehouseConnection#source_id}
   */
   readonly sourceId: string;
   /**
   * The id of the Warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection#warehouse_id SourceWarehouseConnection#warehouse_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection#warehouse_id SourceWarehouseConnection#warehouse_id}
   */
   readonly warehouseId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection segment_source_warehouse_connection}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection segment_source_warehouse_connection}
 */
 export class SourceWarehouseConnection extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SourceWarehouseConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceWarehouseConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceWarehouseConnection to import
-  * @param importFromId The id of the existing SourceWarehouseConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceWarehouseConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceWarehouseConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SourceWarehouseConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/source_warehouse_connection segment_source_warehouse_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/source_warehouse_connection segment_source_warehouse_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SourceWarehouseConnection extends cdktf.TerraformResource {
       terraformResourceType: 'segment_source_warehouse_connection',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

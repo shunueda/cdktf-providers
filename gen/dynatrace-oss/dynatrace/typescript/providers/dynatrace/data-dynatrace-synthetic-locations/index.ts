@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataDynatraceSyntheticLocationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#id DataDynatraceSyntheticLocations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#id DataDynatraceSyntheticLocations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#name DataDynatraceSyntheticLocations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#name DataDynatraceSyntheticLocations#name}
   */
   readonly name?: string;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#locations DataDynatraceSyntheticLocations#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#locations DataDynatraceSyntheticLocations#locations}
   */
   readonly locations?: DataDynatraceSyntheticLocationsLocations;
 }
@@ -31,19 +31,19 @@ export interface DataDynatraceSyntheticLocationsLocations {
   * 
   *  Only applicable to `PUBLIC` locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#cloud_platform DataDynatraceSyntheticLocations#cloud_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#cloud_platform DataDynatraceSyntheticLocations#cloud_platform}
   */
   readonly cloudPlatform?: string;
   /**
   * The unique ID of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#entity_id DataDynatraceSyntheticLocations#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#entity_id DataDynatraceSyntheticLocations#entity_id}
   */
   readonly entityId?: string;
   /**
   * The Dynatrace GeoLocation ID of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#geo_location_id DataDynatraceSyntheticLocations#geo_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#geo_location_id DataDynatraceSyntheticLocations#geo_location_id}
   */
   readonly geoLocationId?: string;
   /**
@@ -51,19 +51,19 @@ export interface DataDynatraceSyntheticLocationsLocations {
   * 
   *  Only applicable to `PUBLIC` locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#ips DataDynatraceSyntheticLocations#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#ips DataDynatraceSyntheticLocations#ips}
   */
   readonly ips?: string[];
   /**
   * The name of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#name DataDynatraceSyntheticLocations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#name DataDynatraceSyntheticLocations#name}
   */
   readonly name?: string;
   /**
   * The release stage of the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#stage DataDynatraceSyntheticLocations#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#stage DataDynatraceSyntheticLocations#stage}
   */
   readonly stage?: string;
   /**
@@ -73,13 +73,13 @@ export interface DataDynatraceSyntheticLocationsLocations {
   * * `DISABLED`: The location is displayed as inactive in the UI. You can't assign monitors to the location. Monitors already assigned to the location will stay there and will be executed from the location. 
   * * `HIDDEN`: The location is not displayed in the UI. You can't assign monitors to the location. You can only set location as `HIDDEN` when no monitor is assigned to it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#status DataDynatraceSyntheticLocations#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#status DataDynatraceSyntheticLocations#status}
   */
   readonly status?: string;
   /**
   * The type of the location. Supported values are `PUBLIC`, `PRIVATE` and `CLUSTER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#type DataDynatraceSyntheticLocations#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#type DataDynatraceSyntheticLocations#type}
   */
   readonly type?: string;
 }
@@ -366,7 +366,7 @@ export class DataDynatraceSyntheticLocationsLocationsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations dynatrace_synthetic_locations}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations dynatrace_synthetic_locations}
 */
 export class DataDynatraceSyntheticLocations extends cdktf.TerraformDataSource {
 
@@ -382,7 +382,7 @@ export class DataDynatraceSyntheticLocations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDynatraceSyntheticLocations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatraceSyntheticLocations to import
-  * @param importFromId The id of the existing DataDynatraceSyntheticLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatraceSyntheticLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatraceSyntheticLocations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +394,7 @@ export class DataDynatraceSyntheticLocations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/data-sources/synthetic_locations dynatrace_synthetic_locations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/synthetic_locations dynatrace_synthetic_locations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +405,8 @@ export class DataDynatraceSyntheticLocations extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_synthetic_locations',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

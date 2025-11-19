@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DestinationFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Actions for the Destination filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#actions DestinationFilter#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#actions DestinationFilter#actions}
   */
   readonly actions: DestinationFilterActions[] | cdktf.IResolvable;
   /**
   * The description of the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#description DestinationFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#description DestinationFilter#description}
   */
   readonly description?: string;
   /**
   * The id of the Destination associated with this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#destination_id DestinationFilter#destination_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#destination_id DestinationFilter#destination_id}
   */
   readonly destinationId: string;
   /**
   * When set to true, the Destination filter is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#enabled DestinationFilter#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#enabled DestinationFilter#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The filter's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#if DestinationFilter#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#if DestinationFilter#if}
   */
   readonly if: string;
   /**
   * The id of the Source associated with this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#source_id DestinationFilter#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#source_id DestinationFilter#source_id}
   */
   readonly sourceId: string;
   /**
   * The title of the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#title DestinationFilter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#title DestinationFilter#title}
   */
   readonly title: string;
 }
@@ -54,19 +54,19 @@ export interface DestinationFilterActions {
   /**
   * A dictionary of paths to object keys that this filter applies to. The literal string '' represents the top level of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#fields DestinationFilter#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#fields DestinationFilter#fields}
   */
   readonly fields?: string;
   /**
   * The JSON path to a property within a payload object from which Segment generates a deterministic sampling rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#path DestinationFilter#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#path DestinationFilter#path}
   */
   readonly path?: string;
   /**
   * A decimal between 0 and 1 used for 'sample' type events and influences the likelihood of sampling to occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#percent DestinationFilter#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#percent DestinationFilter#percent}
   */
   readonly percent?: number;
   /**
@@ -74,7 +74,7 @@ export interface DestinationFilterActions {
   * 
   * 								Enum: "ALLOW_PROPERTIES" "DROP" "DROP_PROPERTIES" "SAMPLE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#type DestinationFilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#type DestinationFilter#type}
   */
   readonly type: string;
 }
@@ -274,7 +274,7 @@ export class DestinationFilterActionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter segment_destination_filter}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter segment_destination_filter}
 */
 export class DestinationFilter extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class DestinationFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationFilter to import
-  * @param importFromId The id of the existing DestinationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DestinationFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_filter segment_destination_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_filter segment_destination_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DestinationFilter extends cdktf.TerraformResource {
       terraformResourceType: 'segment_destination_filter',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

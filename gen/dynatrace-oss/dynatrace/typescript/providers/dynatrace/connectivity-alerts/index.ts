@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConnectivityAlertsConfig extends cdktf.TerraformMetaArguments {
   /**
   * TCP connectivity problems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts#connectivity_alerts ConnectivityAlerts#connectivity_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts#connectivity_alerts ConnectivityAlerts#connectivity_alerts}
   */
   readonly connectivityAlerts: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts#id ConnectivityAlerts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts#id ConnectivityAlerts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ConnectivityAlertsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts#process_group_id ConnectivityAlerts#process_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts#process_group_id ConnectivityAlerts#process_group_id}
   */
   readonly processGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts dynatrace_connectivity_alerts}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts dynatrace_connectivity_alerts}
 */
 export class ConnectivityAlerts extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ConnectivityAlerts extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectivityAlerts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectivityAlerts to import
-  * @param importFromId The id of the existing ConnectivityAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectivityAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectivityAlerts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ConnectivityAlerts extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/connectivity_alerts dynatrace_connectivity_alerts} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/connectivity_alerts dynatrace_connectivity_alerts} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ConnectivityAlerts extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_connectivity_alerts',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

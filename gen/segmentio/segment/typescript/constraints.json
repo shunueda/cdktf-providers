@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "segment": "1.6.0"
+    "segment": "1.6.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AttackAllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#enabled AttackAllowlist#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#enabled AttackAllowlist#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#id AttackAllowlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#id AttackAllowlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface AttackAllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#insert_after AttackAllowlist#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#insert_after AttackAllowlist#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#rule_name AttackAllowlist#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#rule_name AttackAllowlist#rule_name}
   */
   readonly ruleName?: string;
   /**
   * attack_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#attack_handling AttackAllowlist#attack_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#attack_handling AttackAllowlist#attack_handling}
   */
   readonly attackHandling: AttackAllowlistAttackHandling;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#criteria AttackAllowlist#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#criteria AttackAllowlist#criteria}
   */
   readonly criteria?: AttackAllowlistCriteria;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#metadata AttackAllowlist#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#metadata AttackAllowlist#metadata}
   */
   readonly metadata: AttackAllowlistMetadata;
   /**
   * resource_attribute_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#resource_attribute_conditions AttackAllowlist#resource_attribute_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#resource_attribute_conditions AttackAllowlist#resource_attribute_conditions}
   */
   readonly resourceAttributeConditions?: AttackAllowlistResourceAttributeConditions;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#rules AttackAllowlist#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#rules AttackAllowlist#rules}
   */
   readonly rules: AttackAllowlistRules;
 }
@@ -67,7 +67,7 @@ export interface AttackAllowlistAttackHandling {
   /**
   * Possible Values: `MONITOR`, `OFF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#blocking_strategy AttackAllowlist#blocking_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#blocking_strategy AttackAllowlist#blocking_strategy}
   */
   readonly blockingStrategy: string;
 }
@@ -150,13 +150,13 @@ export interface AttackAllowlistCriteria {
   /**
   * Only consider attacks matching the specified pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#attack_pattern AttackAllowlist#attack_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#attack_pattern AttackAllowlist#attack_pattern}
   */
   readonly attackPattern?: string;
   /**
   * Source IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#source_ip AttackAllowlist#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#source_ip AttackAllowlist#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -271,7 +271,7 @@ export interface AttackAllowlistMetadata {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#comment AttackAllowlist#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#comment AttackAllowlist#comment}
   */
   readonly comment: string;
 }
@@ -354,19 +354,19 @@ export interface AttackAllowlistResourceAttributeConditionsResourceAttributeCond
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_EXIST`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `EQUALS`, `EXISTS`, `NOT_EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#matcher AttackAllowlist#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#matcher AttackAllowlist#matcher}
   */
   readonly matcher: string;
   /**
   * Resource attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#resource_attribute_key AttackAllowlist#resource_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#resource_attribute_key AttackAllowlist#resource_attribute_key}
   */
   readonly resourceAttributeKey: string;
   /**
   * Resource attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#resource_attribute_value AttackAllowlist#resource_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#resource_attribute_value AttackAllowlist#resource_attribute_value}
   */
   readonly resourceAttributeValue?: string;
 }
@@ -536,7 +536,7 @@ export interface AttackAllowlistResourceAttributeConditions {
   /**
   * resource_attribute_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#resource_attribute_condition AttackAllowlist#resource_attribute_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#resource_attribute_condition AttackAllowlist#resource_attribute_condition}
   */
   readonly resourceAttributeCondition: AttackAllowlistResourceAttributeConditionsResourceAttributeCondition[] | cdktf.IResolvable;
 }
@@ -619,25 +619,25 @@ export interface AttackAllowlistRulesRule {
   /**
   * Possible Values: `ACTOR_IP`, `DETECTION_TYPE`, `ENTRY_POINT_PAYLOAD`, `ENTRY_POINT_PAYLOAD_DOMAIN`, `ENTRY_POINT_PAYLOAD_PORT`, `ENTRY_POINT_URL_PATH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#criteria_key AttackAllowlist#criteria_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#criteria_key AttackAllowlist#criteria_key}
   */
   readonly criteriaKey: string;
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_STARTS_WITH`, `ENDS_WITH`, `EQUALS`, `IP_CIDR`, `NOT_EQUALS`, `NOT_IN_IP_CIDR`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#criteria_matcher AttackAllowlist#criteria_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#criteria_matcher AttackAllowlist#criteria_matcher}
   */
   readonly criteriaMatcher: string;
   /**
   * Possible Values: `CMD_INJECTION`, `JNDI_INJECTION`, `SQL_INJECTION`, `SSRF`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#criteria_value_detection_type AttackAllowlist#criteria_value_detection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#criteria_value_detection_type AttackAllowlist#criteria_value_detection_type}
   */
   readonly criteriaValueDetectionType?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#criteria_value_free_text AttackAllowlist#criteria_value_free_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#criteria_value_free_text AttackAllowlist#criteria_value_free_text}
   */
   readonly criteriaValueFreeText?: string;
 }
@@ -836,7 +836,7 @@ export interface AttackAllowlistRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#rule AttackAllowlist#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#rule AttackAllowlist#rule}
   */
   readonly rule: AttackAllowlistRulesRule[] | cdktf.IResolvable;
 }
@@ -917,7 +917,7 @@ export class AttackAllowlistRulesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist dynatrace_attack_allowlist}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist dynatrace_attack_allowlist}
 */
 export class AttackAllowlist extends cdktf.TerraformResource {
 
@@ -933,7 +933,7 @@ export class AttackAllowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttackAllowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttackAllowlist to import
-  * @param importFromId The id of the existing AttackAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttackAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttackAllowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -945,7 +945,7 @@ export class AttackAllowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/attack_allowlist dynatrace_attack_allowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attack_allowlist dynatrace_attack_allowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -956,8 +956,8 @@ export class AttackAllowlist extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_attack_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

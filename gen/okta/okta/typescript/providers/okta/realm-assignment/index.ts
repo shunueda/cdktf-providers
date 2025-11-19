@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RealmAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Condition expression for the Realm Assignment in Okta Expression Language. Example: `user.profile.role =="Manager"` or `user.profile.state.contains("example")`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#condition_expression RealmAssignment#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#condition_expression RealmAssignment#condition_expression}
   */
   readonly conditionExpression?: string;
   /**
   * The name of the Okta Realm Assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#name RealmAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#name RealmAssignment#name}
   */
   readonly name: string;
   /**
   * The Priority of the Realm Assignment. The lower the number, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#priority RealmAssignment#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#priority RealmAssignment#priority}
   */
   readonly priority?: number;
   /**
   * The ID of the Profile Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#profile_source_id RealmAssignment#profile_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#profile_source_id RealmAssignment#profile_source_id}
   */
   readonly profileSourceId: string;
   /**
   * The ID of the Realm asscociated with the Realm Assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#realm_id RealmAssignment#realm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#realm_id RealmAssignment#realm_id}
   */
   readonly realmId: string;
   /**
   * Defines whether the Realm Assignment is active or not. Valid values: `ACTIVE` and `INACTIVE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#status RealmAssignment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#status RealmAssignment#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment okta_realm_assignment}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment okta_realm_assignment}
 */
 export class RealmAssignment extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class RealmAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealmAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealmAssignment to import
-  * @param importFromId The id of the existing RealmAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealmAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealmAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class RealmAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm_assignment okta_realm_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm_assignment okta_realm_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class RealmAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'okta_realm_assignment',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

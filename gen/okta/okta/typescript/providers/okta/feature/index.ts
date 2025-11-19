@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FeatureConfig extends cdktf.TerraformMetaArguments {
   /**
   * Okta API for feature only reads and updates therefore the okta_feature resource needs to act as a quasi data source. Do this by setting feature_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature#feature_id Feature#feature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature#feature_id Feature#feature_id}
   */
   readonly featureId: string;
   /**
   * Whether to `ENABLE` or `DISABLE` the feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature#life_cycle Feature#life_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature#life_cycle Feature#life_cycle}
   */
   readonly lifeCycle?: string;
   /**
   * Indicates if you want to force enable or disable a feature. Value is `true` meaning force
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature#mode Feature#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature#mode Feature#mode}
   */
   readonly mode?: boolean | cdktf.IResolvable;
 }
@@ -87,7 +87,7 @@ export class FeatureStageOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature okta_feature}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature okta_feature}
 */
 export class Feature extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class Feature extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Feature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Feature to import
-  * @param importFromId The id of the existing Feature that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Feature that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Feature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class Feature extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/feature okta_feature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/feature okta_feature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class Feature extends cdktf.TerraformResource {
       terraformResourceType: 'okta_feature',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

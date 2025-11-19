@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription
+// https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DestinationSubscriptionConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the Destination action to trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#action_id DestinationSubscription#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#action_id DestinationSubscription#action_id}
   */
   readonly actionId: string;
   /**
   * The associated Destination instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#destination_id DestinationSubscription#destination_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#destination_id DestinationSubscription#destination_id}
   */
   readonly destinationId: string;
   /**
   * Is the subscription enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#enabled DestinationSubscription#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#enabled DestinationSubscription#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The unique identifier for the linked ReverseETLModel, if this part of a Reverse ETL connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#model_id DestinationSubscription#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#model_id DestinationSubscription#model_id}
   */
   readonly modelId?: string;
   /**
   * The name of the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#name DestinationSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#name DestinationSubscription#name}
   */
   readonly name: string;
   /**
   * (Reverse ETL only) The schedule for the subscription being attached to ReverseETL model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#reverse_etl_schedule DestinationSubscription#reverse_etl_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#reverse_etl_schedule DestinationSubscription#reverse_etl_schedule}
   */
   readonly reverseEtlSchedule?: DestinationSubscriptionReverseEtlSchedule;
   /**
   * The customer settings for action fields. Only settings included in the configuration will be managed by Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#settings DestinationSubscription#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#settings DestinationSubscription#settings}
   */
   readonly settings: string;
   /**
   * FQL string that describes what events should trigger a Destination action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#trigger DestinationSubscription#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#trigger DestinationSubscription#trigger}
   */
   readonly trigger: string;
 }
@@ -60,13 +60,13 @@ export interface DestinationSubscriptionReverseEtlSchedule {
   /**
   * Configures the schedule for the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#config DestinationSubscription#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#config DestinationSubscription#config}
   */
   readonly config?: string;
   /**
   * Strategy supports the following modes: PERIODIC, SPECIFIC_DAYS, CRON, DBT_CLOUD or MANUAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#strategy DestinationSubscription#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#strategy DestinationSubscription#strategy}
   */
   readonly strategy: string;
 }
@@ -186,7 +186,7 @@ export class DestinationSubscriptionReverseEtlScheduleOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription segment_destination_subscription}
+* Represents a {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription segment_destination_subscription}
 */
 export class DestinationSubscription extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class DestinationSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationSubscription to import
-  * @param importFromId The id of the existing DestinationSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DestinationSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.0/docs/resources/destination_subscription segment_destination_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/segmentio/segment/1.6.1/docs/resources/destination_subscription segment_destination_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DestinationSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'segment_destination_subscription',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

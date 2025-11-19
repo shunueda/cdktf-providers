@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ImsBridgesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#id ImsBridges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#id ImsBridges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ImsBridgesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the IMS bridge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#name ImsBridges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#name ImsBridges#name}
   */
   readonly name: string;
   /**
   * queue_managers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#queue_managers ImsBridges#queue_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#queue_managers ImsBridges#queue_managers}
   */
   readonly queueManagers?: ImsBridgesQueueManagers[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ImsBridgesQueueManagersQueueManager {
   /**
   * The name of the queue manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#name ImsBridges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#name ImsBridges#name}
   */
   readonly name: string;
   /**
   * Queue(s) that belong to the queue manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#queue_manager_queue ImsBridges#queue_manager_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#queue_manager_queue ImsBridges#queue_manager_queue}
   */
   readonly queueManagerQueue?: string[];
 }
@@ -181,7 +181,7 @@ export interface ImsBridgesQueueManagers {
   /**
   * queue_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#queue_manager ImsBridges#queue_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#queue_manager ImsBridges#queue_manager}
   */
   readonly queueManager?: ImsBridgesQueueManagersQueueManager[] | cdktf.IResolvable;
 }
@@ -297,7 +297,7 @@ export class ImsBridgesQueueManagersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges dynatrace_ims_bridges}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges dynatrace_ims_bridges}
 */
 export class ImsBridges extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class ImsBridges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImsBridges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImsBridges to import
-  * @param importFromId The id of the existing ImsBridges that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImsBridges that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImsBridges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class ImsBridges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ims_bridges dynatrace_ims_bridges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ims_bridges dynatrace_ims_bridges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class ImsBridges extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ims_bridges',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

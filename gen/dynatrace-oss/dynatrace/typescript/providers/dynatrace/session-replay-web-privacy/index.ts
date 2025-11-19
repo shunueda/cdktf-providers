@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SessionReplayWebPrivacyConfig extends cdktf.TerraformMetaArgume
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#application_id SessionReplayWebPrivacy#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#application_id SessionReplayWebPrivacy#application_id}
   */
   readonly applicationId?: string;
   /**
   * (Field has overlap with `dynatrace_application_data_privacy`) When [Session Replay opt-in mode](https://dt-url.net/sr-opt-in-mode) is turned on, Session Replay is deactivated until explicitly activated via an API call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#enable_opt_in_mode SessionReplayWebPrivacy#enable_opt_in_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#enable_opt_in_mode SessionReplayWebPrivacy#enable_opt_in_mode}
   */
   readonly enableOptInMode: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#id SessionReplayWebPrivacy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#id SessionReplayWebPrivacy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface SessionReplayWebPrivacyConfig extends cdktf.TerraformMetaArgume
   /**
   * (Field has overlap with `dynatrace_application_data_privacy`) Exclude webpages or views from Session Replay recording by adding [URL exclusion rules](https://dt-url.net/sr-url-exclusion)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#url_exclusion_pattern_list SessionReplayWebPrivacy#url_exclusion_pattern_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#url_exclusion_pattern_list SessionReplayWebPrivacy#url_exclusion_pattern_list}
   */
   readonly urlExclusionPatternList?: string[];
   /**
   * masking_presets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#masking_presets SessionReplayWebPrivacy#masking_presets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#masking_presets SessionReplayWebPrivacy#masking_presets}
   */
   readonly maskingPresets: SessionReplayWebPrivacyMaskingPresets;
 }
@@ -43,19 +43,19 @@ export interface SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingAllowListRu
   /**
   * Attribute masking can be applied to web applications that store data within attributes, typically data-NAME attributes in HTML5. When you define attributes, their values are masked while recording but not removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
   */
   readonly attributeExpression?: string;
   /**
   * Content masking can be applied to webpages where personal data is displayed. When content masking is applied to parent elements, all child elements are masked by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
   */
   readonly cssExpression?: string;
   /**
   * Possible Values: `ATTRIBUTE`, `ELEMENT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
   */
   readonly target: string;
 }
@@ -228,7 +228,7 @@ export interface SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingAllowListRu
   /**
   * allow_list_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#allow_list_rule SessionReplayWebPrivacy#allow_list_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#allow_list_rule SessionReplayWebPrivacy#allow_list_rule}
   */
   readonly allowListRule: SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingAllowListRulesAllowListRule[] | cdktf.IResolvable;
 }
@@ -311,25 +311,25 @@ export interface SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingBlockListRu
   /**
   * Attribute masking can be applied to web applications that store data within attributes, typically data-NAME attributes in HTML5. When you define attributes, their values are masked while recording but not removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
   */
   readonly attributeExpression?: string;
   /**
   * Content masking can be applied to webpages where personal data is displayed. When content masking is applied to parent elements, all child elements are masked by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
   */
   readonly cssExpression?: string;
   /**
   * Hide user interactions with these elements, including clicks that expand elements, highlighting that results from hovering a cursor over an option, and selection of specific form options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#hide_user_interaction SessionReplayWebPrivacy#hide_user_interaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#hide_user_interaction SessionReplayWebPrivacy#hide_user_interaction}
   */
   readonly hideUserInteraction?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `ELEMENT`, `ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
   */
   readonly target: string;
 }
@@ -531,7 +531,7 @@ export interface SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingBlockListRu
   /**
   * block_list_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#block_list_rule SessionReplayWebPrivacy#block_list_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#block_list_rule SessionReplayWebPrivacy#block_list_rule}
   */
   readonly blockListRule: SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingBlockListRulesBlockListRule[] | cdktf.IResolvable;
 }
@@ -614,19 +614,19 @@ export interface SessionReplayWebPrivacyMaskingPresetsRecordingMaskingAllowListR
   /**
   * Attribute masking can be applied to web applications that store data within attributes, typically data-NAME attributes in HTML5. When you define attributes, their values are masked while recording but not removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
   */
   readonly attributeExpression?: string;
   /**
   * Content masking can be applied to webpages where personal data is displayed. When content masking is applied to parent elements, all child elements are masked by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
   */
   readonly cssExpression?: string;
   /**
   * Possible Values: `ATTRIBUTE`, `ELEMENT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
   */
   readonly target: string;
 }
@@ -799,7 +799,7 @@ export interface SessionReplayWebPrivacyMaskingPresetsRecordingMaskingAllowListR
   /**
   * allow_list_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#allow_list_rule SessionReplayWebPrivacy#allow_list_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#allow_list_rule SessionReplayWebPrivacy#allow_list_rule}
   */
   readonly allowListRule: SessionReplayWebPrivacyMaskingPresetsRecordingMaskingAllowListRulesAllowListRule[] | cdktf.IResolvable;
 }
@@ -882,25 +882,25 @@ export interface SessionReplayWebPrivacyMaskingPresetsRecordingMaskingBlockListR
   /**
   * Attribute masking can be applied to web applications that store data within attributes, typically data-NAME attributes in HTML5. When you define attributes, their values are masked while recording but not removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#attribute_expression SessionReplayWebPrivacy#attribute_expression}
   */
   readonly attributeExpression?: string;
   /**
   * Content masking can be applied to webpages where personal data is displayed. When content masking is applied to parent elements, all child elements are masked by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#css_expression SessionReplayWebPrivacy#css_expression}
   */
   readonly cssExpression?: string;
   /**
   * Hide user interactions with these elements, including clicks that expand elements, highlighting that results from hovering a cursor over an option, and selection of specific form options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#hide_user_interaction SessionReplayWebPrivacy#hide_user_interaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#hide_user_interaction SessionReplayWebPrivacy#hide_user_interaction}
   */
   readonly hideUserInteraction?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `ELEMENT`, `ATTRIBUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#target SessionReplayWebPrivacy#target}
   */
   readonly target: string;
 }
@@ -1102,7 +1102,7 @@ export interface SessionReplayWebPrivacyMaskingPresetsRecordingMaskingBlockListR
   /**
   * block_list_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#block_list_rule SessionReplayWebPrivacy#block_list_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#block_list_rule SessionReplayWebPrivacy#block_list_rule}
   */
   readonly blockListRule: SessionReplayWebPrivacyMaskingPresetsRecordingMaskingBlockListRulesBlockListRule[] | cdktf.IResolvable;
 }
@@ -1185,37 +1185,37 @@ export interface SessionReplayWebPrivacyMaskingPresets {
   /**
   * (Field has overlap with `dynatrace_application_data_privacy`) Possible Values: `MASK_ALL`, `MASK_USER_INPUT`, `ALLOW_LIST`, `BLOCK_LIST`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#playback_masking_preset SessionReplayWebPrivacy#playback_masking_preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#playback_masking_preset SessionReplayWebPrivacy#playback_masking_preset}
   */
   readonly playbackMaskingPreset: string;
   /**
   * (Field has overlap with `dynatrace_application_data_privacy`) Possible Values: `MASK_USER_INPUT`, `ALLOW_LIST`, `BLOCK_LIST`, `MASK_ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#recording_masking_preset SessionReplayWebPrivacy#recording_masking_preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#recording_masking_preset SessionReplayWebPrivacy#recording_masking_preset}
   */
   readonly recordingMaskingPreset: string;
   /**
   * playback_masking_allow_list_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#playback_masking_allow_list_rules SessionReplayWebPrivacy#playback_masking_allow_list_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#playback_masking_allow_list_rules SessionReplayWebPrivacy#playback_masking_allow_list_rules}
   */
   readonly playbackMaskingAllowListRules?: SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingAllowListRules;
   /**
   * playback_masking_block_list_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#playback_masking_block_list_rules SessionReplayWebPrivacy#playback_masking_block_list_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#playback_masking_block_list_rules SessionReplayWebPrivacy#playback_masking_block_list_rules}
   */
   readonly playbackMaskingBlockListRules?: SessionReplayWebPrivacyMaskingPresetsPlaybackMaskingBlockListRules;
   /**
   * recording_masking_allow_list_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#recording_masking_allow_list_rules SessionReplayWebPrivacy#recording_masking_allow_list_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#recording_masking_allow_list_rules SessionReplayWebPrivacy#recording_masking_allow_list_rules}
   */
   readonly recordingMaskingAllowListRules?: SessionReplayWebPrivacyMaskingPresetsRecordingMaskingAllowListRules;
   /**
   * recording_masking_block_list_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#recording_masking_block_list_rules SessionReplayWebPrivacy#recording_masking_block_list_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#recording_masking_block_list_rules SessionReplayWebPrivacy#recording_masking_block_list_rules}
   */
   readonly recordingMaskingBlockListRules?: SessionReplayWebPrivacyMaskingPresetsRecordingMaskingBlockListRules;
 }
@@ -1438,7 +1438,7 @@ export class SessionReplayWebPrivacyMaskingPresetsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy dynatrace_session_replay_web_privacy}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy dynatrace_session_replay_web_privacy}
 */
 export class SessionReplayWebPrivacy extends cdktf.TerraformResource {
 
@@ -1454,7 +1454,7 @@ export class SessionReplayWebPrivacy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SessionReplayWebPrivacy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SessionReplayWebPrivacy to import
-  * @param importFromId The id of the existing SessionReplayWebPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SessionReplayWebPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SessionReplayWebPrivacy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1466,7 +1466,7 @@ export class SessionReplayWebPrivacy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/session_replay_web_privacy dynatrace_session_replay_web_privacy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/session_replay_web_privacy dynatrace_session_replay_web_privacy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1477,8 +1477,8 @@ export class SessionReplayWebPrivacy extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_session_replay_web_privacy',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm
+// https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RealmConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Okta Realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm#name Realm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm#name Realm#name}
   */
   readonly name: string;
   /**
   * The realm type. Valid values: `PARTNER` and `DEFAULT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm#realm_type Realm#realm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm#realm_type Realm#realm_type}
   */
   readonly realmType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm okta_realm}
+* Represents a {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm okta_realm}
 */
 export class Realm extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Realm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Realm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Realm to import
-  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Realm that should be imported. Refer to the {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Realm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Realm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.4.0/docs/resources/realm okta_realm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/okta/okta/6.5.0/docs/resources/realm okta_realm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Realm extends cdktf.TerraformResource {
       terraformResourceType: 'okta_realm',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0',
-        providerVersionConstraint: '6.4.0'
+        providerVersion: '6.5.0',
+        providerVersionConstraint: '6.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

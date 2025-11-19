@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SloV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The description of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#custom_description SloV2#custom_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#custom_description SloV2#custom_description}
   */
   readonly customDescription?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#enabled SloV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#enabled SloV2#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AGGREGATE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#evaluation_type SloV2#evaluation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#evaluation_type SloV2#evaluation_type}
   */
   readonly evaluationType: string;
   /**
   * Define the timeframe during which the SLO is to be evaluated. For the timeframe you can enter expressions like -1h (last hour), -1w (last week) or complex expressions like -2d to now (last two days), -1d/d to now/d (beginning of yesterday to beginning of today).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#evaluation_window SloV2#evaluation_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#evaluation_window SloV2#evaluation_window}
   */
   readonly evaluationWindow: string;
   /**
   * Set a filter parameter (entitySelector) on any GET call to evaluate this SLO against specific services only (for example, type("SERVICE")).  For details, see the [Entity Selector documentation](https://dt-url.net/entityselector).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#filter SloV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#filter SloV2#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#id SloV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#id SloV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface SloV2Config extends cdktf.TerraformMetaArguments {
   /**
   * The ID of this setting when referred to by the Config REST API V1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#legacy_id SloV2#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#legacy_id SloV2#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * For details, see the [Metrics page](/ui/metrics "Metrics page").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#metric_expression SloV2#metric_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#metric_expression SloV2#metric_expression}
   */
   readonly metricExpression: string;
   /**
   * Metric name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#metric_name SloV2#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#metric_name SloV2#metric_name}
   */
   readonly metricName?: string;
   /**
   * SLO name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#name SloV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#name SloV2#name}
   */
   readonly name: string;
   /**
   * Set the target value of the SLO. A percentage below this value indicates a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#target_success SloV2#target_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#target_success SloV2#target_success}
   */
   readonly targetSuccess: number;
   /**
   * Set the warning value of the SLO. At the warning state the SLO is fulfilled. However, it is getting close to a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#target_warning SloV2#target_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#target_warning SloV2#target_warning}
   */
   readonly targetWarning: number;
   /**
   * error_budget_burn_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#error_budget_burn_rate SloV2#error_budget_burn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#error_budget_burn_rate SloV2#error_budget_burn_rate}
   */
   readonly errorBudgetBurnRate: SloV2ErrorBudgetBurnRate;
 }
@@ -91,13 +91,13 @@ export interface SloV2ErrorBudgetBurnRate {
   /**
   * Burn rate visualization enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#burn_rate_visualization_enabled SloV2#burn_rate_visualization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#burn_rate_visualization_enabled SloV2#burn_rate_visualization_enabled}
   */
   readonly burnRateVisualizationEnabled: boolean | cdktf.IResolvable;
   /**
   * The threshold defines when a burn rate is marked as fast-burning (high-emergency). Burn rates lower than this threshold (and greater than 1) are highlighted as slow-burn (low-emergency).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#fast_burn_threshold SloV2#fast_burn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#fast_burn_threshold SloV2#fast_burn_threshold}
   */
   readonly fastBurnThreshold?: number;
 }
@@ -207,7 +207,7 @@ export class SloV2ErrorBudgetBurnRateOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2 dynatrace_slo_v2}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2 dynatrace_slo_v2}
 */
 export class SloV2 extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class SloV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SloV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SloV2 to import
-  * @param importFromId The id of the existing SloV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SloV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SloV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class SloV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/slo_v2 dynatrace_slo_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/slo_v2 dynatrace_slo_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class SloV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_slo_v2',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

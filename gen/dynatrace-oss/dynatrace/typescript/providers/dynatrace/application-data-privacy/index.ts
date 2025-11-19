@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ApplicationDataPrivacyConfig extends cdktf.TerraformMetaArgumen
   /**
   * (Field has overlap with `dynatrace_data_privacy`) Set to `true` to disable data capture and cookies until JavaScriptAPI `dtrum.enable()` is called
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#data_capture_opt_in ApplicationDataPrivacy#data_capture_opt_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#data_capture_opt_in ApplicationDataPrivacy#data_capture_opt_in}
   */
   readonly dataCaptureOptIn?: boolean | cdktf.IResolvable;
   /**
@@ -20,11 +20,11 @@ export interface ApplicationDataPrivacyConfig extends cdktf.TerraformMetaArgumen
   * * `CAPTURE_ANONYMIZED`: capture the data but do not tie it to the user. 
   * * `DO_NOT_CAPTURE`: respect the header and do not capture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#do_not_track_behaviour ApplicationDataPrivacy#do_not_track_behaviour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#do_not_track_behaviour ApplicationDataPrivacy#do_not_track_behaviour}
   */
   readonly doNotTrackBehaviour: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#id ApplicationDataPrivacy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#id ApplicationDataPrivacy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface ApplicationDataPrivacyConfig extends cdktf.TerraformMetaArgumen
   /**
   * (Field has overlap with `dynatrace_data_privacy`) Set to `true` to set persistent cookie in order to recognize returning devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#persistent_cookie_for_user_tracking ApplicationDataPrivacy#persistent_cookie_for_user_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#persistent_cookie_for_user_tracking ApplicationDataPrivacy#persistent_cookie_for_user_tracking}
   */
   readonly persistentCookieForUserTracking?: boolean | cdktf.IResolvable;
   /**
   * Dynatrace entity ID of the web application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#web_application_id ApplicationDataPrivacy#web_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#web_application_id ApplicationDataPrivacy#web_application_id}
   */
   readonly webApplicationId: string;
   /**
   * session_replay_data_privacy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#session_replay_data_privacy ApplicationDataPrivacy#session_replay_data_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#session_replay_data_privacy ApplicationDataPrivacy#session_replay_data_privacy}
   */
   readonly sessionReplayDataPrivacy: ApplicationDataPrivacySessionReplayDataPrivacy;
 }
@@ -55,19 +55,19 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   * 
   * Specify a CSS expression for an element or a [regular expression](https://dt-url.net/k9e0iaq) for an attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#selector ApplicationDataPrivacy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#selector ApplicationDataPrivacy#selector}
   */
   readonly selector: string;
   /**
   * The type of the masking rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#type ApplicationDataPrivacy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#type ApplicationDataPrivacy#type}
   */
   readonly type: string;
   /**
   * Interactions with the element are (`true`) or are not (`false) masked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#user_interaction_hidden ApplicationDataPrivacy#user_interaction_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#user_interaction_hidden ApplicationDataPrivacy#user_interaction_hidden}
   */
   readonly userInteractionHidden?: boolean | cdktf.IResolvable;
 }
@@ -237,7 +237,7 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#rule ApplicationDataPrivacy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#rule ApplicationDataPrivacy#rule}
   */
   readonly rule: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsPlaybackRulesRule[] | cdktf.IResolvable;
 }
@@ -325,13 +325,13 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   * * `ALLOW_LIST`: Only elements, specified in **maskingRules** are shown, everything else is masked. 
   * * `BLOCK_LIST`: Elements, specified in **maskingRules** are masked, everything else is shown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#preset ApplicationDataPrivacy#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#preset ApplicationDataPrivacy#preset}
   */
   readonly preset: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#rules ApplicationDataPrivacy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#rules ApplicationDataPrivacy#rules}
   */
   readonly rules?: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsPlaybackRules;
 }
@@ -445,19 +445,19 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   * 
   * Specify a CSS expression for an element or a [regular expression](https://dt-url.net/k9e0iaq) for an attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#selector ApplicationDataPrivacy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#selector ApplicationDataPrivacy#selector}
   */
   readonly selector: string;
   /**
   * The type of the masking rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#type ApplicationDataPrivacy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#type ApplicationDataPrivacy#type}
   */
   readonly type: string;
   /**
   * Interactions with the element are (`true`) or are not (`false) masked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#user_interaction_hidden ApplicationDataPrivacy#user_interaction_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#user_interaction_hidden ApplicationDataPrivacy#user_interaction_hidden}
   */
   readonly userInteractionHidden?: boolean | cdktf.IResolvable;
 }
@@ -627,7 +627,7 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#rule ApplicationDataPrivacy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#rule ApplicationDataPrivacy#rule}
   */
   readonly rule: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsRecordingRulesRule[] | cdktf.IResolvable;
 }
@@ -715,13 +715,13 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   * * `ALLOW_LIST`: Only elements, specified in **maskingRules** are shown, everything else is masked. 
   * * `BLOCK_LIST`: Elements, specified in **maskingRules** are masked, everything else is shown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#preset ApplicationDataPrivacy#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#preset ApplicationDataPrivacy#preset}
   */
   readonly preset: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#rules ApplicationDataPrivacy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#rules ApplicationDataPrivacy#rules}
   */
   readonly rules?: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsRecordingRules;
 }
@@ -833,13 +833,13 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSet
   /**
   * playback block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#playback ApplicationDataPrivacy#playback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#playback ApplicationDataPrivacy#playback}
   */
   readonly playback: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsPlayback;
   /**
   * recording block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#recording ApplicationDataPrivacy#recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#recording ApplicationDataPrivacy#recording}
   */
   readonly recording: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettingsRecording;
 }
@@ -948,19 +948,19 @@ export interface ApplicationDataPrivacySessionReplayDataPrivacy {
   /**
   * (Field has overlap with `dynatrace_session_replay_web_privacy`) If `true`, session recording is disabled until JavaScriptAPI `dtrum.enableSessionReplay()` is called
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#opt_in ApplicationDataPrivacy#opt_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#opt_in ApplicationDataPrivacy#opt_in}
   */
   readonly optIn?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_session_replay_web_privacy`) A list of URLs to be excluded from recording
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#url_exclusion_rules ApplicationDataPrivacy#url_exclusion_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#url_exclusion_rules ApplicationDataPrivacy#url_exclusion_rules}
   */
   readonly urlExclusionRules?: string[];
   /**
   * content_masking_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#content_masking_settings ApplicationDataPrivacy#content_masking_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#content_masking_settings ApplicationDataPrivacy#content_masking_settings}
   */
   readonly contentMaskingSettings: ApplicationDataPrivacySessionReplayDataPrivacyContentMaskingSettings;
 }
@@ -1099,7 +1099,7 @@ export class ApplicationDataPrivacySessionReplayDataPrivacyOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy dynatrace_application_data_privacy}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy dynatrace_application_data_privacy}
 */
 export class ApplicationDataPrivacy extends cdktf.TerraformResource {
 
@@ -1115,7 +1115,7 @@ export class ApplicationDataPrivacy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationDataPrivacy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationDataPrivacy to import
-  * @param importFromId The id of the existing ApplicationDataPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationDataPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationDataPrivacy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1127,7 +1127,7 @@ export class ApplicationDataPrivacy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/application_data_privacy dynatrace_application_data_privacy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_data_privacy dynatrace_application_data_privacy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,8 +1138,8 @@ export class ApplicationDataPrivacy extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_application_data_privacy',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

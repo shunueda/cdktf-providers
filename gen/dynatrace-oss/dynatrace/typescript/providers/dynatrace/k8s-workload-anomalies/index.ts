@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface K8SWorkloadAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#id K8SWorkloadAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#id K8SWorkloadAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,91 +17,91 @@ export interface K8SWorkloadAnomaliesConfig extends cdktf.TerraformMetaArguments
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#scope K8SWorkloadAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#scope K8SWorkloadAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * container_restarts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#container_restarts K8SWorkloadAnomalies#container_restarts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#container_restarts K8SWorkloadAnomalies#container_restarts}
   */
   readonly containerRestarts: K8SWorkloadAnomaliesContainerRestarts;
   /**
   * deployment_stuck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#deployment_stuck K8SWorkloadAnomalies#deployment_stuck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#deployment_stuck K8SWorkloadAnomalies#deployment_stuck}
   */
   readonly deploymentStuck: K8SWorkloadAnomaliesDeploymentStuck;
   /**
   * high_cpu_throttling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#high_cpu_throttling K8SWorkloadAnomalies#high_cpu_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#high_cpu_throttling K8SWorkloadAnomalies#high_cpu_throttling}
   */
   readonly highCpuThrottling: K8SWorkloadAnomaliesHighCpuThrottling;
   /**
   * high_cpu_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#high_cpu_usage K8SWorkloadAnomalies#high_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#high_cpu_usage K8SWorkloadAnomalies#high_cpu_usage}
   */
   readonly highCpuUsage: K8SWorkloadAnomaliesHighCpuUsage;
   /**
   * high_memory_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#high_memory_usage K8SWorkloadAnomalies#high_memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#high_memory_usage K8SWorkloadAnomalies#high_memory_usage}
   */
   readonly highMemoryUsage: K8SWorkloadAnomaliesHighMemoryUsage;
   /**
   * job_failure_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#job_failure_events K8SWorkloadAnomalies#job_failure_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#job_failure_events K8SWorkloadAnomalies#job_failure_events}
   */
   readonly jobFailureEvents: K8SWorkloadAnomaliesJobFailureEvents;
   /**
   * not_all_pods_ready block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#not_all_pods_ready K8SWorkloadAnomalies#not_all_pods_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#not_all_pods_ready K8SWorkloadAnomalies#not_all_pods_ready}
   */
   readonly notAllPodsReady: K8SWorkloadAnomaliesNotAllPodsReady;
   /**
   * oom_kills block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#oom_kills K8SWorkloadAnomalies#oom_kills}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#oom_kills K8SWorkloadAnomalies#oom_kills}
   */
   readonly oomKills: K8SWorkloadAnomaliesOomKills;
   /**
   * pending_pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#pending_pods K8SWorkloadAnomalies#pending_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#pending_pods K8SWorkloadAnomalies#pending_pods}
   */
   readonly pendingPods: K8SWorkloadAnomaliesPendingPods;
   /**
   * pod_backoff_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#pod_backoff_events K8SWorkloadAnomalies#pod_backoff_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#pod_backoff_events K8SWorkloadAnomalies#pod_backoff_events}
   */
   readonly podBackoffEvents: K8SWorkloadAnomaliesPodBackoffEvents;
   /**
   * pod_eviction_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#pod_eviction_events K8SWorkloadAnomalies#pod_eviction_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#pod_eviction_events K8SWorkloadAnomalies#pod_eviction_events}
   */
   readonly podEvictionEvents: K8SWorkloadAnomaliesPodEvictionEvents;
   /**
   * pod_preemption_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#pod_preemption_events K8SWorkloadAnomalies#pod_preemption_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#pod_preemption_events K8SWorkloadAnomalies#pod_preemption_events}
   */
   readonly podPreemptionEvents: K8SWorkloadAnomaliesPodPreemptionEvents;
   /**
   * pod_stuck_in_terminating block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#pod_stuck_in_terminating K8SWorkloadAnomalies#pod_stuck_in_terminating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#pod_stuck_in_terminating K8SWorkloadAnomalies#pod_stuck_in_terminating}
   */
   readonly podStuckInTerminating: K8SWorkloadAnomaliesPodStuckInTerminating;
   /**
   * workload_without_ready_pods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#workload_without_ready_pods K8SWorkloadAnomalies#workload_without_ready_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#workload_without_ready_pods K8SWorkloadAnomalies#workload_without_ready_pods}
   */
   readonly workloadWithoutReadyPods: K8SWorkloadAnomaliesWorkloadWithoutReadyPods;
 }
@@ -109,19 +109,19 @@ export interface K8SWorkloadAnomaliesContainerRestartsConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * per minute, for any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * there is at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -256,13 +256,13 @@ export interface K8SWorkloadAnomaliesContainerRestarts {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesContainerRestartsConfiguration;
 }
@@ -374,13 +374,13 @@ export interface K8SWorkloadAnomaliesDeploymentStuckConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * workload stops progressing for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -489,13 +489,13 @@ export interface K8SWorkloadAnomaliesDeploymentStuck {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesDeploymentStuckConfiguration;
 }
@@ -607,19 +607,19 @@ export interface K8SWorkloadAnomaliesHighCpuThrottlingConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of CPU usage for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of CPU throttling is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -754,13 +754,13 @@ export interface K8SWorkloadAnomaliesHighCpuThrottling {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesHighCpuThrottlingConfiguration;
 }
@@ -872,19 +872,19 @@ export interface K8SWorkloadAnomaliesHighCpuUsageConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of defined CPU limits for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of utilized workload CPU is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -1019,13 +1019,13 @@ export interface K8SWorkloadAnomaliesHighCpuUsage {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesHighCpuUsageConfiguration;
 }
@@ -1137,19 +1137,19 @@ export interface K8SWorkloadAnomaliesHighMemoryUsageConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of defined memory limits for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of utilized workload memory is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -1284,13 +1284,13 @@ export interface K8SWorkloadAnomaliesHighMemoryUsage {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesHighMemoryUsageConfiguration;
 }
@@ -1402,7 +1402,7 @@ export interface K8SWorkloadAnomaliesJobFailureEvents {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1485,13 +1485,13 @@ export interface K8SWorkloadAnomaliesNotAllPodsReadyConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * some workload pods are not ready for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -1600,13 +1600,13 @@ export interface K8SWorkloadAnomaliesNotAllPodsReady {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesNotAllPodsReadyConfiguration;
 }
@@ -1718,7 +1718,7 @@ export interface K8SWorkloadAnomaliesOomKills {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1801,19 +1801,19 @@ export interface K8SWorkloadAnomaliesPendingPodsConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * stuck in pending state for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * there is at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#threshold K8SWorkloadAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -1948,13 +1948,13 @@ export interface K8SWorkloadAnomaliesPendingPods {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesPendingPodsConfiguration;
 }
@@ -2066,7 +2066,7 @@ export interface K8SWorkloadAnomaliesPodBackoffEvents {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2149,7 +2149,7 @@ export interface K8SWorkloadAnomaliesPodEvictionEvents {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2232,7 +2232,7 @@ export interface K8SWorkloadAnomaliesPodPreemptionEvents {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2315,13 +2315,13 @@ export interface K8SWorkloadAnomaliesPodStuckInTerminatingConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * pod termination stops progressing for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -2430,13 +2430,13 @@ export interface K8SWorkloadAnomaliesPodStuckInTerminating {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesPodStuckInTerminatingConfiguration;
 }
@@ -2548,13 +2548,13 @@ export interface K8SWorkloadAnomaliesWorkloadWithoutReadyPodsConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#observation_period_in_minutes K8SWorkloadAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * workload has no ready pods for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#sample_period_in_minutes K8SWorkloadAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
 }
@@ -2663,13 +2663,13 @@ export interface K8SWorkloadAnomaliesWorkloadWithoutReadyPods {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#enabled K8SWorkloadAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#configuration K8SWorkloadAnomalies#configuration}
   */
   readonly configuration?: K8SWorkloadAnomaliesWorkloadWithoutReadyPodsConfiguration;
 }
@@ -2779,7 +2779,7 @@ export class K8SWorkloadAnomaliesWorkloadWithoutReadyPodsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies dynatrace_k8s_workload_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies dynatrace_k8s_workload_anomalies}
 */
 export class K8SWorkloadAnomalies extends cdktf.TerraformResource {
 
@@ -2795,7 +2795,7 @@ export class K8SWorkloadAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SWorkloadAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SWorkloadAnomalies to import
-  * @param importFromId The id of the existing K8SWorkloadAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SWorkloadAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SWorkloadAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2807,7 +2807,7 @@ export class K8SWorkloadAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_workload_anomalies dynatrace_k8s_workload_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_workload_anomalies dynatrace_k8s_workload_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2818,8 +2818,8 @@ export class K8SWorkloadAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_workload_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

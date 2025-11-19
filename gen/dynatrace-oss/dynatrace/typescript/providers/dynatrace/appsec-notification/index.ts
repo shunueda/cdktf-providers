@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AppsecNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * For attack candidate alerts, select an [alerting profile](/ui/settings/builtin:appsec.notification-attack-alerting-profile) to control the delivery of security notifications related to this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#attack_candidate_based_alerting_profile AppsecNotification#attack_candidate_based_alerting_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#attack_candidate_based_alerting_profile AppsecNotification#attack_candidate_based_alerting_profile}
   */
   readonly attackCandidateBasedAlertingProfile?: string;
   /**
   * Display name of the security notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#display_name AppsecNotification#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#display_name AppsecNotification#display_name}
   */
   readonly displayName: string;
   /**
   * Enable/Disable the security notification, enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#enabled AppsecNotification#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#enabled AppsecNotification#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#id AppsecNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#id AppsecNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface AppsecNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * For security problem alerts, select an [alerting profile](/ui/settings/builtin:appsec.notification-alerting-profile) to control the delivery of security notifications related to this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#security_problem_based_alerting_profile AppsecNotification#security_problem_based_alerting_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#security_problem_based_alerting_profile AppsecNotification#security_problem_based_alerting_profile}
   */
   readonly securityProblemBasedAlertingProfile?: string;
   /**
   * Security alert type, possible Values: `ATTACK_CANDIDATE`, `SECURITY_PROBLEM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#trigger AppsecNotification#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#trigger AppsecNotification#trigger}
   */
   readonly trigger: string;
   /**
   * Notification type, possible Values: `EMAIL`, `JIRA`, `WEBHOOK`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#type AppsecNotification#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#type AppsecNotification#type}
   */
   readonly type: string;
   /**
   * attack_candidate_based_email_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#attack_candidate_based_email_payload AppsecNotification#attack_candidate_based_email_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#attack_candidate_based_email_payload AppsecNotification#attack_candidate_based_email_payload}
   */
   readonly attackCandidateBasedEmailPayload?: AppsecNotificationAttackCandidateBasedEmailPayload;
   /**
   * attack_candidate_based_jira_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#attack_candidate_based_jira_payload AppsecNotification#attack_candidate_based_jira_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#attack_candidate_based_jira_payload AppsecNotification#attack_candidate_based_jira_payload}
   */
   readonly attackCandidateBasedJiraPayload?: AppsecNotificationAttackCandidateBasedJiraPayload;
   /**
   * attack_candidate_based_webhook_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#attack_candidate_based_webhook_payload AppsecNotification#attack_candidate_based_webhook_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#attack_candidate_based_webhook_payload AppsecNotification#attack_candidate_based_webhook_payload}
   */
   readonly attackCandidateBasedWebhookPayload?: AppsecNotificationAttackCandidateBasedWebhookPayload;
   /**
   * email_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#email_configuration AppsecNotification#email_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#email_configuration AppsecNotification#email_configuration}
   */
   readonly emailConfiguration?: AppsecNotificationEmailConfiguration;
   /**
   * jira_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#jira_configuration AppsecNotification#jira_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#jira_configuration AppsecNotification#jira_configuration}
   */
   readonly jiraConfiguration?: AppsecNotificationJiraConfiguration;
   /**
   * security_problem_based_email_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#security_problem_based_email_payload AppsecNotification#security_problem_based_email_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#security_problem_based_email_payload AppsecNotification#security_problem_based_email_payload}
   */
   readonly securityProblemBasedEmailPayload?: AppsecNotificationSecurityProblemBasedEmailPayload;
   /**
   * security_problem_based_jira_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#security_problem_based_jira_payload AppsecNotification#security_problem_based_jira_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#security_problem_based_jira_payload AppsecNotification#security_problem_based_jira_payload}
   */
   readonly securityProblemBasedJiraPayload?: AppsecNotificationSecurityProblemBasedJiraPayload;
   /**
   * security_problem_based_webhook_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#security_problem_based_webhook_payload AppsecNotification#security_problem_based_webhook_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#security_problem_based_webhook_payload AppsecNotification#security_problem_based_webhook_payload}
   */
   readonly securityProblemBasedWebhookPayload?: AppsecNotificationSecurityProblemBasedWebhookPayload;
   /**
   * webhook_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#webhook_configuration AppsecNotification#webhook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#webhook_configuration AppsecNotification#webhook_configuration}
   */
   readonly webhookConfiguration?: AppsecNotificationWebhookConfiguration;
 }
@@ -121,7 +121,7 @@ export interface AppsecNotificationAttackCandidateBasedEmailPayload {
   * **{Timestamp}**: When the attack happened.  
   * **{VulnerabilityName}**: Name of the associated code-level vulnerability, for example: "InMemoryDatabaseCaller.getAccountInfo():51". Can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#body AppsecNotification#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#body AppsecNotification#body}
   */
   readonly body: string;
   /**
@@ -136,7 +136,7 @@ export interface AppsecNotificationAttackCandidateBasedEmailPayload {
   * **{Timestamp}**: When the attack happened.  
   * **{VulnerabilityName}**: Name of the associated code-level vulnerability, for example: "InMemoryDatabaseCaller.getAccountInfo():51". Can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#subject AppsecNotification#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#subject AppsecNotification#subject}
   */
   readonly subject: string;
 }
@@ -257,7 +257,7 @@ export interface AppsecNotificationAttackCandidateBasedJiraPayload {
   * **{Timestamp}**: When the attack happened.  
   * **{VulnerabilityName}**: Name of the associated code-level vulnerability, for example: "InMemoryDatabaseCaller.getAccountInfo():51". Can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#description AppsecNotification#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#description AppsecNotification#description}
   */
   readonly description: string;
   /**
@@ -274,7 +274,7 @@ export interface AppsecNotificationAttackCandidateBasedJiraPayload {
   * **{Timestamp}**: When the attack happened.  
   * **{VulnerabilityName}**: Name of the associated code-level vulnerability, for example: "InMemoryDatabaseCaller.getAccountInfo():51". Can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#summary AppsecNotification#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#summary AppsecNotification#summary}
   */
   readonly summary: string;
 }
@@ -395,7 +395,7 @@ export interface AppsecNotificationAttackCandidateBasedWebhookPayload {
   * **{Timestamp}**: When the attack happened.  
   * **{VulnerabilityName}**: Name of the associated code-level vulnerability, for example: "InMemoryDatabaseCaller.getAccountInfo():51". Can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#payload AppsecNotification#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#payload AppsecNotification#payload}
   */
   readonly payload: string;
 }
@@ -478,19 +478,19 @@ export interface AppsecNotificationEmailConfiguration {
   /**
   * BCC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#bcc_recipients AppsecNotification#bcc_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#bcc_recipients AppsecNotification#bcc_recipients}
   */
   readonly bccRecipients?: string[];
   /**
   * CC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#cc_recipients AppsecNotification#cc_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#cc_recipients AppsecNotification#cc_recipients}
   */
   readonly ccRecipients?: string[];
   /**
   * To
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#recipients AppsecNotification#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#recipients AppsecNotification#recipients}
   */
   readonly recipients: string[];
 }
@@ -631,7 +631,7 @@ export interface AppsecNotificationJiraConfiguration {
   /**
   * The API token for the Jira profile. Using password authentication [was deprecated by Jira](https://developer.atlassian.com/cloud/jira/platform/deprecation-notice-basic-auth-and-cookie-based-auth/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#api_token AppsecNotification#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#api_token AppsecNotification#api_token}
   */
   readonly apiToken: string;
   /**
@@ -639,25 +639,25 @@ export interface AppsecNotificationJiraConfiguration {
   * 
   * To find all available issue types or create your own, in Jira, go to Project settings > Issue types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#issue_type AppsecNotification#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#issue_type AppsecNotification#issue_type}
   */
   readonly issueType: string;
   /**
   * The project key of the Jira issue to be created by this notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#project_key AppsecNotification#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#project_key AppsecNotification#project_key}
   */
   readonly projectKey: string;
   /**
   * The URL of the Jira API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#url AppsecNotification#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#url AppsecNotification#url}
   */
   readonly url: string;
   /**
   * The username of the Jira profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#username AppsecNotification#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#username AppsecNotification#username}
   */
   readonly username: string;
 }
@@ -860,7 +860,7 @@ export interface AppsecNotificationSecurityProblemBasedEmailPayload {
   * **{DataAssetsReachable}**: Describes whether one or more affected process can reach data assets. Can be "true" or "false".  
   * **{ExploitAvailable}**: Describes whether there's an exploit available for the vulnerability. Can be "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#body AppsecNotification#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#body AppsecNotification#body}
   */
   readonly body: string;
   /**
@@ -875,7 +875,7 @@ export interface AppsecNotificationSecurityProblemBasedEmailPayload {
   * **{DataAssetsReachable}**: Describes whether one or more affected process can reach data assets. Can be "true" or "false".  
   * **{ExploitAvailable}**: Describes whether there's an exploit available for the vulnerability. Can be "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#subject AppsecNotification#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#subject AppsecNotification#subject}
   */
   readonly subject: string;
 }
@@ -1000,7 +1000,7 @@ export interface AppsecNotificationSecurityProblemBasedJiraPayload {
   * **{DataAssetsReachable}**: Describes whether one or more affected process can reach data assets. Can be "true" or "false".  
   * **{ExploitAvailable}**: Describes whether there's an exploit available for the vulnerability. Can be "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#description AppsecNotification#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#description AppsecNotification#description}
   */
   readonly description: string;
   /**
@@ -1017,7 +1017,7 @@ export interface AppsecNotificationSecurityProblemBasedJiraPayload {
   * **{DataAssetsReachable}**: Describes whether one or more affected process can reach data assets. Can be "true" or "false".  
   * **{ExploitAvailable}**: Describes whether there's an exploit available for the vulnerability. Can be "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#summary AppsecNotification#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#summary AppsecNotification#summary}
   */
   readonly summary: string;
 }
@@ -1142,7 +1142,7 @@ export interface AppsecNotificationSecurityProblemBasedWebhookPayload {
   * **{DataAssetsReachable}**: Describes whether one or more affected process can reach data assets. Can be "true" or "false".  
   * **{ExploitAvailable}**: Describes whether there's an exploit available for the vulnerability. Can be "true" or "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#payload AppsecNotification#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#payload AppsecNotification#payload}
   */
   readonly payload: string;
 }
@@ -1225,25 +1225,25 @@ export interface AppsecNotificationWebhookConfigurationHeadersHeader {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#name AppsecNotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#name AppsecNotification#name}
   */
   readonly name: string;
   /**
   * Secret HTTP header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#secret AppsecNotification#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#secret AppsecNotification#secret}
   */
   readonly secret: boolean | cdktf.IResolvable;
   /**
   * The secret value of the HTTP header. May contain an empty value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#secret_value AppsecNotification#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#secret_value AppsecNotification#secret_value}
   */
   readonly secretValue?: string;
   /**
   * The value of the HTTP header. May contain an empty value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#value AppsecNotification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#value AppsecNotification#value}
   */
   readonly value?: string;
 }
@@ -1442,7 +1442,7 @@ export interface AppsecNotificationWebhookConfigurationHeaders {
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#header AppsecNotification#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#header AppsecNotification#header}
   */
   readonly header: AppsecNotificationWebhookConfigurationHeadersHeader[] | cdktf.IResolvable;
 }
@@ -1525,19 +1525,19 @@ export interface AppsecNotificationWebhookConfiguration {
   /**
   * Accept any SSL certificate (including self-signed and invalid certificates)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#accept_any_certificate AppsecNotification#accept_any_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#accept_any_certificate AppsecNotification#accept_any_certificate}
   */
   readonly acceptAnyCertificate: boolean | cdktf.IResolvable;
   /**
   * Webhook endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#url AppsecNotification#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#url AppsecNotification#url}
   */
   readonly url: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#headers AppsecNotification#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#headers AppsecNotification#headers}
   */
   readonly headers?: AppsecNotificationWebhookConfigurationHeaders;
 }
@@ -1673,7 +1673,7 @@ export class AppsecNotificationWebhookConfigurationOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification dynatrace_appsec_notification}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification dynatrace_appsec_notification}
 */
 export class AppsecNotification extends cdktf.TerraformResource {
 
@@ -1689,7 +1689,7 @@ export class AppsecNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppsecNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsecNotification to import
-  * @param importFromId The id of the existing AppsecNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsecNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsecNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1701,7 +1701,7 @@ export class AppsecNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/appsec_notification dynatrace_appsec_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/appsec_notification dynatrace_appsec_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1712,8 +1712,8 @@ export class AppsecNotification extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_appsec_notification',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DduPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#id DduPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#id DduPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DduPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#events DduPool#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#events DduPool#events}
   */
   readonly events?: DduPoolEvents;
   /**
   * log_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#log_monitoring DduPool#log_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#log_monitoring DduPool#log_monitoring}
   */
   readonly logMonitoring?: DduPoolLogMonitoring;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#metrics DduPool#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#metrics DduPool#metrics}
   */
   readonly metrics?: DduPoolMetrics;
   /**
   * serverless block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#serverless DduPool#serverless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#serverless DduPool#serverless}
   */
   readonly serverless?: DduPoolServerless;
   /**
   * traces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#traces DduPool#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#traces DduPool#traces}
   */
   readonly traces?: DduPoolTraces;
 }
@@ -49,19 +49,19 @@ export interface DduPoolEvents {
   /**
   * Is the limit configuration enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#enabled DduPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#enabled DduPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Type of the limit applied: MONTHLY or ANNUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#type DduPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#type DduPool#type}
   */
   readonly type?: string;
   /**
   * Value of the DDU limit applied for provided timerange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#value DduPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#value DduPool#value}
   */
   readonly value?: number;
 }
@@ -202,19 +202,19 @@ export interface DduPoolLogMonitoring {
   /**
   * Is the limit configuration enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#enabled DduPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#enabled DduPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Type of the limit applied: MONTHLY or ANNUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#type DduPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#type DduPool#type}
   */
   readonly type?: string;
   /**
   * Value of the DDU limit applied for provided timerange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#value DduPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#value DduPool#value}
   */
   readonly value?: number;
 }
@@ -355,19 +355,19 @@ export interface DduPoolMetrics {
   /**
   * Is the limit configuration enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#enabled DduPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#enabled DduPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Type of the limit applied: MONTHLY or ANNUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#type DduPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#type DduPool#type}
   */
   readonly type?: string;
   /**
   * Value of the DDU limit applied for provided timerange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#value DduPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#value DduPool#value}
   */
   readonly value?: number;
 }
@@ -508,19 +508,19 @@ export interface DduPoolServerless {
   /**
   * Is the limit configuration enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#enabled DduPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#enabled DduPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Type of the limit applied: MONTHLY or ANNUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#type DduPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#type DduPool#type}
   */
   readonly type?: string;
   /**
   * Value of the DDU limit applied for provided timerange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#value DduPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#value DduPool#value}
   */
   readonly value?: number;
 }
@@ -661,19 +661,19 @@ export interface DduPoolTraces {
   /**
   * Is the limit configuration enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#enabled DduPool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#enabled DduPool#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Type of the limit applied: MONTHLY or ANNUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#type DduPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#type DduPool#type}
   */
   readonly type?: string;
   /**
   * Value of the DDU limit applied for provided timerange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#value DduPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#value DduPool#value}
   */
   readonly value?: number;
 }
@@ -812,7 +812,7 @@ export class DduPoolTracesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool dynatrace_ddu_pool}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool dynatrace_ddu_pool}
 */
 export class DduPool extends cdktf.TerraformResource {
 
@@ -828,7 +828,7 @@ export class DduPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DduPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DduPool to import
-  * @param importFromId The id of the existing DduPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DduPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DduPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -840,7 +840,7 @@ export class DduPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/ddu_pool dynatrace_ddu_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ddu_pool dynatrace_ddu_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -851,8 +851,8 @@ export class DduPool extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ddu_pool',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

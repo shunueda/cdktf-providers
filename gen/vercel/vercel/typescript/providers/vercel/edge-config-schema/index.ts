@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema
+// https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface EdgeConfigSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A JSON schema that will be used to validate data in the Edge Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema#definition EdgeConfigSchema#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema#definition EdgeConfigSchema#definition}
   */
   readonly definition: string;
   /**
   * The ID of the Edge Config that the schema should apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema#id EdgeConfigSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema#id EdgeConfigSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface EdgeConfigSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the team the Edge Config should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema#team_id EdgeConfigSchema#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema#team_id EdgeConfigSchema#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema vercel_edge_config_schema}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema vercel_edge_config_schema}
 */
 export class EdgeConfigSchema extends cdktf.TerraformResource {
 
@@ -47,7 +47,7 @@ export class EdgeConfigSchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeConfigSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeConfigSchema to import
-  * @param importFromId The id of the existing EdgeConfigSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeConfigSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeConfigSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class EdgeConfigSchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.0/docs/resources/edge_config_schema vercel_edge_config_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.0.1/docs/resources/edge_config_schema vercel_edge_config_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class EdgeConfigSchema extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_edge_config_schema',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0',
-        providerVersionConstraint: '4.0.0'
+        providerVersion: '4.0.1',
+        providerVersionConstraint: '4.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

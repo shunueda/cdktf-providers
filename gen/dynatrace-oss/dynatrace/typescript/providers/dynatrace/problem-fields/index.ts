@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProblemFieldsConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields#enabled ProblemFields#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields#enabled ProblemFields#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Field from the event that will be extracted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields#event_field ProblemFields#event_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields#event_field ProblemFields#event_field}
   */
   readonly eventField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields#id ProblemFields#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields#id ProblemFields#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ProblemFieldsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Field under which the extracted event data will be stored on the problem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields#problem_field ProblemFields#problem_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields#problem_field ProblemFields#problem_field}
   */
   readonly problemField: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields dynatrace_problem_fields}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields dynatrace_problem_fields}
 */
 export class ProblemFields extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ProblemFields extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProblemFields resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProblemFields to import
-  * @param importFromId The id of the existing ProblemFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProblemFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProblemFields to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ProblemFields extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/problem_fields dynatrace_problem_fields} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/problem_fields dynatrace_problem_fields} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ProblemFields extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_problem_fields',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

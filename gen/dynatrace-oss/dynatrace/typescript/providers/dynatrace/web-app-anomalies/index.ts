@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#id WebAppAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#id WebAppAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface WebAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (APPLICATION_METHOD, APPLICATION). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#scope WebAppAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#scope WebAppAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * error_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate WebAppAnomalies#error_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate WebAppAnomalies#error_rate}
   */
   readonly errorRate: WebAppAnomaliesErrorRate;
   /**
   * response_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time WebAppAnomalies#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time WebAppAnomalies#response_time}
   */
   readonly responseTime: WebAppAnomaliesResponseTime;
   /**
   * traffic_drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_drops WebAppAnomalies#traffic_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_drops WebAppAnomalies#traffic_drops}
   */
   readonly trafficDrops: WebAppAnomaliesTrafficDrops;
   /**
   * traffic_spikes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_spikes WebAppAnomalies#traffic_spikes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_spikes WebAppAnomalies#traffic_spikes}
   */
   readonly trafficSpikes: WebAppAnomaliesTrafficSpikes;
 }
@@ -49,13 +49,13 @@ export interface WebAppAnomaliesErrorRateErrorRateAutoOverAlertingProtection {
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
   */
   readonly actionsPerMinute: number;
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
 }
@@ -164,19 +164,19 @@ export interface WebAppAnomaliesErrorRateErrorRateAuto {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#absolute_increase WebAppAnomalies#absolute_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#absolute_increase WebAppAnomalies#absolute_increase}
   */
   readonly absoluteIncrease: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#relative_increase WebAppAnomalies#relative_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#relative_increase WebAppAnomalies#relative_increase}
   */
   readonly relativeIncrease: number;
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
   */
   readonly overAlertingProtection: WebAppAnomaliesErrorRateErrorRateAutoOverAlertingProtection;
 }
@@ -311,25 +311,25 @@ export interface WebAppAnomaliesErrorRateErrorRateFixed {
   /**
   * To avoid over-alerting for low traffic applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate_req_per_min WebAppAnomalies#error_rate_req_per_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate_req_per_min WebAppAnomalies#error_rate_req_per_min}
   */
   readonly errorRateReqPerMin: number;
   /**
   * Possible Values: `Low`, `Medium`, `High`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate_sensitivity WebAppAnomalies#error_rate_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate_sensitivity WebAppAnomalies#error_rate_sensitivity}
   */
   readonly errorRateSensitivity: string;
   /**
   * Alert if this custom error rate threshold is exceeded during any 5-minute-period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#max_failure_rate_increase WebAppAnomalies#max_failure_rate_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#max_failure_rate_increase WebAppAnomalies#max_failure_rate_increase}
   */
   readonly maxFailureRateIncrease: number;
   /**
   * Amount of minutes the observed traffic has to stay in abnormal state before alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
 }
@@ -490,25 +490,25 @@ export interface WebAppAnomaliesErrorRate {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate_detection_mode WebAppAnomalies#error_rate_detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate_detection_mode WebAppAnomalies#error_rate_detection_mode}
   */
   readonly errorRateDetectionMode?: string;
   /**
   * error_rate_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate_auto WebAppAnomalies#error_rate_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate_auto WebAppAnomalies#error_rate_auto}
   */
   readonly errorRateAuto?: WebAppAnomaliesErrorRateErrorRateAuto;
   /**
   * error_rate_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#error_rate_fixed WebAppAnomalies#error_rate_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#error_rate_fixed WebAppAnomalies#error_rate_fixed}
   */
   readonly errorRateFixed?: WebAppAnomaliesErrorRateErrorRateFixed;
 }
@@ -678,13 +678,13 @@ export interface WebAppAnomaliesResponseTimeResponseTimeAutoOverAlertingProtecti
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
   */
   readonly actionsPerMinute: number;
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
 }
@@ -793,13 +793,13 @@ export interface WebAppAnomaliesResponseTimeResponseTimeAutoResponseTimeAll {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#degradation_milliseconds WebAppAnomalies#degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#degradation_milliseconds WebAppAnomalies#degradation_milliseconds}
   */
   readonly degradationMilliseconds: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#degradation_percent WebAppAnomalies#degradation_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#degradation_percent WebAppAnomalies#degradation_percent}
   */
   readonly degradationPercent: number;
 }
@@ -908,13 +908,13 @@ export interface WebAppAnomaliesResponseTimeResponseTimeAutoResponseTimeSlowest 
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#slowest_degradation_milliseconds WebAppAnomalies#slowest_degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#slowest_degradation_milliseconds WebAppAnomalies#slowest_degradation_milliseconds}
   */
   readonly slowestDegradationMilliseconds: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#slowest_degradation_percent WebAppAnomalies#slowest_degradation_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#slowest_degradation_percent WebAppAnomalies#slowest_degradation_percent}
   */
   readonly slowestDegradationPercent: number;
 }
@@ -1023,19 +1023,19 @@ export interface WebAppAnomaliesResponseTimeResponseTimeAuto {
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
   */
   readonly overAlertingProtection: WebAppAnomaliesResponseTimeResponseTimeAutoOverAlertingProtection;
   /**
   * response_time_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_all WebAppAnomalies#response_time_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_all WebAppAnomalies#response_time_all}
   */
   readonly responseTimeAll: WebAppAnomaliesResponseTimeResponseTimeAutoResponseTimeAll;
   /**
   * response_time_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_slowest WebAppAnomalies#response_time_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_slowest WebAppAnomalies#response_time_slowest}
   */
   readonly responseTimeSlowest: WebAppAnomaliesResponseTimeResponseTimeAutoResponseTimeSlowest;
 }
@@ -1170,13 +1170,13 @@ export interface WebAppAnomaliesResponseTimeResponseTimeFixedOverAlertingProtect
   /**
   * Only alert if there are at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#actions_per_minute WebAppAnomalies#actions_per_minute}
   */
   readonly actionsPerMinute: number;
   /**
   * Only alert if the abnormal state remains for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
 }
@@ -1285,7 +1285,7 @@ export interface WebAppAnomaliesResponseTimeResponseTimeFixedResponseTimeAll {
   /**
   * Alert if the key performance metric degrades beyond this many ms within an observation period of 5 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#degradation_milliseconds WebAppAnomalies#degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#degradation_milliseconds WebAppAnomalies#degradation_milliseconds}
   */
   readonly degradationMilliseconds: number;
 }
@@ -1368,7 +1368,7 @@ export interface WebAppAnomaliesResponseTimeResponseTimeFixedResponseTimeSlowest
   /**
   * Alert if the key performance metric of the slowest 10% degrades beyond this many ms within an observation period of 5 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#slowest_degradation_milliseconds WebAppAnomalies#slowest_degradation_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#slowest_degradation_milliseconds WebAppAnomalies#slowest_degradation_milliseconds}
   */
   readonly slowestDegradationMilliseconds: number;
 }
@@ -1451,25 +1451,25 @@ export interface WebAppAnomaliesResponseTimeResponseTimeFixed {
   /**
   * Possible Values: `Medium`, `High`, `Low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#sensitivity WebAppAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#sensitivity WebAppAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * over_alerting_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#over_alerting_protection WebAppAnomalies#over_alerting_protection}
   */
   readonly overAlertingProtection: WebAppAnomaliesResponseTimeResponseTimeFixedOverAlertingProtection;
   /**
   * response_time_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_all WebAppAnomalies#response_time_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_all WebAppAnomalies#response_time_all}
   */
   readonly responseTimeAll: WebAppAnomaliesResponseTimeResponseTimeFixedResponseTimeAll;
   /**
   * response_time_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_slowest WebAppAnomalies#response_time_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_slowest WebAppAnomalies#response_time_slowest}
   */
   readonly responseTimeSlowest: WebAppAnomaliesResponseTimeResponseTimeFixedResponseTimeSlowest;
 }
@@ -1630,25 +1630,25 @@ export interface WebAppAnomaliesResponseTime {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#detection_mode WebAppAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#detection_mode WebAppAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * response_time_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_auto WebAppAnomalies#response_time_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_auto WebAppAnomalies#response_time_auto}
   */
   readonly responseTimeAuto?: WebAppAnomaliesResponseTimeResponseTimeAuto;
   /**
   * response_time_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#response_time_fixed WebAppAnomalies#response_time_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#response_time_fixed WebAppAnomalies#response_time_fixed}
   */
   readonly responseTimeFixed?: WebAppAnomaliesResponseTimeResponseTimeFixed;
 }
@@ -1818,13 +1818,13 @@ export interface WebAppAnomaliesTrafficDropsTrafficDrops {
   /**
   * Minutes the observed traffic has to stay in abnormal state before alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#abnormal_state_abnormal_state WebAppAnomalies#abnormal_state_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#abnormal_state_abnormal_state WebAppAnomalies#abnormal_state_abnormal_state}
   */
   readonly abnormalStateAbnormalState: number;
   /**
   * Alert if the observed traffic is less than this percentage of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_drop_percentage WebAppAnomalies#traffic_drop_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_drop_percentage WebAppAnomalies#traffic_drop_percentage}
   */
   readonly trafficDropPercentage: number;
 }
@@ -1933,13 +1933,13 @@ export interface WebAppAnomaliesTrafficDrops {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * traffic_drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_drops WebAppAnomalies#traffic_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_drops WebAppAnomalies#traffic_drops}
   */
   readonly trafficDrops?: WebAppAnomaliesTrafficDropsTrafficDrops;
 }
@@ -2051,13 +2051,13 @@ export interface WebAppAnomaliesTrafficSpikesTrafficSpikes {
   /**
   * Minutes an application has to stay in abnormal state before alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#minutes_abnormal_state WebAppAnomalies#minutes_abnormal_state}
   */
   readonly minutesAbnormalState: number;
   /**
   * Alert if the observed traffic is more than this percentage of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_spike_percentage WebAppAnomalies#traffic_spike_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_spike_percentage WebAppAnomalies#traffic_spike_percentage}
   */
   readonly trafficSpikePercentage: number;
 }
@@ -2166,13 +2166,13 @@ export interface WebAppAnomaliesTrafficSpikes {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#enabled WebAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * traffic_spikes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#traffic_spikes WebAppAnomalies#traffic_spikes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#traffic_spikes WebAppAnomalies#traffic_spikes}
   */
   readonly trafficSpikes?: WebAppAnomaliesTrafficSpikesTrafficSpikes;
 }
@@ -2282,7 +2282,7 @@ export class WebAppAnomaliesTrafficSpikesOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies dynatrace_web_app_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies dynatrace_web_app_anomalies}
 */
 export class WebAppAnomalies extends cdktf.TerraformResource {
 
@@ -2298,7 +2298,7 @@ export class WebAppAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppAnomalies to import
-  * @param importFromId The id of the existing WebAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2310,7 +2310,7 @@ export class WebAppAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/web_app_anomalies dynatrace_web_app_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_anomalies dynatrace_web_app_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2321,8 +2321,8 @@ export class WebAppAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

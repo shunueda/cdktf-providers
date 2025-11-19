@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GrailSecurityContextConfig extends cdktf.TerraformMetaArguments
   /**
   * The case-sensitive name of a property of the destination type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context#destination_property GrailSecurityContext#destination_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context#destination_property GrailSecurityContext#destination_property}
   */
   readonly destinationProperty: string;
   /**
   * Type of the entity whose security context to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context#entity_type GrailSecurityContext#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context#entity_type GrailSecurityContext#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context#id GrailSecurityContext#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context#id GrailSecurityContext#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface GrailSecurityContextConfig extends cdktf.TerraformMetaArguments
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context#insert_after GrailSecurityContext#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context#insert_after GrailSecurityContext#insert_after}
   */
   readonly insertAfter?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context dynatrace_grail_security_context}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context dynatrace_grail_security_context}
 */
 export class GrailSecurityContext extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class GrailSecurityContext extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GrailSecurityContext resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrailSecurityContext to import
-  * @param importFromId The id of the existing GrailSecurityContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrailSecurityContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrailSecurityContext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class GrailSecurityContext extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/grail_security_context dynatrace_grail_security_context} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_security_context dynatrace_grail_security_context} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class GrailSecurityContext extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_grail_security_context',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

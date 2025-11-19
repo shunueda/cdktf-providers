@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#id ServiceAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#id ServiceAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ServiceAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * failure_rates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#failure_rates ServiceAnomalies#failure_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#failure_rates ServiceAnomalies#failure_rates}
   */
   readonly failureRates?: ServiceAnomaliesFailureRates;
   /**
   * load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#load ServiceAnomalies#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#load ServiceAnomalies#load}
   */
   readonly load?: ServiceAnomaliesLoad;
   /**
   * load_drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#load_drops ServiceAnomalies#load_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#load_drops ServiceAnomalies#load_drops}
   */
   readonly loadDrops?: ServiceAnomaliesLoadDropsA;
   /**
   * response_times block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#response_times ServiceAnomalies#response_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#response_times ServiceAnomalies#response_times}
   */
   readonly responseTimes?: ServiceAnomaliesResponseTimes;
 }
@@ -43,19 +43,19 @@ export interface ServiceAnomaliesFailureRatesAuto {
   /**
   * Absolute increase of failing service calls to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#absolute ServiceAnomalies#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#absolute ServiceAnomalies#absolute}
   */
   readonly absolute: number;
   /**
   * Relative increase of failing service calls to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#relative ServiceAnomalies#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#relative ServiceAnomalies#relative}
   */
   readonly relative: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -193,19 +193,19 @@ export interface ServiceAnomaliesFailureRatesThresholds {
   /**
   * Sensitivity of the threshold.  With `low` sensitivity, high statistical confidence is used. Brief violations (for example, due to a surge in load) won't trigger alerts.  With `high` sensitivity, no statistical confidence is used. Each violation triggers alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#sensitivity ServiceAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#sensitivity ServiceAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Failure rate during any 5-minute period to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#threshold ServiceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#threshold ServiceAnomalies#threshold}
   */
   readonly threshold: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -343,13 +343,13 @@ export interface ServiceAnomaliesFailureRates {
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#auto ServiceAnomalies#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#auto ServiceAnomalies#auto}
   */
   readonly auto?: ServiceAnomaliesFailureRatesAuto;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#thresholds ServiceAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#thresholds ServiceAnomalies#thresholds}
   */
   readonly thresholds?: ServiceAnomaliesFailureRatesThresholds;
 }
@@ -464,13 +464,13 @@ export interface ServiceAnomaliesLoadDrops {
   /**
   * Alert if the service stays in abnormal state for at least *X* minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
   */
   readonly minutes?: number;
   /**
   * Alert if the observed load is more than *X* % of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
   */
   readonly percent?: number;
 }
@@ -585,19 +585,19 @@ export interface ServiceAnomaliesLoadSpikes {
   /**
   * Alert if the service stays in abnormal state for at least *X* minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
   */
   readonly minutes?: number;
   /**
   * Alert if the observed load is more than *X* % of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
   */
   readonly percent?: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -741,13 +741,13 @@ export interface ServiceAnomaliesLoad {
   /**
   * drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#drops ServiceAnomalies#drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#drops ServiceAnomalies#drops}
   */
   readonly drops?: ServiceAnomaliesLoadDrops;
   /**
   * spikes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#spikes ServiceAnomalies#spikes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#spikes ServiceAnomalies#spikes}
   */
   readonly spikes?: ServiceAnomaliesLoadSpikes;
 }
@@ -862,13 +862,13 @@ export interface ServiceAnomaliesLoadDropsA {
   /**
   * Alert if the service stays in abnormal state for at least *X* minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#minutes ServiceAnomalies#minutes}
   */
   readonly minutes?: number;
   /**
   * Alert if the observed load is more than *X* % of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
   */
   readonly percent?: number;
 }
@@ -983,37 +983,37 @@ export interface ServiceAnomaliesResponseTimesAuto {
   /**
   * Minimal service load to detect response time degradation. Response time degradation of services with smaller load won't trigger alerts. Possible values are `FIFTEEN_REQUESTS_PER_MINUTE`, `FIVE_REQUESTS_PER_MINUTE`, `ONE_REQUEST_PER_MINUTE` and `TEN_REQUESTS_PER_MINUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#load ServiceAnomalies#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#load ServiceAnomalies#load}
   */
   readonly load: string;
   /**
   * Alert if the response time degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#milliseconds ServiceAnomalies#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#milliseconds ServiceAnomalies#milliseconds}
   */
   readonly milliseconds: number;
   /**
   * Alert if the response time degrades by more than *X* %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#percent ServiceAnomalies#percent}
   */
   readonly percent: number;
   /**
   * Alert if the response time of the slowest 10% degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#slowest_milliseconds ServiceAnomalies#slowest_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#slowest_milliseconds ServiceAnomalies#slowest_milliseconds}
   */
   readonly slowestMilliseconds: number;
   /**
   * Alert if the response time of the slowest 10% degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#slowest_percent ServiceAnomalies#slowest_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#slowest_percent ServiceAnomalies#slowest_percent}
   */
   readonly slowestPercent: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1229,31 +1229,31 @@ export interface ServiceAnomaliesResponseTimesThresholds {
   /**
   * Minimal service load to detect response time degradation. Response time degradation of services with smaller load won't trigger alerts. Possible values are `FIFTEEN_REQUESTS_PER_MINUTE`, `FIVE_REQUESTS_PER_MINUTE`, `ONE_REQUEST_PER_MINUTE` and `TEN_REQUESTS_PER_MINUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#load ServiceAnomalies#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#load ServiceAnomalies#load}
   */
   readonly load: string;
   /**
   * Response time during any 5-minute period to trigger an alert, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#milliseconds ServiceAnomalies#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#milliseconds ServiceAnomalies#milliseconds}
   */
   readonly milliseconds: number;
   /**
   * Sensitivity of the threshold.  With `low` sensitivity, high statistical confidence is used. Brief violations (for example, due to a surge in load) won't trigger alerts.  With `high` sensitivity, no statistical confidence is used. Each violation triggers an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#sensitivity ServiceAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#sensitivity ServiceAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Response time of the 10% slowest during any 5-minute period to trigger an alert, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#slowest_milliseconds ServiceAnomalies#slowest_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#slowest_milliseconds ServiceAnomalies#slowest_milliseconds}
   */
   readonly slowestMilliseconds: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#unknowns ServiceAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1443,13 +1443,13 @@ export interface ServiceAnomaliesResponseTimes {
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#auto ServiceAnomalies#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#auto ServiceAnomalies#auto}
   */
   readonly auto?: ServiceAnomaliesResponseTimesAuto;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#thresholds ServiceAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#thresholds ServiceAnomalies#thresholds}
   */
   readonly thresholds?: ServiceAnomaliesResponseTimesThresholds;
 }
@@ -1562,7 +1562,7 @@ export class ServiceAnomaliesResponseTimesOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies dynatrace_service_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies dynatrace_service_anomalies}
 */
 export class ServiceAnomalies extends cdktf.TerraformResource {
 
@@ -1578,7 +1578,7 @@ export class ServiceAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAnomalies to import
-  * @param importFromId The id of the existing ServiceAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1590,7 +1590,7 @@ export class ServiceAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/service_anomalies dynatrace_service_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_anomalies dynatrace_service_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1601,8 +1601,8 @@ export class ServiceAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

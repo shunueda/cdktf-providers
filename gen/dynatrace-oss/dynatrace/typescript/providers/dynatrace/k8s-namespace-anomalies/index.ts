@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface K8SNamespaceAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#id K8SNamespaceAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#id K8SNamespaceAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface K8SNamespaceAnomaliesConfig extends cdktf.TerraformMetaArgument
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#scope K8SNamespaceAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#scope K8SNamespaceAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * cpu_limits_quota_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#cpu_limits_quota_saturation K8SNamespaceAnomalies#cpu_limits_quota_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#cpu_limits_quota_saturation K8SNamespaceAnomalies#cpu_limits_quota_saturation}
   */
   readonly cpuLimitsQuotaSaturation: K8SNamespaceAnomaliesCpuLimitsQuotaSaturation;
   /**
   * cpu_requests_quota_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#cpu_requests_quota_saturation K8SNamespaceAnomalies#cpu_requests_quota_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#cpu_requests_quota_saturation K8SNamespaceAnomalies#cpu_requests_quota_saturation}
   */
   readonly cpuRequestsQuotaSaturation: K8SNamespaceAnomaliesCpuRequestsQuotaSaturation;
   /**
   * memory_limits_quota_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#memory_limits_quota_saturation K8SNamespaceAnomalies#memory_limits_quota_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#memory_limits_quota_saturation K8SNamespaceAnomalies#memory_limits_quota_saturation}
   */
   readonly memoryLimitsQuotaSaturation: K8SNamespaceAnomaliesMemoryLimitsQuotaSaturation;
   /**
   * memory_requests_quota_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#memory_requests_quota_saturation K8SNamespaceAnomalies#memory_requests_quota_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#memory_requests_quota_saturation K8SNamespaceAnomalies#memory_requests_quota_saturation}
   */
   readonly memoryRequestsQuotaSaturation: K8SNamespaceAnomaliesMemoryRequestsQuotaSaturation;
   /**
   * pods_quota_saturation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#pods_quota_saturation K8SNamespaceAnomalies#pods_quota_saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#pods_quota_saturation K8SNamespaceAnomalies#pods_quota_saturation}
   */
   readonly podsQuotaSaturation: K8SNamespaceAnomaliesPodsQuotaSaturation;
 }
@@ -55,19 +55,19 @@ export interface K8SNamespaceAnomaliesCpuLimitsQuotaSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of quota for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of utilized namespace CPU is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -202,13 +202,13 @@ export interface K8SNamespaceAnomaliesCpuLimitsQuotaSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
   */
   readonly configuration?: K8SNamespaceAnomaliesCpuLimitsQuotaSaturationConfiguration;
 }
@@ -320,19 +320,19 @@ export interface K8SNamespaceAnomaliesCpuRequestsQuotaSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of quota for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of requested namespace CPU is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -467,13 +467,13 @@ export interface K8SNamespaceAnomaliesCpuRequestsQuotaSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
   */
   readonly configuration?: K8SNamespaceAnomaliesCpuRequestsQuotaSaturationConfiguration;
 }
@@ -585,19 +585,19 @@ export interface K8SNamespaceAnomaliesMemoryLimitsQuotaSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of quota for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of utilized namespace memory is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -732,13 +732,13 @@ export interface K8SNamespaceAnomaliesMemoryLimitsQuotaSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
   */
   readonly configuration?: K8SNamespaceAnomaliesMemoryLimitsQuotaSaturationConfiguration;
 }
@@ -850,19 +850,19 @@ export interface K8SNamespaceAnomaliesMemoryRequestsQuotaSaturationConfiguration
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of quota for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * amount of requested namespace memory is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -997,13 +997,13 @@ export interface K8SNamespaceAnomaliesMemoryRequestsQuotaSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
   */
   readonly configuration?: K8SNamespaceAnomaliesMemoryRequestsQuotaSaturationConfiguration;
 }
@@ -1115,19 +1115,19 @@ export interface K8SNamespaceAnomaliesPodsQuotaSaturationConfiguration {
   /**
   * within the last
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#observation_period_in_minutes K8SNamespaceAnomalies#observation_period_in_minutes}
   */
   readonly observationPeriodInMinutes: number;
   /**
   * of quota for at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#sample_period_in_minutes K8SNamespaceAnomalies#sample_period_in_minutes}
   */
   readonly samplePeriodInMinutes: number;
   /**
   * number of utilized namespace pods is above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#threshold K8SNamespaceAnomalies#threshold}
   */
   readonly threshold: number;
 }
@@ -1262,13 +1262,13 @@ export interface K8SNamespaceAnomaliesPodsQuotaSaturation {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#enabled K8SNamespaceAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#configuration K8SNamespaceAnomalies#configuration}
   */
   readonly configuration?: K8SNamespaceAnomaliesPodsQuotaSaturationConfiguration;
 }
@@ -1378,7 +1378,7 @@ export class K8SNamespaceAnomaliesPodsQuotaSaturationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies dynatrace_k8s_namespace_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies dynatrace_k8s_namespace_anomalies}
 */
 export class K8SNamespaceAnomalies extends cdktf.TerraformResource {
 
@@ -1394,7 +1394,7 @@ export class K8SNamespaceAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SNamespaceAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SNamespaceAnomalies to import
-  * @param importFromId The id of the existing K8SNamespaceAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SNamespaceAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SNamespaceAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1406,7 +1406,7 @@ export class K8SNamespaceAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.87.1/docs/resources/k8s_namespace_anomalies dynatrace_k8s_namespace_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/k8s_namespace_anomalies dynatrace_k8s_namespace_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1417,8 +1417,8 @@ export class K8SNamespaceAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_k8s_namespace_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1',
-        providerVersionConstraint: '1.87.1'
+        providerVersion: '1.88.0',
+        providerVersionConstraint: '1.88.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
